@@ -7,24 +7,29 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Appendix V: Thai Fonts"
+      "text": "Appendix V: Thai Fonts",
+      "textRu": "Приложение V: Тайские шрифты"
     },
     {
       "type": "paragraph",
-      "html": "Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+      "html": "Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)",
+      "htmlRu": "Вот несколько примеров различных стилей тайских шрифтов, часто используемых в печати и рекламе, включая рукописные шрифты. Попытка определить, какой символ перед вами, может быть весьма непростой, поскольку многие шрифты лишь отдалённо напоминают оригинальные начертания. Хитрость в том, чтобы обращать внимание на уникальные особенности каждого символа (например, у ข закрученная головка, у ช закрученная головка и дёрганый хвостик и т. д.)"
     },
     {
       "type": "callout",
       "variant": "tip",
-      "html": "The font samples in the printed book show the full Thai alphabet rendered in several common Thai typefaces — including serif, sans-serif, rounded, looped, loopless, and handwriting-based styles. Since these are visual examples that cannot be reproduced in plain text, refer to the printed edition for the full font gallery."
+      "html": "The font samples in the printed book show the full Thai alphabet rendered in several common Thai typefaces — including serif, sans-serif, rounded, looped, loopless, and handwriting-based styles. Since these are visual examples that cannot be reproduced in plain text, refer to the printed edition for the full font gallery.",
+      "htmlRu": "Образцы шрифтов в печатной книге показывают полный тайский алфавит, набранный несколькими распространёнными тайскими гарнитурами — в том числе с засечками, без засечек, скруглёнными, с петлями, без петель и рукописными. Поскольку это визуальные примеры, которые невозможно воспроизвести в виде текста, обратитесь к печатному изданию за полной галереей шрифтов."
     },
     {
       "type": "paragraph",
-      "html": "Below are some easily confused characters across different fonts. Pay attention to their distinguishing features:"
+      "html": "Below are some easily confused characters across different fonts. Pay attention to their distinguishing features:",
+      "htmlRu": "Ниже приведены символы, которые легко спутать в различных шрифтах. Обращайте внимание на их отличительные признаки:"
     },
     {
       "type": "thaiTable",
       "columns": ["Characters", "How to tell them apart"],
+      "columnsRu": ["Символы", "Как их различить"],
       "rows": [
         { "thai": "ก ถ ภ ฤ", "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer." },
         { "thai": "ด ต ค ศ", "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls." },
@@ -42,7 +47,8 @@
     },
     {
       "type": "paragraph",
-      "html": "One more thing: some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. Practise reading different font styles whenever you encounter them — signage, menus, advertisements, and social media posts are all great places to start!"
+      "html": "One more thing: some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. Practise reading different font styles whenever you encounter them — signage, menus, advertisements, and social media posts are all great places to start!",
+      "htmlRu": "И ещё одно: некоторые шрифты сильно стилизованы в декоративных целях и могут вызвать затруднения у тех, кто с ними не знаком. Тренируйтесь читать различные стили шрифтов при каждой возможности — вывески, меню, реклама и посты в социальных сетях отлично для этого подходят!"
     }
   ],
   "footnotes": {},

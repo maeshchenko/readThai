@@ -7,20 +7,24 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Appendix I: Thai Character Summary"
+      "text": "Appendix I: Thai Character Summary",
+      "textRu": "Приложение I: Сводка тайских символов"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Consonants"
+      "text": "Consonants",
+      "textRu": "Согласные"
     },
     {
       "type": "paragraph",
-      "html": "The following table shows all the consonants which are grouped by sounds, both at initial and final position (underlined consonants are HC consonants):"
+      "html": "The following table shows all the consonants which are grouped by sounds, both at initial and final position (underlined consonants are HC consonants):",
+      "htmlRu": "В следующей таблице представлены все согласные, сгруппированные по звукам — как в начальной, так и в конечной позиции (подчёркнутые согласные относятся к высокому классу):"
     },
     {
       "type": "thaiTable",
       "columns": ["Initial consonant(s)", "Initial sound", "Final sound"],
+      "columnsRu": ["Начальный согласный(-е)", "Начальный звук", "Конечный звук"],
       "rows": [
         { "thai": "พ ผ ภ", "translit": "p", "meaning": "-p" },
         { "thai": "ป", "translit": "bp", "meaning": "" },
@@ -49,20 +53,24 @@
     {
       "type": "callout",
       "variant": "note",
-      "html": "ผ ฝ ฌ ฮ ห อ never occur at the end of syllables as final consonants."
+      "html": "ผ ฝ ฌ ฮ ห อ never occur at the end of syllables as final consonants.",
+      "htmlRu": "ผ ฝ ฌ ฮ ห อ никогда не встречаются в конце слогов в качестве финальных согласных."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vowels"
+      "text": "Vowels",
+      "textRu": "Гласные"
     },
     {
       "type": "paragraph",
-      "html": "For each vowel sound in the left-hand column there are corresponding long and short vowels, and their forms may differ depending on whether they're in medial position (followed by a final consonant) or final position (where there's no final consonant). The vowels which are centred in the table only have one form and do not change."
+      "html": "For each vowel sound in the left-hand column there are corresponding long and short vowels, and their forms may differ depending on whether they're in medial position (followed by a final consonant) or final position (where there's no final consonant). The vowels which are centred in the table only have one form and do not change.",
+      "htmlRu": "Для каждого гласного звука в левом столбце существуют соответствующие долгие и краткие гласные, форма которых может различаться в зависимости от того, находятся ли они в медиальной позиции (за ними следует финальный согласный) или в финальной позиции (финального согласного нет). Гласные, расположенные по центру таблицы, имеют только одну форму и не изменяются."
     },
     {
       "type": "thaiTable",
       "columns": ["Sound", "Long medial", "Long final", "Short medial", "Short final"],
+      "columnsRu": ["Звук", "Долгий медиальный", "Долгий финальный", "Краткий медиальный", "Краткий финальный"],
       "rows": [
         { "thai": "-aa / -u- / -a", "translit": "-า / -ั- / -ะ", "meaning": "" },
         { "thai": "-ee / -i", "translit": "-ี / -ิ", "meaning": "" },
@@ -80,11 +88,13 @@
     },
     {
       "type": "paragraph",
-      "html": "Vowels that don't take final consonants are always at final position:"
+      "html": "Vowels that don't take final consonants are always at final position:",
+      "htmlRu": "Гласные, которые не сочетаются с финальными согласными, всегда находятся в финальной позиции:"
     },
     {
       "type": "thaiTable",
       "columns": ["Sound", "Vowel forms"],
+      "columnsRu": ["Звук", "Формы гласных"],
       "rows": [
         { "thai": "-um", "translit": "-ำ, -ัม" },
         { "thai": "-ao", "translit": "เ-า" },
@@ -94,20 +104,24 @@
     },
     {
       "type": "paragraph",
-      "html": "Notice that the [-um] and [-ai] sounds can be made by just one vowel, or they can be combinations of \" -ั \" and ม or ย."
+      "html": "Notice that the [-um] and [-ai] sounds can be made by just one vowel, or they can be combinations of \" -ั \" and ม or ย.",
+      "htmlRu": "Обратите внимание, что звуки [-um] и [-ai] могут образовываться одним гласным символом или представлять собой сочетание « -ั » с ม или ย."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Complete tone summary"
+      "text": "Complete tone summary",
+      "textRu": "Полная сводка тонов"
     },
     {
       "type": "paragraph",
-      "html": "The \"String Theory\" that we have learnt in this book are the essential rules for tone production, and for 99% of words you will not need to remember anything else but those. However, if you're a perfectionist and want to know all there is to know about tone rules, including those that are hardly used ones, here are all the possible combinations."
+      "html": "The \"String Theory\" that we have learnt in this book are the essential rules for tone production, and for 99% of words you will not need to remember anything else but those. However, if you're a perfectionist and want to know all there is to know about tone rules, including those that are hardly used ones, here are all the possible combinations.",
+      "htmlRu": "«Теория струн», которую мы изучили в этой книге, содержит основные правила определения тонов, и для 99% слов вам не понадобится запоминать ничего, кроме них. Однако если вы перфекционист и хотите знать абсолютно всё о тоновых правилах, включая те, что используются крайне редко, — вот все возможные комбинации."
     },
     {
       "type": "thaiTable",
       "columns": ["", "no mark", "อ่", "อ้", "อ๊", "อ๋"],
+      "columnsRu": ["", "без знака", "อ่", "อ้", "อ๊", "อ๋"],
       "rows": [
         { "thai": "HC Live", "translit": "R / L / F / — / —" },
         { "thai": "HC Dead", "translit": "L / L / F / — / —" },
@@ -121,7 +135,8 @@
     {
       "type": "callout",
       "variant": "note",
-      "html": "M = mid tone, L = low tone, F = falling tone, H = high tone, R = rising tone"
+      "html": "M = mid tone, L = low tone, F = falling tone, H = high tone, R = rising tone",
+      "htmlRu": "M = средний тон, L = низкий тон, F = нисходящий тон, H = высокий тон, R = восходящий тон"
     }
   ],
   "footnotes": {},

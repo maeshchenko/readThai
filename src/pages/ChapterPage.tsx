@@ -98,7 +98,7 @@ export function ChapterPage() {
           {loading ? (
             <ChapterSkeleton />
           ) : chapter ? (
-            <ContentRenderer blocks={chapter.blocks} footnotes={chapter.footnotes} />
+            <ContentRenderer blocks={chapter.blocks} footnotes={chapter.footnotes} footnotesRu={chapter.footnotesRu} />
           ) : (
             <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-dim)] p-8 text-center">
               <p className="text-[var(--color-on-surface-muted)]">

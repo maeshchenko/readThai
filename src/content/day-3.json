@@ -2,16 +2,18 @@
   "id": "day-3",
   "slug": "day-3",
   "titleEn": "Day 3: A Short, Short Story",
-  "titleRu": "\u0414\u0435\u043d\u044c 3: \u041a\u043e\u0440\u043e\u0442\u043a\u0430\u044f-\u043f\u0440\u0435\u043a\u043e\u0440\u043e\u0442\u043a\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f",
+  "titleRu": "День 3: Короткая-прекороткая история",
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 3: A Short, Short Story"
+      "text": "DAY 3: A Short, Short Story",
+      "textRu": "ДЕНЬ 3: Короткая-прекороткая история"
     },
     {
       "type": "paragraph",
-      "html": "Below is another Thai consonant class \u2014 \u201cmid class\u201d, featuring some of the most common characters used in the Thai writing system."
+      "html": "Below is another Thai consonant class — “mid class”, featuring some of the most common characters used in the Thai writing system.",
+      "htmlRu": "Ниже представлен ещё один класс тайских согласных — «средний класс», включающий одни из самых распространённых символов тайской письменности."
     },
     {
       "type": "track",
@@ -20,52 +22,95 @@
     {
       "type": "rule",
       "html": "And naturally, when these consonants are at final position they also become unreleased. Long story short, like this:",
+      "htmlRu": "И, разумеется, когда эти согласные оказываются в конечной позиции, они тоже становятся имплозивными. Короче говоря, вот так:",
       "emphasis": "soft"
     },
     {
       "type": "thaiTable",
-      "columns": ["\u0e01", "\u0e08", "\u0e14", "\u0e15", "\u0e1a", "\u0e1b", "\u0e2d"],
+      "columns": [
+        "ก",
+        "จ",
+        "ด",
+        "ต",
+        "บ",
+        "ป",
+        "อ"
+      ],
       "headerRows": [
         [
-          { "text": "\u0e01" },
-          { "text": "\u0e08" },
-          { "text": "\u0e14" },
-          { "text": "\u0e15" },
-          { "text": "\u0e1a" },
-          { "text": "\u0e1b" },
-          { "text": "\u0e2d" }
+          {
+            "text": "ก"
+          },
+          {
+            "text": "จ"
+          },
+          {
+            "text": "ด"
+          },
+          {
+            "text": "ต"
+          },
+          {
+            "text": "บ"
+          },
+          {
+            "text": "ป"
+          },
+          {
+            "text": "อ"
+          }
         ]
       ],
       "rows": [
-        { "thai": "Initial", "translit": "g / j / d / dt / b / bp / -" },
-        { "thai": "Final", "translit": "-k / -t / -p" }
+        {
+          "thai": "Initial",
+          "translit": "g / j / d / dt / b / bp / -"
+        },
+        {
+          "thai": "Final",
+          "translit": "-k / -t / -p"
+        }
       ]
     },
     {
       "type": "paragraph",
-      "html": "Notice that they have the same pattern as low class 2 consonants:"
+      "html": "Notice that they have the same pattern as low class 2 consonants:",
+      "htmlRu": "Обратите внимание, что у них тот же паттерн, что и у согласных низкого класса 2:"
     },
     {
       "type": "thaiTable",
-      "columns": ["-k", "-t", "-p"],
+      "columns": [
+        "-k",
+        "-t",
+        "-p"
+      ],
       "headerRows": [
         [
-          { "text": "MC" },
-          { "text": "\u0e01 \u0e08 \u0e14 \u0e15 \u0e1a \u0e1b" }
+          {
+            "text": "MC"
+          },
+          {
+            "text": "ก จ ด ต บ ป"
+          }
         ]
       ],
       "rows": [
-        { "thai": "LC2", "translit": "\u0e04 \u0e17 \u0e0a \u0e0b \u0e1e \u0e1f" }
+        {
+          "thai": "LC2",
+          "translit": "ค ท ช ซ พ ฟ"
+        }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Placeholder \u201c\u0e2d\u201d"
+      "text": "Placeholder “อ”",
+      "textRu": "Символ-заместитель «อ»"
     },
     {
       "type": "paragraph",
-      "html": "You\u2019ve seen the character \u201c\u0e2d\u201d as a vowel [-or] before, now let me reintroduce it to you as a consonant. What sound does it make as a consonant? None! It only serves as a \u201cplaceholder\u201d for the vowel in syllables that don\u2019t contain any initial consonant sound (such as \u201c\u0e2d\u0e32\u201d /aa/, \u201c\u0e2d\u0e34\u0e48\u0e21\u201d /\u00ecm/ or \u201c\u0e2d\u0e30\u201d [a-] in \u201c\u0e2d\u0e30\u0e44\u0e23\u201d /arai/). Because Thai vowels can\u2019t be on their own; they need at least one consonant to hold on to. Needy little things!"
+      "html": "You’ve seen the character “อ” as a vowel [-or] before, now let me reintroduce it to you as a consonant. What sound does it make as a consonant? None! It only serves as a “placeholder” for the vowel in syllables that don’t contain any initial consonant sound (such as “อา” /aa/, “อิ่ม” /ìm/ or “อะ” [a-] in “อะไร” /arai/). Because Thai vowels can’t be on their own; they need at least one consonant to hold on to. Needy little things!",
+      "htmlRu": "Вы уже встречали символ «อ» в качестве гласного [-or], а теперь позвольте представить его вам как согласный. Какой звук он издаёт как согласный? Никакой! Он служит лишь «заместителем» для гласного в слогах, не содержащих начального согласного звука (например, «อา» /aa/, «อิ่ม» /ìm/ или «อะ» [a-] в «อะไร» /arai/). Дело в том, что тайские гласные не могут существовать сами по себе — им нужен хотя бы один согласный, за который можно зацепиться. Прилипчивые малютки!"
     },
     {
       "type": "track",
@@ -75,19 +120,33 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e2d\u0e32", "translit": "/aa/" },
-        { "thai": "\u0e2d\u0e32\u0e19", "translit": "/aan/" },
-        { "thai": "\u0e40\u0e2d\u0e32", "translit": "/ao/" },
-        { "thai": "\u0e2d\u0e2d\u0e21", "translit": "/orm/" }
+        {
+          "thai": "อา",
+          "translit": "/aa/"
+        },
+        {
+          "thai": "อาน",
+          "translit": "/aan/"
+        },
+        {
+          "thai": "เอา",
+          "translit": "/ao/"
+        },
+        {
+          "thai": "ออม",
+          "translit": "/orm/"
+        }
       ]
     },
     {
       "type": "paragraph",
-      "html": "The word \u0e2d\u0e2d\u0e21 above has 2 \u0e2d\u2019s, but the first one serves as a placeholder consonant and the second one is the vowel [-or]."
+      "html": "The word ออม above has 2 อ’s, but the first one serves as a placeholder consonant and the second one is the vowel [-or].",
+      "htmlRu": "В слове ออม выше два อ, но первый служит согласным-заместителем, а второй — это гласный [-or]."
     },
     {
       "type": "paragraph",
-      "html": "We are now looking at short vowels for the first time. Note that the first two vowels are essentially the same vowel and have the same sound."
+      "html": "We are now looking at short vowels for the first time. Note that the first two vowels are essentially the same vowel and have the same sound.",
+      "htmlRu": "Сейчас мы впервые рассматриваем краткие гласные. Обратите внимание, что первые два гласных — это по сути один и тот же гласный с одинаковым звучанием."
     },
     {
       "type": "track",
@@ -95,7 +154,8 @@
     },
     {
       "type": "paragraph",
-      "html": "A syllable is dead if it ends with a short vowel, because you can\u2019t elongate short vowels (otherwise they wouldn\u2019t be \u201cshort\u201d vowels, right?)."
+      "html": "A syllable is dead if it ends with a short vowel, because you can’t elongate short vowels (otherwise they wouldn’t be “short” vowels, right?).",
+      "htmlRu": "Слог является мёртвым, если он заканчивается кратким гласным, потому что краткие гласные нельзя протянуть (иначе они не были бы «краткими», верно?)."
     },
     {
       "type": "track",
@@ -105,35 +165,51 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e2e\u0e30", "translit": "/h\u00e1/", "meaning": "\u201cHa\u2026\u201d" },
-        { "thai": "\u0e2e\u0e32", "translit": "/haa/", "meaning": "\u201cHaaaaaaa\u2014\u2014\u2014\u2014\u201d" }
+        {
+          "thai": "ฮะ",
+          "translit": "/há/",
+          "meaning": "“Ha…”"
+        },
+        {
+          "thai": "ฮา",
+          "translit": "/haa/",
+          "meaning": "“Haaaaaaa————”"
+        }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Live-dead syllables (continued)"
+      "text": "Live-dead syllables (continued)",
+      "textRu": "Живые и мёртвые слоги (продолжение)"
     },
     {
       "type": "paragraph",
-      "html": "If a syllable ends with a short vowel, it\u2019s dead. With that fact, combined with what we learned on DAY 2, we can conclude that:"
+      "html": "If a syllable ends with a short vowel, it’s dead. With that fact, combined with what we learned on DAY 2, we can conclude that:",
+      "htmlRu": "Если слог заканчивается кратким гласным — он мёртвый. Совмещая этот факт с тем, что мы узнали в ДЕНЬ 2, можно сделать вывод:"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>LIVE syllable</strong> \u2014 ends with [-ng] [-m] [-n] (or any LC1 consonant), or a LONG vowel",
-        "<strong>DEAD syllable</strong> \u2014 ends with [-k] [-t] [-p] (or any LC2 consonant), or a SHORT vowel"
+        "<strong>LIVE syllable</strong> — ends with [-ng] [-m] [-n] (or any LC1 consonant), or a LONG vowel",
+        "<strong>DEAD syllable</strong> — ends with [-k] [-t] [-p] (or any LC2 consonant), or a SHORT vowel"
+      ],
+      "itemsRu": [
+        "<strong>ЖИВОЙ слог</strong> — заканчивается на [-ng] [-m] [-n] (или любой согласный НК1), либо на долгий гласный",
+        "<strong>МЁРТВЫЙ слог</strong> — заканчивается на [-k] [-t] [-p] (или любой согласный НК2), либо на краткий гласный"
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "A vowel with a double life"
+      "text": "A vowel with a double life",
+      "textRu": "Гласный с двойной жизнью"
     },
     {
       "type": "paragraph",
-      "html": "The first two vowel forms: -\u0e30 and -\u0e31- (the latter symbol has another name: /m\u00e1i h\u016dn-aag\u00e0at/), are essentially the same vowel; although they look different, they\u2019re both pronounced [a]. However, you only see \u201c-\u0e30\u201d in words that end with the [a] vowel sound, and you only see \u201c -\u0e31- \u201d in words that end with a final consonant. For example:"
+      "html": "The first two vowel forms: -ะ and -ั- (the latter symbol has another name: /mái hŭn-aagàat/), are essentially the same vowel; although they look different, they’re both pronounced [a]. However, you only see “-ะ” in words that end with the [a] vowel sound, and you only see “ -ั- ” in words that end with a final consonant. For example:",
+      "htmlRu": "Первые две формы гласного: -ะ и -ั- (у последнего символа есть другое название: /mái hŭn-aagàat/) — это по сути один и тот же гласный; хотя они выглядят по-разному, оба произносятся как [a]. Однако «-ะ» встречается только в словах, заканчивающихся звуком гласного [a], а « -ั- » — только в словах с конечным согласным. Например:"
     },
     {
       "type": "track",
@@ -143,34 +219,72 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e19\u0e30", "translit": "/n\u00e1/" },
-        { "thai": "\u0e19\u0e31\u0e01", "translit": "/n\u00fak/" },
-        { "thai": "\u0e25\u0e30", "translit": "/l\u00e1/" },
-        { "thai": "\u0e25\u0e31\u0e07", "translit": "/lung/" },
-        { "thai": "\u0e04\u0e30", "translit": "/k\u00e1/" },
-        { "thai": "\u0e04\u0e31\u0e1a", "translit": "/k\u00fap/" }
+        {
+          "thai": "นะ",
+          "translit": "/ná/"
+        },
+        {
+          "thai": "นัก",
+          "translit": "/núk/"
+        },
+        {
+          "thai": "ละ",
+          "translit": "/lá/"
+        },
+        {
+          "thai": "ลัง",
+          "translit": "/lung/"
+        },
+        {
+          "thai": "คะ",
+          "translit": "/ká/"
+        },
+        {
+          "thai": "คับ",
+          "translit": "/kúp/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e1e\u0e30", "translit": "/p\u00e1/" },
-        { "thai": "\u0e1e\u0e31\u0e14", "translit": "/p\u00fat/" },
-        { "thai": "\u0e0a\u0e30", "translit": "/ch\u00e1/" },
-        { "thai": "\u0e0a\u0e31\u0e19", "translit": "/chun/" },
-        { "thai": "\u0e23\u0e30", "translit": "/r\u00e1/" },
-        { "thai": "\u0e23\u0e31\u0e21", "translit": "/rum/" }
+        {
+          "thai": "พะ",
+          "translit": "/pá/"
+        },
+        {
+          "thai": "พัด",
+          "translit": "/pút/"
+        },
+        {
+          "thai": "ชะ",
+          "translit": "/chá/"
+        },
+        {
+          "thai": "ชัน",
+          "translit": "/chun/"
+        },
+        {
+          "thai": "ระ",
+          "translit": "/rá/"
+        },
+        {
+          "thai": "รัม",
+          "translit": "/rum/"
+        }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Camouflaged vowels"
+      "text": "Camouflaged vowels",
+      "textRu": "Замаскированные гласные"
     },
     {
       "type": "paragraph",
-      "html": "(2 letters) Quite often you\u2019ll come across syllables with 2 consonants but no vowels to be found. Don\u2019t panic! It\u2019s pronounced as if there\u2019s a short vowel [-o-] sound in between them. The short vowel [o] is not written down when there\u2019s a final consonant in the syllable."
+      "html": "(2 letters) Quite often you’ll come across syllables with 2 consonants but no vowels to be found. Don’t panic! It’s pronounced as if there’s a short vowel [-o-] sound in between them. The short vowel [o] is not written down when there’s a final consonant in the syllable.",
+      "htmlRu": "(2 буквы) Довольно часто вам будут попадаться слоги с двумя согласными, но без единого гласного на виду. Не паникуйте! Они произносятся так, будто между ними есть краткий гласный [-o-]. Краткий гласный [o] не записывается на письме, когда в слоге есть конечный согласный."
     },
     {
       "type": "track",
@@ -180,26 +294,54 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e04\u0e19", "translit": "/kon/" },
-        { "thai": "\u0e1e\u0e1a", "translit": "/p\u00f3p/" },
-        { "thai": "\u0e23\u0e01", "translit": "/r\u00f3k/" },
-        { "thai": "\u0e1b\u0e21", "translit": "/bpom/" },
-        { "thai": "\u0e01\u0e14", "translit": "/g\u00f2t/" },
-        { "thai": "\u0e08\u0e07", "translit": "/jong/" }
+        {
+          "thai": "คน",
+          "translit": "/kon/"
+        },
+        {
+          "thai": "พบ",
+          "translit": "/póp/"
+        },
+        {
+          "thai": "รก",
+          "translit": "/rók/"
+        },
+        {
+          "thai": "ปม",
+          "translit": "/bpom/"
+        },
+        {
+          "thai": "กด",
+          "translit": "/gòt/"
+        },
+        {
+          "thai": "จง",
+          "translit": "/jong/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e15\u0e01\u0e25\u0e07", "translit": "/dt\u00f2k-long/" },
-        { "thai": "\u0e2d\u0e1a\u0e23\u0e21", "translit": "/\u00f2p-rom/" },
-        { "thai": "\u0e21\u0e07\u0e04\u0e25", "translit": "/mongkon/" }
+        {
+          "thai": "ตกลง",
+          "translit": "/dtòk-long/"
+        },
+        {
+          "thai": "อบรม",
+          "translit": "/òp-rom/"
+        },
+        {
+          "thai": "มงคล",
+          "translit": "/mongkon/"
+        }
       ]
     },
     {
       "type": "paragraph",
-      "html": "This always holds true UNLESS the final consonant is \u201c\u0e23\u201d, then that syllable is pronounced [-orn] instead! The historical explanation is that these words were borrowed from Khmer (ancient Cambodian), and we kept the spelling, although we adapted the pronunciation to suit the Thai way."
+      "html": "This always holds true UNLESS the final consonant is “ร”, then that syllable is pronounced [-orn] instead! The historical explanation is that these words were borrowed from Khmer (ancient Cambodian), and we kept the spelling, although we adapted the pronunciation to suit the Thai way.",
+      "htmlRu": "Это правило действует всегда, КРОМЕ случая, когда конечный согласный — «ร»: тогда слог произносится как [-orn]! Историческое объяснение в том, что эти слова были заимствованы из кхмерского языка (древнекамбоджийского), и написание сохранилось, хотя произношение адаптировали на тайский лад."
     },
     {
       "type": "track",
@@ -209,27 +351,44 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e01\u0e23", "translit": "/gorn/" },
-        { "thai": "\u0e1e\u0e23", "translit": "/porn/" },
-        { "thai": "\u0e2d\u0e23", "translit": "/orn/" }
+        {
+          "thai": "กร",
+          "translit": "/gorn/"
+        },
+        {
+          "thai": "พร",
+          "translit": "/porn/"
+        },
+        {
+          "thai": "อร",
+          "translit": "/orn/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "\u0e2d\u0e32\u0e17\u0e23", "translit": "/aatorn/" },
-        { "thai": "\u0e27\u0e07\u0e08\u0e23", "translit": "/wongjorn/" }
+        {
+          "thai": "อาทร",
+          "translit": "/aatorn/"
+        },
+        {
+          "thai": "วงจร",
+          "translit": "/wongjorn/"
+        }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Focus on the new consonants and vowels you\u2019ve just learnt. Also note the placeholder \u201c\u0e2d\u201d and both forms of the [a] vowel. Remember that if you don\u2019t see any vowel, it\u2019s an unwritten [-o-]. Incidentally, if you listen to track 27, it\u2019s obvious that something greatly affects the pattern of tones, because they are all over the place! But don\u2019t worry about the tones for now. We will investigate the tones on DAY 5."
+      "html": "Focus on the new consonants and vowels you’ve just learnt. Also note the placeholder “อ” and both forms of the [a] vowel. Remember that if you don’t see any vowel, it’s an unwritten [-o-]. Incidentally, if you listen to track 27, it’s obvious that something greatly affects the pattern of tones, because they are all over the place! But don’t worry about the tones for now. We will investigate the tones on DAY 5.",
+      "htmlRu": "Сосредоточьтесь на новых согласных и гласных, которые вы только что выучили. Также обратите внимание на символ-заместитель «อ» и обе формы гласного [a]. Помните: если вы не видите гласного — это незаписанный [-o-]. Кстати, если вы послушаете трек 27, станет очевидно, что что-то сильно влияет на паттерн тонов — они скачут как попало! Но пока не беспокойтесь о тонах. Мы разберёмся с ними в ДЕНЬ 5."
     },
     {
       "type": "track",
@@ -239,36 +398,78 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "\u0e01\u0e34\u0e19" },
-        { "thai": "\u0e42\u0e08\u0e23" },
-        { "thai": "\u0e14\u0e31\u0e1a" },
-        { "thai": "\u0e1a\u0e17" },
-        { "thai": "\u0e1f\u0e38\u0e15" },
-        { "thai": "\u0e04\u0e32\u0e14" },
-        { "thai": "\u0e41\u0e1a\u0e1a" },
-        { "thai": "\u0e40\u0e0a\u0e22" },
-        { "thai": "\u0e08\u0e35\u0e19" },
-        { "thai": "\u0e27\u0e31\u0e14" },
-        { "thai": "\u0e22\u0e32\u0e01\u0e08\u0e19" },
-        { "thai": "\u0e01\u0e31\u0e07\u0e27\u0e25" },
-        { "thai": "\u0e40\u0e1b\u0e15\u0e2d\u0e07" },
-        { "thai": "\u0e15\u0e30\u0e1b\u0e39" },
-        { "thai": "\u0e2d\u0e36\u0e14\u0e2d\u0e31\u0e14" },
-        { "thai": "\u0e21\u0e31\u0e07\u0e04\u0e38\u0e14" },
-        { "thai": "\u0e27\u0e32\u0e19\u0e23" },
-        { "thai": "\u0e15\u0e30\u0e23\u0e38\u0e40\u0e15\u0e32" },
-        { "thai": "\u0e1a\u0e32\u0e07\u0e25\u0e33\u0e1e\u0e39" },
-        { "thai": "\u0e44\u0e2e\u0e15\u0e34" }
+        {
+          "thai": "กิน"
+        },
+        {
+          "thai": "โจร"
+        },
+        {
+          "thai": "ดับ"
+        },
+        {
+          "thai": "บท"
+        },
+        {
+          "thai": "ฟุต"
+        },
+        {
+          "thai": "คาด"
+        },
+        {
+          "thai": "แบบ"
+        },
+        {
+          "thai": "เชย"
+        },
+        {
+          "thai": "จีน"
+        },
+        {
+          "thai": "วัด"
+        },
+        {
+          "thai": "ยากจน"
+        },
+        {
+          "thai": "กังวล"
+        },
+        {
+          "thai": "เปตอง"
+        },
+        {
+          "thai": "ตะปู"
+        },
+        {
+          "thai": "อึดอัด"
+        },
+        {
+          "thai": "มังคุด"
+        },
+        {
+          "thai": "วานร"
+        },
+        {
+          "thai": "ตะรุเตา"
+        },
+        {
+          "thai": "บางลำพู"
+        },
+        {
+          "thai": "ไฮติ"
+        }
       ]
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Read the following sentences, but first separate them into individual syllables to make them easier to read. Again, you don\u2019t have to worry about the tones just yet. Don\u2019t forget that there can only be [-ng] [-m] [-n] [-k] [-t] and [-p] final consonant sounds!"
+      "html": "Read the following sentences, but first separate them into individual syllables to make them easier to read. Again, you don’t have to worry about the tones just yet. Don’t forget that there can only be [-ng] [-m] [-n] [-k] [-t] and [-p] final consonant sounds!",
+      "htmlRu": "Прочитайте следующие предложения, но сначала разделите их на отдельные слоги, чтобы было легче читать. Опять же, о тонах пока не беспокойтесь. Не забывайте, что в конце слога могут быть только звуки [-ng] [-m] [-n] [-k] [-t] и [-p]!"
     },
     {
       "type": "track",
@@ -278,15 +479,33 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "\u0e2d\u0e32\u0e0a\u0e32\u0e22\u0e40\u0e23\u0e32\u0e01\u0e33\u0e25\u0e31\u0e07\u0e44\u0e1b\u0e1a\u0e32\u0e07\u0e21\u0e14\u0e01\u0e31\u0e1a\u0e25\u0e38\u0e07" },
-        { "thai": "\u0e15\u0e32\u0e01\u0e41\u0e14\u0e14\u0e21\u0e32\u0e01\u0e19\u0e31\u0e01\u0e23\u0e30\u0e27\u0e31\u0e07\u0e08\u0e30\u0e14\u0e33\u0e19\u0e30" },
-        { "thai": "\u0e2e\u0e30" },
-        { "thai": "\u0e21\u0e32\u0e43\u0e19\u0e0b\u0e2d\u0e22\u0e27\u0e31\u0e19\u0e2d\u0e31\u0e07\u0e04\u0e32\u0e23\u0e15\u0e2d\u0e19\u0e14\u0e36\u0e01\u0e0b\u0e34" },
-        { "thai": "\u0e04\u0e30" },
-        { "thai": "\u0e04\u0e19\u0e43\u0e19\u0e25\u0e32\u0e27\u0e0a\u0e2d\u0e1a\u0e01\u0e34\u0e19\u0e25\u0e32\u0e1a\u0e21\u0e32\u0e01\u0e40\u0e25\u0e22" },
-        { "thai": "\u0e17\u0e33\u0e44\u0e21\u0e43\u0e1a\u0e1e\u0e31\u0e14\u0e25\u0e21\u0e1a\u0e19\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e21\u0e35\u0e23\u0e2d\u0e22" },
-        { "thai": "\u0e41\u0e14\u0e07" },
-        { "thai": "\u0e44\u0e1f\u0e25\u0e38\u0e01\u0e25\u0e32\u0e21\u0e42\u0e14\u0e19\u0e23\u0e39\u0e1b\u0e27\u0e32\u0e14\u0e23\u0e32\u0e04\u0e32\u0e41\u0e1e\u0e07" }
+        {
+          "thai": "อาชายเรากำลังไปบางมดกับลุง"
+        },
+        {
+          "thai": "ตากแดดมากนักระวังจะดำนะ"
+        },
+        {
+          "thai": "ฮะ"
+        },
+        {
+          "thai": "มาในซอยวันอังคารตอนดึกซิ"
+        },
+        {
+          "thai": "คะ"
+        },
+        {
+          "thai": "คนในลาวชอบกินลาบมากเลย"
+        },
+        {
+          "thai": "ทำไมใบพัดลมบนกำแพงมีรอย"
+        },
+        {
+          "thai": "แดง"
+        },
+        {
+          "thai": "ไฟลุกลามโดนรูปวาดราคาแพง"
+        }
       ]
     },
     {
@@ -294,10 +513,18 @@
       "items": [
         "Remember all MC consonants and 4 short vowels",
         "The final consonant sounds of MC consonants have the same pattern as LC2 consonants",
-        "\u0e2d serves as a placeholder for vowels to hang onto when there is no initial consonant",
+        "อ serves as a placeholder for vowels to hang onto when there is no initial consonant",
         "Live-dead syllable summary: a live syllable ends with an LC1 consonant or a long vowel; a dead syllable ends with a non-LC1 consonant or a short vowel",
-        "Some vowels have two forms, like -\u0e30 and -\u0e31- but they sound the same. However, the latter is only used when the syllable contains a final consonant",
-        "A syllable with 2 consonants and no written vowel has an [-o-] short vowel sound, unless the final consonant is \u0e23 in which case it is [-orn] which has a long vowel sound"
+        "Some vowels have two forms, like -ะ and -ั- but they sound the same. However, the latter is only used when the syllable contains a final consonant",
+        "A syllable with 2 consonants and no written vowel has an [-o-] short vowel sound, unless the final consonant is ร in which case it is [-orn] which has a long vowel sound"
+      ],
+      "itemsRu": [
+        "Запомните все согласные СК и 4 кратких гласных",
+        "Конечные согласные звуки согласных СК имеют тот же паттерн, что и согласные НК2",
+        "อ служит заместителем, за который цепляются гласные, когда нет начального согласного",
+        "Итог по живым и мёртвым слогам: живой слог заканчивается согласным НК1 или долгим гласным; мёртвый слог заканчивается согласным не-НК1 или кратким гласным",
+        "Некоторые гласные имеют две формы, как -ะ и -ั-, но звучат одинаково. При этом вторая форма используется только когда в слоге есть конечный согласный",
+        "Слог с двумя согласными и без записанного гласного имеет звук краткого гласного [-o-], если только конечный согласный не ร — тогда произносится [-orn] с долгим гласным"
       ]
     }
   ],

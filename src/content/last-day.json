@@ -7,20 +7,24 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "LAST DAY: The Beginning"
+      "text": "LAST DAY: The Beginning",
+      "textRu": "ПОСЛЕДНИЙ ДЕНЬ: Начало"
     },
     {
       "type": "paragraph",
-      "html": "At last! In this last chapter I'll give you a few tips to help you read Thai faster and more efficiently, such as how to identify syllable borders, distinguish similar characters, and identify the vowels in 3-consonant words without a written vowel. By the end of this chapter you should be ready to begin your new adventures in the world of Thai script with your newly found skill!!!"
+      "html": "At last! In this last chapter I'll give you a few tips to help you read Thai faster and more efficiently, such as how to identify syllable borders, distinguish similar characters, and identify the vowels in 3-consonant words without a written vowel. By the end of this chapter you should be ready to begin your new adventures in the world of Thai script with your newly found skill!!!",
+      "htmlRu": "Наконец-то! В этой последней главе я дам вам несколько советов, которые помогут читать тайский быстрее и увереннее: как определять границы слогов, различать похожие символы и находить гласные в словах из трёх согласных без написанной гласной. К концу этой главы вы будете готовы начать своё путешествие в мир тайской письменности с новообретённым навыком!!!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Camouflaged vowels (3 letters)"
+      "text": "Camouflaged vowels (3 letters)",
+      "textRu": "Замаскированные гласные (3 буквы)"
     },
     {
       "type": "paragraph",
-      "html": "You've learnt how to identify unwritten vowels in words with 1 or 2 consonants. How about 3-consonant combos? Actually, you've previously learnt this, it's just that sometimes they appear as a word with no vowel. Here I'll sum it up for you."
+      "html": "You've learnt how to identify unwritten vowels in words with 1 or 2 consonants. How about 3-consonant combos? Actually, you've previously learnt this, it's just that sometimes they appear as a word with no vowel. Here I'll sum it up for you.",
+      "htmlRu": "Вы уже научились определять ненаписанные гласные в словах с 1 или 2 согласными. А как насчёт комбинаций из 3 согласных? На самом деле вы это уже проходили — просто иногда они выглядят как слово вообще без гласной. Здесь я всё подытожу."
     },
     {
       "type": "track",
@@ -29,6 +33,7 @@
     {
       "type": "rule",
       "html": "If the first character is ห then that ห is almost always a silent one:",
+      "htmlRu": "Если первый символ — ห, то этот ห почти всегда немой:",
       "emphasis": "soft"
     },
     {
@@ -44,6 +49,7 @@
     {
       "type": "rule",
       "html": "If the middle character is อ then that อ is an [-or-] vowel:",
+      "htmlRu": "Если средний символ — อ, то этот อ является гласной [-or-]:",
       "emphasis": "soft"
     },
     {
@@ -59,6 +65,7 @@
     {
       "type": "rule",
       "html": "If the middle character is ว, it's probably an -ว- [-ua-] vowel:",
+      "htmlRu": "Если средний символ — ว, то это, скорее всего, гласная -ว- [-ua-]:",
       "emphasis": "soft"
     },
     {
@@ -74,6 +81,7 @@
     {
       "type": "rule",
       "html": "If the first 2 consonants look like they could be a true cluster and the second consonant is ร or ล, it probably has an unwritten [-o-] vowel:",
+      "htmlRu": "Если первые 2 согласных выглядят как настоящий кластер и второй согласный — ร или ล, то здесь, вероятно, ненаписанная гласная [-o-]:",
       "emphasis": "soft"
     },
     {
@@ -89,6 +97,7 @@
     {
       "type": "rule",
       "html": "If none of the previous cases apply then perhaps it's a false cluster, where the first consonant is pronounced with an unwritten [-a] and the other two form a syllable with an unwritten [-o-]:",
+      "htmlRu": "Если ни один из предыдущих случаев не подходит, то, возможно, это ложный кластер: первый согласный произносится с ненаписанной [-a], а два оставшихся образуют слог с ненаписанной [-o-]:",
       "emphasis": "soft"
     },
     {
@@ -104,16 +113,19 @@
     {
       "type": "callout",
       "variant": "note",
-      "html": "Unwritten [-o-] changes to [-orn] when ร is the final consonant."
+      "html": "Unwritten [-o-] changes to [-orn] when ร is the final consonant.",
+      "htmlRu": "Ненаписанная [-o-] превращается в [-orn], когда ร — конечный согласный."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Any cluster consisting of more than 3 consonants is a combination of camouflaged vowels, which in many cases is difficult to identify. Use your instinct and guess how they're read (Yes, you're likely to make mistakes!)."
+      "html": "Any cluster consisting of more than 3 consonants is a combination of camouflaged vowels, which in many cases is difficult to identify. Use your instinct and guess how they're read (Yes, you're likely to make mistakes!).",
+      "htmlRu": "Любой кластер из более чем 3 согласных — это комбинация замаскированных гласных, которую во многих случаях трудно определить. Используйте свою интуицию и попробуйте угадать, как они читаются (да, ошибки здесь неизбежны!)."
     },
     {
       "type": "track",
@@ -135,11 +147,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Same same, but different"
+      "text": "Same same, but different",
+      "textRu": "Похожие символы"
     },
     {
       "type": "paragraph",
-      "html": "In the Thai writing system, there are 42 consonant characters, 22 vowels (which are made up from 18 symbols), and a handful other symbols such as tone marks, etc. Therefore, it's not unusual if you get these numerous characters mixed up from time to time. While most characters are distinctive enough, some of them can prove to be very hard for you to tell apart. Here I line them up side by side so that you can spot the differences with ease!"
+      "html": "In the Thai writing system, there are 42 consonant characters, 22 vowels (which are made up from 18 symbols), and a handful other symbols such as tone marks, etc. Therefore, it's not unusual if you get these numerous characters mixed up from time to time. While most characters are distinctive enough, some of them can prove to be very hard for you to tell apart. Here I line them up side by side so that you can spot the differences with ease!",
+      "htmlRu": "В тайской письменности 42 согласных символа, 22 гласных (образованных из 18 знаков) и ещё несколько других символов — тоновые знаки и т. д. Поэтому нет ничего удивительного, если время от времени вы путаете эти многочисленные символы. Большинство из них достаточно узнаваемы, но некоторые различить действительно непросто. Здесь я ставлю их рядом, чтобы вы легко заметили отличия!"
     },
     {
       "type": "examples",
@@ -153,7 +167,8 @@
     },
     {
       "type": "paragraph",
-      "html": "These only differ at the head (loop) part. Only ฤ [rúe']'s tail is longer."
+      "html": "These only differ at the head (loop) part. Only ฤ [rúe']'s tail is longer.",
+      "htmlRu": "Они отличаются только формой головки (петельки). Только у ฤ [rúe'] хвостик длиннее."
     },
     {
       "type": "examples",
@@ -167,7 +182,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Learners often get ด [d] and ค [k] mixed up, so pay attention to how the head curls."
+      "html": "Learners often get ด [d] and ค [k] mixed up, so pay attention to how the head curls.",
+      "htmlRu": "Изучающие часто путают ด [d] и ค [k], поэтому обратите внимание, как закручивается головка."
     },
     {
       "type": "examples",
@@ -181,7 +197,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Spikey characters are tricky because they look and sound similar as well."
+      "html": "Spikey characters are tricky because they look and sound similar as well.",
+      "htmlRu": "«Шипастые» символы коварны — они не только похожи внешне, но и звучат похоже."
     },
     {
       "type": "examples",
@@ -193,7 +210,8 @@
     },
     {
       "type": "paragraph",
-      "html": "These two also look similar but the ฬ [l] consonant on the right is rarely seen. If it has a piggy tail then it's not พ [p]."
+      "html": "These two also look similar but the ฬ [l] consonant on the right is rarely seen. If it has a piggy tail then it's not พ [p].",
+      "htmlRu": "Эти два символа тоже похожи, но согласный ฬ [l] справа встречается крайне редко. Если у символа есть «поросячий хвостик» — это не พ [p]."
     },
     {
       "type": "examples",
@@ -206,7 +224,8 @@
     },
     {
       "type": "paragraph",
-      "html": "'Coil-heads'. If it has a straight tail then it's ข [k˘], if a twitchy tail then it's ช [ch], if a twitchy tail and dented head then it's ซ [s]."
+      "html": "'Coil-heads'. If it has a straight tail then it's ข [k˘], if a twitchy tail then it's ช [ch], if a twitchy tail and dented head then it's ซ [s].",
+      "htmlRu": "«Спиральные головки». Если хвост прямой — это ข [k˘], если хвост изогнутый — это ช [ch], если хвост изогнутый и головка с вмятиной — это ซ [s]."
     },
     {
       "type": "examples",
@@ -219,7 +238,8 @@
     },
     {
       "type": "paragraph",
-      "html": "The consonants บ [b] and ป [bp] look and sound very similar. But if it has something like the อั [-u-] vowel inside it's ษ [s˘]."
+      "html": "The consonants บ [b] and ป [bp] look and sound very similar. But if it has something like the อั [-u-] vowel inside it's ษ [s˘].",
+      "htmlRu": "Согласные บ [b] и ป [bp] выглядят и звучат очень похоже. Но если внутри есть что-то вроде гласной อั [-u-] — это ษ [s˘]."
     },
     {
       "type": "examples",
@@ -231,7 +251,8 @@
     },
     {
       "type": "paragraph",
-      "html": "ข [k˘] is skinnier and has a coil head, whereas บ [b] is broader. However, in some fonts these two can look almost identical. Lucky you (NOT!)."
+      "html": "ข [k˘] is skinnier and has a coil head, whereas บ [b] is broader. However, in some fonts these two can look almost identical. Lucky you (NOT!).",
+      "htmlRu": "ข [k˘] тоньше и имеет спиральную головку, а บ [b] шире. Однако в некоторых шрифтах эти два символа выглядят почти одинаково. Повезло вам (НЕТ!)."
     },
     {
       "type": "examples",
@@ -244,7 +265,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Some learners get ร [r] and the vowel โ- [-oh] mixed up. ร's head is facing left and the โ vowel is so much taller."
+      "html": "Some learners get ร [r] and the vowel โ- [-oh] mixed up. ร's head is facing left and the โ vowel is so much taller.",
+      "htmlRu": "Некоторые путают ร [r] и гласную โ- [-oh]. Головка ร смотрит влево, а гласная โ значительно выше."
     },
     {
       "type": "examples",
@@ -258,7 +280,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Rather unique but occasionally confusing, especially between ง [ng] and ว [w]."
+      "html": "Rather unique but occasionally confusing, especially between ง [ng] and ว [w].",
+      "htmlRu": "Довольно уникальные, но иногда их путают, особенно ง [ng] и ว [w]."
     },
     {
       "type": "examples",
@@ -270,7 +293,8 @@
     },
     {
       "type": "paragraph",
-      "html": "ฮ [h] is not common in Thai words, but in borrowed words it is. Remember that ฮ has a little hat on top."
+      "html": "ฮ [h] is not common in Thai words, but in borrowed words it is. Remember that ฮ has a little hat on top.",
+      "htmlRu": "ฮ [h] редко встречается в исконно тайских словах, зато часто — в заимствованных. Запомните: у ฮ есть маленькая шляпка сверху."
     },
     {
       "type": "examples",
@@ -283,7 +307,8 @@
     },
     {
       "type": "paragraph",
-      "html": "If the head reaches down to the bottom line it's ล [l], if it also has a tiny tail it's ส [s˘], but if not then it's จ [j]."
+      "html": "If the head reaches down to the bottom line it's ล [l], if it also has a tiny tail it's ส [s˘], but if not then it's จ [j].",
+      "htmlRu": "Если головка доходит до нижней линии — это ล [l], если к тому же есть маленький хвостик — это ส [s˘], а если нет — это จ [j]."
     },
     {
       "type": "examples",
@@ -295,7 +320,8 @@
     },
     {
       "type": "paragraph",
-      "html": "You won't see these two much. If it has an extra spike at the bottom it's ฏ [dt], but if not it is a ฎ [d] consonant."
+      "html": "You won't see these two much. If it has an extra spike at the bottom it's ฏ [dt], but if not it is a ฎ [d] consonant.",
+      "htmlRu": "Эти два символа встречаются нечасто. Если внизу есть дополнительный шип — это ฏ [dt], а если нет — это согласный ฎ [d]."
     },
     {
       "type": "examples",
@@ -307,7 +333,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Both -ะ [-a] and -ั- [-u-] sound the same but the first one does not take a final consonant, while the latter NEEDS a final consonant."
+      "html": "Both -ะ [-a] and -ั- [-u-] sound the same but the first one does not take a final consonant, while the latter NEEDS a final consonant.",
+      "htmlRu": "И -ะ [-a], и -ั- [-u-] звучат одинаково, но первый не принимает конечный согласный, тогда как второму конечный согласный НЕОБХОДИМ."
     },
     {
       "type": "examples",
@@ -319,7 +346,8 @@
     },
     {
       "type": "paragraph",
-      "html": "แ- [-air] is basically เ- [-ay] written twice but in fact they're separate characters. Plus, the เ- symbol is used in other vowels as well."
+      "html": "แ- [-air] is basically เ- [-ay] written twice but in fact they're separate characters. Plus, the เ- symbol is used in other vowels as well.",
+      "htmlRu": "แ- [-air] — это, по сути, เ- [-ay], написанный дважды, но на самом деле это отдельные символы. К тому же символ เ- используется и в других гласных."
     },
     {
       "type": "examples",
@@ -332,7 +360,8 @@
     },
     {
       "type": "paragraph",
-      "html": "All the tall guys. The vowel โ- [-oh] curls to the right at the top, but both wavy and squiggly [-ai] curl to the left."
+      "html": "All the tall guys. The vowel โ- [-oh] curls to the right at the top, but both wavy and squiggly [-ai] curl to the left.",
+      "htmlRu": "Все высокие. Гласная โ- [-oh] закручивается вправо наверху, а обе волнистые [-ai] — влево."
     },
     {
       "type": "examples",
@@ -346,7 +375,8 @@
     },
     {
       "type": "paragraph",
-      "html": "These four top vowel symbols are only different in their stems."
+      "html": "These four top vowel symbols are only different in their stems.",
+      "htmlRu": "Эти четыре верхних гласных знака различаются только своими ножками."
     },
     {
       "type": "examples",
@@ -360,7 +390,8 @@
     },
     {
       "type": "paragraph",
-      "html": "The อั [-u-] symbol and silent mark are similar but different in their directions."
+      "html": "The อั [-u-] symbol and silent mark are similar but different in their directions.",
+      "htmlRu": "Символ อั [-u-] и знак молчания похожи, но отличаются направлением."
     },
     {
       "type": "examples",
@@ -373,7 +404,8 @@
     },
     {
       "type": "paragraph",
-      "html": "The circle symbol (middle) is only used as a component for the vowel [-um] and is always accompanied by the symbol \"-า\"."
+      "html": "The circle symbol (middle) is only used as a component for the vowel [-um] and is always accompanied by the symbol \"-า\".",
+      "htmlRu": "Кружок (посередине) используется только как компонент гласной [-um] и всегда сопровождается символом «-า»."
     },
     {
       "type": "examples",
@@ -385,7 +417,8 @@
     },
     {
       "type": "paragraph",
-      "html": "These two lower vowels have the same sounds but the first one is short and the latter one is long, just like the length of their own tail."
+      "html": "These two lower vowels have the same sounds but the first one is short and the latter one is long, just like the length of their own tail.",
+      "htmlRu": "Эти две нижние гласные звучат одинаково, но первая — краткая, а вторая — долгая, прямо как длина их хвостиков."
     },
     {
       "type": "examples",
@@ -401,20 +434,24 @@
     },
     {
       "type": "paragraph",
-      "html": "These characters look unique enough so you shouldn't have any problems identifying them."
+      "html": "These characters look unique enough so you shouldn't have any problems identifying them.",
+      "htmlRu": "Эти символы достаточно уникальны, и у вас не должно быть проблем с их распознаванием."
     },
     {
       "type": "paragraph",
-      "html": "One more thing. Some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. I provide some common font types used in Thailand for your reference in the Appendices at the end of this book."
+      "html": "One more thing. Some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. I provide some common font types used in Thailand for your reference in the Appendices at the end of this book.",
+      "htmlRu": "И ещё кое-что. Некоторые шрифты сильно стилизованы в декоративных целях и могут сбить с толку тех, кто с ними не знаком. Примеры распространённых тайских шрифтов вы найдёте в Приложениях в конце книги."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Each of the words/phrases below contain similar characters. It's now your job to distinguish them and read the words out loud."
+      "html": "Each of the words/phrases below contain similar characters. It's now your job to distinguish them and read the words out loud.",
+      "htmlRu": "Каждое из слов и выражений ниже содержит похожие символы. Теперь ваша задача — различить их и прочитать слова вслух."
     },
     {
       "type": "track",
@@ -442,55 +479,66 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Where do we draw the line?"
+      "text": "Where do we draw the line?",
+      "textRu": "Где проводить границу?"
     },
     {
       "type": "paragraph",
-      "html": "Since DAY 1 we have known that there are no spaces between syllables or words. Now that we've learned all the characters you might have realised that the position of vowels and some punctuation marks might give us clues about how to identify syllable boundaries. So look for the vowel's position when reading!"
+      "html": "Since DAY 1 we have known that there are no spaces between syllables or words. Now that we've learned all the characters you might have realised that the position of vowels and some punctuation marks might give us clues about how to identify syllable boundaries. So look for the vowel's position when reading!",
+      "htmlRu": "С ПЕРВОГО ДНЯ мы знаем, что между слогами и словами нет пробелов. Теперь, когда мы выучили все символы, вы, возможно, заметили, что положение гласных и некоторых знаков может подсказать, где проходят границы слогов. Поэтому при чтении обращайте внимание на позицию гласной!"
     },
     {
       "type": "rule",
       "html": "Front vowels เ-, แ-, โ-, ไ-, ใ- ALWAYS start the syllable. In addition to being the [-ay] vowel, \"เ\" can be a component of other vowels as well.",
+      "htmlRu": "Передние гласные เ-, แ-, โ-, ไ-, ใ- ВСЕГДА начинают слог. Помимо того что «เ» — это гласная [-ay], она также может быть компонентом других гласных.",
       "emphasis": "strong"
     },
     {
       "type": "rule",
       "html": "\"-ุ\" or \"-ู\" is written under the initial consonant. If there are two initial consonants (e.g. in a cluster), it goes under the second consonant. For that reason, it is at the beginning of a syllable, or at least one block after it.",
+      "htmlRu": "«-ุ» или «-ู» пишется под начальным согласным. Если начальных согласных два (например, в кластере), она ставится под вторым. Поэтому она находится в начале слога или не далее одной позиции от него.",
       "emphasis": "soft"
     },
     {
       "type": "rule",
       "html": "The symbol \"ะ\" (whether as a vowel or a shortening symbol) and the vowel \"-ำ\" ALWAYS end the syllable. Note that \"-ํ\" always appears with \"า\".",
+      "htmlRu": "Символ «ะ» (как гласная или как знак сокращения) и гласная «-ำ» ВСЕГДА завершают слог. Обратите внимание, что «-ํ» всегда появляется вместе с «า».",
       "emphasis": "strong"
     },
     {
       "type": "rule",
       "html": "The shortening mark \"-็\" and the \"-ั-\" vowel are usually on top of the second last character of the syllable (unless there's an extra character at the end like a silent consonant).",
+      "htmlRu": "Знак сокращения «-็» и гласная «-ั-» обычно стоят над предпоследним символом слога (если только в конце нет дополнительного символа, например немого согласного).",
       "emphasis": "soft"
     },
     {
       "type": "rule",
       "html": "Top vowels \"-ิ\", \"-ี\", \"-ึ\", \"-ื\" are likely to be at the end of the syllable, or the second last character of the syllable if there's a final consonant.",
+      "htmlRu": "Верхние гласные «-ิ», «-ี», «-ึ», «-ื» обычно находятся в конце слога или над предпоследним символом, если есть конечный согласный.",
       "emphasis": "soft"
     },
     {
       "type": "rule",
       "html": "\"-ี\" and \"-ื\" are also likely to be at the end/almost at the end of the syllable, UNLESS they're part of complex vowel \"เ-ีย\" and \"เ-ือ\", in which case they might be 1 character, or 2 characters away from the end if there's a final consonant.",
+      "htmlRu": "«-ี» и «-ื» также обычно стоят в конце или почти в конце слога, ЕСЛИ ТОЛЬКО они не являются частью составных гласных «เ-ีย» и «เ-ือ» — тогда они могут находиться на 1 или 2 позиции от конца, если есть конечный согласный.",
       "emphasis": "soft"
     },
     {
       "type": "rule",
       "html": "When you see a silent marker, it doesn't only mark the end of the syllable, it marks THE END OF THE WORD (except in some foreign words which have a silent mark somewhere in the middle of the word).",
+      "htmlRu": "Когда вы видите знак молчания, он обозначает не просто конец слога, а КОНЕЦ СЛОВА (за исключением некоторых иностранных слов, где знак молчания стоит в середине слова).",
       "emphasis": "strong"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "In this passage below, you'll have to break up the individual syllables. Use the tactics I've taught you."
+      "html": "In this passage below, you'll have to break up the individual syllables. Use the tactics I've taught you.",
+      "htmlRu": "В отрывке ниже вам нужно разбить текст на отдельные слоги. Используйте приёмы, которым я вас научил."
     },
     {
       "type": "track",
@@ -507,6 +555,11 @@
         "3 consonants with no written vowel can be: [-or-] if the middle character is อ, [-ua-] if the middle one is ว, [-o-] if there's a silent ห or it's a true cluster, or else it's probably a pseudo cluster, in which case the first and the second syllables are [-a, -o-] respectively",
         "You should be able to look at similar characters and spot the differences between them",
         "The vowel's position within a syllable gives a clue to where the syllable starts or ends"
+      ],
+      "itemsRu": [
+        "3 согласных без написанной гласной могут содержать: [-or-], если средний символ — อ; [-ua-], если средний — ว; [-o-], если есть немой ห или это настоящий кластер; в противном случае это, вероятно, ложный кластер, где первый и второй слоги содержат [-a] и [-o-] соответственно",
+        "Вы должны уметь смотреть на похожие символы и замечать различия между ними",
+        "Позиция гласной внутри слога подсказывает, где слог начинается или заканчивается"
       ]
     }
   ],

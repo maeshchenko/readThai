@@ -1,16 +1,16 @@
 export type Block =
-  | { type: 'heading'; level: 1 | 2 | 3; text: string }
-  | { type: 'paragraph'; html: string }
-  | { type: 'list'; ordered: boolean; items: string[] }
-  | { type: 'callout'; variant: 'tip' | 'warning' | 'note'; html: string }
+  | { type: 'heading'; level: 1 | 2 | 3; text: string; textRu?: string }
+  | { type: 'paragraph'; html: string; htmlRu?: string }
+  | { type: 'list'; ordered: boolean; items: string[]; itemsRu?: string[] }
+  | { type: 'callout'; variant: 'tip' | 'warning' | 'note'; html: string; htmlRu?: string }
   | { type: 'track'; number: number; label?: string }
-  | { type: 'rule'; html: string; emphasis?: 'soft' | 'strong'; eyebrow?: string }
+  | { type: 'rule'; html: string; htmlRu?: string; emphasis?: 'soft' | 'strong'; eyebrow?: string }
   | { type: 'examples'; layout?: ExamplesLayout; eyebrow?: string; items: ExampleItem[] }
-  | { type: 'thaiExample'; thai: string; translit: string; meaning?: string; tone?: string }
-  | { type: 'thaiTable'; columns: string[]; rows: ThaiTableRow[]; headerRows?: TableHeaderRow[]; stickyFirstCol?: boolean }
-  | { type: 'image'; src: string; alt: string; caption?: string }
-  | { type: 'exercise'; trackNumber?: number; instruction: string; items: string[]; answerKey?: string }
-  | { type: 'recap'; items: string[] }
+  | { type: 'thaiExample'; thai: string; translit: string; meaning?: string; meaningRu?: string; tone?: string }
+  | { type: 'thaiTable'; columns: string[]; columnsRu?: string[]; rows: ThaiTableRow[]; headerRows?: TableHeaderRow[]; stickyFirstCol?: boolean }
+  | { type: 'image'; src: string; alt: string; caption?: string; captionRu?: string }
+  | { type: 'exercise'; trackNumber?: number; instruction: string; instructionRu?: string; items: string[]; itemsRu?: string[]; answerKey?: string; answerKeyRu?: string }
+  | { type: 'recap'; items: string[]; itemsRu?: string[] }
   | { type: 'divider' }
   | { type: 'footnoteRef'; id: number }
 
@@ -20,14 +20,17 @@ export interface ExampleItem {
   thai: string
   translit?: string
   meaning?: string
+  meaningRu?: string
   tone?: string
   note?: string
+  noteRu?: string
 }
 
 export interface ThaiTableRow {
   thai: string
   translit: string
   meaning?: string
+  meaningRu?: string
 }
 
 export interface TableHeaderCell {
@@ -46,6 +49,7 @@ export interface Chapter {
   number?: number
   blocks: Block[]
   footnotes: Record<number, string>
+  footnotesRu?: Record<number, string>
   prev?: string
   next?: string
   _generated?: boolean

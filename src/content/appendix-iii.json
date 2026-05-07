@@ -7,20 +7,24 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Appendix III: Dictionary Order"
+      "text": "Appendix III: Dictionary Order",
+      "textRu": "Приложение III: Словарный порядок"
     },
     {
       "type": "paragraph",
-      "html": "Thai alphabetical order in the dictionary is more complex and requires more attention than the English one does. In dictionary order, consonants have priority over vowels."
+      "html": "Thai alphabetical order in the dictionary is more complex and requires more attention than the English one does. In dictionary order, consonants have priority over vowels.",
+      "htmlRu": "Алфавитный порядок в тайском словаре более сложен и требует большего внимания, чем в английском. В словарном порядке согласные имеют приоритет над гласными."
     },
     {
       "type": "paragraph",
-      "html": "The character order is as follows:"
+      "html": "The character order is as follows:",
+      "htmlRu": "Порядок символов следующий:"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Consonant symbol order"
+      "text": "Consonant symbol order",
+      "textRu": "Порядок символов согласных"
     },
     {
       "type": "examples",
@@ -32,7 +36,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Vowel symbol order"
+      "text": "Vowel symbol order",
+      "textRu": "Порядок символов гласных"
     },
     {
       "type": "examples",
@@ -43,12 +48,14 @@
     },
     {
       "type": "paragraph",
-      "html": "The 4 tone marks, mái dtàikóo (อ็) and mái tuntákâat (อ์) are ignored in most cases unless two or more words have exactly the same spelling."
+      "html": "The 4 tone marks, mái dtàikóo (อ็) and mái tuntákâat (อ์) are ignored in most cases unless two or more words have exactly the same spelling.",
+      "htmlRu": "Четыре тоновых знака, mái dtàikóo (อ็) и mái tuntákâat (อ์) в большинстве случаев игнорируются, если только два или более слов не имеют абсолютно одинаковое написание."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Diacritic symbol order"
+      "text": "Diacritic symbol order",
+      "textRu": "Порядок диакритических знаков"
     },
     {
       "type": "examples",
@@ -71,24 +78,37 @@
         "Tone marks and other symbols are generally ignored unless two or more words contain exactly the same consonants and vowels, only then are they taken into account: word order: แขง > แข็ง > แข่ง > แข้ง",
         "Regardless of their position(s) in a syllable, vowels come after consonants, meaning that even though เ or โ is placed before the initial consonant, its precedence in the dictionary is still after all the consonants: word order: กก > กอ > เก > โก",
         "For compound vowels (vowels which are made up of multiple symbols such as เ-า, etc.), all the symbols that make up the vowel will be taken into account and sorted in the following order (where อ is an initial consonant): อะ อั- อั-ะ อา อำ อิ อี อึ อื- อุ อู เอ เอะ เอา เอาะ เอิ- เอี- เอี-ะ เอื- เอื-ะ แอ แอะ โอ โอะ ใอ ไอ"
+      ],
+      "itemsRu": [
+        "Имейте в виду, что словари сортируют слова по их написанию, а не по звучанию. Это значит, что даже непроизносимые согласные, такие как ห, อ или ร, всё равно учитываются при алфавитной сортировке: например, หลาย находится в разделе ห, а не ล",
+        "อ, ย и ว всегда рассматриваются как согласные, даже когда они являются частью гласного: порядок слов: เอย > เอว > เออ > เอา",
+        "ฤ и ฤๅ располагаются сразу после ร. Устаревшие символы ฃ, ฅ, ฦ и ฦๅ включены в словарь, но в их разделах вы не найдёте ни одного слова: порядок слов: พรึก > พฤก",
+        "Согласные имеют наивысший приоритет: они всегда идут перед гласными: порядок слов: จรง > จริง > จอง > จาง > โจง",
+        "Тоновые знаки и другие символы, как правило, игнорируются, если только два или более слов не содержат абсолютно одинаковые согласные и гласные — лишь тогда они принимаются во внимание: порядок слов: แขง > แข็ง > แข่ง > แข้ง",
+        "Независимо от позиции в слоге, гласные идут после согласных. Это означает, что хотя เ или โ пишется перед начальным согласным, в словаре его очерёдность всё равно после всех согласных: порядок слов: กก > กอ > เก > โก",
+        "Для составных гласных (гласных, состоящих из нескольких символов, таких как เ-า и т. д.) все символы, образующие гласный, учитываются и сортируются в следующем порядке (где อ — начальный согласный): อะ อั- อั-ะ อา อำ อิ อี อึ อื- อุ อู เอ เอะ เอา เอาะ เอิ- เอี- เอี-ะ เอื- เอื-ะ แอ แอะ โอ โอะ ใอ ไอ"
       ]
     },
     {
       "type": "paragraph",
-      "html": "Example of rule 7 — word order:"
+      "html": "Example of rule 7 — word order:",
+      "htmlRu": "Пример правила 7 — порядок слов:"
     },
     {
       "type": "paragraph",
-      "html": "นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก > นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ > เนือ > เนือง > เนือะ > แน > แนบ > แนะ > โนน > โนะ > ใน > ไน"
+      "html": "นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก > นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ > เนือ > เนือง > เนือะ > แน > แนบ > แนะ > โนน > โนะ > ใน > ไน",
+      "htmlRu": "นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก > นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ > เนือ > เนือง > เนือะ > แน > แนบ > แนะ > โนน > โนะ > ใน > ไน"
     },
     {
       "type": "callout",
       "variant": "note",
-      "html": "Many of these words in the examples are NOT real words. Some of them are made up solely to be used to demonstrate the rules given in each bullet point, so don't try to learn them."
+      "html": "Many of these words in the examples are NOT real words. Some of them are made up solely to be used to demonstrate the rules given in each bullet point, so don't try to learn them.",
+      "htmlRu": "Многие слова в этих примерах НЕ являются настоящими словами. Некоторые из них придуманы исключительно для демонстрации правил, приведённых в каждом пункте, поэтому не пытайтесь их заучивать."
     },
     {
       "type": "paragraph",
-      "html": "You can use the glossary at the end of this book to practice looking up words in the Thai dictionary. Keep in mind that this is not very crucial in reading Thai, it's just a nice and useful skill to have!"
+      "html": "You can use the glossary at the end of this book to practice looking up words in the Thai dictionary. Keep in mind that this is not very crucial in reading Thai, it's just a nice and useful skill to have!",
+      "htmlRu": "Вы можете использовать глоссарий в конце этой книги, чтобы потренироваться в поиске слов в тайском словаре. Имейте в виду, что это не самый важный навык для чтения по-тайски — просто приятное и полезное умение!"
     }
   ],
   "footnotes": {},

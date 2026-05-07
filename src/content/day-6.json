@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 6: Mark My Words"
+      "text": "DAY 6: Mark My Words",
+      "textRu": "ДЕНЬ 6: Запомни мои слова"
     },
     {
       "type": "paragraph",
-      "html": "The last three vowels are composed of 3 symbols each. They’re a bit hard to remember, so pay extra attention. Note that the first one, เ-าะ27 [-or’], unlike เ-ีย [-ia] and เ-ือ [-uea], is a short vowel."
+      "html": "The last three vowels are composed of 3 symbols each. They're a bit hard to remember, so pay extra attention. Note that the first one, เ-าะ27 [-or'], unlike เ-ีย [-ia] and เ-ือ [-uea], is a short vowel.",
+      "htmlRu": "Последние три гласные состоят из трёх символов каждая. Их довольно сложно запомнить, поэтому уделите им особое внимание. Обратите внимание, что первая из них, เ-าะ27 [-or'], в отличие от เ-ีย [-ia] и เ-ือ [-uea], является краткой гласной."
     },
     {
       "type": "track",
@@ -20,7 +22,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "track",
@@ -71,23 +74,28 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Identify tricky vowels with “เ”"
+      "text": "Identify tricky vowels with \u201cเ\u201d",
+      "textRu": "Распознаём хитрые гласные с «เ»"
     },
     {
       "type": "paragraph",
-      "html": "17 long vowels and 5 short vowels (4 of which have two forms). That’s quite a lot of vowels to remember! Fortunately, there’s a way to ease this pain for learners. You may have noticed that many vowel combinations contain the “เ” symbol, such as เ-า, เ-ย, เ-อ, เ-ิ-, เ-าะ, เ-ีย and เ-ือ. If you find “เ” while reading Thai you will have to be able to tell what vowel it belongs to, or if it alone is the vowel!"
+      "html": "17 long vowels and 5 short vowels (4 of which have two forms). That's quite a lot of vowels to remember! Fortunately, there's a way to ease this pain for learners. You may have noticed that many vowel combinations contain the \u201cเ\u201d symbol, such as เ-า, เ-ย, เ-อ, เ-ิ-, เ-าะ, เ-ีย and เ-ือ. If you find \u201cเ\u201d while reading Thai you will have to be able to tell what vowel it belongs to, or if it alone is the vowel!",
+      "htmlRu": "17 долгих и 5 кратких гласных (4 из которых имеют две формы). Гласных для запоминания довольно много! К счастью, есть способ облегчить задачу. Вы могли заметить, что многие комбинации гласных содержат символ «เ», например: เ-า, เ-ย, เ-อ, เ-ิ-, เ-าะ, เ-ีย и เ-ือ. Встретив «เ» при чтении тайского текста, вы должны уметь определить, к какой гласной он относится, или же он сам является гласной!"
     },
     {
       "type": "paragraph",
-      "html": "1. STOP and pause for a second when you see “เ”. Don’t jump to conclude that it is the เ- [-ay] vowel, because it might be just a component of another vowel. Look at its surroundings for clues."
+      "html": "1. STOP and pause for a second when you see \u201cเ\u201d. Don't jump to conclude that it is the เ- [-ay] vowel, because it might be just a component of another vowel. Look at its surroundings for clues.",
+      "htmlRu": "1. ОСТАНОВИТЕСЬ и сделайте паузу, когда увидите «เ». Не спешите решать, что это гласная เ- [-ay], — это может быть лишь частью другой гласной. Посмотрите на окружение в поисках подсказок."
     },
     {
       "type": "paragraph",
-      "html": "2. First, look on top of the consonant(s) that follow เ and see whether there’s a character above it:"
+      "html": "2. First, look on top of the consonant(s) that follow เ and see whether there's a character above it:",
+      "htmlRu": "2. Сначала посмотрите наверх согласной (или согласных), следующей за เ, и проверьте, есть ли над ней какой-либо символ:"
     },
     {
       "type": "rule",
-      "html": "If there’s an -ิ on top of it, the vowel is เ-ิ- [-er-].",
+      "html": "If there's an -ิ on top of it, the vowel is เ-ิ- [-er-].",
+      "htmlRu": "Если сверху стоит -ิ, значит гласная — это เ-ิ- [-er-].",
       "emphasis": "soft"
     },
     {
@@ -107,7 +115,8 @@
     },
     {
       "type": "rule",
-      "html": "If there’s an -ื on top of it, the vowel is เ-ือ [-uea].",
+      "html": "If there's an -ื on top of it, the vowel is เ-ือ [-uea].",
+      "htmlRu": "Если сверху стоит -ื, значит гласная — это เ-ือ [-uea].",
       "emphasis": "soft"
     },
     {
@@ -127,7 +136,8 @@
     },
     {
       "type": "rule",
-      "html": "If there’s an -ี on top of it, the vowel is เ-ีย [-ia].",
+      "html": "If there's an -ี on top of it, the vowel is เ-ีย [-ia].",
+      "htmlRu": "Если сверху стоит -ี, значит гласная — это เ-ีย [-ia].",
       "emphasis": "soft"
     },
     {
@@ -147,11 +157,13 @@
     },
     {
       "type": "paragraph",
-      "html": "3. But if there’s nothing on top, look at the end of the syllable to see if any character comes after:"
+      "html": "3. But if there's nothing on top, look at the end of the syllable to see if any character comes after:",
+      "htmlRu": "3. Если же сверху ничего нет, посмотрите в конец слога — есть ли там какой-либо символ:"
     },
     {
       "type": "rule",
-      "html": "If there’s a ย at the end, it’s probably an เ-ย [-eui] vowel.",
+      "html": "If there's a ย at the end, it's probably an เ-ย [-eui] vowel.",
+      "htmlRu": "Если в конце стоит ย, скорее всего, это гласная เ-ย [-eui].",
       "emphasis": "soft"
     },
     {
@@ -171,7 +183,8 @@
     },
     {
       "type": "rule",
-      "html": "If there’s an อ at the end, it’s probably an เ-อ [-er] vowel.",
+      "html": "If there's an อ at the end, it's probably an เ-อ [-er] vowel.",
+      "htmlRu": "Если в конце стоит อ, скорее всего, это гласная เ-อ [-er].",
       "emphasis": "soft"
     },
     {
@@ -191,7 +204,8 @@
     },
     {
       "type": "rule",
-      "html": "If there’s an -า at the end, it’s probably an เ-า [-ao] vowel.",
+      "html": "If there's an -า at the end, it's probably an เ-า [-ao] vowel.",
+      "htmlRu": "Если в конце стоит -า, скорее всего, это гласная เ-า [-ao].",
       "emphasis": "soft"
     },
     {
@@ -211,7 +225,8 @@
     },
     {
       "type": "rule",
-      "html": "But if there’s also an -ะ after the -า, it’s definitely an เ-าะ [-or’] vowel.",
+      "html": "But if there's also an -ะ after the -า, it's definitely an เ-าะ [-or'] vowel.",
+      "htmlRu": "Но если после -า стоит ещё и -ะ, это точно гласная เ-าะ [-or'].",
       "emphasis": "soft"
     },
     {
@@ -231,16 +246,19 @@
     },
     {
       "type": "paragraph",
-      "html": "4. If there’s nothing at the positions mentioned, it’s probably just เ- [-ay]!"
+      "html": "4. If there's nothing at the positions mentioned, it's probably just เ- [-ay]!",
+      "htmlRu": "4. Если ни на одной из упомянутых позиций ничего нет, скорее всего, это просто เ- [-ay]!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "With the trick you’ve just learnt, can you identify all the vowels in these passages? Easy mode: scan for vowels that start with เ- and identify which vowel they are. Hard mode: read the whole passages!"
+      "html": "With the trick you've just learnt, can you identify all the vowels in these passages? Easy mode: scan for vowels that start with เ- and identify which vowel they are. Hard mode: read the whole passages!",
+      "htmlRu": "Используя приём, который вы только что узнали, сможете ли вы определить все гласные в этих отрывках? Лёгкий режим: найдите гласные, начинающиеся с เ-, и определите, какая именно это гласная. Сложный режим: прочитайте отрывки целиком!"
     },
     {
       "type": "track",
@@ -283,23 +301,28 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Tone marks"
+      "text": "Tone marks",
+      "textRu": "Тоновые знаки"
     },
     {
       "type": "paragraph",
-      "html": "The next four characters are Thai tone marks, and they’re written on the top-right of the initial consonant, if there is a vowel written over that consonant, the tone mark will be written on top of the vowel also."
+      "html": "The next four characters are Thai tone marks, and they're written on the top-right of the initial consonant, if there is a vowel written over that consonant, the tone mark will be written on top of the vowel also.",
+      "htmlRu": "Следующие четыре символа — это тайские тоновые знаки. Они пишутся в правом верхнем углу начальной согласной; если над согласной уже написана гласная, тоновый знак ставится поверх неё."
     },
     {
       "type": "paragraph",
-      "html": "As the names suggest, they MOSTLY mark the tone of their names (except LC which has got a special rule. I’ll clear that up soon)."
+      "html": "As the names suggest, they MOSTLY mark the tone of their names (except LC which has got a special rule. I'll clear that up soon).",
+      "htmlRu": "Как следует из названий, они В ОСНОВНОМ обозначают тон, соответствующий их имени (за исключением LC, для которого действует особое правило — скоро мы его разберём)."
     },
     {
       "type": "paragraph",
-      "html": "You might be interested to know that เอก [àyk] โท [toh] ตรี [dtree] and จัตวา [jùtdtawaa] are actually number one, two, three, and four in Sanskrit, so maybe it’s no coincidence that each tone mark looks like the number they got their names from!"
+      "html": "You might be interested to know that เอก [àyk] โท [toh] ตรี [dtree] and จัตวา [jùtdtawaa] are actually number one, two, three, and four in Sanskrit, so maybe it's no coincidence that each tone mark looks like the number they got their names from!",
+      "htmlRu": "Вам будет интересно узнать, что เอก [àyk], โท [toh], ตรี [dtree] и จัตวา [jùtdtawaa] — это на самом деле числа один, два, три и четыре на санскрите, так что, возможно, неслучайно каждый тоновый знак напоминает цифру, от которой получил своё название!"
     },
     {
       "type": "paragraph",
-      "html": "We’ll start with the first two tone marks: the low tone mark (อ่) and the falling tone mark (อ้) which are far more common than the other two."
+      "html": "We'll start with the first two tone marks: the low tone mark (อ่) and the falling tone mark (อ้) which are far more common than the other two.",
+      "htmlRu": "Начнём с первых двух тоновых знаков: знака низкого тона (อ่) и знака нисходящего тона (อ้), которые встречаются гораздо чаще двух остальных."
     },
     {
       "type": "thaiTable",
@@ -322,41 +345,50 @@
     },
     {
       "type": "paragraph",
-      "html": "The low tone mark (อ่) marks LOW tone for high class and mid class. However, when an LC consonant takes on (อ่), it produces FALLING tone instead."
+      "html": "The low tone mark (อ่) marks LOW tone for high class and mid class. However, when an LC consonant takes on (อ่), it produces FALLING tone instead.",
+      "htmlRu": "Знак низкого тона (อ่) обозначает НИЗКИЙ тон для согласных высокого и среднего класса. Однако когда согласная низкого класса (LC) принимает (อ่), вместо этого получается НИСХОДЯЩИЙ тон."
     },
     {
       "type": "paragraph",
-      "html": "Likewise, the falling tone mark (อ้) marks FALLING tone for high class and mid class. However, when an LC consonant takes on (อ้), it produces HIGH tone instead."
+      "html": "Likewise, the falling tone mark (อ้) marks FALLING tone for high class and mid class. However, when an LC consonant takes on (อ้), it produces HIGH tone instead.",
+      "htmlRu": "Аналогично, знак нисходящего тона (อ้) обозначает НИСХОДЯЩИЙ тон для согласных высокого и среднего класса. Однако когда согласная низкого класса (LC) принимает (อ้), вместо этого получается ВЫСОКИЙ тон."
     },
     {
       "type": "paragraph",
-      "html": "But how will we visualise these rules? Here comes the String Theory:"
+      "html": "But how will we visualise these rules? Here comes the String Theory:",
+      "htmlRu": "Но как нам визуализировать эти правила? Встречайте Теорию Струн:"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #3: “The low tone mark”"
+      "text": "String Theory rule #3: \u201cThe low tone mark\u201d",
+      "textRu": "Правило Теории Струн №3: «Знак низкого тона»"
     },
     {
       "type": "paragraph",
-      "html": "The low tone mark creates the EXACT same patterns as the dead syllable rule, except that there is no distinction between short-long vowel length. The HC and MC strings head downwards, confirming that the low tone mark (อ่) produces LOW tone (à). However, there is one exception: the LC string is raised in the middle, making it look like a FALLING tone phonetic symbol (â). Therefore, for a syllable with an initial LC consonant a FALLING tone is produced instead."
+      "html": "The low tone mark creates the EXACT same patterns as the dead syllable rule, except that there is no distinction between short-long vowel length. The HC and MC strings head downwards, confirming that the low tone mark (อ่) produces LOW tone (à). However, there is one exception: the LC string is raised in the middle, making it look like a FALLING tone phonetic symbol (â). Therefore, for a syllable with an initial LC consonant a FALLING tone is produced instead.",
+      "htmlRu": "Знак низкого тона создаёт ТОЧНО такие же паттерны, как правило мёртвого слога, за исключением того, что различие между краткой и долгой гласной не учитывается. Струны HC и MC направлены вниз, что подтверждает: знак низкого тона (อ่) даёт НИЗКИЙ тон (à). Однако есть одно исключение: струна LC приподнята в середине, напоминая фонетический символ НИСХОДЯЩЕГО тона (â). Поэтому для слога с начальной согласной низкого класса вместо этого получается НИСХОДЯЩИЙ тон."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #4: “The falling tone mark”"
+      "text": "String Theory rule #4: \u201cThe falling tone mark\u201d",
+      "textRu": "Правило Теории Струн №4: «Знак нисходящего тона»"
     },
     {
       "type": "paragraph",
-      "html": "If the low tone mark (อ่) looks like the number 1 then the falling tone mark (อ้) looks like the number 2, so the ‘falling tone piece’ is twice the size of the ‘low tone piece’. Since 2 is a higher number than 1, the falling tone piece is also in a higher position (the top of the box)!"
+      "html": "If the low tone mark (อ่) looks like the number 1 then the falling tone mark (อ้) looks like the number 2, so the 'falling tone piece' is twice the size of the 'low tone piece'. Since 2 is a higher number than 1, the falling tone piece is also in a higher position (the top of the box)!",
+      "htmlRu": "Если знак низкого тона (อ่) напоминает цифру 1, то знак нисходящего тона (อ้) напоминает цифру 2, и «фигурка нисходящего тона» вдвое больше «фигурки низкого тона». Поскольку 2 больше 1, фигурка нисходящего тона занимает и более высокое положение (верх коробки)!"
     },
     {
       "type": "paragraph",
-      "html": "Also, all of the strings need to be dragged to the same height as the piece. Since the piece is in the way of the HC and MC strings, they have to go around it, creating an arc like the FALLING tone phonetic symbol (â), whereas the LC string is completely unobstructed, making it look like a HIGH tone phonetic symbol (á)."
+      "html": "Also, all of the strings need to be dragged to the same height as the piece. Since the piece is in the way of the HC and MC strings, they have to go around it, creating an arc like the FALLING tone phonetic symbol (â), whereas the LC string is completely unobstructed, making it look like a HIGH tone phonetic symbol (á).",
+      "htmlRu": "Кроме того, все струны должны быть подтянуты на высоту фигурки. Поскольку фигурка стоит на пути струн HC и MC, им приходится огибать её, образуя дугу, похожую на фонетический символ НИСХОДЯЩЕГО тона (â), тогда как струна LC ничем не загорожена и выглядит как фонетический символ ВЫСОКОГО тона (á)."
     },
     {
       "type": "paragraph",
-      "html": "Remember the images of the String Theory numbers #3 and #4 and look at the examples below."
+      "html": "Remember the images of the String Theory numbers #3 and #4 and look at the examples below.",
+      "htmlRu": "Запомните изображения Теории Струн №3 и №4 и посмотрите на примеры ниже."
     },
     {
       "type": "track",
@@ -364,7 +396,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Incidentally, tone marks rarely appear with dead syllables. Which means that if you see a syllable with a tone mark, there’s a pretty good chance that it’s a live syllable, so you can identify live-dead syllables more easily and quickly. However, some of the most common exceptions are:"
+      "html": "Incidentally, tone marks rarely appear with dead syllables. Which means that if you see a syllable with a tone mark, there's a pretty good chance that it's a live syllable, so you can identify live-dead syllables more easily and quickly. However, some of the most common exceptions are:",
+      "htmlRu": "Кстати, тоновые знаки редко встречаются в мёртвых слогах. Это значит, что если вы видите слог с тоновым знаком, с большой вероятностью это живой слог, — и вы сможете быстрее определять тип слога. Однако вот несколько распространённых исключений:"
     },
     {
       "type": "track",
@@ -390,7 +423,8 @@
     },
     {
       "type": "paragraph",
-      "html": "The other two tone marks, the high tone mark (อ๊) and the rising tone mark (อ๋), are rarely seen in Thai writing since there are only a small number of words that use them. Plus, their tones are absolute; unlike the low tone mark and the falling tone mark, the high tone mark ALWAYS marks a high tone and the rising tone mark ALWAYS marks a rising tone, and they ONLY occur with mid class consonants. So there’s not much for you to remember."
+      "html": "The other two tone marks, the high tone mark (อ๊) and the rising tone mark (อ๋), are rarely seen in Thai writing since there are only a small number of words that use them. Plus, their tones are absolute; unlike the low tone mark and the falling tone mark, the high tone mark ALWAYS marks a high tone and the rising tone mark ALWAYS marks a rising tone, and they ONLY occur with mid class consonants. So there's not much for you to remember.",
+      "htmlRu": "Два оставшихся тоновых знака — знак высокого тона (อ๊) и знак восходящего тона (อ๋) — редко встречаются в тайском письме, поскольку лишь небольшое количество слов их использует. Кроме того, их тоны абсолютны: в отличие от знака низкого тона и знака нисходящего тона, знак высокого тона ВСЕГДА обозначает высокий тон, а знак восходящего тона ВСЕГДА обозначает восходящий тон, и они используются ТОЛЬКО с согласными среднего класса. Так что запоминать тут немного."
     },
     {
       "type": "track",
@@ -398,16 +432,19 @@
     },
     {
       "type": "paragraph",
-      "html": "Also, when there’s a tone mark, it overrides the live-dead syllable rules. So when a tone mark is present, you can forget about Theory #1 and #2, which makes things easier!"
+      "html": "Also, when there's a tone mark, it overrides the live-dead syllable rules. So when a tone mark is present, you can forget about Theory #1 and #2, which makes things easier!",
+      "htmlRu": "Кроме того, тоновый знак отменяет правила живых и мёртвых слогов. Поэтому, когда в слоге есть тоновый знак, можете забыть о Теории №1 и №2, что значительно упрощает дело!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Reading practice"
+      "text": "Reading practice",
+      "textRu": "Практика чтения"
     },
     {
       "type": "paragraph",
-      "html": "Read the words below and try to produce the right tone according to the String theory. MC and HC consonants have the same pattern, but LC consonants are different."
+      "html": "Read the words below and try to produce the right tone according to the String theory. MC and HC consonants have the same pattern, but LC consonants are different.",
+      "htmlRu": "Прочитайте слова ниже и постарайтесь произнести правильный тон согласно Теории Струн. У согласных MC и HC паттерн одинаковый, а вот у согласных LC он отличается."
     },
     {
       "type": "track",
@@ -416,11 +453,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Pronunciation mismatch"
+      "text": "Pronunciation mismatch",
+      "textRu": "Несоответствие произношения"
     },
     {
       "type": "paragraph",
-      "html": "Well this is awkward, but I must admit that despite all these rules we’ve learnt, there are some rebels in the Thai language that don’t want to play by the rules. Some of the most frequently used words, after having been spoken so exhaustively, came to have a slightly different vowel or tone."
+      "html": "Well this is awkward, but I must admit that despite all these rules we've learnt, there are some rebels in the Thai language that don't want to play by the rules. Some of the most frequently used words, after having been spoken so exhaustively, came to have a slightly different vowel or tone.",
+      "htmlRu": "Что ж, это немного неловко, но должен признать: несмотря на все изученные правила, в тайском языке есть бунтари, которые не хотят им подчиняться. Некоторые наиболее употребительные слова, будучи произнесёнными бесчисленное количество раз, приобрели немного другую гласную или тон."
     },
     {
       "type": "track",
@@ -430,53 +469,54 @@
       "type": "thaiExample",
       "thai": "น้ำ",
       "translit": "núm",
-      "meaning": "“water” — pronounced like น้าม náam"
+      "meaning": "\u201cwater\u201d \u2014 pronounced like น้าม náam"
     },
     {
       "type": "thaiExample",
       "thai": "ไม้",
       "translit": "mái",
-      "meaning": "“wood” — pronounced like ม้าย máai"
+      "meaning": "\u201cwood\u201d \u2014 pronounced like ม้าย máai"
     },
     {
       "type": "thaiExample",
       "thai": "ใต้",
       "translit": "dtâi",
-      "meaning": "“under, south” — pronounced like ต้าย dtâai"
+      "meaning": "\u201cunder, south\u201d \u2014 pronounced like ต้าย dtâai"
     },
     {
       "type": "thaiExample",
       "thai": "เท้า",
       "translit": "táo",
-      "meaning": "“foot” — pronounced like ท้าว táao"
+      "meaning": "\u201cfoot\u201d \u2014 pronounced like ท้าว táao"
     },
     {
       "type": "thaiExample",
       "thai": "เก้า",
       "translit": "gâo",
-      "meaning": "“nine” — pronounced like ก้าว gâao"
+      "meaning": "\u201cnine\u201d \u2014 pronounced like ก้าว gâao"
     },
     {
       "type": "thaiExample",
       "thai": "ไหม",
       "translit": "măi",
-      "meaning": "Y/N question particle — pronounced like มั้ย mái"
+      "meaning": "Y/N question particle \u2014 pronounced like มั้ย mái"
     },
     {
       "type": "thaiExample",
       "thai": "ฉัน",
       "translit": "chŭn",
-      "meaning": "“I” — pronounced like ชั้น chún"
+      "meaning": "\u201cI\u201d \u2014 pronounced like ชั้น chún"
     },
     {
       "type": "thaiExample",
       "thai": "เขา",
       "translit": "kăo",
-      "meaning": "“he, she, they” — pronounced like เค้า káo"
+      "meaning": "\u201che, she, they\u201d \u2014 pronounced like เค้า káo"
     },
     {
       "type": "paragraph",
-      "html": "Sadly you can’t tell how this works, but it usually only happens with one syllable words that have either of the following qualities:"
+      "html": "Sadly you can't tell how this works, but it usually only happens with one syllable words that have either of the following qualities:",
+      "htmlRu": "К сожалению, предсказать это невозможно, но обычно это происходит только с односложными словами, которые обладают одним из следующих свойств:"
     },
     {
       "type": "list",
@@ -484,20 +524,27 @@
       "items": [
         "The length of an อำ [-um] ไ- ใ- [-ai] or เ-า [-ao] vowel might be extended and turn into -าม [-aam] -าย [-aai] or -าว [-aao] respectively",
         "A rising tone which might change to a high tone instead"
+      ],
+      "itemsRu": [
+        "Долгота гласной อำ [-um], ไ- ใ- [-ai] или เ-า [-ao] может увеличиться, и они превращаются в -าม [-aam], -าย [-aai] или -าว [-aao] соответственно",
+        "Восходящий тон может смениться высоким тоном"
       ]
     },
     {
       "type": "paragraph",
-      "html": "So my suggestion is stick to what you know about the rules until someone points out the exceptions to you or you notice them yourself. Remember, these are very rare cases, so don’t let this discourage you!"
+      "html": "So my suggestion is stick to what you know about the rules until someone points out the exceptions to you or you notice them yourself. Remember, these are very rare cases, so don't let this discourage you!",
+      "htmlRu": "Поэтому мой совет — придерживайтесь известных вам правил, пока кто-нибудь не укажет вам на исключения или вы сами их не заметите. Помните, это очень редкие случаи, так что не позволяйте им вас расстраивать!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Brace yourself, because you’re going to read Thai tonal tongue twisters! This is going to be fun but tricky, so don’t beat yourself up if you can’t do it well. Take your time, read slowly, and focus on producing the right tone for each syllable. Don’t forget that silent ห converts LC consonants to high class, so treat them as high class. Remember, it’s not the end of the universe if you’re not 100% correct!"
+      "html": "Brace yourself, because you're going to read Thai tonal tongue twisters! This is going to be fun but tricky, so don't beat yourself up if you can't do it well. Take your time, read slowly, and focus on producing the right tone for each syllable. Don't forget that silent ห converts LC consonants to high class, so treat them as high class. Remember, it's not the end of the universe if you're not 100% correct!",
+      "htmlRu": "Приготовьтесь, потому что сейчас вы будете читать тайские тональные скороговорки! Будет весело, но непросто, поэтому не ругайте себя, если не всё получится. Не спешите, читайте медленно и сосредоточьтесь на правильном тоне каждого слога. Не забывайте, что немое ห переводит согласные низкого класса в высокий класс — обращайтесь с ними соответственно. Помните: ничего страшного, если результат будет не на 100% идеальным!"
     },
     {
       "type": "track",
@@ -507,11 +554,19 @@
       "type": "recap",
       "items": [
         "Remember 3 complex vowels and 4 tone marks",
-        "Many vowels have the symbol “เ” as their component, so when you come across เ you must look around and see whether it’s part of another vowel or not",
-        "The String Theory #3 & #4: “tone marks” — for HC & MC consonants, the tone mark (อ่) marks a LOW tone and (อ้) marks a FALLING tone, but for LC consonants, the tone mark (อ่) marks a FALLING tone and (อ้) marks a HIGH tone",
+        "Many vowels have the symbol \u201cเ\u201d as their component, so when you come across เ you must look around and see whether it\u2019s part of another vowel or not",
+        "The String Theory #3 & #4: \u201ctone marks\u201d \u2014 for HC & MC consonants, the tone mark (อ่) marks a LOW tone and (อ้) marks a FALLING tone, but for LC consonants, the tone mark (อ่) marks a FALLING tone and (อ้) marks a HIGH tone",
         "Tone marks seldom occur on dead syllables",
-        "The tone mark (อ๊) ALWAYS marks a HIGH tone and (อ๋) ALWAYS marks a RISING tone, and they’re only used with MC consonants",
+        "The tone mark (อ๊) ALWAYS marks a HIGH tone and (อ๋) ALWAYS marks a RISING tone, and they\u2019re only used with MC consonants",
         "There are a number of common one-syllable words whose vowel length or tone do not follow the rules"
+      ],
+      "itemsRu": [
+        "Запомните 3 составные гласные и 4 тоновых знака",
+        "Многие гласные содержат символ «เ» в качестве компонента, поэтому, встретив เ, осмотритесь и определите, является ли он частью другой гласной",
+        "Теория Струн №3 и №4: «тоновые знаки» — для согласных HC и MC знак тона (อ่) обозначает НИЗКИЙ тон, а (อ้) — НИСХОДЯЩИЙ, но для согласных LC знак тона (อ่) обозначает НИСХОДЯЩИЙ тон, а (อ้) — ВЫСОКИЙ",
+        "Тоновые знаки редко встречаются в мёртвых слогах",
+        "Знак тона (อ๊) ВСЕГДА обозначает ВЫСОКИЙ тон, а (อ๋) ВСЕГДА обозначает ВОСХОДЯЩИЙ тон, и они используются только с согласными MC",
+        "Существует ряд распространённых односложных слов, долгота гласной или тон которых не подчиняются правилам"
       ]
     }
   ],

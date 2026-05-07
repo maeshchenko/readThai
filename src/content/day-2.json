@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 2: A Matter of Life and Death"
+      "text": "DAY 2: A Matter of Life and Death",
+      "textRu": "ДЕНЬ 2: Вопрос жизни и смерти"
     },
     {
       "type": "paragraph",
-      "html": "It's time we learned the second group of low class consonants:"
+      "html": "It's time we learned the second group of low class consonants:",
+      "htmlRu": "Пришло время выучить вторую группу согласных низкого класса:"
     },
     {
       "type": "track",
@@ -20,11 +22,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Why we say \"I lerp you\""
+      "text": "Why we say \"I lerp you\"",
+      "textRu": "Почему мы говорим «I lerp you»"
     },
     {
       "type": "paragraph",
-      "html": "In English, when you pronounce words like 'search', 'cliff' or 'tick', there's a little puff of noise 'chhh', 'fff' or 'kuh' at the end of the word, right? But in Thai, final consonants (i.e. the consonant at the end of syllable, after the vowel) are \"unreleased\"; meaning we don't release these little puffs, so sometimes it sounds like we don't pronounce final consonants at all. Compare the English and Thai ways to say these words:"
+      "html": "In English, when you pronounce words like 'search', 'cliff' or 'tick', there's a little puff of noise 'chhh', 'fff' or 'kuh' at the end of the word, right? But in Thai, final consonants (i.e. the consonant at the end of syllable, after the vowel) are \"unreleased\"; meaning we don't release these little puffs, so sometimes it sounds like we don't pronounce final consonants at all. Compare the English and Thai ways to say these words:",
+      "htmlRu": "В английском, когда вы произносите слова вроде 'search', 'cliff' или 'tick', в конце слова слышен лёгкий выдох — 'chhh', 'fff' или 'kuh', верно? Но в тайском финальные согласные (то есть согласный в конце слога, после гласного) «неотпускаемые» — мы не выпускаем эти маленькие «выдохи», и поэтому иногда кажется, что конечные согласные вообще не произносятся. Сравните английское и тайское произношение этих слов:"
     },
     {
       "type": "track",
@@ -50,16 +54,19 @@
     },
     {
       "type": "paragraph",
-      "html": "Did you hear anything at the end of each word? Exactly, nothing! And as a result of not releasing final consonants it makes some final consonants sound EXACTLY the same; both พ and ฟ sound like [-p] and the consonants ท, ช and ซ all sound like [-t]!"
+      "html": "Did you hear anything at the end of each word? Exactly, nothing! And as a result of not releasing final consonants it makes some final consonants sound EXACTLY the same; both พ and ฟ sound like [-p] and the consonants ท, ช and ซ all sound like [-t]!",
+      "htmlRu": "Вы что-нибудь услышали в конце каждого слова? Вот именно — ничего! И в результате того, что конечные согласные не отпускаются, некоторые из них звучат АБСОЛЮТНО одинаково: и พ, и ฟ звучат как [-p], а согласные ท, ช и ซ — все как [-t]!"
     },
     {
       "type": "callout",
       "variant": "note",
-      "html": "ฮ never occurs at the end of a syllable"
+      "html": "ฮ never occurs at the end of a syllable",
+      "htmlRu": "ฮ никогда не встречается в конце слога"
     },
     {
       "type": "paragraph",
-      "html": "Here's the summary of the consonant sounds up until now. You don't need to waste your time memorising these tables. If you finish the word without releasing the final sound, you are already doing it right."
+      "html": "Here's the summary of the consonant sounds up until now. You don't need to waste your time memorising these tables. If you finish the word without releasing the final sound, you are already doing it right.",
+      "htmlRu": "Вот сводная таблица звуков согласных на данный момент. Не тратьте время на зубрёжку этих таблиц. Если вы заканчиваете слово, не отпуская конечный звук, — вы уже всё делаете правильно."
     },
     {
       "type": "thaiTable",
@@ -89,7 +96,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Here are some more long vowels. These vowels are special because they don't take a final consonant, meaning that if you see them in words, they will mark the end of a syllable and no final consonant will follow."
+      "html": "Here are some more long vowels. These vowels are special because they don't take a final consonant, meaning that if you see them in words, they will mark the end of a syllable and no final consonant will follow.",
+      "htmlRu": "А вот ещё несколько долгих гласных. Эти гласные особенные, потому что после них не бывает конечного согласного: если вы видите их в слове, они обозначают конец слога, и никакой финальный согласный за ними не последует."
     },
     {
       "type": "track",
@@ -97,20 +105,24 @@
     },
     {
       "type": "paragraph",
-      "html": "'Wavy' [-ai] (ไ-) and 'curly' [-ai] (ใ-), or their proper names, ไอไม้มลาย /ai máai malaai/ and ใอไม้ม้วน /ai máai múan/ respectively, sound exactly the same. However, ใ- is only used in a number of words (20 words to be precise, find out more about it in the Appendices of this book) and the rest of the words with the [-ai] sound are written with the ไ- vowel. Why? These 2 [ai]'s used to have different sounds, but now it's just a spelling convention."
+      "html": "'Wavy' [-ai] (ไ-) and 'curly' [-ai] (ใ-), or their proper names, ไอไม้มลาย /ai máai malaai/ and ใอไม้ม้วน /ai máai múan/ respectively, sound exactly the same. However, ใ- is only used in a number of words (20 words to be precise, find out more about it in the Appendices of this book) and the rest of the words with the [-ai] sound are written with the ไ- vowel. Why? These 2 [ai]'s used to have different sounds, but now it's just a spelling convention.",
+      "htmlRu": "«Волнистая» [-ai] (ไ-) и «кудрявая» [-ai] (ใ-), или, если по-настоящему, ไอไม้มลาย /ai máai malaai/ и ใอไม้ม้วน /ai máai múan/, звучат совершенно одинаково. Однако ใ- используется лишь в ограниченном числе слов (если точно — в 20; подробнее об этом в Приложениях к этой книге), а все остальные слова со звуком [-ai] пишутся с гласной ไ-. Почему? Когда-то эти два [ai] звучали по-разному, но теперь это просто орфографическая условность."
     },
     {
       "type": "paragraph",
-      "html": "Some vowels above are 'sandwich' vowels which basically wrap around initial consonants. Pretty weird, eh?"
+      "html": "Some vowels above are 'sandwich' vowels which basically wrap around initial consonants. Pretty weird, eh?",
+      "htmlRu": "Некоторые гласные выше — это гласные-«сэндвичи», которые буквально оборачиваются вокруг начального согласного. Довольно странно, правда?"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Read the following words. Remember that final consonants are unreleased so some of them end up sounding the same."
+      "html": "Read the following words. Remember that final consonants are unreleased so some of them end up sounding the same.",
+      "htmlRu": "Прочитайте следующие слова. Помните, что конечные согласные неотпускаемые, поэтому некоторые из них в итоге звучат одинаково."
     },
     {
       "type": "track",
@@ -144,16 +156,19 @@
     },
     {
       "type": "paragraph",
-      "html": "Before you move on, make sure you remember all the low class consonants that we have learnt so far and which group they belong to (group 1 or 2). You'll need it later!"
+      "html": "Before you move on, make sure you remember all the low class consonants that we have learnt so far and which group they belong to (group 1 or 2). You'll need it later!",
+      "htmlRu": "Прежде чем двигаться дальше, убедитесь, что вы помните все согласные низкого класса, которые мы выучили, и к какой группе они относятся (группа 1 или 2). Это понадобится вам позже!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "As quiet as death"
+      "text": "As quiet as death",
+      "textRu": "Тише мёртвого"
     },
     {
       "type": "paragraph",
-      "html": "Drag the end of these words on as long as possible:"
+      "html": "Drag the end of these words on as long as possible:",
+      "htmlRu": "Тяните концовку этих слов как можно дольше:"
     },
     {
       "type": "track",
@@ -169,7 +184,8 @@
     },
     {
       "type": "paragraph",
-      "html": "\"Haaaaaaa————\" \"Tannnnnn————\" Too easy. Now try doing the same with these words:"
+      "html": "\"Haaaaaaa————\" \"Tannnnnn————\" Too easy. Now try doing the same with these words:",
+      "htmlRu": "«Haaaaaaa————» «Tannnnnn————» Слишком легко. А теперь попробуйте то же самое с этими словами:"
     },
     {
       "type": "examples",
@@ -181,20 +197,24 @@
     },
     {
       "type": "paragraph",
-      "html": "\"Chôhk…\" \"Wâat…\" Impossible, right? And don't cheat by extending the vowel sound instead like \"chôoooooohk\" or \"wâaaaaaaat\"! The first two words are 'live' syllables which you can, in theory, keep humming forever, therefore they're live. On the other hand, the last two words are 'dead' syllables because as soon as you utter the last unit of sound, it has to stop. There's nothing you can do to keep the syllable going, so it's dead."
+      "html": "\"Chôhk…\" \"Wâat…\" Impossible, right? And don't cheat by extending the vowel sound instead like \"chôoooooohk\" or \"wâaaaaaaat\"! The first two words are 'live' syllables which you can, in theory, keep humming forever, therefore they're live. On the other hand, the last two words are 'dead' syllables because as soon as you utter the last unit of sound, it has to stop. There's nothing you can do to keep the syllable going, so it's dead.",
+      "htmlRu": "«Chôhk…» «Wâat…» Невозможно, правда? И не жульничайте, растягивая вместо этого гласный — вроде «chôoooooohk» или «wâaaaaaaat»! Первые два слова — это «живые» слоги, которые теоретически можно тянуть вечно, поэтому они и живые. А вот последние два — «мёртвые» слоги, потому что, как только вы произносите последний элемент звука, он должен остановиться. Вы никак не можете продлить слог — значит, он мёртвый."
     },
     {
       "type": "paragraph",
-      "html": "And if you need rules: live syllables are syllables that either end with [-ng], [-m], [-n], or a long vowel as a final sound, because they can be droned out until you're out of breath. Whereas dead syllables end with [-k], [-t], or [-p] as a final consonant, there's no way to elongate them."
+      "html": "And if you need rules: live syllables are syllables that either end with [-ng], [-m], [-n], or a long vowel as a final sound, because they can be droned out until you're out of breath. Whereas dead syllables end with [-k], [-t], or [-p] as a final consonant, there's no way to elongate them.",
+      "htmlRu": "А если вам нужны правила: живые слоги — это слоги, которые заканчиваются на [-ng], [-m], [-n] или на долгий гласный, потому что их можно тянуть, пока не кончится дыхание. Мёртвые же слоги заканчиваются на [-k], [-t] или [-p] — их никак не растянуть."
     },
     {
       "type": "rule",
       "html": "A LIVE syllable ends with: [-ng] [-m] [-n] (or any LC1 consonant), or a LONG vowel. A DEAD syllable ends with: [-k] [-t] [-p] (or any LC2 consonant).",
+      "htmlRu": "ЖИВОЙ слог заканчивается на: [-ng] [-m] [-n] (или любой согласный НК1), или на ДОЛГИЙ гласный. МЁРТВЫЙ слог заканчивается на: [-k] [-t] [-p] (или любой согласный НК2).",
       "emphasis": "strong"
     },
     {
       "type": "paragraph",
-      "html": "โชค /chôhk/ or วาท /wâat/ are dead because even though they contain a long vowel, they still finish with an LC2 consonant which makes them dead anyway. Look at these live and dead syllables below. Ignore all the tone changes, they will only distract you."
+      "html": "โชค /chôhk/ or วาท /wâat/ are dead because even though they contain a long vowel, they still finish with an LC2 consonant which makes them dead anyway. Look at these live and dead syllables below. Ignore all the tone changes, they will only distract you.",
+      "htmlRu": "โชค /chôhk/ и วาท /wâat/ — мёртвые, потому что, несмотря на долгий гласный, они заканчиваются на согласный НК2, что всё равно делает их мёртвыми. Посмотрите на живые и мёртвые слоги ниже. Не обращайте внимания на изменения тонов — они только собьют вас с толку."
     },
     {
       "type": "track",
@@ -223,11 +243,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Read the following phrases. Remember that final [-k] [-t] [-p] consonants are unreleased so don't go on and pronounce the final puffs. Next, separate each syllable and tell me if they're live or dead."
+      "html": "Read the following phrases. Remember that final [-k] [-t] [-p] consonants are unreleased so don't go on and pronounce the final puffs. Next, separate each syllable and tell me if they're live or dead.",
+      "htmlRu": "Прочитайте следующие фразы. Помните, что конечные согласные [-k] [-t] [-p] неотпускаемые — не произносите финальные «выдохи». Затем разделите каждый слог и определите, живой он или мёртвый."
     },
     {
       "type": "track",
@@ -255,6 +277,15 @@
         "ไ- and ใ- are pronounced the same way but ใ- is only used in certain words",
         "Live syllables are syllables in which the final sound can be elongated, but you can't do that with dead syllables",
         "The live-dead factor affects the tone of the syllable"
+      ],
+      "itemsRu": [
+        "Запомните все согласные НК2 и ещё 5 долгих гласных",
+        "В тайском языке согласные в конечной позиции неотпускаемые и поэтому могут звучать немного или существенно иначе, чем в начальной",
+        "Несколько согласных могут иметь одинаковый конечный звук",
+        "-ำ, ไ-, ใ-, เ-า и เ-ย НЕ сочетаются с конечными согласными",
+        "ไ- и ใ- произносятся одинаково, но ใ- используется только в определённых словах",
+        "Живые слоги — это слоги, конечный звук которых можно тянуть, а в мёртвых слогах это невозможно",
+        "Фактор «живой — мёртвый» влияет на тон слога"
       ]
     }
   ],

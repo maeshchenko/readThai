@@ -7,15 +7,18 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Appendix IV: Words That Use ใ"
+      "text": "Appendix IV: Words That Use ใ",
+      "textRu": "Приложение IV: Слова с ใ"
     },
     {
       "type": "paragraph",
-      "html": "As you learned previously, there are 20 words in Thai that contain the ใ- vowel. No more, no less. However, most of these words are extremely common, so you'll need to know which words you're supposed to spell with this squiggly ใ- [ai]."
+      "html": "As you learned previously, there are 20 words in Thai that contain the ใ- vowel. No more, no less. However, most of these words are extremely common, so you'll need to know which words you're supposed to spell with this squiggly ใ- [ai].",
+      "htmlRu": "Как вы узнали ранее, в тайском языке ровно 20 слов, содержащих гласный ใ-. Не больше и не меньше. Однако большинство этих слов чрезвычайно употребительны, поэтому вам нужно знать, какие именно слова пишутся с этим волнистым ใ- [ai]."
     },
     {
       "type": "thaiTable",
       "columns": ["Thai", "Transliteration", "Meaning"],
+      "columnsRu": ["Тайский", "Транслитерация", "Значение"],
       "rows": [
         { "thai": "ใกล้", "translit": "/glâi/", "meaning": "near, close" },
         { "thai": "ใคร", "translit": "/krai/", "meaning": "who" },
@@ -42,7 +45,8 @@
     {
       "type": "callout",
       "variant": "note",
-      "html": "Some of the words above can be translated in more than one way. The meanings given are just examples."
+      "html": "Some of the words above can be translated in more than one way. The meanings given are just examples.",
+      "htmlRu": "Некоторые из приведённых выше слов можно перевести несколькими способами. Указанные значения — лишь примеры."
     }
   ],
   "footnotes": {},

@@ -2,12 +2,13 @@
   "id": "glossary",
   "slug": "glossary",
   "titleEn": "Thai-English Glossary",
-  "titleRu": "Тайско-английский глоссарий",
+  "titleRu": "Тайско-русский глоссарий",
   "blocks": [
     {
       "type": "heading",
       "level": 1,
-      "text": "Thai-English Glossary"
+      "text": "Thai-English Glossary",
+      "textRu": "Тайско-русский глоссарий"
     },
     {
       "type": "thaiTable",
@@ -25,7 +26,8 @@
         {
           "thai": "ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ฤๅ ล ฦ ฦๅ ว ศ ษ ส ห ฬ อ ฮ",
           "translit": "",
-          "meaning": "[E] = English loanwords, [C] = Chinese loanwords, [P/S] = of Pali- Sanskrit origin, [K] = of Khmer origin, [D] = dialectal, [COL] = colloquial"
+          "meaning": "[E] = English loanwords, [C] = Chinese loanwords, [P/S] = of Pali- Sanskrit origin, [K] = of Khmer origin, [D] = dialectal, [COL] = colloquial",
+          "meaningRu": "[E] = английские заимствования, [C] = китайские заимствования, [P/S] = палийско-санскритского происхождения, [K] = кхмерского происхождения, [D] = диалектное, [COL] = разговорное"
         },
         {
           "thai": "ก",
@@ -35,82 +37,98 @@
         {
           "thai": "ก็",
           "translit": "",
-          "meaning": "so, then, too"
+          "meaning": "so, then, too",
+          "meaningRu": "так, тогда, тоже"
         },
         {
           "thai": "กฎหมาย",
           "translit": "",
-          "meaning": "law"
+          "meaning": "law",
+          "meaningRu": "закон"
         },
         {
           "thai": "กด",
           "translit": "",
-          "meaning": "to push"
+          "meaning": "to push",
+          "meaningRu": "нажимать"
         },
         {
           "thai": "กบาล",
           "translit": "",
-          "meaning": "head, skull"
+          "meaning": "head, skull",
+          "meaningRu": "голова, череп"
         },
         {
           "thai": "กร",
           "translit": "",
-          "meaning": "[P/S] hand"
+          "meaning": "[P/S] hand",
+          "meaningRu": "[P/S] рука"
         },
         {
           "thai": "กรรไกร",
           "translit": "",
-          "meaning": "scissors"
+          "meaning": "scissors",
+          "meaningRu": "ножницы"
         },
         {
           "thai": "กรรม",
           "translit": "",
-          "meaning": "karma"
+          "meaning": "karma",
+          "meaningRu": "карма"
         },
         {
           "thai": "กระทบ",
           "translit": "",
-          "meaning": "to hit, to affect"
+          "meaning": "to hit, to affect",
+          "meaningRu": "ударять, влиять"
         },
         {
           "thai": "กระเทียม",
           "translit": "",
-          "meaning": "garlic"
+          "meaning": "garlic",
+          "meaningRu": "чеснок"
         },
         {
           "thai": "กระยาสารท",
           "translit": "",
-          "meaning": "Thai sticky cereal"
+          "meaning": "Thai sticky cereal",
+          "meaningRu": "тайская рисовая сладость"
         },
         {
           "thai": "กรุงเทพมหานคร",
           "translit": "",
-          "meaning": "Bangkok"
+          "meaning": "Bangkok",
+          "meaningRu": "Бангкок"
         },
         {
           "thai": "กฤช",
           "translit": "",
-          "meaning": "dagger"
+          "meaning": "dagger",
+          "meaningRu": "кинжал"
         },
         {
           "thai": "กลม",
           "translit": "",
-          "meaning": "round"
+          "meaning": "round",
+          "meaningRu": "круглый"
         },
         {
           "thai": "กล้วย",
           "translit": "",
-          "meaning": "banana"
+          "meaning": "banana",
+          "meaningRu": "банан"
         },
         {
           "thai": "กลับ",
           "translit": "",
-          "meaning": "to return, to flip"
+          "meaning": "to return, to flip",
+          "meaningRu": "возвращаться, переворачивать"
         },
         {
           "thai": "กลัว",
           "translit": "",
-          "meaning": "afraid"
+          "meaning": "afraid",
+          "meaningRu": "испуганный"
         },
         {
           "thai": "กลา",
@@ -125,7 +143,8 @@
         {
           "thai": "กล้า",
           "translit": "",
-          "meaning": "brave, to dare"
+          "meaning": "brave, to dare",
+          "meaningRu": "смелый, осмеливаться"
         },
         {
           "thai": "กล๊า",
@@ -140,47 +159,56 @@
         {
           "thai": "ก๋วยเตี๋ยว",
           "translit": "",
-          "meaning": "noodles"
+          "meaning": "noodles",
+          "meaningRu": "лапша"
         },
         {
           "thai": "กว่า",
           "translit": "",
-          "meaning": "more than"
+          "meaning": "more than",
+          "meaningRu": "больше чем"
         },
         {
           "thai": "กษัตริย์",
           "translit": "",
-          "meaning": "king, monarch"
+          "meaning": "king, monarch",
+          "meaningRu": "король, монарх"
         },
         {
           "thai": "กอด",
           "translit": "",
-          "meaning": "to hug"
+          "meaning": "to hug",
+          "meaningRu": "обнимать"
         },
         {
           "thai": "กอล์ฟ",
           "translit": "",
-          "meaning": "golf"
+          "meaning": "golf",
+          "meaningRu": "гольф"
         },
         {
           "thai": "กะปิ",
           "translit": "",
-          "meaning": "shrimp paste"
+          "meaning": "shrimp paste",
+          "meaningRu": "креветочная паста"
         },
         {
           "thai": "กักตุน",
           "translit": "",
-          "meaning": "to hoard, to stockpile"
+          "meaning": "to hoard, to stockpile",
+          "meaningRu": "запасать, накапливать"
         },
         {
           "thai": "เกษียณ",
           "translit": "",
-          "meaning": "retired"
+          "meaning": "retired",
+          "meaningRu": "на пенсии"
         },
         {
           "thai": "เกสร",
           "translit": "",
-          "meaning": "pollen"
+          "meaning": "pollen",
+          "meaningRu": "пыльца"
         },
         {
           "thai": "เกอ",
@@ -190,57 +218,68 @@
         {
           "thai": "เก้า",
           "translit": "",
-          "meaning": "nine"
+          "meaning": "nine",
+          "meaningRu": "девять"
         },
         {
           "thai": "เกาะ",
           "translit": "",
-          "meaning": "island"
+          "meaning": "island",
+          "meaningRu": "остров"
         },
         {
           "thai": "เกิด",
           "translit": "",
-          "meaning": "to be born"
+          "meaning": "to be born",
+          "meaningRu": "родиться"
         },
         {
           "thai": "เกิน",
           "translit": "",
-          "meaning": "too much, excessive"
+          "meaning": "too much, excessive",
+          "meaningRu": "слишком, чрезмерный"
         },
         {
           "thai": "เกี๊ยะ",
           "translit": "",
-          "meaning": "[C] sandal"
+          "meaning": "[C] sandal",
+          "meaningRu": "[C] сандалия"
         },
         {
           "thai": "แกงฮังเล",
           "translit": "",
-          "meaning": "Hunglei curry"
+          "meaning": "Hunglei curry",
+          "meaningRu": "карри хангле"
         },
         {
           "thai": "แกร็น",
           "translit": "",
-          "meaning": "stunted"
+          "meaning": "stunted",
+          "meaningRu": "чахлый"
         },
         {
           "thai": "แกว่ง",
           "translit": "",
-          "meaning": "to swing, to dangle"
+          "meaning": "to swing, to dangle",
+          "meaningRu": "раскачивать, болтаться"
         },
         {
           "thai": "แกะ",
           "translit": "",
-          "meaning": "sheep, to peel"
+          "meaning": "sheep, to peel",
+          "meaningRu": "овца, очищать"
         },
         {
           "thai": "โกรธ",
           "translit": "",
-          "meaning": "angry"
+          "meaning": "angry",
+          "meaningRu": "злой"
         },
         {
           "thai": "ใกล้",
           "translit": "",
-          "meaning": "near"
+          "meaning": "near",
+          "meaningRu": "близко"
         },
         {
           "thai": "ข",
@@ -250,62 +289,74 @@
         {
           "thai": "ขจัด",
           "translit": "",
-          "meaning": "to get rid of, to wipe out"
+          "meaning": "to get rid of, to wipe out",
+          "meaningRu": "избавляться, уничтожать"
         },
         {
           "thai": "ขน",
           "translit": "",
-          "meaning": "hair, transport"
+          "meaning": "hair, transport",
+          "meaningRu": "волосы, перевозить"
         },
         {
           "thai": "ขนม",
           "translit": "",
-          "meaning": "sweets, dessert"
+          "meaning": "sweets, dessert",
+          "meaningRu": "сладости, десерт"
         },
         {
           "thai": "ขนาด",
           "translit": "",
-          "meaning": "size"
+          "meaning": "size",
+          "meaningRu": "размер"
         },
         {
           "thai": "ขนาดย่อม",
           "translit": "",
-          "meaning": "small size"
+          "meaning": "small size",
+          "meaningRu": "маленький размер"
         },
         {
           "thai": "ขบ",
           "translit": "",
-          "meaning": "to nibble, to gobble"
+          "meaning": "to nibble, to gobble",
+          "meaningRu": "грызть, жевать"
         },
         {
           "thai": "ขบวน",
           "translit": "",
-          "meaning": "procession, caravan"
+          "meaning": "procession, caravan",
+          "meaningRu": "процессия, караван"
         },
         {
           "thai": "ขม",
           "translit": "",
-          "meaning": "bitter"
+          "meaning": "bitter",
+          "meaningRu": "горький"
         },
         {
           "thai": "ขโมย",
           "translit": "",
-          "meaning": "to steal, thief"
+          "meaning": "to steal, thief",
+          "meaningRu": "красть, вор"
         },
         {
           "thai": "ขริบ",
           "translit": "",
-          "meaning": "circumcise"
+          "meaning": "circumcise",
+          "meaningRu": "обрезать"
         },
         {
           "thai": "ขลาด",
           "translit": "",
-          "meaning": "cowardly"
+          "meaning": "cowardly",
+          "meaningRu": "трусливый"
         },
         {
           "thai": "ของ",
           "translit": "",
-          "meaning": "thing, of"
+          "meaning": "thing, of",
+          "meaningRu": "вещь, принадлежность"
         },
         {
           "thai": "ข่อง",
@@ -315,87 +366,104 @@
         {
           "thai": "ข้อง",
           "translit": "",
-          "meaning": "fish trap"
+          "meaning": "fish trap",
+          "meaningRu": "рыбная ловушка"
         },
         {
           "thai": "ขอโทษ",
           "translit": "",
-          "meaning": "sorry"
+          "meaning": "sorry",
+          "meaningRu": "извините"
         },
         {
           "thai": "ขอบคุณ",
           "translit": "",
-          "meaning": "thank you"
+          "meaning": "thank you",
+          "meaningRu": "спасибо"
         },
         {
           "thai": "ขัด",
           "translit": "",
-          "meaning": "to scrub"
+          "meaning": "to scrub",
+          "meaningRu": "тереть"
         },
         {
           "thai": "ขัดสมาธิ",
           "translit": "",
-          "meaning": "to sit cross-legged"
+          "meaning": "to sit cross-legged",
+          "meaningRu": "сидеть скрестив ноги"
         },
         {
           "thai": "ขัน",
           "translit": "",
-          "meaning": "crowing of rooster"
+          "meaning": "crowing of rooster",
+          "meaningRu": "кукареканье петуха"
         },
         {
           "thai": "ขา",
           "translit": "",
-          "meaning": "leg"
+          "meaning": "leg",
+          "meaningRu": "нога"
         },
         {
           "thai": "ขาด",
           "translit": "",
-          "meaning": "torn, lack"
+          "meaning": "torn, lack",
+          "meaningRu": "порванный, нехватка"
         },
         {
           "thai": "ขาว",
           "translit": "",
-          "meaning": "white"
+          "meaning": "white",
+          "meaningRu": "белый"
         },
         {
           "thai": "ข่าว",
           "translit": "",
-          "meaning": "news"
+          "meaning": "news",
+          "meaningRu": "новости"
         },
         {
           "thai": "ข้าว",
           "translit": "",
-          "meaning": "rice, meal"
+          "meaning": "rice, meal",
+          "meaningRu": "рис, еда"
         },
         {
           "thai": "ข้าวซอย",
           "translit": "",
-          "meaning": "Thai northern curry noodles"
+          "meaning": "Thai northern curry noodles",
+          "meaningRu": "тайская северная лапша карри"
         },
         {
           "thai": "ขำ",
           "translit": "",
-          "meaning": "to snigger"
+          "meaning": "to snigger",
+          "meaningRu": "хихикать"
         },
         {
           "thai": "ขิง",
           "translit": "",
-          "meaning": "ginger"
+          "meaning": "ginger",
+          "meaningRu": "имбирь"
         },
         {
           "thai": "ขี่",
           "translit": "",
-          "meaning": "to ride"
+          "meaning": "to ride",
+          "meaningRu": "ездить верхом"
         },
         {
           "thai": "เขม่า",
           "translit": "",
-          "meaning": "soot"
+          "meaning": "soot",
+          "meaningRu": "сажа"
         },
         {
           "thai": "เขวี้ยง",
           "translit": "",
-          "meaning": "to throw"
+          "meaning": "to throw",
+          "meaningRu": "бросать"
         },
         {
           "thai": "เขอ",
@@ -405,22 +473,26 @@
         {
           "thai": "เขา",
           "translit": "",
-          "meaning": "he, she, mountain"
+          "meaning": "he, she, mountain",
+          "meaningRu": "он, она, гора"
         },
         {
           "thai": "เขิน",
           "translit": "",
-          "meaning": "shy"
+          "meaning": "shy",
+          "meaningRu": "застенчивый"
         },
         {
           "thai": "เขียน",
           "translit": "",
-          "meaning": "to write"
+          "meaning": "to write",
+          "meaningRu": "писать"
         },
         {
           "thai": "เขียว",
           "translit": "",
-          "meaning": "green"
+          "meaning": "green",
+          "meaningRu": "зелёный"
         },
         {
           "thai": "แขง",
@@ -430,12 +502,14 @@
         {
           "thai": "แข็ง",
           "translit": "",
-          "meaning": "hard"
+          "meaning": "hard",
+          "meaningRu": "твёрдый"
         },
         {
           "thai": "โขก",
           "translit": "",
-          "meaning": "to knock"
+          "meaning": "to knock",
+          "meaningRu": "стучать"
         },
         {
           "thai": "ค",
@@ -445,207 +519,248 @@
         {
           "thai": "คณิต",
           "translit": "",
-          "meaning": "maths"
+          "meaning": "maths",
+          "meaningRu": "математика"
         },
         {
           "thai": "คดี",
           "translit": "",
-          "meaning": "lawsuit"
+          "meaning": "lawsuit",
+          "meaningRu": "судебный иск"
         },
         {
           "thai": "คน",
           "translit": "",
-          "meaning": "human, person, to stir"
+          "meaning": "human, person, to stir",
+          "meaningRu": "человек, мешать"
         },
         {
           "thai": "คนเดียว",
           "translit": "",
-          "meaning": "alone"
+          "meaning": "alone",
+          "meaningRu": "один"
         },
         {
           "thai": "คนโต",
           "translit": "",
-          "meaning": "eldest child"
+          "meaning": "eldest child",
+          "meaningRu": "старший ребёнок"
         },
         {
           "thai": "ค้นหา",
           "translit": "",
-          "meaning": "to search"
+          "meaning": "to search",
+          "meaningRu": "искать"
         },
         {
           "thai": "ครบ",
           "translit": "",
-          "meaning": "altogether, complete"
+          "meaning": "altogether, complete",
+          "meaningRu": "полностью, весь"
         },
         {
           "thai": "ครรภ์",
           "translit": "",
-          "meaning": "pregnancy"
+          "meaning": "pregnancy",
+          "meaningRu": "беременность"
         },
         {
           "thai": "ครับ",
           "translit": "",
-          "meaning": "[male polite particle]"
+          "meaning": "[male polite particle]",
+          "meaningRu": "[мужская вежливая частица]"
         },
         {
           "thai": "คฤหาสน์",
           "translit": "",
-          "meaning": "mansion"
+          "meaning": "mansion",
+          "meaningRu": "особняк"
         },
         {
           "thai": "คลอง",
           "translit": "",
-          "meaning": "canal"
+          "meaning": "canal",
+          "meaningRu": "канал"
         },
         {
           "thai": "คลื่น",
           "translit": "",
-          "meaning": "wave"
+          "meaning": "wave",
+          "meaningRu": "волна"
         },
         {
           "thai": "ควบ",
           "translit": "",
-          "meaning": "to gallop, combined"
+          "meaning": "to gallop, combined",
+          "meaningRu": "скакать, совмещённый"
         },
         {
           "thai": "ควร",
           "translit": "",
-          "meaning": "should"
+          "meaning": "should",
+          "meaningRu": "следует"
         },
         {
           "thai": "ความ",
           "translit": "",
-          "meaning": "[prefix; changes verb/adj to abstract noun]"
+          "meaning": "[prefix; changes verb/adj to abstract noun]",
+          "meaningRu": "[префикс; превращает глагол/прил. в абстрактное сущ.]"
         },
         {
           "thai": "ความเกรงใจ",
           "translit": "",
-          "meaning": "fear of offending or burdening others"
+          "meaning": "fear of offending or burdening others",
+          "meaningRu": "боязнь обидеть или обременить других"
         },
         {
           "thai": "ความรู้สึก",
           "translit": "",
-          "meaning": "feelings"
+          "meaning": "feelings",
+          "meaningRu": "чувства"
         },
         {
           "thai": "ความสัมพันธ์",
           "translit": "",
-          "meaning": "relationship"
+          "meaning": "relationship",
+          "meaningRu": "отношения"
         },
         {
           "thai": "ควาย",
           "translit": "",
-          "meaning": "water buffalo"
+          "meaning": "water buffalo",
+          "meaningRu": "буйвол"
         },
         {
           "thai": "คะ",
           "translit": "",
-          "meaning": "[female polite interrogative particle]"
+          "meaning": "[female polite interrogative particle]",
+          "meaningRu": "[женская вежливая вопросительная частица]"
         },
         {
           "thai": "ค่ะ",
           "translit": "",
-          "meaning": "[female polite particle]"
+          "meaning": "[female polite particle]",
+          "meaningRu": "[женская вежливая частица]"
         },
         {
           "thai": "คัด",
           "translit": "",
-          "meaning": "to congest, to select, to transcribe"
+          "meaning": "to congest, to select, to transcribe",
+          "meaningRu": "застаиваться, выбирать, переписывать"
         },
         {
           "thai": "คัน",
           "translit": "",
-          "meaning": "to itch"
+          "meaning": "to itch",
+          "meaningRu": "чесаться"
         },
         {
           "thai": "คับ",
           "translit": "",
-          "meaning": "tight"
+          "meaning": "tight",
+          "meaningRu": "тесный"
         },
         {
           "thai": "คาด",
           "translit": "",
-          "meaning": "to fasten, to expect"
+          "meaning": "to fasten, to expect",
+          "meaningRu": "застёгивать, ожидать"
         },
         {
           "thai": "คาว",
           "translit": "",
-          "meaning": "fishy"
+          "meaning": "fishy",
+          "meaningRu": "рыбный (запах)"
         },
         {
           "thai": "คำ",
           "translit": "",
-          "meaning": "word"
+          "meaning": "word",
+          "meaningRu": "слово"
         },
         {
           "thai": "คืน",
           "translit": "",
-          "meaning": "night, to return"
+          "meaning": "night, to return",
+          "meaningRu": "ночь, возвращать"
         },
         {
           "thai": "คือ",
           "translit": "",
-          "meaning": "to be"
+          "meaning": "to be",
+          "meaningRu": "быть"
         },
         {
           "thai": "คุณ",
           "translit": "",
-          "meaning": "you [polite]"
+          "meaning": "you [polite]",
+          "meaningRu": "вы [вежл.]"
         },
         {
           "thai": "เคฟ",
           "translit": "",
-          "meaning": "[E] cave"
+          "meaning": "[E] cave",
+          "meaningRu": "[E] пещера"
         },
         {
           "thai": "เค็ม",
           "translit": "",
-          "meaning": "salty"
+          "meaning": "salty",
+          "meaningRu": "солёный"
         },
         {
           "thai": "เคย",
           "translit": "",
-          "meaning": "used to, have ever"
+          "meaning": "used to, have ever",
+          "meaningRu": "бывало, когда-либо"
         },
         {
           "thai": "เค้า",
           "translit": "",
-          "meaning": "[COL] he, she"
+          "meaning": "[COL] he, she",
+          "meaningRu": "[COL] он, она"
         },
         {
           "thai": "เคาะ",
           "translit": "",
-          "meaning": "to knock on"
+          "meaning": "to knock on",
+          "meaningRu": "стучать в"
         },
         {
           "thai": "แคว",
           "translit": "",
-          "meaning": "tributary, stream"
+          "meaning": "tributary, stream",
+          "meaningRu": "приток, ручей"
         },
         {
           "thai": "โคก",
           "translit": "",
-          "meaning": "mound, knoll"
+          "meaning": "mound, knoll",
+          "meaningRu": "холм, бугор"
         },
         {
           "thai": "โค้ก",
           "translit": "",
-          "meaning": "Coke"
+          "meaning": "Coke",
+          "meaningRu": "Кока-кола"
         },
         {
           "thai": "โค้ง",
           "translit": "",
-          "meaning": "curve, to bow"
+          "meaning": "curve, to bow",
+          "meaningRu": "изгиб, кланяться"
         },
         {
           "thai": "โคน",
           "translit": "",
-          "meaning": "root"
+          "meaning": "root",
+          "meaningRu": "корень"
         },
         {
           "thai": "ใคร",
           "translit": "",
-          "meaning": "who"
+          "meaning": "who",
+          "meaningRu": "кто"
         },
         {
           "thai": "ฆ",
@@ -655,7 +770,8 @@
         {
           "thai": "ฆ่า",
           "translit": "",
-          "meaning": "to kill"
+          "meaning": "to kill",
+          "meaningRu": "убивать"
         },
         {
           "thai": "ง",
@@ -665,12 +781,14 @@
         {
           "thai": "งอม",
           "translit": "",
-          "meaning": "to ripen"
+          "meaning": "to ripen",
+          "meaningRu": "созревать"
         },
         {
           "thai": "งู",
           "translit": "",
-          "meaning": "snake"
+          "meaning": "snake",
+          "meaningRu": "змея"
         },
         {
           "thai": "เงอ",
@@ -680,12 +798,14 @@
         {
           "thai": "เงาะ",
           "translit": "",
-          "meaning": "rambutan"
+          "meaning": "rambutan",
+          "meaningRu": "рамбутан"
         },
         {
           "thai": "เงิน",
           "translit": "",
-          "meaning": "money, silver"
+          "meaning": "money, silver",
+          "meaningRu": "деньги, серебро"
         },
         {
           "thai": "จ",
@@ -695,82 +815,98 @@
         {
           "thai": "จง",
           "translit": "",
-          "meaning": "[command particle]"
+          "meaning": "[command particle]",
+          "meaningRu": "[повелительная частица]"
         },
         {
           "thai": "จน",
           "translit": "",
-          "meaning": "poor, until"
+          "meaning": "poor, until",
+          "meaningRu": "бедный, пока"
         },
         {
           "thai": "จนกว่า",
           "translit": "",
-          "meaning": "until"
+          "meaning": "until",
+          "meaningRu": "пока"
         },
         {
           "thai": "จราจร",
           "translit": "",
-          "meaning": "traffic"
+          "meaning": "traffic",
+          "meaningRu": "дорожное движение"
         },
         {
           "thai": "จริง",
           "translit": "",
-          "meaning": "true, really"
+          "meaning": "true, really",
+          "meaningRu": "правда, действительно"
         },
         {
           "thai": "จลาจล",
           "translit": "",
-          "meaning": "chaos, anarchy"
+          "meaning": "chaos, anarchy",
+          "meaningRu": "хаос, анархия"
         },
         {
           "thai": "จวน",
           "translit": "",
-          "meaning": "almost"
+          "meaning": "almost",
+          "meaningRu": "почти"
         },
         {
           "thai": "จอด",
           "translit": "",
-          "meaning": "to park (car)"
+          "meaning": "to park (car)",
+          "meaningRu": "парковать (машину)"
         },
         {
           "thai": "จะ",
           "translit": "",
-          "meaning": "will"
+          "meaning": "will",
+          "meaningRu": "будет [частица будущего времени]"
         },
         {
           "thai": "จ้ะ",
           "translit": "",
-          "meaning": "[intimate final particle]"
+          "meaning": "[intimate final particle]",
+          "meaningRu": "[интимная конечная частица]"
         },
         {
           "thai": "จ๊ะจ๋า",
           "translit": "",
-          "meaning": "sweet talk"
+          "meaning": "sweet talk",
+          "meaningRu": "сладкие речи"
         },
         {
           "thai": "จักร",
           "translit": "",
-          "meaning": "disc, discus"
+          "meaning": "disc, discus",
+          "meaningRu": "диск"
         },
         {
           "thai": "จักรพรรดิ",
           "translit": "",
-          "meaning": "emperor"
+          "meaning": "emperor",
+          "meaningRu": "император"
         },
         {
           "thai": "จักรยาน",
           "translit": "",
-          "meaning": "bicycle"
+          "meaning": "bicycle",
+          "meaningRu": "велосипед"
         },
         {
           "thai": "จัง",
           "translit": "",
-          "meaning": "[expressive final particle]"
+          "meaning": "[expressive final particle]",
+          "meaningRu": "[усилительная конечная частица]"
         },
         {
           "thai": "จันทร์",
           "translit": "",
-          "meaning": "moon, Monday"
+          "meaning": "moon, Monday",
+          "meaningRu": "луна, понедельник"
         },
         {
           "thai": "จา",
@@ -780,52 +916,62 @@
         {
           "thai": "จ่า",
           "translit": "",
-          "meaning": "chieftain"
+          "meaning": "chieftain",
+          "meaningRu": "вождь"
         },
         {
           "thai": "จ้า",
           "translit": "",
-          "meaning": "[intimate final particle]"
+          "meaning": "[intimate final particle]",
+          "meaningRu": "[интимная конечная частица]"
         },
         {
           "thai": "จ๋า",
           "translit": "",
-          "meaning": "[intimate final particle]"
+          "meaning": "[intimate final particle]",
+          "meaningRu": "[интимная конечная частица]"
         },
         {
           "thai": "จาก",
           "translit": "",
-          "meaning": "from"
+          "meaning": "from",
+          "meaningRu": "от, из"
         },
         {
           "thai": "จีน",
           "translit": "",
-          "meaning": "China, Chinese"
+          "meaning": "China, Chinese",
+          "meaningRu": "Китай, китайский"
         },
         {
           "thai": "จุฬา",
           "translit": "",
-          "meaning": "King Chula"
+          "meaning": "King Chula",
+          "meaningRu": "Король Чула"
         },
         {
           "thai": "เจ",
           "translit": "",
-          "meaning": "vegan"
+          "meaning": "vegan",
+          "meaningRu": "веганский"
         },
         {
           "thai": "เจ๊",
           "translit": "",
-          "meaning": "[C] elder sister"
+          "meaning": "[C] elder sister",
+          "meaningRu": "[C] старшая сестра"
         },
         {
           "thai": "เจ็ด",
           "translit": "",
-          "meaning": "seven"
+          "meaning": "seven",
+          "meaningRu": "семь"
         },
         {
           "thai": "เจดีย์",
           "translit": "",
-          "meaning": "pagoda"
+          "meaning": "pagoda",
+          "meaningRu": "пагода"
         },
         {
           "thai": "เจบ",
@@ -835,37 +981,44 @@
         {
           "thai": "เจ็บ",
           "translit": "",
-          "meaning": "painful, to hurt"
+          "meaning": "painful, to hurt",
+          "meaningRu": "болезненный, болеть"
         },
         {
           "thai": "เจอ",
           "translit": "",
-          "meaning": "to find, to meet"
+          "meaning": "to find, to meet",
+          "meaningRu": "находить, встречать"
         },
         {
           "thai": "เจ้า",
           "translit": "",
-          "meaning": "[D] you"
+          "meaning": "[D] you",
+          "meaningRu": "[D] ты"
         },
         {
           "thai": "เจาะ",
           "translit": "",
-          "meaning": "pierce, puncture"
+          "meaning": "pierce, puncture",
+          "meaningRu": "протыкать, прокалывать"
         },
         {
           "thai": "โจทย์",
           "translit": "",
-          "meaning": "maths question"
+          "meaning": "maths question",
+          "meaningRu": "математическая задача"
         },
         {
           "thai": "โจร",
           "translit": "",
-          "meaning": "thief, robber"
+          "meaning": "thief, robber",
+          "meaningRu": "вор, грабитель"
         },
         {
           "thai": "ใจ",
           "translit": "",
-          "meaning": "heart"
+          "meaning": "heart",
+          "meaningRu": "сердце"
         },
         {
           "thai": "ฉ",
@@ -875,27 +1028,32 @@
         {
           "thai": "ฉก",
           "translit": "",
-          "meaning": "snake strike"
+          "meaning": "snake strike",
+          "meaningRu": "бросок змеи"
         },
         {
           "thai": "ฉลาด",
           "translit": "",
-          "meaning": "clever"
+          "meaning": "clever",
+          "meaningRu": "умный"
         },
         {
           "thai": "ฉะ",
           "translit": "",
-          "meaning": "to fight, to confront"
+          "meaning": "to fight, to confront",
+          "meaningRu": "сражаться, противостоять"
         },
         {
           "thai": "ฉัน",
           "translit": "",
-          "meaning": "I"
+          "meaning": "I",
+          "meaningRu": "я"
         },
         {
           "thai": "เฉย",
           "translit": "",
-          "meaning": "indifferent, still"
+          "meaning": "indifferent, still",
+          "meaningRu": "равнодушный, неподвижный"
         },
         {
           "thai": "ช",
@@ -905,72 +1063,86 @@
         {
           "thai": "ชอบ",
           "translit": "",
-          "meaning": "to like"
+          "meaning": "to like",
+          "meaningRu": "нравиться"
         },
         {
           "thai": "ชะ",
           "translit": "",
-          "meaning": "to wash away"
+          "meaning": "to wash away",
+          "meaningRu": "смывать"
         },
         {
           "thai": "ชัน",
           "translit": "",
-          "meaning": "steep"
+          "meaning": "steep",
+          "meaningRu": "крутой"
         },
         {
           "thai": "ช้า",
           "translit": "",
-          "meaning": "slow"
+          "meaning": "slow",
+          "meaningRu": "медленный"
         },
         {
           "thai": "ชาติ",
           "translit": "",
-          "meaning": "nation"
+          "meaning": "nation",
+          "meaningRu": "нация"
         },
         {
           "thai": "ชาย",
           "translit": "",
-          "meaning": "male"
+          "meaning": "male",
+          "meaningRu": "мужской"
         },
         {
           "thai": "ชิม",
           "translit": "",
-          "meaning": "to taste"
+          "meaning": "to taste",
+          "meaningRu": "пробовать"
         },
         {
           "thai": "ชีพ",
           "translit": "",
-          "meaning": "[P/S] life"
+          "meaning": "[P/S] life",
+          "meaningRu": "[P/S] жизнь"
         },
         {
           "thai": "ชื่อ",
           "translit": "",
-          "meaning": "name"
+          "meaning": "name",
+          "meaningRu": "имя"
         },
         {
           "thai": "ชุมชน",
           "translit": "",
-          "meaning": "community"
+          "meaning": "community",
+          "meaningRu": "община"
         },
         {
           "thai": "ชุมนุม",
           "translit": "",
-          "meaning": "gathering"
+          "meaning": "gathering",
+          "meaningRu": "собрание"
         },
         {
           "thai": "ชูชีพ",
           "translit": "",
-          "meaning": "lifesaving (vest)"
+          "meaning": "lifesaving (vest)",
+          "meaningRu": "спасательный (жилет)"
         },
         {
           "thai": "เชย",
           "translit": "",
-          "meaning": "old-fashioned"
+          "meaning": "old-fashioned",
+          "meaningRu": "старомодный"
         },
         {
           "thai": "เชรด",
           "translit": "",
-          "meaning": "[E] to shred"
+          "meaning": "[E] to shred",
+          "meaningRu": "[E] измельчать"
         },
         {
           "thai": "เชอ",
@@ -980,27 +1152,32 @@
         {
           "thai": "เชิญ",
           "translit": "",
-          "meaning": "to invite, please…"
+          "meaning": "to invite, please…",
+          "meaningRu": "приглашать, пожалуйста…"
         },
         {
           "thai": "เชือก",
           "translit": "",
-          "meaning": "rope"
+          "meaning": "rope",
+          "meaningRu": "верёвка"
         },
         {
           "thai": "แชร์",
           "translit": "",
-          "meaning": "[E] to share"
+          "meaning": "[E] to share",
+          "meaningRu": "[E] делиться"
         },
         {
           "thai": "โชค",
           "translit": "",
-          "meaning": "luck"
+          "meaning": "luck",
+          "meaningRu": "удача"
         },
         {
           "thai": "ใช้",
           "translit": "",
-          "meaning": "to use"
+          "meaning": "to use",
+          "meaningRu": "использовать"
         },
         {
           "thai": "ซ",
@@ -1010,67 +1187,80 @@
         {
           "thai": "ซวย",
           "translit": "",
-          "meaning": "bad luck"
+          "meaning": "bad luck",
+          "meaningRu": "невезение"
         },
         {
           "thai": "ซอง",
           "translit": "",
-          "meaning": "envelope"
+          "meaning": "envelope",
+          "meaningRu": "конверт"
         },
         {
           "thai": "ซอย",
           "translit": "",
-          "meaning": "alley"
+          "meaning": "alley",
+          "meaningRu": "переулок"
         },
         {
           "thai": "ซะ",
           "translit": "",
-          "meaning": "[command final particle]"
+          "meaning": "[command final particle]",
+          "meaningRu": "[повелительная конечная частица]"
         },
         {
           "thai": "ซาก",
           "translit": "",
-          "meaning": "carcass"
+          "meaning": "carcass",
+          "meaningRu": "туша"
         },
         {
           "thai": "ซิ",
           "translit": "",
-          "meaning": "[suggestion final particle]"
+          "meaning": "[suggestion final particle]",
+          "meaningRu": "[предложительная конечная частица]"
         },
         {
           "thai": "ซึ่ง",
           "translit": "",
-          "meaning": "that, which"
+          "meaning": "that, which",
+          "meaningRu": "который"
         },
         {
           "thai": "ซูบ",
           "translit": "",
-          "meaning": "gaunt"
+          "meaning": "gaunt",
+          "meaningRu": "изнурённый"
         },
         {
           "thai": "ซูม",
           "translit": "",
-          "meaning": "[E] to zoom"
+          "meaning": "[E] to zoom",
+          "meaningRu": "[E] увеличивать"
         },
         {
           "thai": "แซม",
           "translit": "",
-          "meaning": "[E] Sam"
+          "meaning": "[E] Sam",
+          "meaningRu": "[E] Сэм"
         },
         {
           "thai": "โซพ",
           "translit": "",
-          "meaning": "[E] soap"
+          "meaning": "[E] soap",
+          "meaningRu": "[E] мыло"
         },
         {
           "thai": "ไซ",
           "translit": "",
-          "meaning": "bamboo fish trap"
+          "meaning": "bamboo fish trap",
+          "meaningRu": "бамбуковая ловушка для рыбы"
         },
         {
           "thai": "ไซร้",
           "translit": "",
-          "meaning": "then"
+          "meaning": "then",
+          "meaningRu": "тогда"
         },
         {
           "thai": "ญ",
@@ -1080,12 +1270,14 @@
         {
           "thai": "ญาติ",
           "translit": "",
-          "meaning": "relative"
+          "meaning": "relative",
+          "meaningRu": "родственник"
         },
         {
           "thai": "ญี่ปุ่น",
           "translit": "",
-          "meaning": "Japan"
+          "meaning": "Japan",
+          "meaningRu": "Япония"
         },
         {
           "thai": "ฐ",
@@ -1095,7 +1287,8 @@
         {
           "thai": "ฐานะ",
           "translit": "",
-          "meaning": "status"
+          "meaning": "status",
+          "meaningRu": "статус"
         },
         {
           "thai": "ณ",
@@ -1105,12 +1298,14 @@
         {
           "thai": "ณ",
           "translit": "",
-          "meaning": "at"
+          "meaning": "at",
+          "meaningRu": "в, при"
         },
         {
           "thai": "เณร",
           "translit": "",
-          "meaning": "novice monk"
+          "meaning": "novice monk",
+          "meaningRu": "послушник"
         },
         {
           "thai": "ด",
@@ -1120,87 +1315,104 @@
         {
           "thai": "ดรัก",
           "translit": "",
-          "meaning": "[E] drug"
+          "meaning": "[E] drug",
+          "meaningRu": "[E] наркотик"
         },
         {
           "thai": "ดวง",
           "translit": "",
-          "meaning": "luck"
+          "meaning": "luck",
+          "meaningRu": "удача"
         },
         {
           "thai": "ด้วย",
           "translit": "",
-          "meaning": "too, also"
+          "meaning": "too, also",
+          "meaningRu": "тоже, также"
         },
         {
           "thai": "ดอย",
           "translit": "",
-          "meaning": "[D] hill"
+          "meaning": "[D] hill",
+          "meaningRu": "[D] холм"
         },
         {
           "thai": "ดับ",
           "translit": "",
-          "meaning": "to extinguish, to put out"
+          "meaning": "to extinguish, to put out",
+          "meaningRu": "тушить, гасить"
         },
         {
           "thai": "ดำ",
           "translit": "",
-          "meaning": "black, to dive"
+          "meaning": "black, to dive",
+          "meaningRu": "чёрный, нырять"
         },
         {
           "thai": "ดึก",
           "translit": "",
-          "meaning": "late at night"
+          "meaning": "late at night",
+          "meaningRu": "поздно ночью"
         },
         {
           "thai": "ดุ",
           "translit": "",
-          "meaning": "to scold, ferocious"
+          "meaning": "to scold, ferocious",
+          "meaningRu": "ругать, свирепый"
         },
         {
           "thai": "เดิน",
           "translit": "",
-          "meaning": "to walk"
+          "meaning": "to walk",
+          "meaningRu": "ходить"
         },
         {
           "thai": "เดิม",
           "translit": "",
-          "meaning": "former, old"
+          "meaning": "former, old",
+          "meaningRu": "прежний, старый"
         },
         {
           "thai": "เดือด",
           "translit": "",
-          "meaning": "to boil"
+          "meaning": "to boil",
+          "meaningRu": "кипеть"
         },
         {
           "thai": "แดง",
           "translit": "",
-          "meaning": "red"
+          "meaning": "red",
+          "meaningRu": "красный"
         },
         {
           "thai": "แดด",
           "translit": "",
-          "meaning": "sunlight"
+          "meaning": "sunlight",
+          "meaningRu": "солнечный свет"
         },
         {
           "thai": "โดน",
           "translit": "",
-          "meaning": "to hit, to strike"
+          "meaning": "to hit, to strike",
+          "meaningRu": "ударять, попадать"
         },
         {
           "thai": "ได้",
           "translit": "",
-          "meaning": "can, able to"
+          "meaning": "can, able to",
+          "meaningRu": "мочь, уметь"
         },
         {
           "thai": "ได้แก่",
           "translit": "",
-          "meaning": "such as"
+          "meaning": "such as",
+          "meaningRu": "такие как"
         },
         {
           "thai": "ได้รับ",
           "translit": "",
-          "meaning": "to receive"
+          "meaning": "to receive",
+          "meaningRu": "получать"
         },
         {
           "thai": "ต",
@@ -1210,152 +1422,182 @@
         {
           "thai": "ตก",
           "translit": "",
-          "meaning": "to fall"
+          "meaning": "to fall",
+          "meaningRu": "падать"
         },
         {
           "thai": "ตกลง",
           "translit": "",
-          "meaning": "to agree"
+          "meaning": "to agree",
+          "meaningRu": "соглашаться"
         },
         {
           "thai": "ตรง",
           "translit": "",
-          "meaning": "straight, precise"
+          "meaning": "straight, precise",
+          "meaningRu": "прямой, точный"
         },
         {
           "thai": "ตรรกะ",
           "translit": "",
-          "meaning": "logic"
+          "meaning": "logic",
+          "meaningRu": "логика"
         },
         {
           "thai": "ตรวจ",
           "translit": "",
-          "meaning": "to check, to inspect"
+          "meaning": "to check, to inspect",
+          "meaningRu": "проверять, осматривать"
         },
         {
           "thai": "ตระหนกตกใจ",
           "translit": "",
-          "meaning": "to panic"
+          "meaning": "to panic",
+          "meaningRu": "паниковать"
         },
         {
           "thai": "ตลก",
           "translit": "",
-          "meaning": "funny, humorous"
+          "meaning": "funny, humorous",
+          "meaningRu": "смешной, юмористический"
         },
         {
           "thai": "ตลอด",
           "translit": "",
-          "meaning": "always, all through"
+          "meaning": "always, all through",
+          "meaningRu": "всегда, на всём протяжении"
         },
         {
           "thai": "ตลาด",
           "translit": "",
-          "meaning": "market"
+          "meaning": "market",
+          "meaningRu": "рынок"
         },
         {
           "thai": "ตวาด",
           "translit": "",
-          "meaning": "to snap at someone"
+          "meaning": "to snap at someone",
+          "meaningRu": "огрызаться"
         },
         {
           "thai": "ต่อ",
           "translit": "",
-          "meaning": "to join, to continue"
+          "meaning": "to join, to continue",
+          "meaningRu": "соединять, продолжать"
         },
         {
           "thai": "ต่อกัน",
           "translit": "",
-          "meaning": "to each other"
+          "meaning": "to each other",
+          "meaningRu": "друг другу"
         },
         {
           "thai": "ตอน",
           "translit": "",
-          "meaning": "when, period of time"
+          "meaning": "when, period of time",
+          "meaningRu": "когда, период времени"
         },
         {
           "thai": "ตอนนั้น",
           "translit": "",
-          "meaning": "at that time"
+          "meaning": "at that time",
+          "meaningRu": "в то время"
         },
         {
           "thai": "ตะปู",
           "translit": "",
-          "meaning": "nail, spike"
+          "meaning": "nail, spike",
+          "meaningRu": "гвоздь, шип"
         },
         {
           "thai": "ตะรุเตา",
           "translit": "",
-          "meaning": "Tarutao [place name]"
+          "meaning": "Tarutao [place name]",
+          "meaningRu": "Тарутао [название места]"
         },
         {
           "thai": "ตะวันออก",
           "translit": "",
-          "meaning": "east"
+          "meaning": "east",
+          "meaningRu": "восток"
         },
         {
           "thai": "ตัด",
           "translit": "",
-          "meaning": "to cut"
+          "meaning": "to cut",
+          "meaningRu": "резать"
         },
         {
           "thai": "ตัว",
           "translit": "",
-          "meaning": "body, self"
+          "meaning": "body, self",
+          "meaningRu": "тело, сам"
         },
         {
           "thai": "ตาก",
           "translit": "",
-          "meaning": "to dry in the sun"
+          "meaning": "to dry in the sun",
+          "meaningRu": "сушить на солнце"
         },
         {
           "thai": "ติ",
           "translit": "",
-          "meaning": "to criticise"
+          "meaning": "to criticise",
+          "meaningRu": "критиковать"
         },
         {
           "thai": "ติ๊งต๊อง",
           "translit": "",
-          "meaning": "stupid, silly"
+          "meaning": "stupid, silly",
+          "meaningRu": "глупый, дурачок"
         },
         {
           "thai": "เตย",
           "translit": "",
-          "meaning": "pandan leaf"
+          "meaning": "pandan leaf",
+          "meaningRu": "лист пандана"
         },
         {
           "thai": "เติบโต",
           "translit": "",
-          "meaning": "to grow up"
+          "meaning": "to grow up",
+          "meaningRu": "расти"
         },
         {
           "thai": "เติม",
           "translit": "",
-          "meaning": "to fill"
+          "meaning": "to fill",
+          "meaningRu": "наполнять"
         },
         {
           "thai": "เตียง",
           "translit": "",
-          "meaning": "bed"
+          "meaning": "bed",
+          "meaningRu": "кровать"
         },
         {
           "thai": "แต่",
           "translit": "",
-          "meaning": "but"
+          "meaning": "but",
+          "meaningRu": "но"
         },
         {
           "thai": "แตงโม",
           "translit": "",
-          "meaning": "watermelon"
+          "meaning": "watermelon",
+          "meaningRu": "арбуз"
         },
         {
           "thai": "แต่ละวัน",
           "translit": "",
-          "meaning": "each day"
+          "meaning": "each day",
+          "meaningRu": "каждый день"
         },
         {
           "thai": "ใต้",
           "translit": "",
-          "meaning": "south, under"
+          "meaning": "south, under",
+          "meaningRu": "юг, под"
         },
         {
           "thai": "ถ",
@@ -1365,12 +1607,14 @@
         {
           "thai": "ถนน",
           "translit": "",
-          "meaning": "road"
+          "meaning": "road",
+          "meaningRu": "дорога"
         },
         {
           "thai": "ถากถาง",
           "translit": "",
-          "meaning": "to jeer, to ridicule"
+          "meaning": "to jeer, to ridicule",
+          "meaningRu": "насмехаться, высмеивать"
         },
         {
           "thai": "ถี",
@@ -1380,37 +1624,44 @@
         {
           "thai": "ถี่",
           "translit": "",
-          "meaning": "frequently"
+          "meaning": "frequently",
+          "meaningRu": "часто"
         },
         {
           "thai": "ถึง",
           "translit": "",
-          "meaning": "to arrive, until"
+          "meaning": "to arrive, until",
+          "meaningRu": "прибывать, до"
         },
         {
           "thai": "ถุง",
           "translit": "",
-          "meaning": "bag"
+          "meaning": "bag",
+          "meaningRu": "сумка, мешок"
         },
         {
           "thai": "ถูก",
           "translit": "",
-          "meaning": "correct, to hit the spot"
+          "meaning": "correct, to hit the spot",
+          "meaningRu": "правильный, попадать в точку"
         },
         {
           "thai": "เถา",
           "translit": "",
-          "meaning": "vine"
+          "meaning": "vine",
+          "meaningRu": "лоза"
         },
         {
           "thai": "เถิก",
           "translit": "",
-          "meaning": "balding"
+          "meaning": "balding",
+          "meaningRu": "лысеющий"
         },
         {
           "thai": "แถบ",
           "translit": "",
-          "meaning": "zone, strip, band"
+          "meaning": "zone, strip, band",
+          "meaningRu": "зона, полоса"
         },
         {
           "thai": "ท",
@@ -1420,77 +1671,92 @@
         {
           "thai": "ทบทวน",
           "translit": "",
-          "meaning": "to reconsider, to review"
+          "meaning": "to reconsider, to review",
+          "meaningRu": "пересматривать, повторять"
         },
         {
           "thai": "ทรง",
           "translit": "",
-          "meaning": "shape, [K] to do"
+          "meaning": "shape, [K] to do",
+          "meaningRu": "форма, [K] делать"
         },
         {
           "thai": "ทรวง",
           "translit": "",
-          "meaning": "chest, breast"
+          "meaning": "chest, breast",
+          "meaningRu": "грудь"
         },
         {
           "thai": "ทรวดทรง",
           "translit": "",
-          "meaning": "body shape"
+          "meaning": "body shape",
+          "meaningRu": "фигура"
         },
         {
           "thai": "ทราบ",
           "translit": "",
-          "meaning": "[P/S] to know"
+          "meaning": "[P/S] to know",
+          "meaningRu": "[P/S] знать"
         },
         {
           "thai": "ทราย",
           "translit": "",
-          "meaning": "sand"
+          "meaning": "sand",
+          "meaningRu": "песок"
         },
         {
           "thai": "ทรุด",
           "translit": "",
-          "meaning": "to collapse"
+          "meaning": "to collapse",
+          "meaningRu": "обрушиваться"
         },
         {
           "thai": "ทรู",
           "translit": "",
-          "meaning": "[E] true"
+          "meaning": "[E] true",
+          "meaningRu": "[E] истинный"
         },
         {
           "thai": "ทฤษฎี",
           "translit": "",
-          "meaning": "theory"
+          "meaning": "theory",
+          "meaningRu": "теория"
         },
         {
           "thai": "ทวง",
           "translit": "",
-          "meaning": "to inquire, to demand"
+          "meaning": "to inquire, to demand",
+          "meaningRu": "расспрашивать, требовать"
         },
         {
           "thai": "ท้อง",
           "translit": "",
-          "meaning": "stomach, pregnant"
+          "meaning": "stomach, pregnant",
+          "meaningRu": "живот, беременная"
         },
         {
           "thai": "ทองคำ",
           "translit": "",
-          "meaning": "gold"
+          "meaning": "gold",
+          "meaningRu": "золото"
         },
         {
           "thai": "ทะเล",
           "translit": "",
-          "meaning": "sea"
+          "meaning": "sea",
+          "meaningRu": "море"
         },
         {
           "thai": "ทักทาย",
           "translit": "",
-          "meaning": "greetings"
+          "meaning": "greetings",
+          "meaningRu": "приветствие"
         },
         {
           "thai": "ทั้ง",
           "translit": "",
-          "meaning": "entire, whole"
+          "meaning": "entire, whole",
+          "meaningRu": "весь, целый"
         },
         {
           "thai": "ทัว",
@@ -1500,97 +1766,116 @@
         {
           "thai": "ทาง",
           "translit": "",
-          "meaning": "way, by"
+          "meaning": "way, by",
+          "meaningRu": "путь, через"
         },
         {
           "thai": "ทายาท",
           "translit": "",
-          "meaning": "heir"
+          "meaning": "heir",
+          "meaningRu": "наследник"
         },
         {
           "thai": "ทำ",
           "translit": "",
-          "meaning": "to do, to make"
+          "meaning": "to do, to make",
+          "meaningRu": "делать"
         },
         {
           "thai": "ทำงาน",
           "translit": "",
-          "meaning": "to work"
+          "meaning": "to work",
+          "meaningRu": "работать"
         },
         {
           "thai": "ทำเฉย",
           "translit": "",
-          "meaning": "to turn a cold shoulder"
+          "meaning": "to turn a cold shoulder",
+          "meaningRu": "игнорировать"
         },
         {
           "thai": "ทำไม",
           "translit": "",
-          "meaning": "why"
+          "meaning": "why",
+          "meaningRu": "почему"
         },
         {
           "thai": "ทำให้",
           "translit": "",
-          "meaning": "to cause, to incite"
+          "meaning": "to cause, to incite",
+          "meaningRu": "вызывать, побуждать"
         },
         {
           "thai": "ที",
           "translit": "",
-          "meaning": "(number of) time"
+          "meaning": "(number of) time",
+          "meaningRu": "раз (количество)"
         },
         {
           "thai": "ที่",
           "translit": "",
-          "meaning": "place, at, that, which"
+          "meaning": "place, at, that, which",
+          "meaningRu": "место, в, который"
         },
         {
           "thai": "ทุกคน",
           "translit": "",
-          "meaning": "everybody"
+          "meaning": "everybody",
+          "meaningRu": "все"
         },
         {
           "thai": "ทุกครั้ง",
           "translit": "",
-          "meaning": "everytime"
+          "meaning": "everytime",
+          "meaningRu": "каждый раз"
         },
         {
           "thai": "เทพ",
           "translit": "",
-          "meaning": "angel, god"
+          "meaning": "angel, god",
+          "meaningRu": "ангел, бог"
         },
         {
           "thai": "เทรน",
           "translit": "",
-          "meaning": "[E] to train"
+          "meaning": "[E] to train",
+          "meaningRu": "[E] тренировать"
         },
         {
           "thai": "เทา",
           "translit": "",
-          "meaning": "grey"
+          "meaning": "grey",
+          "meaningRu": "серый"
         },
         {
           "thai": "เท้า",
           "translit": "",
-          "meaning": "foot"
+          "meaning": "foot",
+          "meaningRu": "стопа"
         },
         {
           "thai": "แทน",
           "translit": "",
-          "meaning": "instead, tanned"
+          "meaning": "instead, tanned",
+          "meaningRu": "вместо, загорелый"
         },
         {
           "thai": "โทรทัศน์",
           "translit": "",
-          "meaning": "television"
+          "meaning": "television",
+          "meaningRu": "телевидение"
         },
         {
           "thai": "โทรม",
           "translit": "",
-          "meaning": "worn out, shabby"
+          "meaning": "worn out, shabby",
+          "meaningRu": "изношенный, обветшалый"
         },
         {
           "thai": "ไทย",
           "translit": "",
-          "meaning": "Thai, Thailand"
+          "meaning": "Thai, Thailand",
+          "meaningRu": "тайский, Таиланд"
         },
         {
           "thai": "ธ",
@@ -1600,32 +1885,38 @@
         {
           "thai": "ธ",
           "translit": "",
-          "meaning": "[K] His/Her majesty"
+          "meaning": "[K] His/Her majesty",
+          "meaningRu": "[K] Его/Её величество"
         },
         {
           "thai": "ธง",
           "translit": "",
-          "meaning": "flag"
+          "meaning": "flag",
+          "meaningRu": "флаг"
         },
         {
           "thai": "ธรรมดา",
           "translit": "",
-          "meaning": "normal"
+          "meaning": "normal",
+          "meaningRu": "обычный"
         },
         {
           "thai": "ธาตุ",
           "translit": "",
-          "meaning": "element"
+          "meaning": "element",
+          "meaningRu": "элемент"
         },
         {
           "thai": "ธุรกิจ",
           "translit": "",
-          "meaning": "business"
+          "meaning": "business",
+          "meaningRu": "бизнес"
         },
         {
           "thai": "เธอ",
           "translit": "",
-          "meaning": "you"
+          "meaning": "you",
+          "meaningRu": "ты"
         },
         {
           "thai": "น",
@@ -1635,97 +1926,116 @@
         {
           "thai": "นคร",
           "translit": "",
-          "meaning": "[P/S] city, town"
+          "meaning": "[P/S] city, town",
+          "meaningRu": "[P/S] город"
         },
         {
           "thai": "นครปฐม",
           "translit": "",
-          "meaning": "Nakhon Pathom [place name]"
+          "meaning": "Nakhon Pathom [place name]",
+          "meaningRu": "Накхонпатхом [название места]"
         },
         {
           "thai": "นนทบุรี",
           "translit": "",
-          "meaning": "Nonthaburi [place name]"
+          "meaning": "Nonthaburi [place name]",
+          "meaningRu": "Нонтхабури [название места]"
         },
         {
           "thai": "นมข้น",
           "translit": "",
-          "meaning": "condensed milk"
+          "meaning": "condensed milk",
+          "meaningRu": "сгущённое молоко"
         },
         {
           "thai": "นอก",
           "translit": "",
-          "meaning": "outside"
+          "meaning": "outside",
+          "meaningRu": "снаружи"
         },
         {
           "thai": "น็อก",
           "translit": "",
-          "meaning": "[E] to knock"
+          "meaning": "[E] to knock",
+          "meaningRu": "[E] нокаутировать"
         },
         {
           "thai": "นอน",
           "translit": "",
-          "meaning": "to sleep"
+          "meaning": "to sleep",
+          "meaningRu": "спать"
         },
         {
           "thai": "นะ",
           "translit": "",
-          "meaning": "[emphasis final particle]"
+          "meaning": "[emphasis final particle]",
+          "meaningRu": "[усилительная конечная частица]"
         },
         {
           "thai": "นัก",
           "translit": "",
-          "meaning": "very, [personal prefix for profession]"
+          "meaning": "very, [personal prefix for profession]",
+          "meaningRu": "очень, [приставка для профессии]"
         },
         {
           "thai": "นา",
           "translit": "",
-          "meaning": "paddy field"
+          "meaning": "paddy field",
+          "meaningRu": "рисовое поле"
         },
         {
           "thai": "น้า",
           "translit": "",
-          "meaning": "aunt, uncle"
+          "meaning": "aunt, uncle",
+          "meaningRu": "тётя, дядя"
         },
         {
           "thai": "นาค",
           "translit": "",
-          "meaning": "naga"
+          "meaning": "naga",
+          "meaningRu": "нага"
         },
         {
           "thai": "นาน",
           "translit": "",
-          "meaning": "long time"
+          "meaning": "long time",
+          "meaningRu": "долго"
         },
         {
           "thai": "นาม",
           "translit": "",
-          "meaning": "[P/S] name"
+          "meaning": "[P/S] name",
+          "meaningRu": "[P/S] имя"
         },
         {
           "thai": "นาย",
           "translit": "",
-          "meaning": "mister, boss"
+          "meaning": "mister, boss",
+          "meaningRu": "господин, начальник"
         },
         {
           "thai": "นารี",
           "translit": "",
-          "meaning": "[personal name], [P/S] woman"
+          "meaning": "[personal name], [P/S] woman",
+          "meaningRu": "[личное имя], [P/S] женщина"
         },
         {
           "thai": "น้ำ",
           "translit": "",
-          "meaning": "water"
+          "meaning": "water",
+          "meaningRu": "вода"
         },
         {
           "thai": "น้ำปลา",
           "translit": "",
-          "meaning": "fish sauce"
+          "meaning": "fish sauce",
+          "meaningRu": "рыбный соус"
         },
         {
           "thai": "น้ำมะนาว",
           "translit": "",
-          "meaning": "lime juice"
+          "meaning": "lime juice",
+          "meaningRu": "сок лайма"
         },
         {
           "thai": "นิ",
@@ -1740,17 +2050,20 @@
         {
           "thai": "แน่นแฟ้น",
           "translit": "",
-          "meaning": "stable, firm"
+          "meaning": "stable, firm",
+          "meaningRu": "крепкий, прочный"
         },
         {
           "thai": "แนว",
           "translit": "",
-          "meaning": "way, stripe"
+          "meaning": "way, stripe",
+          "meaningRu": "направление, полоса"
         },
         {
           "thai": "ใน",
           "translit": "",
-          "meaning": "in"
+          "meaning": "in",
+          "meaningRu": "в"
         },
         {
           "thai": "บ",
@@ -1760,42 +2073,50 @@
         {
           "thai": "บท",
           "translit": "",
-          "meaning": "lesson, chapter"
+          "meaning": "lesson, chapter",
+          "meaningRu": "урок, глава"
         },
         {
           "thai": "บน",
           "translit": "",
-          "meaning": "top, over"
+          "meaning": "top, over",
+          "meaningRu": "верх, над"
         },
         {
           "thai": "บริการ",
           "translit": "",
-          "meaning": "service"
+          "meaning": "service",
+          "meaningRu": "услуга"
         },
         {
           "thai": "บริโภค",
           "translit": "",
-          "meaning": "to consume"
+          "meaning": "to consume",
+          "meaningRu": "потреблять"
         },
         {
           "thai": "บริเวณ",
           "translit": "",
-          "meaning": "periphery, area"
+          "meaning": "periphery, area",
+          "meaningRu": "окрестность, зона"
         },
         {
           "thai": "บริษัท",
           "translit": "",
-          "meaning": "company"
+          "meaning": "company",
+          "meaningRu": "компания"
         },
         {
           "thai": "บลิง",
           "translit": "",
-          "meaning": "[E] bling"
+          "meaning": "[E] bling",
+          "meaningRu": "[E] блеск"
         },
         {
           "thai": "บอกลา",
           "translit": "",
-          "meaning": "to say goodbye"
+          "meaning": "to say goodbye",
+          "meaningRu": "прощаться"
         },
         {
           "thai": "บอท",
@@ -1810,52 +2131,62 @@
         {
           "thai": "บ๋อย",
           "translit": "",
-          "meaning": "waiter"
+          "meaning": "waiter",
+          "meaningRu": "официант"
         },
         {
           "thai": "บังเอิญ",
           "translit": "",
-          "meaning": "coincidence"
+          "meaning": "coincidence",
+          "meaningRu": "совпадение"
         },
         {
           "thai": "บัณฑิต",
           "translit": "",
-          "meaning": "graduate, pundit"
+          "meaning": "graduate, pundit",
+          "meaningRu": "выпускник, эксперт"
         },
         {
           "thai": "บางมด",
           "translit": "",
-          "meaning": "Bang Mot [place name]"
+          "meaning": "Bang Mot [place name]",
+          "meaningRu": "Бангмот [название места]"
         },
         {
           "thai": "บางลำพู",
           "translit": "",
-          "meaning": "Bang Lampu [place name]"
+          "meaning": "Bang Lampu [place name]",
+          "meaningRu": "Банглампу [название места]"
         },
         {
           "thai": "บุคคล",
           "translit": "",
-          "meaning": "person, personnel"
+          "meaning": "person, personnel",
+          "meaningRu": "персона, персонал"
         },
         {
           "thai": "บุตร",
           "translit": "",
-          "meaning": "[P/S] child, son"
+          "meaning": "[P/S] child, son",
+          "meaningRu": "[P/S] ребёнок, сын"
         },
         {
           "thai": "เบรก",
           "translit": "",
-          "meaning": "[E] brake"
+          "meaning": "[E] brake",
+          "meaningRu": "[E] тормоз"
         },
         {
           "thai": "แบบ",
           "translit": "",
-          "meaning": "type, to be like"
+          "meaning": "type, to be like",
+          "meaningRu": "тип, подобно"
         },
         {
           "thai": "ใบ",
           "translit": "",
-          "meaning": "leaf, document"
+          "meaning": "leaf, document",
+          "meaningRu": "лист, документ"
         },
         {
           "thai": "ป",
@@ -1865,72 +2196,86 @@
         {
           "thai": "ปฏิบัติ",
           "translit": "",
-          "meaning": "to carry out, to act"
+          "meaning": "to carry out, to act",
+          "meaningRu": "выполнять, действовать"
         },
         {
           "thai": "ปม",
           "translit": "",
-          "meaning": "knot"
+          "meaning": "knot",
+          "meaningRu": "узел"
         },
         {
           "thai": "ปรกติ",
           "translit": "",
-          "meaning": "normal"
+          "meaning": "normal",
+          "meaningRu": "обычный"
         },
         {
           "thai": "ปรบ",
           "translit": "",
-          "meaning": "to clap"
+          "meaning": "to clap",
+          "meaningRu": "хлопать"
         },
         {
           "thai": "ประมง",
           "translit": "",
-          "meaning": "fishery"
+          "meaning": "fishery",
+          "meaningRu": "рыболовство"
         },
         {
           "thai": "ประวัติ",
           "translit": "",
-          "meaning": "History, record"
+          "meaning": "History, record",
+          "meaningRu": "история, запись"
         },
         {
           "thai": "ประวัติศาสตร์",
           "translit": "",
-          "meaning": "history studies"
+          "meaning": "history studies",
+          "meaningRu": "историческая наука"
         },
         {
           "thai": "ปรากฏ",
           "translit": "",
-          "meaning": "to appear"
+          "meaning": "to appear",
+          "meaningRu": "появляться"
         },
         {
           "thai": "ปรุงอาหาร",
           "translit": "",
-          "meaning": "to season food, to cook"
+          "meaning": "to season food, to cook",
+          "meaningRu": "приправлять еду, готовить"
         },
         {
           "thai": "ปลด",
           "translit": "",
-          "meaning": "to remove, to dismiss"
+          "meaning": "to remove, to dismiss",
+          "meaningRu": "снимать, увольнять"
         },
         {
           "thai": "ปลุก",
           "translit": "",
-          "meaning": "to wake up"
+          "meaning": "to wake up",
+          "meaningRu": "будить"
         },
         {
           "thai": "ปวด",
           "translit": "",
-          "meaning": "pain, ache"
+          "meaning": "pain, ache",
+          "meaningRu": "боль"
         },
         {
           "thai": "ปอด",
           "translit": "",
-          "meaning": "lung"
+          "meaning": "lung",
+          "meaningRu": "лёгкое"
         },
         {
           "thai": "ปะ",
           "translit": "",
-          "meaning": "to patch, to mend"
+          "meaning": "to patch, to mend",
+          "meaningRu": "латать, чинить"
         },
         {
           "thai": "ปัว",
@@ -1940,32 +2285,38 @@
         {
           "thai": "ป้า",
           "translit": "",
-          "meaning": "aunt"
+          "meaning": "aunt",
+          "meaningRu": "тётя"
         },
         {
           "thai": "ปู่",
           "translit": "",
-          "meaning": "grandfather"
+          "meaning": "grandfather",
+          "meaningRu": "дедушка"
         },
         {
           "thai": "เปตอง",
           "translit": "",
-          "meaning": "petanque"
+          "meaning": "petanque",
+          "meaningRu": "петанк"
         },
         {
           "thai": "เป็น",
           "translit": "",
-          "meaning": "to be"
+          "meaning": "to be",
+          "meaningRu": "быть"
         },
         {
           "thai": "เปรอะ",
           "translit": "",
-          "meaning": "stain, dirty"
+          "meaning": "stain, dirty",
+          "meaningRu": "пятно, грязный"
         },
         {
           "thai": "เปรี้ยว",
           "translit": "",
-          "meaning": "sour"
+          "meaning": "sour",
+          "meaningRu": "кислый"
         },
         {
           "thai": "เปี๊ย",
@@ -1975,22 +2326,26 @@
         {
           "thai": "เปียก",
           "translit": "",
-          "meaning": "wet"
+          "meaning": "wet",
+          "meaningRu": "мокрый"
         },
         {
           "thai": "เปี๊ยะ",
           "translit": "",
-          "meaning": "moon cake"
+          "meaning": "moon cake",
+          "meaningRu": "лунный пирог"
         },
         {
           "thai": "แปด",
           "translit": "",
-          "meaning": "eight"
+          "meaning": "eight",
+          "meaningRu": "восемь"
         },
         {
           "thai": "แปรปรวน",
           "translit": "",
-          "meaning": "turbulence"
+          "meaning": "turbulence",
+          "meaningRu": "турбулентность"
         },
         {
           "thai": "โป",
@@ -2000,17 +2355,20 @@
         {
           "thai": "โป๊",
           "translit": "",
-          "meaning": "nude, naked"
+          "meaning": "nude, naked",
+          "meaningRu": "обнажённый"
         },
         {
           "thai": "โปะ",
           "translit": "",
-          "meaning": "to heap, to add"
+          "meaning": "to heap, to add",
+          "meaningRu": "наваливать, добавлять"
         },
         {
           "thai": "ไป",
           "translit": "",
-          "meaning": "to go, too much"
+          "meaning": "to go, too much",
+          "meaningRu": "идти, слишком"
         },
         {
           "thai": "ผ",
@@ -2020,72 +2378,86 @@
         {
           "thai": "ผงก",
           "translit": "",
-          "meaning": "to nod"
+          "meaning": "to nod",
+          "meaningRu": "кивать"
         },
         {
           "thai": "ผด",
           "translit": "",
-          "meaning": "heat rash"
+          "meaning": "heat rash",
+          "meaningRu": "потница"
         },
         {
           "thai": "ผม",
           "translit": "",
-          "meaning": "I [male], hair"
+          "meaning": "I [male], hair",
+          "meaningRu": "я [муж.], волосы"
         },
         {
           "thai": "ผลไม้",
           "translit": "",
-          "meaning": "fruit"
+          "meaning": "fruit",
+          "meaningRu": "фрукт"
         },
         {
           "thai": "ผลาญ",
           "translit": "",
-          "meaning": "to consume, to destroy"
+          "meaning": "to consume, to destroy",
+          "meaningRu": "уничтожать, разорять"
         },
         {
           "thai": "ผสมผสาน",
           "translit": "",
-          "meaning": "to combine, to blend"
+          "meaning": "to combine, to blend",
+          "meaningRu": "сочетать, смешивать"
         },
         {
           "thai": "ผัว",
           "translit": "",
-          "meaning": "[COL] husband"
+          "meaning": "[COL] husband",
+          "meaningRu": "[COL] муж"
         },
         {
           "thai": "ผัวะ",
           "translit": "",
-          "meaning": "sound of slapping"
+          "meaning": "sound of slapping",
+          "meaningRu": "звук шлепка"
         },
         {
           "thai": "ผ้า",
           "translit": "",
-          "meaning": "cloth, fabric"
+          "meaning": "cloth, fabric",
+          "meaningRu": "ткань, материя"
         },
         {
           "thai": "เผ็ด",
           "translit": "",
-          "meaning": "spicy"
+          "meaning": "spicy",
+          "meaningRu": "острый"
         },
         {
           "thai": "เผย",
           "translit": "",
-          "meaning": "to reveal"
+          "meaning": "to reveal",
+          "meaningRu": "раскрывать"
         },
         {
           "thai": "เผา",
           "translit": "",
-          "meaning": "to burn, to torch"
+          "meaning": "to burn, to torch",
+          "meaningRu": "сжигать"
         },
         {
           "thai": "แผน",
           "translit": "",
-          "meaning": "plan"
+          "meaning": "plan",
+          "meaningRu": "план"
         },
         {
           "thai": "แผ่นดิน",
           "translit": "",
-          "meaning": "earth, land"
+          "meaning": "earth, land",
+          "meaningRu": "земля"
         },
         {
           "thai": "ฝ",
@@ -2095,7 +2467,8 @@
         {
           "thai": "ฝน",
           "translit": "",
-          "meaning": "rain"
+          "meaning": "rain",
+          "meaningRu": "дождь"
         },
         {
           "thai": "ฝอง",
@@ -2105,22 +2478,26 @@
         {
           "thai": "ฝาก",
           "translit": "",
-          "meaning": "to deposit, to entrust"
+          "meaning": "to deposit, to entrust",
+          "meaningRu": "вкладывать, поручать"
         },
         {
           "thai": "ฝ่าย",
           "translit": "",
-          "meaning": "side, department"
+          "meaning": "side, department",
+          "meaningRu": "сторона, отдел"
         },
         {
           "thai": "เฝอ",
           "translit": "",
-          "meaning": "Vietnamese noodles"
+          "meaning": "Vietnamese noodles",
+          "meaningRu": "вьетнамская лапша"
         },
         {
           "thai": "ไฝ",
           "translit": "",
-          "meaning": "mole"
+          "meaning": "mole",
+          "meaningRu": "родинка"
         },
         {
           "thai": "พ",
@@ -2135,62 +2512,74 @@
         {
           "thai": "พบ",
           "translit": "",
-          "meaning": "to meet, to find"
+          "meaning": "to meet, to find",
+          "meaningRu": "встречать, находить"
         },
         {
           "thai": "พยาธิ",
           "translit": "",
-          "meaning": "parasite"
+          "meaning": "parasite",
+          "meaningRu": "паразит"
         },
         {
           "thai": "พร",
           "translit": "",
-          "meaning": "blessing"
+          "meaning": "blessing",
+          "meaningRu": "благословение"
         },
         {
           "thai": "พรรค",
           "translit": "",
-          "meaning": "party"
+          "meaning": "party",
+          "meaningRu": "партия"
         },
         {
           "thai": "พรหมลิขิต",
           "translit": "",
-          "meaning": "destiny"
+          "meaning": "destiny",
+          "meaningRu": "судьба"
         },
         {
           "thai": "พร้อม",
           "translit": "",
-          "meaning": "ready"
+          "meaning": "ready",
+          "meaningRu": "готовый"
         },
         {
           "thai": "พระ",
           "translit": "",
-          "meaning": "monk"
+          "meaning": "monk",
+          "meaningRu": "монах"
         },
         {
           "thai": "พริก",
           "translit": "",
-          "meaning": "chilli"
+          "meaning": "chilli",
+          "meaningRu": "перец чили"
         },
         {
           "thai": "พรุ่งนี้",
           "translit": "",
-          "meaning": "tomorrow"
+          "meaning": "tomorrow",
+          "meaningRu": "завтра"
         },
         {
           "thai": "พฤหัสบดี",
           "translit": "",
-          "meaning": "Thursday"
+          "meaning": "Thursday",
+          "meaningRu": "четверг"
         },
         {
           "thai": "พลุ",
           "translit": "",
-          "meaning": "firework"
+          "meaning": "firework",
+          "meaningRu": "фейерверк"
         },
         {
           "thai": "พ่อ",
           "translit": "",
-          "meaning": "father"
+          "meaning": "father",
+          "meaningRu": "отец"
         },
         {
           "thai": "พะ",
@@ -2200,62 +2589,74 @@
         {
           "thai": "พัฒนา",
           "translit": "",
-          "meaning": "to develop"
+          "meaning": "to develop",
+          "meaningRu": "развивать"
         },
         {
           "thai": "พัด",
           "translit": "",
-          "meaning": "to blow"
+          "meaning": "to blow",
+          "meaningRu": "дуть"
         },
         {
           "thai": "พัดกระหน่ำ",
           "translit": "",
-          "meaning": "(wind) to thump"
+          "meaning": "(wind) to thump",
+          "meaningRu": "(ветер) бить"
         },
         {
           "thai": "พัดลม",
           "translit": "",
-          "meaning": "electric fan"
+          "meaning": "electric fan",
+          "meaningRu": "вентилятор"
         },
         {
           "thai": "พันธุ์",
           "translit": "",
-          "meaning": "species"
+          "meaning": "species",
+          "meaningRu": "вид, порода"
         },
         {
           "thai": "พายุ",
           "translit": "",
-          "meaning": "storm"
+          "meaning": "storm",
+          "meaningRu": "шторм"
         },
         {
           "thai": "พีซ",
           "translit": "",
-          "meaning": "[E] peace"
+          "meaning": "[E] peace",
+          "meaningRu": "[E] мир"
         },
         {
           "thai": "พุ",
           "translit": "",
-          "meaning": "to spout"
+          "meaning": "to spout",
+          "meaningRu": "бить ключом"
         },
         {
           "thai": "พุทธ",
           "translit": "",
-          "meaning": "Buddhist"
+          "meaning": "Buddhist",
+          "meaningRu": "буддийский"
         },
         {
           "thai": "พุทธศาสนา",
           "translit": "",
-          "meaning": "Buddhism"
+          "meaning": "Buddhism",
+          "meaningRu": "буддизм"
         },
         {
           "thai": "พูด",
           "translit": "",
-          "meaning": "to speak, to say"
+          "meaning": "to speak, to say",
+          "meaningRu": "говорить"
         },
         {
           "thai": "พูน",
           "translit": "",
-          "meaning": "to pile up"
+          "meaning": "to pile up",
+          "meaningRu": "наваливать"
         },
         {
           "thai": "เพช",
@@ -2265,27 +2666,32 @@
         {
           "thai": "เพชฌฆาต",
           "translit": "",
-          "meaning": "executioner"
+          "meaning": "executioner",
+          "meaningRu": "палач"
         },
         {
           "thai": "เพชร",
           "translit": "",
-          "meaning": "diamond"
+          "meaning": "diamond",
+          "meaningRu": "алмаз"
         },
         {
           "thai": "เพราะ",
           "translit": "",
-          "meaning": "because, beautiful (voice)"
+          "meaning": "because, beautiful (voice)",
+          "meaningRu": "потому что, красивый (голос)"
         },
         {
           "thai": "เพล",
           "translit": "",
-          "meaning": "last meal of the day for monks"
+          "meaning": "last meal of the day for monks",
+          "meaningRu": "последний приём пищи для монахов"
         },
         {
           "thai": "เพลง",
           "translit": "",
-          "meaning": "song"
+          "meaning": "song",
+          "meaningRu": "песня"
         },
         {
           "thai": "เพิม",
@@ -2295,7 +2701,8 @@
         {
           "thai": "เพิ่ม",
           "translit": "",
-          "meaning": "to add, to increase"
+          "meaning": "to add, to increase",
+          "meaningRu": "добавлять, увеличивать"
         },
         {
           "thai": "เพิ้ม",
@@ -2305,12 +2712,14 @@
         {
           "thai": "เพื่อ",
           "translit": "",
-          "meaning": "for"
+          "meaning": "for",
+          "meaningRu": "для"
         },
         {
           "thai": "แพ",
           "translit": "",
-          "meaning": "raft"
+          "meaning": "raft",
+          "meaningRu": "плот"
         },
         {
           "thai": "แพค",
@@ -2320,22 +2729,26 @@
         {
           "thai": "แพ็ค",
           "translit": "",
-          "meaning": "[E] pack"
+          "meaning": "[E] pack",
+          "meaningRu": "[E] упаковка"
         },
         {
           "thai": "แพง",
           "translit": "",
-          "meaning": "expensive"
+          "meaning": "expensive",
+          "meaningRu": "дорогой"
         },
         {
           "thai": "แพน",
           "translit": "",
-          "meaning": "to spread, to expand"
+          "meaning": "to spread, to expand",
+          "meaningRu": "распространять, расширять"
         },
         {
           "thai": "แพะ",
           "translit": "",
-          "meaning": "goat"
+          "meaning": "goat",
+          "meaningRu": "коза"
         },
         {
           "thai": "ฟ",
@@ -2345,52 +2758,62 @@
         {
           "thai": "ฟรี",
           "translit": "",
-          "meaning": "[E] free"
+          "meaning": "[E] free",
+          "meaningRu": "[E] бесплатный"
         },
         {
           "thai": "ฟลาย",
           "translit": "",
-          "meaning": "[E] to fly"
+          "meaning": "[E] to fly",
+          "meaningRu": "[E] летать"
         },
         {
           "thai": "ฟลุค",
           "translit": "",
-          "meaning": "[E] fluke"
+          "meaning": "[E] fluke",
+          "meaningRu": "[E] случайность"
         },
         {
           "thai": "ฟอง",
           "translit": "",
-          "meaning": "bubble"
+          "meaning": "bubble",
+          "meaningRu": "пузырь"
         },
         {
           "thai": "ฟัง",
           "translit": "",
-          "meaning": "to listen"
+          "meaning": "to listen",
+          "meaningRu": "слушать"
         },
         {
           "thai": "ฟุต",
           "translit": "",
-          "meaning": "[E] foot"
+          "meaning": "[E] foot",
+          "meaningRu": "[E] фут"
         },
         {
           "thai": "เฟะ",
           "translit": "",
-          "meaning": "rotten"
+          "meaning": "rotten",
+          "meaningRu": "гнилой"
         },
         {
           "thai": "แฟน",
           "translit": "",
-          "meaning": "boyfriend/girlfriend"
+          "meaning": "boyfriend/girlfriend",
+          "meaningRu": "парень/девушка"
         },
         {
           "thai": "โฟลท",
           "translit": "",
-          "meaning": "[E] float"
+          "meaning": "[E] float",
+          "meaningRu": "[E] плавать"
         },
         {
           "thai": "ไฟ",
           "translit": "",
-          "meaning": "fire"
+          "meaning": "fire",
+          "meaningRu": "огонь"
         },
         {
           "thai": "ภ",
@@ -2400,27 +2823,32 @@
         {
           "thai": "ภรรยา",
           "translit": "",
-          "meaning": "wife"
+          "meaning": "wife",
+          "meaningRu": "жена"
         },
         {
           "thai": "ภาพยนตร์",
           "translit": "",
-          "meaning": "movie"
+          "meaning": "movie",
+          "meaningRu": "фильм"
         },
         {
           "thai": "ภาษี",
           "translit": "",
-          "meaning": "tax"
+          "meaning": "tax",
+          "meaningRu": "налог"
         },
         {
           "thai": "ภูเขา",
           "translit": "",
-          "meaning": "mountain"
+          "meaning": "mountain",
+          "meaningRu": "гора"
         },
         {
           "thai": "ภูมิใจ",
           "translit": "",
-          "meaning": "proud"
+          "meaning": "proud",
+          "meaningRu": "гордый"
         },
         {
           "thai": "ม",
@@ -2430,152 +2858,182 @@
         {
           "thai": "มงคล",
           "translit": "",
-          "meaning": "auspicious sign"
+          "meaning": "auspicious sign",
+          "meaningRu": "благоприятный знак"
         },
         {
           "thai": "มณฑล",
           "translit": "",
-          "meaning": "precinct, county"
+          "meaning": "precinct, county",
+          "meaningRu": "округ, уезд"
         },
         {
           "thai": "มอง",
           "translit": "",
-          "meaning": "to look, to gaze"
+          "meaning": "to look, to gaze",
+          "meaningRu": "смотреть, глядеть"
         },
         {
           "thai": "ม็อบ",
           "translit": "",
-          "meaning": "[E] mob"
+          "meaning": "[E] mob",
+          "meaningRu": "[E] толпа"
         },
         {
           "thai": "มะ",
           "translit": "",
-          "meaning": "[COL] final question particle"
+          "meaning": "[COL] final question particle",
+          "meaningRu": "[COL] конечная вопросительная частица"
         },
         {
           "thai": "มักจะ",
           "translit": "",
-          "meaning": "often, likely"
+          "meaning": "often, likely",
+          "meaningRu": "часто, вероятно"
         },
         {
           "thai": "มังกร",
           "translit": "",
-          "meaning": "dragon"
+          "meaning": "dragon",
+          "meaningRu": "дракон"
         },
         {
           "thai": "มังคุด",
           "translit": "",
-          "meaning": "mangosteen"
+          "meaning": "mangosteen",
+          "meaningRu": "мангостин"
         },
         {
           "thai": "มั้ย",
           "translit": "",
-          "meaning": "[COL] final question particle"
+          "meaning": "[COL] final question particle",
+          "meaningRu": "[COL] конечная вопросительная частица"
         },
         {
           "thai": "มัว",
           "translit": "",
-          "meaning": "clouded (vision)"
+          "meaning": "clouded (vision)",
+          "meaningRu": "помутневший (зрение)"
         },
         {
           "thai": "มา",
           "translit": "",
-          "meaning": "to come"
+          "meaning": "to come",
+          "meaningRu": "приходить"
         },
         {
           "thai": "ม้า",
           "translit": "",
-          "meaning": "horse"
+          "meaning": "horse",
+          "meaningRu": "лошадь"
         },
         {
           "thai": "มาก",
           "translit": "",
-          "meaning": "very, a lot"
+          "meaning": "very, a lot",
+          "meaningRu": "очень, много"
         },
         {
           "thai": "มาม่า",
           "translit": "",
-          "meaning": "Mama (instant noodles brand)"
+          "meaning": "Mama (instant noodles brand)",
+          "meaningRu": "Мама (марка лапши быстрого приготовления)"
         },
         {
           "thai": "มาร",
           "translit": "",
-          "meaning": "devil"
+          "meaning": "devil",
+          "meaningRu": "дьявол"
         },
         {
           "thai": "มิ่งขวัญ",
           "translit": "",
-          "meaning": "[K] idol"
+          "meaning": "[K] idol",
+          "meaningRu": "[K] кумир"
         },
         {
           "thai": "มี",
           "translit": "",
-          "meaning": "have, there is/are"
+          "meaning": "have, there is/are",
+          "meaningRu": "иметь, есть (имеется)"
         },
         {
           "thai": "มีด",
           "translit": "",
-          "meaning": "knife"
+          "meaning": "knife",
+          "meaningRu": "нож"
         },
         {
           "thai": "มืด",
           "translit": "",
-          "meaning": "dark, night"
+          "meaning": "dark, night",
+          "meaningRu": "тёмный, ночь"
         },
         {
           "thai": "มือ",
           "translit": "",
-          "meaning": "hand"
+          "meaning": "hand",
+          "meaningRu": "рука"
         },
         {
           "thai": "มูล",
           "translit": "",
-          "meaning": "origin, excrement"
+          "meaning": "origin, excrement",
+          "meaningRu": "происхождение, экскременты"
         },
         {
           "thai": "เมฆ",
           "translit": "",
-          "meaning": "cloud"
+          "meaning": "cloud",
+          "meaningRu": "облако"
         },
         {
           "thai": "เมรุ",
           "translit": "",
-          "meaning": "crematorium"
+          "meaning": "crematorium",
+          "meaningRu": "крематорий"
         },
         {
           "thai": "เมา",
           "translit": "",
-          "meaning": "drunk"
+          "meaning": "drunk",
+          "meaningRu": "пьяный"
         },
         {
           "thai": "เมิน",
           "translit": "",
-          "meaning": "to ignore"
+          "meaning": "to ignore",
+          "meaningRu": "игнорировать"
         },
         {
           "thai": "เมีย",
           "translit": "",
-          "meaning": "[COL] wife"
+          "meaning": "[COL] wife",
+          "meaningRu": "[COL] жена"
         },
         {
           "thai": "เมื่อ",
           "translit": "",
-          "meaning": "when, as"
+          "meaning": "when, as",
+          "meaningRu": "когда"
         },
         {
           "thai": "เมือง",
           "translit": "",
-          "meaning": "city, town"
+          "meaning": "city, town",
+          "meaningRu": "город"
         },
         {
           "thai": "แมว",
           "translit": "",
-          "meaning": "cat"
+          "meaning": "cat",
+          "meaningRu": "кошка"
         },
         {
           "thai": "โมง",
           "translit": "",
-          "meaning": "o'clock"
+          "meaning": "o'clock",
+          "meaningRu": "час (время)"
         },
         {
           "thai": "โมท",
@@ -2585,12 +3043,14 @@
         {
           "thai": "ไม้",
           "translit": "",
-          "meaning": "wood, stick"
+          "meaning": "wood, stick",
+          "meaningRu": "дерево, палка"
         },
         {
           "thai": "ไม่ว่าจะเป็น",
           "translit": "",
-          "meaning": "for instance"
+          "meaning": "for instance",
+          "meaningRu": "например"
         },
         {
           "thai": "ย",
@@ -2600,17 +3060,20 @@
         {
           "thai": "ยะ",
           "translit": "",
-          "meaning": "[COL] final dismissive particle"
+          "meaning": "[COL] final dismissive particle",
+          "meaningRu": "[COL] пренебрежительная конечная частица"
         },
         {
           "thai": "ยา",
           "translit": "",
-          "meaning": "medicine"
+          "meaning": "medicine",
+          "meaningRu": "лекарство"
         },
         {
           "thai": "ยากจน",
           "translit": "",
-          "meaning": "impoverished"
+          "meaning": "impoverished",
+          "meaningRu": "обнищавший"
         },
         {
           "thai": "ยาท",
@@ -2620,12 +3083,14 @@
         {
           "thai": "ยานัตถุ์",
           "translit": "",
-          "meaning": "snuff tobacco"
+          "meaning": "snuff tobacco",
+          "meaningRu": "нюхательный табак"
         },
         {
           "thai": "ยาม",
           "translit": "",
-          "meaning": "security guard"
+          "meaning": "security guard",
+          "meaningRu": "охранник"
         },
         {
           "thai": "ยาล",
@@ -2635,17 +3100,20 @@
         {
           "thai": "ยาว",
           "translit": "",
-          "meaning": "long"
+          "meaning": "long",
+          "meaningRu": "длинный"
         },
         {
           "thai": "ยีน",
           "translit": "",
-          "meaning": "jeans"
+          "meaning": "jeans",
+          "meaningRu": "джинсы"
         },
         {
           "thai": "ยืม",
           "translit": "",
-          "meaning": "to borrow"
+          "meaning": "to borrow",
+          "meaningRu": "одалживать"
         },
         {
           "thai": "เยอ",
@@ -2655,7 +3123,8 @@
         {
           "thai": "เยอะ",
           "translit": "",
-          "meaning": "a lot, plenty"
+          "meaning": "a lot, plenty",
+          "meaningRu": "много"
         },
         {
           "thai": "เยา",
@@ -2665,17 +3134,20 @@
         {
           "thai": "โยง",
           "translit": "",
-          "meaning": "to tie, to link"
+          "meaning": "to tie, to link",
+          "meaningRu": "связывать"
         },
         {
           "thai": "โยน",
           "translit": "",
-          "meaning": "to throw"
+          "meaning": "to throw",
+          "meaningRu": "бросать"
         },
         {
           "thai": "ใย",
           "translit": "",
-          "meaning": "fibre, web"
+          "meaning": "fibre, web",
+          "meaningRu": "волокно, паутина"
         },
         {
           "thai": "ร",
@@ -2685,42 +3157,50 @@
         {
           "thai": "รก",
           "translit": "",
-          "meaning": "messy, overgrown"
+          "meaning": "messy, overgrown",
+          "meaningRu": "беспорядочный, заросший"
         },
         {
           "thai": "รถ",
           "translit": "",
-          "meaning": "car"
+          "meaning": "car",
+          "meaningRu": "машина"
         },
         {
           "thai": "รถชน",
           "translit": "",
-          "meaning": "car crash"
+          "meaning": "car crash",
+          "meaningRu": "автоавария"
         },
         {
           "thai": "รถบรรทุก",
           "translit": "",
-          "meaning": "lorry"
+          "meaning": "lorry",
+          "meaningRu": "грузовик"
         },
         {
           "thai": "ร่วมกัน",
           "translit": "",
-          "meaning": "together, mutual"
+          "meaning": "together, mutual",
+          "meaningRu": "вместе, взаимный"
         },
         {
           "thai": "รสชาติ",
           "translit": "",
-          "meaning": "taste"
+          "meaning": "taste",
+          "meaningRu": "вкус"
         },
         {
           "thai": "รอ",
           "translit": "",
-          "meaning": "to wait"
+          "meaning": "to wait",
+          "meaningRu": "ждать"
         },
         {
           "thai": "รอย",
           "translit": "",
-          "meaning": "mark, trace"
+          "meaning": "mark, trace",
+          "meaningRu": "след"
         },
         {
           "thai": "ระ",
@@ -2730,32 +3210,38 @@
         {
           "thai": "ระวัง",
           "translit": "",
-          "meaning": "caution"
+          "meaning": "caution",
+          "meaningRu": "осторожность"
         },
         {
           "thai": "ระหว่าง",
           "translit": "",
-          "meaning": "between"
+          "meaning": "between",
+          "meaningRu": "между"
         },
         {
           "thai": "รัก",
           "translit": "",
-          "meaning": "to love"
+          "meaning": "to love",
+          "meaningRu": "любить"
         },
         {
           "thai": "รับ",
           "translit": "",
-          "meaning": "to receive, to confess"
+          "meaning": "to receive, to confess",
+          "meaningRu": "получать, признавать"
         },
         {
           "thai": "รัม",
           "translit": "",
-          "meaning": "[E] rum"
+          "meaning": "[E] rum",
+          "meaningRu": "[E] ром"
         },
         {
           "thai": "ราคา",
           "translit": "",
-          "meaning": "price"
+          "meaning": "price",
+          "meaningRu": "цена"
         },
         {
           "thai": "ราพ",
@@ -2765,87 +3251,104 @@
         {
           "thai": "ราย",
           "translit": "",
-          "meaning": "case, item"
+          "meaning": "case, item",
+          "meaningRu": "случай, пункт"
         },
         {
           "thai": "รำคาญ",
           "translit": "",
-          "meaning": "annoyed"
+          "meaning": "annoyed",
+          "meaningRu": "раздражённый"
         },
         {
           "thai": "ริม",
           "translit": "",
-          "meaning": "edge, curb"
+          "meaning": "edge, curb",
+          "meaningRu": "край, бордюр"
         },
         {
           "thai": "รีบ",
           "translit": "",
-          "meaning": "to hurry, to rush"
+          "meaning": "to hurry, to rush",
+          "meaningRu": "торопиться, спешить"
         },
         {
           "thai": "รู",
           "translit": "",
-          "meaning": "hole"
+          "meaning": "hole",
+          "meaningRu": "дыра"
         },
         {
           "thai": "รูท",
           "translit": "",
-          "meaning": "[E] root"
+          "meaning": "[E] root",
+          "meaningRu": "[E] корень"
         },
         {
           "thai": "รูปแบบ",
           "translit": "",
-          "meaning": "format, pattern"
+          "meaning": "format, pattern",
+          "meaningRu": "формат, образец"
         },
         {
           "thai": "รูปวาด",
           "translit": "",
-          "meaning": "drawing"
+          "meaning": "drawing",
+          "meaningRu": "рисунок"
         },
         {
           "thai": "เรยา",
           "translit": "",
-          "meaning": "[personal name]"
+          "meaning": "[personal name]",
+          "meaningRu": "[личное имя]"
         },
         {
           "thai": "เรา",
           "translit": "",
-          "meaning": "we"
+          "meaning": "we",
+          "meaningRu": "мы"
         },
         {
           "thai": "เรียก",
           "translit": "",
-          "meaning": "to call"
+          "meaning": "to call",
+          "meaningRu": "звать"
         },
         {
           "thai": "เรียน",
           "translit": "",
-          "meaning": "to study"
+          "meaning": "to study",
+          "meaningRu": "учиться"
         },
         {
           "thai": "เรือ",
           "translit": "",
-          "meaning": "boat"
+          "meaning": "boat",
+          "meaningRu": "лодка"
         },
         {
           "thai": "แรง",
           "translit": "",
-          "meaning": "strong, hard"
+          "meaning": "strong, hard",
+          "meaningRu": "сильный, жёсткий"
         },
         {
           "thai": "โรค",
           "translit": "",
-          "meaning": "disease"
+          "meaning": "disease",
+          "meaningRu": "болезнь"
         },
         {
           "thai": "โรงงาน",
           "translit": "",
-          "meaning": "factory"
+          "meaning": "factory",
+          "meaningRu": "завод"
         },
         {
           "thai": "โรม",
           "translit": "",
-          "meaning": "Rome"
+          "meaning": "Rome",
+          "meaningRu": "Рим"
         },
         {
           "thai": "ฤ",
@@ -2855,12 +3358,14 @@
         {
           "thai": "ฤกษ์",
           "translit": "",
-          "meaning": "auspicious time"
+          "meaning": "auspicious time",
+          "meaningRu": "благоприятное время"
         },
         {
           "thai": "ฤดู",
           "translit": "",
-          "meaning": "season"
+          "meaning": "season",
+          "meaningRu": "сезон"
         },
         {
           "thai": "ฤๅ",
@@ -2870,7 +3375,8 @@
         {
           "thai": "ฤๅษี",
           "translit": "",
-          "meaning": "hermit"
+          "meaning": "hermit",
+          "meaningRu": "отшельник"
         },
         {
           "thai": "ล",
@@ -2880,92 +3386,110 @@
         {
           "thai": "ลง",
           "translit": "",
-          "meaning": "to descend, to go down"
+          "meaning": "to descend, to go down",
+          "meaningRu": "спускаться"
         },
         {
           "thai": "ลม",
           "translit": "",
-          "meaning": "wind"
+          "meaning": "wind",
+          "meaningRu": "ветер"
         },
         {
           "thai": "ล็อก",
           "translit": "",
-          "meaning": "[E] to lock"
+          "meaning": "[E] to lock",
+          "meaningRu": "[E] запирать"
         },
         {
           "thai": "ลอง",
           "translit": "",
-          "meaning": "to try"
+          "meaning": "to try",
+          "meaningRu": "пробовать"
         },
         {
           "thai": "ละ",
           "translit": "",
-          "meaning": "per, to leave"
+          "meaning": "per, to leave",
+          "meaningRu": "за (каждый), покидать"
         },
         {
           "thai": "ล่ะ",
           "translit": "",
-          "meaning": "[focus shifting final particle]"
+          "meaning": "[focus shifting final particle]",
+          "meaningRu": "[частица переключения фокуса]"
         },
         {
           "thai": "ละเมอ",
           "translit": "",
-          "meaning": "to sleepwalk/talk"
+          "meaning": "to sleepwalk/talk",
+          "meaningRu": "говорить/ходить во сне"
         },
         {
           "thai": "ลัง",
           "translit": "",
-          "meaning": "crate"
+          "meaning": "crate",
+          "meaningRu": "ящик"
         },
         {
           "thai": "ลาบ",
           "translit": "",
-          "meaning": "Thai northeastern salad dish"
+          "meaning": "Thai northeastern salad dish",
+          "meaningRu": "тайский северо-восточный салат"
         },
         {
           "thai": "ลาม",
           "translit": "",
-          "meaning": "to spread, to extend"
+          "meaning": "to spread, to extend",
+          "meaningRu": "распространяться"
         },
         {
           "thai": "ลาย",
           "translit": "",
-          "meaning": "design, pattern"
+          "meaning": "design, pattern",
+          "meaningRu": "узор, орнамент"
         },
         {
           "thai": "ลาว",
           "translit": "",
-          "meaning": "Laos"
+          "meaning": "Laos",
+          "meaningRu": "Лаос"
         },
         {
           "thai": "ลิฟต์",
           "translit": "",
-          "meaning": "lift"
+          "meaning": "lift",
+          "meaningRu": "лифт"
         },
         {
           "thai": "ลืม",
           "translit": "",
-          "meaning": "to forget"
+          "meaning": "to forget",
+          "meaningRu": "забывать"
         },
         {
           "thai": "ลุกลาม",
           "translit": "",
-          "meaning": "to spread, to extend"
+          "meaning": "to spread, to extend",
+          "meaningRu": "распространяться"
         },
         {
           "thai": "ลุง",
           "translit": "",
-          "meaning": "uncle"
+          "meaning": "uncle",
+          "meaningRu": "дядя"
         },
         {
           "thai": "ลูก",
           "translit": "",
-          "meaning": "child"
+          "meaning": "child",
+          "meaningRu": "ребёнок"
         },
         {
           "thai": "ลูกเขย",
           "translit": "",
-          "meaning": "son-in-law"
+          "meaning": "son-in-law",
+          "meaningRu": "зять"
         },
         {
           "thai": "เล",
@@ -2980,52 +3504,62 @@
         {
           "thai": "เล็ก",
           "translit": "",
-          "meaning": "small"
+          "meaning": "small",
+          "meaningRu": "маленький"
         },
         {
           "thai": "เลน",
           "translit": "",
-          "meaning": "[E] lane"
+          "meaning": "[E] lane",
+          "meaningRu": "[E] полоса"
         },
         {
           "thai": "เลย",
           "translit": "",
-          "meaning": "[\"...at all\" final particle]"
+          "meaning": "[\"...at all\" final particle]",
+          "meaningRu": "[частица «...вообще»]"
         },
         {
           "thai": "เลว",
           "translit": "",
-          "meaning": "bad, vile"
+          "meaning": "bad, vile",
+          "meaningRu": "плохой, подлый"
         },
         {
           "thai": "เลอะ",
           "translit": "",
-          "meaning": "dirty, stain"
+          "meaning": "dirty, stain",
+          "meaningRu": "грязный, пятно"
         },
         {
           "thai": "เละ",
           "translit": "",
-          "meaning": "squished, crushed"
+          "meaning": "squished, crushed",
+          "meaningRu": "раздавленный"
         },
         {
           "thai": "แล่น",
           "translit": "",
-          "meaning": "(vehicle) to run, to move"
+          "meaning": "(vehicle) to run, to move",
+          "meaningRu": "(транспорт) ехать, двигаться"
         },
         {
           "thai": "แล้ว",
           "translit": "",
-          "meaning": "already"
+          "meaning": "already",
+          "meaningRu": "уже"
         },
         {
           "thai": "แล้วแต่",
           "translit": "",
-          "meaning": "depends"
+          "meaning": "depends",
+          "meaningRu": "зависит"
         },
         {
           "thai": "และ",
           "translit": "",
-          "meaning": "and"
+          "meaning": "and",
+          "meaningRu": "и"
         },
         {
           "thai": "โลบ",
@@ -3045,12 +3579,14 @@
         {
           "thai": "โลเล",
           "translit": "",
-          "meaning": "indecisive, fickle"
+          "meaning": "indecisive, fickle",
+          "meaningRu": "нерешительный, непостоянный"
         },
         {
           "thai": "โละ",
           "translit": "",
-          "meaning": "to sack, to remove"
+          "meaning": "to sack, to remove",
+          "meaningRu": "увольнять, убирать"
         },
         {
           "thai": "ว",
@@ -3060,42 +3596,50 @@
         {
           "thai": "วงกลม",
           "translit": "",
-          "meaning": "circle"
+          "meaning": "circle",
+          "meaningRu": "круг"
         },
         {
           "thai": "วงจร",
           "translit": "",
-          "meaning": "circuit"
+          "meaning": "circuit",
+          "meaningRu": "цепь, контур"
         },
         {
           "thai": "วอ",
           "translit": "",
-          "meaning": "palanquin"
+          "meaning": "palanquin",
+          "meaningRu": "паланкин"
         },
         {
           "thai": "วอช",
           "translit": "",
-          "meaning": "[E] watch"
+          "meaning": "[E] watch",
+          "meaningRu": "[E] часы"
         },
         {
           "thai": "วัฒนธรรม",
           "translit": "",
-          "meaning": "culture"
+          "meaning": "culture",
+          "meaningRu": "культура"
         },
         {
           "thai": "วัด",
           "translit": "",
-          "meaning": "temple"
+          "meaning": "temple",
+          "meaningRu": "храм"
         },
         {
           "thai": "วัน",
           "translit": "",
-          "meaning": "day"
+          "meaning": "day",
+          "meaningRu": "день"
         },
         {
           "thai": "ว่า",
           "translit": "",
-          "meaning": "that, which"
+          "meaning": "that, which",
+          "meaningRu": "который"
         },
         {
           "thai": "วาท",
@@ -3105,42 +3649,50 @@
         {
           "thai": "วานร",
           "translit": "",
-          "meaning": "[P/S] monkey"
+          "meaning": "[P/S] monkey",
+          "meaningRu": "[P/S] обезьяна"
         },
         {
           "thai": "วิธี",
           "translit": "",
-          "meaning": "method"
+          "meaning": "method",
+          "meaningRu": "метод"
         },
         {
           "thai": "วินด์เซิร์ฟ",
           "translit": "",
-          "meaning": "[E] windsurf"
+          "meaning": "[E] windsurf",
+          "meaningRu": "[E] виндсёрфинг"
         },
         {
           "thai": "วุฒิ",
           "translit": "",
-          "meaning": "qualification"
+          "meaning": "qualification",
+          "meaningRu": "квалификация"
         },
         {
           "thai": "เวร",
           "translit": "",
-          "meaning": "retribution, work shift"
+          "meaning": "retribution, work shift",
+          "meaningRu": "возмездие, рабочая смена"
         },
         {
           "thai": "เวลา",
           "translit": "",
-          "meaning": "time"
+          "meaning": "time",
+          "meaningRu": "время"
         },
         {
           "thai": "ไว",
           "translit": "",
-          "meaning": "quickly"
+          "meaning": "quickly",
+          "meaningRu": "быстро"
         },
         {
           "thai": "ไว้",
           "translit": "",
-          "meaning": "to do sth in advance"
+          "meaning": "to do sth in advance",
+          "meaningRu": "делать заранее"
         },
         {
           "thai": "ศ",
@@ -3150,42 +3702,50 @@
         {
           "thai": "ศอก",
           "translit": "",
-          "meaning": "elbow"
+          "meaning": "elbow",
+          "meaningRu": "локоть"
         },
         {
           "thai": "ศักดิ์",
           "translit": "",
-          "meaning": "prestige, honour"
+          "meaning": "prestige, honour",
+          "meaningRu": "престиж, честь"
         },
         {
           "thai": "ศัพท์",
           "translit": "",
-          "meaning": "vocabulary"
+          "meaning": "vocabulary",
+          "meaningRu": "словарный запас"
         },
         {
           "thai": "ศาลา",
           "translit": "",
-          "meaning": "gazebo, pavillion"
+          "meaning": "gazebo, pavillion",
+          "meaningRu": "беседка, павильон"
         },
         {
           "thai": "ศาสตร์",
           "translit": "",
-          "meaning": "[\"study of...\" suffix]"
+          "meaning": "[\"study of...\" suffix]",
+          "meaningRu": "[суффикс «...ведение»]"
         },
         {
           "thai": "ศีรษะ",
           "translit": "",
-          "meaning": "head [formal]"
+          "meaning": "head [formal]",
+          "meaningRu": "голова [форм.]"
         },
         {
           "thai": "เศรษฐกิจ",
           "translit": "",
-          "meaning": "economy"
+          "meaning": "economy",
+          "meaningRu": "экономика"
         },
         {
           "thai": "เศร้า",
           "translit": "",
-          "meaning": "sad"
+          "meaning": "sad",
+          "meaningRu": "грустный"
         },
         {
           "thai": "ส",
@@ -3195,122 +3755,146 @@
         {
           "thai": "สกปรก",
           "translit": "",
-          "meaning": "dirty"
+          "meaning": "dirty",
+          "meaningRu": "грязный"
         },
         {
           "thai": "สงบ",
           "translit": "",
-          "meaning": "peaceful, calm"
+          "meaning": "peaceful, calm",
+          "meaningRu": "мирный, спокойный"
         },
         {
           "thai": "สด",
           "translit": "",
-          "meaning": "fresh"
+          "meaning": "fresh",
+          "meaningRu": "свежий"
         },
         {
           "thai": "สดชื่น",
           "translit": "",
-          "meaning": "fresh, vigourious"
+          "meaning": "fresh, vigourious",
+          "meaningRu": "свежий, бодрый"
         },
         {
           "thai": "สถานการณ์",
           "translit": "",
-          "meaning": "situation"
+          "meaning": "situation",
+          "meaningRu": "ситуация"
         },
         {
           "thai": "สนามหลวง",
           "translit": "",
-          "meaning": "Royal Ground"
+          "meaning": "Royal Ground",
+          "meaningRu": "Королевская площадь"
         },
         {
           "thai": "สนุก",
           "translit": "",
-          "meaning": "fun"
+          "meaning": "fun",
+          "meaningRu": "весёлый"
         },
         {
           "thai": "สบาย",
           "translit": "",
-          "meaning": "comfortable, easy"
+          "meaning": "comfortable, easy",
+          "meaningRu": "комфортный, легко"
         },
         {
           "thai": "สม",
           "translit": "",
-          "meaning": "to deserve"
+          "meaning": "to deserve",
+          "meaningRu": "заслуживать"
         },
         {
           "thai": "ส้ม",
           "translit": "",
-          "meaning": "orange"
+          "meaning": "orange",
+          "meaningRu": "апельсин"
         },
         {
           "thai": "สมบัติ",
           "translit": "",
-          "meaning": "treasure, heritage"
+          "meaning": "treasure, heritage",
+          "meaningRu": "сокровище, наследие"
         },
         {
           "thai": "สมปอง",
           "translit": "",
-          "meaning": "[personal name]"
+          "meaning": "[personal name]",
+          "meaningRu": "[личное имя]"
         },
         {
           "thai": "สมมุติ",
           "translit": "",
-          "meaning": "suppose that…"
+          "meaning": "suppose that…",
+          "meaningRu": "предположим, что…"
         },
         {
           "thai": "สมอง",
           "translit": "",
-          "meaning": "brain"
+          "meaning": "brain",
+          "meaningRu": "мозг"
         },
         {
           "thai": "สมัคร",
           "translit": "",
-          "meaning": "to apply"
+          "meaning": "to apply",
+          "meaningRu": "подавать заявку"
         },
         {
           "thai": "สระ",
           "translit": "",
-          "meaning": "/sàrà/ vowel, /sà/ pond"
+          "meaning": "/sàrà/ vowel, /sà/ pond",
+          "meaningRu": "/сара/ гласная, /са/ пруд"
         },
         {
           "thai": "สร้าง",
           "translit": "",
-          "meaning": "to build, to create"
+          "meaning": "to build, to create",
+          "meaningRu": "строить, создавать"
         },
         {
           "thai": "ส่วนประกอบ",
           "translit": "",
-          "meaning": "component, ingredient"
+          "meaning": "component, ingredient",
+          "meaningRu": "компонент, ингредиент"
         },
         {
           "thai": "สวย",
           "translit": "",
-          "meaning": "beautiful"
+          "meaning": "beautiful",
+          "meaningRu": "красивый"
         },
         {
           "thai": "สว่าง",
           "translit": "",
-          "meaning": "bright"
+          "meaning": "bright",
+          "meaningRu": "яркий"
         },
         {
           "thai": "สหรัฐอเมริกา",
           "translit": "",
-          "meaning": "United States of America"
+          "meaning": "United States of America",
+          "meaningRu": "Соединённые Штаты Америки"
         },
         {
           "thai": "สหาย",
           "translit": "",
-          "meaning": "comrade"
+          "meaning": "comrade",
+          "meaningRu": "товарищ"
         },
         {
           "thai": "สอง",
           "translit": "",
-          "meaning": "two"
+          "meaning": "two",
+          "meaningRu": "два"
         },
         {
           "thai": "สะพานผ่านฟ้า",
           "translit": "",
-          "meaning": "Phan Fa Bridge"
+          "meaning": "Phan Fa Bridge",
+          "meaningRu": "мост Пханфа"
         },
         {
           "thai": "สัว",
@@ -3320,37 +3904,44 @@
         {
           "thai": "สาก",
           "translit": "",
-          "meaning": "pestle"
+          "meaning": "pestle",
+          "meaningRu": "пестик"
         },
         {
           "thai": "สามารถ",
           "translit": "",
-          "meaning": "can, able"
+          "meaning": "can, able",
+          "meaningRu": "мочь, способный"
         },
         {
           "thai": "สาว",
           "translit": "",
-          "meaning": "young female"
+          "meaning": "young female",
+          "meaningRu": "молодая женщина"
         },
         {
           "thai": "สำคัญ",
           "translit": "",
-          "meaning": "important"
+          "meaning": "important",
+          "meaningRu": "важный"
         },
         {
           "thai": "สิทธิ์",
           "translit": "",
-          "meaning": "right, privilege"
+          "meaning": "right, privilege",
+          "meaningRu": "право, привилегия"
         },
         {
           "thai": "สี",
           "translit": "",
-          "meaning": "colour"
+          "meaning": "colour",
+          "meaningRu": "цвет"
         },
         {
           "thai": "สืบทอด",
           "translit": "",
-          "meaning": "to inherit"
+          "meaning": "to inherit",
+          "meaningRu": "наследовать"
         },
         {
           "thai": "สือ",
@@ -3360,22 +3951,26 @@
         {
           "thai": "สุขภาพ",
           "translit": "",
-          "meaning": "health"
+          "meaning": "health",
+          "meaningRu": "здоровье"
         },
         {
           "thai": "สูง",
           "translit": "",
-          "meaning": "tall, high"
+          "meaning": "tall, high",
+          "meaningRu": "высокий"
         },
         {
           "thai": "สูบ",
           "translit": "",
-          "meaning": "to suck, to smoke"
+          "meaning": "to suck, to smoke",
+          "meaningRu": "сосать, курить"
         },
         {
           "thai": "เสก",
           "translit": "",
-          "meaning": "to cast a spell"
+          "meaning": "to cast a spell",
+          "meaningRu": "наводить чары"
         },
         {
           "thai": "เสข",
@@ -3390,52 +3985,62 @@
         {
           "thai": "เสบียง",
           "translit": "",
-          "meaning": "provision"
+          "meaning": "provision",
+          "meaningRu": "провиант"
         },
         {
           "thai": "เสพ",
           "translit": "",
-          "meaning": "to take (drug)"
+          "meaning": "to take (drug)",
+          "meaningRu": "принимать (наркотик)"
         },
         {
           "thai": "เสร็จ",
           "translit": "",
-          "meaning": "to finish"
+          "meaning": "to finish",
+          "meaningRu": "заканчивать"
         },
         {
           "thai": "เสริม",
           "translit": "",
-          "meaning": "supplement, to reinforce"
+          "meaning": "supplement, to reinforce",
+          "meaningRu": "дополнение, усиливать"
         },
         {
           "thai": "เสาร์",
           "translit": "",
-          "meaning": "Saturday"
+          "meaning": "Saturday",
+          "meaningRu": "суббота"
         },
         {
           "thai": "เสาะ",
           "translit": "",
-          "meaning": "to search, to seek"
+          "meaning": "to search, to seek",
+          "meaningRu": "искать, разыскивать"
         },
         {
           "thai": "เสีย",
           "translit": "",
-          "meaning": "to lose, broken"
+          "meaning": "to lose, broken",
+          "meaningRu": "терять, сломанный"
         },
         {
           "thai": "เสี้ยม",
           "translit": "",
-          "meaning": "to sharpen"
+          "meaning": "to sharpen",
+          "meaningRu": "затачивать"
         },
         {
           "thai": "เสือ",
           "translit": "",
-          "meaning": "tiger"
+          "meaning": "tiger",
+          "meaningRu": "тигр"
         },
         {
           "thai": "แสดงออก",
           "translit": "",
-          "meaning": "to show, to demonstrate"
+          "meaning": "to show, to demonstrate",
+          "meaningRu": "показывать, демонстрировать"
         },
         {
           "thai": "ห",
@@ -3445,42 +4050,50 @@
         {
           "thai": "หงอ",
           "translit": "",
-          "meaning": "afraid, cowardly"
+          "meaning": "afraid, cowardly",
+          "meaningRu": "трусливый"
         },
         {
           "thai": "หงอก",
           "translit": "",
-          "meaning": "(hair) to turn grey"
+          "meaning": "(hair) to turn grey",
+          "meaningRu": "(волосы) седеть"
         },
         {
           "thai": "หญ้า",
           "translit": "",
-          "meaning": "grass"
+          "meaning": "grass",
+          "meaningRu": "трава"
         },
         {
           "thai": "หญิง",
           "translit": "",
-          "meaning": "female"
+          "meaning": "female",
+          "meaningRu": "женский"
         },
         {
           "thai": "หนอก",
           "translit": "",
-          "meaning": "(camel) hump"
+          "meaning": "(camel) hump",
+          "meaningRu": "(верблюжий) горб"
         },
         {
           "thai": "หนัก",
           "translit": "",
-          "meaning": "heavy"
+          "meaning": "heavy",
+          "meaningRu": "тяжёлый"
         },
         {
           "thai": "หนาม",
           "translit": "",
-          "meaning": "thorn, spike"
+          "meaning": "thorn, spike",
+          "meaningRu": "шип, колючка"
         },
         {
           "thai": "หนาว",
           "translit": "",
-          "meaning": "cold"
+          "meaning": "cold",
+          "meaningRu": "холодный"
         },
         {
           "thai": "หนิ",
@@ -3490,72 +4103,86 @@
         {
           "thai": "หนืด",
           "translit": "",
-          "meaning": "sticky"
+          "meaning": "sticky",
+          "meaningRu": "вязкий"
         },
         {
           "thai": "หนู",
           "translit": "",
-          "meaning": "rat, mouse"
+          "meaning": "rat, mouse",
+          "meaningRu": "крыса, мышь"
         },
         {
           "thai": "หมด",
           "translit": "",
-          "meaning": "entirely, used up"
+          "meaning": "entirely, used up",
+          "meaningRu": "полностью, исчерпанный"
         },
         {
           "thai": "หมวก",
           "translit": "",
-          "meaning": "hat"
+          "meaning": "hat",
+          "meaningRu": "шляпа"
         },
         {
           "thai": "หมอ",
           "translit": "",
-          "meaning": "doctor, healer"
+          "meaning": "doctor, healer",
+          "meaningRu": "врач, целитель"
         },
         {
           "thai": "หม้อ",
           "translit": "",
-          "meaning": "pot"
+          "meaning": "pot",
+          "meaningRu": "горшок"
         },
         {
           "thai": "หมัด",
           "translit": "",
-          "meaning": "lice, fist"
+          "meaning": "lice, fist",
+          "meaningRu": "вши, кулак"
         },
         {
           "thai": "หมั่นเพียร",
           "translit": "",
-          "meaning": "diligent"
+          "meaning": "diligent",
+          "meaningRu": "усердный"
         },
         {
           "thai": "หมา",
           "translit": "",
-          "meaning": "dog"
+          "meaning": "dog",
+          "meaningRu": "собака"
         },
         {
           "thai": "หมี",
           "translit": "",
-          "meaning": "bear"
+          "meaning": "bear",
+          "meaningRu": "медведь"
         },
         {
           "thai": "หมู",
           "translit": "",
-          "meaning": "pig"
+          "meaning": "pig",
+          "meaningRu": "свинья"
         },
         {
           "thai": "หยก",
           "translit": "",
-          "meaning": "jade"
+          "meaning": "jade",
+          "meaningRu": "нефрит"
         },
         {
           "thai": "หยาม",
           "translit": "",
-          "meaning": "disdain, look down upon"
+          "meaning": "disdain, look down upon",
+          "meaningRu": "презирать"
         },
         {
           "thai": "หยิน",
           "translit": "",
-          "meaning": "yin (astrology)"
+          "meaning": "yin (astrology)",
+          "meaningRu": "инь (астрология)"
         },
         {
           "thai": "หรับ",
@@ -3565,37 +4192,44 @@
         {
           "thai": "หรือ",
           "translit": "",
-          "meaning": "or"
+          "meaning": "or",
+          "meaningRu": "или"
         },
         {
           "thai": "หรู",
           "translit": "",
-          "meaning": "luxurious, elegant"
+          "meaning": "luxurious, elegant",
+          "meaningRu": "роскошный, элегантный"
         },
         {
           "thai": "หลบ",
           "translit": "",
-          "meaning": "hide, avoid"
+          "meaning": "hide, avoid",
+          "meaningRu": "прятаться, избегать"
         },
         {
           "thai": "หลวง",
           "translit": "",
-          "meaning": "Royal, superior"
+          "meaning": "Royal, superior",
+          "meaningRu": "королевский, высший"
         },
         {
           "thai": "หลัก",
           "translit": "",
-          "meaning": "main"
+          "meaning": "main",
+          "meaningRu": "главный"
         },
         {
           "thai": "หลาย",
           "translit": "",
-          "meaning": "many, several"
+          "meaning": "many, several",
+          "meaningRu": "много, несколько"
         },
         {
           "thai": "หลืบ",
           "translit": "",
-          "meaning": "narrow opening"
+          "meaning": "narrow opening",
+          "meaningRu": "узкое отверстие"
         },
         {
           "thai": "หลือ",
@@ -3605,62 +4239,74 @@
         {
           "thai": "หวาน",
           "translit": "",
-          "meaning": "sweet"
+          "meaning": "sweet",
+          "meaningRu": "сладкий"
         },
         {
           "thai": "หวี",
           "translit": "",
-          "meaning": "comb"
+          "meaning": "comb",
+          "meaningRu": "расчёска"
         },
         {
           "thai": "ห้อง",
           "translit": "",
-          "meaning": "room"
+          "meaning": "room",
+          "meaningRu": "комната"
         },
         {
           "thai": "หัก",
           "translit": "",
-          "meaning": "to snap, to break off"
+          "meaning": "to snap, to break off",
+          "meaningRu": "ломать, отламывать"
         },
         {
           "thai": "หั่น",
           "translit": "",
-          "meaning": "to cut, to slice"
+          "meaning": "to cut, to slice",
+          "meaningRu": "нарезать, резать ломтиками"
         },
         {
           "thai": "หัว",
           "translit": "",
-          "meaning": "head"
+          "meaning": "head",
+          "meaningRu": "голова"
         },
         {
           "thai": "หัวโขน",
           "translit": "",
-          "meaning": "\"Khon\" (Thai traditional drama) mask"
+          "meaning": "\"Khon\" (Thai traditional drama) mask",
+          "meaningRu": "маска «Кхон» (тайская традиционная драма)"
         },
         {
           "thai": "หัวใจ",
           "translit": "",
-          "meaning": "heart"
+          "meaning": "heart",
+          "meaningRu": "сердце"
         },
         {
           "thai": "หาก",
           "translit": "",
-          "meaning": "if"
+          "meaning": "if",
+          "meaningRu": "если"
         },
         {
           "thai": "หาบ",
           "translit": "",
-          "meaning": "to carry on shoulders"
+          "meaning": "to carry on shoulders",
+          "meaningRu": "нести на плечах"
         },
         {
           "thai": "หึง",
           "translit": "",
-          "meaning": "jealous"
+          "meaning": "jealous",
+          "meaningRu": "ревнивый"
         },
         {
           "thai": "หืด",
           "translit": "",
-          "meaning": "asthma"
+          "meaning": "asthma",
+          "meaningRu": "астма"
         },
         {
           "thai": "เหงย",
@@ -3670,67 +4316,80 @@
         {
           "thai": "เหงา",
           "translit": "",
-          "meaning": "lonely"
+          "meaning": "lonely",
+          "meaningRu": "одинокий"
         },
         {
           "thai": "เหตุ",
           "translit": "",
-          "meaning": "cause, incident"
+          "meaning": "cause, incident",
+          "meaningRu": "причина, инцидент"
         },
         {
           "thai": "เห็น",
           "translit": "",
-          "meaning": "to see"
+          "meaning": "to see",
+          "meaningRu": "видеть"
         },
         {
           "thai": "เหนือ",
           "translit": "",
-          "meaning": "north"
+          "meaning": "north",
+          "meaningRu": "север"
         },
         {
           "thai": "เหม็น",
           "translit": "",
-          "meaning": "to stink"
+          "meaning": "to stink",
+          "meaningRu": "вонять"
         },
         {
           "thai": "เหมา",
           "translit": "",
-          "meaning": "wholesale"
+          "meaning": "wholesale",
+          "meaningRu": "оптом"
         },
         {
           "thai": "เหมาะ",
           "translit": "",
-          "meaning": "suitable"
+          "meaning": "suitable",
+          "meaningRu": "подходящий"
         },
         {
           "thai": "เหมือง",
           "translit": "",
-          "meaning": "(mineral) mine"
+          "meaning": "(mineral) mine",
+          "meaningRu": "шахта"
         },
         {
           "thai": "เหยิน",
           "translit": "",
-          "meaning": "to protrude"
+          "meaning": "to protrude",
+          "meaningRu": "выступать"
         },
         {
           "thai": "เหรอ",
           "translit": "",
-          "meaning": "[confirmation seeking question final particle]"
+          "meaning": "[confirmation seeking question final particle]",
+          "meaningRu": "[вопросительная частица подтверждения]"
         },
         {
           "thai": "เหรียญ",
           "translit": "",
-          "meaning": "coin"
+          "meaning": "coin",
+          "meaningRu": "монета"
         },
         {
           "thai": "เหลิง",
           "translit": "",
-          "meaning": "spoilt, go too far"
+          "meaning": "spoilt, go too far",
+          "meaningRu": "избалованный, зарываться"
         },
         {
           "thai": "เหาะ",
           "translit": "",
-          "meaning": "to fly"
+          "meaning": "to fly",
+          "meaningRu": "летать"
         },
         {
           "thai": "แหง",
@@ -3740,67 +4399,80 @@
         {
           "thai": "แห่ง",
           "translit": "",
-          "meaning": "place"
+          "meaning": "place",
+          "meaningRu": "место"
         },
         {
           "thai": "แห้ง",
           "translit": "",
-          "meaning": "dry"
+          "meaning": "dry",
+          "meaningRu": "сухой"
         },
         {
           "thai": "แหย่",
           "translit": "",
-          "meaning": "to poke, to tease"
+          "meaning": "to poke, to tease",
+          "meaningRu": "тыкать, дразнить"
         },
         {
           "thai": "แหยะ",
           "translit": "",
-          "meaning": "watery, mushy"
+          "meaning": "watery, mushy",
+          "meaningRu": "водянистый, кашеобразный"
         },
         {
           "thai": "โหล",
           "translit": "",
-          "meaning": "dozen"
+          "meaning": "dozen",
+          "meaningRu": "дюжина"
         },
         {
           "thai": "โหวต",
           "translit": "",
-          "meaning": "[E] to vote"
+          "meaning": "[E] to vote",
+          "meaningRu": "[E] голосовать"
         },
         {
           "thai": "ให้เกียรติ",
           "translit": "",
-          "meaning": "to respect, to regard"
+          "meaning": "to respect, to regard",
+          "meaningRu": "уважать, почитать"
         },
         {
           "thai": "ใหญ่",
           "translit": "",
-          "meaning": "big"
+          "meaning": "big",
+          "meaningRu": "большой"
         },
         {
           "thai": "ใหม่",
           "translit": "",
-          "meaning": "new, again"
+          "meaning": "new, again",
+          "meaningRu": "новый, снова"
         },
         {
           "thai": "ไหน",
           "translit": "",
-          "meaning": "which, where"
+          "meaning": "which, where",
+          "meaningRu": "какой, где"
         },
         {
           "thai": "ไหม",
           "translit": "",
-          "meaning": "[question final particle]"
+          "meaning": "[question final particle]",
+          "meaningRu": "[вопросительная конечная частица]"
         },
         {
           "thai": "ไหม้",
           "translit": "",
-          "meaning": "to burn"
+          "meaning": "to burn",
+          "meaningRu": "гореть"
         },
         {
           "thai": "ไหว้",
           "translit": "",
-          "meaning": "a traditional gesture for greeting, thanking, or apologising"
+          "meaning": "a traditional gesture for greeting, thanking, or apologising",
+          "meaningRu": "традиционный жест приветствия, благодарности или извинения"
         },
         {
           "thai": "อ",
@@ -3810,97 +4482,116 @@
         {
           "thai": "องุ่น",
           "translit": "",
-          "meaning": "grape"
+          "meaning": "grape",
+          "meaningRu": "виноград"
         },
         {
           "thai": "อบรม",
           "translit": "",
-          "meaning": "to instruct, to train"
+          "meaning": "to instruct, to train",
+          "meaningRu": "наставлять, обучать"
         },
         {
           "thai": "อย่า",
           "translit": "",
-          "meaning": "do not"
+          "meaning": "do not",
+          "meaningRu": "не (запрет)"
         },
         {
           "thai": "อยาก",
           "translit": "",
-          "meaning": "to want"
+          "meaning": "to want",
+          "meaningRu": "хотеть"
         },
         {
           "thai": "อย่าง",
           "translit": "",
-          "meaning": "like, kind"
+          "meaning": "like, kind",
+          "meaningRu": "как, вид"
         },
         {
           "thai": "อยู่",
           "translit": "",
-          "meaning": "to be (at a place)"
+          "meaning": "to be (at a place)",
+          "meaningRu": "находиться"
         },
         {
           "thai": "อร",
           "translit": "",
-          "meaning": "[personal name]"
+          "meaning": "[personal name]",
+          "meaningRu": "[личное имя]"
         },
         {
           "thai": "อร่อย",
           "translit": "",
-          "meaning": "delicious"
+          "meaning": "delicious",
+          "meaningRu": "вкусный"
         },
         {
           "thai": "อโศก",
           "translit": "",
-          "meaning": "[place name]"
+          "meaning": "[place name]",
+          "meaningRu": "[название места]"
         },
         {
           "thai": "อสูร",
           "translit": "",
-          "meaning": "demon"
+          "meaning": "demon",
+          "meaningRu": "демон"
         },
         {
           "thai": "ออฟฟิศ",
           "translit": "",
-          "meaning": "[E] office"
+          "meaning": "[E] office",
+          "meaningRu": "[E] офис"
         },
         {
           "thai": "ออม",
           "translit": "",
-          "meaning": "to save money"
+          "meaning": "to save money",
+          "meaningRu": "копить деньги"
         },
         {
           "thai": "อะไร",
           "translit": "",
-          "meaning": "what"
+          "meaning": "what",
+          "meaningRu": "что"
         },
         {
           "thai": "อังคาร",
           "translit": "",
-          "meaning": "Tuesday"
+          "meaning": "Tuesday",
+          "meaningRu": "вторник"
         },
         {
           "thai": "อัตโนมัติ",
           "translit": "",
-          "meaning": "automatic"
+          "meaning": "automatic",
+          "meaningRu": "автоматический"
         },
         {
           "thai": "อา",
           "translit": "",
-          "meaning": "aunt, uncle"
+          "meaning": "aunt, uncle",
+          "meaningRu": "тётя, дядя"
         },
         {
           "thai": "อากาศ",
           "translit": "",
-          "meaning": "weather, air"
+          "meaning": "weather, air",
+          "meaningRu": "погода, воздух"
         },
         {
           "thai": "อาคาร",
           "translit": "",
-          "meaning": "building"
+          "meaning": "building",
+          "meaningRu": "здание"
         },
         {
           "thai": "อาจ",
           "translit": "",
-          "meaning": "perhaps"
+          "meaning": "perhaps",
+          "meaningRu": "возможно"
         },
         {
           "thai": "อาช",
@@ -3930,27 +4621,32 @@
         {
           "thai": "อาทร",
           "translit": "",
-          "meaning": "concerned, care"
+          "meaning": "concerned, care",
+          "meaningRu": "заботливый, забота"
         },
         {
           "thai": "อาทิตย์",
           "translit": "",
-          "meaning": "sun, Sunday, week"
+          "meaning": "sun, Sunday, week",
+          "meaningRu": "солнце, воскресенье, неделя"
         },
         {
           "thai": "อาน",
           "translit": "",
-          "meaning": "saddle"
+          "meaning": "saddle",
+          "meaningRu": "седло"
         },
         {
           "thai": "อารมณ์",
           "translit": "",
-          "meaning": "emotion"
+          "meaning": "emotion",
+          "meaningRu": "эмоция"
         },
         {
           "thai": "อ่าว",
           "translit": "",
-          "meaning": "bay"
+          "meaning": "bay",
+          "meaningRu": "залив"
         },
         {
           "thai": "อาส",
@@ -3960,42 +4656,50 @@
         {
           "thai": "อาหาร",
           "translit": "",
-          "meaning": "food"
+          "meaning": "food",
+          "meaningRu": "еда"
         },
         {
           "thai": "อึดอัด",
           "translit": "",
-          "meaning": "uncomfortable, tight"
+          "meaning": "uncomfortable, tight",
+          "meaningRu": "неудобный, тесный"
         },
         {
           "thai": "อืด",
           "translit": "",
-          "meaning": "swollen, bloated"
+          "meaning": "swollen, bloated",
+          "meaningRu": "опухший, вздутый"
         },
         {
           "thai": "อื่น",
           "translit": "",
-          "meaning": "other"
+          "meaning": "other",
+          "meaningRu": "другой"
         },
         {
           "thai": "เอกลักษณ์",
           "translit": "",
-          "meaning": "uniqueness, trait"
+          "meaning": "uniqueness, trait",
+          "meaningRu": "уникальность, черта"
         },
         {
           "thai": "เอง",
           "translit": "",
-          "meaning": "(one)self"
+          "meaning": "(one)self",
+          "meaningRu": "сам"
         },
         {
           "thai": "เอ๋อ",
           "translit": "",
-          "meaning": "hypothyroidism"
+          "meaning": "hypothyroidism",
+          "meaningRu": "гипотиреоз"
         },
         {
           "thai": "เอา",
           "translit": "",
-          "meaning": "to take"
+          "meaning": "to take",
+          "meaningRu": "брать"
         },
         {
           "thai": "เอือ",
@@ -4010,22 +4714,26 @@
         {
           "thai": "ฮอด",
           "translit": "",
-          "meaning": "[D] to arrive"
+          "meaning": "[D] to arrive",
+          "meaningRu": "[D] прибывать"
         },
         {
           "thai": "ฮะ",
           "translit": "",
-          "meaning": "[male final particle]"
+          "meaning": "[male final particle]",
+          "meaningRu": "[мужская конечная частица]"
         },
         {
           "thai": "ฮัก",
           "translit": "",
-          "meaning": "[D] to love"
+          "meaning": "[D] to love",
+          "meaningRu": "[D] любить"
         },
         {
           "thai": "ฮา",
           "translit": "",
-          "meaning": "funny"
+          "meaning": "funny",
+          "meaningRu": "смешной"
         },
         {
           "thai": "ฮึง",
@@ -4035,12 +4743,14 @@
         {
           "thai": "ฮือ",
           "translit": "",
-          "meaning": "the sound of crying"
+          "meaning": "the sound of crying",
+          "meaningRu": "звук плача"
         },
         {
           "thai": "เฮีย",
           "translit": "",
-          "meaning": "[C] elder brother"
+          "meaning": "[C] elder brother",
+          "meaningRu": "[C] старший брат"
         },
         {
           "thai": "เฮือ",
@@ -4055,18 +4765,26 @@
         {
           "thai": "แฮค",
           "translit": "",
-          "meaning": "[E] to hack"
+          "meaning": "[E] to hack",
+          "meaningRu": "[E] взламывать"
         },
         {
           "thai": "ไฮโซ",
           "translit": "",
-          "meaning": "hi-society"
+          "meaning": "hi-society",
+          "meaningRu": "высший свет"
         },
         {
           "thai": "ไฮติ",
           "translit": "",
-          "meaning": "[E] Haiti"
+          "meaning": "[E] Haiti",
+          "meaningRu": "[E] Гаити"
         }
+      ],
+      "columnsRu": [
+        "Тайский",
+        "Транслитерация",
+        "Значение"
       ]
     }
   ],

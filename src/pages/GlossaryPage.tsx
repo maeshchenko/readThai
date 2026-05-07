@@ -15,6 +15,7 @@ interface GlossaryEntry {
   thai: string
   translit: string
   meaning: string
+  meaningRu?: string
   key: string
 }
 
@@ -52,6 +53,7 @@ export function GlossaryPage() {
                   thai: row.thai,
                   translit: row.translit || '',
                   meaning: row.meaning || '',
+                  meaningRu: row.meaningRu || '',
                   key: `${row.thai}|${row.translit ?? ''}`,
                 })
               }
@@ -82,7 +84,8 @@ export function GlossaryPage() {
       (e) =>
         e.thai.includes(q) ||
         e.translit.toLowerCase().includes(q) ||
-        e.meaning.toLowerCase().includes(q),
+        e.meaning.toLowerCase().includes(q) ||
+        (e.meaningRu && e.meaningRu.toLowerCase().includes(q)),
     )
   }, [entries, debounced, filter, favourites, recent])
 
@@ -186,6 +189,7 @@ export function GlossaryPage() {
               onTap={onTapEntry}
               favourite={isFavourite(entry.key)}
               onToggleFav={(k) => { haptic('selection'); toggleFavourite(k) }}
+              lang={lang}
             />
           ))}
           {visibleCount < filtered.length && (
@@ -199,9 +203,9 @@ export function GlossaryPage() {
           <table className="w-full text-left">
             <thead>
               <tr className="border-b border-[var(--color-border)] bg-[var(--color-surface-dim)]">
-                <th className="px-4 py-3 text-sm font-semibold">Thai</th>
-                <th className="px-4 py-3 text-sm font-semibold">Transliteration</th>
-                <th className="px-4 py-3 text-sm font-semibold">Meaning</th>
+                <th className="px-4 py-3 text-sm font-semibold">{lang === 'ru' ? 'Тайский' : 'Thai'}</th>
+                <th className="px-4 py-3 text-sm font-semibold">{lang === 'ru' ? 'Транслитерация' : 'Transliteration'}</th>
+                <th className="px-4 py-3 text-sm font-semibold">{lang === 'ru' ? 'Значение' : 'Meaning'}</th>
                 <th />
               </tr>
             </thead>
@@ -219,7 +223,7 @@ export function GlossaryPage() {
                     <Highlight text={entry.translit} query={debounced} />
                   </td>
                   <td className="px-4 py-2.5 text-sm text-[var(--color-on-surface-muted)]">
-                    <Highlight text={entry.meaning} query={debounced} />
+                    <Highlight text={(lang === 'ru' && entry.meaningRu) || entry.meaning} query={debounced} />
                   </td>
                   <td className="pr-3">
                     <button
@@ -260,7 +264,7 @@ export function GlossaryPage() {
             {detail.meaning && (
               <div>
                 <div className="eyebrow mb-1.5">{lang === 'ru' ? 'Перевод' : 'Meaning'}</div>
-                <p className="text-[15px] leading-relaxed text-[var(--color-on-surface)]">{detail.meaning}</p>
+                <p className="text-[15px] leading-relaxed text-[var(--color-on-surface)]">{(lang === 'ru' && detail.meaningRu) || detail.meaning}</p>
               </div>
             )}
             <div className="pt-2">
@@ -296,13 +300,16 @@ function EntryCard({
   onTap,
   favourite,
   onToggleFav,
+  lang = 'en',
 }: {
   entry: GlossaryEntry
   query: string
   onTap: (e: GlossaryEntry) => void
   favourite: boolean
   onToggleFav: (key: string) => void
+  lang?: 'en' | 'ru'
 }) {
+  const meaning = (lang === 'ru' && entry.meaningRu) || entry.meaning
   return (
     <button
       onClick={() => onTap(entry)}
@@ -317,9 +324,9 @@ function EntryCard({
             <Highlight text={entry.translit} query={query} />
           </div>
         )}
-        {entry.meaning && (
+        {meaning && (
           <div className="mt-1 line-clamp-2 text-[13px] text-[var(--color-on-surface-muted)]">
-            <Highlight text={entry.meaning} query={query} />
+            <Highlight text={meaning} query={query} />
           </div>
         )}
       </div>

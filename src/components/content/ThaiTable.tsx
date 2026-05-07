@@ -9,13 +9,14 @@ interface Props {
   rows: ThaiTableRow[]
   headerRows?: TableHeaderRow[]
   stickyFirstCol?: boolean
+  lang?: 'en' | 'ru'
 }
 
-export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) {
+export function ThaiTable({ columns, rows, headerRows, stickyFirstCol, lang = 'en' }: Props) {
   const isMobile = useIsMobile()
 
   if (isMobile && (!headerRows || headerRows.length === 0)) {
-    return <CardList rows={rows} />
+    return <CardList rows={rows} lang={lang} />
   }
 
   return (
@@ -79,7 +80,7 @@ export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) 
               )}
               {rows.some((r) => r.meaning) && (
                 <td className="px-4 py-2.5 text-sm text-[var(--color-on-surface-muted)]">
-                  {row.meaning ?? ''}
+                  {(lang === 'ru' && row.meaningRu) || row.meaning || ''}
                 </td>
               )}
             </tr>
@@ -90,30 +91,33 @@ export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) 
   )
 }
 
-function CardList({ rows }: { rows: ThaiTableRow[] }) {
+function CardList({ rows, lang = 'en' }: { rows: ThaiTableRow[]; lang?: 'en' | 'ru' }) {
   return (
     <div className="overflow-hidden rounded-2xl bg-[var(--color-surface-elevated)] ring-1 ring-[var(--color-hairline)] shadow-[var(--shadow-soft)]">
-      {rows.map((row, i) => (
-        <div
-          key={i}
-          className={cn(
-            'flex items-start gap-3 px-4 py-3.5',
-            i !== 0 && 'border-t border-[var(--color-hairline)]',
-          )}
-        >
-          <div className="min-w-0 flex-1">
-            <ThaiText size="md">{row.thai}</ThaiText>
-            <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-              {row.translit && <span className="translit text-[12px]">{row.translit}</span>}
-              {row.meaning && (
-                <span className="text-[12px] text-[var(--color-on-surface-muted)]">
-                  {row.meaning}
-                </span>
-              )}
+      {rows.map((row, i) => {
+        const meaning = (lang === 'ru' && row.meaningRu) || row.meaning
+        return (
+          <div
+            key={i}
+            className={cn(
+              'flex items-start gap-3 px-4 py-3.5',
+              i !== 0 && 'border-t border-[var(--color-hairline)]',
+            )}
+          >
+            <div className="min-w-0 flex-1">
+              <ThaiText size="md">{row.thai}</ThaiText>
+              <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                {row.translit && <span className="translit text-[12px]">{row.translit}</span>}
+                {meaning && (
+                  <span className="text-[12px] text-[var(--color-on-surface-muted)]">
+                    {meaning}
+                  </span>
+                )}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        )
+      })}
     </div>
   )
 }

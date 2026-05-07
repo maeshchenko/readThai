@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 5: Theory of Tones"
+      "text": "DAY 5: Theory of Tones",
+      "textRu": "ДЕНЬ 5: Теория тонов"
     },
     {
       "type": "paragraph",
-      "html": "Today there are only 3 long vowels. But these three vowels all have two forms (just like -ะ and -ั- in DAY 3)."
+      "html": "Today there are only 3 long vowels. But these three vowels all have two forms (just like -ะ and -ั- in DAY 3).",
+      "htmlRu": "Сегодня будет всего 3 долгих гласных. Но все три имеют две формы написания (как -ะ и -ั- в ДНЕ 3)."
     },
     {
       "type": "track",
@@ -19,7 +21,8 @@
     },
     {
       "type": "paragraph",
-      "html": "-ือ, เ-อ and -ัว are only used when there is no final consonant, but when a final consonant is present, -ื-, เ-ิ- and -ว- are used instead. This difference in spelling has no effect on the vowel sounds."
+      "html": "-ือ, เ-อ and -ัว are only used when there is no final consonant, but when a final consonant is present, -ื-, เ-ิ- and -ว- are used instead. This difference in spelling has no effect on the vowel sounds.",
+      "htmlRu": "-ือ, เ-อ и -ัว используются только когда в слоге нет финальной согласной, а когда финальная согласная присутствует, вместо них используются -ื-, เ-ิ- и -ว-. Эта разница в написании никак не влияет на звучание гласных."
     },
     {
       "type": "track",
@@ -57,16 +60,19 @@
     },
     {
       "type": "paragraph",
-      "html": "For \"-ว-\", it can be a bit confusing because ว is also a consonant, right? The trick is, when you see three consonants together with ว in the middle, I'd say it's probably the vowel -ัว [-ua-]!"
+      "html": "For \"-ว-\", it can be a bit confusing because ว is also a consonant, right? The trick is, when you see three consonants together with ว in the middle, I'd say it's probably the vowel -ัว [-ua-]!",
+      "htmlRu": "С «-ว-» бывает немного запутанно, ведь ว — это ещё и согласная, верно? Хитрость в следующем: когда вы видите три согласных подряд и ว посередине, скорее всего это гласная -ัว [-ua-]!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Keep in mind that some vowels (4 to be precise) have two forms; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!"
+      "html": "Keep in mind that some vowels (4 to be precise) have two forms; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!",
+      "htmlRu": "Помните, что некоторые гласные (если точно — 4) имеют две формы: одна — основная, когда гласная завершает слог, а вторая используется при наличии финальной согласной в этом слоге. Разберитесь в этом, читая слова ниже, пока не уловите принцип. И не забывайте о немом ห!"
     },
     {
       "type": "track",
@@ -75,59 +81,72 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Theory of Tones"
+      "text": "Theory of Tones",
+      "textRu": "Теория тонов"
     },
     {
       "type": "paragraph",
-      "html": "Every syllable of every word in Thai is assigned a tone. In writing, tones can be identified by the way the syllable is written. The factors that affect the tone for each syllable are: whether the syllable is live or dead; the consonant class of the initial consonant; and if any, the tone mark above the syllable."
+      "html": "Every syllable of every word in Thai is assigned a tone. In writing, tones can be identified by the way the syllable is written. The factors that affect the tone for each syllable are: whether the syllable is live or dead; the consonant class of the initial consonant; and if any, the tone mark above the syllable.",
+      "htmlRu": "Каждому слогу каждого слова в тайском языке присваивается тон. На письме тон определяется по тому, как записан слог. Факторы, влияющие на тон каждого слога: является ли слог живым или мёртвым; класс начальной согласной; и, если есть, тоновый знак над слогом."
     },
     {
       "type": "paragraph",
-      "html": "Tone rules in Thai writing are routinely demonised as being super-complicated, and leave many discouraged from learning to read. But here I'll use a friendly approach to debunk this myth."
+      "html": "Tone rules in Thai writing are routinely demonised as being super-complicated, and leave many discouraged from learning to read. But here I'll use a friendly approach to debunk this myth.",
+      "htmlRu": "Правила тонов в тайской письменности постоянно демонизируют как невероятно сложные, и многие опускают руки, так и не научившись читать. Но здесь я использую дружелюбный подход, чтобы развеять этот миф."
     },
     {
       "type": "rule",
       "html": "<table><thead><tr><th></th><th>HC</th><th>MC</th><th>LC</th></tr></thead><tbody><tr><td><b>Live</b></td><td>rising</td><td>mid</td><td>mid</td></tr><tr><td><b>Dead (long V)</b></td><td>low</td><td>low</td><td>falling</td></tr><tr><td><b>Dead (short V)</b></td><td>low</td><td>low</td><td>high</td></tr></tbody></table>",
+      "htmlRu": "<table><thead><tr><th></th><th>HC</th><th>MC</th><th>LC</th></tr></thead><tbody><tr><td><b>Живой</b></td><td>восходящий</td><td>ровный</td><td>ровный</td></tr><tr><td><b>Мёртвый (долг. гл.)</b></td><td>низкий</td><td>низкий</td><td>нисходящий</td></tr><tr><td><b>Мёртвый (крат. гл.)</b></td><td>низкий</td><td>низкий</td><td>высокий</td></tr></tbody></table>",
       "emphasis": "strong",
       "eyebrow": "Tone Rules"
     },
     {
       "type": "paragraph",
-      "html": "Take a look at this table above. This is a concise summary of the rules: For live syllables, HC consonants produce rising tone, MC and LC consonants produce mid tone. For dead syllables, HC and MC consonants produce low tone. As for LC consonants, it depends; if the vowel is long, that dead LC syllable produces falling tone, but if the vowel is short, that dead LC syllable produces high tone. That's about it."
+      "html": "Take a look at this table above. This is a concise summary of the rules: For live syllables, HC consonants produce rising tone, MC and LC consonants produce mid tone. For dead syllables, HC and MC consonants produce low tone. As for LC consonants, it depends; if the vowel is long, that dead LC syllable produces falling tone, but if the vowel is short, that dead LC syllable produces high tone. That's about it.",
+      "htmlRu": "Взгляните на таблицу выше. Это краткое изложение правил: для живых слогов согласные HC дают восходящий тон, а согласные MC и LC — ровный тон. Для мёртвых слогов согласные HC и MC дают низкий тон. Что касается LC — зависит от ситуации: если гласная долгая, мёртвый слог LC даёт нисходящий тон, а если гласная краткая — высокий тон. Вот и всё."
     },
     {
       "type": "paragraph",
-      "html": "Naturally, however, some learners will have a hard time memorising this. Most people are visual learners because for us human beings, pictures leave a more vivid impression. A picture actually does say a thousand words. In the next few pages, I'll introduce you to 'String Theory', the method I developed while working as the principal at Duke Language School. It will make your life much easier, trust me."
+      "html": "Naturally, however, some learners will have a hard time memorising this. Most people are visual learners because for us human beings, pictures leave a more vivid impression. A picture actually does say a thousand words. In the next few pages, I'll introduce you to 'String Theory', the method I developed while working as the principal at Duke Language School. It will make your life much easier, trust me.",
+      "htmlRu": "Однако некоторым будет трудно это запомнить. Большинство людей лучше воспринимают информацию визуально, потому что картинки оставляют более яркое впечатление. Одна картинка действительно стоит тысячи слов. На следующих страницах я познакомлю вас с «Теорией струн» — методом, который я разработал, будучи директором Duke Language School. Поверьте, он значительно облегчит вам жизнь."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "String Theory"
+      "text": "String Theory",
+      "textRu": "Теория струн"
     },
     {
       "type": "paragraph",
-      "html": "The idea is simple: instead of reciting the rules, you simply need to remember images and use them as cues to remind yourself of the tone rules. First, we'll start with the basics."
+      "html": "The idea is simple: instead of reciting the rules, you simply need to remember images and use them as cues to remind yourself of the tone rules. First, we'll start with the basics.",
+      "htmlRu": "Идея проста: вместо того чтобы зубрить правила, вам достаточно запомнить образы и использовать их как подсказки для правил тонов. Для начала разберём основы."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #1: \u201cThe live syllable\u201d"
+      "text": "String Theory rule #1: \u201cThe live syllable\u201d",
+      "textRu": "Теория струн, правило №1: «Живой слог»"
     },
     {
       "type": "paragraph",
-      "html": "There's a box with 3 strings strung from the left to the right side of it. The top string is the 'high class string', the middle one is 'mid class string', and the lowest is, you guessed it, the 'low class string'. Each string will represent the tone for their respective class. Got it? Then continue."
+      "html": "There's a box with 3 strings strung from the left to the right side of it. The top string is the 'high class string', the middle one is 'mid class string', and the lowest is, you guessed it, the 'low class string'. Each string will represent the tone for their respective class. Got it? Then continue.",
+      "htmlRu": "Представьте коробку с тремя струнами, натянутыми слева направо. Верхняя струна — это «струна высокого класса», средняя — «струна среднего класса», а нижняя — как вы догадались — «струна низкого класса». Каждая струна будет обозначать тон для соответствующего класса. Понятно? Тогда продолжаем."
     },
     {
       "type": "paragraph",
-      "html": "In the default position, which is a LIVE syllable, there's a little convex protruding out from the top, let's call it a 'live piece', bending the HC string but does not affect MC or LC string at all."
+      "html": "In the default position, which is a LIVE syllable, there's a little convex protruding out from the top, let's call it a 'live piece', bending the HC string but does not affect MC or LC string at all.",
+      "htmlRu": "В положении по умолчанию, то есть для ЖИВОГО слога, сверху есть небольшая выпуклость — назовём её «живой элемент» — которая изгибает струну HC, но совершенно не затрагивает струны MC и LC."
     },
     {
       "type": "paragraph",
-      "html": "As we have learnt on DAY 4, HC consonants have an inherent RISING tone, so naturally a syllable with an initial high class consonant will carry a RISING tone as well. Did you notice that the way the HC string bends is similar to the rising tone phonetic symbol (ă)? On the other hand, a live syllable with an initial mid or low class consonant will not carry any exciting tone, it is just flat or MID tone, just like how flat (ā) the strings for MC and LC are!"
+      "html": "As we have learnt on DAY 4, HC consonants have an inherent RISING tone, so naturally a syllable with an initial high class consonant will carry a RISING tone as well. Did you notice that the way the HC string bends is similar to the rising tone phonetic symbol (ă)? On the other hand, a live syllable with an initial mid or low class consonant will not carry any exciting tone, it is just flat or MID tone, just like how flat (ā) the strings for MC and LC are!",
+      "htmlRu": "Как мы узнали в ДНЕ 4, согласные HC обладают врождённым ВОСХОДЯЩИМ тоном, поэтому слог с начальной согласной высокого класса тоже будет нести ВОСХОДЯЩИЙ тон. Заметили, что изгиб струны HC похож на фонетический символ восходящего тона (ă)? А живой слог с начальной согласной среднего или низкого класса не будет нести никакого особенного тона — просто плоский, РОВНЫЙ тон, точно такой же плоский (ā), как струны MC и LC!"
     },
     {
       "type": "paragraph",
-      "html": "This image will be your first hint for the tone pattern in the String Theory. Look at these live syllables below and see how their tone is MID, but those with an initial HC consonant have a rising tone."
+      "html": "This image will be your first hint for the tone pattern in the String Theory. Look at these live syllables below and see how their tone is MID, but those with an initial HC consonant have a rising tone.",
+      "htmlRu": "Эта картинка станет вашей первой подсказкой для определения тонов в Теории струн. Посмотрите на живые слоги ниже и обратите внимание: их тон — РОВНЫЙ, но те, что начинаются с согласной HC, имеют восходящий тон."
     },
     {
       "type": "track",
@@ -136,27 +155,33 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #2: \u201cThe dead syllable\u201d"
+      "text": "String Theory rule #2: \u201cThe dead syllable\u201d",
+      "textRu": "Теория струн, правило №2: «Мёртвый слог»"
     },
     {
       "type": "paragraph",
-      "html": "Since dead people are buried underground, for the DEAD syllable, the 'dead piece' goes to the bottom of the box as well. Also, as for any other position that is not default (LIVE syllable), the strings will be dragged to the same height as the corresponding piece. This results in the HC and MC strings heading downwards and the LC string getting pushed up in the middle. …But that's not all there is! Please continue reading."
+      "html": "Since dead people are buried underground, for the DEAD syllable, the 'dead piece' goes to the bottom of the box as well. Also, as for any other position that is not default (LIVE syllable), the strings will be dragged to the same height as the corresponding piece. This results in the HC and MC strings heading downwards and the LC string getting pushed up in the middle. …But that's not all there is! Please continue reading.",
+      "htmlRu": "Поскольку мёртвых хоронят под землёй, для МЁРТВОГО слога «мёртвый элемент» тоже опускается на дно коробки. Кроме того, в любом положении, отличном от исходного (ЖИВОЙ слог), струны притягиваются на высоту соответствующего элемента. В результате струны HC и MC устремляются вниз, а струна LC выталкивается вверх посередине. …Но это ещё не всё! Читайте дальше."
     },
     {
       "type": "paragraph",
-      "html": "I know we don't really want exceptions in language, but bear with me. The dead syllable has a quirky rule JUST for LC consonants, which states that if the vowel is short, that syllable takes a HIGH tone, but if the vowel is long, it takes a FALLING tone."
+      "html": "I know we don't really want exceptions in language, but bear with me. The dead syllable has a quirky rule JUST for LC consonants, which states that if the vowel is short, that syllable takes a HIGH tone, but if the vowel is long, it takes a FALLING tone.",
+      "htmlRu": "Знаю, никто не любит исключения в языке, но потерпите. У мёртвого слога есть особое правило ТОЛЬКО для согласных LC: если гласная краткая, слог получает ВЫСОКИЙ тон, а если гласная долгая — НИСХОДЯЩИЙ тон."
     },
     {
       "type": "paragraph",
-      "html": "So, if we cut the tone box in half, the HC and MC strings head downwards, resembling LOW tone phonetic symbol (à), while LC string is seen as heading upwards, resembling the HIGH tone phonetic symbol (á). These are the tone patterns for short vowels in dead syllable."
+      "html": "So, if we cut the tone box in half, the HC and MC strings head downwards, resembling LOW tone phonetic symbol (à), while LC string is seen as heading upwards, resembling the HIGH tone phonetic symbol (á). These are the tone patterns for short vowels in dead syllable.",
+      "htmlRu": "Итак, если мы разрежем тоновую коробку пополам, струны HC и MC устремятся вниз, напоминая фонетический символ НИЗКОГО тона (à), а струна LC — вверх, напоминая фонетический символ ВЫСОКОГО тона (á). Это тоновые модели для кратких гласных в мёртвом слоге."
     },
     {
       "type": "paragraph",
-      "html": "When the whole tone box is visible, the HC and MC strings still head downwards, so the tone patterns are identical to the half-box view (low tone). On the other hand, it is apparent that the fully visible LC string goes up and down, looking very much like a FALLING tone phonetic symbol (â)."
+      "html": "When the whole tone box is visible, the HC and MC strings still head downwards, so the tone patterns are identical to the half-box view (low tone). On the other hand, it is apparent that the fully visible LC string goes up and down, looking very much like a FALLING tone phonetic symbol (â).",
+      "htmlRu": "Когда тоновая коробка видна целиком, струны HC и MC по-прежнему направлены вниз, так что тоновые модели идентичны виду с половиной коробки (низкий тон). С другой стороны, хорошо видно, что полностью видимая струна LC поднимается и опускается, очень напоминая фонетический символ НИСХОДЯЩЕГО тона (â)."
     },
     {
       "type": "paragraph",
-      "html": "So remember these images as your second hint to determine the tones for dead syllables. See how the HC and MC all have low tone and the LC have either falling or high tone depending on the vowel length."
+      "html": "So remember these images as your second hint to determine the tones for dead syllables. See how the HC and MC all have low tone and the LC have either falling or high tone depending on the vowel length.",
+      "htmlRu": "Запомните эти образы как вторую подсказку для определения тонов мёртвых слогов. Обратите внимание: HC и MC всегда дают низкий тон, а LC — либо нисходящий, либо высокий тон в зависимости от долготы гласной."
     },
     {
       "type": "track",
@@ -165,11 +190,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Tell me the tone of the following syllables below."
+      "html": "Tell me the tone of the following syllables below.",
+      "htmlRu": "Определите тон следующих слогов."
     },
     {
       "type": "track",
@@ -201,11 +228,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "The moment of truth! Use the rules we've learnt previously to read these sentences with the right tone. To save time, make sure you already know these things: 1. Consonant classes— Use the mnemonic from yesterday to help you remember. Don't forget that silent ห makes an LC consonant high class; 2. String Theory #1 & #2— memorise the default tones for live and dead syllables, and their exceptions; 3. Short and long vowels for Theory #2. Don't forget that invisible [-o-] is a short vowel. Unless you're confident you have them all worked out, don't shy away from using a cheat list. It can speed up your progress, trust me!"
+      "html": "The moment of truth! Use the rules we've learnt previously to read these sentences with the right tone. To save time, make sure you already know these things: 1. Consonant classes— Use the mnemonic from yesterday to help you remember. Don't forget that silent ห makes an LC consonant high class; 2. String Theory #1 & #2— memorise the default tones for live and dead syllables, and their exceptions; 3. Short and long vowels for Theory #2. Don't forget that invisible [-o-] is a short vowel. Unless you're confident you have them all worked out, don't shy away from using a cheat list. It can speed up your progress, trust me!",
+      "htmlRu": "Момент истины! Используйте правила, которые мы изучили ранее, чтобы прочитать эти предложения с правильным тоном. Для экономии времени убедитесь, что вы уже знаете следующее: 1. Классы согласных — используйте мнемонику из вчерашнего дня. Не забывайте, что немой ห делает согласную LC высоким классом; 2. Теория струн №1 и №2 — запомните тоны по умолчанию для живых и мёртвых слогов и их исключения; 3. Краткие и долгие гласные для Теории №2. Не забывайте, что невидимая [-o-] — краткая гласная. Если вы не уверены, что разобрались во всём, не стесняйтесь пользоваться шпаргалкой. Поверьте, это ускорит ваш прогресс!"
     },
     {
       "type": "track",
@@ -230,6 +259,13 @@
         "The tone of each syllable can be determined by 3 main factors: dead or live syllable; the class of the initial consonant; the tone mark if any (if it's a dead syllable with an initial LC consonant, the vowel length will be taken into account as well)",
         "The String Theory #1: \u201clive syllable\u201d \u2014 HC consonants create RISING tone, MC & LC consonants create MID tone",
         "The String Theory #2: \u201cdead syllable\u201d \u2014 both HC & MC consonants create LOW tone, while LC consonants create FALLING tone if the vowel is long and HIGH tone if the vowel is short"
+      ],
+      "itemsRu": [
+        "Запомните ещё 3 гласных, имеющих две формы написания",
+        "Остальные гласные с двумя формами: -ือ, เ-อ и -ัว меняются на -ื-, เ-ิ- и -ว- при наличии финальной согласной",
+        "Тон каждого слога определяется тремя основными факторами: мёртвый или живой слог; класс начальной согласной; тоновый знак, если он есть (если это мёртвый слог с начальной согласной LC, учитывается также долгота гласной)",
+        "Теория струн №1: «живой слог» — согласные HC дают ВОСХОДЯЩИЙ тон, согласные MC и LC дают РОВНЫЙ тон",
+        "Теория струн №2: «мёртвый слог» — согласные HC и MC дают НИЗКИЙ тон, а согласные LC дают НИСХОДЯЩИЙ тон при долгой гласной и ВЫСОКИЙ тон при краткой гласной"
       ]
     }
   ],

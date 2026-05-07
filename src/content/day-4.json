@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 4: The Silent Partner"
+      "text": "DAY 4: The Silent Partner",
+      "textRu": "ДЕНЬ 4: Молчаливый партнёр"
     },
     {
       "type": "paragraph",
-      "html": "High class consonants are inherently RISING tone; they have a rising tone by default. When pronouncing their names, you have to pronounce them with a rising tone like ขอ [kŏr] ถอ [tŏr] ฉอ [chŏr] etc."
+      "html": "High class consonants are inherently RISING tone; they have a rising tone by default. When pronouncing their names, you have to pronounce them with a rising tone like ขอ [kŏr] ถอ [tŏr] ฉอ [chŏr] etc.",
+      "htmlRu": "Согласные высокого класса по своей природе имеют ВОСХОДЯЩИЙ тон — это их тон по умолчанию. Произнося их названия, вы должны использовать восходящий тон: ขอ [kŏr] ถอ [tŏr] ฉอ [chŏr] и т. д."
     },
     {
       "type": "track",
@@ -19,7 +21,8 @@
     },
     {
       "type": "paragraph",
-      "html": "You can see that the sounds of the high class consonants are IDENTICAL to those of the LC2 consonants, but the HC counterparts come with a default rising tone. Their final sounds are also identical."
+      "html": "You can see that the sounds of the high class consonants are IDENTICAL to those of the LC2 consonants, but the HC counterparts come with a default rising tone. Their final sounds are also identical.",
+      "htmlRu": "Как видите, звуки согласных высокого класса ИДЕНТИЧНЫ звукам согласных LC2, но их HC-аналоги имеют восходящий тон по умолчанию. Их финальные звуки тоже идентичны."
     },
     {
       "type": "thaiTable",
@@ -34,11 +37,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Final consonants (continued)"
+      "text": "Final consonants (continued)",
+      "textRu": "Финальные согласные (продолжение)"
     },
     {
       "type": "paragraph",
-      "html": "At this point, we have learnt all the common consonants and their pronunciations at both the initial and final position. We can summarise what certain consonants would sound like at final position:"
+      "html": "At this point, we have learnt all the common consonants and their pronunciations at both the initial and final position. We can summarise what certain consonants would sound like at final position:",
+      "htmlRu": "К этому моменту вы выучили все основные согласные и их произношение как в начальной, так и в финальной позиции. Давайте подведём итог — как определённые согласные звучат в финальной позиции:"
     },
     {
       "type": "thaiTable",
@@ -59,7 +64,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Again, there's no need to memorise this table. All you need to do is \"un-release\" the final consonant sound."
+      "html": "Again, there's no need to memorise this table. All you need to do is \"un-release\" the final consonant sound.",
+      "htmlRu": "И снова — нет необходимости запоминать эту таблицу. Всё, что вам нужно, — это «не выпускать» финальный согласный звук."
     },
     {
       "type": "track",
@@ -128,11 +134,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "See how LC2 and HC have the same consonant sounds, but note that they have completely different tone patterns for both live and dead syllables. We will discuss the rules that govern this in the next section. Some of the words don't have any meaning but are used as contrastive examples. Please only focus on the pronunciation."
+      "html": "See how LC2 and HC have the same consonant sounds, but note that they have completely different tone patterns for both live and dead syllables. We will discuss the rules that govern this in the next section. Some of the words don't have any meaning but are used as contrastive examples. Please only focus on the pronunciation.",
+      "htmlRu": "Обратите внимание, что LC2 и HC имеют одинаковые согласные звуки, но при этом у них совершенно разные тоновые модели — как для «живых», так и для «мёртвых» слогов. Правила, которые это определяют, мы обсудим в следующем разделе. Некоторые слова не имеют значения и используются лишь для сравнения. Сосредоточьтесь только на произношении."
     },
     {
       "type": "track",
@@ -161,11 +169,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Low born, but high class"
+      "text": "Low born, but high class",
+      "textRu": "Низкого рождения, но высокого класса"
     },
     {
       "type": "paragraph",
-      "html": "High class consonant \"ห\" has a very strange habit—it changes low class consonants to high class! When you put ห in front of a low class 1 consonant, ห becomes silent, and that LC1 consonant changes to high class; meaning the HC tone rule is applied instead of the LC tone rule (We'll learn about it tomorrow). First, let's look at these examples below and you'll get what I'm talking about:"
+      "html": "High class consonant \"ห\" has a very strange habit—it changes low class consonants to high class! When you put ห in front of a low class 1 consonant, ห becomes silent, and that LC1 consonant changes to high class; meaning the HC tone rule is applied instead of the LC tone rule (We'll learn about it tomorrow). First, let's look at these examples below and you'll get what I'm talking about:",
+      "htmlRu": "У согласной высокого класса «ห» есть очень странная привычка — она превращает согласные низкого класса в высокий класс! Когда вы ставите ห перед согласной низкого класса 1, ห становится немой, а согласная LC1 переходит в высокий класс. Это значит, что к ней применяется тоновое правило HC вместо правила LC (мы изучим это завтра). Для начала посмотрите на примеры ниже — и вы поймёте, о чём я говорю:"
     },
     {
       "type": "track",
@@ -184,7 +194,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Just a low class consonant that acts in a low class way, right?"
+      "html": "Just a low class consonant that acts in a low class way, right?",
+      "htmlRu": "Просто согласная низкого класса, которая ведёт себя как положено низкому классу, верно?"
     },
     {
       "type": "examples",
@@ -199,7 +210,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Now, the tone in each word changes, doesn't it? At this point I want you to be aware of it, we'll dive deeper into the rules on DAY 5. Keep in mind, however, that ห can only do this to \"low class 1\" consonants. You can even consider them as separate consonants in high class if it makes it easier for you. Just like this:"
+      "html": "Now, the tone in each word changes, doesn't it? At this point I want you to be aware of it, we'll dive deeper into the rules on DAY 5. Keep in mind, however, that ห can only do this to \"low class 1\" consonants. You can even consider them as separate consonants in high class if it makes it easier for you. Just like this:",
+      "htmlRu": "Теперь тон в каждом слове меняется, не правда ли? На данном этапе я хочу, чтобы вы просто обратили на это внимание — в правила мы углубимся в ДЕНЬ 5. Однако помните: ห может проделывать это только с согласными «низкого класса 1». Вы даже можете считать их отдельными согласными высокого класса, если вам так удобнее. Вот так:"
     },
     {
       "type": "examples",
@@ -216,7 +228,8 @@
     },
     {
       "type": "paragraph",
-      "html": "Now you have a complete set of identical consonant sounds in both high class and low class!"
+      "html": "Now you have a complete set of identical consonant sounds in both high class and low class!",
+      "htmlRu": "Теперь у вас есть полный набор идентичных согласных звуков как в высоком, так и в низком классе!"
     },
     {
       "type": "thaiTable",
@@ -229,11 +242,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "In this exercise notice that the first ห is silent, and the following LC1 consonant becomes an HC consonant. Don't worry about the tones."
+      "html": "In this exercise notice that the first ห is silent, and the following LC1 consonant becomes an HC consonant. Don't worry about the tones.",
+      "htmlRu": "В этом упражнении обратите внимание, что первая ห — немая, а следующая за ней согласная LC1 становится согласной HC. Не беспокойтесь о тонах."
     },
     {
       "type": "track",
@@ -258,15 +273,18 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Somewhere I belong"
+      "text": "Somewhere I belong",
+      "textRu": "Каждому — своё место"
     },
     {
       "type": "paragraph",
-      "html": "So far you have learnt 28 consonants in total. Now, you might have a little problem memorising which class each consonant belongs to. If you find it a bit difficult then I might be able to assist with some memory aids I've created for you."
+      "html": "So far you have learnt 28 consonants in total. Now, you might have a little problem memorising which class each consonant belongs to. If you find it a bit difficult then I might be able to assist with some memory aids I've created for you.",
+      "htmlRu": "К этому моменту вы выучили в общей сложности 28 согласных. Возможно, вам будет непросто запомнить, к какому классу относится каждая из них. Если это вызывает затруднения, я могу помочь — я придумал для вас несколько мнемонических подсказок."
     },
     {
       "type": "paragraph",
-      "html": "The key is \"the sounds\". Apart from HC and LC2, if you know the sound of the consonant you'll know which class it belongs to."
+      "html": "The key is \"the sounds\". Apart from HC and LC2, if you know the sound of the consonant you'll know which class it belongs to.",
+      "htmlRu": "Ключ — в «звуках». За исключением HC и LC2, если вы знаете звук согласной, вы сможете определить, к какому классу она принадлежит."
     },
     {
       "type": "examples",
@@ -326,12 +344,14 @@
     },
     {
       "type": "paragraph",
-      "html": "So I've created mnemonics for you!"
+      "html": "So I've created mnemonics for you!",
+      "htmlRu": "Поэтому я придумал для вас мнемоники!"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "MID class"
+      "text": "MID class",
+      "textRu": "Средний класс"
     },
     {
       "type": "thaiExample",
@@ -340,12 +360,14 @@
     },
     {
       "type": "paragraph",
-      "html": "The letters 'g' 'd' 'j' and 'b' represent the consonant sounds in mid class, 'd' represents both ด [d] and ต [dt], and 'b' represents both บ [b] and ป [bp]. However, since อ has no sound you'll just have to remember that it's mid class, perhaps by associating it with that exclamation mark!"
+      "html": "The letters 'g' 'd' 'j' and 'b' represent the consonant sounds in mid class, 'd' represents both ด [d] and ต [dt], and 'b' represents both บ [b] and ป [bp]. However, since อ has no sound you'll just have to remember that it's mid class, perhaps by associating it with that exclamation mark!",
+      "htmlRu": "Буквы 'g', 'd', 'j' и 'b' соответствуют согласным звукам среднего класса: 'd' обозначает и ด [d], и ต [dt], а 'b' — и บ [b], и ป [bp]. Поскольку อ не имеет звука, вам просто нужно запомнить, что она относится к среднему классу — возможно, ассоциируя её с восклицательным знаком!"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "LOW class 1"
+      "text": "LOW class 1",
+      "textRu": "Низкий класс 1"
     },
     {
       "type": "thaiExample",
@@ -354,12 +376,14 @@
     },
     {
       "type": "paragraph",
-      "html": "The letters 'y' 'w' 'n' 'ng' 'l' 'm' and 'r' represent the consonant sounds in low class 1. And since lemurs are animals and \"lower\" than humans, they're LOW class."
+      "html": "The letters 'y' 'w' 'n' 'ng' 'l' 'm' and 'r' represent the consonant sounds in low class 1. And since lemurs are animals and \"lower\" than humans, they're LOW class.",
+      "htmlRu": "Буквы 'y', 'w', 'n', 'ng', 'l', 'm' и 'r' обозначают согласные звуки низкого класса 1. А поскольку лемуры — животные и «ниже» людей, они — НИЗКОГО класса."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "LOW class 2"
+      "text": "LOW class 2",
+      "textRu": "Низкий класс 2"
     },
     {
       "type": "thaiExample",
@@ -368,11 +392,13 @@
     },
     {
       "type": "paragraph",
-      "html": "The letters 'k' 't' 'ch' 'p' 'f' 's' and 'h' (remember 's' and 'h' separately because in Thai there's no 'sh') represent the consonant sounds in low class 2. And since fish are animals and \"lower\" than humans, they're LOW class."
+      "html": "The letters 'k' 't' 'ch' 'p' 'f' 's' and 'h' (remember 's' and 'h' separately because in Thai there's no 'sh') represent the consonant sounds in low class 2. And since fish are animals and \"lower\" than humans, they're LOW class.",
+      "htmlRu": "Буквы 'k', 't', 'ch', 'p', 'f', 's' и 'h' (запомните 's' и 'h' по отдельности, потому что в тайском нет звука 'sh') обозначают согласные звуки низкого класса 2. А поскольку рыбы — животные и «ниже» людей, они — НИЗКОГО класса."
     },
     {
       "type": "paragraph",
-      "html": "But HC consonants, alas, have the same sounds as LC2, so you'll just have to memorise these consonants in your own way. So if you come across a \"KETCHUP FISH\" consonant and it's not one of the HC consonants (plus 3 more consonants that we'll learn in the future), then you know immediately that it's an LC2 consonant:"
+      "html": "But HC consonants, alas, have the same sounds as LC2, so you'll just have to memorise these consonants in your own way. So if you come across a \"KETCHUP FISH\" consonant and it's not one of the HC consonants (plus 3 more consonants that we'll learn in the future), then you know immediately that it's an LC2 consonant:",
+      "htmlRu": "Но согласные HC, увы, имеют те же звуки, что и LC2, поэтому вам придётся запомнить их самостоятельно. Если вы встретите согласную со звуком из «KETCHUP FISH» и она не входит в число HC-согласных (плюс ещё 3 согласные, которые мы выучим в будущем), значит, вы сразу знаете, что это согласная LC2:"
     },
     {
       "type": "examples",
@@ -391,11 +417,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "The final exercise today is slightly different: we're not reading words, but we're going to place these consonants into the right classes. Use the mnemonics I introduced you to and start categorising away!"
+      "html": "The final exercise today is slightly different: we're not reading words, but we're going to place these consonants into the right classes. Use the mnemonics I introduced you to and start categorising away!",
+      "htmlRu": "Последнее упражнение сегодня немного отличается от предыдущих: мы не читаем слова, а распределяем согласные по правильным классам. Используйте мнемоники, с которыми я вас познакомил, и приступайте к классификации!"
     },
     {
       "type": "examples",
@@ -434,7 +462,8 @@
     {
       "type": "callout",
       "variant": "tip",
-      "html": "Categorise each consonant into: HIGH CLASS, MID CLASS, LOW CLASS 1, or LOW CLASS 2"
+      "html": "Categorise each consonant into: HIGH CLASS, MID CLASS, LOW CLASS 1, or LOW CLASS 2",
+      "htmlRu": "Определите класс каждой согласной: ВЫСОКИЙ КЛАСС, СРЕДНИЙ КЛАСС, НИЗКИЙ КЛАСС 1 или НИЗКИЙ КЛАСС 2"
     },
     {
       "type": "recap",
@@ -444,6 +473,13 @@
         "High class consonants can pair with low class 2; their sounds are identical, both at initial and final position",
         "When ห precedes a low class 1 consonant, ห becomes silent and that LC1 consonant changes its class to high class",
         "Now you should be able to put all these consonants into the right classes. If you still can't, only memorise HC consonants, then drill these mnemonics: \"Good job!\" — MC; \"Yawning lemur\" — LC1; \"Ketchup fish\" — LC2"
+      ],
+      "itemsRu": [
+        "Запомните все согласные HC",
+        "Согласные высокого класса имеют восходящий тон по умолчанию",
+        "Согласные высокого класса парны с согласными низкого класса 2: их звуки идентичны как в начальной, так и в финальной позиции",
+        "Когда ห стоит перед согласной низкого класса 1, ห становится немой, а согласная LC1 меняет свой класс на высокий",
+        "Теперь вы должны уметь распределить все согласные по правильным классам. Если пока не получается, запомните только HC-согласные, а затем заучите мнемоники: «Good job!» — MC; «Yawning lemur» — LC1; «Ketchup fish» — LC2"
       ]
     }
   ],

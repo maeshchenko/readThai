@@ -7,20 +7,24 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Intermission"
+      "text": "Intermission",
+      "textRu": "Антракт"
     },
     {
       "type": "paragraph",
-      "html": "Let's pause for a moment. Up to this point you should have mastered all the basic stuff. In the second half of this book things will get a bit more detail-specific, so it's worth looking back over what you have learnt. Look through the following key points and ask yourself whether you understand them already. If you do, then you're safe to move on, but if any of these points makes you scratch your head in total confusion, then why not go back and review them again?"
+      "html": "Let's pause for a moment. Up to this point you should have mastered all the basic stuff. In the second half of this book things will get a bit more detail-specific, so it's worth looking back over what you have learnt. Look through the following key points and ask yourself whether you understand them already. If you do, then you're safe to move on, but if any of these points makes you scratch your head in total confusion, then why not go back and review them again?",
+      "htmlRu": "Давайте сделаем паузу. К этому моменту вы должны были усвоить всё основное. Во второй половине книги мы перейдём к более тонким деталям, поэтому стоит оглянуться назад и проверить, что вы уже выучили. Пройдитесь по следующим ключевым пунктам и спросите себя, всё ли вам понятно. Если да — смело двигайтесь дальше. Но если какой-то из пунктов вызывает полное недоумение — почему бы не вернуться и не повторить его?"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Consonants"
+      "text": "Consonants",
+      "textRu": "Согласные"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember all these consonants, their sounds and their classes? (DAY 1 through 4)"
+      "html": "1. Do you remember all these consonants, their sounds and their classes? (DAY 1 through 4)",
+      "htmlRu": "1. Вы помните все эти согласные, их звучание и классы? (ДЕНЬ 1 — 4)"
     },
     {
       "type": "list",
@@ -34,7 +38,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember that the consonants in each of these lines sound the same at final position? (Final consonant (continued))"
+      "html": "2. Do you remember that the consonants in each of these lines sound the same at final position? (Final consonant (continued))",
+      "htmlRu": "2. Вы помните, что согласные в каждой из этих строк звучат одинаково в финальной позиции? (Финальный согласный (продолжение))"
     },
     {
       "type": "list",
@@ -48,7 +53,8 @@
     },
     {
       "type": "paragraph",
-      "html": "3. Do you remember that อ (as a consonant) has no sound of its own, but is used as a placeholder consonant for vowels? (Placeholder \"อ\")"
+      "html": "3. Do you remember that อ (as a consonant) has no sound of its own, but is used as a placeholder consonant for vowels? (Placeholder \"อ\")",
+      "htmlRu": "3. Вы помните, что อ (как согласный) не имеет собственного звука и используется как согласный-заместитель для гласных? (Заместитель «อ»)"
     },
     {
       "type": "list",
@@ -59,7 +65,8 @@
     },
     {
       "type": "paragraph",
-      "html": "4. Do you remember that ห becomes silent in front of an LC1 consonant and converts that LC1 consonant into a HC instead? (Silent \"ห\")"
+      "html": "4. Do you remember that ห becomes silent in front of an LC1 consonant and converts that LC1 consonant into a HC instead? (Silent \"ห\")",
+      "htmlRu": "4. Вы помните, что ห становится немой перед согласным НК1 и превращает этот согласный НК1 в ВК? (Немая «ห»)"
     },
     {
       "type": "list",
@@ -71,11 +78,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Vowels"
+      "text": "Vowels",
+      "textRu": "Гласные"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember all these vowels, whether they are long or short and whether they can take a final consonant? (DAY 1 through 5, vowels that don't take final consonants)"
+      "html": "1. Do you remember all these vowels, whether they are long or short and whether they can take a final consonant? (DAY 1 through 5, vowels that don't take final consonants)",
+      "htmlRu": "1. Вы помните все эти гласные, долгие они или краткие и могут ли они принимать финальный согласный? (ДЕНЬ 1 — 5, гласные без финального согласного)"
     },
     {
       "type": "list",
@@ -88,7 +97,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember that these vowel pairs are essentially the same vowel sounds but look different depending on whether there's a final consonant or not? (Vowels with two forms 1 and 2)"
+      "html": "2. Do you remember that these vowel pairs are essentially the same vowel sounds but look different depending on whether there's a final consonant or not? (Vowels with two forms 1 and 2)",
+      "htmlRu": "2. Вы помните, что эти пары гласных — по сути один и тот же звук, но выглядят по-разному в зависимости от того, есть финальный согласный или нет? (Гласные с двумя формами 1 и 2)"
     },
     {
       "type": "list",
@@ -99,7 +109,8 @@
     },
     {
       "type": "paragraph",
-      "html": "3. Do you remember that when there are two consonants together with no vowel written anywhere, it's probably a short [-o-] sound or [-orn] if the final consonant is ร? (Camouflage Vowels (2 letters))"
+      "html": "3. Do you remember that when there are two consonants together with no vowel written anywhere, it's probably a short [-o-] sound or [-orn] if the final consonant is ร? (Camouflage Vowels (2 letters))",
+      "htmlRu": "3. Вы помните, что когда два согласных стоят рядом и гласная нигде не написана, это, скорее всего, краткий звук [-о-] или [-орн], если финальный согласный — ร? (Гласные-невидимки (2 буквы))"
     },
     {
       "type": "examples",
@@ -116,11 +127,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Tones"
+      "text": "Tones",
+      "textRu": "Тоны"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember the concept of live-dead syllables, and how to identify them? (Live-dead syllables)"
+      "html": "1. Do you remember the concept of live-dead syllables, and how to identify them? (Live-dead syllables)",
+      "htmlRu": "1. Вы помните, что такое живые и мёртвые слоги и как их различать? (Живые и мёртвые слоги)"
     },
     {
       "type": "list",
@@ -128,20 +141,27 @@
       "items": [
         "LIVE syllable: \"Haa——\"",
         "DEAD syllable: \"Chôhk…\""
+      ],
+      "itemsRu": [
+        "Живой слог: «Haa——»",
+        "Мёртвый слог: «Chôhk…»"
       ]
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember the tone rules: The String Theory #1 and #2? (Theory of Tones)"
+      "html": "2. Do you remember the tone rules: The String Theory #1 and #2? (Theory of Tones)",
+      "htmlRu": "2. Вы помните правила тонов: Теория струн №1 и №2? (Теория тонов)"
     },
     {
       "type": "rule",
       "html": "Tone rules: <strong>Live syllable</strong> — HC: rising, MC: mid, LC: mid. <strong>Dead syllable (long vowel)</strong> — HC: low, MC: low, LC: falling. <strong>Dead syllable (short vowel)</strong> — HC: low, MC: low, LC: high.",
+      "htmlRu": "Правила тонов: <strong>Живой слог</strong> — ВК: восходящий, СК: средний, НК: средний. <strong>Мёртвый слог (долгая гласная)</strong> — ВК: низкий, СК: низкий, НК: нисходящий. <strong>Мёртвый слог (краткая гласная)</strong> — ВК: низкий, СК: низкий, НК: высокий.",
       "emphasis": "strong"
     },
     {
       "type": "paragraph",
-      "html": "All checked? Then let's continue!"
+      "html": "All checked? Then let's continue!",
+      "htmlRu": "Всё проверили? Тогда продолжаем!"
     }
   ],
   "footnotes": {},

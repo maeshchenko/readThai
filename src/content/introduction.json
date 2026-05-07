@@ -7,186 +7,229 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Introduction"
+      "text": "Introduction",
+      "textRu": "Введение"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "A brief history of the Thai script"
+      "text": "A brief history of the Thai script",
+      "textRu": "Краткая история тайской письменности"
     },
     {
       "type": "paragraph",
-      "html": "The Thai writing system is believed to have been developed from Ancient Khmer script by the decree of King Ramkhamhaeng of Sukhothai in the year 1283. Prior to the creation of the Thai script, the Khmer script was used exclusively to transcribe Sanskrit and Pali from \"Tripitaka\" (the Buddhist equivalent of the Bible), but proved to be inadequate when used as a transcription of spoken Thai—it lacked the means to record tones (Khmer is not a tonal language) and lacked many Thai vowels. Thus the Thai script was invented to fulfil those needs."
+      "html": "The Thai writing system is believed to have been developed from Ancient Khmer script by the decree of King Ramkhamhaeng of Sukhothai in the year 1283. Prior to the creation of the Thai script, the Khmer script was used exclusively to transcribe Sanskrit and Pali from \"Tripitaka\" (the Buddhist equivalent of the Bible), but proved to be inadequate when used as a transcription of spoken Thai—it lacked the means to record tones (Khmer is not a tonal language) and lacked many Thai vowels. Thus the Thai script was invented to fulfil those needs.",
+      "htmlRu": "Считается, что тайская письменность была создана на основе древнекхмерского письма по указу короля Рамкхамхэнга из Сукхотхая в 1283 году. До появления тайского алфавита кхмерское письмо использовалось исключительно для записи санскрита и пали из «Типитаки» (буддийского аналога Библии), но оказалось непригодным для записи устного тайского языка — в нём не было средств для обозначения тонов (кхмерский — не тональный язык) и не хватало многих тайских гласных. Так была изобретена тайская письменность, чтобы восполнить эти пробелы."
     },
     {
       "type": "paragraph",
-      "html": "The modern Thai writing system, according to the Thai traditional grammar book \"Lak Phasa Thai\" (Phraya Uppakit Sinlapasan, 1968), consists of 44 consonant characters (2 of which are obsolete), 21 vowel symbols, which make up 32 vowel combinations (although it is doubtful that 4 of them can be considered \"vowels\"), 4 tone marks, and a number of punctuation marks."
+      "html": "The modern Thai writing system, according to the Thai traditional grammar book \"Lak Phasa Thai\" (Phraya Uppakit Sinlapasan, 1968), consists of 44 consonant characters (2 of which are obsolete), 21 vowel symbols, which make up 32 vowel combinations (although it is doubtful that 4 of them can be considered \"vowels\"), 4 tone marks, and a number of punctuation marks.",
+      "htmlRu": "Современная тайская письменность, согласно классическому учебнику грамматики «Lak Phasa Thai» (Phraya Uppakit Sinlapasan, 1968), включает 44 символа согласных (2 из которых устарели), 21 символ гласных, образующих 32 комбинации гласных (хотя сомнительно, что 4 из них можно считать «гласными»), 4 знака тонов и ряд знаков пунктуации."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Why so many characters?"
+      "text": "Why so many characters?",
+      "textRu": "Почему так много символов?"
     },
     {
       "type": "paragraph",
-      "html": "The fact that there are 44 consonants doesn't mean that there are 44 unique sounds, as there are only 20 consonant sounds in Thai (and a \"zero\" consonant which is linguistically described as a \"glottal stop\"). The reason many consonants share the same sound is that since the creation of the Thai writing system Thai has borrowed a vast number of words from Pali and Sanskrit, and at that time people made a huge effort to preserve the spelling of these \"holy languages\" although such a distinction between consonant sounds did not exist in Thai."
+      "html": "The fact that there are 44 consonants doesn't mean that there are 44 unique sounds, as there are only 20 consonant sounds in Thai (and a \"zero\" consonant which is linguistically described as a \"glottal stop\"). The reason many consonants share the same sound is that since the creation of the Thai writing system Thai has borrowed a vast number of words from Pali and Sanskrit, and at that time people made a huge effort to preserve the spelling of these \"holy languages\" although such a distinction between consonant sounds did not exist in Thai.",
+      "htmlRu": "То, что в тайском алфавите 44 согласных, вовсе не означает, что существует 44 уникальных звука — на самом деле в тайском языке всего 20 согласных звуков (плюс «нулевой» согласный, который в лингвистике называется «гортанная смычка»). Причина, по которой многие согласные звучат одинаково, в том, что с момента создания тайской письменности в язык было заимствовано огромное количество слов из пали и санскрита, и тогда люди приложили немало усилий, чтобы сохранить написание этих «священных языков», хотя такого различия между согласными звуками в тайском не существовало."
     },
     {
       "type": "paragraph",
-      "html": "As a result, many of the consonants share the same sound. It also explains why there are lots of consonants but only 8 possible final consonant sounds (e.g. [d], [t], [s], [j] and [ch] all sound like a very quiet [-t] at the end of syllables)."
+      "html": "As a result, many of the consonants share the same sound. It also explains why there are lots of consonants but only 8 possible final consonant sounds (e.g. [d], [t], [s], [j] and [ch] all sound like a very quiet [-t] at the end of syllables).",
+      "htmlRu": "В результате многие согласные имеют одинаковое звучание. Это также объясняет, почему при таком количестве согласных в конце слога возможны лишь 8 финальных согласных звуков (например, [d], [t], [s], [j] и [ch] на конце слога все звучат как очень тихий [-t])."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "How Thai script works"
+      "text": "How Thai script works",
+      "textRu": "Как устроена тайская письменность"
     },
     {
       "type": "paragraph",
-      "html": "A typical Thai syllable is composed of 2 to 4 constituents: initial consonant(s) and a vowel. Some also contain a final consonant and/or a tone mark:"
+      "html": "A typical Thai syllable is composed of 2 to 4 constituents: initial consonant(s) and a vowel. Some also contain a final consonant and/or a tone mark:",
+      "htmlRu": "Типичный тайский слог состоит из 2–4 компонентов: начальный согласный (или кластер согласных) и гласный. Некоторые слоги также содержат финальный согласный и/или знак тона:"
     },
     {
       "type": "paragraph",
-      "html": "In Thai script, vowels aren't always located after initial consonants. They may occur in front of, after, above, underneath, or enclosing the initial consonant(s) of the syllable. In each of the examples below, \"ก\" is a consonant and the remaining symbols are vowels. Note how each vowel's position differs:"
+      "html": "In Thai script, vowels aren't always located after initial consonants. They may occur in front of, after, above, underneath, or enclosing the initial consonant(s) of the syllable. In each of the examples below, \"ก\" is a consonant and the remaining symbols are vowels. Note how each vowel's position differs:",
+      "htmlRu": "В тайской письменности гласные не всегда стоят после начальных согласных. Они могут располагаться перед, после, над, под или вокруг начального согласного (согласных) слога. В каждом из примеров ниже «ก» — это согласный, а остальные символы — гласные. Обратите внимание, как различается позиция каждого гласного:"
     },
     {
       "type": "paragraph",
-      "html": "One point worth mentioning: while front vowels and some enclosing vowels are placed in front of the initial consonants, it doesn't mean they're pronounced before the initial consonants. Don't think of Thai writing in the linear fashion, think of Thai vowels as clip-on accessories."
+      "html": "One point worth mentioning: while front vowels and some enclosing vowels are placed in front of the initial consonants, it doesn't mean they're pronounced before the initial consonants. Don't think of Thai writing in the linear fashion, think of Thai vowels as clip-on accessories.",
+      "htmlRu": "Важный момент: хотя препозитивные гласные и некоторые «обрамляющие» гласные пишутся перед начальным согласным, это не значит, что они произносятся до него. Не воспринимайте тайское письмо линейно — думайте о тайских гласных как о навесных аксессуарах."
     },
     {
       "type": "paragraph",
-      "html": "Vowels can tell you how to read"
+      "html": "Vowels can tell you how to read",
+      "htmlRu": "Гласные подсказывают, как читать"
     },
     {
       "type": "paragraph",
-      "html": "The position of each vowel is fixed; some vowels are always placed in front, some vowels above, and so on. You can't just put them wherever you want. On the other hand, since Thai is written without spaces between words (and that poses a small challenge because you need to find the word boundaries yourself), these vowel positions can give you clues about how to separate each word and syllable from one another e.g. if the vowel always occurs at the beginning of the syllable, it means that when you see that vowel, it marks the beginning of a new syllable, etc."
+      "html": "The position of each vowel is fixed; some vowels are always placed in front, some vowels above, and so on. You can't just put them wherever you want. On the other hand, since Thai is written without spaces between words (and that poses a small challenge because you need to find the word boundaries yourself), these vowel positions can give you clues about how to separate each word and syllable from one another e.g. if the vowel always occurs at the beginning of the syllable, it means that when you see that vowel, it marks the beginning of a new syllable, etc.",
+      "htmlRu": "Позиция каждого гласного фиксирована: одни всегда стоят перед согласным, другие — над ним, и так далее. Нельзя просто расставлять их где вздумается. С другой стороны, поскольку тайский пишется без пробелов между словами (а это небольшой вызов — вам придётся самостоятельно находить границы слов), позиции гласных могут давать подсказки, как разделять слова и слоги. Например, если гласный всегда стоит в начале слога, то, увидев его, вы понимаете — здесь начинается новый слог."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Consonant acrophonics"
+      "text": "Consonant acrophonics",
+      "textRu": "Акрофония согласных"
     },
     {
       "type": "paragraph",
-      "html": "\"Acrophony\" is the naming of letters used in a writing system. Think of the Greek letters: \"α\" alpha, \"β\" beta, \"γ\" gamma, \"δ\" delta, where each letter is pronounced in ancient Greek as [a], [b], [g] and [d] respectively, while \"alpha\", \"beta\", \"gamma\" and \"delta\" are their names."
+      "html": "\"Acrophony\" is the naming of letters used in a writing system. Think of the Greek letters: \"α\" alpha, \"β\" beta, \"γ\" gamma, \"δ\" delta, where each letter is pronounced in ancient Greek as [a], [b], [g] and [d] respectively, while \"alpha\", \"beta\", \"gamma\" and \"delta\" are their names.",
+      "htmlRu": "«Акрофония» — это способ именования букв в системе письма. Вспомните греческие буквы: «α» альфа, «β» бета, «γ» гамма, «δ» дельта — каждая буква произносится в древнегреческом как [a], [b], [g] и [d] соответственно, а «альфа», «бета», «гамма» и «дельта» — это их названия."
     },
     {
       "type": "paragraph",
-      "html": "This practice also exists in Thai. Each consonant is associated with a Thai word that contains that particular consonant. For instance, the name of the character \"ก\" is ก.ไก่ /gor gài/. ก. /gor/ represents the pronunciation of that consonant ([g] + inherent [-or] vowel) while ไก่ /gài/ demonstrates a word that contains the \"ก\" consonant, i.e. \"chicken\"."
+      "html": "This practice also exists in Thai. Each consonant is associated with a Thai word that contains that particular consonant. For instance, the name of the character \"ก\" is ก.ไก่ /gor gài/. ก. /gor/ represents the pronunciation of that consonant ([g] + inherent [-or] vowel) while ไก่ /gài/ demonstrates a word that contains the \"ก\" consonant, i.e. \"chicken\".",
+      "htmlRu": "Такая практика существует и в тайском языке. Каждый согласный ассоциируется с тайским словом, содержащим этот согласный. Например, символ «ก» называется ก.ไก่ /gor gài/. ก. /gor/ передаёт произношение этого согласного ([g] + встроенный гласный [-or]), а ไก่ /gài/ — это слово, содержащее согласный «ก», то есть «курица»."
     },
     {
       "type": "paragraph",
-      "html": "All (or at least most) literate native speakers of Thai know and can recite all of these consonant names. Knowing these is useful for when you ask someone to spell words for you, but you're not sure which consonant character to use (e.g. \"Do you mean [t] for ท.ทหาร /tor táhăan/ \"soldier\" or ธ.ธง /tor tong/ \"flag\"??). But since this book aims to teach you how to READ Thai in 10 days, trying to memorise all these names will only slow your progress down. However, if you're eager to learn them anyway, you can read more about the consonant names in the Appendices at the end of this book."
+      "html": "All (or at least most) literate native speakers of Thai know and can recite all of these consonant names. Knowing these is useful for when you ask someone to spell words for you, but you're not sure which consonant character to use (e.g. \"Do you mean [t] for ท.ทหาร /tor táhăan/ \"soldier\" or ธ.ธง /tor tong/ \"flag\"??). But since this book aims to teach you how to READ Thai in 10 days, trying to memorise all these names will only slow your progress down. However, if you're eager to learn them anyway, you can read more about the consonant names in the Appendices at the end of this book.",
+      "htmlRu": "Все (или почти все) грамотные носители тайского языка знают и могут перечислить названия всех согласных. Это полезно, когда вы просите кого-то продиктовать слово по буквам, но не уверены, какой именно согласный имеется в виду (например, «Вы имеете в виду [t] как ท.ทหาร /tor táhăan/ ‹солдат› или ธ.ธง /tor tong/ ‹флаг›?»). Но поскольку цель этой книги — научить вас ЧИТАТЬ по-тайски за 10 дней, заучивание всех этих названий лишь замедлит ваш прогресс. Впрочем, если вам не терпится их выучить, подробнее о названиях согласных можно прочитать в Приложениях в конце книги."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Sounds very complicated! Is it worth it?"
+      "text": "Sounds very complicated! Is it worth it?",
+      "textRu": "Звучит очень сложно! Стоит ли оно того?"
     },
     {
       "type": "paragraph",
-      "html": "ABSOLUTELY YES. Learning a new script seems like a daunting task, but the benefits that come with it are immense. The fact that the Thai writing system is completely different from the Roman script-based writing system may deter beginners from learning to read Thai script, and just settle for phonetics."
+      "html": "ABSOLUTELY YES. Learning a new script seems like a daunting task, but the benefits that come with it are immense. The fact that the Thai writing system is completely different from the Roman script-based writing system may deter beginners from learning to read Thai script, and just settle for phonetics.",
+      "htmlRu": "ОДНОЗНАЧНО ДА. Освоение новой письменности кажется пугающей задачей, но выгоды от этого огромны. Тот факт, что тайская письменность совершенно не похожа на системы на основе латиницы, может отпугнуть начинающих, и они предпочтут довольствоваться фонетической транскрипцией."
     },
     {
       "type": "paragraph",
-      "html": "However, although the RTGS (Royal Thai General System of Transcription) is de facto the official system for transliterating Thai to the Roman alphabet (which you see on road signs, at train stations, etc.), this system has many flaws: it doesn't show tones, it doesn't differentiate between short and long vowels, it doesn't even differentiate between several sound units (e.g. \"ch\" for both ช and จ, \"o\" for โ-, โ-ะ, -อ, and เ-าะ vowels. That's 4 different vowels for one symbol!)."
+      "html": "However, although the RTGS (Royal Thai General System of Transcription) is de facto the official system for transliterating Thai to the Roman alphabet (which you see on road signs, at train stations, etc.), this system has many flaws: it doesn't show tones, it doesn't differentiate between short and long vowels, it doesn't even differentiate between several sound units (e.g. \"ch\" for both ช and จ, \"o\" for โ-, โ-ะ, -อ, and เ-าะ vowels. That's 4 different vowels for one symbol!).",
+      "htmlRu": "Хотя RTGS (Королевская система транслитерации) де-факто является официальной системой транслитерации тайского языка латиницей (именно её вы видите на дорожных знаках, на станциях и т. д.), у этой системы множество недостатков: она не отображает тоны, не различает краткие и долгие гласные и даже не разграничивает некоторые звуковые единицы (например, «ch» используется и для ช, и для จ, а «o» — для гласных โ-, โ-ะ, -อ и เ-าะ. Это 4 разных гласных для одного символа!)."
     },
     {
       "type": "paragraph",
-      "html": "So what are the perks of knowing Thai script other than showing it off as a party trick?"
+      "html": "So what are the perks of knowing Thai script other than showing it off as a party trick?",
+      "htmlRu": "Так какие же преимущества даёт знание тайской письменности — помимо того, что можно блеснуть на вечеринке?"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. There's no better system"
+      "text": "1. There's no better system",
+      "textRu": "1. Лучшей системы не существует"
     },
     {
       "type": "paragraph",
-      "html": "There is no standardised, universally understood Romanisation for Thai (even an official standardised Romanisation as we discussed earlier). There have been attempts by Thai language schools to create a perfect phonetic system for learners, but none have been successful so far. Besides, despite all your efforts to master any of these transliteration systems, it won't be understood by most native speakers of Thai! Thais have the tendency to transliterate Thai into the Roman alphabet any way they want (it's what they call \"karaoke language\"). For example, the word สวัสดี 'hello' can be written \"sawaddee\", \"sawutdii\", \"sawasdee\", etc. depending on personal preference. Only Thai script is prevalent and consistent in Thailand."
+      "html": "There is no standardised, universally understood Romanisation for Thai (even an official standardised Romanisation as we discussed earlier). There have been attempts by Thai language schools to create a perfect phonetic system for learners, but none have been successful so far. Besides, despite all your efforts to master any of these transliteration systems, it won't be understood by most native speakers of Thai! Thais have the tendency to transliterate Thai into the Roman alphabet any way they want (it's what they call \"karaoke language\"). For example, the word สวัสดี 'hello' can be written \"sawaddee\", \"sawutdii\", \"sawasdee\", etc. depending on personal preference. Only Thai script is prevalent and consistent in Thailand.",
+      "htmlRu": "Не существует стандартизированной, общепонятной романизации тайского языка (даже официальная стандартная система, о которой мы говорили выше, далека от совершенства). Тайские языковые школы пытались создать идеальную фонетическую систему для учащихся, но пока ни одна из попыток не увенчалась успехом. К тому же, сколько бы вы ни старались освоить любую из этих систем транслитерации, большинство носителей тайского языка её не поймут! Тайцы привыкли транслитерировать тайский латиницей как им вздумается (они называют это «язык караоке»). Например, слово สวัสดี 'привет' может быть записано как «sawaddee», «sawutdii», «sawasdee» и т. д. — в зависимости от личных предпочтений. Только тайская письменность является общеупотребительной и единообразной в Таиланде."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. It improves your pronunciation"
+      "text": "2. It improves your pronunciation",
+      "textRu": "2. Это улучшит ваше произношение"
     },
     {
       "type": "paragraph",
-      "html": "From reason #1, you can see how difficult it would be to improve your Thai pronunciation when you don't even know how to pronounce it correctly! All transliteration systems are, at best, just rough guidelines. After relying on transliteration for too long you'll inadvertently associate \"j\" with the J sound which doesn't exist in Thai. When you see \"a\" you'll be tempted to pronounce it like in the word \"can\" and not \"ah\" like it's supposed to be pronounced. Once these associations are strong it's very hard to change the way you speak, and you might end up stuck with a foreign accent forever. Thai script will remind you to pronounce words the way Thai people understand, and not with a \"farang lisp\"."
+      "html": "From reason #1, you can see how difficult it would be to improve your Thai pronunciation when you don't even know how to pronounce it correctly! All transliteration systems are, at best, just rough guidelines. After relying on transliteration for too long you'll inadvertently associate \"j\" with the J sound which doesn't exist in Thai. When you see \"a\" you'll be tempted to pronounce it like in the word \"can\" and not \"ah\" like it's supposed to be pronounced. Once these associations are strong it's very hard to change the way you speak, and you might end up stuck with a foreign accent forever. Thai script will remind you to pronounce words the way Thai people understand, and not with a \"farang lisp\".",
+      "htmlRu": "Из пункта №1 видно, как сложно улучшить тайское произношение, если вы даже не знаете, как правильно произносить слова! Любая система транслитерации — это в лучшем случае лишь грубый ориентир. Слишком долго полагаясь на транслитерацию, вы невольно будете ассоциировать «j» со звуком J (как в английском), которого в тайском нет. Увидев «a», вы будете склонны произносить его как в слове «can», а не «ah», как следует. Когда такие ассоциации закрепятся, изменить манеру речи будет очень трудно, и вы рискуете навсегда застрять с иностранным акцентом. Тайская письменность будет напоминать вам произносить слова так, как их понимают тайцы, а не с «фарангским пришепётыванием»."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. You'll be very independent"
+      "text": "3. You'll be very independent",
+      "textRu": "3. Вы станете по-настоящему самостоятельным"
     },
     {
       "type": "paragraph",
-      "html": "Don't take English for granted. It won't get you far in Thailand. In fact, it might not get you anywhere at all in some parts! Once you're out of your comfort zone of Bangkok, pretty much everything is in Thai: restaurant menus, road signs, short instructions on how to use things like washing machines, etc. You might be fine if you've got a Thai person to help you, but do you want to be babied like that forever? Imagine how happy you'd feel if you could just go about your business by yourself. Independence tastes wonderful, I assure you!"
+      "html": "Don't take English for granted. It won't get you far in Thailand. In fact, it might not get you anywhere at all in some parts! Once you're out of your comfort zone of Bangkok, pretty much everything is in Thai: restaurant menus, road signs, short instructions on how to use things like washing machines, etc. You might be fine if you've got a Thai person to help you, but do you want to be babied like that forever? Imagine how happy you'd feel if you could just go about your business by yourself. Independence tastes wonderful, I assure you!",
+      "htmlRu": "Не принимайте английский как данность. В Таиланде он вам мало поможет. Более того, в некоторых местах он не поможет вообще! Стоит вам покинуть зону комфорта Бангкока, и буквально всё оказывается на тайском: меню в ресторанах, дорожные знаки, короткие инструкции по использованию стиральных машин и прочего. Конечно, если рядом есть тайский друг-помощник, вы справитесь — но неужели вы хотите вечно ходить «за ручку»? Представьте, как приятно было бы просто заниматься своими делами самостоятельно. Поверьте, независимость — это потрясающе!"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "4. It boosts your learning curve"
+      "text": "4. It boosts your learning curve",
+      "textRu": "4. Это ускоряет ваш прогресс"
     },
     {
       "type": "paragraph",
-      "html": "The biggest fear of all language learners is a plateau; you're not improving any further. Once past the basics, you're pretty much on your own in building vocabulary. If you don't have constant stimuli encouraging you to learn more, you'll hit that plateau soon enough. If you can read Thai, you'll pick up words from things you encounter in your daily life: signs, billboards, books, magazines, and other texts. You can just learn on your own and your lexical bank will accumulate slowly but surely with each passing day with no great effort. Who can be your best teacher, if not yourself?"
+      "html": "The biggest fear of all language learners is a plateau; you're not improving any further. Once past the basics, you're pretty much on your own in building vocabulary. If you don't have constant stimuli encouraging you to learn more, you'll hit that plateau soon enough. If you can read Thai, you'll pick up words from things you encounter in your daily life: signs, billboards, books, magazines, and other texts. You can just learn on your own and your lexical bank will accumulate slowly but surely with each passing day with no great effort. Who can be your best teacher, if not yourself?",
+      "htmlRu": "Главный страх любого изучающего язык — плато: ощущение, что вы больше не продвигаетесь вперёд. Как только базовый уровень пройден, наращивать словарный запас приходится в основном самостоятельно. Без постоянных стимулов, побуждающих учить новое, вы довольно быстро упрётесь в это плато. Если же вы умеете читать по-тайски, вы будете подхватывать слова из всего, что встречается в повседневной жизни: вывески, билборды, книги, журналы и другие тексты. Вы сможете учиться самостоятельно, и ваш лексический запас будет расти день ото дня — медленно, но верно и без особых усилий. Кто может быть лучшим учителем, если не вы сами?"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Disclaimers regarding this book"
+      "text": "Disclaimers regarding this book",
+      "textRu": "Несколько оговорок об этой книге"
     },
     {
       "type": "paragraph",
-      "html": "There are a few things I want us to agree upon before we begin:"
+      "html": "There are a few things I want us to agree upon before we begin:",
+      "htmlRu": "Есть несколько вещей, о которых я хотел бы с вами договориться, прежде чем мы начнём:"
     },
     {
       "type": "paragraph",
-      "html": "1. Have a realistic expectation"
+      "html": "1. Have a realistic expectation",
+      "htmlRu": "1. Имейте реалистичные ожидания"
     },
     {
       "type": "paragraph",
-      "html": "\"Read Thai in 10 Days\" is definitely feasible. After you finish this book you'll be equipped with sufficient reading skills to understand different Thai texts around you, given that you study for 10 days without fail and master each chapter before you move on. But just like any other skill, expertise comes with time and practice. It's only natural that you will make lots of mistakes in the beginning, so be patient and keep a positive attitude. Most importantly, never stop practising. Always reinforce your skills by trying to read all kinds of materials available to you. I'll help you break the first barrier, but after that you need to be your own hero!"
+      "html": "\"Read Thai in 10 Days\" is definitely feasible. After you finish this book you'll be equipped with sufficient reading skills to understand different Thai texts around you, given that you study for 10 days without fail and master each chapter before you move on. But just like any other skill, expertise comes with time and practice. It's only natural that you will make lots of mistakes in the beginning, so be patient and keep a positive attitude. Most importantly, never stop practising. Always reinforce your skills by trying to read all kinds of materials available to you. I'll help you break the first barrier, but after that you need to be your own hero!",
+      "htmlRu": "«Читай по-тайски за 10 дней» — это абсолютно реальная цель. Закончив эту книгу, вы будете обладать достаточными навыками чтения, чтобы понимать различные тайские тексты вокруг вас — при условии, что вы занимаетесь 10 дней подряд без пропусков и осваиваете каждую главу, прежде чем переходить к следующей. Но, как и с любым другим навыком, мастерство приходит со временем и практикой. Совершенно естественно, что в начале вы будете делать много ошибок — будьте терпеливы и сохраняйте позитивный настрой. И самое главное — никогда не прекращайте практиковаться. Постоянно закрепляйте навыки, стараясь читать всё, что попадается под руку. Я помогу вам преодолеть первый барьер, а дальше вам предстоит стать своим собственным героем!"
     },
     {
       "type": "paragraph",
-      "html": "2. Ditch the pronunciation guide FAST"
+      "html": "2. Ditch the pronunciation guide FAST",
+      "htmlRu": "2. Избавьтесь от транскрипции как можно скорее"
     },
     {
       "type": "paragraph",
-      "html": "I've included transliteration throughout the book which you can quickly refer to whenever doubts arise. However, you have to stand on your own two feet and abandon these phonetics as soon as possible. Hiding behind the comfort of a pronunciation guide will get your reading skill nowhere and eventually damage your pronunciation. Rather, you should try to consult the audio recordings for precise pronunciation. If you wish to use the audio recordings, you can download them from this url: www.ReadThaiLanguage.com/getaudio You will need to submit a form and soon you'll receive a link to the files. Don't worry, this process won't take long!"
+      "html": "I've included transliteration throughout the book which you can quickly refer to whenever doubts arise. However, you have to stand on your own two feet and abandon these phonetics as soon as possible. Hiding behind the comfort of a pronunciation guide will get your reading skill nowhere and eventually damage your pronunciation. Rather, you should try to consult the audio recordings for precise pronunciation. If you wish to use the audio recordings, you can download them from this url: www.ReadThaiLanguage.com/getaudio You will need to submit a form and soon you'll receive a link to the files. Don't worry, this process won't take long!",
+      "htmlRu": "Я включил транслитерацию по всей книге, чтобы вы могли быстро свериться с ней в случае сомнений. Однако вам нужно как можно скорее встать на собственные ноги и отказаться от фонетических подсказок. Прятаться за удобством транскрипции — путь в никуда, который в итоге испортит ваше произношение. Лучше обращайтесь к аудиозаписям для точного произношения. Если вы хотите использовать аудиозаписи, скачайте их по адресу: www.ReadThaiLanguage.com/getaudio Вам нужно будет заполнить форму, и вскоре вы получите ссылку на файлы. Не волнуйтесь, это не займёт много времени!"
     },
     {
       "type": "paragraph",
-      "html": "3. You are not learning to read the way Thais do"
+      "html": "3. You are not learning to read the way Thais do",
+      "htmlRu": "3. Вы учитесь читать не так, как это делают тайцы"
     },
     {
       "type": "paragraph",
-      "html": "You don't speak Thai as your first language. The Thais do. Thus your mindset regarding the language is a world away from theirs. Learning to read Thai the Thai way, while it may build a stronger foundation, is a much longer process (well, we spend six years in primary school!) and only works best when your Thai is already up to par. In this book, I propose a shortcut so you can readily go out in the world and start reading things, even if you only know a little Thai. Native speakers of Thai may be surprised by the approach of this book, e.g. \"Why don't you learn the names of the consonants??\", \"What kind of tone rules are those??\", \"เ-ย [-eui] is not a real vowel!\", etc. but don't be alarmed that the way you will be learning is not the way Thais have. Whichever road you take, as long as you get to the destination, all is well."
+      "html": "You don't speak Thai as your first language. The Thais do. Thus your mindset regarding the language is a world away from theirs. Learning to read Thai the Thai way, while it may build a stronger foundation, is a much longer process (well, we spend six years in primary school!) and only works best when your Thai is already up to par. In this book, I propose a shortcut so you can readily go out in the world and start reading things, even if you only know a little Thai. Native speakers of Thai may be surprised by the approach of this book, e.g. \"Why don't you learn the names of the consonants??\", \"What kind of tone rules are those??\", \"เ-ย [-eui] is not a real vowel!\", etc. but don't be alarmed that the way you will be learning is not the way Thais have. Whichever road you take, as long as you get to the destination, all is well.",
+      "htmlRu": "Тайский — не ваш родной язык. Для тайцев — родной. Поэтому ваш подход к языку кардинально отличается от их подхода. Учиться читать по-тайски «по-тайски» может и заложит более прочный фундамент, но это гораздо более долгий процесс (шутка ли — тайцы тратят на это шесть лет начальной школы!), и он работает лучше всего, когда ваш тайский уже на достаточном уровне. В этой книге я предлагаю короткий путь, чтобы вы могли поскорее выйти в мир и начать читать, даже если знаете тайский совсем немного. Носители тайского языка могут удивиться подходу этой книги: «Почему вы не учите названия согласных??», «Что это за правила тонов??», «เ-ย [-eui] — это вообще не гласный!» и т. д. — но не пугайтесь того, что ваш способ обучения отличается от традиционного тайского. Какой бы дорогой вы ни шли — главное, что вы доберётесь до цели."
     },
     {
       "type": "paragraph",
-      "html": "Over the next few pages, I'll walk you through the pronunciation guide, but if you want to use the audio recordings as your only guide (available at www.ReadThaiLanguage.com/getaudio), feel free to skim through it, or even skip it. As you wish."
+      "html": "Over the next few pages, I'll walk you through the pronunciation guide, but if you want to use the audio recordings as your only guide (available at www.ReadThaiLanguage.com/getaudio), feel free to skim through it, or even skip it. As you wish.",
+      "htmlRu": "На следующих нескольких страницах я проведу вас через руководство по произношению, но если вы хотите использовать аудиозаписи как единственный ориентир (доступны по адресу www.ReadThaiLanguage.com/getaudio), можете бегло просмотреть этот раздел или даже пропустить его. Как пожелаете."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "How to use this book"
+      "text": "How to use this book",
+      "textRu": "Как пользоваться этой книгой"
     },
     {
       "type": "paragraph",
-      "html": "There are 10 chapters from \"DAY 1\" to \"LAST DAY\". I advise you to study only one chapter per day, at this rate you should finish the whole book within 2 weeks. Continuity is crucial in learning. Leave too big a gap and you'll forget everything. Also, please do not cram more than one chapter into a day either. If you put too much pressure on your brain, it will push back and refuse to learn anything new!"
+      "html": "There are 10 chapters from \"DAY 1\" to \"LAST DAY\". I advise you to study only one chapter per day, at this rate you should finish the whole book within 2 weeks. Continuity is crucial in learning. Leave too big a gap and you'll forget everything. Also, please do not cram more than one chapter into a day either. If you put too much pressure on your brain, it will push back and refuse to learn anything new!",
+      "htmlRu": "В книге 10 глав — от «ДЕНЬ 1» до «ПОСЛЕДНИЙ ДЕНЬ». Я советую изучать не более одной главы в день; в таком темпе вы закончите всю книгу примерно за 2 недели. Непрерывность в обучении — это ключ. Сделаете слишком большой перерыв — забудете всё. И пожалуйста, не пытайтесь впихнуть больше одной главы в день. Если вы слишком сильно нагрузите мозг, он взбунтуется и откажется усваивать что-либо новое!"
     },
     {
       "type": "paragraph",
-      "html": "For most of the exercises, the pronunciation answer key is provided in a link next to the track number for the exercise in the form of the phonetic system used in this book. However, if you want a more accurate way to check your pronunciation, use the audio recordings instead. (and I'd actually prefer that you do that!)"
+      "html": "For most of the exercises, the pronunciation answer key is provided in a link next to the track number for the exercise in the form of the phonetic system used in this book. However, if you want a more accurate way to check your pronunciation, use the audio recordings instead. (and I'd actually prefer that you do that!)",
+      "htmlRu": "Для большинства упражнений ключ к произношению приводится в виде ссылки рядом с номером трека в формате фонетической системы, используемой в этой книге. Однако если вы хотите более точный способ проверить своё произношение, используйте аудиозаписи. (И, честно говоря, я бы предпочёл, чтобы вы так и делали!)"
     },
     {
       "type": "paragraph",
-      "html": "At the end of each chapter make sure you understand all the checkpoints in the \"Today's Recap\" section. If you don't understand any of the points, go back and review them again. It's very important to consolidate what you know, so don't forget to review!"
+      "html": "At the end of each chapter make sure you understand all the checkpoints in the \"Today's Recap\" section. If you don't understand any of the points, go back and review them again. It's very important to consolidate what you know, so don't forget to review!",
+      "htmlRu": "В конце каждой главы убедитесь, что вы понимаете все пункты в разделе «Итоги дня». Если какой-то пункт остался непонятным, вернитесь и повторите его снова. Очень важно закреплять изученное, так что не забывайте повторять!"
     },
     {
       "type": "paragraph",
-      "html": "How much time should you spend each day depends on how much you understand the lesson. So if you find any lesson particularly difficult and you're losing the energy to carry on, don't let it make you give up. Take a day off and come back again the next day. Remember, this is not a competition. You're doing this for your own benefit, so always be kind to yourself."
+      "html": "How much time should you spend each day depends on how much you understand the lesson. So if you find any lesson particularly difficult and you're losing the energy to carry on, don't let it make you give up. Take a day off and come back again the next day. Remember, this is not a competition. You're doing this for your own benefit, so always be kind to yourself.",
+      "htmlRu": "Сколько времени уделять занятиям каждый день — зависит от того, насколько хорошо вы усваиваете материал. Поэтому, если какой-то урок покажется вам особенно сложным и у вас не останется сил продолжать, не позволяйте этому заставить вас бросить всё. Возьмите выходной и вернитесь на следующий день. Помните: это не соревнование. Вы делаете это для себя, так что всегда будьте добры к себе."
     }
   ],
   "footnotes": {},

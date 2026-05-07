@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 7: Unclustering Your Life"
+      "text": "DAY 7: Unclustering Your Life",
+      "textRu": "ДЕНЬ 7: Разбираемся с кластерами"
     },
     {
       "type": "paragraph",
-      "html": "The following consonants aren't common, and their sounds are identical to some consonants we've previously learnt (so why do we need multiple consonants for the same sound? I'm sorry, but it's just spelling convention...). Each of them also belongs to a class but you can tell which class they belong to from the sound (and the inherent tone)."
+      "html": "The following consonants aren't common, and their sounds are identical to some consonants we've previously learnt (so why do we need multiple consonants for the same sound? I'm sorry, but it's just spelling convention...). Each of them also belongs to a class but you can tell which class they belong to from the sound (and the inherent tone).",
+      "htmlRu": "Следующие согласные встречаются нечасто, и их звучание идентично некоторым согласным, которые мы уже выучили (зачем нам несколько букв для одного звука? Увы, так сложилась орфография...). Каждая из них тоже принадлежит к определённому классу, и вы можете определить класс по звучанию (и присущему тону)."
     },
     {
       "type": "track",
@@ -20,6 +22,7 @@
     {
       "type": "rule",
       "html": "Silent ห can precede ญ (but never ณ) although you don't see the หญ- combination often apart from in these 3 very common words:",
+      "htmlRu": "Немая ห может стоять перед ญ (но никогда перед ณ), хотя сочетание หญ- встречается редко — в основном в этих 3 очень распространённых словах:",
       "emphasis": "soft"
     },
     {
@@ -33,7 +36,8 @@
     },
     {
       "type": "paragraph",
-      "html": "When ญ is at final position, it becomes an [-n] final consonant, not an [-i] like ย."
+      "html": "When ญ is at final position, it becomes an [-n] final consonant, not an [-i] like ย.",
+      "htmlRu": "Когда ญ стоит в конце слога, она читается как финальный согласный [-n], а не как [-i], в отличие от ย."
     },
     {
       "type": "track",
@@ -60,11 +64,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "The words below contain the less common consonants. Can you read them? Remember, they have similar qualities to the common consonants with the same sound."
+      "html": "The words below contain the less common consonants. Can you read them? Remember, they have similar qualities to the common consonants with the same sound.",
+      "htmlRu": "Слова ниже содержат редкие согласные. Сможете их прочитать? Помните, они обладают теми же свойствами, что и распространённые согласные с таким же звуком."
     },
     {
       "type": "track",
@@ -90,15 +96,18 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "What is a consonant cluster?"
+      "text": "What is a consonant cluster?",
+      "textRu": "Что такое кластер согласных?"
     },
     {
       "type": "paragraph",
-      "html": "Take the word 'strengths' in English. Before and after 'e' there are so many consonant sounds, 'str' and 'ngths', in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in 'school', 'dust', 'crisps', the list goes on. If you see more than one consonant \u201Ccluttered\u201D together, they're a \u201Ccluster\u201D!"
+      "html": "Take the word 'strengths' in English. Before and after 'e' there are so many consonant sounds, 'str' and 'ngths', in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in 'school', 'dust', 'crisps', the list goes on. If you see more than one consonant \u201Ccluttered\u201D together, they're a \u201Ccluster\u201D!",
+      "htmlRu": "Возьмём английское слово 'strengths'. До и после 'e' идёт целая вереница согласных звуков — 'str' и 'ngths', верно? Это и есть кластеры согласных. Кластер согласных — это последовательность согласных, произносимых слитно, без гласного между ними, как в 'school', 'dust', 'crisps' — примеров масса. Если вы видите несколько согласных, «скученных» вместе, — перед вами «кластер»!"
     },
     {
       "type": "paragraph",
-      "html": "In Thai, consonant clusters can only occur at the beginning of a syllable, and there will never be more than 2 consonants together. However, the way you pronounce Thai consonant clusters varies depending on which types they are. Each course book and grammar book defines and describes them in different ways, but in this book I sort them into three types and label each type as follows:"
+      "html": "In Thai, consonant clusters can only occur at the beginning of a syllable, and there will never be more than 2 consonants together. However, the way you pronounce Thai consonant clusters varies depending on which types they are. Each course book and grammar book defines and describes them in different ways, but in this book I sort them into three types and label each type as follows:",
+      "htmlRu": "В тайском языке кластеры согласных встречаются только в начале слога, и в них никогда не бывает более двух согласных подряд. Однако произношение тайских кластеров зависит от их типа. В разных учебниках и грамматиках их классифицируют по-разному, но в этой книге я разделяю их на три типа:"
     },
     {
       "type": "list",
@@ -107,20 +116,28 @@
         "TRUE cluster",
         "PSEUDO cluster",
         "FALSE cluster"
+      ],
+      "itemsRu": [
+        "ИСТИННЫЙ кластер",
+        "ПСЕВДОКЛАСТЕР",
+        "ЛОЖНЫЙ кластер"
       ]
     },
     {
       "type": "paragraph",
-      "html": "So what are these exactly? Read on."
+      "html": "So what are these exactly? Read on.",
+      "htmlRu": "Так что же они собой представляют? Читайте дальше."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "TRUE cluster"
+      "text": "TRUE cluster",
+      "textRu": "ИСТИННЫЙ кластер"
     },
     {
       "type": "paragraph",
-      "html": "The following combinations of consonants are true clusters:"
+      "html": "The following combinations of consonants are true clusters:",
+      "htmlRu": "Следующие сочетания согласных являются истинными кластерами:"
     },
     {
       "type": "thaiTable",
@@ -133,16 +150,19 @@
     },
     {
       "type": "paragraph",
-      "html": "Note that a true cluster is a combination in which the second consonant is a ร, ล, or ว only."
+      "html": "Note that a true cluster is a combination in which the second consonant is a ร, ล, or ว only.",
+      "htmlRu": "Обратите внимание: истинный кластер — это сочетание, в котором вторым согласным может быть только ร, ล или ว."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "The no-brainers. These combinations of consonant clusters are generally pronounced together."
+      "html": "The no-brainers. These combinations of consonant clusters are generally pronounced together.",
+      "htmlRu": "Простейший случай. Эти сочетания согласных, как правило, произносятся слитно."
     },
     {
       "type": "track",
@@ -171,7 +191,8 @@
     },
     {
       "type": "paragraph",
-      "html": "In true clusters, the leading consonant ALWAYS determines the tone of a syllable, e.g. in the cluster กล-, ก is mid class, so the syllable is treated as mid class:"
+      "html": "In true clusters, the leading consonant ALWAYS determines the tone of a syllable, e.g. in the cluster กล-, ก is mid class, so the syllable is treated as mid class:",
+      "htmlRu": "В истинных кластерах ведущий согласный ВСЕГДА определяет тон слога. Например, в кластере กล- буква ก относится к среднему классу, поэтому слог считается слогом среднего класса:"
     },
     {
       "type": "track",
@@ -190,7 +211,8 @@
     },
     {
       "type": "paragraph",
-      "html": "More true cluster combinations are found in English loanwords as well:"
+      "html": "More true cluster combinations are found in English loanwords as well:",
+      "htmlRu": "Дополнительные сочетания истинных кластеров встречаются в заимствованиях из английского:"
     },
     {
       "type": "thaiTable",
@@ -226,11 +248,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "PSEUDO cluster"
+      "text": "PSEUDO cluster",
+      "textRu": "ПСЕВДОКЛАСТЕР"
     },
     {
       "type": "paragraph",
-      "html": "Pseudo clusters are the leftovers from true clusters; two consonants whose sounds can't really blend together, in which case an [-a] vowel is inserted between them, effectively separating them into 2 syllables."
+      "html": "Pseudo clusters are the leftovers from true clusters; two consonants whose sounds can't really blend together, in which case an [-a] vowel is inserted between them, effectively separating them into 2 syllables.",
+      "htmlRu": "Псевдокластеры — это то, что осталось за рамками истинных кластеров: два согласных, звуки которых не могут по-настоящему слиться воедино. В этом случае между ними вставляется гласный [-a], фактически разделяя их на два слога."
     },
     {
       "type": "track",
@@ -238,24 +262,29 @@
     },
     {
       "type": "paragraph",
-      "html": "In pseudo clusters, if the second consonant is an LC1 consonant, the leading consonant determines the tone for both syllables. For example in ขนม, the second syllable [-nŏm] has a rising tone because ข gives it its tone rule, otherwise it would be pronounced /kà-nom/."
+      "html": "In pseudo clusters, if the second consonant is an LC1 consonant, the leading consonant determines the tone for both syllables. For example in ขนม, the second syllable [-nŏm] has a rising tone because ข gives it its tone rule, otherwise it would be pronounced /kà-nom/.",
+      "htmlRu": "В псевдокластерах, если второй согласный относится к группе LC1, ведущий согласный определяет тон обоих слогов. Например, в слове ขนม второй слог [-nŏm] имеет восходящий тон, потому что ข передаёт ему своё тональное правило — иначе слово произносилось бы /kà-nom/."
     },
     {
       "type": "callout",
-      "html": "นม /nom/ BUT ขนม /kànŏm/"
+      "html": "นม /nom/ BUT ขนม /kànŏm/",
+      "htmlRu": "นม /nom/ НО ขนม /kànŏm/"
     },
     {
       "type": "paragraph",
-      "html": "However, if the second consonant is a HC, MC, or LC2 consonant, each consonant determines its own tone in the syllable."
+      "html": "However, if the second consonant is a HC, MC, or LC2 consonant, each consonant determines its own tone in the syllable.",
+      "htmlRu": "Однако если второй согласный принадлежит к классу HC, MC или LC2, каждый согласный определяет тон своего слога самостоятельно."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "FALSE cluster"
+      "text": "FALSE cluster",
+      "textRu": "ЛОЖНЫЙ кластер"
     },
     {
       "type": "paragraph",
-      "html": "False clusters are consonant clusters in which one of the 2 consonants is silent or the pronunciation changes completely. Thus they're called false clusters. Such as:"
+      "html": "False clusters are consonant clusters in which one of the 2 consonants is silent or the pronunciation changes completely. Thus they're called false clusters. Such as:",
+      "htmlRu": "Ложные кластеры — это сочетания согласных, в которых один из двух согласных не произносится или произношение полностью меняется. Поэтому они и называются ложными. Например:"
     },
     {
       "type": "track",
@@ -264,6 +293,7 @@
     {
       "type": "rule",
       "html": "Silent ห – You already know this case. ห is not pronounced so it doesn't really make a consonant cluster.",
+      "htmlRu": "Немая ห — этот случай вам уже знаком. ห не произносится, поэтому настоящего кластера согласных не образует.",
       "emphasis": "soft"
     },
     {
@@ -279,6 +309,7 @@
     {
       "type": "rule",
       "html": "Silent ร – When certain consonants are combined with ร, the character itself then becomes silent (you'll find out more about this on DAY 8).",
+      "htmlRu": "Немая ร — когда определённые согласные сочетаются с ร, сама буква ร становится немой (подробнее об этом — в ДНЕ 8).",
       "emphasis": "soft"
     },
     {
@@ -294,6 +325,7 @@
     {
       "type": "rule",
       "html": "ทร- combination – ทร- together at initial position is pronounced [s] (you'll find out more about this on DAY 8).",
+      "htmlRu": "Сочетание ทร- — в начальной позиции ทร- произносится как [s] (подробнее об этом — в ДНЕ 8).",
       "emphasis": "soft"
     },
     {
@@ -311,7 +343,8 @@
     },
     {
       "type": "paragraph",
-      "html": "All 3 types of consonant clusters have two characteristics in common:"
+      "html": "All 3 types of consonant clusters have two characteristics in common:",
+      "htmlRu": "Все три типа кластеров согласных имеют две общие черты:"
     },
     {
       "type": "list",
@@ -319,6 +352,10 @@
       "items": [
         "A cluster is treated as one single character (linguistically called a 'digraph' like 'ch' as in 'church' in English) and they're never separated by a vowel.",
         "When there's a vowel or symbol either above or below a cluster, it is always on the second consonant character."
+      ],
+      "itemsRu": [
+        "Кластер считается единым символом (в лингвистике это называется «диграф», как 'ch' в английском слове 'church'), и гласный никогда не разделяет его элементы.",
+        "Когда над или под кластером ставится гласный или диакритический знак, он всегда располагается над/под вторым согласным."
       ]
     },
     {
@@ -334,11 +371,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Are these clusters true, pseudo, or false? Be warned, you may not always be correct!"
+      "html": "Are these clusters true, pseudo, or false? Be warned, you may not always be correct!",
+      "htmlRu": "Какие из этих кластеров истинные, псевдо- или ложные? Предупреждаю: вы не всегда угадаете!"
     },
     {
       "type": "track",
@@ -347,11 +386,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Camouflaged vowels"
+      "text": "Camouflaged vowels",
+      "textRu": "Замаскированные гласные"
     },
     {
       "type": "paragraph",
-      "html": "(1 letter) When a consonant is by itself without any vowel or other consonant, it is likely that you will have to read it with an [-a] vowel sound. This can also explain how you'd read pseudo clusters!"
+      "html": "(1 letter) When a consonant is by itself without any vowel or other consonant, it is likely that you will have to read it with an [-a] vowel sound. This can also explain how you'd read pseudo clusters!",
+      "htmlRu": "(1 буква) Когда согласный стоит сам по себе — без гласного и без другого согласного рядом — скорее всего, его нужно читать с гласным звуком [-a]. Это же объясняет, как произносить псевдокластеры!"
     },
     {
       "type": "track",
@@ -359,20 +400,24 @@
     },
     {
       "type": "paragraph",
-      "html": "One more point, in many compound words (words which are made by combining 2 or more words), the final consonant(s) of the first word may be reused to create an extra syllable with an unstressed [-a] vowel sound, and creates a linking syllable in between the two component words. Look at the examples below to see what I mean:"
+      "html": "One more point, in many compound words (words which are made by combining 2 or more words), the final consonant(s) of the first word may be reused to create an extra syllable with an unstressed [-a] vowel sound, and creates a linking syllable in between the two component words. Look at the examples below to see what I mean:",
+      "htmlRu": "Ещё один момент: во многих составных словах (образованных соединением двух и более слов) конечный согласный первого слова может использоваться повторно, формируя дополнительный слог с безударным гласным [-a] и создавая связующий слог между двумя компонентами. Посмотрите на примеры ниже, чтобы понять, что я имею в виду:"
     },
     {
       "type": "paragraph",
-      "html": "If you already have a pen in your hand ready to write down the rules, please put it down. Sadly, there's no logic to this. But the good news is there's now one less thing to remember. Even if you pronounce these wrong, people will still understand you since it would be blatantly obvious what you mean. I'd simply rather you be aware of this phenomenon than obsessed with memorising every little nuance of how it works."
+      "html": "If you already have a pen in your hand ready to write down the rules, please put it down. Sadly, there's no logic to this. But the good news is there's now one less thing to remember. Even if you pronounce these wrong, people will still understand you since it would be blatantly obvious what you mean. I'd simply rather you be aware of this phenomenon than obsessed with memorising every little nuance of how it works.",
+      "htmlRu": "Если у вас в руке уже наготове ручка, чтобы записать правила, — отложите её. К сожалению, здесь нет никакой логики. Зато хорошая новость: запоминать на одну вещь меньше. Даже если вы произнесёте эти слова неправильно, вас всё равно поймут — ведь по контексту будет совершенно очевидно, что вы имеете в виду. Я просто хочу, чтобы вы знали об этом явлении, а не зубрили каждый нюанс его работы."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Below is a paragraph of Thai text as you'd normally see it in published materials. With the concepts of consonant clusters and unwritten vowels in mind you should be able to read this, and if you feel adventurous, try your best to get the tone right. Give it your best shot!"
+      "html": "Below is a paragraph of Thai text as you'd normally see it in published materials. With the concepts of consonant clusters and unwritten vowels in mind you should be able to read this, and if you feel adventurous, try your best to get the tone right. Give it your best shot!",
+      "htmlRu": "Ниже — абзац тайского текста в том виде, в каком вы обычно встретите его в печатных материалах. Помня о кластерах согласных и непрописанных гласных, вы должны суметь прочитать его, а если чувствуете азарт — постарайтесь ещё и верно расставить тоны. Дерзайте!"
     },
     {
       "type": "track",
@@ -395,6 +440,15 @@
         "False consonant clusters also consist of 2 consonants, but don't produce a cluster sound",
         "Consonant clusters are never separated, and if there's a symbol which is supposed to be placed above or below a consonant, it is attached to the second consonant of the cluster rather than the first one",
         "When there's a consonant that doesn't seem to have a vowel, it probably has an [-a] sound. There's also an invisible [-a] vowel that links syllables together in compound words but we can't tell when this will occur"
+      ],
+      "itemsRu": [
+        "Запомните 7 редких согласных",
+        "ญ в конце слога произносится как [-n]",
+        "Истинные кластеры согласных имеют ร, ล или ว в качестве второго согласного и произносятся как единый звук",
+        "Псевдокластеры (те, что не являются истинными) не сливаются воедино, поэтому между ними вставляется гласный [-a]. Если второй согласный относится к LC1, тональное правило первого согласного распространяется на оба слога",
+        "Ложные кластеры тоже состоят из двух согласных, но не образуют кластерного звука",
+        "Кластеры согласных никогда не разделяются; если над или под согласным ставится знак, он помещается над/под вторым согласным кластера, а не первым",
+        "Если согласный стоит без видимого гласного, скорее всего, он читается со звуком [-a]. Существует также невидимый гласный [-a], связывающий слоги в составных словах, но предсказать его появление невозможно"
       ]
     }
   ],

@@ -7,16 +7,19 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 1: The Class System"
+      "text": "DAY 1: The Class System",
+      "textRu": "ДЕНЬ 1: Система классов"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Classy consonants"
+      "text": "Classy consonants",
+      "textRu": "Классные согласные"
     },
     {
       "type": "paragraph",
-      "html": "Thai consonant classes play a major part in determining the tone of each syllable in a word as we will find out in the later chapters. There are 3 classes: mid class, high class and low class. Low class is further divided into 2 subsets: group 1 and group 2. Every consonant belongs to any of these classes. Today we will look at \"low class 1\" (LC1) consonants. All consonants in Thai are pronounced with an -อ [-or] vowel sound as their name, for example the character น is called /nor/ (I'll explain more about consonant names in the Appendices of this book). I have also listed these omnipresent headless-style and handwritten style characters here for your reference."
+      "html": "Thai consonant classes play a major part in determining the tone of each syllable in a word as we will find out in the later chapters. There are 3 classes: mid class, high class and low class. Low class is further divided into 2 subsets: group 1 and group 2. Every consonant belongs to any of these classes. Today we will look at \"low class 1\" (LC1) consonants. All consonants in Thai are pronounced with an -อ [-or] vowel sound as their name, for example the character น is called /nor/ (I'll explain more about consonant names in the Appendices of this book). I have also listed these omnipresent headless-style and handwritten style characters here for your reference.",
+      "htmlRu": "Классы тайских согласных играют ключевую роль в определении тона каждого слога в слове, как мы узнаем в последующих главах. Существует 3 класса: средний класс, высокий класс и низкий класс. Низкий класс дополнительно делится на 2 подгруппы: группа 1 и группа 2. Каждый согласный принадлежит к одному из этих классов. Сегодня мы рассмотрим согласные «низкого класса 1» (LC1). Все согласные в тайском языке произносятся с гласным звуком -อ [-or] в качестве их названия, например буква น называется /nor/ (подробнее о названиях согласных я расскажу в приложениях к этой книге). Здесь я также привёл для справки повсеместно встречающиеся варианты написания без петельки и рукописные формы букв."
     },
     {
       "type": "track",
@@ -24,16 +27,19 @@
     },
     {
       "type": "paragraph",
-      "html": "As it appears on the previous page, most Thai characters can be written in one stroke, and you always start writing from the loop (or the \"head\" of the consonant as Thai people call it). However, some characters have no head, in which case just start from left to right."
+      "html": "As it appears on the previous page, most Thai characters can be written in one stroke, and you always start writing from the loop (or the \"head\" of the consonant as Thai people call it). However, some characters have no head, in which case just start from left to right.",
+      "htmlRu": "Как показано на предыдущей странице, большинство тайских букв можно написать одним штрихом, и писать всегда нужно начинать с петельки (или «головки» буквы, как называют её тайцы). Однако у некоторых букв головки нет — в этом случае просто пишите слева направо."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "The long and the short of it"
+      "text": "The long and the short of it",
+      "textRu": "Долгая и короткая история"
     },
     {
       "type": "paragraph",
-      "html": "Long vowels are pronounced with longer duration than their short counterparts. The only difference between 'ship' and 'sheep' in standard British English, for example, is that the 'ee' in 'sheep' is slightly longer than the 'i' in 'ship'. Vowel length is important and can change the meaning! Here are some of the most common long vowels. Note that a vowel's position within the syllable can be fixed above, under, in front of, or after consonants. The dash symbol (–) in each vowel indicates the place where the initial (beginning) consonants go. Incidentally, note that the vowel \"โ-\" [oh] is taller than the others, and goes beyond the top line."
+      "html": "Long vowels are pronounced with longer duration than their short counterparts. The only difference between 'ship' and 'sheep' in standard British English, for example, is that the 'ee' in 'sheep' is slightly longer than the 'i' in 'ship'. Vowel length is important and can change the meaning! Here are some of the most common long vowels. Note that a vowel's position within the syllable can be fixed above, under, in front of, or after consonants. The dash symbol (–) in each vowel indicates the place where the initial (beginning) consonants go. Incidentally, note that the vowel \"โ-\" [oh] is taller than the others, and goes beyond the top line.",
+      "htmlRu": "Долгие гласные произносятся с большей длительностью, чем их краткие аналоги. Единственное различие между 'ship' и 'sheep' в стандартном британском английском, например, состоит в том, что 'ee' в 'sheep' чуть длиннее, чем 'i' в 'ship'. Длительность гласного имеет значение и может изменить смысл слова! Вот некоторые из наиболее распространённых долгих гласных. Обратите внимание, что позиция гласного внутри слога может быть фиксированной: над согласным, под ним, перед ним или после него. Символ тире (–) в каждом гласном обозначает место, где располагается начальный согласный. Кстати, обратите внимание, что гласный «โ-» [oh] выше остальных и выходит за верхнюю линию."
     },
     {
       "type": "track",
@@ -42,11 +48,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Read the following words and pay attention to the vowels' position (don't try to translate them just now, only focus on pronunciation). Make sure you try to read each syllable by yourself first before taking a peek at the answer key in the footnote!"
+      "html": "Read the following words and pay attention to the vowels' position (don't try to translate them just now, only focus on pronunciation). Make sure you try to read each syllable by yourself first before taking a peek at the answer key in the footnote!",
+      "htmlRu": "Прочитайте следующие слова и обратите внимание на позицию гласных (пока не пытайтесь их переводить, сосредоточьтесь только на произношении). Обязательно попробуйте прочитать каждый слог самостоятельно, прежде чем заглядывать в ответы в сноске!"
     },
     {
       "type": "track",
@@ -77,6 +85,7 @@
     {
       "type": "rule",
       "html": "When \"ย\" [y] and \"ว\" [w] are at final position (after the initial consonant and vowel), they sound more like [-i] and [-o] respectively:",
+      "htmlRu": "Когда «ย» [y] и «ว» [w] стоят в финальной позиции (после начального согласного и гласного), они звучат скорее как [-i] и [-o] соответственно:",
       "emphasis": "soft"
     },
     {
@@ -92,6 +101,7 @@
     {
       "type": "rule",
       "html": "When \"ร\" [r] and \"ล\" [l] are at final position (after the initial consonant and vowel), their sound changes to [-n]:",
+      "htmlRu": "Когда «ร» [r] и «ล» [l] стоят в финальной позиции (после начального согласного и гласного), их звучание меняется на [-n]:",
       "emphasis": "soft"
     },
     {
@@ -107,20 +117,24 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "No space between us"
+      "text": "No space between us",
+      "textRu": "Между нами — ни пробела"
     },
     {
       "type": "paragraph",
-      "html": "There's no space between words or syllables in Thai. No, I'm serious… Space only acts as a full stop or comma to show where a sentence ends or pauses. You'll have to be able to identify syllable boundaries by yourself. But hang on, it's not as hard as it sounds! Most Thai words have a fairly logical structure which limits the ways they can be read. The sentence above consists of 3 words: รอ 'to wait', นาย 'boss', มา 'come'. But if you try to chop it up in any other way, for example: it is impossible to read! Since we already know that -า has to come after its consonant, it can't just float around like \"าย\". Also, you can't do this either: If we do this, the second syllable will have too many final consonants \"นายม\" and the last -า will also have no initial consonant either. But I have to admit that this tactic doesn't always work, so you'll also need to be able to recognise words in sentences as well."
+      "html": "There's no space between words or syllables in Thai. No, I'm serious… Space only acts as a full stop or comma to show where a sentence ends or pauses. You'll have to be able to identify syllable boundaries by yourself. But hang on, it's not as hard as it sounds! Most Thai words have a fairly logical structure which limits the ways they can be read. The sentence above consists of 3 words: รอ 'to wait', นาย 'boss', มา 'come'. But if you try to chop it up in any other way, for example: it is impossible to read! Since we already know that -า has to come after its consonant, it can't just float around like \"าย\". Also, you can't do this either: If we do this, the second syllable will have too many final consonants \"นายม\" and the last -า will also have no initial consonant either. But I have to admit that this tactic doesn't always work, so you'll also need to be able to recognise words in sentences as well.",
+      "htmlRu": "В тайском языке между словами и слогами нет пробелов. Нет, я серьёзно… Пробел выполняет лишь роль точки или запятой, обозначая конец предложения или паузу. Вам придётся самостоятельно определять границы слогов. Но подождите, это не так сложно, как кажется! Большинство тайских слов имеют довольно логичную структуру, которая ограничивает возможные варианты прочтения. Предложение выше состоит из 3 слов: รอ 'ждать', นาย 'босс', มา 'приходить'. Но если попытаться разбить его по-другому, например: прочитать невозможно! Поскольку мы уже знаем, что -า должен стоять после своего согласного, он не может просто «болтаться» как «าย». Также нельзя сделать и так: в этом случае второй слог будет содержать слишком много финальных согласных «นายม», а последний -า останется вовсе без начального согласного. Но должен признать, что этот приём работает не всегда, поэтому вам также потребуется умение распознавать слова в предложениях."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Separate these short phrases into individual syllables, then read them out loud."
+      "html": "Separate these short phrases into individual syllables, then read them out loud.",
+      "htmlRu": "Разделите эти короткие фразы на отдельные слоги, а затем прочитайте их вслух."
     },
     {
       "type": "track",
@@ -147,6 +161,14 @@
         "There are 2 types of vowels: short and long, and each vowel's position is fixed",
         "At final position (the end of the syllable after the initial consonant and vowel), ย sounds like [-i], ว sounds like [-o], and ร and ล consonants change their sound to [-n]",
         "There's no space between words in Thai"
+      ],
+      "itemsRu": [
+        "Запомните все согласные LC1 и 7 долгих гласных",
+        "Согласные принадлежат к «классам», и класс согласного влияет на тон слога",
+        "У каждой буквы-согласного есть название — это её собственный звук + -อ [-or], напр. น называется /nor/",
+        "Существует 2 типа гласных: краткие и долгие, и позиция каждого гласного фиксирована",
+        "В финальной позиции (в конце слога после начального согласного и гласного) ย звучит как [-i], ว звучит как [-o], а согласные ร и ล меняют звучание на [-n]",
+        "В тайском языке между словами нет пробелов"
       ]
     }
   ],

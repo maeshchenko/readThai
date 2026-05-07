@@ -7,16 +7,19 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 9: The Outlaws"
+      "text": "DAY 9: The Outlaws",
+      "textRu": "ДЕНЬ 9: Исключения из правил"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Thai numerals"
+      "text": "Thai numerals",
+      "textRu": "Тайские цифры"
     },
     {
       "type": "paragraph",
-      "html": "Thai numerals work the same way as in the Hindu-Arabic system (the numeral system you use in your everyday life — 1234567890). Nowadays they're not as commonly used, but they're still not to be ignored. Incidentally, number 7 looks exactly like a high tone mark (-๊), number 8 is the same as a shortening mark (-็), and zero is simply a circle."
+      "html": "Thai numerals work the same way as in the Hindu-Arabic system (the numeral system you use in your everyday life — 1234567890). Nowadays they're not as commonly used, but they're still not to be ignored. Incidentally, number 7 looks exactly like a high tone mark (-๊), number 8 is the same as a shortening mark (-็), and zero is simply a circle.",
+      "htmlRu": "Тайские цифры работают точно так же, как и в индо-арабской системе (той самой системе счисления, которой вы пользуетесь каждый день — 1234567890). В наши дни они используются не так часто, но игнорировать их всё же не стоит. Любопытно, что цифра 7 выглядит в точности как знак высокого тона (-๊), цифра 8 совпадает со знаком сокращения (-็), а ноль — это просто кружок."
     },
     {
       "type": "thaiTable",
@@ -37,20 +40,24 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Rules are meant to be broken"
+      "text": "Rules are meant to be broken",
+      "textRu": "Правила созданы, чтобы их нарушать"
     },
     {
       "type": "paragraph",
-      "html": "You know what? You've actually learnt all the rules there are to know in Thai script!!! Now however, despite all the efforts you've put into learning it, there are a few words that just don't make much sense spelling-wise, and you have to memorise them as they are. In this couple of pages, I will guide you through most of them, and by the end of the chapter you will be able to read ALMOST EVERY WORD in Thai! Exciting, right?"
+      "html": "You know what? You've actually learnt all the rules there are to know in Thai script!!! Now however, despite all the efforts you've put into learning it, there are a few words that just don't make much sense spelling-wise, and you have to memorise them as they are. In this couple of pages, I will guide you through most of them, and by the end of the chapter you will be able to read ALMOST EVERY WORD in Thai! Exciting, right?",
+      "htmlRu": "Знаете что? Вы уже выучили абсолютно все правила тайской письменности!!! Однако, несмотря на все усилия, которые вы вложили в обучение, существует ряд слов, написание которых не подчиняется никакой логике, — их придётся просто запомнить как есть. На ближайших страницах я проведу вас через большинство из них, и к концу главы вы сможете прочитать ПОЧТИ ЛЮБОЕ СЛОВО на тайском! Захватывает, правда?"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Vowel-less words"
+      "text": "Vowel-less words",
+      "textRu": "Слова без гласных"
     },
     {
       "type": "paragraph",
-      "html": "3 words in Thai contain no written vowel at all:"
+      "html": "3 words in Thai contain no written vowel at all:",
+      "htmlRu": "В тайском языке есть 3 слова, в которых вообще нет письменной гласной:"
     },
     {
       "type": "track",
@@ -77,11 +84,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "The 'อย' combination"
+      "text": "The 'อย' combination",
+      "textRu": "Сочетание «อย»"
     },
     {
       "type": "paragraph",
-      "html": "Only 4 words in Thai contain the \"อย-\" combination, in which อ is not pronounced. Notice that all these words have low tone and not falling because this combination follows อ's rule."
+      "html": "Only 4 words in Thai contain the \"อย-\" combination, in which อ is not pronounced. Notice that all these words have low tone and not falling because this combination follows อ's rule.",
+      "htmlRu": "В тайском языке всего 4 слова содержат сочетание «อย-», в котором อ не произносится. Обратите внимание, что все эти слова имеют низкий тон, а не нисходящий, поскольку это сочетание подчиняется правилу อ."
     },
     {
       "type": "track",
@@ -100,11 +109,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Silent consonants without '-็'"
+      "text": "Silent consonants without '-็'",
+      "textRu": "Немые согласные без «-็»"
     },
     {
       "type": "paragraph",
-      "html": "In addition to silent ร (from the previous chapter), sometimes consonants can just be silent without a silent mark at all. Incidentally, the word 'Thai' itself is one of them:"
+      "html": "In addition to silent ร (from the previous chapter), sometimes consonants can just be silent without a silent mark at all. Incidentally, the word 'Thai' itself is one of them:",
+      "htmlRu": "Помимо немой ร (из предыдущей главы), иногда согласные могут быть немыми и без какого-либо знака немоты. Кстати, само слово «Thai» — один из таких случаев:"
     },
     {
       "type": "track",
@@ -122,11 +133,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Silent vowels"
+      "text": "Silent vowels",
+      "textRu": "Немые гласные"
     },
     {
       "type": "paragraph",
-      "html": "Vowels can be silent too. Generally, they're in the words that end with -ติ or -ตุ where that -ิ or -ุ vowel is not pronounced. The common examples are:"
+      "html": "Vowels can be silent too. Generally, they're in the words that end with -ติ or -ตุ where that -ิ or -ุ vowel is not pronounced. The common examples are:",
+      "htmlRu": "Гласные тоже могут быть немыми. Как правило, это встречается в словах, оканчивающихся на -ติ или -ตุ, где гласная -ิ или -ุ не произносится. Вот распространённые примеры:"
     },
     {
       "type": "track",
@@ -161,7 +174,8 @@
     },
     {
       "type": "paragraph",
-      "html": "You can see some other silent cases apart from -ติ and -ตุ too:"
+      "html": "You can see some other silent cases apart from -ติ and -ตุ too:",
+      "htmlRu": "Есть и другие случаи немых гласных, помимо -ติ и -ตุ:"
     },
     {
       "type": "examples",
@@ -184,11 +198,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Irregular tones"
+      "text": "Irregular tones",
+      "textRu": "Нерегулярные тоны"
     },
     {
       "type": "paragraph",
-      "html": "Some words which are of Khmer or Pali-Sanskrit origin don't follow the rules. There are historical reasons for this but let's just say that the first syllable of these words tends to start with ประ- [bprà-] or the vowel อำ [-um] (but not always). Common examples are:"
+      "html": "Some words which are of Khmer or Pali-Sanskrit origin don't follow the rules. There are historical reasons for this but let's just say that the first syllable of these words tends to start with ประ- [bprà-] or the vowel อำ [-um] (but not always). Common examples are:",
+      "htmlRu": "Некоторые слова кхмерского или палийско-санскритского происхождения не подчиняются правилам. У этого есть исторические причины, но скажем просто: первый слог таких слов, как правило, начинается с ประ- [bprà-] или содержит гласную อำ [-um] (хотя и не всегда). Вот распространённые примеры:"
     },
     {
       "type": "track",
@@ -215,11 +231,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Syllabic character \"ฤ\""
+      "text": "Syllabic character \"ฤ\"",
+      "textRu": "Слоговой знак «ฤ»"
     },
     {
       "type": "paragraph",
-      "html": "This character is called ตัวรึ [dtua rúe'] and it looks like \"ถ\" with a long tail. It is rare but still used in some common words in Thai. Normally, this character is pronounced as a single syllable: \"รึ\" [rúe']."
+      "html": "This character is called ตัวรึ [dtua rúe'] and it looks like \"ถ\" with a long tail. It is rare but still used in some common words in Thai. Normally, this character is pronounced as a single syllable: \"รึ\" [rúe'].",
+      "htmlRu": "Этот знак называется ตัวรึ [dtua rúe'] и выглядит как «ถ» с длинным хвостиком. Он встречается редко, но всё же используется в некоторых распространённых тайских словах. Обычно этот знак читается как отдельный слог: «รึ» [rúe']."
     },
     {
       "type": "track",
@@ -236,7 +254,8 @@
     },
     {
       "type": "paragraph",
-      "html": "It's occasionally pronounced ริ [rí] or เรอ [rer]:"
+      "html": "It's occasionally pronounced ริ [rí] or เรอ [rer]:",
+      "htmlRu": "Иногда он произносится как ริ [rí] или เรอ [rer]:"
     },
     {
       "type": "examples",
@@ -250,11 +269,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Abbreviation mark"
+      "text": "Abbreviation mark",
+      "textRu": "Знак сокращения"
     },
     {
       "type": "paragraph",
-      "html": "ไม้ไปยาล [mái bpaiyaan] \"ฯ\" is used for abbreviating proper nouns (i.e. names for specific things, place, or people):"
+      "html": "ไม้ไปยาล [mái bpaiyaan] \"ฯ\" is used for abbreviating proper nouns (i.e. names for specific things, place, or people):",
+      "htmlRu": "ไม้ไปยาล [mái bpaiyaan] «ฯ» используется для сокращения имён собственных (то есть названий конкретных вещей, мест или людей):"
     },
     {
       "type": "track",
@@ -274,7 +295,8 @@
     },
     {
       "type": "paragraph",
-      "html": "\"ฯลฯ\", or [bpaiyaan yài], means 'et cetera'. You should read it as /láir' ùen-ùen/ (literally, 'and others') when you see it in writing."
+      "html": "\"ฯลฯ\", or [bpaiyaan yài], means 'et cetera'. You should read it as /láir' ùen-ùen/ (literally, 'and others') when you see it in writing.",
+      "htmlRu": "«ฯลฯ», или [bpaiyaan yài], означает «и так далее». Встретив этот знак в тексте, читайте его как /láir' ùen-ùen/ (буквально «и другие»)."
     },
     {
       "type": "thaiExample",
@@ -285,11 +307,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Repetition mark"
+      "text": "Repetition mark",
+      "textRu": "Знак повтора"
     },
     {
       "type": "paragraph",
-      "html": "ไม้ยมก [mái yamók] \"ๆ\" indicates that the word that comes before will be repeated one more time:"
+      "html": "ไม้ยมก [mái yamók] \"ๆ\" indicates that the word that comes before will be repeated one more time:",
+      "htmlRu": "ไม้ยมก [mái yamók] «ๆ» означает, что предшествующее слово повторяется ещё один раз:"
     },
     {
       "type": "track",
@@ -307,16 +331,19 @@
     },
     {
       "type": "paragraph",
-      "html": "This mark repeats the WORD, not the syllable. Therefore, sometimes you repeat just one syllable but sometimes you repeat more than one syllable depending on how many syllable that word has."
+      "html": "This mark repeats the WORD, not the syllable. Therefore, sometimes you repeat just one syllable but sometimes you repeat more than one syllable depending on how many syllable that word has.",
+      "htmlRu": "Этот знак повторяет СЛОВО, а не слог. Поэтому иногда вы повторяете только один слог, а иногда — несколько, в зависимости от того, сколько слогов в этом слове."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "Similar to the previous chapter, but this time you have to read the following passage written in handwriting style. Good luck!"
+      "html": "Similar to the previous chapter, but this time you have to read the following passage written in handwriting style. Good luck!",
+      "htmlRu": "Как и в предыдущей главе — но на этот раз вам предстоит прочитать отрывок, написанный рукописным шрифтом. Удачи!"
     },
     {
       "type": "track",
@@ -337,6 +364,17 @@
         "ฤ is a syllable in itself, it is pronounced [rúe'] most of the time, but can be pronounced [rí] or [rer] as well in a minuscule number of words",
         "The abbreviation mark \"ฯ\" is mostly used to shorten proper names, however the symbol \"ฯลฯ\" means 'et cetera' and is always pronounced \"และอื่นๆ\" /láir' ùen-ùen/",
         "The repetition mark \"ๆ\" repeats the preceding word, you have to pronounce the full word (not just the syllable) twice"
+      ],
+      "itemsRu": [
+        "Запомните тайские цифры",
+        "3 слова, в которых нет гласной, но которые произносятся так, будто она есть: ก็, ณ, ธ",
+        "4 слова с сочетанием «อย-»: อย่า, อยู่, อย่าง, อยาก",
+        "В некоторых словах согласные могут быть немыми без знака немоты: ไทย, พุทธ и др.",
+        "Гласные -ิ или -ุ часто бывают немыми в словах, оканчивающихся на -ติ или -ตุ (и в некоторых других словах тоже)",
+        "Тоны в некоторых словах кхмерского или палийско-санскритского происхождения могут быть нерегулярными — их просто нужно запоминать пословно",
+        "ฤ — это самостоятельный слог, чаще всего произносится [rúe'], но в небольшом числе слов может читаться как [rí] или [rer]",
+        "Знак сокращения «ฯ» в основном используется для сокращения имён собственных, однако символ «ฯลฯ» означает «и так далее» и всегда произносится «และอื่นๆ» /láir' ùen-ùen/",
+        "Знак повтора «ๆ» повторяет предшествующее слово — нужно произнести всё слово (а не только слог) дважды"
       ]
     }
   ],

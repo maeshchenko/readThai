@@ -7,20 +7,24 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "Preliminary"
+      "text": "Preliminary",
+      "textRu": "Подготовка"
     },
     {
       "type": "paragraph",
-      "html": "Before we move on to the last chapter, perhaps you should refresh your memory of what we've done so far. Needless to say that at this point you should know DAY 1 - DAY 5 by heart. Below is a checklist of DAY 6 - DAY 9 to see whether you're ready for the LAST DAY yet."
+      "html": "Before we move on to the last chapter, perhaps you should refresh your memory of what we've done so far. Needless to say that at this point you should know DAY 1 - DAY 5 by heart. Below is a checklist of DAY 6 - DAY 9 to see whether you're ready for the LAST DAY yet.",
+      "htmlRu": "Прежде чем перейти к последней главе, стоит освежить в памяти всё, что вы уже прошли. Само собой, к этому моменту материал ДНЕЙ 1–5 вы должны знать наизусть. Ниже — контрольный список по ДНЯМ 6–9, чтобы проверить, готовы ли вы к ПОСЛЕДНЕМУ ДНЮ."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Consonants"
+      "text": "Consonants",
+      "textRu": "Согласные"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember these less common consonants, their sounds and their classes, and that under certain circumstances ญ will change its sound? (DAY 7 through 8)"
+      "html": "1. Do you remember these less common consonants, their sounds and their classes, and that under certain circumstances ญ will change its sound? (DAY 7 through 8)",
+      "htmlRu": "1. Помните ли вы эти менее распространённые согласные, их звучание и классы, а также то, что при определённых условиях ญ меняет своё звучание? (ДНИ 7–8)"
     },
     {
       "type": "examples",
@@ -56,7 +60,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember how to pronounce consonant clusters and how many types there are? (Consonant cluster)"
+      "html": "2. Do you remember how to pronounce consonant clusters and how many types there are? (Consonant cluster)",
+      "htmlRu": "2. Помните ли вы, как произносить кластеры согласных и сколько их типов существует? (Кластеры согласных)"
     },
     {
       "type": "examples",
@@ -75,7 +80,8 @@
     },
     {
       "type": "paragraph",
-      "html": "3. Do you remember that if a consonant is marked by อ์ (/mái tuntákâat/) it's not pronounced? (Silent mark)"
+      "html": "3. Do you remember that if a consonant is marked by อ์ (/mái tuntákâat/) it's not pronounced? (Silent mark)",
+      "htmlRu": "3. Помните ли вы, что если согласная отмечена знаком อ์ (/mái tuntákâat/), она не произносится? (Знак немой согласной)"
     },
     {
       "type": "examples",
@@ -88,7 +94,8 @@
     },
     {
       "type": "paragraph",
-      "html": "4. Do you remember that ร becomes silent after an [s] consonant, at the end of a syllable if alone, or often for no reason? Also, when it follows ท the sound of both together becomes [s]? (Pronunciations of \"ร\")"
+      "html": "4. Do you remember that ร becomes silent after an [s] consonant, at the end of a syllable if alone, or often for no reason? Also, when it follows ท the sound of both together becomes [s]? (Pronunciations of \"ร\")",
+      "htmlRu": "4. Помните ли вы, что ร становится немой после согласной [s], в конце слога, если стоит одна, или нередко без видимой причины? А также что в сочетании с ท они вместе произносятся как [s]? (Произношение «ร»)"
     },
     {
       "type": "examples",
@@ -103,11 +110,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Vowels"
+      "text": "Vowels",
+      "textRu": "Гласные"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember these vowels and whether they are long or short? (Complex vowels)"
+      "html": "1. Do you remember these vowels and whether they are long or short? (Complex vowels)",
+      "htmlRu": "1. Помните ли вы эти гласные и какие из них долгие, а какие — краткие? (Сложные гласные)"
     },
     {
       "type": "examples",
@@ -120,7 +129,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember that when there's a consonant which seems to be by itself within a word, it probably has a short [-a] vowel? And even though sometimes it is not on its own, [-a] is still inserted to make a linking syllable? (Camouflage Vowels (1 letter))"
+      "html": "2. Do you remember that when there's a consonant which seems to be by itself within a word, it probably has a short [-a] vowel? And even though sometimes it is not on its own, [-a] is still inserted to make a linking syllable? (Camouflage Vowels (1 letter))",
+      "htmlRu": "2. Помните ли вы, что если согласная в слове кажется «одинокой», скорее всего, при ней подразумевается краткая гласная [-a]? И что иногда, даже когда она стоит не одна, [-a] всё равно вставляется, образуя связующий слог? (Скрытые гласные (1 буква))"
     },
     {
       "type": "examples",
@@ -133,15 +143,18 @@
     },
     {
       "type": "paragraph",
-      "html": "3. Do you remember that the combination บริ is pronounced [borrí-] not [bàrí-]? (\"บริ\" combination)"
+      "html": "3. Do you remember that the combination บริ is pronounced [borrí-] not [bàrí-]? (\"บริ\" combination)",
+      "htmlRu": "3. Помните ли вы, что сочетание บริ произносится [borrí-], а не [bàrí-]? (Сочетание «บริ»)"
     },
     {
       "type": "paragraph",
-      "html": "4. Do you remember that double รร turns into an [-u-] or [-un] vowel? (Double \"รร\")"
+      "html": "4. Do you remember that double รร turns into an [-u-] or [-un] vowel? (Double \"รร\")",
+      "htmlRu": "4. Помните ли вы, что двойная รร превращается в гласную [-u-] или [-un]? (Двойная «รร»)"
     },
     {
       "type": "paragraph",
-      "html": "5. Do you remember that certain long vowels which have no short counterpart can be shortened by adding -ะ at the end of the syllable, or adding -็ if the vowel is either เ-, แ- or -อ and there's a final consonant? (Vowel shortening)"
+      "html": "5. Do you remember that certain long vowels which have no short counterpart can be shortened by adding -ะ at the end of the syllable, or adding -็ if the vowel is either เ-, แ- or -อ and there's a final consonant? (Vowel shortening)",
+      "htmlRu": "5. Помните ли вы, что некоторые долгие гласные, у которых нет краткой пары, можно сократить, добавив -ะ в конце слога, или -็, если гласная — เ-, แ- или -อ и в слоге есть финальная согласная? (Сокращение гласных)"
     },
     {
       "type": "examples",
@@ -155,7 +168,8 @@
     },
     {
       "type": "paragraph",
-      "html": "6. Do you remember that -ิ and -ุ vowels can be silent without a silent mark? Especially (but not necessarily) when -ติ or -ตุ appears at the end of a word? (Silent vowels)"
+      "html": "6. Do you remember that -ิ and -ุ vowels can be silent without a silent mark? Especially (but not necessarily) when -ติ or -ตุ appears at the end of a word? (Silent vowels)",
+      "htmlRu": "6. Помните ли вы, что гласные -ิ и -ุ могут быть немыми без специального знака? Особенно (но не обязательно) когда -ติ или -ตุ стоят в конце слова? (Немые гласные)"
     },
     {
       "type": "examples",
@@ -173,11 +187,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Tones"
+      "text": "Tones",
+      "textRu": "Тоны"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember all 4 tone marks and their default tones? (Tone marks)"
+      "html": "1. Do you remember all 4 tone marks and their default tones? (Tone marks)",
+      "htmlRu": "1. Помните ли вы все 4 тоновых знака и их основные тоны? (Тоновые знаки)"
     },
     {
       "type": "examples",
@@ -191,7 +207,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember the tone rules: String Theory #3 and String Theory #4? (Theory of Tones – tone marks)"
+      "html": "2. Do you remember the tone rules: String Theory #3 and String Theory #4? (Theory of Tones – tone marks)",
+      "htmlRu": "2. Помните ли вы тоновые правила: Теория струн #3 и Теория струн #4? (Теория тонов — тоновые знаки)"
     },
     {
       "type": "thaiTable",
@@ -204,11 +221,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Miscellaneous"
+      "text": "Miscellaneous",
+      "textRu": "Разное"
     },
     {
       "type": "paragraph",
-      "html": "1. Do you remember the Thai numerals? (Thai numerals)"
+      "html": "1. Do you remember the Thai numerals? (Thai numerals)",
+      "htmlRu": "1. Помните ли вы тайские цифры? (Тайские цифры)"
     },
     {
       "type": "examples",
@@ -228,7 +247,8 @@
     },
     {
       "type": "paragraph",
-      "html": "2. Do you remember how to read these unusual words? (Irregular spelling)"
+      "html": "2. Do you remember how to read these unusual words? (Irregular spelling)",
+      "htmlRu": "2. Помните ли вы, как читать эти необычные слова? (Нестандартное написание)"
     },
     {
       "type": "examples",
@@ -250,7 +270,8 @@
     },
     {
       "type": "paragraph",
-      "html": "3. Do you remember how the symbol ฤ works and how to pronounce it? (Syllabic \"ฤ\")"
+      "html": "3. Do you remember how the symbol ฤ works and how to pronounce it? (Syllabic \"ฤ\")",
+      "htmlRu": "3. Помните ли вы, как работает символ ฤ и как он произносится? (Слоговая «ฤ»)"
     },
     {
       "type": "examples",
@@ -263,7 +284,8 @@
     },
     {
       "type": "paragraph",
-      "html": "4. Do you remember these punctuation marks and what they do? (Special marks)"
+      "html": "4. Do you remember these punctuation marks and what they do? (Special marks)",
+      "htmlRu": "4. Помните ли вы эти знаки препинания и для чего они используются? (Специальные знаки)"
     },
     {
       "type": "examples",
@@ -279,7 +301,8 @@
     },
     {
       "type": "paragraph",
-      "html": "If you got it all, I think you're ready!"
+      "html": "If you got it all, I think you're ready!",
+      "htmlRu": "Если вы всё вспомнили — думаю, вы готовы!"
     }
   ],
   "footnotes": {},

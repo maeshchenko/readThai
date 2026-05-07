@@ -7,11 +7,13 @@
     {
       "type": "heading",
       "level": 1,
-      "text": "DAY 8: Hear Me Ror!"
+      "text": "DAY 8: Hear Me Ror!",
+      "textRu": "ДЕНЬ 8: Услышь меня, Рор!"
     },
     {
       "type": "paragraph",
-      "html": "This is the last set of consonants! They're even considerably rarer than the ones in the previous chapter and appear mostly in big words, but it's still necessary to know them of course!"
+      "html": "This is the last set of consonants! They're even considerably rarer than the ones in the previous chapter and appear mostly in big words, but it's still necessary to know them of course!",
+      "htmlRu": "Это последний набор согласных! Они ещё значительно реже тех, что были в предыдущей главе, и встречаются в основном в длинных словах, но знать их, конечно, всё равно необходимо!"
     },
     {
       "type": "track",
@@ -19,7 +21,8 @@
     },
     {
       "type": "paragraph",
-      "html": "These consonants are SO rare that I struggled to find common Thai words that contain them!"
+      "html": "These consonants are SO rare that I struggled to find common Thai words that contain them!",
+      "htmlRu": "Эти согласные НАСТОЛЬКО редки, что мне было трудно найти распространённые тайские слова, в которых они встречаются!"
     },
     {
       "type": "track",
@@ -42,16 +45,19 @@
     {
       "type": "callout",
       "variant": "note",
-      "html": "Sometimes ฑ is pronounced [d]. However, บัณฑิต is the only such word worth knowing."
+      "html": "Sometimes ฑ is pronounced [d]. However, บัณฑิต is the only such word worth knowing.",
+      "htmlRu": "Иногда ฑ произносится как [d]. Однако บัณฑิต — единственное такое слово, которое стоит запомнить."
     },
     {
       "type": "paragraph",
-      "html": "Phew! We've done ALL 42 Thai consonants! However, it is worth looking back and seeing how much you can remember about the shape, sound, and the class of each consonant. Use the mnemonics you've learnt from pages 42-43 to help you memorise consonant classes (Underlined characters are the most common character in each sound group)."
+      "html": "Phew! We've done ALL 42 Thai consonants! However, it is worth looking back and seeing how much you can remember about the shape, sound, and the class of each consonant. Use the mnemonics you've learnt from pages 42-43 to help you memorise consonant classes (Underlined characters are the most common character in each sound group).",
+      "htmlRu": "Уф! Мы прошли ВСЕ 42 тайских согласных! Однако стоит оглянуться назад и проверить, сколько вы помните о форме, звучании и классе каждого согласного. Используйте мнемоники со страниц 42–43, чтобы запомнить классы согласных (подчёркнутые буквы — самые распространённые в каждой звуковой группе)."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "Low Class 1"
+      "text": "Low Class 1",
+      "textRu": "Низкий класс 1"
     },
     {
       "type": "thaiTable",
@@ -69,7 +75,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Low Class 2"
+      "text": "Low Class 2",
+      "textRu": "Низкий класс 2"
     },
     {
       "type": "thaiTable",
@@ -87,7 +94,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "Mid Class"
+      "text": "Mid Class",
+      "textRu": "Средний класс"
     },
     {
       "type": "thaiTable",
@@ -105,7 +113,8 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "High Class"
+      "text": "High Class",
+      "textRu": "Высокий класс"
     },
     {
       "type": "thaiTable",
@@ -123,16 +132,19 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "The sound of silence"
+      "text": "The sound of silence",
+      "textRu": "Звук тишины"
     },
     {
       "type": "paragraph",
-      "html": "When Thais borrow words from other languages, sometimes we don't (or can't) pronounce all the consonants in the words but we want to preserve the original spellings. So what we do is 'kill off' unpronounced consonants by marking them with a silent mark (-์ ) called ไม้ทัณฑฆาต /mái tuntákâat/."
+      "html": "When Thais borrow words from other languages, sometimes we don't (or can't) pronounce all the consonants in the words but we want to preserve the original spellings. So what we do is 'kill off' unpronounced consonants by marking them with a silent mark (-์ ) called ไม้ทัณฑฆาต /mái tuntákâat/.",
+      "htmlRu": "Когда тайцы заимствуют слова из других языков, иногда мы не произносим (или не можем произнести) все согласные в слове, но хотим сохранить оригинальное написание. Поэтому мы «убиваем» непроизносимые согласные, отмечая их знаком молчания (-์ ), который называется ไม้ทัณฑฆาต /mái tuntákâat/."
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "track",
@@ -140,34 +152,41 @@
     },
     {
       "type": "paragraph",
-      "html": "First, can you guess how you should pronounce these words?"
+      "html": "First, can you guess how you should pronounce these words?",
+      "htmlRu": "Для начала — сможете угадать, как произносятся эти слова?"
     },
     {
       "type": "paragraph",
-      "html": "Silent marks can also kill the preceding consonant too:"
+      "html": "Silent marks can also kill the preceding consonant too:",
+      "htmlRu": "Знак молчания может также «убить» и предшествующий согласный:"
     },
     {
       "type": "paragraph",
-      "html": "It doesn't matter whether there's a vowel — kill them all!"
+      "html": "It doesn't matter whether there's a vowel — kill them all!",
+      "htmlRu": "Неважно, есть ли там гласный, — убиваем всех!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "To cut the story short…"
+      "text": "To cut the story short…",
+      "textRu": "Если коротко…"
     },
     {
       "type": "paragraph",
-      "html": "Some long vowels have their short counterparts: e.g. -ิ [i] is the short version of -ี [ee], etc. However, most long vowels like เ- or แ- do not, so -ะ is added to the end of the syllable to create a shorter vowel sound."
+      "html": "Some long vowels have their short counterparts: e.g. -ิ [i] is the short version of -ี [ee], etc. However, most long vowels like เ- or แ- do not, so -ะ is added to the end of the syllable to create a shorter vowel sound.",
+      "htmlRu": "У некоторых долгих гласных есть краткие пары: например, -ิ [i] — краткая версия -ี [ee] и т. д. Однако у большинства долгих гласных, таких как เ- или แ-, краткой пары нет, поэтому к концу слога добавляется -ะ, чтобы создать более короткий гласный звук."
     },
     {
       "type": "rule",
       "html": "This shortening -ะ symbol is ONLY used with syllables that don't have a final consonant.",
+      "htmlRu": "Этот сокращающий символ -ะ используется ТОЛЬКО в слогах без финального согласного.",
       "emphasis": "strong"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "track",
@@ -176,15 +195,18 @@
     {
       "type": "callout",
       "variant": "warning",
-      "html": "Remember, however, that เ-าะ [-or'] is NOT a short version of เ-า [-ao]! They're different!"
+      "html": "Remember, however, that เ-าะ [-or'] is NOT a short version of เ-า [-ao]! They're different!",
+      "htmlRu": "Однако помните, что เ-าะ [-or'] — это НЕ краткая версия เ-า [-ao]! Это разные звуки!"
     },
     {
       "type": "paragraph",
-      "html": "You might have noticed the tone changes in these shortened words. Remember? If a syllable ends with a short vowel, it is DEAD, thus the shortening of the vowel also affects the tone."
+      "html": "You might have noticed the tone changes in these shortened words. Remember? If a syllable ends with a short vowel, it is DEAD, thus the shortening of the vowel also affects the tone.",
+      "htmlRu": "Вы могли заметить, что в этих сокращённых словах меняется тон. Помните? Если слог заканчивается кратким гласным, он МЁРТВЫЙ, а значит, сокращение гласного также влияет на тон."
     },
     {
       "type": "rule",
       "html": "For เ-, แ- and -อ however, if there's a FINAL CONSONANT then this shortening mark (-็) \"ไม้ไต่คู้\" /mái dtàikóo/ will be used instead of -ะ. This mark goes over the initial consonant. It should be noted that the shortening mark -็ will never appear with a tone mark.",
+      "htmlRu": "Однако для เ-, แ- и -อ, если в слоге есть ФИНАЛЬНЫЙ СОГЛАСНЫЙ, вместо -ะ используется сокращающий знак (-็) «ไม้ไต่คู้» /mái dtàikóo/. Этот знак ставится над начальным согласным. Следует отметить, что сокращающий знак -็ никогда не появляется вместе со знаком тона.",
       "emphasis": "strong"
     },
     {
@@ -212,11 +234,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "This practice deals with two kinds of words: those with a silent mark and those with a shortening mark. For the words with a silent mark, read them and circle around all the unpronounced characters (there are a few difficult ones, so prepare to be wrong!); for the words with a shortening mark, namely -ะ or -็, read them and rewrite them as the long counterpart of their vowel e.g. โกะ /gò/ >> โก /goh/. Once you change the vowel to a long vowel, keep in mind that there might be a tone change, so you have work that out too."
+      "html": "This practice deals with two kinds of words: those with a silent mark and those with a shortening mark. For the words with a silent mark, read them and circle around all the unpronounced characters (there are a few difficult ones, so prepare to be wrong!); for the words with a shortening mark, namely -ะ or -็, read them and rewrite them as the long counterpart of their vowel e.g. โกะ /gò/ >> โก /goh/. Once you change the vowel to a long vowel, keep in mind that there might be a tone change, so you have work that out too.",
+      "htmlRu": "В этом упражнении два типа слов: со знаком молчания и с сокращающим знаком. Для слов со знаком молчания прочитайте их и обведите все непроизносимые символы (некоторые из них довольно сложные, так что будьте готовы к ошибкам!). Для слов с сокращающим знаком, а именно -ะ или -็, прочитайте их и перепишите с долгой версией гласного, например: โกะ /gò/ >> โก /goh/. Когда вы меняете гласный на долгий, имейте в виду, что тон тоже может измениться — это тоже нужно будет определить."
     },
     {
       "type": "track",
@@ -225,21 +249,25 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "The curious case of \"ร\""
+      "text": "The curious case of \"ร\"",
+      "textRu": "Загадочный случай «ร»"
     },
     {
       "type": "paragraph",
-      "html": "You know ร as a low class 1 consonant [r], but in fact it has quite a few quirks that you need to pay attention to. ร may also be a vowel, change sounds from [r] to something else, or not be pronounced at all!"
+      "html": "You know ร as a low class 1 consonant [r], but in fact it has quite a few quirks that you need to pay attention to. ร may also be a vowel, change sounds from [r] to something else, or not be pronounced at all!",
+      "htmlRu": "Вы знаете ร как согласный низкого класса 1 [r], но на самом деле у него есть немало особенностей, на которые стоит обратить внимание. ร может выступать в роли гласного, менять звучание с [r] на что-то другое или вовсе не произноситься!"
     },
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "1. At final position"
+      "text": "1. At final position",
+      "textRu": "1. В конечной позиции"
     },
     {
       "type": "track",
@@ -248,6 +276,7 @@
     {
       "type": "rule",
       "html": "It's pronounced [-n]. This one we've already learnt on DAY 1:",
+      "htmlRu": "Произносится как [-n]. Это мы уже изучали в ДЕНЬ 1:",
       "emphasis": "soft"
     },
     {
@@ -263,6 +292,7 @@
     {
       "type": "rule",
       "html": "If it's a final consonant and there's no written vowel, it's perhaps pronounced [-orn]. We've learnt this as well on DAY 3:",
+      "htmlRu": "Если это конечный согласный и перед ним нет написанного гласного, он, вероятно, произносится как [-orn]. Это мы тоже изучали в ДЕНЬ 3:",
       "emphasis": "soft"
     },
     {
@@ -278,6 +308,7 @@
     {
       "type": "rule",
       "html": "ร becomes silent at the end of the syllable when it isn't part of any syllable even without the silent mark:",
+      "htmlRu": "ร становится немым в конце слога, когда он не является частью слога, даже без знака молчания:",
       "emphasis": "soft"
     },
     {
@@ -292,12 +323,14 @@
     },
     {
       "type": "paragraph",
-      "html": "Sometimes it's ambiguous whether final ร should be pronounced as [-n], [-orn], or silent. So if you can, always consult a Thai person for accuracy."
+      "html": "Sometimes it's ambiguous whether final ร should be pronounced as [-n], [-orn], or silent. So if you can, always consult a Thai person for accuracy.",
+      "htmlRu": "Иногда неоднозначно, как произносить конечный ร: как [-n], [-orn] или не произносить вовсе. Поэтому, если есть возможность, всегда уточняйте у носителя тайского языка."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "2. Within the syllable"
+      "text": "2. Within the syllable",
+      "textRu": "2. Внутри слога"
     },
     {
       "type": "track",
@@ -306,6 +339,7 @@
     {
       "type": "rule",
       "html": "ร in false consonant clusters สร, ศร, ซร (i.e. clusters with an [s] consonant and ร together) is silent:",
+      "htmlRu": "ร в ложных кластерах согласных สร, ศร, ซร (то есть кластерах, где согласный [s] стоит вместе с ร) не произносится:",
       "emphasis": "soft"
     },
     {
@@ -320,6 +354,7 @@
     {
       "type": "rule",
       "html": "ทร combination is almost always pronounced [s] (Unless it's in loanwords, see ATTENTION! on the following section):",
+      "htmlRu": "Сочетание ทร почти всегда произносится как [s] (если только это не заимствованное слово — см. ВНИМАНИЕ! в следующем разделе):",
       "emphasis": "soft"
     },
     {
@@ -335,6 +370,7 @@
     {
       "type": "rule",
       "html": "บริ combination is pronounced [borrí], not [bàrí] (Unless it's in loanwords, see ATTENTION! on the following section):",
+      "htmlRu": "Сочетание บริ произносится как [borrí], а не [bàrí] (если только это не заимствованное слово — см. ВНИМАНИЕ! в следующем разделе):",
       "emphasis": "soft"
     },
     {
@@ -350,6 +386,7 @@
     {
       "type": "rule",
       "html": "Or ร is just not pronounced for no reason! Sorry, but sometimes we just want to see you suffer. Fortunately, such cases are not common:",
+      "htmlRu": "Или ร просто не произносится без всякой причины! Извините, но иногда нам просто хочется посмотреть, как вы мучаетесь. К счастью, такие случаи встречаются нечасто:",
       "emphasis": "soft"
     },
     {
@@ -365,12 +402,14 @@
     {
       "type": "callout",
       "variant": "warning",
-      "html": "The combination ทร and บริ are usually pronounced [tr-] and [bri-] in foreign proper nouns: เทรน /trayn/ 'train', ทริค /trík/ 'trick', บริดจ์ /brìt/ 'bridge', บริง /bring/."
+      "html": "The combination ทร and บริ are usually pronounced [tr-] and [bri-] in foreign proper nouns: เทรน /trayn/ 'train', ทริค /trík/ 'trick', บริดจ์ /brìt/ 'bridge', บริง /bring/.",
+      "htmlRu": "Сочетания ทร и บริ обычно произносятся как [tr-] и [bri-] в иностранных именах собственных: เทรน /trayn/ 'train', ทริค /trík/ 'trick', บริดจ์ /brìt/ 'bridge', บริง /bring/."
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "3. Double รร"
+      "text": "3. Double รร",
+      "textRu": "3. Двойной รร"
     },
     {
       "type": "track",
@@ -379,6 +418,7 @@
     {
       "type": "rule",
       "html": "Two ร's together form an -ัน [-un] sound:",
+      "htmlRu": "Два ร вместе образуют звук -ัน [-un]:",
       "emphasis": "soft"
     },
     {
@@ -393,6 +433,7 @@
     {
       "type": "rule",
       "html": "But if there's a final consonant, it's just pronounced -ั- [-u-]:",
+      "htmlRu": "Но если есть финальный согласный, произносится просто -ั- [-u-]:",
       "emphasis": "soft"
     },
     {
@@ -408,11 +449,13 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Give it a go!"
+      "text": "Give it a go!",
+      "textRu": "Попробуйте!"
     },
     {
       "type": "paragraph",
-      "html": "This reading exercise has a twist: it is written in stylised font! You'll probably take longer than usual to identify all the letters. Be careful not to get similar letters mixed up. This type of font is ubiquitous in advertising and publishing so it's worth familiarising yourself with it. Take your time, there's no rush!"
+      "html": "This reading exercise has a twist: it is written in stylised font! You'll probably take longer than usual to identify all the letters. Be careful not to get similar letters mixed up. This type of font is ubiquitous in advertising and publishing so it's worth familiarising yourself with it. Take your time, there's no rush!",
+      "htmlRu": "В этом упражнении на чтение есть изюминка: оно написано стилизованным шрифтом! Вам, вероятно, потребуется больше времени, чем обычно, чтобы распознать все буквы. Будьте внимательны — не перепутайте похожие буквы. Такой шрифт повсеместно встречается в рекламе и издательском деле, так что стоит с ним освоиться. Не торопитесь!"
     },
     {
       "type": "track",
@@ -424,7 +467,8 @@
     {
       "type": "heading",
       "level": 2,
-      "text": "Today's Recap"
+      "text": "Today's Recap",
+      "textRu": "Итоги дня"
     },
     {
       "type": "recap",
@@ -436,6 +480,15 @@
         "ร is silent when following [s] consonants (ซ, ส, ศ, ษ); at the end of the syllable when it doesn't seem to belong there; or sometimes it just is, without any reason!",
         "ทร combination makes an [s] sound, บริ combination makes [borri-] sound (unless in loanwords)",
         "Double รร is pronounced [-un] when there's no final consonant, or [-u-] when there's a final consonant"
+      ],
+      "itemsRu": [
+        "Mái tuntákâat (-์ ) отмечает непроизносимый согласный и/или гласный, расположенный непосредственно под ним, а в некоторых случаях также предшествующий согласный и гласный",
+        "Многие долгие гласные можно сократить, добавив -ะ после слога (это касается только долгих гласных, у которых нет краткой пары)",
+        "Mái dtàikóo (-็ ) используется только для сокращения слогов с гласными เ-, แ- или -อ и финальным согласным",
+        "ร произносится как [-n] или [-orn] в конце слога",
+        "ร не произносится после согласных [s] (ซ, ส, ศ, ษ); в конце слога, когда он явно лишний; а иногда — просто так, без всякой причины!",
+        "Сочетание ทร даёт звук [s], сочетание บริ даёт звук [borri-] (кроме заимствованных слов)",
+        "Двойной รร произносится как [-un], если нет финального согласного, или [-u-], если финальный согласный есть"
       ]
     }
   ],
