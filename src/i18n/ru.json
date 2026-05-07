@@ -14,15 +14,20 @@
     "lastDay": "Последний день",
     "appendix": "Приложение {{id}}",
     "glossary": "Глоссарий",
-    "tableOfContents": "Оглавление",
+    "tableOfContents": "Уроки",
     "nextChapter": "Следующая глава",
-    "prevChapter": "Предыдущая глава"
+    "prevChapter": "Предыдущая глава",
+    "back": "Назад"
   },
   "audio": {
     "playSample": "Образец",
     "pause": "Пауза",
     "speed": "Скорость",
-    "track": "Трек {{n}}"
+    "track": "Трек {{n}}",
+    "nowPlaying": "Сейчас играет",
+    "autoNext": "Авто-переход",
+    "loop": "Повтор",
+    "sleepTimer": "Таймер сна"
   },
   "recorder": {
     "record": "Записать",
@@ -35,14 +40,31 @@
     "micPermission": "Для записи голоса нужен доступ к микрофону.",
     "micDenied": "Доступ к микрофону запрещён. Разрешите его в настройках браузера.",
     "recording": "Запись...",
-    "recordYourVoice": "Записать голос и сравнить"
+    "recordYourVoice": "Тренировка голоса",
+    "ready": "Готовьтесь",
+    "tapToRecord": "Нажмите, чтобы записать",
+    "save": "Сохранить",
+    "discard": "Отбросить",
+    "tooQuiet": "Тихо — придвиньтесь к микрофону",
+    "tooLoud": "Слишком громко — отодвиньтесь"
   },
   "home": {
     "hero": "Освойте тайское чтение за 10 структурированных уроков",
     "startLearning": "Начать с Дня 1",
     "continueFrom": "Продолжить: {{chapter}}",
     "lessons": "Уроки",
-    "progress": "{{done}} из {{total}} треков прослушано"
+    "progress": "{{done}} из {{total}} треков прослушано",
+    "greetingMorning": "Доброе утро",
+    "greetingAfternoon": "Добрый день",
+    "greetingEvening": "Добрый вечер",
+    "greetingNight": "Доброй ночи",
+    "streakDays_one": "{{count}} день подряд",
+    "streakDays_few": "{{count}} дня подряд",
+    "streakDays_many": "{{count}} дней подряд",
+    "streakDays_other": "{{count}} дней подряд",
+    "todayGoal": "сегодня {{done}}/{{total}} треков",
+    "quickActions": "Быстрый доступ",
+    "todaysRecap": "Итоги дня"
   },
   "theme": {
     "light": "Светлая",
@@ -52,7 +74,13 @@
   "glossary": {
     "search": "Поиск по тайскому, транслитерации или английскому...",
     "noResults": "Ничего не найдено",
-    "entries": "{{count}} записей"
+    "entries": "{{count}} записей",
+    "filterAll": "Все",
+    "filterRecent": "Недавние",
+    "filterFavourites": "Избранное",
+    "favourite": "В избранное",
+    "addedToFavourites": "Добавлено в избранное",
+    "removedFromFavourites": "Удалено из избранного"
   },
   "thaiScript": {
     "looped": "С петельками (หัวกลม)",
@@ -64,6 +92,22 @@
     "showAnswer": "Показать ответ",
     "hideAnswer": "Скрыть ответ",
     "ruleEyebrow": "Правило",
-    "examplesEyebrow": "Примеры"
+    "examplesEyebrow": "Примеры",
+    "fontSize": "Размер текста",
+    "bookmark": "Закладка",
+    "share": "Поделиться"
+  },
+  "settings": {
+    "title": "Настройки",
+    "appearance": "Внешний вид",
+    "thaiScript": "Тайский шрифт",
+    "audio": "Аудио",
+    "storage": "Хранилище",
+    "about": "О приложении",
+    "language": "Язык",
+    "resetProgress": "Сбросить прогресс",
+    "resetConfirm": "Сбросить весь прогресс?",
+    "tracksListened": "Прослушано треков",
+    "version": "Версия"
   }
 }

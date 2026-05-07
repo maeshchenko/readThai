@@ -23,14 +23,14 @@ export function ThaiText({ children, size = 'md', className }: Props) {
 
   if (!showBoth) {
     return (
-      <span className={cn(primaryFont, sizes.primary, 'leading-relaxed', className)}>
+      <span lang="th" className={cn(primaryFont, sizes.primary, 'leading-relaxed', className)}>
         {children}
       </span>
     )
   }
 
   return (
-    <span className={cn('inline-flex flex-col gap-0.5', className)}>
+    <span lang="th" className={cn('inline-flex flex-col gap-0.5', className)}>
       <span className={cn(primaryFont, sizes.primary, 'leading-relaxed')}>
         {children}
       </span>
@@ -48,5 +48,5 @@ export function ThaiText({ children, size = 'md', className }: Props) {
 export function ThaiTextInline({ children, className }: { children: string; className?: string }) {
   const { primary } = useThaiScriptStore()
   const font = primary === 'looped' ? 'thai-looped' : 'thai-loopless'
-  return <span className={cn(font, 'leading-relaxed', className)}>{children}</span>
+  return <span lang="th" className={cn(font, 'leading-relaxed', className)}>{children}</span>
 }

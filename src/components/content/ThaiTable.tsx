@@ -1,5 +1,7 @@
+import { useEffect, useRef, useState } from 'react'
 import type { ThaiTableRow, TableHeaderRow } from '@/lib/contentTypes'
 import { ThaiText } from './ThaiText'
+import { useIsMobile } from '@/hooks/useMediaQuery'
 import { cn } from '@/lib/cn'
 
 interface Props {
@@ -10,9 +12,14 @@ interface Props {
 }
 
 export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) {
-  const hasMeaning = rows.some((r) => r.meaning)
+  const isMobile = useIsMobile()
+
+  if (isMobile && (!headerRows || headerRows.length === 0)) {
+    return <CardList rows={rows} />
+  }
+
   return (
-    <div className="overflow-x-auto rounded-2xl ring-1 ring-[var(--color-hairline)] shadow-[var(--shadow-soft)]">
+    <FadeScroller>
       <table className="w-full text-left">
         <thead>
           {headerRows && headerRows.length > 0 ? (
@@ -70,7 +77,7 @@ export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) 
               {(row.translit || columns.length > 1) && (
                 <td className="translit px-4 py-2.5">{row.translit}</td>
               )}
-              {hasMeaning && (
+              {rows.some((r) => r.meaning) && (
                 <td className="px-4 py-2.5 text-sm text-[var(--color-on-surface-muted)]">
                   {row.meaning ?? ''}
                 </td>
@@ -79,6 +86,82 @@ export function ThaiTable({ columns, rows, headerRows, stickyFirstCol }: Props) 
           ))}
         </tbody>
       </table>
+    </FadeScroller>
+  )
+}
+
+function CardList({ rows }: { rows: ThaiTableRow[] }) {
+  return (
+    <div className="overflow-hidden rounded-2xl bg-[var(--color-surface-elevated)] ring-1 ring-[var(--color-hairline)] shadow-[var(--shadow-soft)]">
+      {rows.map((row, i) => (
+        <div
+          key={i}
+          className={cn(
+            'flex items-start gap-3 px-4 py-3.5',
+            i !== 0 && 'border-t border-[var(--color-hairline)]',
+          )}
+        >
+          <div className="min-w-0 flex-1">
+            <ThaiText size="md">{row.thai}</ThaiText>
+            <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+              {row.translit && <span className="translit text-[12px]">{row.translit}</span>}
+              {row.meaning && (
+                <span className="text-[12px] text-[var(--color-on-surface-muted)]">
+                  {row.meaning}
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function FadeScroller({ children }: { children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [edge, setEdge] = useState<{ left: boolean; right: boolean }>({ left: false, right: false })
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const update = () => {
+      const left = el.scrollLeft > 4
+      const right = el.scrollLeft + el.clientWidth < el.scrollWidth - 4
+      setEdge({ left, right })
+    }
+    update()
+    el.addEventListener('scroll', update, { passive: true })
+    const ro = new ResizeObserver(update)
+    ro.observe(el)
+    return () => {
+      el.removeEventListener('scroll', update)
+      ro.disconnect()
+    }
+  }, [])
+
+  return (
+    <div className="relative">
+      <div
+        ref={ref}
+        className="overflow-x-auto rounded-2xl ring-1 ring-[var(--color-hairline)] shadow-[var(--shadow-soft)]"
+      >
+        {children}
+      </div>
+      <div
+        className={cn(
+          'pointer-events-none absolute inset-y-0 left-0 w-8 rounded-l-2xl bg-gradient-to-r from-[var(--color-surface-elevated)] to-transparent transition-opacity',
+          edge.left ? 'opacity-100' : 'opacity-0',
+        )}
+        aria-hidden
+      />
+      <div
+        className={cn(
+          'pointer-events-none absolute inset-y-0 right-0 w-8 rounded-r-2xl bg-gradient-to-l from-[var(--color-surface-elevated)] to-transparent transition-opacity',
+          edge.right ? 'opacity-100' : 'opacity-0',
+        )}
+        aria-hidden
+      />
     </div>
   )
 }

@@ -14,15 +14,20 @@
     "lastDay": "Last Day",
     "appendix": "Appendix {{id}}",
     "glossary": "Glossary",
-    "tableOfContents": "Table of Contents",
+    "tableOfContents": "Lessons",
     "nextChapter": "Next Chapter",
-    "prevChapter": "Previous Chapter"
+    "prevChapter": "Previous Chapter",
+    "back": "Back"
   },
   "audio": {
     "playSample": "Play sample",
     "pause": "Pause",
     "speed": "Speed",
-    "track": "Track {{n}}"
+    "track": "Track {{n}}",
+    "nowPlaying": "Now playing",
+    "autoNext": "Autoplay next",
+    "loop": "Loop",
+    "sleepTimer": "Sleep timer"
   },
   "recorder": {
     "record": "Record",
@@ -35,14 +40,29 @@
     "micPermission": "Microphone access is required to record your voice.",
     "micDenied": "Microphone access was denied. Please allow it in browser settings.",
     "recording": "Recording...",
-    "recordYourVoice": "Record your voice & compare"
+    "recordYourVoice": "Practice your voice",
+    "ready": "Get ready",
+    "tapToRecord": "Tap to record",
+    "save": "Save",
+    "discard": "Discard",
+    "tooQuiet": "A bit quiet, move closer to the mic",
+    "tooLoud": "Too loud — try moving away"
   },
   "home": {
     "hero": "Master Thai reading in 10 structured lessons",
     "startLearning": "Start with Day 1",
-    "continueFrom": "Continue from {{chapter}}",
+    "continueFrom": "Continue {{chapter}}",
     "lessons": "Lessons",
-    "progress": "{{done}} of {{total}} tracks listened"
+    "progress": "{{done}} of {{total}} tracks listened",
+    "greetingMorning": "Good morning",
+    "greetingAfternoon": "Good afternoon",
+    "greetingEvening": "Good evening",
+    "greetingNight": "Good night",
+    "streakDays_one": "{{count}}-day streak",
+    "streakDays_other": "{{count}}-day streak",
+    "todayGoal": "today {{done}}/{{total}} tracks",
+    "quickActions": "Quick actions",
+    "todaysRecap": "Today's recap"
   },
   "theme": {
     "light": "Light",
@@ -52,7 +72,13 @@
   "glossary": {
     "search": "Search Thai, transliteration, or English...",
     "noResults": "No results found",
-    "entries": "{{count}} entries"
+    "entries": "{{count}} entries",
+    "filterAll": "All",
+    "filterRecent": "Recent",
+    "filterFavourites": "Favourites",
+    "favourite": "Favourite",
+    "addedToFavourites": "Added to favourites",
+    "removedFromFavourites": "Removed from favourites"
   },
   "thaiScript": {
     "looped": "Looped style (หัวกลม)",
@@ -64,6 +90,22 @@
     "showAnswer": "Show answer",
     "hideAnswer": "Hide answer",
     "ruleEyebrow": "Rule",
-    "examplesEyebrow": "Examples"
+    "examplesEyebrow": "Examples",
+    "fontSize": "Text size",
+    "bookmark": "Bookmark",
+    "share": "Share"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "thaiScript": "Thai script",
+    "audio": "Audio",
+    "storage": "Storage",
+    "about": "About",
+    "language": "Language",
+    "resetProgress": "Reset progress",
+    "resetConfirm": "Reset all progress?",
+    "tracksListened": "Tracks listened",
+    "version": "Version"
   }
 }

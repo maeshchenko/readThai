@@ -1,9 +1,15 @@
-import { useRef, useState, useEffect, useCallback } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Play, Pause, Volume2, Mic } from 'lucide-react'
-import { useAudioStore, useProgressStore } from '@/lib/stores'
+import { useLocation } from 'react-router-dom'
+import { Play, Pause, Mic, Loader2 } from 'lucide-react'
+import { useAudio } from '@/lib/audio'
+import { useProgressStore } from '@/lib/stores'
+import { useIsMobile } from '@/hooks/useMediaQuery'
+import { getChapterBySlug } from '@/lib/chapters'
 import { cn } from '@/lib/cn'
+import { haptic } from '@/lib/haptic'
 import { VoiceRecorder } from '@/components/recorder/VoiceRecorder'
+import { PracticeSheet } from '@/components/recorder/PracticeSheet'
 
 interface Props {
   trackNumber: number
@@ -15,111 +21,104 @@ function padTrack(n: number): string {
 }
 
 export function TrackCard({ trackNumber, label }: Props) {
-  const { t } = useTranslation()
-  const audioRef = useRef<HTMLAudioElement>(null)
-  const { currentTrackId, play, stop } = useAudioStore()
-  const { markListened } = useProgressStore()
+  const { t, i18n } = useTranslation()
+  const lang = i18n.language as 'en' | 'ru'
+  const location = useLocation()
+  const isMobile = useIsMobile()
 
   const trackId = `track-${trackNumber}`
-  const isPlaying = currentTrackId === trackId
   const src = `${import.meta.env.BASE_URL}audio/${padTrack(trackNumber)}.mp3`
+  const computedLabel = label ?? t('audio.track', { n: trackNumber })
 
-  const [duration, setDuration] = useState(0)
-  const [currentTime, setCurrentTime] = useState(0)
-  const [playbackRate, setPlaybackRate] = useState(1)
-  const [showRecorder, setShowRecorder] = useState(false)
+  const slug = location.pathname.replace(/^\//, '')
+  const chapterMeta = getChapterBySlug(slug)
+  const chapterTitle = chapterMeta ? (lang === 'ru' ? chapterMeta.titleRu : chapterMeta.titleEn) : undefined
 
-  const togglePlay = useCallback(() => {
-    const el = audioRef.current
-    if (!el) return
+  const activeTrackId = useAudio((s) => s.track?.id)
+  const isPlaying = useAudio((s) => s.isPlaying) && activeTrackId === trackId
+  const isLoading = useAudio((s) => s.isLoading) && activeTrackId === trackId
+  const currentTime = useAudio((s) => s.currentTime)
+  const duration = useAudio((s) => s.duration)
+  const playbackRate = useAudio((s) => s.playbackRate)
+  const setRate = useAudio((s) => s.setRate)
+  const loadAndPlay = useAudio((s) => s.loadAndPlay)
+  const togglePlay = useAudio((s) => s.togglePlay)
+  const seek = useAudio((s) => s.seek)
+  const markListened = useProgressStore((s) => s.markListened)
 
-    if (isPlaying) {
-      el.pause()
-      stop()
+  const isActive = activeTrackId === trackId
+  const trackTime = isActive ? currentTime : 0
+  const trackDuration = isActive ? duration : 0
+  const pct = trackDuration > 0 ? (trackTime / trackDuration) * 100 : 0
+
+  const [practiceOpen, setPracticeOpen] = useState(false)
+  const [showRecorderInline, setShowRecorderInline] = useState(false)
+  const trackRef = useRef<HTMLDivElement>(null)
+
+  const onPlayClick = useCallback(() => {
+    haptic('light')
+    if (isActive) {
+      togglePlay()
     } else {
-      play(trackId)
-      el.play().catch(() => stop())
+      loadAndPlay({
+        id: trackId,
+        number: trackNumber,
+        src,
+        label: computedLabel,
+        chapterSlug: chapterMeta?.slug,
+        chapterTitle,
+      })
       markListened(trackNumber)
     }
-  }, [isPlaying, trackId, trackNumber, play, stop, markListened])
+  }, [isActive, togglePlay, loadAndPlay, trackId, trackNumber, src, computedLabel, chapterMeta?.slug, chapterTitle, markListened])
 
-  useEffect(() => {
-    const el = audioRef.current
-    if (!el) return
-    if (!isPlaying && !el.paused) {
-      el.pause()
-    }
-  }, [isPlaying])
-
-  useEffect(() => {
-    const el = audioRef.current
-    if (el) el.playbackRate = playbackRate
-  }, [playbackRate])
-
-  const handleTimeUpdate = () => {
-    if (audioRef.current) setCurrentTime(audioRef.current.currentTime)
-  }
-
-  const handleLoadedMetadata = () => {
-    if (audioRef.current) setDuration(audioRef.current.duration)
-  }
-
-  const handleEnded = () => {
-    setCurrentTime(0)
-    stop()
-  }
-
-  const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
-    const el = audioRef.current
-    if (!el || !duration) return
+  const onSeek = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!trackDuration) return
     const rect = e.currentTarget.getBoundingClientRect()
-    const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width))
-    el.currentTime = pct * duration
-    setCurrentTime(el.currentTime)
+    const pctClick = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width))
+    seek(pctClick * trackDuration)
   }
 
   const cycleSpeed = () => {
     const speeds = [0.75, 1, 1.25, 1.5]
     const idx = speeds.indexOf(playbackRate)
-    setPlaybackRate(speeds[(idx + 1) % speeds.length])
+    haptic('selection')
+    setRate(speeds[(idx + 1) % speeds.length] ?? 1)
   }
 
-  const pct = duration > 0 ? (currentTime / duration) * 100 : 0
-
   return (
-    <div className="track-card">
-      <audio
-        ref={audioRef}
-        src={src}
-        preload="metadata"
-        onTimeUpdate={handleTimeUpdate}
-        onLoadedMetadata={handleLoadedMetadata}
-        onEnded={handleEnded}
-      />
-
+    <div ref={trackRef} className="track-card">
       <div className="flex items-center gap-3">
         <button
-          onClick={togglePlay}
+          onClick={onPlayClick}
           className={cn(
-            'flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-all',
-            isPlaying
-              ? 'bg-[var(--color-primary-600)] text-white shadow-[0_4px_14px_rgba(74,82,214,0.4)]'
-              : 'bg-[var(--color-primary-600)] text-white shadow-[0_2px_8px_rgba(74,82,214,0.25)] hover:bg-[var(--color-primary-700)] hover:shadow-[0_4px_14px_rgba(74,82,214,0.35)]',
+            'flex shrink-0 items-center justify-center rounded-full transition-all active:scale-95',
+            'h-12 w-12 md:h-10 md:w-10',
+            'text-white',
+            isActive
+              ? 'shadow-[0_4px_14px_rgba(74,82,214,0.4)]'
+              : 'shadow-[0_2px_8px_rgba(74,82,214,0.25)]',
           )}
+          style={{ background: 'var(--gradient-brand)' }}
           aria-label={isPlaying ? t('audio.pause') : t('audio.playSample')}
         >
-          {isPlaying ? <Pause size={16} /> : <Play size={16} className="ml-0.5" />}
+          {isLoading ? (
+            <Loader2 size={18} className="animate-spin" />
+          ) : isPlaying ? (
+            <Pause size={18} fill="currentColor" />
+          ) : (
+            <Play size={18} fill="currentColor" className="ml-0.5" />
+          )}
         </button>
 
         <div className="min-w-0 flex-1">
           <div className="mb-1.5 flex items-center justify-between text-xs">
-            <span className="flex items-center gap-1.5 font-medium text-[var(--color-on-surface)]">
-              <Volume2 size={12} className="text-[var(--color-on-surface-faint)]" />
-              {label ?? t('audio.track', { n: trackNumber })}
+            <span className="truncate font-medium text-[var(--color-on-surface)]">
+              {computedLabel}
             </span>
             <div className="flex items-center gap-2">
               <span className="tabular-nums text-[var(--color-on-surface-muted)]">
-                {formatTime(currentTime)} / {formatTime(duration)}
+                {formatTime(trackTime)} / {formatTime(trackDuration)}
               </span>
               <button
                 onClick={cycleSpeed}
@@ -131,20 +130,21 @@ export function TrackCard({ trackNumber, label }: Props) {
           </div>
 
           <div
-            className="group relative h-1.5 cursor-pointer rounded-full bg-[var(--color-surface-dim)] ring-1 ring-[var(--color-hairline)]"
-            onClick={handleSeek}
+            className="group relative h-3 cursor-pointer touch-none"
+            onPointerDown={onSeek}
             role="slider"
             aria-label="Seek"
             aria-valuemin={0}
             aria-valuemax={100}
             aria-valuenow={Math.round(pct)}
           >
+            <div className="absolute inset-y-[5px] left-0 right-0 rounded-full bg-[var(--color-surface-dim)] ring-1 ring-[var(--color-hairline)]" />
             <div
-              className="h-full rounded-full bg-[var(--color-primary-500)] transition-[width] duration-100"
+              className="absolute inset-y-[5px] left-0 rounded-full bg-[var(--color-primary-500)] transition-[width] duration-100"
               style={{ width: `${pct}%` }}
             />
             <div
-              className="absolute top-1/2 h-3 w-3 -translate-y-1/2 rounded-full bg-[var(--color-primary-600)] opacity-0 shadow-[var(--shadow-elev)] transition-opacity group-hover:opacity-100"
+              className="absolute top-1/2 h-3 w-3 -translate-y-1/2 rounded-full bg-[var(--color-primary-600)] opacity-0 shadow-[var(--shadow-elev)] transition-opacity group-hover:opacity-100 group-active:opacity-100"
               style={{ left: `${pct}%`, marginLeft: '-6px' }}
             />
           </div>
@@ -153,22 +153,37 @@ export function TrackCard({ trackNumber, label }: Props) {
 
       <div className="mt-2.5 pt-2.5" style={{ borderTop: '1px solid var(--color-hairline)' }}>
         <button
-          onClick={() => setShowRecorder((v) => !v)}
+          onClick={() => {
+            haptic('selection')
+            if (isMobile) setPracticeOpen(true)
+            else setShowRecorderInline((v) => !v)
+          }}
           className="flex w-full items-center justify-center gap-1.5 rounded-md py-1.5 text-xs font-medium text-[var(--color-on-surface-muted)] transition-colors hover:bg-[var(--color-surface-dim)] hover:text-[var(--color-on-surface)]"
         >
           <Mic size={12} />
           {t('recorder.recordYourVoice')}
         </button>
-        {showRecorder && (
+
+        {!isMobile && showRecorderInline && (
           <VoiceRecorder sampleSrc={src} trackId={trackId} />
         )}
       </div>
+
+      {isMobile && (
+        <PracticeSheet
+          open={practiceOpen}
+          onClose={() => setPracticeOpen(false)}
+          sampleSrc={src}
+          trackId={trackId}
+          trackLabel={computedLabel}
+        />
+      )}
     </div>
   )
 }
 
 function formatTime(s: number): string {
-  if (!s || !isFinite(s)) return '0:00'
+  if (!s || !Number.isFinite(s)) return '0:00'
   const m = Math.floor(s / 60)
   const sec = Math.floor(s % 60)
   return `${m}:${sec.toString().padStart(2, '0')}`

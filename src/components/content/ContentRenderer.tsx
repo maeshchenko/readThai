@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import type { Block, ExampleItem } from '@/lib/contentTypes'
 import { TrackCard } from '@/components/audio/TrackCard'
 import { ThaiExample } from './ThaiExample'
@@ -8,7 +9,6 @@ import { CalloutBlock } from './CalloutBlock'
 import { ImageBlock } from './ImageBlock'
 import { ExampleGroup } from './ExampleGroup'
 import { RuleBlock } from './RuleBlock'
-import { motion } from 'framer-motion'
 
 interface Props {
   blocks: Block[]
@@ -79,15 +79,62 @@ export function ContentRenderer({ blocks, footnotes }: Props) {
   return (
     <div className="prose-content space-y-6">
       {processed.map((block, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.25, delay: Math.min(i * 0.02, 0.5) }}
-        >
+        <BlockReveal key={i} index={i}>
           <BlockRenderer block={block} footnotes={footnotes} />
-        </motion.div>
+        </BlockReveal>
       ))}
+    </div>
+  )
+}
+
+function BlockReveal({ index, children }: { index: number; children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const eager = index < 4
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    if (eager) {
+      el.classList.add('block-reveal-in')
+      return
+    }
+    const obs = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            el.classList.add('block-reveal-in')
+            obs.disconnect()
+          }
+        }
+      },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.05 },
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [eager])
+
+  return (
+    <div ref={ref} className="block-reveal" data-eager={eager ? '' : undefined}>
+      {children}
+      <style>{`
+        .block-reveal {
+          opacity: 0;
+          transform: translateY(8px);
+          transition: opacity 320ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1);
+          will-change: opacity, transform;
+        }
+        .block-reveal-in {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        .block-reveal[data-eager] {
+          opacity: 1;
+          transform: none;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .block-reveal { opacity: 1; transform: none; transition: none; }
+        }
+      `}</style>
     </div>
   )
 }
