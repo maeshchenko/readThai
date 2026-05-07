@@ -16,6 +16,11 @@
       "htmlRu": "Пришло время выучить вторую группу согласных низкого класса:"
     },
     {
+      "type": "image",
+      "src": "images/p092_0.jpeg",
+      "alt": "Low Class Consonants Group 2: ค ท ช ซ พ ฟ ฮ in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 13
     },
@@ -38,24 +43,58 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "โซพ", "translit": "/sóhp/", "meaning": "\"soap\"" },
-        { "thai": "เคฟ", "translit": "/káyp/", "meaning": "\"cave\"" },
-        { "thai": "รูท", "translit": "/róot/", "meaning": "\"root\"" }
+        {
+          "thai": "โซพ",
+          "translit": "/sóhp/",
+          "meaning": "\"soap\""
+        },
+        {
+          "thai": "เคฟ",
+          "translit": "/káyp/",
+          "meaning": "\"cave\""
+        },
+        {
+          "thai": "รูท",
+          "translit": "/róot/",
+          "meaning": "\"root\""
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "วอช", "translit": "/wórt/", "meaning": "\"watch\"" },
-        { "thai": "พีซ", "translit": "/péet/", "meaning": "\"peace\"" },
-        { "thai": "แฮค", "translit": "/hák/", "meaning": "\"hack\"" }
+        {
+          "thai": "วอช",
+          "translit": "/wórt/",
+          "meaning": "\"watch\""
+        },
+        {
+          "thai": "พีซ",
+          "translit": "/péet/",
+          "meaning": "\"peace\""
+        },
+        {
+          "thai": "แฮค",
+          "translit": "/hák/",
+          "meaning": "\"hack\""
+        }
       ]
     },
     {
       "type": "paragraph",
       "html": "Did you hear anything at the end of each word? Exactly, nothing! And as a result of not releasing final consonants it makes some final consonants sound EXACTLY the same; both พ and ฟ sound like [-p] and the consonants ท, ช and ซ all sound like [-t]!",
       "htmlRu": "Вы что-нибудь услышали в конце каждого слова? Вот именно — ничего! И в результате того, что конечные согласные не отпускаются, некоторые из них звучат АБСОЛЮТНО одинаково: и พ, и ฟ звучат как [-p], а согласные ท, ช и ซ — все как [-t]!"
+    },
+    {
+      "type": "image",
+      "src": "images/p093_0.jpeg",
+      "alt": "Attention section banner"
+    },
+    {
+      "type": "image",
+      "src": "images/p094_0.jpeg",
+      "alt": "Stroke order for writing ค ท ช ซ พ ฟ ฮ"
     },
     {
       "type": "callout",
@@ -70,34 +109,103 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["Consonant", "Initial", "Final"],
+      "columns": [
+        "Consonant",
+        "Initial",
+        "Final"
+      ],
       "rows": [
-        { "thai": "ง", "translit": "ng", "meaning": "-ng" },
-        { "thai": "ม", "translit": "m", "meaning": "-m" },
-        { "thai": "น", "translit": "n", "meaning": "-n" },
-        { "thai": "ร", "translit": "r", "meaning": "—" },
-        { "thai": "ล", "translit": "l", "meaning": "—" },
-        { "thai": "ย", "translit": "y", "meaning": "-i" },
-        { "thai": "ว", "translit": "w", "meaning": "-o" }
+        {
+          "thai": "ง",
+          "translit": "ng",
+          "meaning": "-ng"
+        },
+        {
+          "thai": "ม",
+          "translit": "m",
+          "meaning": "-m"
+        },
+        {
+          "thai": "น",
+          "translit": "n",
+          "meaning": "-n"
+        },
+        {
+          "thai": "ร",
+          "translit": "r",
+          "meaning": "—"
+        },
+        {
+          "thai": "ล",
+          "translit": "l",
+          "meaning": "—"
+        },
+        {
+          "thai": "ย",
+          "translit": "y",
+          "meaning": "-i"
+        },
+        {
+          "thai": "ว",
+          "translit": "w",
+          "meaning": "-o"
+        }
       ]
     },
     {
       "type": "thaiTable",
-      "columns": ["Consonant", "Initial", "Final"],
+      "columns": [
+        "Consonant",
+        "Initial",
+        "Final"
+      ],
       "rows": [
-        { "thai": "ค", "translit": "k", "meaning": "-k" },
-        { "thai": "ท", "translit": "t", "meaning": "-t" },
-        { "thai": "ช", "translit": "ch", "meaning": "-t" },
-        { "thai": "ซ", "translit": "s", "meaning": "-t" },
-        { "thai": "พ", "translit": "p", "meaning": "-p" },
-        { "thai": "ฟ", "translit": "f", "meaning": "-p" },
-        { "thai": "ฮ", "translit": "h", "meaning": "—" }
+        {
+          "thai": "ค",
+          "translit": "k",
+          "meaning": "-k"
+        },
+        {
+          "thai": "ท",
+          "translit": "t",
+          "meaning": "-t"
+        },
+        {
+          "thai": "ช",
+          "translit": "ch",
+          "meaning": "-t"
+        },
+        {
+          "thai": "ซ",
+          "translit": "s",
+          "meaning": "-t"
+        },
+        {
+          "thai": "พ",
+          "translit": "p",
+          "meaning": "-p"
+        },
+        {
+          "thai": "ฟ",
+          "translit": "f",
+          "meaning": "-p"
+        },
+        {
+          "thai": "ฮ",
+          "translit": "h",
+          "meaning": "—"
+        }
       ]
     },
     {
       "type": "paragraph",
       "html": "Here are some more long vowels. These vowels are special because they don't take a final consonant, meaning that if you see them in words, they will mark the end of a syllable and no final consonant will follow.",
       "htmlRu": "А вот ещё несколько долгих гласных. Эти гласные особенные, потому что после них не бывает конечного согласного: если вы видите их в слове, они обозначают конец слога, и никакой финальный согласный за ними не последует."
+    },
+    {
+      "type": "image",
+      "src": "images/p094_1.jpeg",
+      "alt": "Long vowels: -ำ ไ- ใ- เ-า เ-ย in regular, stylised, and cursive handwriting"
     },
     {
       "type": "track",
@@ -112,6 +220,11 @@
       "type": "paragraph",
       "html": "Some vowels above are 'sandwich' vowels which basically wrap around initial consonants. Pretty weird, eh?",
       "htmlRu": "Некоторые гласные выше — это гласные-«сэндвичи», которые буквально оборачиваются вокруг начального согласного. Довольно странно, правда?"
+    },
+    {
+      "type": "image",
+      "src": "images/p095_0.jpeg",
+      "alt": "Stroke order for writing vowels"
     },
     {
       "type": "heading",
@@ -132,26 +245,66 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ทำ" },
-        { "thai": "ซอง" },
-        { "thai": "ไว" },
-        { "thai": "ฮา" },
-        { "thai": "ชาย" },
-        { "thai": "เคย" },
-        { "thai": "ใน" },
-        { "thai": "เพล" },
-        { "thai": "ที" },
-        { "thai": "เรา" },
-        { "thai": "ไฟ" },
-        { "thai": "แพง" },
-        { "thai": "โคน" },
-        { "thai": "ใย" },
-        { "thai": "ซูม" },
-        { "thai": "นาค" },
-        { "thai": "เทพ" },
-        { "thai": "โรค" },
-        { "thai": "ชีพ" },
-        { "thai": "ยาท" }
+        {
+          "thai": "ทำ"
+        },
+        {
+          "thai": "ซอง"
+        },
+        {
+          "thai": "ไว"
+        },
+        {
+          "thai": "ฮา"
+        },
+        {
+          "thai": "ชาย"
+        },
+        {
+          "thai": "เคย"
+        },
+        {
+          "thai": "ใน"
+        },
+        {
+          "thai": "เพล"
+        },
+        {
+          "thai": "ที"
+        },
+        {
+          "thai": "เรา"
+        },
+        {
+          "thai": "ไฟ"
+        },
+        {
+          "thai": "แพง"
+        },
+        {
+          "thai": "โคน"
+        },
+        {
+          "thai": "ใย"
+        },
+        {
+          "thai": "ซูม"
+        },
+        {
+          "thai": "นาค"
+        },
+        {
+          "thai": "เทพ"
+        },
+        {
+          "thai": "โรค"
+        },
+        {
+          "thai": "ชีพ"
+        },
+        {
+          "thai": "ยาท"
+        }
       ]
     },
     {
@@ -178,8 +331,14 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ฮา", "translit": "/haa/" },
-        { "thai": "แทน", "translit": "/tan/" }
+        {
+          "thai": "ฮา",
+          "translit": "/haa/"
+        },
+        {
+          "thai": "แทน",
+          "translit": "/tan/"
+        }
       ]
     },
     {
@@ -191,8 +350,14 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "โชค", "translit": "/chôhk/" },
-        { "thai": "วาท", "translit": "/wâat/" }
+        {
+          "thai": "โชค",
+          "translit": "/chôhk/"
+        },
+        {
+          "thai": "วาท",
+          "translit": "/wâat/"
+        }
       ]
     },
     {
@@ -217,6 +382,11 @@
       "htmlRu": "โชค /chôhk/ и วาท /wâat/ — мёртвые, потому что, несмотря на долгий гласный, они заканчиваются на согласный НК2, что всё равно делает их мёртвыми. Посмотрите на живые и мёртвые слоги ниже. Не обращайте внимания на изменения тонов — они только собьют вас с толку."
     },
     {
+      "type": "image",
+      "src": "images/p097_1.jpeg",
+      "alt": "Illustration: dead syllable final sounds -k, -t, -p shown as tombstones"
+    },
+    {
       "type": "track",
       "number": 18
     },
@@ -224,20 +394,52 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ลาม", "translit": "/laam/", "note": "live" },
-        { "thai": "เยา", "translit": "/yao/", "note": "live" },
-        { "thai": "โมท", "translit": "/môht/", "note": "dead" },
-        { "thai": "พูน", "translit": "/poon/", "note": "live" }
+        {
+          "thai": "ลาม",
+          "translit": "/laam/",
+          "note": "live"
+        },
+        {
+          "thai": "เยา",
+          "translit": "/yao/",
+          "note": "live"
+        },
+        {
+          "thai": "โมท",
+          "translit": "/môht/",
+          "note": "dead"
+        },
+        {
+          "thai": "พูน",
+          "translit": "/poon/",
+          "note": "live"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เพช", "translit": "/pâyt/", "note": "dead" },
-        { "thai": "ราพ", "translit": "/râap/", "note": "dead" },
-        { "thai": "ไซ", "translit": "/sai/", "note": "live" },
-        { "thai": "โชค", "translit": "/chôhk/", "note": "dead" }
+        {
+          "thai": "เพช",
+          "translit": "/pâyt/",
+          "note": "dead"
+        },
+        {
+          "thai": "ราพ",
+          "translit": "/râap/",
+          "note": "dead"
+        },
+        {
+          "thai": "ไซ",
+          "translit": "/sai/",
+          "note": "live"
+        },
+        {
+          "thai": "โชค",
+          "translit": "/chôhk/",
+          "note": "dead"
+        }
       ]
     },
     {
@@ -259,12 +461,24 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "เคยทำงาน" },
-        { "thai": "ทายาทเลว" },
-        { "thai": "แซมนอนเมา" },
-        { "thai": "ทำไมยาโรคเราแพง" },
-        { "thai": "รอเวลาในชูชีพ" },
-        { "thai": "มามองเทพนาคทองคำ" }
+        {
+          "thai": "เคยทำงาน"
+        },
+        {
+          "thai": "ทายาทเลว"
+        },
+        {
+          "thai": "แซมนอนเมา"
+        },
+        {
+          "thai": "ทำไมยาโรคเราแพง"
+        },
+        {
+          "thai": "รอเวลาในชูชีพ"
+        },
+        {
+          "thai": "มามองเทพนาคทองคำ"
+        }
       ]
     },
     {

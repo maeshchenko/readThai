@@ -16,10 +16,49 @@
       "htmlRu": "Вот несколько примеров различных стилей тайских шрифтов, часто используемых в печати и рекламе, включая рукописные шрифты. Попытка определить, какой символ перед вами, может быть весьма непростой, поскольку многие шрифты лишь отдалённо напоминают оригинальные начертания. Хитрость в том, чтобы обращать внимание на уникальные особенности каждого символа (например, у ข закрученная головка, у ช закрученная головка и дёрганый хвостик и т. д.)"
     },
     {
-      "type": "callout",
-      "variant": "tip",
-      "html": "The font samples in the printed book show the full Thai alphabet rendered in several common Thai typefaces — including serif, sans-serif, rounded, looped, loopless, and handwriting-based styles. Since these are visual examples that cannot be reproduced in plain text, refer to the printed edition for the full font gallery.",
-      "htmlRu": "Образцы шрифтов в печатной книге показывают полный тайский алфавит, набранный несколькими распространёнными тайскими гарнитурами — в том числе с засечками, без засечек, скруглёнными, с петлями, без петель и рукописными. Поскольку это визуальные примеры, которые невозможно воспроизвести в виде текста, обратитесь к печатному изданию за полной галереей шрифтов."
+      "type": "image",
+      "src": "images/p219_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 1"
+    },
+    {
+      "type": "image",
+      "src": "images/p219_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 2"
+    },
+    {
+      "type": "image",
+      "src": "images/p219_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 3"
+    },
+    {
+      "type": "image",
+      "src": "images/p220_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 4"
+    },
+    {
+      "type": "image",
+      "src": "images/p220_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 5"
+    },
+    {
+      "type": "image",
+      "src": "images/p220_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 6"
+    },
+    {
+      "type": "image",
+      "src": "images/p221_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 7"
+    },
+    {
+      "type": "image",
+      "src": "images/p221_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 8"
+    },
+    {
+      "type": "image",
+      "src": "images/p221_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 9"
     },
     {
       "type": "paragraph",
@@ -27,28 +66,125 @@
       "htmlRu": "Ниже приведены символы, которые легко спутать в различных шрифтах. Обращайте внимание на их отличительные признаки:"
     },
     {
+      "type": "image",
+      "src": "images/p222_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 10"
+    },
+    {
+      "type": "image",
+      "src": "images/p222_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 11"
+    },
+    {
+      "type": "image",
+      "src": "images/p222_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 12"
+    },
+    {
       "type": "thaiTable",
-      "columns": ["Characters", "How to tell them apart"],
-      "columnsRu": ["Символы", "Как их различить"],
+      "columns": [
+        "Characters",
+        "How to tell them apart"
+      ],
+      "columnsRu": [
+        "Символы",
+        "Как их различить"
+      ],
       "rows": [
-        { "thai": "ก ถ ภ ฤ", "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer." },
-        { "thai": "ด ต ค ศ", "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls." },
-        { "thai": "ผ พ ฝ ฟ", "translit": "Spikey characters that look and sound similar." },
-        { "thai": "พ ฬ", "translit": "Similar, but ฬ [l] has a piggy tail." },
-        { "thai": "ข ช ซ", "translit": "Coil-heads: ข has a straight tail, ช has a twitchy tail, ซ has a twitchy tail and dented head." },
-        { "thai": "บ ป ษ", "translit": "บ [b] and ป [bp] look and sound similar. ษ [s˘] has something like อั inside." },
-        { "thai": "ข บ", "translit": "ข [k˘] is skinnier with a coil head; บ [b] is broader. In some fonts they look almost identical." },
-        { "thai": "ร โ ธ", "translit": "ร's head faces left; the โ vowel is much taller." },
-        { "thai": "ง ว า อ", "translit": "Occasionally confusing, especially between ง [ng] and ว [w]." },
-        { "thai": "อ ฮ", "translit": "ฮ [h] has a little hat on top." },
-        { "thai": "จ ล ส", "translit": "If the head reaches the bottom line it's ล [l]; if it also has a tiny tail it's ส [s˘]; otherwise it's จ [j]." },
-        { "thai": "ฎ ฏ", "translit": "If it has an extra spike at the bottom it's ฏ [dt], otherwise it's ฎ [d]." }
+        {
+          "thai": "ก ถ ภ ฤ",
+          "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer."
+        },
+        {
+          "thai": "ด ต ค ศ",
+          "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls."
+        },
+        {
+          "thai": "ผ พ ฝ ฟ",
+          "translit": "Spikey characters that look and sound similar."
+        },
+        {
+          "thai": "พ ฬ",
+          "translit": "Similar, but ฬ [l] has a piggy tail."
+        },
+        {
+          "thai": "ข ช ซ",
+          "translit": "Coil-heads: ข has a straight tail, ช has a twitchy tail, ซ has a twitchy tail and dented head."
+        },
+        {
+          "thai": "บ ป ษ",
+          "translit": "บ [b] and ป [bp] look and sound similar. ษ [s˘] has something like อั inside."
+        },
+        {
+          "thai": "ข บ",
+          "translit": "ข [k˘] is skinnier with a coil head; บ [b] is broader. In some fonts they look almost identical."
+        },
+        {
+          "thai": "ร โ ธ",
+          "translit": "ร's head faces left; the โ vowel is much taller."
+        },
+        {
+          "thai": "ง ว า อ",
+          "translit": "Occasionally confusing, especially between ง [ng] and ว [w]."
+        },
+        {
+          "thai": "อ ฮ",
+          "translit": "ฮ [h] has a little hat on top."
+        },
+        {
+          "thai": "จ ล ส",
+          "translit": "If the head reaches the bottom line it's ล [l]; if it also has a tiny tail it's ส [s˘]; otherwise it's จ [j]."
+        },
+        {
+          "thai": "ฎ ฏ",
+          "translit": "If it has an extra spike at the bottom it's ฏ [dt], otherwise it's ฎ [d]."
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p223_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 13"
+    },
+    {
+      "type": "image",
+      "src": "images/p223_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 14"
+    },
+    {
+      "type": "image",
+      "src": "images/p223_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 15"
     },
     {
       "type": "paragraph",
       "html": "One more thing: some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. Practise reading different font styles whenever you encounter them — signage, menus, advertisements, and social media posts are all great places to start!",
       "htmlRu": "И ещё одно: некоторые шрифты сильно стилизованы в декоративных целях и могут вызвать затруднения у тех, кто с ними не знаком. Тренируйтесь читать различные стили шрифтов при каждой возможности — вывески, меню, реклама и посты в социальных сетях отлично для этого подходят!"
+    },
+    {
+      "type": "image",
+      "src": "images/p224_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 16"
+    },
+    {
+      "type": "image",
+      "src": "images/p224_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 17"
+    },
+    {
+      "type": "image",
+      "src": "images/p224_2.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 18"
+    },
+    {
+      "type": "image",
+      "src": "images/p225_0.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 19"
+    },
+    {
+      "type": "image",
+      "src": "images/p225_1.jpeg",
+      "alt": "Thai characters shown in various typefaces — sample 20"
     }
   ],
   "footnotes": {},

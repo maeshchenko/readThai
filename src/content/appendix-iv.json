@@ -16,30 +16,123 @@
       "htmlRu": "Как вы узнали ранее, в тайском языке ровно 20 слов, содержащих гласный ใ-. Не больше и не меньше. Однако большинство этих слов чрезвычайно употребительны, поэтому вам нужно знать, какие именно слова пишутся с этим волнистым ใ- [ai]."
     },
     {
+      "type": "image",
+      "src": "images/p218_0.jpeg",
+      "alt": "Complete list of words that use the vowel ใ"
+    },
+    {
       "type": "thaiTable",
-      "columns": ["Thai", "Transliteration", "Meaning"],
-      "columnsRu": ["Тайский", "Транслитерация", "Значение"],
+      "columns": [
+        "Thai",
+        "Transliteration",
+        "Meaning"
+      ],
+      "columnsRu": [
+        "Тайский",
+        "Транслитерация",
+        "Значение"
+      ],
       "rows": [
-        { "thai": "ใกล้", "translit": "/glâi/", "meaning": "near, close" },
-        { "thai": "ใคร", "translit": "/krai/", "meaning": "who" },
-        { "thai": "ใคร่", "translit": "/krâi/", "meaning": "to desire, to long for" },
-        { "thai": "ใจ", "translit": "/jai/", "meaning": "heart, mind" },
-        { "thai": "ใช่", "translit": "/châi/", "meaning": "yes, correct" },
-        { "thai": "ใช้", "translit": "/chái/", "meaning": "to use, to spend" },
-        { "thai": "ใด", "translit": "/dai/", "meaning": "any, which" },
-        { "thai": "ใต้", "translit": "/dtâi/", "meaning": "under, south" },
-        { "thai": "ใน", "translit": "/nai/", "meaning": "in, inside" },
-        { "thai": "ใบ", "translit": "/bai/", "meaning": "leaf, classifier" },
-        { "thai": "ใบ้", "translit": "/bâi/", "meaning": "mute, to hint" },
-        { "thai": "ใฝ่", "translit": "/fài/", "meaning": "to aspire, to pay attention" },
-        { "thai": "ใย", "translit": "/yai/", "meaning": "fibre, web" },
-        { "thai": "ใส", "translit": "/sǎi/", "meaning": "clear, transparent" },
-        { "thai": "ใส่", "translit": "/sài/", "meaning": "to put in, to wear" },
-        { "thai": "สะใภ้", "translit": "/sàpâi/", "meaning": "daughter-in-law" },
-        { "thai": "ใหม่", "translit": "/mài/", "meaning": "new, again" },
-        { "thai": "ใหญ่", "translit": "/yài/", "meaning": "big, large" },
-        { "thai": "ให้", "translit": "/hâi/", "meaning": "to give, to let" },
-        { "thai": "ใหล", "translit": "/lǎi/", "meaning": "to flow (as in หลงใหล — infatuated)" }
+        {
+          "thai": "ใกล้",
+          "translit": "/glâi/",
+          "meaning": "near, close"
+        },
+        {
+          "thai": "ใคร",
+          "translit": "/krai/",
+          "meaning": "who"
+        },
+        {
+          "thai": "ใคร่",
+          "translit": "/krâi/",
+          "meaning": "to desire, to long for"
+        },
+        {
+          "thai": "ใจ",
+          "translit": "/jai/",
+          "meaning": "heart, mind"
+        },
+        {
+          "thai": "ใช่",
+          "translit": "/châi/",
+          "meaning": "yes, correct"
+        },
+        {
+          "thai": "ใช้",
+          "translit": "/chái/",
+          "meaning": "to use, to spend"
+        },
+        {
+          "thai": "ใด",
+          "translit": "/dai/",
+          "meaning": "any, which"
+        },
+        {
+          "thai": "ใต้",
+          "translit": "/dtâi/",
+          "meaning": "under, south"
+        },
+        {
+          "thai": "ใน",
+          "translit": "/nai/",
+          "meaning": "in, inside"
+        },
+        {
+          "thai": "ใบ",
+          "translit": "/bai/",
+          "meaning": "leaf, classifier"
+        },
+        {
+          "thai": "ใบ้",
+          "translit": "/bâi/",
+          "meaning": "mute, to hint"
+        },
+        {
+          "thai": "ใฝ่",
+          "translit": "/fài/",
+          "meaning": "to aspire, to pay attention"
+        },
+        {
+          "thai": "ใย",
+          "translit": "/yai/",
+          "meaning": "fibre, web"
+        },
+        {
+          "thai": "ใส",
+          "translit": "/sǎi/",
+          "meaning": "clear, transparent"
+        },
+        {
+          "thai": "ใส่",
+          "translit": "/sài/",
+          "meaning": "to put in, to wear"
+        },
+        {
+          "thai": "สะใภ้",
+          "translit": "/sàpâi/",
+          "meaning": "daughter-in-law"
+        },
+        {
+          "thai": "ใหม่",
+          "translit": "/mài/",
+          "meaning": "new, again"
+        },
+        {
+          "thai": "ใหญ่",
+          "translit": "/yài/",
+          "meaning": "big, large"
+        },
+        {
+          "thai": "ให้",
+          "translit": "/hâi/",
+          "meaning": "to give, to let"
+        },
+        {
+          "thai": "ใหล",
+          "translit": "/lǎi/",
+          "meaning": "to flow (as in หลงใหล — infatuated)"
+        }
       ]
     },
     {

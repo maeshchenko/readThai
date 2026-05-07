@@ -16,6 +16,11 @@
       "htmlRu": "Сегодня будет всего 3 долгих гласных. Но все три имеют две формы написания (как -ะ и -ั- в ДНЕ 3)."
     },
     {
+      "type": "image",
+      "src": "images/p120_1.jpeg",
+      "alt": "Long vowels -ือ เ-อ -ัว in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 34
     },
@@ -32,36 +37,77 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หลือ", "translit": "/lŭe/" },
-        { "thai": "หลืบ", "translit": "/lùep/" },
-        { "thai": "คือ", "translit": "/kue/" },
-        { "thai": "คืน", "translit": "/kuen/" }
+        {
+          "thai": "หลือ",
+          "translit": "/lŭe/"
+        },
+        {
+          "thai": "หลืบ",
+          "translit": "/lùep/"
+        },
+        {
+          "thai": "คือ",
+          "translit": "/kue/"
+        },
+        {
+          "thai": "คืน",
+          "translit": "/kuen/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "มือ", "translit": "/mue/" },
-        { "thai": "มืด", "translit": "/mûet/" },
-        { "thai": "เขอ", "translit": "/kĕr/" },
-        { "thai": "เขิน", "translit": "/kern/" }
+        {
+          "thai": "มือ",
+          "translit": "/mue/"
+        },
+        {
+          "thai": "มืด",
+          "translit": "/mûet/"
+        },
+        {
+          "thai": "เขอ",
+          "translit": "/kĕr/"
+        },
+        {
+          "thai": "เขิน",
+          "translit": "/kern/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เงอ", "translit": "/nger/" },
-        { "thai": "เงิน", "translit": "/ngern/" },
-        { "thai": "เกอ", "translit": "/ger/" },
-        { "thai": "เกิด", "translit": "/gèrt/" }
+        {
+          "thai": "เงอ",
+          "translit": "/nger/"
+        },
+        {
+          "thai": "เงิน",
+          "translit": "/ngern/"
+        },
+        {
+          "thai": "เกอ",
+          "translit": "/ger/"
+        },
+        {
+          "thai": "เกิด",
+          "translit": "/gèrt/"
+        }
       ]
     },
     {
       "type": "paragraph",
       "html": "For \"-ว-\", it can be a bit confusing because ว is also a consonant, right? The trick is, when you see three consonants together with ว in the middle, I'd say it's probably the vowel -ัว [-ua-]!",
       "htmlRu": "С «-ว-» бывает немного запутанно, ведь ว — это ещё и согласная, верно? Хитрость в следующем: когда вы видите три согласных подряд и ว посередине, скорее всего это гласная -ัว [-ua-]!"
+    },
+    {
+      "type": "image",
+      "src": "images/p121_0.jpeg",
+      "alt": "Vowel -ัว examples with transliterations: สัว/สวย, ปัว/ปวด, ทัว/ทวง"
     },
     {
       "type": "heading",
@@ -73,6 +119,16 @@
       "type": "paragraph",
       "html": "Keep in mind that some vowels (4 to be precise) have two forms; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!",
       "htmlRu": "Помните, что некоторые гласные (если точно — 4) имеют две формы: одна — основная, когда гласная завершает слог, а вторая используется при наличии финальной согласной в этом слоге. Разберитесь в этом, читая слова ниже, пока не уловите принцип. И не забывайте о немом ห!"
+    },
+    {
+      "type": "image",
+      "src": "images/p121_1.jpeg",
+      "alt": "Thai reading practice: words using vowels -ือ เ-อ -ัว"
+    },
+    {
+      "type": "image",
+      "src": "images/p122_0.jpeg",
+      "alt": "Stroke order for compound vowels"
     },
     {
       "type": "track",
@@ -125,8 +181,13 @@
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #1: \u201cThe live syllable\u201d",
+      "text": "String Theory rule #1: “The live syllable”",
       "textRu": "Теория струн, правило №1: «Живой слог»"
+    },
+    {
+      "type": "image",
+      "src": "images/p123_0.jpeg",
+      "alt": "Tone diagram for live syllables: 3 possible tones by consonant class"
     },
     {
       "type": "paragraph",
@@ -149,14 +210,24 @@
       "htmlRu": "Эта картинка станет вашей первой подсказкой для определения тонов в Теории струн. Посмотрите на живые слоги ниже и обратите внимание: их тон — РОВНЫЙ, но те, что начинаются с согласной HC, имеют восходящий тон."
     },
     {
+      "type": "image",
+      "src": "images/p124_0.jpeg",
+      "alt": "Comparison of syllables across High Class, Mid Class, and Low Class consonants"
+    },
+    {
       "type": "track",
       "number": 37
     },
     {
       "type": "heading",
       "level": 3,
-      "text": "String Theory rule #2: \u201cThe dead syllable\u201d",
+      "text": "String Theory rule #2: “The dead syllable”",
       "textRu": "Теория струн, правило №2: «Мёртвый слог»"
+    },
+    {
+      "type": "image",
+      "src": "images/p124_1.jpeg",
+      "alt": "Tone diagram for dead syllables: tones vary by consonant class"
     },
     {
       "type": "paragraph",
@@ -167,6 +238,11 @@
       "type": "paragraph",
       "html": "I know we don't really want exceptions in language, but bear with me. The dead syllable has a quirky rule JUST for LC consonants, which states that if the vowel is short, that syllable takes a HIGH tone, but if the vowel is long, it takes a FALLING tone.",
       "htmlRu": "Знаю, никто не любит исключения в языке, но потерпите. У мёртвого слога есть особое правило ТОЛЬКО для согласных LC: если гласная краткая, слог получает ВЫСОКИЙ тон, а если гласная долгая — НИСХОДЯЩИЙ тон."
+    },
+    {
+      "type": "image",
+      "src": "images/p125_0.jpeg",
+      "alt": "Tone comparison for dead syllables: short vowel (left) vs long vowel (right)"
     },
     {
       "type": "paragraph",
@@ -182,6 +258,11 @@
       "type": "paragraph",
       "html": "So remember these images as your second hint to determine the tones for dead syllables. See how the HC and MC all have low tone and the LC have either falling or high tone depending on the vowel length.",
       "htmlRu": "Запомните эти образы как вторую подсказку для определения тонов мёртвых слогов. Обратите внимание: HC и MC всегда дают низкий тон, а LC — либо нисходящий, либо высокий тон в зависимости от долготы гласной."
+    },
+    {
+      "type": "image",
+      "src": "images/p126_0.jpeg",
+      "alt": "Day 5 summary: complete tone rules chart"
     },
     {
       "type": "track",
@@ -206,23 +287,57 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ขำ" },
-        { "thai": "จวน" },
-        { "thai": "ยืม" },
-        { "thai": "สูง" },
-        { "thai": "ฝน" },
-        { "thai": "หาบ" },
-        { "thai": "แปด" },
-        { "thai": "ฮอด" },
-        { "thai": "ฉก" },
-        { "thai": "ดุ" },
-        { "thai": "รัก" },
-        { "thai": "เผา" },
-        { "thai": "เคย" },
-        { "thai": "เกิด" },
-        { "thai": "ถูก" },
-        { "thai": "พบ" },
-        { "thai": "มีด" }
+        {
+          "thai": "ขำ"
+        },
+        {
+          "thai": "จวน"
+        },
+        {
+          "thai": "ยืม"
+        },
+        {
+          "thai": "สูง"
+        },
+        {
+          "thai": "ฝน"
+        },
+        {
+          "thai": "หาบ"
+        },
+        {
+          "thai": "แปด"
+        },
+        {
+          "thai": "ฮอด"
+        },
+        {
+          "thai": "ฉก"
+        },
+        {
+          "thai": "ดุ"
+        },
+        {
+          "thai": "รัก"
+        },
+        {
+          "thai": "เผา"
+        },
+        {
+          "thai": "เคย"
+        },
+        {
+          "thai": "เกิด"
+        },
+        {
+          "thai": "ถูก"
+        },
+        {
+          "thai": "พบ"
+        },
+        {
+          "thai": "มีด"
+        }
       ]
     },
     {
@@ -244,11 +359,21 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ฝนตกมากในแถบทะเลตะวันออก" },
-        { "thai": "เขาชอบทำเมินเฉยกับแฟนของผม" },
-        { "thai": "พูดมาซะหากมีอะไรหนักหัวใจเรา" },
-        { "thai": "ลืมเอาขิงสดกับกะปิไปทำแกงฮังเล" },
-        { "thai": "ฉันฝากถุงสีหวานกับลูกสาวคนโต" }
+        {
+          "thai": "ฝนตกมากในแถบทะเลตะวันออก"
+        },
+        {
+          "thai": "เขาชอบทำเมินเฉยกับแฟนของผม"
+        },
+        {
+          "thai": "พูดมาซะหากมีอะไรหนักหัวใจเรา"
+        },
+        {
+          "thai": "ลืมเอาขิงสดกับกะปิไปทำแกงฮังเล"
+        },
+        {
+          "thai": "ฉันฝากถุงสีหวานกับลูกสาวคนโต"
+        }
       ]
     },
     {
@@ -257,8 +382,8 @@
         "Remember 3 more vowels that have two forms",
         "The rest of the vowels that have two forms: -ือ, เ-อ and -ัว change to -ื-, เ-ิ- and -ว- when there's a final consonant",
         "The tone of each syllable can be determined by 3 main factors: dead or live syllable; the class of the initial consonant; the tone mark if any (if it's a dead syllable with an initial LC consonant, the vowel length will be taken into account as well)",
-        "The String Theory #1: \u201clive syllable\u201d \u2014 HC consonants create RISING tone, MC & LC consonants create MID tone",
-        "The String Theory #2: \u201cdead syllable\u201d \u2014 both HC & MC consonants create LOW tone, while LC consonants create FALLING tone if the vowel is long and HIGH tone if the vowel is short"
+        "The String Theory #1: “live syllable” — HC consonants create RISING tone, MC & LC consonants create MID tone",
+        "The String Theory #2: “dead syllable” — both HC & MC consonants create LOW tone, while LC consonants create FALLING tone if the vowel is long and HIGH tone if the vowel is short"
       ],
       "itemsRu": [
         "Запомните ещё 3 гласных, имеющих две формы написания",

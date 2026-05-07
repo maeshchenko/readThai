@@ -16,6 +16,11 @@
       "htmlRu": "Ниже представлен ещё один класс тайских согласных — «средний класс», включающий одни из самых распространённых символов тайской письменности."
     },
     {
+      "type": "image",
+      "src": "images/p101_0.jpeg",
+      "alt": "Mid Class Consonants: ก จ ด ต บ ป อ in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 20
     },
@@ -113,6 +118,11 @@
       "htmlRu": "Вы уже встречали символ «อ» в качестве гласного [-or], а теперь позвольте представить его вам как согласный. Какой звук он издаёт как согласный? Никакой! Он служит лишь «заместителем» для гласного в слогах, не содержащих начального согласного звука (например, «อา» /aa/, «อิ่ม» /ìm/ или «อะ» [a-] в «อะไร» /arai/). Дело в том, что тайские гласные не могут существовать сами по себе — им нужен хотя бы один согласный, за который можно зацепиться. Прилипчивые малютки!"
     },
     {
+      "type": "image",
+      "src": "images/p102_0.jpeg",
+      "alt": "Illustration: vowel เ-อ characters clinging to a consonant — 'Don't leave us alone!'"
+    },
+    {
       "type": "track",
       "number": 21
     },
@@ -142,6 +152,21 @@
       "type": "paragraph",
       "html": "The word ออม above has 2 อ’s, but the first one serves as a placeholder consonant and the second one is the vowel [-or].",
       "htmlRu": "В слове ออม выше два อ, но первый служит согласным-заместителем, а второй — это гласный [-or]."
+    },
+    {
+      "type": "image",
+      "src": "images/p102_2.jpeg",
+      "alt": "How the vowel -อ wraps around consonants: diagram showing ออม"
+    },
+    {
+      "type": "image",
+      "src": "images/p103_0.jpeg",
+      "alt": "Stroke order for writing ก จ ด ต บ ป อ"
+    },
+    {
+      "type": "image",
+      "src": "images/p103_1.jpeg",
+      "alt": "Short vowels: -ะ -ุ- -ิ -ึ -ู in regular, stylised, and cursive handwriting"
     },
     {
       "type": "paragraph",
@@ -199,6 +224,11 @@
         "<strong>ЖИВОЙ слог</strong> — заканчивается на [-ng] [-m] [-n] (или любой согласный НК1), либо на долгий гласный",
         "<strong>МЁРТВЫЙ слог</strong> — заканчивается на [-k] [-t] [-p] (или любой согласный НК2), либо на краткий гласный"
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p105_0.jpeg",
+      "alt": "Stroke order for writing additional vowels"
     },
     {
       "type": "heading",

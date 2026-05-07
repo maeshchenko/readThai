@@ -16,6 +16,11 @@
       "htmlRu": "Согласные высокого класса по своей природе имеют ВОСХОДЯЩИЙ тон — это их тон по умолчанию. Произнося их названия, вы должны использовать восходящий тон: ขอ [kŏr] ถอ [tŏr] ฉอ [chŏr] и т. д."
     },
     {
+      "type": "image",
+      "src": "images/p110_0.jpeg",
+      "alt": "High Class Consonants: ข ถ ฉ ส ผ ฝ ห in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 29
     },
@@ -26,12 +31,33 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["", "k", "t", "ch", "s", "p", "f", "h"],
+      "columns": [
+        "",
+        "k",
+        "t",
+        "ch",
+        "s",
+        "p",
+        "f",
+        "h"
+      ],
       "rows": [
-        { "thai": "LC2", "translit": "ค / ท / ช / ซ / พ / ฟ / ฮ" },
-        { "thai": "HC", "translit": "ข / ถ / ฉ* / ส / ผ* / ฝ* / ห" },
-        { "thai": "Initial", "translit": "k / t / ch / s / p / f / h" },
-        { "thai": "Final¹⁷", "translit": "-k / -t / -p" }
+        {
+          "thai": "LC2",
+          "translit": "ค / ท / ช / ซ / พ / ฟ / ฮ"
+        },
+        {
+          "thai": "HC",
+          "translit": "ข / ถ / ฉ* / ส / ผ* / ฝ* / ห"
+        },
+        {
+          "thai": "Initial",
+          "translit": "k / t / ch / s / p / f / h"
+        },
+        {
+          "thai": "Final¹⁷",
+          "translit": "-k / -t / -p"
+        }
       ]
     },
     {
@@ -47,19 +73,52 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["", "ง", "ม", "น", "ร", "ล", "ย", "ว"],
+      "columns": [
+        "",
+        "ง",
+        "ม",
+        "น",
+        "ร",
+        "ล",
+        "ย",
+        "ว"
+      ],
       "rows": [
-        { "thai": "Initial", "translit": "ng / m / n / r / l / y / w" },
-        { "thai": "Final", "translit": "-ng / -m / -n / — / — / -i / -o" }
+        {
+          "thai": "Initial",
+          "translit": "ng / m / n / r / l / y / w"
+        },
+        {
+          "thai": "Final",
+          "translit": "-ng / -m / -n / — / — / -i / -o"
+        }
       ]
     },
     {
       "type": "thaiTable",
-      "columns": ["", "", "", "", "", "", "", ""],
+      "columns": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
       "rows": [
-        { "thai": "Initial", "translit": "k / t / ch / s / p / f / h" },
-        { "thai": "", "translit": "g / j / d / dt / b / bp / (-)" },
-        { "thai": "Final", "translit": "-k / -t / -p" }
+        {
+          "thai": "Initial",
+          "translit": "k / t / ch / s / p / f / h"
+        },
+        {
+          "thai": "",
+          "translit": "g / j / d / dt / b / bp / (-)"
+        },
+        {
+          "thai": "Final",
+          "translit": "-k / -t / -p"
+        }
       ]
     },
     {
@@ -75,8 +134,14 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "จัง", "translit": "/jung/" },
-        { "thai": "ชิม", "translit": "/chim/" }
+        {
+          "thai": "จัง",
+          "translit": "/jung/"
+        },
+        {
+          "thai": "ชิม",
+          "translit": "/chim/"
+        }
       ]
     },
     {
@@ -84,9 +149,18 @@
       "layout": "grid",
       "eyebrow": "Same final [-n]",
       "items": [
-        { "thai": "กูน", "translit": "/goon/" },
-        { "thai": "กูร", "translit": "/goon/" },
-        { "thai": "กูล", "translit": "/goon/" }
+        {
+          "thai": "กูน",
+          "translit": "/goon/"
+        },
+        {
+          "thai": "กูร",
+          "translit": "/goon/"
+        },
+        {
+          "thai": "กูล",
+          "translit": "/goon/"
+        }
       ]
     },
     {
@@ -94,9 +168,18 @@
       "layout": "grid",
       "eyebrow": "Same final [-k]",
       "items": [
-        { "thai": "เสก", "translit": "/sàyk/" },
-        { "thai": "เสข", "translit": "/sàyk/" },
-        { "thai": "เสค", "translit": "/sàyk/" }
+        {
+          "thai": "เสก",
+          "translit": "/sàyk/"
+        },
+        {
+          "thai": "เสข",
+          "translit": "/sàyk/"
+        },
+        {
+          "thai": "เสค",
+          "translit": "/sàyk/"
+        }
       ]
     },
     {
@@ -104,13 +187,34 @@
       "layout": "grid",
       "eyebrow": "Same final [-t]",
       "items": [
-        { "thai": "อาด", "translit": "/àat/" },
-        { "thai": "อาต", "translit": "/àat/" },
-        { "thai": "อาจ", "translit": "/àat/" },
-        { "thai": "อาส", "translit": "/àat/" },
-        { "thai": "อาช", "translit": "/àat/" },
-        { "thai": "อาถ", "translit": "/àat/" },
-        { "thai": "อาท", "translit": "/àat/" }
+        {
+          "thai": "อาด",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาต",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาจ",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาส",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาช",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาถ",
+          "translit": "/àat/"
+        },
+        {
+          "thai": "อาท",
+          "translit": "/àat/"
+        }
       ]
     },
     {
@@ -118,17 +222,32 @@
       "layout": "grid",
       "eyebrow": "Same final [-p]",
       "items": [
-        { "thai": "โลบ", "translit": "/lôhp/" },
-        { "thai": "โลป", "translit": "/lôhp/" },
-        { "thai": "โลพ", "translit": "/lôhp/" }
+        {
+          "thai": "โลบ",
+          "translit": "/lôhp/"
+        },
+        {
+          "thai": "โลป",
+          "translit": "/lôhp/"
+        },
+        {
+          "thai": "โลพ",
+          "translit": "/lôhp/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ดอย", "translit": "/doi/" },
-        { "thai": "แมว", "translit": "/maeo/" }
+        {
+          "thai": "ดอย",
+          "translit": "/doi/"
+        },
+        {
+          "thai": "แมว",
+          "translit": "/maeo/"
+        }
       ]
     },
     {
@@ -150,21 +269,59 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ขำ-คำ" },
-        { "thai": "เถา-เทา" },
-        { "thai": "แผน-แพน" },
-        { "thai": "ฉะ-ชะ" },
-        { "thai": "หัก-ฮัก" },
-        { "thai": "ผด-พด" },
-        { "thai": "ไฝ-ไฟ" },
-        { "thai": "เฉย-เชย" },
-        { "thai": "ถี-ที" },
-        { "thai": "สูบ-ซูบ" },
-        { "thai": "โขก-โคก" },
-        { "thai": "สาก-ซาก" },
-        { "thai": "ฝอง-ฟอง" },
-        { "thai": "หึง-ฮึง" }
+        {
+          "thai": "ขำ-คำ"
+        },
+        {
+          "thai": "เถา-เทา"
+        },
+        {
+          "thai": "แผน-แพน"
+        },
+        {
+          "thai": "ฉะ-ชะ"
+        },
+        {
+          "thai": "หัก-ฮัก"
+        },
+        {
+          "thai": "ผด-พด"
+        },
+        {
+          "thai": "ไฝ-ไฟ"
+        },
+        {
+          "thai": "เฉย-เชย"
+        },
+        {
+          "thai": "ถี-ที"
+        },
+        {
+          "thai": "สูบ-ซูบ"
+        },
+        {
+          "thai": "โขก-โคก"
+        },
+        {
+          "thai": "สาก-ซาก"
+        },
+        {
+          "thai": "ฝอง-ฟอง"
+        },
+        {
+          "thai": "หึง-ฮึง"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p112_0.jpeg",
+      "alt": "Stroke order for High Class consonants: ข ถ ฉ ส ผ ฝ ห"
+    },
+    {
+      "type": "image",
+      "src": "images/p113_0.jpeg",
+      "alt": "Illustration: consonant ฆ with leading ห saying 'I was born high class!'"
     },
     {
       "type": "heading",
@@ -185,11 +342,26 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "นู", "translit": "/noo/" },
-        { "thai": "นาม", "translit": "/naam/" },
-        { "thai": "นิ", "translit": "/ní/" },
-        { "thai": "นัก", "translit": "/núk/" },
-        { "thai": "นอก", "translit": "/nôrk/" }
+        {
+          "thai": "นู",
+          "translit": "/noo/"
+        },
+        {
+          "thai": "นาม",
+          "translit": "/naam/"
+        },
+        {
+          "thai": "นิ",
+          "translit": "/ní/"
+        },
+        {
+          "thai": "นัก",
+          "translit": "/núk/"
+        },
+        {
+          "thai": "นอก",
+          "translit": "/nôrk/"
+        }
       ]
     },
     {
@@ -201,11 +373,26 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หนู*", "translit": "/nŏo/" },
-        { "thai": "หนาม", "translit": "/năam/" },
-        { "thai": "หนิ*", "translit": "/nì/" },
-        { "thai": "หนัก*", "translit": "/nùk/" },
-        { "thai": "หนอก", "translit": "/nòrk/" }
+        {
+          "thai": "หนู*",
+          "translit": "/nŏo/"
+        },
+        {
+          "thai": "หนาม",
+          "translit": "/năam/"
+        },
+        {
+          "thai": "หนิ*",
+          "translit": "/nì/"
+        },
+        {
+          "thai": "หนัก*",
+          "translit": "/nùk/"
+        },
+        {
+          "thai": "หนอก",
+          "translit": "/nòrk/"
+        }
       ]
     },
     {
@@ -217,13 +404,34 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หง-", "translit": "[ng˘]" },
-        { "thai": "หม-", "translit": "[m˘]" },
-        { "thai": "หน-", "translit": "[n˘]" },
-        { "thai": "หร-", "translit": "[r˘]" },
-        { "thai": "หล-", "translit": "[l˘]" },
-        { "thai": "หย-", "translit": "[y˘]" },
-        { "thai": "หว-", "translit": "[w˘]" }
+        {
+          "thai": "หง-",
+          "translit": "[ng˘]"
+        },
+        {
+          "thai": "หม-",
+          "translit": "[m˘]"
+        },
+        {
+          "thai": "หน-",
+          "translit": "[n˘]"
+        },
+        {
+          "thai": "หร-",
+          "translit": "[r˘]"
+        },
+        {
+          "thai": "หล-",
+          "translit": "[l˘]"
+        },
+        {
+          "thai": "หย-",
+          "translit": "[y˘]"
+        },
+        {
+          "thai": "หว-",
+          "translit": "[w˘]"
+        }
       ]
     },
     {
@@ -232,11 +440,43 @@
       "htmlRu": "Теперь у вас есть полный набор идентичных согласных звуков как в высоком, так и в низком классе!"
     },
     {
+      "type": "image",
+      "src": "images/p115_0.jpeg",
+      "alt": "Thumbs up illustration — live syllable concept"
+    },
+    {
+      "type": "image",
+      "src": "images/p115_1.jpeg",
+      "alt": "Lemur illustration — live syllable mnemonic"
+    },
+    {
       "type": "thaiTable",
-      "columns": ["", "ng", "m", "n", "r", "l", "y", "w", "k", "t", "ch", "s", "p", "f", "h"],
+      "columns": [
+        "",
+        "ng",
+        "m",
+        "n",
+        "r",
+        "l",
+        "y",
+        "w",
+        "k",
+        "t",
+        "ch",
+        "s",
+        "p",
+        "f",
+        "h"
+      ],
       "rows": [
-        { "thai": "HC", "translit": "หง / หม / หน / หร / หล / หย / หว / ข / ถ / ฉ / ส / ผ / ฝ / ห" },
-        { "thai": "LC", "translit": "ง / ม / น / ร / ล / ย / ว / ค / ท / ช / ซ / พ / ฟ / ฮ" }
+        {
+          "thai": "HC",
+          "translit": "หง / หม / หน / หร / หล / หย / หว / ข / ถ / ฉ / ส / ผ / ฝ / ห"
+        },
+        {
+          "thai": "LC",
+          "translit": "ง / ม / น / ร / ล / ย / ว / ค / ท / ช / ซ / พ / ฟ / ฮ"
+        }
       ]
     },
     {
@@ -258,16 +498,36 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "หมัด" },
-        { "thai": "หลบ" },
-        { "thai": "หยิน" },
-        { "thai": "หนัก" },
-        { "thai": "หรู" },
-        { "thai": "โหวต" },
-        { "thai": "เหงา" },
-        { "thai": "หนาม" },
-        { "thai": "หลาย" },
-        { "thai": "หมอ" }
+        {
+          "thai": "หมัด"
+        },
+        {
+          "thai": "หลบ"
+        },
+        {
+          "thai": "หยิน"
+        },
+        {
+          "thai": "หนัก"
+        },
+        {
+          "thai": "หรู"
+        },
+        {
+          "thai": "โหวต"
+        },
+        {
+          "thai": "เหงา"
+        },
+        {
+          "thai": "หนาม"
+        },
+        {
+          "thai": "หลาย"
+        },
+        {
+          "thai": "หมอ"
+        }
       ]
     },
     {
@@ -275,6 +535,11 @@
       "level": 2,
       "text": "Somewhere I belong",
       "textRu": "Каждому — своё место"
+    },
+    {
+      "type": "image",
+      "src": "images/p116_0.jpeg",
+      "alt": "Dead fish illustration — dead syllable mnemonic"
     },
     {
       "type": "paragraph",
@@ -291,13 +556,34 @@
       "layout": "grid",
       "eyebrow": "HC",
       "items": [
-        { "thai": "ข", "translit": "[k˘]" },
-        { "thai": "ถ", "translit": "[t˘]" },
-        { "thai": "ฉ", "translit": "[ch˘]" },
-        { "thai": "ส", "translit": "[s˘]" },
-        { "thai": "ผ", "translit": "[p˘]" },
-        { "thai": "ฝ", "translit": "[f˘]" },
-        { "thai": "ห", "translit": "[h˘]" }
+        {
+          "thai": "ข",
+          "translit": "[k˘]"
+        },
+        {
+          "thai": "ถ",
+          "translit": "[t˘]"
+        },
+        {
+          "thai": "ฉ",
+          "translit": "[ch˘]"
+        },
+        {
+          "thai": "ส",
+          "translit": "[s˘]"
+        },
+        {
+          "thai": "ผ",
+          "translit": "[p˘]"
+        },
+        {
+          "thai": "ฝ",
+          "translit": "[f˘]"
+        },
+        {
+          "thai": "ห",
+          "translit": "[h˘]"
+        }
       ]
     },
     {
@@ -305,13 +591,34 @@
       "layout": "grid",
       "eyebrow": "MC",
       "items": [
-        { "thai": "ก", "translit": "[g]" },
-        { "thai": "จ", "translit": "[j]" },
-        { "thai": "ด", "translit": "[d]" },
-        { "thai": "ต", "translit": "[dt]" },
-        { "thai": "บ", "translit": "[b]" },
-        { "thai": "ป", "translit": "[bp]" },
-        { "thai": "อ", "translit": "[-]" }
+        {
+          "thai": "ก",
+          "translit": "[g]"
+        },
+        {
+          "thai": "จ",
+          "translit": "[j]"
+        },
+        {
+          "thai": "ด",
+          "translit": "[d]"
+        },
+        {
+          "thai": "ต",
+          "translit": "[dt]"
+        },
+        {
+          "thai": "บ",
+          "translit": "[b]"
+        },
+        {
+          "thai": "ป",
+          "translit": "[bp]"
+        },
+        {
+          "thai": "อ",
+          "translit": "[-]"
+        }
       ]
     },
     {
@@ -319,13 +626,34 @@
       "layout": "grid",
       "eyebrow": "LC1",
       "items": [
-        { "thai": "ง", "translit": "[ng]" },
-        { "thai": "ม", "translit": "[m]" },
-        { "thai": "น", "translit": "[n]" },
-        { "thai": "ร", "translit": "[r]" },
-        { "thai": "ล", "translit": "[l]" },
-        { "thai": "ย", "translit": "[y]" },
-        { "thai": "ว", "translit": "[w]" }
+        {
+          "thai": "ง",
+          "translit": "[ng]"
+        },
+        {
+          "thai": "ม",
+          "translit": "[m]"
+        },
+        {
+          "thai": "น",
+          "translit": "[n]"
+        },
+        {
+          "thai": "ร",
+          "translit": "[r]"
+        },
+        {
+          "thai": "ล",
+          "translit": "[l]"
+        },
+        {
+          "thai": "ย",
+          "translit": "[y]"
+        },
+        {
+          "thai": "ว",
+          "translit": "[w]"
+        }
       ]
     },
     {
@@ -333,13 +661,34 @@
       "layout": "grid",
       "eyebrow": "LC2",
       "items": [
-        { "thai": "ค", "translit": "[k]" },
-        { "thai": "ท", "translit": "[t]" },
-        { "thai": "ช", "translit": "[ch]" },
-        { "thai": "ซ", "translit": "[s]" },
-        { "thai": "พ", "translit": "[p]" },
-        { "thai": "ฟ", "translit": "[f]" },
-        { "thai": "ฮ", "translit": "[h]" }
+        {
+          "thai": "ค",
+          "translit": "[k]"
+        },
+        {
+          "thai": "ท",
+          "translit": "[t]"
+        },
+        {
+          "thai": "ช",
+          "translit": "[ch]"
+        },
+        {
+          "thai": "ซ",
+          "translit": "[s]"
+        },
+        {
+          "thai": "พ",
+          "translit": "[p]"
+        },
+        {
+          "thai": "ฟ",
+          "translit": "[f]"
+        },
+        {
+          "thai": "ฮ",
+          "translit": "[h]"
+        }
       ]
     },
     {
@@ -405,13 +754,34 @@
       "layout": "grid",
       "eyebrow": "HC consonants to memorise",
       "items": [
-        { "thai": "ข", "translit": "[k˘]" },
-        { "thai": "ถ", "translit": "[t˘]" },
-        { "thai": "ฉ", "translit": "[ch˘]" },
-        { "thai": "ส", "translit": "[s˘]" },
-        { "thai": "ผ", "translit": "[p˘]" },
-        { "thai": "ฝ", "translit": "[f˘]" },
-        { "thai": "ห", "translit": "[h˘]" }
+        {
+          "thai": "ข",
+          "translit": "[k˘]"
+        },
+        {
+          "thai": "ถ",
+          "translit": "[t˘]"
+        },
+        {
+          "thai": "ฉ",
+          "translit": "[ch˘]"
+        },
+        {
+          "thai": "ส",
+          "translit": "[s˘]"
+        },
+        {
+          "thai": "ผ",
+          "translit": "[p˘]"
+        },
+        {
+          "thai": "ฝ",
+          "translit": "[f˘]"
+        },
+        {
+          "thai": "ห",
+          "translit": "[h˘]"
+        }
       ]
     },
     {
@@ -429,34 +799,90 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ก" },
-        { "thai": "ข" },
-        { "thai": "ค" },
-        { "thai": "ง" },
-        { "thai": "จ" },
-        { "thai": "ฉ" },
-        { "thai": "ช" },
-        { "thai": "ซ" },
-        { "thai": "ด" },
-        { "thai": "ต" },
-        { "thai": "ถ" },
-        { "thai": "ท" },
-        { "thai": "น" },
-        { "thai": "บ" },
-        { "thai": "ป" },
-        { "thai": "ผ" },
-        { "thai": "ฝ" },
-        { "thai": "พ" },
-        { "thai": "ฟ" },
-        { "thai": "ม" },
-        { "thai": "ย" },
-        { "thai": "ร" },
-        { "thai": "ล" },
-        { "thai": "ว" },
-        { "thai": "ส" },
-        { "thai": "ห" },
-        { "thai": "อ" },
-        { "thai": "ฮ" }
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        },
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        },
+        {
+          "thai": "ม"
+        },
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ห"
+        },
+        {
+          "thai": "อ"
+        },
+        {
+          "thai": "ฮ"
+        }
       ]
     },
     {

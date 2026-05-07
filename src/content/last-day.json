@@ -40,10 +40,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หมด", "translit": "mòt" },
-        { "thai": "หยก", "translit": "yòk" },
-        { "thai": "หงอ", "translit": "ngŏr" },
-        { "thai": "หลบ", "translit": "lòp" }
+        {
+          "thai": "หมด",
+          "translit": "mòt"
+        },
+        {
+          "thai": "หยก",
+          "translit": "yòk"
+        },
+        {
+          "thai": "หงอ",
+          "translit": "ngŏr"
+        },
+        {
+          "thai": "หลบ",
+          "translit": "lòp"
+        }
       ]
     },
     {
@@ -56,10 +68,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "กอด", "translit": "gòrt" },
-        { "thai": "ชอบ", "translit": "chôrp" },
-        { "thai": "ศอก", "translit": "sòrk" },
-        { "thai": "นอน", "translit": "norn" }
+        {
+          "thai": "กอด",
+          "translit": "gòrt"
+        },
+        {
+          "thai": "ชอบ",
+          "translit": "chôrp"
+        },
+        {
+          "thai": "ศอก",
+          "translit": "sòrk"
+        },
+        {
+          "thai": "นอน",
+          "translit": "norn"
+        }
       ]
     },
     {
@@ -72,10 +96,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "สวย", "translit": "sŭai" },
-        { "thai": "ควร", "translit": "kuan" },
-        { "thai": "ดวง", "translit": "duang" },
-        { "thai": "ปวด", "translit": "bpùat" }
+        {
+          "thai": "สวย",
+          "translit": "sŭai"
+        },
+        {
+          "thai": "ควร",
+          "translit": "kuan"
+        },
+        {
+          "thai": "ดวง",
+          "translit": "duang"
+        },
+        {
+          "thai": "ปวด",
+          "translit": "bpùat"
+        }
       ]
     },
     {
@@ -88,10 +124,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ครบ", "translit": "króp" },
-        { "thai": "ตรง", "translit": "dtrong" },
-        { "thai": "กลม", "translit": "glom" },
-        { "thai": "ปลด", "translit": "bplòt" }
+        {
+          "thai": "ครบ",
+          "translit": "króp"
+        },
+        {
+          "thai": "ตรง",
+          "translit": "dtrong"
+        },
+        {
+          "thai": "กลม",
+          "translit": "glom"
+        },
+        {
+          "thai": "ปลด",
+          "translit": "bplòt"
+        }
       ]
     },
     {
@@ -104,10 +152,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ถนน", "translit": "tànŏn" },
-        { "thai": "ผงก", "translit": "pà-ngòk" },
-        { "thai": "ตลก", "translit": "dtàlòk" },
-        { "thai": "นคร", "translit": "nákorn" }
+        {
+          "thai": "ถนน",
+          "translit": "tànŏn"
+        },
+        {
+          "thai": "ผงก",
+          "translit": "pà-ngòk"
+        },
+        {
+          "thai": "ตลก",
+          "translit": "dtàlòk"
+        },
+        {
+          "thai": "นคร",
+          "translit": "nákorn"
+        }
       ]
     },
     {
@@ -135,13 +195,27 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "หมวก" },
-        { "thai": "ตลอด" },
-        { "thai": "ทบทวน" },
-        { "thai": "สกปรก" },
-        { "thai": "วงกลม" },
-        { "thai": "นครปฐม" },
-        { "thai": "ทรวดทรง" }
+        {
+          "thai": "หมวก"
+        },
+        {
+          "thai": "ตลอด"
+        },
+        {
+          "thai": "ทบทวน"
+        },
+        {
+          "thai": "สกปรก"
+        },
+        {
+          "thai": "วงกลม"
+        },
+        {
+          "thai": "นครปฐม"
+        },
+        {
+          "thai": "ทรวดทรง"
+        }
       ]
     },
     {
@@ -159,10 +233,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ก" },
-        { "thai": "ถ" },
-        { "thai": "ภ" },
-        { "thai": "ฤ" }
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ภ"
+        },
+        {
+          "thai": "ฤ"
+        }
       ]
     },
     {
@@ -174,10 +256,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ด" },
-        { "thai": "ต" },
-        { "thai": "ค" },
-        { "thai": "ศ" }
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ศ"
+        }
       ]
     },
     {
@@ -189,10 +279,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ผ" },
-        { "thai": "พ" },
-        { "thai": "ฝ" },
-        { "thai": "ฟ" }
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฝ"
+        },
+        {
+          "thai": "ฟ"
+        }
       ]
     },
     {
@@ -204,8 +302,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "พ" },
-        { "thai": "ฬ" }
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฬ"
+        }
       ]
     },
     {
@@ -217,9 +319,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ข" },
-        { "thai": "ช" },
-        { "thai": "ซ" }
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        }
       ]
     },
     {
@@ -231,9 +339,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "บ" },
-        { "thai": "ป" },
-        { "thai": "ษ" }
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        },
+        {
+          "thai": "ษ"
+        }
       ]
     },
     {
@@ -245,8 +359,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "ข" },
-        { "thai": "บ" }
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "บ"
+        }
       ]
     },
     {
@@ -258,9 +376,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ร" },
-        { "thai": "โ" },
-        { "thai": "ธ" }
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "โ"
+        },
+        {
+          "thai": "ธ"
+        }
       ]
     },
     {
@@ -272,10 +396,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ง" },
-        { "thai": "ว" },
-        { "thai": "า" },
-        { "thai": "อ" }
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "า"
+        },
+        {
+          "thai": "อ"
+        }
       ]
     },
     {
@@ -287,8 +419,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "อ" },
-        { "thai": "ฮ" }
+        {
+          "thai": "อ"
+        },
+        {
+          "thai": "ฮ"
+        }
       ]
     },
     {
@@ -300,9 +436,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "จ" },
-        { "thai": "ล" },
-        { "thai": "ส" }
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ส"
+        }
       ]
     },
     {
@@ -314,8 +456,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "ฎ" },
-        { "thai": "ฏ" }
+        {
+          "thai": "ฎ"
+        },
+        {
+          "thai": "ฏ"
+        }
       ]
     },
     {
@@ -327,8 +473,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "ะ" },
-        { "thai": "-ั" }
+        {
+          "thai": "ะ"
+        },
+        {
+          "thai": "-ั"
+        }
       ]
     },
     {
@@ -340,8 +490,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "เ" },
-        { "thai": "แ" }
+        {
+          "thai": "เ"
+        },
+        {
+          "thai": "แ"
+        }
       ]
     },
     {
@@ -353,9 +507,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "โ" },
-        { "thai": "ไ" },
-        { "thai": "ใ" }
+        {
+          "thai": "โ"
+        },
+        {
+          "thai": "ไ"
+        },
+        {
+          "thai": "ใ"
+        }
       ]
     },
     {
@@ -367,10 +527,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "-ิ" },
-        { "thai": "-ี" },
-        { "thai": "-ึ" },
-        { "thai": "-ื" }
+        {
+          "thai": "-ิ"
+        },
+        {
+          "thai": "-ี"
+        },
+        {
+          "thai": "-ึ"
+        },
+        {
+          "thai": "-ื"
+        }
       ]
     },
     {
@@ -382,10 +550,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "-ั" },
-        { "thai": "-์" },
-        { "thai": "-้" },
-        { "thai": "-๊" }
+        {
+          "thai": "-ั"
+        },
+        {
+          "thai": "-์"
+        },
+        {
+          "thai": "-้"
+        },
+        {
+          "thai": "-๊"
+        }
       ]
     },
     {
@@ -397,9 +573,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "-ั" },
-        { "thai": "-ํ" },
-        { "thai": "-ิ" }
+        {
+          "thai": "-ั"
+        },
+        {
+          "thai": "-ํ"
+        },
+        {
+          "thai": "-ิ"
+        }
       ]
     },
     {
@@ -411,8 +593,12 @@
       "type": "examples",
       "layout": "inline",
       "items": [
-        { "thai": "-ุ" },
-        { "thai": "-ู" }
+        {
+          "thai": "-ุ"
+        },
+        {
+          "thai": "-ู"
+        }
       ]
     },
     {
@@ -424,12 +610,24 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ย" },
-        { "thai": "ฉ" },
-        { "thai": "ฐ" },
-        { "thai": "-่" },
-        { "thai": "-๋" },
-        { "thai": "-็" }
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ฐ"
+        },
+        {
+          "thai": "-่"
+        },
+        {
+          "thai": "-๋"
+        },
+        {
+          "thai": "-็"
+        }
       ]
     },
     {
@@ -461,20 +659,51 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ถากถาง" },
-        { "thai": "พัน" },
-        { "thai": "คดี" },
-        { "thai": "ข้าวซอย" },
-        { "thai": "ขบวน" },
-        { "thai": "โกรธ" },
-        { "thai": "จลาจล" },
-        { "thai": "ตุด" },
-        { "thai": "สว่าง" },
-        { "thai": "ไฮโซ" },
-        { "thai": "วิธี" },
-        { "thai": "เขียนชื่อ" },
-        { "thai": "สะพานผ่านฟ้า" }
+        {
+          "thai": "ถากถาง"
+        },
+        {
+          "thai": "พัน"
+        },
+        {
+          "thai": "คดี"
+        },
+        {
+          "thai": "ข้าวซอย"
+        },
+        {
+          "thai": "ขบวน"
+        },
+        {
+          "thai": "โกรธ"
+        },
+        {
+          "thai": "จลาจล"
+        },
+        {
+          "thai": "ตุด"
+        },
+        {
+          "thai": "สว่าง"
+        },
+        {
+          "thai": "ไฮโซ"
+        },
+        {
+          "thai": "วิธี"
+        },
+        {
+          "thai": "เขียนชื่อ"
+        },
+        {
+          "thai": "สะพานผ่านฟ้า"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p188_0.jpeg",
+      "alt": "Thai reading practice: words with silent letters and special spellings"
     },
     {
       "type": "heading",
@@ -486,6 +715,16 @@
       "type": "paragraph",
       "html": "Since DAY 1 we have known that there are no spaces between syllables or words. Now that we've learned all the characters you might have realised that the position of vowels and some punctuation marks might give us clues about how to identify syllable boundaries. So look for the vowel's position when reading!",
       "htmlRu": "С ПЕРВОГО ДНЯ мы знаем, что между слогами и словами нет пробелов. Теперь, когда мы выучили все символы, вы, возможно, заметили, что положение гласных и некоторых знаков может подсказать, где проходят границы слогов. Поэтому при чтении обращайте внимание на позицию гласной!"
+    },
+    {
+      "type": "image",
+      "src": "images/p189_0.jpeg",
+      "alt": "Thai word segmentation examples: ไป, ใกล้, โมง, เห็น, แล้ว with syllable boundaries"
+    },
+    {
+      "type": "image",
+      "src": "images/p189_1.jpeg",
+      "alt": "More word segmentation examples with syllable boundaries"
     },
     {
       "type": "rule",
@@ -500,6 +739,16 @@
       "emphasis": "soft"
     },
     {
+      "type": "image",
+      "src": "images/p189_2.jpeg",
+      "alt": "Additional word segmentation examples"
+    },
+    {
+      "type": "image",
+      "src": "images/p189_3.jpeg",
+      "alt": "Complex word segmentation examples"
+    },
+    {
       "type": "rule",
       "html": "The symbol \"ะ\" (whether as a vowel or a shortening symbol) and the vowel \"-ำ\" ALWAYS end the syllable. Note that \"-ํ\" always appears with \"า\".",
       "htmlRu": "Символ «ะ» (как гласная или как знак сокращения) и гласная «-ำ» ВСЕГДА завершают слог. Обратите внимание, что «-ํ» всегда появляется вместе с «า».",
@@ -512,10 +761,30 @@
       "emphasis": "soft"
     },
     {
+      "type": "image",
+      "src": "images/p190_0.jpeg",
+      "alt": "Syllable boundary examples"
+    },
+    {
       "type": "rule",
       "html": "Top vowels \"-ิ\", \"-ี\", \"-ึ\", \"-ื\" are likely to be at the end of the syllable, or the second last character of the syllable if there's a final consonant.",
       "htmlRu": "Верхние гласные «-ิ», «-ี», «-ึ», «-ื» обычно находятся в конце слога или над предпоследним символом, если есть конечный согласный.",
       "emphasis": "soft"
+    },
+    {
+      "type": "image",
+      "src": "images/p190_1.jpeg",
+      "alt": "Word segmentation practice"
+    },
+    {
+      "type": "image",
+      "src": "images/p190_2.jpeg",
+      "alt": "Additional segmentation examples"
+    },
+    {
+      "type": "image",
+      "src": "images/p191_0.jpeg",
+      "alt": "Thai reading practice: paragraph about respect and gratitude"
     },
     {
       "type": "rule",

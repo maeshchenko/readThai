@@ -22,6 +22,11 @@
       "htmlRu": "Классы тайских согласных играют ключевую роль в определении тона каждого слога в слове, как мы узнаем в последующих главах. Существует 3 класса: средний класс, высокий класс и низкий класс. Низкий класс дополнительно делится на 2 подгруппы: группа 1 и группа 2. Каждый согласный принадлежит к одному из этих классов. Сегодня мы рассмотрим согласные «низкого класса 1» (LC1). Все согласные в тайском языке произносятся с гласным звуком -อ [-or] в качестве их названия, например буква น называется /nor/ (подробнее о названиях согласных я расскажу в приложениях к этой книге). Здесь я также привёл для справки повсеместно встречающиеся варианты написания без петельки и рукописные формы букв."
     },
     {
+      "type": "image",
+      "src": "images/p085_0.jpeg",
+      "alt": "Low Class Consonants Group 1: น ม ง ร ล ย ว in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 9
     },
@@ -29,6 +34,11 @@
       "type": "paragraph",
       "html": "As it appears on the previous page, most Thai characters can be written in one stroke, and you always start writing from the loop (or the \"head\" of the consonant as Thai people call it). However, some characters have no head, in which case just start from left to right.",
       "htmlRu": "Как показано на предыдущей странице, большинство тайских букв можно написать одним штрихом, и писать всегда нужно начинать с петельки (или «головки» буквы, как называют её тайцы). Однако у некоторых букв головки нет — в этом случае просто пишите слева направо."
+    },
+    {
+      "type": "image",
+      "src": "images/p086_0.jpeg",
+      "alt": "Stroke order for Low Class Group 1 consonants: ง ม น ร ล ย ว"
     },
     {
       "type": "heading",
@@ -40,6 +50,11 @@
       "type": "paragraph",
       "html": "Long vowels are pronounced with longer duration than their short counterparts. The only difference between 'ship' and 'sheep' in standard British English, for example, is that the 'ee' in 'sheep' is slightly longer than the 'i' in 'ship'. Vowel length is important and can change the meaning! Here are some of the most common long vowels. Note that a vowel's position within the syllable can be fixed above, under, in front of, or after consonants. The dash symbol (–) in each vowel indicates the place where the initial (beginning) consonants go. Incidentally, note that the vowel \"โ-\" [oh] is taller than the others, and goes beyond the top line.",
       "htmlRu": "Долгие гласные произносятся с большей длительностью, чем их краткие аналоги. Единственное различие между 'ship' и 'sheep' в стандартном британском английском, например, состоит в том, что 'ee' в 'sheep' чуть длиннее, чем 'i' в 'ship'. Длительность гласного имеет значение и может изменить смысл слова! Вот некоторые из наиболее распространённых долгих гласных. Обратите внимание, что позиция гласного внутри слога может быть фиксированной: над согласным, под ним, перед ним или после него. Символ тире (–) в каждом гласном обозначает место, где располагается начальный согласный. Кстати, обратите внимание, что гласный «โ-» [oh] выше остальных и выходит за верхнюю линию."
+    },
+    {
+      "type": "image",
+      "src": "images/p087_0.jpeg",
+      "alt": "Long vowels: -า -ี -ู เ- แ- โ- -อ in regular, stylised, and cursive handwriting"
     },
     {
       "type": "track",
@@ -61,25 +76,50 @@
       "number": 11
     },
     {
+      "type": "image",
+      "src": "images/p088_0.jpeg",
+      "alt": "Stroke order for writing long vowels"
+    },
+    {
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "นา" },
-        { "thai": "มี" },
-        { "thai": "เลน*" },
-        { "thai": "แรง*" },
-        { "thai": "โยง*" }
+        {
+          "thai": "นา"
+        },
+        {
+          "thai": "มี"
+        },
+        {
+          "thai": "เลน*"
+        },
+        {
+          "thai": "แรง*"
+        },
+        {
+          "thai": "โยง*"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "วอ" },
-        { "thai": "งู" },
-        { "thai": "ยีน" },
-        { "thai": "โรม*" },
-        { "thai": "งอม" }
+        {
+          "thai": "วอ"
+        },
+        {
+          "thai": "งู"
+        },
+        {
+          "thai": "ยีน"
+        },
+        {
+          "thai": "โรม*"
+        },
+        {
+          "thai": "งอม"
+        }
       ]
     },
     {
@@ -92,10 +132,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ราย" },
-        { "thai": "ยาว" },
-        { "thai": "เลว" },
-        { "thai": "รอย" }
+        {
+          "thai": "ราย"
+        },
+        {
+          "thai": "ยาว"
+        },
+        {
+          "thai": "เลว"
+        },
+        {
+          "thai": "รอย"
+        }
       ]
     },
     {
@@ -108,10 +156,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "เวร" },
-        { "thai": "มูล" },
-        { "thai": "มาร" },
-        { "thai": "ยาล" }
+        {
+          "thai": "เวร"
+        },
+        {
+          "thai": "มูล"
+        },
+        {
+          "thai": "มาร"
+        },
+        {
+          "thai": "ยาล"
+        }
       ]
     },
     {
@@ -124,6 +180,26 @@
       "type": "paragraph",
       "html": "There's no space between words or syllables in Thai. No, I'm serious… Space only acts as a full stop or comma to show where a sentence ends or pauses. You'll have to be able to identify syllable boundaries by yourself. But hang on, it's not as hard as it sounds! Most Thai words have a fairly logical structure which limits the ways they can be read. The sentence above consists of 3 words: รอ 'to wait', นาย 'boss', มา 'come'. But if you try to chop it up in any other way, for example: it is impossible to read! Since we already know that -า has to come after its consonant, it can't just float around like \"าย\". Also, you can't do this either: If we do this, the second syllable will have too many final consonants \"นายม\" and the last -า will also have no initial consonant either. But I have to admit that this tactic doesn't always work, so you'll also need to be able to recognise words in sentences as well.",
       "htmlRu": "В тайском языке между словами и слогами нет пробелов. Нет, я серьёзно… Пробел выполняет лишь роль точки или запятой, обозначая конец предложения или паузу. Вам придётся самостоятельно определять границы слогов. Но подождите, это не так сложно, как кажется! Большинство тайских слов имеют довольно логичную структуру, которая ограничивает возможные варианты прочтения. Предложение выше состоит из 3 слов: รอ 'ждать', นาย 'босс', มา 'приходить'. Но если попытаться разбить его по-другому, например: прочитать невозможно! Поскольку мы уже знаем, что -า должен стоять после своего согласного, он не может просто «болтаться» как «าย». Также нельзя сделать и так: в этом случае второй слог будет содержать слишком много финальных согласных «นายม», а последний -า останется вовсе без начального согласного. Но должен признать, что этот приём работает не всегда, поэтому вам также потребуется умение распознавать слова в предложениях."
+    },
+    {
+      "type": "image",
+      "src": "images/p088_1.jpeg",
+      "alt": "Incorrect syllable segmentation of รอนายมา — wrong way to split the word"
+    },
+    {
+      "type": "image",
+      "src": "images/p088_2.jpeg",
+      "alt": "Another incorrect syllable segmentation of รอนายมา"
+    },
+    {
+      "type": "image",
+      "src": "images/p089_0.jpeg",
+      "alt": "Thai reading example: รอนายมา with syllable separation guide"
+    },
+    {
+      "type": "image",
+      "src": "images/p090_0.jpeg",
+      "alt": "Today's Recap section banner"
     },
     {
       "type": "heading",
@@ -144,12 +220,24 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "รอยแนวยาว" },
-        { "thai": "นามีรูงู" },
-        { "thai": "เรยาโลเล" },
-        { "thai": "ยามรอเวลา" },
-        { "thai": "ลองโยนแรงแรง" },
-        { "thai": "นารีนอนโรงงาน" }
+        {
+          "thai": "รอยแนวยาว"
+        },
+        {
+          "thai": "นามีรูงู"
+        },
+        {
+          "thai": "เรยาโลเล"
+        },
+        {
+          "thai": "ยามรอเวลา"
+        },
+        {
+          "thai": "ลองโยนแรงแรง"
+        },
+        {
+          "thai": "นารีนอนโรงงาน"
+        }
       ]
     },
     {

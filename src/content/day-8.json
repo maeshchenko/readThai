@@ -16,6 +16,11 @@
       "htmlRu": "Это последний набор согласных! Они ещё значительно реже тех, что были в предыдущей главе, и встречаются в основном в длинных словах, но знать их, конечно, всё равно необходимо!"
     },
     {
+      "type": "image",
+      "src": "images/p160_0.jpeg",
+      "alt": "Less Common Consonants: ฬ ฌ ฑ ท ฎ ฏ ฐ in regular, stylised, and cursive handwriting"
+    },
+    {
       "type": "track",
       "number": 62
     },
@@ -32,14 +37,38 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "มณฑล", "translit": "monton" },
-        { "thai": "กฎหมาย", "translit": "gòtmăai" },
-        { "thai": "ปรากฏ", "translit": "bpraagòt" },
-        { "thai": "ฐานะ", "translit": "tăaná" },
-        { "thai": "จุฬา", "translit": "jùlaa" },
-        { "thai": "เพชฌฆาต", "translit": "pétchákâat" },
-        { "thai": "พัฒนา", "translit": "púttánaa" },
-        { "thai": "บัณฑิต", "translit": "bundìt" }
+        {
+          "thai": "มณฑล",
+          "translit": "monton"
+        },
+        {
+          "thai": "กฎหมาย",
+          "translit": "gòtmăai"
+        },
+        {
+          "thai": "ปรากฏ",
+          "translit": "bpraagòt"
+        },
+        {
+          "thai": "ฐานะ",
+          "translit": "tăaná"
+        },
+        {
+          "thai": "จุฬา",
+          "translit": "jùlaa"
+        },
+        {
+          "thai": "เพชฌฆาต",
+          "translit": "pétchákâat"
+        },
+        {
+          "thai": "พัฒนา",
+          "translit": "púttánaa"
+        },
+        {
+          "thai": "บัณฑิต",
+          "translit": "bundìt"
+        }
       ]
     },
     {
@@ -61,15 +90,39 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["thai", "translit"],
+      "columns": [
+        "thai",
+        "translit"
+      ],
       "rows": [
-        { "thai": "ง", "translit": "ng" },
-        { "thai": "ม", "translit": "m" },
-        { "thai": "นณ", "translit": "n" },
-        { "thai": "ร", "translit": "r" },
-        { "thai": "ลฬ", "translit": "l" },
-        { "thai": "ยญ", "translit": "y" },
-        { "thai": "ว", "translit": "w" }
+        {
+          "thai": "ง",
+          "translit": "ng"
+        },
+        {
+          "thai": "ม",
+          "translit": "m"
+        },
+        {
+          "thai": "นณ",
+          "translit": "n"
+        },
+        {
+          "thai": "ร",
+          "translit": "r"
+        },
+        {
+          "thai": "ลฬ",
+          "translit": "l"
+        },
+        {
+          "thai": "ยญ",
+          "translit": "y"
+        },
+        {
+          "thai": "ว",
+          "translit": "w"
+        }
       ]
     },
     {
@@ -80,16 +133,45 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["thai", "translit"],
+      "columns": [
+        "thai",
+        "translit"
+      ],
       "rows": [
-        { "thai": "คฆ", "translit": "k" },
-        { "thai": "ทธฒฑ", "translit": "t" },
-        { "thai": "ชฌ", "translit": "ch" },
-        { "thai": "ซ", "translit": "s" },
-        { "thai": "พภ", "translit": "p" },
-        { "thai": "ฟ", "translit": "f" },
-        { "thai": "ฮ", "translit": "h" }
+        {
+          "thai": "คฆ",
+          "translit": "k"
+        },
+        {
+          "thai": "ทธฒฑ",
+          "translit": "t"
+        },
+        {
+          "thai": "ชฌ",
+          "translit": "ch"
+        },
+        {
+          "thai": "ซ",
+          "translit": "s"
+        },
+        {
+          "thai": "พภ",
+          "translit": "p"
+        },
+        {
+          "thai": "ฟ",
+          "translit": "f"
+        },
+        {
+          "thai": "ฮ",
+          "translit": "h"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p162_0.jpeg",
+      "alt": "Stroke order for less common consonants"
     },
     {
       "type": "heading",
@@ -99,15 +181,39 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["thai", "translit"],
+      "columns": [
+        "thai",
+        "translit"
+      ],
       "rows": [
-        { "thai": "ก", "translit": "g" },
-        { "thai": "จ", "translit": "j" },
-        { "thai": "ดฎ", "translit": "d" },
-        { "thai": "ตฏ", "translit": "dt" },
-        { "thai": "บ", "translit": "b" },
-        { "thai": "ป", "translit": "bp" },
-        { "thai": "อ", "translit": "-" }
+        {
+          "thai": "ก",
+          "translit": "g"
+        },
+        {
+          "thai": "จ",
+          "translit": "j"
+        },
+        {
+          "thai": "ดฎ",
+          "translit": "d"
+        },
+        {
+          "thai": "ตฏ",
+          "translit": "dt"
+        },
+        {
+          "thai": "บ",
+          "translit": "b"
+        },
+        {
+          "thai": "ป",
+          "translit": "bp"
+        },
+        {
+          "thai": "อ",
+          "translit": "-"
+        }
       ]
     },
     {
@@ -118,15 +224,39 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["thai", "translit"],
+      "columns": [
+        "thai",
+        "translit"
+      ],
       "rows": [
-        { "thai": "ข", "translit": "k˘" },
-        { "thai": "ถฐ", "translit": "t˘" },
-        { "thai": "ฉ", "translit": "ch˘" },
-        { "thai": "สศษ", "translit": "s˘" },
-        { "thai": "ผ", "translit": "p˘" },
-        { "thai": "ฝ", "translit": "f˘" },
-        { "thai": "ห", "translit": "h˘" }
+        {
+          "thai": "ข",
+          "translit": "k˘"
+        },
+        {
+          "thai": "ถฐ",
+          "translit": "t˘"
+        },
+        {
+          "thai": "ฉ",
+          "translit": "ch˘"
+        },
+        {
+          "thai": "สศษ",
+          "translit": "s˘"
+        },
+        {
+          "thai": "ผ",
+          "translit": "p˘"
+        },
+        {
+          "thai": "ฝ",
+          "translit": "f˘"
+        },
+        {
+          "thai": "ห",
+          "translit": "h˘"
+        }
       ]
     },
     {
@@ -136,9 +266,19 @@
       "textRu": "Звук тишины"
     },
     {
+      "type": "image",
+      "src": "images/p162_1.jpeg",
+      "alt": "The silent mark (การันต์) in standard, stylised, and cursive forms"
+    },
+    {
       "type": "paragraph",
       "html": "When Thais borrow words from other languages, sometimes we don't (or can't) pronounce all the consonants in the words but we want to preserve the original spellings. So what we do is 'kill off' unpronounced consonants by marking them with a silent mark (-์ ) called ไม้ทัณฑฆาต /mái tuntákâat/.",
       "htmlRu": "Когда тайцы заимствуют слова из других языков, иногда мы не произносим (или не можем произнести) все согласные в слове, но хотим сохранить оригинальное написание. Поэтому мы «убиваем» непроизносимые согласные, отмечая их знаком молчания (-์ ), который называется ไม้ทัณฑฆาต /mái tuntákâat/."
+    },
+    {
+      "type": "image",
+      "src": "images/p163_0.jpeg",
+      "alt": "Words with silent marks (การันต์): อาทิตย์, กอล์ฟ, อารมณ์, แชร์"
     },
     {
       "type": "heading",
@@ -161,15 +301,30 @@
       "htmlRu": "Знак молчания может также «убить» и предшествующий согласный:"
     },
     {
+      "type": "image",
+      "src": "images/p163_1.jpeg",
+      "alt": "More words with silent marks showing which consonant is silenced"
+    },
+    {
       "type": "paragraph",
       "html": "It doesn't matter whether there's a vowel — kill them all!",
       "htmlRu": "Неважно, есть ли там гласный, — убиваем всех!"
+    },
+    {
+      "type": "image",
+      "src": "images/p163_2.jpeg",
+      "alt": "Additional silent mark examples"
     },
     {
       "type": "heading",
       "level": 2,
       "text": "To cut the story short…",
       "textRu": "Если коротко…"
+    },
+    {
+      "type": "image",
+      "src": "images/p164_1.jpeg",
+      "alt": "Long and short vowel pairs: เล»เละ, แพ»แพะ, โป»โปะ, etc."
     },
     {
       "type": "paragraph",
@@ -204,6 +359,11 @@
       "htmlRu": "Вы могли заметить, что в этих сокращённых словах меняется тон. Помните? Если слог заканчивается кратким гласным, он МЁРТВЫЙ, а значит, сокращение гласного также влияет на тон."
     },
     {
+      "type": "image",
+      "src": "images/p164_2.jpeg",
+      "alt": "Additional vowel pair examples"
+    },
+    {
       "type": "rule",
       "html": "For เ-, แ- and -อ however, if there's a FINAL CONSONANT then this shortening mark (-็) \"ไม้ไต่คู้\" /mái dtàikóo/ will be used instead of -ะ. This mark goes over the initial consonant. It should be noted that the shortening mark -็ will never appear with a tone mark.",
       "htmlRu": "Однако для เ-, แ- и -อ, если в слоге есть ФИНАЛЬНЫЙ СОГЛАСНЫЙ, вместо -ะ используется сокращающий знак (-็) «ไม้ไต่คู้» /mái dtàikóo/. Этот знак ставится над начальным согласным. Следует отметить, что сокращающий знак -็ никогда не появляется вместе со знаком тона.",
@@ -217,18 +377,42 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "เลก" },
-        { "thai": "เล็ก" },
-        { "thai": "แพค" },
-        { "thai": "แพ็ค" },
-        { "thai": "นอก" },
-        { "thai": "น็อก" },
-        { "thai": "เจบ" },
-        { "thai": "เจ็บ" },
-        { "thai": "แขง" },
-        { "thai": "แข็ง" },
-        { "thai": "บอท" },
-        { "thai": "บ็อท" }
+        {
+          "thai": "เลก"
+        },
+        {
+          "thai": "เล็ก"
+        },
+        {
+          "thai": "แพค"
+        },
+        {
+          "thai": "แพ็ค"
+        },
+        {
+          "thai": "นอก"
+        },
+        {
+          "thai": "น็อก"
+        },
+        {
+          "thai": "เจบ"
+        },
+        {
+          "thai": "เจ็บ"
+        },
+        {
+          "thai": "แขง"
+        },
+        {
+          "thai": "แข็ง"
+        },
+        {
+          "thai": "บอท"
+        },
+        {
+          "thai": "บ็อท"
+        }
       ]
     },
     {
@@ -258,6 +442,21 @@
       "htmlRu": "Вы знаете ร как согласный низкого класса 1 [r], но на самом деле у него есть немало особенностей, на которые стоит обратить внимание. ร может выступать в роли гласного, менять звучание с [r] на что-то другое или вовсе не произноситься!"
     },
     {
+      "type": "image",
+      "src": "images/p165_0.jpeg",
+      "alt": "The character ร: forms and variations"
+    },
+    {
+      "type": "image",
+      "src": "images/p165_1.jpeg",
+      "alt": "ร writing examples"
+    },
+    {
+      "type": "image",
+      "src": "images/p165_2.jpeg",
+      "alt": "Additional ร character forms"
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Give it a go!",
@@ -283,10 +482,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "อาคาร" },
-        { "thai": "ควร" },
-        { "thai": "เณร" },
-        { "thai": "เพียร" }
+        {
+          "thai": "อาคาร"
+        },
+        {
+          "thai": "ควร"
+        },
+        {
+          "thai": "เณร"
+        },
+        {
+          "thai": "เพียร"
+        }
       ]
     },
     {
@@ -299,10 +506,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "มังกร" },
-        { "thai": "นคร" },
-        { "thai": "เกสร" },
-        { "thai": "จราจร" }
+        {
+          "thai": "มังกร"
+        },
+        {
+          "thai": "นคร"
+        },
+        {
+          "thai": "เกสร"
+        },
+        {
+          "thai": "จราจร"
+        }
       ]
     },
     {
@@ -315,10 +530,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "จักร" },
-        { "thai": "เพชร" },
-        { "thai": "บุตร" },
-        { "thai": "สมัคร" }
+        {
+          "thai": "จักร"
+        },
+        {
+          "thai": "เพชร"
+        },
+        {
+          "thai": "บุตร"
+        },
+        {
+          "thai": "สมัคร"
+        }
       ]
     },
     {
@@ -346,9 +569,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "เสร็จ" },
-        { "thai": "เศรษฐกิจ" },
-        { "thai": "ไซร้" }
+        {
+          "thai": "เสร็จ"
+        },
+        {
+          "thai": "เศรษฐกิจ"
+        },
+        {
+          "thai": "ไซร้"
+        }
       ]
     },
     {
@@ -361,10 +590,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ทราบ" },
-        { "thai": "ทราย" },
-        { "thai": "โทรม" },
-        { "thai": "ทรง" }
+        {
+          "thai": "ทราบ"
+        },
+        {
+          "thai": "ทราย"
+        },
+        {
+          "thai": "โทรม"
+        },
+        {
+          "thai": "ทรง"
+        }
       ]
     },
     {
@@ -377,10 +614,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "บริษัท" },
-        { "thai": "บริการ" },
-        { "thai": "บริเวณ" },
-        { "thai": "บริโภค" }
+        {
+          "thai": "บริษัท"
+        },
+        {
+          "thai": "บริการ"
+        },
+        {
+          "thai": "บริเวณ"
+        },
+        {
+          "thai": "บริโภค"
+        }
       ]
     },
     {
@@ -393,10 +638,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "จริง" },
-        { "thai": "สามารถ" },
-        { "thai": "ศีรษะ" },
-        { "thai": "กระยาสารท" }
+        {
+          "thai": "จริง"
+        },
+        {
+          "thai": "สามารถ"
+        },
+        {
+          "thai": "ศีรษะ"
+        },
+        {
+          "thai": "กระยาสารท"
+        }
       ]
     },
     {
@@ -425,9 +678,15 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "บรรทุก" },
-        { "thai": "กรรไกร" },
-        { "thai": "ภรรยา" }
+        {
+          "thai": "บรรทุก"
+        },
+        {
+          "thai": "กรรไกร"
+        },
+        {
+          "thai": "ภรรยา"
+        }
       ]
     },
     {
@@ -440,11 +699,29 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "กรรม" },
-        { "thai": "พรรค" },
-        { "thai": "ตรรกะ" },
-        { "thai": "ธรรมดา" }
+        {
+          "thai": "กรรม"
+        },
+        {
+          "thai": "พรรค"
+        },
+        {
+          "thai": "ตรรกะ"
+        },
+        {
+          "thai": "ธรรมดา"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p168_0.jpeg",
+      "alt": "Illustration: the four roles of ร — many sounds, disguise, vocalise, be quiet"
+    },
+    {
+      "type": "image",
+      "src": "images/p169_0.jpeg",
+      "alt": "Thai reading practice: text about การไหว้ (the wai greeting)"
     },
     {
       "type": "heading",

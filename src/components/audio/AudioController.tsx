@@ -4,7 +4,7 @@ import { fireEnded, getAudioElement, onTrackEnded, useAudio } from '@/lib/audio'
 import { chapters } from '@/lib/chapters'
 import { useProgressStore } from '@/lib/stores'
 
-const ARTWORK_SIZES = ['96x96', '192x192', '256x256', '384x384', '512x512']
+const ARTWORK_SIZES = ['192x192', '512x512']
 const ARTWORK_BASE = `${import.meta.env.BASE_URL}icons/`
 
 export function AudioController() {

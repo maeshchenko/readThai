@@ -16,6 +16,16 @@
       "htmlRu": "Следующие согласные встречаются нечасто, и их звучание идентично некоторым согласным, которые мы уже выучили (зачем нам несколько букв для одного звука? Увы, так сложилась орфография...). Каждая из них тоже принадлежит к определённому классу, и вы можете определить класс по звучанию (и присущему тону)."
     },
     {
+      "type": "image",
+      "src": "images/p148_0.jpeg",
+      "alt": "Less Common Consonants: ญ ณ ฆ ธ ภ ศ ษ in regular, stylised, and cursive handwriting"
+    },
+    {
+      "type": "image",
+      "src": "images/p150_0.jpeg",
+      "alt": "Stroke order for less common consonants ญ ณ ฆ ธ ภ ศ ษ"
+    },
+    {
       "type": "track",
       "number": 51
     },
@@ -29,9 +39,21 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หญิง", "translit": "/yĭng/", "meaning": "female" },
-        { "thai": "ใหญ่", "translit": "/yài/", "meaning": "big" },
-        { "thai": "หญ้า", "translit": "/yâa/", "meaning": "grass" }
+        {
+          "thai": "หญิง",
+          "translit": "/yĭng/",
+          "meaning": "female"
+        },
+        {
+          "thai": "ใหญ่",
+          "translit": "/yài/",
+          "meaning": "big"
+        },
+        {
+          "thai": "หญ้า",
+          "translit": "/yâa/",
+          "meaning": "grass"
+        }
       ]
     },
     {
@@ -47,18 +69,38 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เชิญ", "translit": "/chern/" },
-        { "thai": "รำคาญ", "translit": "/rumkaan/" },
-        { "thai": "เหรียญ", "translit": "/rĭan/", "meaning": "coin" }
+        {
+          "thai": "เชิญ",
+          "translit": "/chern/"
+        },
+        {
+          "thai": "รำคาญ",
+          "translit": "/rumkaan/"
+        },
+        {
+          "thai": "เหรียญ",
+          "translit": "/rĭan/",
+          "meaning": "coin"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "สำคัญ", "translit": "/sŭmkun/" },
-        { "thai": "กุญแจ", "translit": "/goo'njair/" },
-        { "thai": "บังเอิญ", "translit": "/bung-ern/", "meaning": "coincidence" }
+        {
+          "thai": "สำคัญ",
+          "translit": "/sŭmkun/"
+        },
+        {
+          "thai": "กุญแจ",
+          "translit": "/goo'njair/"
+        },
+        {
+          "thai": "บังเอิญ",
+          "translit": "/bung-ern/",
+          "meaning": "coincidence"
+        }
       ]
     },
     {
@@ -80,17 +122,39 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "ญี่ปุ่น" },
-        { "thai": "ฆ่า" },
-        { "thai": "ออฟฟิศ" },
-        { "thai": "เธอ" },
-        { "thai": "เมฆ" },
-        { "thai": "ธง" },
-        { "thai": "ภูเขา" },
-        { "thai": "เณร" },
-        { "thai": "ศาลา" },
-        { "thai": "คุณ" },
-        { "thai": "ภาษี" }
+        {
+          "thai": "ญี่ปุ่น"
+        },
+        {
+          "thai": "ฆ่า"
+        },
+        {
+          "thai": "ออฟฟิศ"
+        },
+        {
+          "thai": "เธอ"
+        },
+        {
+          "thai": "เมฆ"
+        },
+        {
+          "thai": "ธง"
+        },
+        {
+          "thai": "ภูเขา"
+        },
+        {
+          "thai": "เณร"
+        },
+        {
+          "thai": "ศาลา"
+        },
+        {
+          "thai": "คุณ"
+        },
+        {
+          "thai": "ภาษี"
+        }
       ]
     },
     {
@@ -101,7 +165,7 @@
     },
     {
       "type": "paragraph",
-      "html": "Take the word 'strengths' in English. Before and after 'e' there are so many consonant sounds, 'str' and 'ngths', in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in 'school', 'dust', 'crisps', the list goes on. If you see more than one consonant \u201Ccluttered\u201D together, they're a \u201Ccluster\u201D!",
+      "html": "Take the word 'strengths' in English. Before and after 'e' there are so many consonant sounds, 'str' and 'ngths', in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in 'school', 'dust', 'crisps', the list goes on. If you see more than one consonant “cluttered” together, they're a “cluster”!",
       "htmlRu": "Возьмём английское слово 'strengths'. До и после 'e' идёт целая вереница согласных звуков — 'str' и 'ngths', верно? Это и есть кластеры согласных. Кластер согласных — это последовательность согласных, произносимых слитно, без гласного между ними, как в 'school', 'dust', 'crisps' — примеров масса. Если вы видите несколько согласных, «скученных» вместе, — перед вами «кластер»!"
     },
     {
@@ -124,6 +188,11 @@
       ]
     },
     {
+      "type": "image",
+      "src": "images/p151_0.jpeg",
+      "alt": "Illustration: the word 'strengths' showing consonant clusters (cluttered consonants)"
+    },
+    {
       "type": "paragraph",
       "html": "So what are these exactly? Read on.",
       "htmlRu": "Так что же они собой представляют? Читайте дальше."
@@ -141,11 +210,29 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["", "ก", "ข", "ค", "พ", "ป", "ผ", "ต"],
+      "columns": [
+        "",
+        "ก",
+        "ข",
+        "ค",
+        "พ",
+        "ป",
+        "ผ",
+        "ต"
+      ],
       "rows": [
-        { "thai": "ร", "translit": "กร- / ขร- / คร- / พร- / ปร- / — / ตร-" },
-        { "thai": "ล", "translit": "กล- / ขล- / คล- / พล- / ปล- / ผล- / —" },
-        { "thai": "ว", "translit": "กว- / ขว- / คว- / — / — / — / —" }
+        {
+          "thai": "ร",
+          "translit": "กร- / ขร- / คร- / พร- / ปร- / — / ตร-"
+        },
+        {
+          "thai": "ล",
+          "translit": "กล- / ขล- / คล- / พล- / ปล- / ผล- / —"
+        },
+        {
+          "thai": "ว",
+          "translit": "กว- / ขว- / คว- / — / — / — / —"
+        }
       ]
     },
     {
@@ -172,21 +259,51 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "โกรธ" },
-        { "thai": "กลัว" },
-        { "thai": "แกว่ง" },
-        { "thai": "ขริบ" },
-        { "thai": "ขลาด" },
-        { "thai": "เขวี้ยง" },
-        { "thai": "ครับ" },
-        { "thai": "คลอง" },
-        { "thai": "ควาย" },
-        { "thai": "พระ" },
-        { "thai": "เพลง" },
-        { "thai": "ปรบ" },
-        { "thai": "ปลุก" },
-        { "thai": "ผลาญ" },
-        { "thai": "ตรวจ" }
+        {
+          "thai": "โกรธ"
+        },
+        {
+          "thai": "กลัว"
+        },
+        {
+          "thai": "แกว่ง"
+        },
+        {
+          "thai": "ขริบ"
+        },
+        {
+          "thai": "ขลาด"
+        },
+        {
+          "thai": "เขวี้ยง"
+        },
+        {
+          "thai": "ครับ"
+        },
+        {
+          "thai": "คลอง"
+        },
+        {
+          "thai": "ควาย"
+        },
+        {
+          "thai": "พระ"
+        },
+        {
+          "thai": "เพลง"
+        },
+        {
+          "thai": "ปรบ"
+        },
+        {
+          "thai": "ปลุก"
+        },
+        {
+          "thai": "ผลาญ"
+        },
+        {
+          "thai": "ตรวจ"
+        }
       ]
     },
     {
@@ -199,14 +316,34 @@
       "number": 55
     },
     {
+      "type": "image",
+      "src": "images/p153_0.jpeg",
+      "alt": "True consonant cluster examples"
+    },
+    {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "กลา", "translit": "/glaa/" },
-        { "thai": "กล่า", "translit": "/glàa/" },
-        { "thai": "กล้า", "translit": "/glâa/" },
-        { "thai": "กล๊า", "translit": "/gláa/" },
-        { "thai": "กล๋า", "translit": "/glăa/" }
+        {
+          "thai": "กลา",
+          "translit": "/glaa/"
+        },
+        {
+          "thai": "กล่า",
+          "translit": "/glàa/"
+        },
+        {
+          "thai": "กล้า",
+          "translit": "/glâa/"
+        },
+        {
+          "thai": "กล๊า",
+          "translit": "/gláa/"
+        },
+        {
+          "thai": "กล๋า",
+          "translit": "/glăa/"
+        }
       ]
     },
     {
@@ -216,10 +353,23 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["", "ฟ", "บ", "ช", "ท", "ด"],
+      "columns": [
+        "",
+        "ฟ",
+        "บ",
+        "ช",
+        "ท",
+        "ด"
+      ],
       "rows": [
-        { "thai": "ร", "translit": "ฟร- / บร- / ชร- / ทร- / ดร-" },
-        { "thai": "ล", "translit": "ฟล- / บล- / — / — / —" }
+        {
+          "thai": "ร",
+          "translit": "ฟร- / บร- / ชร- / ทร- / ดร-"
+        },
+        {
+          "thai": "ล",
+          "translit": "ฟล- / บล- / — / — / —"
+        }
       ]
     },
     {
@@ -230,19 +380,45 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ฟรี", "translit": "/free/" },
-        { "thai": "ทรู", "translit": "/troo/", "meaning": "true" },
-        { "thai": "ดรัก", "translit": "/drúk/", "meaning": "drug" },
-        { "thai": "บลิง", "translit": "/bling/" }
+        {
+          "thai": "ฟรี",
+          "translit": "/free/"
+        },
+        {
+          "thai": "ทรู",
+          "translit": "/troo/",
+          "meaning": "true"
+        },
+        {
+          "thai": "ดรัก",
+          "translit": "/drúk/",
+          "meaning": "drug"
+        },
+        {
+          "thai": "บลิง",
+          "translit": "/bling/"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เชรด", "translit": "/chràyt/", "meaning": "shred" },
-        { "thai": "ฟลาย", "translit": "/flaai/", "meaning": "fly" },
-        { "thai": "เบรค", "translit": "/bràyk/", "meaning": "brake" }
+        {
+          "thai": "เชรด",
+          "translit": "/chràyt/",
+          "meaning": "shred"
+        },
+        {
+          "thai": "ฟลาย",
+          "translit": "/flaai/",
+          "meaning": "fly"
+        },
+        {
+          "thai": "เบรค",
+          "translit": "/bràyk/",
+          "meaning": "brake"
+        }
       ]
     },
     {
@@ -291,6 +467,11 @@
       "number": 58
     },
     {
+      "type": "image",
+      "src": "images/p154_0.jpeg",
+      "alt": "False consonant cluster examples"
+    },
+    {
       "type": "rule",
       "html": "Silent ห – You already know this case. ห is not pronounced so it doesn't really make a consonant cluster.",
       "htmlRu": "Немая ห — этот случай вам уже знаком. ห не произносится, поэтому настоящего кластера согласных не образует.",
@@ -300,10 +481,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "หม้อ", "translit": "/môr/" },
-        { "thai": "หวี", "translit": "/wĕe/" },
-        { "thai": "โหล", "translit": "/lŏh/" },
-        { "thai": "แหย่", "translit": "/yàir/" }
+        {
+          "thai": "หม้อ",
+          "translit": "/môr/"
+        },
+        {
+          "thai": "หวี",
+          "translit": "/wĕe/"
+        },
+        {
+          "thai": "โหล",
+          "translit": "/lŏh/"
+        },
+        {
+          "thai": "แหย่",
+          "translit": "/yàir/"
+        }
       ]
     },
     {
@@ -316,10 +509,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เศร้า", "translit": "/sâo/" },
-        { "thai": "สร้าง", "translit": "/sâang/" },
-        { "thai": "สระ", "translit": "/sà/" },
-        { "thai": "ไซร้", "translit": "/sái/" }
+        {
+          "thai": "เศร้า",
+          "translit": "/sâo/"
+        },
+        {
+          "thai": "สร้าง",
+          "translit": "/sâang/"
+        },
+        {
+          "thai": "สระ",
+          "translit": "/sà/"
+        },
+        {
+          "thai": "ไซร้",
+          "translit": "/sái/"
+        }
       ]
     },
     {
@@ -332,11 +537,28 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ทราบ", "translit": "/sâap/" },
-        { "thai": "ทราย", "translit": "/saai/" },
-        { "thai": "ทรุด", "translit": "/sóo't/" },
-        { "thai": "ทรวง", "translit": "/suang/" }
+        {
+          "thai": "ทราบ",
+          "translit": "/sâap/"
+        },
+        {
+          "thai": "ทราย",
+          "translit": "/saai/"
+        },
+        {
+          "thai": "ทรุด",
+          "translit": "/sóo't/"
+        },
+        {
+          "thai": "ทรวง",
+          "translit": "/suang/"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p155_0.jpeg",
+      "alt": "Consonant cluster reading practice: words with true and false clusters"
     },
     {
       "type": "divider"
@@ -362,10 +584,30 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เขม่า", "translit": "/kàmào/", "meaning": "soot", "note": "NEVER ขเม่า" },
-        { "thai": "เกษียณ", "translit": "/gàsĭan/", "meaning": "retire", "note": "NEVER กเษียณ" },
-        { "thai": "กลับ", "translit": "/glùp/", "meaning": "return", "note": "NEVER กัลบ" },
-        { "thai": "พรุ่งนี้", "translit": "/prôo'ng-née/", "meaning": "tomorrow", "note": "NEVER พุ่รงนี้" }
+        {
+          "thai": "เขม่า",
+          "translit": "/kàmào/",
+          "meaning": "soot",
+          "note": "NEVER ขเม่า"
+        },
+        {
+          "thai": "เกษียณ",
+          "translit": "/gàsĭan/",
+          "meaning": "retire",
+          "note": "NEVER กเษียณ"
+        },
+        {
+          "thai": "กลับ",
+          "translit": "/glùp/",
+          "meaning": "return",
+          "note": "NEVER กัลบ"
+        },
+        {
+          "thai": "พรุ่งนี้",
+          "translit": "/prôo'ng-née/",
+          "meaning": "tomorrow",
+          "note": "NEVER พุ่รงนี้"
+        }
       ]
     },
     {
@@ -395,6 +637,11 @@
       "htmlRu": "(1 буква) Когда согласный стоит сам по себе — без гласного и без другого согласного рядом — скорее всего, его нужно читать с гласным звуком [-a]. Это же объясняет, как произносить псевдокластеры!"
     },
     {
+      "type": "image",
+      "src": "images/p156_0.jpeg",
+      "alt": "False cluster pronunciation: อโศก, นนทบุรี, ขนม with highlighted sounds"
+    },
+    {
       "type": "track",
       "number": 60
     },
@@ -402,6 +649,11 @@
       "type": "paragraph",
       "html": "One more point, in many compound words (words which are made by combining 2 or more words), the final consonant(s) of the first word may be reused to create an extra syllable with an unstressed [-a] vowel sound, and creates a linking syllable in between the two component words. Look at the examples below to see what I mean:",
       "htmlRu": "Ещё один момент: во многих составных словах (образованных соединением двух и более слов) конечный согласный первого слова может использоваться повторно, формируя дополнительный слог с безударным гласным [-a] и создавая связующий слог между двумя компонентами. Посмотрите на примеры ниже, чтобы понять, что я имею в виду:"
+    },
+    {
+      "type": "image",
+      "src": "images/p156_1.jpeg",
+      "alt": "Cluster pronunciation: สุขภาพ, ผลไม้, จักรยาน with highlighted cluster sounds"
     },
     {
       "type": "paragraph",
@@ -427,7 +679,9 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        { "thai": "อากาศแปรปรวนทำให้เกิดคลื่นลมในทะเลพัดกระหน่ำเกินกว่าปรกติ เรือขนาดย่อมควรกักตุนเสบียงไว้จากตลาดแล้วรอจนกว่าพายุสงบ ไม่สร้างความตระหนกตกใจให้ใครเพราะอาจกระทบต่อการเติบโตของธุรกิจในชุมชนประมง" }
+        {
+          "thai": "อากาศแปรปรวนทำให้เกิดคลื่นลมในทะเลพัดกระหน่ำเกินกว่าปรกติ เรือขนาดย่อมควรกักตุนเสบียงไว้จากตลาดแล้วรอจนกว่าพายุสงบ ไม่สร้างความตระหนกตกใจให้ใครเพราะอาจกระทบต่อการเติบโตของธุรกิจในชุมชนประมง"
+        }
       ]
     },
     {

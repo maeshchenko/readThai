@@ -59,8 +59,6 @@ const SPLASH_TARGETS = [
   { name: 'iphone-x', w: 1125, h: 2436 },
   { name: 'iphone-13', w: 1170, h: 2532 },
   { name: 'iphone-15-pro-max', w: 1290, h: 2796 },
-  { name: 'ipad', w: 1536, h: 2048 },
-  { name: 'ipad-pro-12', w: 2048, h: 2732 },
 ]
 
 const splashSvg = (w, h, dark) => {

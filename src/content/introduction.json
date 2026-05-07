@@ -54,14 +54,29 @@
       "htmlRu": "Типичный тайский слог состоит из 2–4 компонентов: начальный согласный (или кластер согласных) и гласный. Некоторые слоги также содержат финальный согласный и/или знак тона:"
     },
     {
+      "type": "image",
+      "src": "images/p008_2.jpeg",
+      "alt": "Anatomy of Thai word บ้าน (bâan): initial consonant บ, tone mark ้, vowel า, final consonant น"
+    },
+    {
       "type": "paragraph",
       "html": "In Thai script, vowels aren't always located after initial consonants. They may occur in front of, after, above, underneath, or enclosing the initial consonant(s) of the syllable. In each of the examples below, \"ก\" is a consonant and the remaining symbols are vowels. Note how each vowel's position differs:",
       "htmlRu": "В тайской письменности гласные не всегда стоят после начальных согласных. Они могут располагаться перед, после, над, под или вокруг начального согласного (согласных) слога. В каждом из примеров ниже «ก» — это согласный, а остальные символы — гласные. Обратите внимание, как различается позиция каждого гласного:"
     },
     {
+      "type": "image",
+      "src": "images/p008_0.jpeg",
+      "alt": "Thai vowel positions: front (ไก), back (กะ), above (กี), underneath (กุ), and enclosing (เกีย)"
+    },
+    {
       "type": "paragraph",
       "html": "One point worth mentioning: while front vowels and some enclosing vowels are placed in front of the initial consonants, it doesn't mean they're pronounced before the initial consonants. Don't think of Thai writing in the linear fashion, think of Thai vowels as clip-on accessories.",
       "htmlRu": "Важный момент: хотя препозитивные гласные и некоторые «обрамляющие» гласные пишутся перед начальным согласным, это не значит, что они произносятся до него. Не воспринимайте тайское письмо линейно — думайте о тайских гласных как о навесных аксессуарах."
+    },
+    {
+      "type": "image",
+      "src": "images/p008_1.jpeg",
+      "alt": "How consonant and vowel combine: ก /g/ + ไ- /-ai/ = ไก /gai/"
     },
     {
       "type": "paragraph",

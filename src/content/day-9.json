@@ -22,19 +22,62 @@
       "htmlRu": "Тайские цифры работают точно так же, как и в индо-арабской системе (той самой системе счисления, которой вы пользуетесь каждый день — 1234567890). В наши дни они используются не так часто, но игнорировать их всё же не стоит. Любопытно, что цифра 7 выглядит в точности как знак высокого тона (-๊), цифра 8 совпадает со знаком сокращения (-็), а ноль — это просто кружок."
     },
     {
+      "type": "image",
+      "src": "images/p172_0.jpeg",
+      "alt": "Thai numerals ๐-๙ in regular, stylised, and cursive handwriting"
+    },
+    {
+      "type": "image",
+      "src": "images/p172_1.jpeg",
+      "alt": "Thai and Arabic numeral comparison"
+    },
+    {
       "type": "thaiTable",
-      "columns": ["Thai", "Arabic"],
+      "columns": [
+        "Thai",
+        "Arabic"
+      ],
       "rows": [
-        { "thai": "๑", "translit": "1" },
-        { "thai": "๒", "translit": "2" },
-        { "thai": "๓", "translit": "3" },
-        { "thai": "๔", "translit": "4" },
-        { "thai": "๕", "translit": "5" },
-        { "thai": "๖", "translit": "6" },
-        { "thai": "๗", "translit": "7" },
-        { "thai": "๘", "translit": "8" },
-        { "thai": "๙", "translit": "9" },
-        { "thai": "๐", "translit": "0" }
+        {
+          "thai": "๑",
+          "translit": "1"
+        },
+        {
+          "thai": "๒",
+          "translit": "2"
+        },
+        {
+          "thai": "๓",
+          "translit": "3"
+        },
+        {
+          "thai": "๔",
+          "translit": "4"
+        },
+        {
+          "thai": "๕",
+          "translit": "5"
+        },
+        {
+          "thai": "๖",
+          "translit": "6"
+        },
+        {
+          "thai": "๗",
+          "translit": "7"
+        },
+        {
+          "thai": "๘",
+          "translit": "8"
+        },
+        {
+          "thai": "๙",
+          "translit": "9"
+        },
+        {
+          "thai": "๐",
+          "translit": "0"
+        }
       ]
     },
     {
@@ -97,13 +140,34 @@
       "number": 73
     },
     {
+      "type": "image",
+      "src": "images/p173_0.jpeg",
+      "alt": "Words with อย- pattern: อย่า, อยู่, อย่าง, อยาก with transliterations"
+    },
+    {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อย่า", "translit": "/yàa/", "meaning": "Don't!" },
-        { "thai": "อยู่", "translit": "/yòo/", "meaning": "to be at" },
-        { "thai": "อย่าง", "translit": "/yàang/", "meaning": "like..., kind" },
-        { "thai": "อยาก", "translit": "/yàak/", "meaning": "want" }
+        {
+          "thai": "อย่า",
+          "translit": "/yàa/",
+          "meaning": "Don't!"
+        },
+        {
+          "thai": "อยู่",
+          "translit": "/yòo/",
+          "meaning": "to be at"
+        },
+        {
+          "thai": "อย่าง",
+          "translit": "/yàang/",
+          "meaning": "like..., kind"
+        },
+        {
+          "thai": "อยาก",
+          "translit": "/yàak/",
+          "meaning": "want"
+        }
       ]
     },
     {
@@ -125,9 +189,21 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ไทย", "translit": "/tai/", "meaning": "Thai" },
-        { "thai": "พุทธ", "translit": "/póo't/", "meaning": "Buddhist" },
-        { "thai": "พรหมลิขิต", "translit": "/promlíkìt/", "meaning": "destiny" }
+        {
+          "thai": "ไทย",
+          "translit": "/tai/",
+          "meaning": "Thai"
+        },
+        {
+          "thai": "พุทธ",
+          "translit": "/póo't/",
+          "meaning": "Buddhist"
+        },
+        {
+          "thai": "พรหมลิขิต",
+          "translit": "/promlíkìt/",
+          "meaning": "destiny"
+        }
       ]
     },
     {
@@ -149,27 +225,63 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ชาติ", "translit": "/châat/", "meaning": "nation" },
-        { "thai": "ญาติ", "translit": "/yâat/", "meaning": "relatives" },
-        { "thai": "ประวัติ", "translit": "/bpràwùt/", "meaning": "history" }
+        {
+          "thai": "ชาติ",
+          "translit": "/châat/",
+          "meaning": "nation"
+        },
+        {
+          "thai": "ญาติ",
+          "translit": "/yâat/",
+          "meaning": "relatives"
+        },
+        {
+          "thai": "ประวัติ",
+          "translit": "/bpràwùt/",
+          "meaning": "history"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อัตโนมัติ", "translit": "/ùt-dtànohmút/", "meaning": "automatic" },
-        { "thai": "สมบัติ", "translit": "/sŏmbùt/", "meaning": "treasure" },
-        { "thai": "ธาตุ", "translit": "/tâat/", "meaning": "element" }
+        {
+          "thai": "อัตโนมัติ",
+          "translit": "/ùt-dtànohmút/",
+          "meaning": "automatic"
+        },
+        {
+          "thai": "สมบัติ",
+          "translit": "/sŏmbùt/",
+          "meaning": "treasure"
+        },
+        {
+          "thai": "ธาตุ",
+          "translit": "/tâat/",
+          "meaning": "element"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ปฏิบัติ", "translit": "/bpà-dtìbùt/", "meaning": "behave, act" },
-        { "thai": "สมมุติ", "translit": "/sŏmmóo't/", "meaning": "suppose" },
-        { "thai": "เหตุ", "translit": "/hàyt/", "meaning": "cause" }
+        {
+          "thai": "ปฏิบัติ",
+          "translit": "/bpà-dtìbùt/",
+          "meaning": "behave, act"
+        },
+        {
+          "thai": "สมมุติ",
+          "translit": "/sŏmmóo't/",
+          "meaning": "suppose"
+        },
+        {
+          "thai": "เหตุ",
+          "translit": "/hàyt/",
+          "meaning": "cause"
+        }
       ]
     },
     {
@@ -181,18 +293,42 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ภูมิใจ", "translit": "/poomjai/", "meaning": "proud" },
-        { "thai": "พยาธิ", "translit": "/páyâat/", "meaning": "parasite" },
-        { "thai": "เมรุ", "translit": "/mayn/", "meaning": "crematory" }
+        {
+          "thai": "ภูมิใจ",
+          "translit": "/poomjai/",
+          "meaning": "proud"
+        },
+        {
+          "thai": "พยาธิ",
+          "translit": "/páyâat/",
+          "meaning": "parasite"
+        },
+        {
+          "thai": "เมรุ",
+          "translit": "/mayn/",
+          "meaning": "crematory"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ขัดสมาธิ", "translit": "/kùtsàmàat/", "meaning": "sit cross-legged" },
-        { "thai": "จักรพรรดิ", "translit": "/jùkgràpút/", "meaning": "emperor" },
-        { "thai": "วุฒิ", "translit": "/wóo't/", "meaning": "qualification" }
+        {
+          "thai": "ขัดสมาธิ",
+          "translit": "/kùtsàmàat/",
+          "meaning": "sit cross-legged"
+        },
+        {
+          "thai": "จักรพรรดิ",
+          "translit": "/jùkgràpút/",
+          "meaning": "emperor"
+        },
+        {
+          "thai": "วุฒิ",
+          "translit": "/wóo't/",
+          "meaning": "qualification"
+        }
       ]
     },
     {
@@ -214,18 +350,42 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ประโยชน์", "translit": "/bpràyòht/", "meaning": "benefit" },
-        { "thai": "ประวัติ", "translit": "/bpràwùt/", "meaning": "history" },
-        { "thai": "ประมาท", "translit": "/bpràmàat/", "meaning": "careless" }
+        {
+          "thai": "ประโยชน์",
+          "translit": "/bpràyòht/",
+          "meaning": "benefit"
+        },
+        {
+          "thai": "ประวัติ",
+          "translit": "/bpràwùt/",
+          "meaning": "history"
+        },
+        {
+          "thai": "ประมาท",
+          "translit": "/bpràmàat/",
+          "meaning": "careless"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ตำรวจ", "translit": "/dtumrùat/", "meaning": "police" },
-        { "thai": "สำเร็จ", "translit": "/sŭmrèt/", "meaning": "succeed" },
-        { "thai": "บุรุษ", "translit": "/bùròo't/", "meaning": "gentleman" }
+        {
+          "thai": "ตำรวจ",
+          "translit": "/dtumrùat/",
+          "meaning": "police"
+        },
+        {
+          "thai": "สำเร็จ",
+          "translit": "/sŭmrèt/",
+          "meaning": "succeed"
+        },
+        {
+          "thai": "บุรุษ",
+          "translit": "/bùròo't/",
+          "meaning": "gentleman"
+        }
       ]
     },
     {
@@ -244,12 +404,34 @@
       "number": 77
     },
     {
+      "type": "image",
+      "src": "images/p175_0.jpeg",
+      "alt": "Special syllable ฤ (/rúe'/, /rí/ or /rer/) in standard, stylised, and cursive"
+    },
+    {
+      "type": "image",
+      "src": "images/p175_1.jpeg",
+      "alt": "Additional special syllables and irregular spelling examples"
+    },
+    {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "พฤหัสบดี", "translit": "/párúe'hùtsàbàdee/", "meaning": "Thursday" },
-        { "thai": "คฤหาสน์", "translit": "/kárúe'hàat/", "meaning": "mansion" },
-        { "thai": "ฤดู", "translit": "/rúe'doo/", "meaning": "season" }
+        {
+          "thai": "พฤหัสบดี",
+          "translit": "/párúe'hùtsàbàdee/",
+          "meaning": "Thursday"
+        },
+        {
+          "thai": "คฤหาสน์",
+          "translit": "/kárúe'hàat/",
+          "meaning": "mansion"
+        },
+        {
+          "thai": "ฤดู",
+          "translit": "/rúe'doo/",
+          "meaning": "season"
+        }
       ]
     },
     {
@@ -261,10 +443,27 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ทฤษฎี", "translit": "/trítsàdee/", "meaning": "theory" },
-        { "thai": "อังกฤษ", "translit": "/anggrìt/", "meaning": "English" },
-        { "thai": "ฤกษ์", "translit": "/rêrk/", "meaning": "auspicious occasion" }
+        {
+          "thai": "ทฤษฎี",
+          "translit": "/trítsàdee/",
+          "meaning": "theory"
+        },
+        {
+          "thai": "อังกฤษ",
+          "translit": "/anggrìt/",
+          "meaning": "English"
+        },
+        {
+          "thai": "ฤกษ์",
+          "translit": "/rêrk/",
+          "meaning": "auspicious occasion"
+        }
       ]
+    },
+    {
+      "type": "image",
+      "src": "images/p176_0.jpeg",
+      "alt": "The repetition mark ๆ (máí yamók) in standard, stylised, and cursive forms"
     },
     {
       "type": "heading",
@@ -323,10 +522,26 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อื่นๆ", "translit": "/ùen-ùen/", "meaning": "others" },
-        { "thai": "แดงๆ", "translit": "/dang-dang/", "meaning": "reddish" },
-        { "thai": "ช้าๆ", "translit": "/cháa-cháa/", "meaning": "slowly" },
-        { "thai": "ทุกๆคน", "translit": "/tóo'k-tóo'k kon/", "meaning": "everybody" }
+        {
+          "thai": "อื่นๆ",
+          "translit": "/ùen-ùen/",
+          "meaning": "others"
+        },
+        {
+          "thai": "แดงๆ",
+          "translit": "/dang-dang/",
+          "meaning": "reddish"
+        },
+        {
+          "thai": "ช้าๆ",
+          "translit": "/cháa-cháa/",
+          "meaning": "slowly"
+        },
+        {
+          "thai": "ทุกๆคน",
+          "translit": "/tóo'k-tóo'k kon/",
+          "meaning": "everybody"
+        }
       ]
     },
     {
@@ -348,6 +563,16 @@
     {
       "type": "track",
       "number": 80
+    },
+    {
+      "type": "image",
+      "src": "images/p177_0.jpeg",
+      "alt": "Thai reading practice text"
+    },
+    {
+      "type": "image",
+      "src": "images/p177_1.jpeg",
+      "alt": "Thai reading practice: handwritten-style text about Thai food"
     },
     {
       "type": "divider"

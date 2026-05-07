@@ -53,30 +53,66 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "เกา", "translit": "gao" },
-        { "thai": "กิน", "translit": "gin" },
-        { "thai": "กลัว", "translit": "glua" },
-        { "thai": "แกง", "translit": "gang" }
+        {
+          "thai": "เกา",
+          "translit": "gao"
+        },
+        {
+          "thai": "กิน",
+          "translit": "gin"
+        },
+        {
+          "thai": "กลัว",
+          "translit": "glua"
+        },
+        {
+          "thai": "แกง",
+          "translit": "gang"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ชน", "translit": "chon" },
-        { "thai": "ชาม", "translit": "chaam" },
-        { "thai": "เชิญ", "translit": "chern" },
-        { "thai": "ชาย", "translit": "chaai" }
+        {
+          "thai": "ชน",
+          "translit": "chon"
+        },
+        {
+          "thai": "ชาม",
+          "translit": "chaam"
+        },
+        {
+          "thai": "เชิญ",
+          "translit": "chern"
+        },
+        {
+          "thai": "ชาย",
+          "translit": "chaai"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "จีน", "translit": "jeen" },
-        { "thai": "จำ", "translit": "jum" },
-        { "thai": "จอง", "translit": "jorng" },
-        { "thai": "เจอ", "translit": "jer" }
+        {
+          "thai": "จีน",
+          "translit": "jeen"
+        },
+        {
+          "thai": "จำ",
+          "translit": "jum"
+        },
+        {
+          "thai": "จอง",
+          "translit": "jorng"
+        },
+        {
+          "thai": "เจอ",
+          "translit": "jer"
+        }
       ]
     },
     {
@@ -92,10 +128,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "งาน", "translit": "ngaan" },
-        { "thai": "เงิน", "translit": "ngern" },
-        { "thai": "เงา", "translit": "ngao" },
-        { "thai": "งู", "translit": "ngoo" }
+        {
+          "thai": "งาน",
+          "translit": "ngaan"
+        },
+        {
+          "thai": "เงิน",
+          "translit": "ngern"
+        },
+        {
+          "thai": "เงา",
+          "translit": "ngao"
+        },
+        {
+          "thai": "งู",
+          "translit": "ngoo"
+        }
       ]
     },
     {
@@ -111,20 +159,44 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ตา", "translit": "dtaa" },
-        { "thai": "ตัว", "translit": "dtua" },
-        { "thai": "ตาม", "translit": "dtaam" },
-        { "thai": "ตอ", "translit": "dtor" }
+        {
+          "thai": "ตา",
+          "translit": "dtaa"
+        },
+        {
+          "thai": "ตัว",
+          "translit": "dtua"
+        },
+        {
+          "thai": "ตาม",
+          "translit": "dtaam"
+        },
+        {
+          "thai": "ตอ",
+          "translit": "dtor"
+        }
       ]
     },
     {
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "ไป", "translit": "bpai" },
-        { "thai": "ปลา", "translit": "bplaa" },
-        { "thai": "เปีย", "translit": "bpia" },
-        { "thai": "แปรง", "translit": "bprang" }
+        {
+          "thai": "ไป",
+          "translit": "bpai"
+        },
+        {
+          "thai": "ปลา",
+          "translit": "bplaa"
+        },
+        {
+          "thai": "เปีย",
+          "translit": "bpia"
+        },
+        {
+          "thai": "แปรง",
+          "translit": "bprang"
+        }
       ]
     },
     {
@@ -138,11 +210,24 @@
     },
     {
       "type": "thaiTable",
-      "columns": ["Type", "Pronunciation", ""],
+      "columns": [
+        "Type",
+        "Pronunciation",
+        ""
+      ],
       "rows": [
-        { "thai": "rolled [r]", "translit": "rrrian / arrrai / rrrohng-rrram / rrruai" },
-        { "thai": "tapped [r]", "translit": "rian / arai / rohng-ram / ruai" },
-        { "thai": "lazy [r]", "translit": "lian / alai / lohng-lam / luai" }
+        {
+          "thai": "rolled [r]",
+          "translit": "rrrian / arrrai / rrrohng-rrram / rrruai"
+        },
+        {
+          "thai": "tapped [r]",
+          "translit": "rian / arai / rohng-ram / ruai"
+        },
+        {
+          "thai": "lazy [r]",
+          "translit": "lian / alai / lohng-lam / luai"
+        }
       ]
     },
     {
@@ -285,40 +370,142 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "มัน", "translit": "mun" },
-        { "thai": "จะ", "translit": "ja" },
-        { "thai": "ใคร", "translit": "krai" },
-        { "thai": "เรา", "translit": "rao" },
-        { "thai": "เป็น", "translit": "bpen" },
-        { "thai": "เละ", "translit": "lay'" },
-        { "thai": "ดิน", "translit": "din" },
-        { "thai": "ซิ", "translit": "si" },
-        { "thai": "เมีย", "translit": "mia" },
-        { "thai": "คน", "translit": "kon" },
-        { "thai": "โชะ", "translit": "cho'" },
-        { "thai": "จุ", "translit": "ju" },
-        { "thai": "ทัวร์", "translit": "tua" },
-        { "thai": "คุย", "translit": "kui" },
-        { "thai": "ตาล", "translit": "dtaan" },
-        { "thai": "เซ", "translit": "say" },
-        { "thai": "เมด", "translit": "mayt" },
-        { "thai": "กี่", "translit": "gee" },
-        { "thai": "โลก", "translit": "lohk" },
-        { "thai": "โดย", "translit": "doey" },
-        { "thai": "สูบ", "translit": "soop" },
-        { "thai": "คุณ", "translit": "koo'n" },
-        { "thai": "แบบ", "translit": "bap" },
-        { "thai": "แม่", "translit": "mair" },
-        { "thai": "แงะ", "translit": "ngair'" },
-        { "thai": "เหิม", "translit": "herm" },
-        { "thai": "เปรอะ", "translit": "bprer'" },
-        { "thai": "นอน", "translit": "norn" },
-        { "thai": "เกาะ", "translit": "gor'" },
-        { "thai": "คอย", "translit": "koi" },
-        { "thai": "เลย", "translit": "leui" },
-        { "thai": "รึ", "translit": "rue'" },
-        { "thai": "เกลือ", "translit": "gluea" },
-        { "thai": "มือ", "translit": "mue" }
+        {
+          "thai": "มัน",
+          "translit": "mun"
+        },
+        {
+          "thai": "จะ",
+          "translit": "ja"
+        },
+        {
+          "thai": "ใคร",
+          "translit": "krai"
+        },
+        {
+          "thai": "เรา",
+          "translit": "rao"
+        },
+        {
+          "thai": "เป็น",
+          "translit": "bpen"
+        },
+        {
+          "thai": "เละ",
+          "translit": "lay'"
+        },
+        {
+          "thai": "ดิน",
+          "translit": "din"
+        },
+        {
+          "thai": "ซิ",
+          "translit": "si"
+        },
+        {
+          "thai": "เมีย",
+          "translit": "mia"
+        },
+        {
+          "thai": "คน",
+          "translit": "kon"
+        },
+        {
+          "thai": "โชะ",
+          "translit": "cho'"
+        },
+        {
+          "thai": "จุ",
+          "translit": "ju"
+        },
+        {
+          "thai": "ทัวร์",
+          "translit": "tua"
+        },
+        {
+          "thai": "คุย",
+          "translit": "kui"
+        },
+        {
+          "thai": "ตาล",
+          "translit": "dtaan"
+        },
+        {
+          "thai": "เซ",
+          "translit": "say"
+        },
+        {
+          "thai": "เมด",
+          "translit": "mayt"
+        },
+        {
+          "thai": "กี่",
+          "translit": "gee"
+        },
+        {
+          "thai": "โลก",
+          "translit": "lohk"
+        },
+        {
+          "thai": "โดย",
+          "translit": "doey"
+        },
+        {
+          "thai": "สูบ",
+          "translit": "soop"
+        },
+        {
+          "thai": "คุณ",
+          "translit": "koo'n"
+        },
+        {
+          "thai": "แบบ",
+          "translit": "bap"
+        },
+        {
+          "thai": "แม่",
+          "translit": "mair"
+        },
+        {
+          "thai": "แงะ",
+          "translit": "ngair'"
+        },
+        {
+          "thai": "เหิม",
+          "translit": "herm"
+        },
+        {
+          "thai": "เปรอะ",
+          "translit": "bprer'"
+        },
+        {
+          "thai": "นอน",
+          "translit": "norn"
+        },
+        {
+          "thai": "เกาะ",
+          "translit": "gor'"
+        },
+        {
+          "thai": "คอย",
+          "translit": "koi"
+        },
+        {
+          "thai": "เลย",
+          "translit": "leui"
+        },
+        {
+          "thai": "รึ",
+          "translit": "rue'"
+        },
+        {
+          "thai": "เกลือ",
+          "translit": "gluea"
+        },
+        {
+          "thai": "มือ",
+          "translit": "mue"
+        }
       ]
     },
     {
@@ -326,6 +513,11 @@
       "level": 2,
       "text": "Tones",
       "textRu": "Тоны"
+    },
+    {
+      "type": "image",
+      "src": "images/p075_0.jpeg",
+      "alt": "Diagram of the five Thai tones: mid (gray), low (yellow), falling (green), high (red), rising (blue)"
     },
     {
       "type": "paragraph",
@@ -345,10 +537,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อา", "translit": "aa" },
-        { "thai": "ดี", "translit": "dee" },
-        { "thai": "แพง", "translit": "pang" },
-        { "thai": "ไทย", "translit": "tai" }
+        {
+          "thai": "อา",
+          "translit": "aa"
+        },
+        {
+          "thai": "ดี",
+          "translit": "dee"
+        },
+        {
+          "thai": "แพง",
+          "translit": "pang"
+        },
+        {
+          "thai": "ไทย",
+          "translit": "tai"
+        }
       ]
     },
     {
@@ -360,10 +564,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อ่า", "translit": "àa" },
-        { "thai": "หนุ่ม", "translit": "nòo'm" },
-        { "thai": "ก่อน", "translit": "gòrn" },
-        { "thai": "สิบ", "translit": "sìp" }
+        {
+          "thai": "อ่า",
+          "translit": "àa"
+        },
+        {
+          "thai": "หนุ่ม",
+          "translit": "nòo'm"
+        },
+        {
+          "thai": "ก่อน",
+          "translit": "gòrn"
+        },
+        {
+          "thai": "สิบ",
+          "translit": "sìp"
+        }
       ]
     },
     {
@@ -375,10 +591,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อ้า", "translit": "âa" },
-        { "thai": "พ่อ", "translit": "pôr" },
-        { "thai": "เฟื่อง", "translit": "fûeang" },
-        { "thai": "เหล้า", "translit": "lâo" }
+        {
+          "thai": "อ้า",
+          "translit": "âa"
+        },
+        {
+          "thai": "พ่อ",
+          "translit": "pôr"
+        },
+        {
+          "thai": "เฟื่อง",
+          "translit": "fûeang"
+        },
+        {
+          "thai": "เหล้า",
+          "translit": "lâo"
+        }
       ]
     },
     {
@@ -390,10 +618,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อ๊า", "translit": "áa" },
-        { "thai": "ชั้น", "translit": "chún" },
-        { "thai": "นี้", "translit": "née" },
-        { "thai": "ร้าย", "translit": "ráai" }
+        {
+          "thai": "อ๊า",
+          "translit": "áa"
+        },
+        {
+          "thai": "ชั้น",
+          "translit": "chún"
+        },
+        {
+          "thai": "นี้",
+          "translit": "née"
+        },
+        {
+          "thai": "ร้าย",
+          "translit": "ráai"
+        }
       ]
     },
     {
@@ -405,10 +645,22 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "อ๋า", "translit": "ăa" },
-        { "thai": "สวย", "translit": "sŭai" },
-        { "thai": "แขน", "translit": "kăn" },
-        { "thai": "สอง", "translit": "sŏrng" }
+        {
+          "thai": "อ๋า",
+          "translit": "ăa"
+        },
+        {
+          "thai": "สวย",
+          "translit": "sŭai"
+        },
+        {
+          "thai": "แขน",
+          "translit": "kăn"
+        },
+        {
+          "thai": "สอง",
+          "translit": "sŏrng"
+        }
       ]
     },
     {
@@ -424,11 +676,31 @@
       "type": "examples",
       "layout": "grid",
       "items": [
-        { "thai": "นา", "translit": "/naa/", "meaning": "rice paddy field" },
-        { "thai": "หน่า", "translit": "/nàa/", "meaning": "from /nóinàa/, custard apple" },
-        { "thai": "หน้า", "translit": "/nâa/", "meaning": "face, next" },
-        { "thai": "น้า", "translit": "/náa/", "meaning": "uncle or aunt (mother's younger sibling)" },
-        { "thai": "หนา", "translit": "/năa/", "meaning": "thick" }
+        {
+          "thai": "นา",
+          "translit": "/naa/",
+          "meaning": "rice paddy field"
+        },
+        {
+          "thai": "หน่า",
+          "translit": "/nàa/",
+          "meaning": "from /nóinàa/, custard apple"
+        },
+        {
+          "thai": "หน้า",
+          "translit": "/nâa/",
+          "meaning": "face, next"
+        },
+        {
+          "thai": "น้า",
+          "translit": "/náa/",
+          "meaning": "uncle or aunt (mother's younger sibling)"
+        },
+        {
+          "thai": "หนา",
+          "translit": "/năa/",
+          "meaning": "thick"
+        }
       ]
     }
   ],
