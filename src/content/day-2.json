@@ -21,6 +21,11 @@
       "alt": "Low Class Consonants Group 2: ค ท ช ซ พ ฟ ฮ in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p094_0.jpeg",
+      "alt": "Stroke order for writing ค ท ช ซ พ ฟ ฮ"
+    },
+    {
       "type": "track",
       "number": 13
     },
@@ -87,18 +92,8 @@
       "htmlRu": "Вы что-нибудь услышали в конце каждого слова? Вот именно — ничего! И в результате того, что конечные согласные не отпускаются, некоторые из них звучат АБСОЛЮТНО одинаково: и พ, и ฟ звучат как [-p], а согласные ท, ช и ซ — все как [-t]!"
     },
     {
-      "type": "image",
-      "src": "images/p093_0.jpeg",
-      "alt": "Attention section banner"
-    },
-    {
-      "type": "image",
-      "src": "images/p094_0.jpeg",
-      "alt": "Stroke order for writing ค ท ช ซ พ ฟ ฮ"
-    },
-    {
       "type": "callout",
-      "variant": "note",
+      "variant": "warning",
       "html": "ฮ never occurs at the end of a syllable",
       "htmlRu": "ฮ никогда не встречается в конце слога"
     },
@@ -208,6 +203,11 @@
       "alt": "Long vowels: -ำ ไ- ใ- เ-า เ-ย in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p095_0.jpeg",
+      "alt": "Stroke order for writing vowels -ำ ไ- ใ- เ-า เ-ย"
+    },
+    {
       "type": "track",
       "number": 15
     },
@@ -220,11 +220,6 @@
       "type": "paragraph",
       "html": "Some vowels above are 'sandwich' vowels which basically wrap around initial consonants. Pretty weird, eh?",
       "htmlRu": "Некоторые гласные выше — это гласные-«сэндвичи», которые буквально оборачиваются вокруг начального согласного. Довольно странно, правда?"
-    },
-    {
-      "type": "image",
-      "src": "images/p095_0.jpeg",
-      "alt": "Stroke order for writing vowels"
     },
     {
       "type": "heading",
@@ -368,13 +363,13 @@
     {
       "type": "paragraph",
       "html": "And if you need rules: live syllables are syllables that either end with [-ng], [-m], [-n], or a long vowel as a final sound, because they can be droned out until you're out of breath. Whereas dead syllables end with [-k], [-t], or [-p] as a final consonant, there's no way to elongate them.",
-      "htmlRu": "А если вам нужны правила: живые слоги — это слоги, которые заканчиваются на [-ng], [-m], [-n] или на долгий гласный, потому что их можно тянуть, пока не кончится дыхание. Мёртвые же слоги заканчиваются на [-k], [-t] или [-p] — их никак не растянуть."
+      "htmlRu": "А если вам нужны правила: живые слоги — это слоги, которые заканчиваются на [-ng], [-m], [-n] или на долгий гласный, потому что их можно тянуть, пока не кончится дыхание. Мёртвые же слоги заканчиваются на [-k], [-t] или [-p] — их никак не растянуть. Упрощённая версия моего объяснения выглядит так:"
     },
     {
-      "type": "rule",
-      "html": "A LIVE syllable ends with: [-ng] [-m] [-n] (or any LC1 consonant), or a LONG vowel. A DEAD syllable ends with: [-k] [-t] [-p] (or any LC2 consonant).",
-      "htmlRu": "ЖИВОЙ слог заканчивается на: [-ng] [-m] [-n] (или любой согласный НК1), или на ДОЛГИЙ гласный. МЁРТВЫЙ слог заканчивается на: [-k] [-t] [-p] (или любой согласный НК2).",
-      "emphasis": "strong"
+      "type": "callout",
+      "variant": "warning",
+      "html": "A <b>LIVE</b> syllable ends with: [-ng] [-m] [-n] (or any LC1 consonant), or a <b>LONG</b> vowel.<br>A <b>DEAD</b> syllable ends with: [-k] [-t] [-p] (or any LC2 consonant).",
+      "htmlRu": "<b>ЖИВОЙ</b> слог заканчивается на: [-ng] [-m] [-n] (или любой согласный НК1), или на <b>ДОЛГИЙ</b> гласный.<br><b>МЁРТВЫЙ</b> слог заканчивается на: [-k] [-t] [-p] (или любой согласный НК2)."
     },
     {
       "type": "paragraph",
@@ -501,6 +496,11 @@
         "Живые слоги — это слоги, конечный звук которых можно тянуть, а в мёртвых слогах это невозможно",
         "Фактор «живой — мёртвый» влияет на тон слога"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow we'll tackle short vowels and meet the mid class consonants. We'll also learn about the placeholder อ and discover some vowels that like to play hide-and-seek.",
+      "htmlRu": "Завтра мы разберёмся с краткими гласными и познакомимся с согласными среднего класса. А ещё мы узнаем о символе-заместителе อ и откроем гласные, которые любят играть в прятки."
     }
   ],
   "footnotes": {},

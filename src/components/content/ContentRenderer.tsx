@@ -10,6 +10,7 @@ import { CalloutBlock } from './CalloutBlock'
 import { ImageBlock } from './ImageBlock'
 import { ExampleGroup } from './ExampleGroup'
 import { RuleBlock } from './RuleBlock'
+import { PreviewBlock } from './PreviewBlock'
 
 interface Props {
   blocks: Block[]
@@ -29,7 +30,9 @@ function isPureThaiShort(text: string): boolean {
 
 function preprocessBlocks(blocks: Block[]): Block[] {
   const filtered: Block[] = []
-  for (const b of blocks) {
+  for (let idx = 0; idx < blocks.length; idx++) {
+    const b = blocks[idx]
+    if (idx === 0 && b.type === 'heading' && b.level === 1) continue
     if (b.type === 'paragraph') {
       const trimmed = b.html.trim()
       if (!trimmed || PAGE_NUM_RE.test(trimmed)) continue
@@ -188,6 +191,8 @@ function BlockRenderer({ block, footnotes, footnotesRu, lang }: { block: Block; 
       return <ExerciseBlock instruction={(ru && block.instructionRu) || block.instruction} items={block.items} trackNumber={block.trackNumber} answerKey={(ru && block.answerKeyRu) || block.answerKey} />
     case 'recap':
       return <RecapBlock items={(ru && block.itemsRu) || block.items} />
+    case 'preview':
+      return <PreviewBlock html={(ru && block.htmlRu) || block.html} />
     case 'divider':
       return <hr className="my-2 border-0 border-t border-[var(--color-hairline)]" />
     case 'footnoteRef': {

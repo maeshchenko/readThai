@@ -21,6 +21,11 @@
       "alt": "Mid Class Consonants: ก จ ด ต บ ป อ in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p103_0.jpeg",
+      "alt": "Stroke order for writing ก จ ด ต บ ป อ"
+    },
+    {
       "type": "track",
       "number": 20
     },
@@ -118,6 +123,12 @@
       "htmlRu": "Вы уже встречали символ «อ» в качестве гласного [-or], а теперь позвольте представить его вам как согласный. Какой звук он издаёт как согласный? Никакой! Он служит лишь «заместителем» для гласного в слогах, не содержащих начального согласного звука (например, «อา» /aa/, «อิ่ม» /ìm/ или «อะ» [a-] в «อะไร» /arai/). Дело в том, что тайские гласные не могут существовать сами по себе — им нужен хотя бы один согласный, за который можно зацепиться. Прилипчивые малютки!"
     },
     {
+      "type": "callout",
+      "variant": "warning",
+      "html": "Thai vowels cannot stand on their own. When a syllable has no initial consonant sound, the placeholder <b>อ</b> is used as a silent consonant to carry the vowel.",
+      "htmlRu": "Тайские гласные не могут стоять сами по себе. Когда в слоге нет начального согласного звука, в качестве немого согласного-«заместителя» используется <b>อ</b>."
+    },
+    {
       "type": "image",
       "src": "images/p102_0.jpeg",
       "alt": "Illustration: vowel เ-อ characters clinging to a consonant — 'Don't leave us alone!'"
@@ -157,11 +168,6 @@
       "type": "image",
       "src": "images/p102_2.jpeg",
       "alt": "How the vowel -อ wraps around consonants: diagram showing ออม"
-    },
-    {
-      "type": "image",
-      "src": "images/p103_0.jpeg",
-      "alt": "Stroke order for writing ก จ ด ต บ ป อ"
     },
     {
       "type": "image",
@@ -556,6 +562,11 @@
         "Некоторые гласные имеют две формы, как -ะ и -ั-, но звучат одинаково. При этом вторая форма используется только когда в слоге есть конечный согласный",
         "Слог с двумя согласными и без записанного гласного имеет звук краткого гласного [-o-], если только конечный согласный не ร — тогда произносится [-orn] с долгим гласным"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow we'll meet the high class consonants and discover how the silent ห changes tones. We'll also learn mnemonics to remember consonant classes — and start making sense of the Thai tone system.",
+      "htmlRu": "Завтра мы познакомимся с согласными высокого класса и узнаем, как немая ห меняет тоны. Мы также выучим мнемоники для запоминания классов согласных — и начнём разбираться в системе тонов тайского языка."
     }
   ],
   "footnotes": {},

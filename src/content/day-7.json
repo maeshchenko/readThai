@@ -57,9 +57,10 @@
       ]
     },
     {
-      "type": "paragraph",
-      "html": "When ญ is at final position, it becomes an [-n] final consonant, not an [-i] like ย.",
-      "htmlRu": "Когда ญ стоит в конце слога, она читается как финальный согласный [-n], а не как [-i], в отличие от ย."
+      "type": "callout",
+      "variant": "warning",
+      "html": "When <b>ญ</b> is at final position, it becomes an <b>[-n]</b> final consonant, not an [-i] like ย.",
+      "htmlRu": "Когда <b>ญ</b> стоит в конце слога, она читается как финальный согласный <b>[-n]</b>, а не как [-i], в отличие от ย."
     },
     {
       "type": "track",
@@ -236,9 +237,10 @@
       ]
     },
     {
-      "type": "paragraph",
-      "html": "Note that a true cluster is a combination in which the second consonant is a ร, ล, or ว only.",
-      "htmlRu": "Обратите внимание: истинный кластер — это сочетание, в котором вторым согласным может быть только ร, ล или ว."
+      "type": "callout",
+      "variant": "warning",
+      "html": "A true cluster is a combination in which the second consonant is <b>ร</b>, <b>ล</b>, or <b>ว</b> only.",
+      "htmlRu": "Истинный кластер — это сочетание, в котором вторым согласным может быть только <b>ร</b>, <b>ล</b> или <b>ว</b>."
     },
     {
       "type": "heading",
@@ -443,6 +445,7 @@
     },
     {
       "type": "callout",
+      "variant": "note",
       "html": "นม /nom/ BUT ขนม /kànŏm/",
       "htmlRu": "นม /nom/ НО ขนม /kànŏm/"
     },
@@ -704,6 +707,11 @@
         "Кластеры согласных никогда не разделяются; если над или под согласным ставится знак, он помещается над/под вторым согласным кластера, а не первым",
         "Если согласный стоит без видимого гласного, скорее всего, он читается со звуком [-a]. Существует также невидимый гласный [-a], связывающий слоги в составных словах, но предсказать его появление невозможно"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow we'll meet the silent mark, vowel shortening, and the many faces of ร — one of the most versatile characters in the Thai alphabet.",
+      "htmlRu": "Завтра мы познакомимся со знаком молчания, сокращением гласных и многочисленными лицами ร — одного из самых универсальных символов тайского алфавита."
     }
   ],
   "footnotes": {},

@@ -303,6 +303,11 @@
       "type": "paragraph",
       "html": "If you got it all, I think you're ready!",
       "htmlRu": "Если вы всё вспомнили — думаю, вы готовы!"
+    },
+    {
+      "type": "preview",
+      "html": "Almost there! On the last day we'll learn to find syllable boundaries, compare similar-looking characters, and tackle three-consonant words. Then — you can read Thai!",
+      "htmlRu": "Почти у цели! В последний день мы научимся находить границы слогов, сравнивать похожие символы и разбирать слова с тремя согласными. А потом — вы сможете читать по-тайски!"
     }
   ],
   "footnotes": {},

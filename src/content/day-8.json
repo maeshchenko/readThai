@@ -21,6 +21,11 @@
       "alt": "Less Common Consonants: ฬ ฌ ฑ ท ฎ ฏ ฐ in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p162_0.jpeg",
+      "alt": "Stroke order for less common consonants ฬ ฌ ฑ ฎ ฏ ฐ"
+    },
+    {
       "type": "track",
       "number": 62
     },
@@ -73,9 +78,9 @@
     },
     {
       "type": "callout",
-      "variant": "note",
-      "html": "Sometimes ฑ is pronounced [d]. However, บัณฑิต is the only such word worth knowing.",
-      "htmlRu": "Иногда ฑ произносится как [d]. Однако บัณฑิต — единственное такое слово, которое стоит запомнить."
+      "variant": "warning",
+      "html": "Sometimes <b>ฑ</b> is pronounced [d]. However, <b>บัณฑิต</b> is the only such word worth knowing.",
+      "htmlRu": "Иногда <b>ฑ</b> произносится как [d]. Однако <b>บัณฑิต</b> — единственное такое слово, которое стоит запомнить."
     },
     {
       "type": "paragraph",
@@ -167,11 +172,6 @@
           "translit": "h"
         }
       ]
-    },
-    {
-      "type": "image",
-      "src": "images/p162_0.jpeg",
-      "alt": "Stroke order for less common consonants"
     },
     {
       "type": "heading",
@@ -322,14 +322,14 @@
       "textRu": "Если коротко…"
     },
     {
-      "type": "image",
-      "src": "images/p164_1.jpeg",
-      "alt": "Long and short vowel pairs: เล»เละ, แพ»แพะ, โป»โปะ, etc."
-    },
-    {
       "type": "paragraph",
       "html": "Some long vowels have their short counterparts: e.g. -ิ [i] is the short version of -ี [ee], etc. However, most long vowels like เ- or แ- do not, so -ะ is added to the end of the syllable to create a shorter vowel sound.",
       "htmlRu": "У некоторых долгих гласных есть краткие пары: например, -ิ [i] — краткая версия -ี [ee] и т. д. Однако у большинства долгих гласных, таких как เ- или แ-, краткой пары нет, поэтому к концу слога добавляется -ะ, чтобы создать более короткий гласный звук."
+    },
+    {
+      "type": "image",
+      "src": "images/p164_1.jpeg",
+      "alt": "Long and short vowel pairs: เล»เละ, แพ»แพะ, โป»โปะ, etc."
     },
     {
       "type": "rule",
@@ -581,10 +581,10 @@
       ]
     },
     {
-      "type": "rule",
-      "html": "ทร combination is almost always pronounced [s] (Unless it's in loanwords, see ATTENTION! on the following section):",
-      "htmlRu": "Сочетание ทร почти всегда произносится как [s] (если только это не заимствованное слово — см. ВНИМАНИЕ! в следующем разделе):",
-      "emphasis": "soft"
+      "type": "callout",
+      "variant": "warning",
+      "html": "<b>ทร</b> combination is almost always pronounced <b>[s]</b> (unless it's in loanwords — see the note below):",
+      "htmlRu": "Сочетание <b>ทร</b> почти всегда произносится как <b>[s]</b> (если только это не заимствованное слово — см. примечание ниже):"
     },
     {
       "type": "examples",
@@ -605,10 +605,10 @@
       ]
     },
     {
-      "type": "rule",
-      "html": "บริ combination is pronounced [borrí], not [bàrí] (Unless it's in loanwords, see ATTENTION! on the following section):",
-      "htmlRu": "Сочетание บริ произносится как [borrí], а не [bàrí] (если только это не заимствованное слово — см. ВНИМАНИЕ! в следующем разделе):",
-      "emphasis": "soft"
+      "type": "callout",
+      "variant": "warning",
+      "html": "<b>บริ</b> combination is pronounced <b>[borrí]</b>, not [bàrí] (unless it's in loanwords — see the note below):",
+      "htmlRu": "Сочетание <b>บริ</b> произносится как <b>[borrí]</b>, а не [bàrí] (если только это не заимствованное слово — см. примечание ниже):"
     },
     {
       "type": "examples",
@@ -767,6 +767,11 @@
         "Сочетание ทร даёт звук [s], сочетание บริ даёт звук [borri-] (кроме заимствованных слов)",
         "Двойной รร произносится как [-un], если нет финального согласного, или [-u-], если финальный согласный есть"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow: Thai numerals, the elusive ฤ, punctuation marks, and some unique vowels that show up only in special words. The finish line is in sight!",
+      "htmlRu": "Завтра: тайские цифры, неуловимый ฤ, знаки препинания и уникальные гласные, встречающиеся лишь в особых словах. Финишная прямая уже видна!"
     }
   ],
   "footnotes": {},

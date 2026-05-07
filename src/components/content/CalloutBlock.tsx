@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Info, AlertTriangle, Lightbulb } from 'lucide-react'
 
 interface Props {
@@ -26,13 +27,21 @@ const config = {
   },
 }
 
-export function CalloutBlock({ variant, html }: Props) {
-  const { icon: Icon, border, bg, iconColor } = config[variant]
+export function CalloutBlock({ variant = 'note', html }: Props) {
+  const { t } = useTranslation()
+  const { icon: Icon, border, bg, iconColor } = config[variant] ?? config.note
 
   return (
-    <div className={`flex gap-3 rounded-xl border ${border} ${bg} p-4`}>
-      <Icon size={18} className={`mt-0.5 shrink-0 ${iconColor}`} />
-      <div className="min-w-0 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: html }} />
+    <div className={`rounded-xl border ${border} ${bg} p-4`}>
+      {variant === 'warning' && (
+        <div className="mb-2.5 inline-block rounded bg-amber-600 px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.12em] text-white dark:bg-amber-500">
+          {t('chapter.attention')}
+        </div>
+      )}
+      <div className="flex gap-3">
+        <Icon size={18} className={`mt-0.5 shrink-0 ${iconColor}`} />
+        <div className="min-w-0 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
     </div>
   )
 }

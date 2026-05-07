@@ -57,6 +57,11 @@
       "alt": "Long vowels: -า -ี -ู เ- แ- โ- -อ in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p088_0.jpeg",
+      "alt": "Stroke order for writing long vowels"
+    },
+    {
       "type": "track",
       "number": 10
     },
@@ -74,11 +79,6 @@
     {
       "type": "track",
       "number": 11
-    },
-    {
-      "type": "image",
-      "src": "images/p088_0.jpeg",
-      "alt": "Stroke order for writing long vowels"
     },
     {
       "type": "examples",
@@ -197,11 +197,6 @@
       "alt": "Thai reading example: รอนายมา with syllable separation guide"
     },
     {
-      "type": "image",
-      "src": "images/p090_0.jpeg",
-      "alt": "Today's Recap section banner"
-    },
-    {
       "type": "heading",
       "level": 2,
       "text": "Give it a go!",
@@ -258,6 +253,11 @@
         "В финальной позиции (в конце слога после начального согласного и гласного) ย звучит как [-i], ว звучит как [-o], а согласные ร и ล меняют звучание на [-n]",
         "В тайском языке между словами нет пробелов"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow we'll learn more low class consonants and long vowels. You'll also find out why some consonants sound different at the end of a syllable — and get introduced to a life-or-death question!",
+      "htmlRu": "Завтра мы выучим больше согласных нижнего класса и долгих гласных. Вы также узнаете, почему некоторые согласные звучат иначе в конце слога — и познакомитесь с вопросом жизни и смерти!"
     }
   ],
   "footnotes": {},

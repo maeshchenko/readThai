@@ -11,6 +11,7 @@ export type Block =
   | { type: 'image'; src: string; alt: string; caption?: string; captionRu?: string }
   | { type: 'exercise'; trackNumber?: number; instruction: string; instructionRu?: string; items: string[]; itemsRu?: string[]; answerKey?: string; answerKeyRu?: string }
   | { type: 'recap'; items: string[]; itemsRu?: string[] }
+  | { type: 'preview'; html: string; htmlRu?: string }
   | { type: 'divider' }
   | { type: 'footnoteRef'; id: number }
 
@@ -29,6 +30,7 @@ export interface ExampleItem {
 export interface ThaiTableRow {
   thai: string
   translit: string
+  translitRu?: string
   meaning?: string
   meaningRu?: string
 }

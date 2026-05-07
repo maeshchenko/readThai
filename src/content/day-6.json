@@ -12,8 +12,8 @@
     },
     {
       "type": "paragraph",
-      "html": "The last three vowels are composed of 3 symbols each. They're a bit hard to remember, so pay extra attention. Note that the first one, เ-าะ27 [-or'], unlike เ-ีย [-ia] and เ-ือ [-uea], is a short vowel.",
-      "htmlRu": "Последние три гласные состоят из трёх символов каждая. Их довольно сложно запомнить, поэтому уделите им особое внимание. Обратите внимание, что первая из них, เ-าะ27 [-or'], в отличие от เ-ีย [-ia] и เ-ือ [-uea], является краткой гласной."
+      "html": "The last three vowels are composed of 3 symbols each. They're a bit hard to remember, so pay extra attention. Note that the first one, เ-าะ [-or'], unlike เ-ีย [-ia] and เ-ือ [-uea], is a short vowel.",
+      "htmlRu": "Последние три гласные состоят из трёх символов каждая. Их довольно сложно запомнить, поэтому уделите им особое внимание. Обратите внимание, что первая из них, เ-าะ [-or'], в отличие от เ-ีย [-ia] и เ-ือ [-uea], является краткой гласной."
     },
     {
       "type": "image",
@@ -21,13 +21,13 @@
       "alt": "Compound vowels เ-าะ เ-ีย เ-ือ in regular, stylised, and cursive handwriting"
     },
     {
-      "type": "track",
-      "number": 41
-    },
-    {
       "type": "image",
       "src": "images/p143_0.jpeg",
       "alt": "Compound vowels เ-าะ เ-ีย เ-ือ with stroke orders"
+    },
+    {
+      "type": "track",
+      "number": 41
     },
     {
       "type": "heading",
@@ -643,6 +643,11 @@
         "Знак тона (อ๊) ВСЕГДА обозначает ВЫСОКИЙ тон, а (อ๋) ВСЕГДА обозначает ВОСХОДЯЩИЙ тон, и они используются только с согласными MC",
         "Существует ряд распространённых односложных слов, долгота гласной или тон которых не подчиняются правилам"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow we'll tackle consonant clusters — true, pseudo, and false — and learn about the mysterious unwritten [-a] vowel that hides between consonants.",
+      "htmlRu": "Завтра мы разберёмся с кластерами согласных — истинными, псевдо и ложными — и узнаем о таинственном ненаписанном гласном [-a], который прячется между согласными."
     }
   ],
   "footnotes": {},

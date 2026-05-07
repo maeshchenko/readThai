@@ -93,51 +93,63 @@
       "rows": [
         {
           "thai": "ก ถ ภ ฤ",
-          "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer."
+          "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer.",
+          "translitRu": "Различаются только головкой (петелькой). У ฤ хвостик длиннее."
         },
         {
           "thai": "ด ต ค ศ",
-          "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls."
+          "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls.",
+          "translitRu": "Ученики часто путают ด [d] и ค [k] — обращайте внимание на завиток головки."
         },
         {
           "thai": "ผ พ ฝ ฟ",
-          "translit": "Spikey characters that look and sound similar."
+          "translit": "Spikey characters that look and sound similar.",
+          "translitRu": "Остроконечные символы, похожие и по виду, и по звучанию."
         },
         {
           "thai": "พ ฬ",
-          "translit": "Similar, but ฬ [l] has a piggy tail."
+          "translit": "Similar, but ฬ [l] has a piggy tail.",
+          "translitRu": "Похожи, но у ฬ [l] есть «поросячий хвостик»."
         },
         {
           "thai": "ข ช ซ",
-          "translit": "Coil-heads: ข has a straight tail, ช has a twitchy tail, ซ has a twitchy tail and dented head."
+          "translit": "Coil-heads: ข has a straight tail, ช has a twitchy tail, ซ has a twitchy tail and dented head.",
+          "translitRu": "Символы с завитками: у ข прямой хвост, у ช дёрганый хвост, у ซ дёрганый хвост и вмятина на головке."
         },
         {
           "thai": "บ ป ษ",
-          "translit": "บ [b] and ป [bp] look and sound similar. ษ [s˘] has something like อั inside."
+          "translit": "บ [b] and ป [bp] look and sound similar. ษ [s˘] has something like อั inside.",
+          "translitRu": "บ [b] и ป [bp] похожи внешне и по звучанию. У ษ [s˘] внутри что-то вроде อั."
         },
         {
           "thai": "ข บ",
-          "translit": "ข [k˘] is skinnier with a coil head; บ [b] is broader. In some fonts they look almost identical."
+          "translit": "ข [k˘] is skinnier with a coil head; บ [b] is broader. In some fonts they look almost identical.",
+          "translitRu": "ข [k˘] уже и с завитком на головке; บ [b] шире. В некоторых шрифтах выглядят почти одинаково."
         },
         {
           "thai": "ร โ ธ",
-          "translit": "ร's head faces left; the โ vowel is much taller."
+          "translit": "ร's head faces left; the โ vowel is much taller.",
+          "translitRu": "Головка ร смотрит влево; гласная โ значительно выше."
         },
         {
           "thai": "ง ว า อ",
-          "translit": "Occasionally confusing, especially between ง [ng] and ว [w]."
+          "translit": "Occasionally confusing, especially between ง [ng] and ว [w].",
+          "translitRu": "Иногда путают, особенно ง [ng] и ว [w]."
         },
         {
           "thai": "อ ฮ",
-          "translit": "ฮ [h] has a little hat on top."
+          "translit": "ฮ [h] has a little hat on top.",
+          "translitRu": "У ฮ [h] есть маленькая шляпка сверху."
         },
         {
           "thai": "จ ล ส",
-          "translit": "If the head reaches the bottom line it's ล [l]; if it also has a tiny tail it's ส [s˘]; otherwise it's จ [j]."
+          "translit": "If the head reaches the bottom line it's ล [l]; if it also has a tiny tail it's ส [s˘]; otherwise it's จ [j].",
+          "translitRu": "Если головка доходит до нижней линии — это ล [l]; если ещё есть хвостик — ส [s˘]; иначе — จ [j]."
         },
         {
           "thai": "ฎ ฏ",
-          "translit": "If it has an extra spike at the bottom it's ฏ [dt], otherwise it's ฎ [d]."
+          "translit": "If it has an extra spike at the bottom it's ฏ [dt], otherwise it's ฎ [d].",
+          "translitRu": "Если внизу есть дополнительный шип — это ฏ [dt], иначе — ฎ [d]."
         }
       ]
     },

@@ -76,7 +76,7 @@ export function ThaiTable({ columns, rows, headerRows, stickyFirstCol, lang = 'e
                 <ThaiText size="md">{row.thai}</ThaiText>
               </td>
               {(row.translit || columns.length > 1) && (
-                <td className="translit px-4 py-2.5">{row.translit}</td>
+                <td className="translit px-4 py-2.5">{(lang === 'ru' && row.translitRu) || row.translit}</td>
               )}
               {rows.some((r) => r.meaning) && (
                 <td className="px-4 py-2.5 text-sm text-[var(--color-on-surface-muted)]">
@@ -107,7 +107,7 @@ function CardList({ rows, lang = 'en' }: { rows: ThaiTableRow[]; lang?: 'en' | '
             <div className="min-w-0 flex-1">
               <ThaiText size="md">{row.thai}</ThaiText>
               <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-                {row.translit && <span className="translit text-[12px]">{row.translit}</span>}
+                {row.translit && <span className="translit text-[12px]">{(lang === 'ru' && row.translitRu) || row.translit}</span>}
                 {meaning && (
                   <span className="text-[12px] text-[var(--color-on-surface-muted)]">
                     {meaning}

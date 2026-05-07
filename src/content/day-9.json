@@ -461,11 +461,6 @@
       ]
     },
     {
-      "type": "image",
-      "src": "images/p176_0.jpeg",
-      "alt": "The repetition mark ๆ (máí yamók) in standard, stylised, and cursive forms"
-    },
-    {
       "type": "heading",
       "level": 2,
       "text": "Abbreviation mark",
@@ -513,6 +508,11 @@
       "type": "paragraph",
       "html": "ไม้ยมก [mái yamók] \"ๆ\" indicates that the word that comes before will be repeated one more time:",
       "htmlRu": "ไม้ยมก [mái yamók] «ๆ» означает, что предшествующее слово повторяется ещё один раз:"
+    },
+    {
+      "type": "image",
+      "src": "images/p176_0.jpeg",
+      "alt": "The repetition mark ๆ (máí yamók) in standard, stylised, and cursive forms"
     },
     {
       "type": "track",

@@ -36,102 +36,122 @@
         {
           "thai": "ใกล้",
           "translit": "/glâi/",
-          "meaning": "near, close"
+          "meaning": "near, close",
+          "meaningRu": "близко, рядом"
         },
         {
           "thai": "ใคร",
           "translit": "/krai/",
-          "meaning": "who"
+          "meaning": "who",
+          "meaningRu": "кто"
         },
         {
           "thai": "ใคร่",
           "translit": "/krâi/",
-          "meaning": "to desire, to long for"
+          "meaning": "to desire, to long for",
+          "meaningRu": "желать, стремиться"
         },
         {
           "thai": "ใจ",
           "translit": "/jai/",
-          "meaning": "heart, mind"
+          "meaning": "heart, mind",
+          "meaningRu": "сердце, разум"
         },
         {
           "thai": "ใช่",
           "translit": "/châi/",
-          "meaning": "yes, correct"
+          "meaning": "yes, correct",
+          "meaningRu": "да, верно"
         },
         {
           "thai": "ใช้",
           "translit": "/chái/",
-          "meaning": "to use, to spend"
+          "meaning": "to use, to spend",
+          "meaningRu": "использовать, тратить"
         },
         {
           "thai": "ใด",
           "translit": "/dai/",
-          "meaning": "any, which"
+          "meaning": "any, which",
+          "meaningRu": "любой, какой"
         },
         {
           "thai": "ใต้",
           "translit": "/dtâi/",
-          "meaning": "under, south"
+          "meaning": "under, south",
+          "meaningRu": "под, юг"
         },
         {
           "thai": "ใน",
           "translit": "/nai/",
-          "meaning": "in, inside"
+          "meaning": "in, inside",
+          "meaningRu": "в, внутри"
         },
         {
           "thai": "ใบ",
           "translit": "/bai/",
-          "meaning": "leaf, classifier"
+          "meaning": "leaf, classifier",
+          "meaningRu": "лист, классификатор"
         },
         {
           "thai": "ใบ้",
           "translit": "/bâi/",
-          "meaning": "mute, to hint"
+          "meaning": "mute, to hint",
+          "meaningRu": "немой, подсказывать"
         },
         {
           "thai": "ใฝ่",
           "translit": "/fài/",
-          "meaning": "to aspire, to pay attention"
+          "meaning": "to aspire, to pay attention",
+          "meaningRu": "стремиться, быть внимательным"
         },
         {
           "thai": "ใย",
           "translit": "/yai/",
-          "meaning": "fibre, web"
+          "meaning": "fibre, web",
+          "meaningRu": "волокно, паутина"
         },
         {
           "thai": "ใส",
           "translit": "/sǎi/",
-          "meaning": "clear, transparent"
+          "meaning": "clear, transparent",
+          "meaningRu": "чистый, прозрачный"
         },
         {
           "thai": "ใส่",
           "translit": "/sài/",
-          "meaning": "to put in, to wear"
+          "meaning": "to put in, to wear",
+          "meaningRu": "класть, надевать"
         },
         {
           "thai": "สะใภ้",
           "translit": "/sàpâi/",
-          "meaning": "daughter-in-law"
+          "meaning": "daughter-in-law",
+          "meaningRu": "невестка"
         },
         {
           "thai": "ใหม่",
           "translit": "/mài/",
-          "meaning": "new, again"
+          "meaning": "new, again",
+          "meaningRu": "новый, снова"
         },
         {
           "thai": "ใหญ่",
           "translit": "/yài/",
-          "meaning": "big, large"
+          "meaning": "big, large",
+          "meaningRu": "большой, крупный"
         },
         {
           "thai": "ให้",
           "translit": "/hâi/",
-          "meaning": "to give, to let"
+          "meaning": "to give, to let",
+          "meaningRu": "давать, позволять"
         },
         {
           "thai": "ใหล",
           "translit": "/lǎi/",
-          "meaning": "to flow (as in หลงใหล — infatuated)"
+          "meaning": "to flow (as in หลงใหล — infatuated)",
+          "meaningRu": "течь (как в หลงใหล — быть без ума)"
         }
       ]
     },

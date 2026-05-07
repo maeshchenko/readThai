@@ -21,6 +21,11 @@
       "alt": "High Class Consonants: ข ถ ฉ ส ผ ฝ ห in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p112_0.jpeg",
+      "alt": "Stroke order for High Class consonants: ข ถ ฉ ส ผ ฝ ห"
+    },
+    {
       "type": "track",
       "number": 29
     },
@@ -312,11 +317,6 @@
           "thai": "หึง-ฮึง"
         }
       ]
-    },
-    {
-      "type": "image",
-      "src": "images/p112_0.jpeg",
-      "alt": "Stroke order for High Class consonants: ข ถ ฉ ส ผ ฝ ห"
     },
     {
       "type": "image",
@@ -907,6 +907,11 @@
         "Когда ห стоит перед согласной низкого класса 1, ห становится немой, а согласная LC1 меняет свой класс на высокий",
         "Теперь вы должны уметь распределить все согласные по правильным классам. Если пока не получается, запомните только HC-согласные, а затем заучите мнемоники: «Good job!» — MC; «Yawning lemur» — LC1; «Ketchup fish» — LC2"
       ]
+    },
+    {
+      "type": "preview",
+      "html": "Tomorrow you'll meet the Thai tone system head-on — including tone marks and the String Theory rules. We'll also learn more vowels that have two different written forms.",
+      "htmlRu": "Завтра вы столкнётесь с системой тонов лицом к лицу — включая тоновые знаки и правила «Теории струн». Также мы выучим ещё несколько гласных, имеющих две формы записи."
     }
   ],
   "footnotes": {},

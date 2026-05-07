@@ -21,6 +21,11 @@
       "alt": "Long vowels -ือ เ-อ -ัว in regular, stylised, and cursive handwriting"
     },
     {
+      "type": "image",
+      "src": "images/p122_0.jpeg",
+      "alt": "Stroke order for compound vowels"
+    },
+    {
       "type": "track",
       "number": 34
     },
@@ -116,19 +121,15 @@
       "textRu": "Попробуйте!"
     },
     {
-      "type": "paragraph",
-      "html": "Keep in mind that some vowels (4 to be precise) have two forms; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!",
-      "htmlRu": "Помните, что некоторые гласные (если точно — 4) имеют две формы: одна — основная, когда гласная завершает слог, а вторая используется при наличии финальной согласной в этом слоге. Разберитесь в этом, читая слова ниже, пока не уловите принцип. И не забывайте о немом ห!"
+      "type": "callout",
+      "variant": "warning",
+      "html": "Keep in mind that some vowels (4 to be precise) have <b>two forms</b>; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!",
+      "htmlRu": "Помните, что некоторые гласные (если точно — 4) имеют <b>две формы</b>: одна — основная, когда гласная завершает слог, а вторая используется при наличии финальной согласной в этом слоге. Разберитесь в этом, читая слова ниже, пока не уловите принцип. И не забывайте о немом ห!"
     },
     {
       "type": "image",
       "src": "images/p121_1.jpeg",
       "alt": "Thai reading practice: words using vowels -ือ เ-อ -ัว"
-    },
-    {
-      "type": "image",
-      "src": "images/p122_0.jpeg",
-      "alt": "Stroke order for compound vowels"
     },
     {
       "type": "track",

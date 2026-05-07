@@ -782,11 +782,6 @@
       "alt": "Additional segmentation examples"
     },
     {
-      "type": "image",
-      "src": "images/p191_0.jpeg",
-      "alt": "Thai reading practice: paragraph about respect and gratitude"
-    },
-    {
       "type": "rule",
       "html": "\"-ี\" and \"-ื\" are also likely to be at the end/almost at the end of the syllable, UNLESS they're part of complex vowel \"เ-ีย\" and \"เ-ือ\", in which case they might be 1 character, or 2 characters away from the end if there's a final consonant.",
       "htmlRu": "«-ี» и «-ื» также обычно стоят в конце или почти в конце слога, ЕСЛИ ТОЛЬКО они не являются частью составных гласных «เ-ีย» и «เ-ือ» — тогда они могут находиться на 1 или 2 позиции от конца, если есть конечный согласный.",
@@ -808,6 +803,11 @@
       "type": "paragraph",
       "html": "In this passage below, you'll have to break up the individual syllables. Use the tactics I've taught you.",
       "htmlRu": "В отрывке ниже вам нужно разбить текст на отдельные слоги. Используйте приёмы, которым я вас научил."
+    },
+    {
+      "type": "image",
+      "src": "images/p191_0.jpeg",
+      "alt": "Thai reading practice passage"
     },
     {
       "type": "track",
