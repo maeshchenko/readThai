@@ -108,7 +108,7 @@ export function SettingsSheet({ open, onClose }: Props) {
         </Group>
 
         <p className="pt-2 text-center text-[11px] text-[var(--color-on-surface-faint)]">
-          Read Thai · {lang === 'ru' ? 'сделано с любовью' : 'made with care'}
+          Made with ❤️ in Thailand
         </p>
       </div>
     </BottomSheet>

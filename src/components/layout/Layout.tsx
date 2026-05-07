@@ -53,6 +53,9 @@ export function Layout() {
         <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <main className="min-w-0 flex-1 px-4 py-8 md:px-8 lg:px-12">
           <Outlet />
+          <footer className="mt-16 pb-6 text-center text-xs text-[var(--color-on-surface-muted)]">
+            Made with ❤️ in Thailand
+          </footer>
         </main>
       </div>
     </div>

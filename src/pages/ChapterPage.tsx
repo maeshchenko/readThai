@@ -7,7 +7,6 @@ import { getChapterBySlug, getAdjacentChapters } from '@/lib/chapters'
 import { useProgressStore, useReaderStore } from '@/lib/stores'
 import { useIsMobile } from '@/hooks/useMediaQuery'
 import { ContentRenderer } from '@/components/content/ContentRenderer'
-import { ReadingToolbar } from '@/components/layout/ReadingToolbar'
 import { ChapterSkeleton } from '@/components/ui/Skeleton'
 import { cn } from '@/lib/cn'
 import { haptic } from '@/lib/haptic'
@@ -110,8 +109,6 @@ export function ChapterPage() {
           <PrevNextNav prev={prev} next={next} lang={lang} />
         </article>
       </SwipeableChapter>
-
-      {isMobile && <ReadingToolbar slug={slug} />}
     </>
   )
 }

@@ -9,8 +9,6 @@ import {
   Sparkles,
   Search,
   Flame,
-  Mic,
-  Shuffle,
 } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { chapters } from '@/lib/chapters'
@@ -134,36 +132,6 @@ export function HomePage() {
           </div>
         )}
       </motion.section>
-
-      {/* Quick actions row, mobile only */}
-      <section className="mb-8 md:hidden">
-        <div className="grid grid-cols-4 gap-2.5">
-          <QuickAction
-            icon={Headphones}
-            label={lang === 'ru' ? 'Звуки' : 'Sounds'}
-            onClick={() => navigate('/pronunciation')}
-          />
-          <QuickAction
-            icon={Search}
-            label={t('nav.glossary')}
-            onClick={() => navigate('/glossary')}
-          />
-          <QuickAction
-            icon={Mic}
-            label={lang === 'ru' ? 'Голос' : 'Voice'}
-            onClick={() => navigate('/day-1')}
-          />
-          <QuickAction
-            icon={Shuffle}
-            label={lang === 'ru' ? 'Случай' : 'Random'}
-            onClick={() => {
-              const ch = lessonChapters[Math.floor(Math.random() * lessonChapters.length)]
-              haptic('selection')
-              navigate(`/${ch.slug}`)
-            }}
-          />
-        </div>
-      </section>
 
       {/* Lessons */}
       <section className="mb-8">
@@ -322,31 +290,6 @@ function ContinueCard({
         {cta}
         <ChevronRight size={18} className="shrink-0 transition-transform group-active:translate-x-0.5" />
       </div>
-    </button>
-  )
-}
-
-function QuickAction({
-  icon: Icon,
-  label,
-  onClick,
-}: {
-  icon: React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>
-  label: string
-  onClick: () => void
-}) {
-  return (
-    <button
-      onClick={() => {
-        haptic('selection')
-        onClick()
-      }}
-      className="flex flex-col items-center gap-1.5 rounded-2xl bg-[var(--color-surface-elevated)] px-2 py-3 text-center ring-1 ring-[var(--color-hairline)] transition-all active:scale-[0.96]"
-    >
-      <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[var(--color-primary-500)]/10 text-[var(--color-primary-600)] dark:text-[var(--color-primary-400)]">
-        <Icon size={17} strokeWidth={1.85} />
-      </span>
-      <span className="line-clamp-1 text-[11px] font-medium text-[var(--color-on-surface)]">{label}</span>
     </button>
   )
 }
