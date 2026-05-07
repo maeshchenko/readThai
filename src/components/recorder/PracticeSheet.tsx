@@ -139,6 +139,7 @@ export function PracticeSheet({ open, onClose, sampleSrc, trackId, trackLabel }:
 
     const ctx = new AudioContext()
     audioCtxRef.current = ctx
+    if (ctx.state === 'suspended') await ctx.resume()
     const source = ctx.createMediaStreamSource(stream)
     const analyser = ctx.createAnalyser()
     analyser.fftSize = 64
@@ -240,11 +241,30 @@ export function PracticeSheet({ open, onClose, sampleSrc, trackId, trackLabel }:
     }
   }, [playingWho])
 
-  const handleSave = useCallback(() => {
+  const handleSave = useCallback(async () => {
     if (!recordingUrl) return
+    const mime = pickMimeType()
+    const ext = mime.includes('mp4') ? 'm4a' : mime.includes('ogg') ? 'ogg' : 'webm'
+    const filename = `recording-${trackId}.${ext}`
+
+    if (navigator.share && navigator.canShare) {
+      try {
+        const blob = await fetch(recordingUrl).then((r) => r.blob())
+        const file = new File([blob], filename, { type: mime })
+        if (navigator.canShare({ files: [file] })) {
+          await navigator.share({ files: [file] })
+          haptic('success')
+          toast.success(lang === 'ru' ? 'Запись сохранена' : 'Recording saved')
+          return
+        }
+      } catch {
+        /* user cancelled share sheet */
+      }
+    }
+
     const a = document.createElement('a')
     a.href = recordingUrl
-    a.download = `recording-${trackId}.webm`
+    a.download = filename
     a.click()
     haptic('success')
     toast.success(lang === 'ru' ? 'Запись сохранена' : 'Recording saved')

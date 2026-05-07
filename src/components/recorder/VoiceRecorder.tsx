@@ -69,6 +69,7 @@ export function VoiceRecorder({ sampleSrc, trackId }: Props) {
 
       const ctx = new AudioContext()
       audioContextRef.current = ctx
+      if (ctx.state === 'suspended') await ctx.resume()
       const source = ctx.createMediaStreamSource(stream)
       const analyser = ctx.createAnalyser()
       analyser.fftSize = 64
@@ -181,20 +182,18 @@ export function VoiceRecorder({ sampleSrc, trackId }: Props) {
       )}
 
       <div className="flex flex-wrap items-center gap-2">
-        {/* Record / Stop */}
         {recState === 'recording' ? (
-          <button onClick={stopRecording} className="btn btn-primary">
+          <button onClick={stopRecording} className="btn btn-primary flex-1 justify-center sm:flex-none">
             <Square size={14} />
             {t('recorder.stop')}
           </button>
         ) : (
-          <button onClick={startRecording} className="btn btn-accent">
+          <button onClick={startRecording} className="btn btn-accent flex-1 justify-center sm:flex-none">
             <Mic size={14} />
             {recState === 'recorded' ? t('recorder.reRecord') : t('recorder.record')}
           </button>
         )}
 
-        {/* Volume indicator while recording */}
         {recState === 'recording' && analyserNode && (
           <VolumeBars analyser={analyserNode} />
         )}
@@ -205,19 +204,18 @@ export function VoiceRecorder({ sampleSrc, trackId }: Props) {
           </span>
         )}
 
-        {/* Playback controls (after recording) */}
         {recState === 'recorded' && (
           <>
             <button
               onClick={togglePlayRecording}
-              className="btn btn-ghost"
+              className="btn btn-ghost flex-1 justify-center sm:flex-none"
               disabled={!recordingUrl}
             >
               {isPlayingRec ? <Pause size={14} /> : <Play size={14} />}
               {t('recorder.playRecording')}
             </button>
 
-            <button onClick={togglePlaySample} className="btn btn-ghost">
+            <button onClick={togglePlaySample} className="btn btn-ghost flex-1 justify-center sm:flex-none">
               {isPlayingSample ? <Pause size={14} /> : <Play size={14} />}
               {t('recorder.playSample')}
             </button>

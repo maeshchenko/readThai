@@ -4,12 +4,10 @@ import { useLocation } from 'react-router-dom'
 import { Play, Pause, Mic, Loader2 } from 'lucide-react'
 import { useAudio } from '@/lib/audio'
 import { useProgressStore } from '@/lib/stores'
-import { useIsMobile } from '@/hooks/useMediaQuery'
 import { getChapterBySlug } from '@/lib/chapters'
 import { cn } from '@/lib/cn'
 import { haptic } from '@/lib/haptic'
 import { VoiceRecorder } from '@/components/recorder/VoiceRecorder'
-import { PracticeSheet } from '@/components/recorder/PracticeSheet'
 
 interface Props {
   trackNumber: number
@@ -24,7 +22,6 @@ export function TrackCard({ trackNumber, label }: Props) {
   const { t, i18n } = useTranslation()
   const lang = i18n.language as 'en' | 'ru'
   const location = useLocation()
-  const isMobile = useIsMobile()
 
   const trackId = `track-${trackNumber}`
   const src = `${import.meta.env.BASE_URL}audio/${padTrack(trackNumber)}.mp3`
@@ -51,7 +48,6 @@ export function TrackCard({ trackNumber, label }: Props) {
   const trackDuration = isActive ? duration : 0
   const pct = trackDuration > 0 ? (trackTime / trackDuration) * 100 : 0
 
-  const [practiceOpen, setPracticeOpen] = useState(false)
   const [showRecorderInline, setShowRecorderInline] = useState(false)
   const trackRef = useRef<HTMLDivElement>(null)
 
@@ -155,8 +151,7 @@ export function TrackCard({ trackNumber, label }: Props) {
         <button
           onClick={() => {
             haptic('selection')
-            if (isMobile) setPracticeOpen(true)
-            else setShowRecorderInline((v) => !v)
+            setShowRecorderInline((v) => !v)
           }}
           className="flex w-full items-center justify-center gap-1.5 rounded-md py-1.5 text-xs font-medium text-[var(--color-on-surface-muted)] transition-colors hover:bg-[var(--color-surface-dim)] hover:text-[var(--color-on-surface)]"
         >
@@ -164,20 +159,10 @@ export function TrackCard({ trackNumber, label }: Props) {
           {t('recorder.recordYourVoice')}
         </button>
 
-        {!isMobile && showRecorderInline && (
+        {showRecorderInline && (
           <VoiceRecorder sampleSrc={src} trackId={trackId} />
         )}
       </div>
-
-      {isMobile && (
-        <PracticeSheet
-          open={practiceOpen}
-          onClose={() => setPracticeOpen(false)}
-          sampleSrc={src}
-          trackId={trackId}
-          trackLabel={computedLabel}
-        />
-      )}
     </div>
   )
 }

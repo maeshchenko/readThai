@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, type ReactNode } from 'react'
+import { createPortal } from 'react-dom'
 import { AnimatePresence, motion, useDragControls, type PanInfo } from 'framer-motion'
 import { X } from 'lucide-react'
 import { cn } from '@/lib/cn'
@@ -102,7 +103,7 @@ export function BottomSheet({
     if (info.offset.y > 120 || info.velocity.y > 600) onClose()
   }
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {open && (
         <>
@@ -177,6 +178,7 @@ export function BottomSheet({
           </motion.div>
         </>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body,
   )
 }
