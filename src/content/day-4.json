@@ -1,0 +1,730 @@
+{
+  "id": "day-4",
+  "slug": "day-4",
+  "titleEn": "Day 4: The Silent Partner",
+  "titleRu": "День 4: Молчаливый партнёр",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 4: The Silent Partner"
+    },
+    {
+      "type": "paragraph",
+      "html": "High class consonants are inherently RISING tone; they have a rising tone by default. When pronouncing their names, you have to pronounce them with a rising tone like ขอ [kŏr] ถอ [tŏr] ฉอ [chŏr] etc."
+    },
+    {
+      "type": "track",
+      "number": 29
+    },
+    {
+      "type": "paragraph",
+      "html": "You can see that the sounds of the high class consonants are IDENTICAL to those of the LC2 consonants, but the HC counterparts come with a default rising tone. Their final sounds are also identical. LC2"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฮ HC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ถ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฉ*"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ส"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ผ*"
+    },
+    {
+      "type": "paragraph",
+      "html": "ฝ*"
+    },
+    {
+      "type": "paragraph",
+      "html": "ห Initial k t ch s p f h Final 17 -k -t -p Final consonants (continued) At this point, we have learnt all the common consonants and their pronunciations at both the initial and final position. We can summarise what certain consonants would sound like at final position: Initial ng m n r l y w Final -ng -m -n -i -o Initial k t ch s p f h g j d dt b bp (-) Final -k -t -p Again, there’s no need to memorise this table. All you need to do is “un- release” the final consonant sound."
+    },
+    {
+      "type": "track",
+      "number": 30
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "จั ง"
+        },
+        {
+          "thai": "ชิม"
+        },
+        {
+          "thai": "กูน กูร"
+        },
+        {
+          "thai": "กูล"
+        },
+        {
+          "thai": "เสก เสข"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เสค",
+      "translit": "/jung/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/chim/ /goon/ /sàyk/"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อาด อาต อาจ อาส อาช อาถ อาท",
+      "translit": "/àat/"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "โลบ โลป โลพ"
+        },
+        {
+          "thai": "ดอย"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แมว",
+      "translit": "/lôhp/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/doi/ /maeo/"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "See how LC2 and HC have the same consonant sounds, but note that they have completely different tone patterns for both live and dead syllables. We will discuss the rules that govern this in the next section. Some of the words don’t have any meaning but are used as contrastive examples. Please only focus on the pronunciation."
+    },
+    {
+      "type": "track",
+      "number": 31
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ขำ-คำ"
+        },
+        {
+          "thai": "เถา-เทา"
+        },
+        {
+          "thai": "แผน-แพน"
+        },
+        {
+          "thai": "ฉะ-ชะ"
+        },
+        {
+          "thai": "หัก-ฮัก"
+        },
+        {
+          "thai": "ผด-พด"
+        },
+        {
+          "thai": "ไฝ-ไฟ"
+        },
+        {
+          "thai": "เฉย-เชย"
+        },
+        {
+          "thai": "ถี-ที"
+        },
+        {
+          "thai": "สูบ-ซูบ"
+        },
+        {
+          "thai": "โขก-โคก"
+        },
+        {
+          "thai": "สาก-ซาก"
+        },
+        {
+          "thai": "ฝอง-ฟอง"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "หึง-ฮึง Low born, but high class High class consonant “ห” has a very strange habit—it changes low class consonants to high class! When you put ห in front of a low class 1 consonant, ห becomes silent, and that LC1 consonant changes to high class; meaning the HC tone rule is applied instead of the LC tone rule (We’ll learn about it tomorrow). First, let’s look at these examples below and you’ll get what I’m talking about:"
+    },
+    {
+      "type": "track",
+      "number": 32
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "นู"
+        },
+        {
+          "thai": "นาม"
+        },
+        {
+          "thai": "นิ"
+        },
+        {
+          "thai": "นัก"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นอก",
+      "translit": "/noo/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/naam/ /ní/ /núk/ /nôrk/ Just a low class consonant that acts in a low class way, right?"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "หนู*",
+      "translit": "19"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "หนาม"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "หนิ*"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "หนัก* หนอก",
+      "translit": "/nŏo/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/năam/ /nì/ /nùk/ /nòrk/ Now, the tone in each word changes, doesn’t it? At this point I want you to be aware of it, we’ll dive deeper into the rules on DAY 5. Keep in mind, however, that ห can only do this to “low class 1” consonants. You can even consider them as separate consonants in high class if it makes it easier for you. Just like this:"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "หง- หม- หน- หร- หล- หย- หว-",
+      "translit": "[ng˘]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[m˘] [n˘] [r˘] [l˘] [y˘] [w˘] Now you have a complete set of identical consonant sounds in both high class and low class! HC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "หง"
+        },
+        {
+          "thai": "หม"
+        },
+        {
+          "thai": "หน"
+        },
+        {
+          "thai": "หร"
+        },
+        {
+          "thai": "หล"
+        },
+        {
+          "thai": "หย"
+        },
+        {
+          "thai": "หว"
+        },
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ห LC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "ม"
+        },
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        },
+        {
+          "thai": "ฮ"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "In this exercise notice that the first ห is silent, and the following LC1 consonant becomes an HC consonant. Don’t worry about the tones."
+    },
+    {
+      "type": "track",
+      "number": 33
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "หมัด"
+        },
+        {
+          "thai": "หลบ"
+        },
+        {
+          "thai": "หยิน"
+        },
+        {
+          "thai": "หนัก"
+        },
+        {
+          "thai": "หรู"
+        },
+        {
+          "thai": "โหวตเหงา"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "21 หนาม"
+    },
+    {
+      "type": "paragraph",
+      "html": "หลายหมอ Somewhere I belong So far you have learnt 28 consonants in total. Now, you might have a little problem memorising which class each consonant belongs to. If you find it a bit difficult then I might be able to assist with some memory aids I’ve created for you. The key is “the sounds”. Apart from HC and LC2, if you know the sound of the consonant you’ll know which class it belongs to. HC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ห",
+      "translit": "[k˘]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[t˘] [ch˘] [s˘] [p˘] [f˘] [h˘] MC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ",
+      "translit": "[g]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[j] [d] [dt] [b] [bp] [-] LC1"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "ม"
+        },
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ย"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ว",
+      "translit": "[ng]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[m] [n] [r] [l] [y] [w] LC2"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฮ",
+      "translit": "[k]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[t] [ch] [s] [p] [f] [h] So I’ve created mnemonics for you!"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "MID class: ก ด ต จ บ ป อ",
+      "translit": "“G O O D J O B !”"
+    },
+    {
+      "type": "paragraph",
+      "html": "The letters ‘g’ ‘d’ ‘j’ and ‘b’ represent the consonant sounds in mid class, ‘d’ represents both ด [d] and ต [dt], and ‘b’ represents both บ [b] and ป [bp]. However, since อ has no sound you’ll just have to remember that it’s mid class, perhaps by associating it with that exclamation mark!"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "LOW class 1: ย ว น ง ล ม ร",
+      "translit": "“Y A W N I N G L E M U R”"
+    },
+    {
+      "type": "paragraph",
+      "html": "The letters ‘y’ ‘w’ ‘n’ ‘ng’ ‘l’ ‘m’ and ‘r’ represent the consonant sounds in low class 1. And since lemurs are animals and “lower” than humans, they’re LOW class."
+    },
+    {
+      "type": "thaiExample",
+      "thai": "LOW class 2: ค ท ช พ ฟ ซ ฮ",
+      "translit": "“K E T C H U P F I S H”"
+    },
+    {
+      "type": "paragraph",
+      "html": "The letters ‘k’ ‘t’ ‘ch’ ‘p’ ‘f’ ‘s’ and ‘h’ (remember ‘s’ and ‘h’ separately because in Thai there’s no ‘sh’) represent the consonant sounds in low class 2. And since fish are animals and “lower” than humans, they’re LOW class. But HC consonants, alas, have the same sounds as LC2, so you’ll just have to memorise these consonants in your own way. So if you come across a “KETCHUP FISH” consonant and it’s not one of the HC consonants (plus 3 more consonants that we’ll learn in the future), then you know immediately that it’s an LC2 consonant:"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ห",
+      "translit": "[k˘]"
+    },
+    {
+      "type": "paragraph",
+      "html": "[t˘] [ch˘] [s˘] [p˘] [f˘] [h˘]"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "The final exercise today is slightly different: we’re not reading words, but we’re going to place these consonants into the right classes. Use the mnemonics I introduced you to and start categorising away!"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        },
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        },
+        {
+          "thai": "ม"
+        },
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ห"
+        },
+        {
+          "thai": "อ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฮ HIGH CLASS MID CLASS LOW CLASS 1 LOW CLASS 2 (Answer) 22"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Remember all HC consonants",
+        "High class consonants have a rising tone by default",
+        "High class consonants can pair with low class 2; their sounds are identical, both at initial and final position",
+        "When ห precedes a low class 1 consonant, ห becomes silent and that LC1 consonant changes its class to high class",
+        "Now you should be able to put all these consonants into the right classes. If you still can’t, only memorise HC consonants, then drill these mnemonics: “Good job!” - MC; “Yawning lemur” - LC1; “Ketchup fish” - LC2 Finally, our first glimpse of how the Thai tone system works! This chapter’s content can be a bit overwhelming so read carefully and make sure you understand it before progressing further. Today we’ve got more vowels with two forms as well."
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 4,
+  "prev": "day-3",
+  "next": "day-5",
+  "_generated": true,
+  "_curated": true
+}

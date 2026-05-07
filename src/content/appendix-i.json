@@ -1,0 +1,386 @@
+{
+  "id": "appendix-i",
+  "slug": "appendix/i",
+  "titleEn": "Appendix I: Thai Character Summary",
+  "titleRu": "Приложение I: Сводка тайских символов",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "Appendices Appendix I: Thai character summary Consonants The following table shows all the consonants which are grouped by sounds, both at initial and final position (underlined consonants are HC consonants): initial final 62"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พ ผ ภ",
+      "translit": "p"
+    },
+    {
+      "type": "paragraph",
+      "html": "-p"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ป",
+      "translit": "bp"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "บ",
+      "translit": "b"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฟ ฝ",
+      "translit": "f"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ท ถ ธ ฒ ฑ ฐ",
+      "translit": "t"
+    },
+    {
+      "type": "paragraph",
+      "html": "-t"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ต ฏ",
+      "translit": "dt"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ด ฎ",
+      "translit": "d"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ซ ส ศ ษ",
+      "translit": "s"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ช ฉ ฌ",
+      "translit": "ch"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จ",
+      "translit": "j"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ค ข ฆ",
+      "translit": "k"
+    },
+    {
+      "type": "paragraph",
+      "html": "-k"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ก",
+      "translit": "g"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ม",
+      "translit": "m"
+    },
+    {
+      "type": "paragraph",
+      "html": "-m"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "น ณ",
+      "translit": "n"
+    },
+    {
+      "type": "paragraph",
+      "html": "-n"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ร",
+      "translit": "r"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ล ฬ",
+      "translit": "l"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ง",
+      "translit": "ng"
+    },
+    {
+      "type": "paragraph",
+      "html": "-ng"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ย",
+      "translit": "y"
+    },
+    {
+      "type": "paragraph",
+      "html": "-i"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ญ",
+      "translit": "y"
+    },
+    {
+      "type": "paragraph",
+      "html": "-n"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ว",
+      "translit": "w"
+    },
+    {
+      "type": "paragraph",
+      "html": "-o"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฮ ห",
+      "translit": "h"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ",
+      "translit": "-"
+    },
+    {
+      "type": "paragraph",
+      "html": "Vowels For each vowel sound in the left-hand column there are corresponding long and short vowels, and their forms may differ depending on whether they’re in medial position (followed by a final consonant) or final position (where there’s no final consonant). The vowels which are centred in the table only have one form and do not change. (NB: medial final medial final -aa, -u-, -a"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "-า -ั-"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "-ะ",
+      "translit": "-ee, -i"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "-ี"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "-ิ",
+      "translit": "-ue"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-ื-"
+        },
+        {
+          "thai": "-ือ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "-ึ",
+      "translit": "-oo, -u"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "-ู"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "-ุ",
+      "translit": "-oh, -o"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โ-",
+      "translit": "- -"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โ-ะ",
+      "translit": "-ay, -e"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เ-"
+        },
+        {
+          "thai": "เ-็-"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-ะ",
+      "translit": "-air, -a-"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "แ-"
+        },
+        {
+          "thai": "แ-็-"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แ-ะ",
+      "translit": "-er"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เ-ิ -"
+        },
+        {
+          "thai": "เ-อ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-อะ",
+      "translit": "-or"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-อ"
+        },
+        {
+          "thai": "-็อ-"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-าะ",
+      "translit": "-ia"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "เ-ีย"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-ียะ",
+      "translit": "-uea"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "เ-ือ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-ือะ",
+      "translit": "-ua"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-ว-"
+        },
+        {
+          "thai": "-ัว"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "-ัวะ Vowels that don’t take final consonants are always at final position: -um"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "-ำ, -ัม",
+      "translit": "-ao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เ-า",
+      "translit": "-ai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ไ-, ใ-, -ัย",
+      "translit": "-eui"
+    },
+    {
+      "type": "paragraph",
+      "html": "เ-ย Notice that the [-um] and [-ai] sounds can be made by just one vowel, or they can be combinations of “ -ั ” and ม or ย. Complete tone summary The “String Theory” that we have learnt in this book are the essential rules for tone production, and for 99% of words you will not need to remember anything else but those. However, if you’re a perfectionist and want to know all there is to know about tone rules, including those that are hardly used ones, here are all the possible combinations. 64 no mark"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "อ่"
+        },
+        {
+          "thai": "อ้"
+        },
+        {
+          "thai": "อ๊"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "อ๋ HC Live M L F H R Dead L L F H R MC Live R L F Dead L F LC Live M F H Dead LV F H Dead SV"
+    }
+  ],
+  "footnotes": {},
+  "prev": "last-day",
+  "next": "appendix/ii",
+  "_generated": true,
+  "_curated": true
+}

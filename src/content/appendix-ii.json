@@ -1,0 +1,513 @@
+{
+  "id": "appendix-ii",
+  "slug": "appendix/ii",
+  "titleEn": "Appendix II: Consonant Names",
+  "titleRu": "Приложение II: Названия согласных",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "H F M = mid tone, L = low tone, F = falling tone, H = high tone, R = rising tone Appendix II: Consonant names Since some consonants share the same sound, names have been  invented to distinguish between such characters, just like when you say “A is for apple”. Thai consonant names are consistent and understood throughout Thailand. If you just want to be able to read basic Thai then I suppose you don’t really need to know these, but if you want to expand your vocabulary it’s the only way Thais can spell words out for you. The order you see below is the actual alphabetical order of Thai consonants. Memorising it will help you when using a dictionary, but unless you’ve got time, these can be overlooked for the time being. By the way, I also include 2 obsolete consonants ฃ and ฅ here as well. They’re no longer used but still in the alphabet list."
+    },
+    {
+      "type": "track",
+      "number": 85
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ฃ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ก. ไก่"
+    },
+    {
+      "type": "paragraph",
+      "html": "ข. ไข่"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฃ. ขวด*",
+      "translit": "65"
+    },
+    {
+      "type": "paragraph",
+      "html": "/gor gài/ /kŏr kài/ /kŏr kùat/ chicken egg bottle"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ฅ"
+        },
+        {
+          "thai": "ฆ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ค. ควาย"
+    },
+    {
+      "type": "paragraph",
+      "html": "ฅ. คน*"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฆ. ระฆัง",
+      "translit": "/kor kwaai/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/kor kon/ /kor rákung/ water buffalo human bell"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ฉ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ง. งู"
+    },
+    {
+      "type": "paragraph",
+      "html": "จ. จาน"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฉ. ฉิ่ง",
+      "translit": "/ngor ngoo/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/jor jaan/ /chŏr chìng/ snake plate Thai cymbals"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "ฌ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ช. ช้าง"
+    },
+    {
+      "type": "paragraph",
+      "html": "ซ. โซ่"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฌ. เฌอ",
+      "translit": "/chor"
+    },
+    {
+      "type": "paragraph",
+      "html": "cháang/ /sor sôo/ /chor cher/ elephant chain tree 66"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ญ"
+        },
+        {
+          "thai": "ฎ"
+        },
+        {
+          "thai": "ฏ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ญ. หญิง"
+    },
+    {
+      "type": "paragraph",
+      "html": "ฎ. ชฎา"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฏ. ปฏัก",
+      "translit": "/yor yĭng/ /dor chádaa/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/dtor bpà- dtùk/ woman Thai head dress javelin"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ฐ"
+        },
+        {
+          "thai": "ฑ"
+        },
+        {
+          "thai": "ฒ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฐ. ฐาน"
+    },
+    {
+      "type": "paragraph",
+      "html": "ฑ. มณโฑ"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฒ. ผู้เฒ่า",
+      "translit": "/tŏr tăan/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/tor montoh/ /tor pôotâo/ pedestal Mondodari 67 elder"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ณ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ณ. เณร"
+    },
+    {
+      "type": "paragraph",
+      "html": "ด. เด็ก"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ต. เต่า",
+      "translit": "/nor nayn/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/dor dèk/ /dtor dtào/ novice monk child tortoise"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ธ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ถ. ถุง"
+    },
+    {
+      "type": "paragraph",
+      "html": "ท. ทหาร"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ธ. ธง",
+      "translit": "/tŏr tŏo'ng/ /tor táhăan/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/tor tong/ bag soldier flag"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "น. หนู"
+    },
+    {
+      "type": "paragraph",
+      "html": "บ. ใบไม้"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ป. ปลา",
+      "translit": "/nor nŏo/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/bor baimáai/ /bpor bplaa/ rat leaf fish"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "ฝ"
+        },
+        {
+          "thai": "พ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ผ. ผึ้ง"
+    },
+    {
+      "type": "paragraph",
+      "html": "ฝ. ฝา"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พ. พาน",
+      "translit": "/pŏr pûe’ng/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/fŏr făa/ /por paan/ bee lid offering tray"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ฟ"
+        },
+        {
+          "thai": "ภ"
+        },
+        {
+          "thai": "ม"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฟ. ฟัน"
+    },
+    {
+      "type": "paragraph",
+      "html": "ภ. สำเภา"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ม. ม้า",
+      "translit": "/for fun/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/por sŭmpao/ /mor máa/ tooth junk boat horse"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ย. ยักษ์"
+    },
+    {
+      "type": "paragraph",
+      "html": "ร. เรือ"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ล. ลิง",
+      "translit": "/yor yúk/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/ror ruea/ /lor ling/ giant boat monkey"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "ศ"
+        },
+        {
+          "thai": "ษ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ว. แหวน"
+    },
+    {
+      "type": "paragraph",
+      "html": "ศ. ศาลา"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ษ. ฤๅษี",
+      "translit": "/wor wăn/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/sŏr săalaa/ /sŏr ruesĕe/ ring gazebo hermit"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ส"
+        },
+        {
+          "thai": "ห"
+        },
+        {
+          "thai": "ฬ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ส. เสือ"
+    },
+    {
+      "type": "paragraph",
+      "html": "ห. หีบ"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฬ. จุฬา",
+      "translit": "/sŏr sŭea/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/hŏr hèep/ /lor jùlaa/ tiger chest, box \"Chula\" kite"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "อ"
+        },
+        {
+          "thai": "ฮ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "อ. อ่าง"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฮ. นกฮูก",
+      "translit": "/or àang/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/hor nókhôok/ basin owl If you live in Thailand, you can easily find Thai alphabet writing practice books which have pictures showing the meaning of these consonant names to help you create connections between consonant names and the meaning of these names. Use them as writing playgrounds and practise to perfect your Thai characters. Such books are sold everywhere, usually with a BIG picture of a chicken (which is the first letter of the alphabet) on the cover. It’s worth it—get one. Appendix III: Dictionary order Thai alphabetical order in the dictionary is more complex and requires more attention than the English one does. In dictionary order, consonants have priority over vowels. The character order is as follows: CONSONANT SYMBOL ORDER"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ"
+        },
+        {
+          "thai": "ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป"
+        },
+        {
+          "thai": "ผ ฝ พ ฟ ภ ม ย ร ฤ ฤๅ ล ฦ ฦๅ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ว ศ ษ ส ห ฬ อ ฮ VOWEL SYMBOL ORDER"
+    }
+  ],
+  "footnotes": {},
+  "prev": "appendix/i",
+  "next": "appendix/iii",
+  "_generated": true,
+  "_curated": true
+}

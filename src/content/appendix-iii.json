@@ -1,0 +1,102 @@
+{
+  "id": "appendix-iii",
+  "slug": "appendix/iii",
+  "titleEn": "Appendix III: Dictionary Order",
+  "titleRu": "Приложение III: Словарный порядок",
+  "blocks": [
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ะ -ั า -ำ -ิ -ี -ึ -ื -ุ  -ู เ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "แ โ ใ ไ The 4 tone marks, mái dtàikóo (อ็) and mái tuntákâat (อ์ ) are ignored in most cases unless two or more words have exactly the same spelling. DIACRITIC SYMBOL ORDER"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "-็ -่ -้ -๊ -๋ -์"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "1. Keep in mind that dictionaries sort words by the way they’re written, not"
+    },
+    {
+      "type": "paragraph",
+      "html": "by their sound, this means that even though you don’t pronounce silent consonants like ห, อ or ร they are still sorted alphabetically:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "e.g. หลาย is under ห section, not ล"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "2. อ, ย and ว are always treated as consonants, even when they’re part of a vowel:"
+    },
+    {
+      "type": "paragraph",
+      "html": "- word order: เอย > เอว > เออ > เอา 3. ฤ and ฤๅ are placed straight after ร. Obsolete characters ฃ, ฅ, ฦ and ฦๅ are included in the dictionary but you’ll never find any words in their sections:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "word order: พรึก > พฤก 4. Consonants have the highest priority; they always come before vowels:",
+        "word order: จรง > จริง > จอง > จาง > โจง 5. Tone marks and other symbols are generally ignored unless two or more words contain exactly the same consonants and vowels, only then are they taken into account:",
+        "word order: แขง > แข็ง > แข่ง > แข้ง 6. Regardless of their position(s) in a syllable, vowels come after"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "consonants, meaning that even though เ or โ, is placed before the initial consonant, its precedence in the dictionary is still after all the consonants:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "word order: กก > กอ > เก > โก 7. For compound vowels (vowels which are made up of multiple symbols"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "such as เ-า, etc.), all the symbols that make up the vowel will be taken into account and sorted in the following order (where อ is an initial consonant):"
+    },
+    {
+      "type": "paragraph",
+      "html": "อะ อั - อั -ะ อา อำ อิ อี อึ อื- อุ อู เอ เอะ เอา เอาะ เอิ- เอี- เอี-ะ เอื- เอื-ะ แอ"
+    },
+    {
+      "type": "paragraph",
+      "html": "แอะ โอ โอะ ใอ ไอ:"
+    },
+    {
+      "type": "paragraph",
+      "html": "- word order: นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก >"
+    },
+    {
+      "type": "paragraph",
+      "html": "นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ >"
+    },
+    {
+      "type": "paragraph",
+      "html": "เนือ > เนือง > เนือะ > แน > แนบ > แนะ >โนน > โนะ > ใน > ไน NB: Many of these words in the examples are NOT real words. Some of them are made up solely to be used to demonstrate the rules given in each bullet point, so don’t try to learn them. You can use the glossary at the end of this book to practice looking up words in the Thai dictionary. Keep in mind that this is not very crucial in reading Thai, it’s just a nice and useful skill to have! Appendix IV: Words that use ใ As you learned previously, there are 20 words in Thai that contain the ใ- vowel. No more, no less. However, most of these words are extremely common, so you’ll need to know which words you’re supposed to spell with this squiggly ใ- [ai]. NB: Some of the words above can be translated in more than one way. The meanings given are just examples. Appendix V: Thai fonts Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+    }
+  ],
+  "footnotes": {},
+  "prev": "appendix/ii",
+  "next": "appendix/iv",
+  "_generated": true,
+  "_curated": true
+}

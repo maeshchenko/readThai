@@ -1,0 +1,252 @@
+{
+  "id": "day-5",
+  "slug": "day-5",
+  "titleEn": "Day 5: Theory of Tones",
+  "titleRu": "День 5: Теория тонов",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 5: Theory of Tones"
+    },
+    {
+      "type": "paragraph",
+      "html": "Today there are only 3 long vowels. But these three vowels all have two forms (just like -ะ and -ั- in DAY 3)."
+    },
+    {
+      "type": "track",
+      "number": 34
+    },
+    {
+      "type": "paragraph",
+      "html": "-ือ, เ-อ and -ัว are only used when there is no final consonant, but when a final consonant is present, -ื-, เ-ิ- and -ว- are used instead. This difference in spelling has no effect on the vowel sounds."
+    },
+    {
+      "type": "track",
+      "number": 35
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "หลือ"
+        },
+        {
+          "thai": "หลืบ"
+        },
+        {
+          "thai": "คือ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คืน",
+      "translit": "/lŭe/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/lùep/ /kue/ /kuen/"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "มือ"
+        },
+        {
+          "thai": "มืด"
+        },
+        {
+          "thai": "เขอ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เขิน",
+      "translit": "/mue/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/mûet/ /kĕr/ /kern/"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เงอ"
+        },
+        {
+          "thai": "เงิน"
+        },
+        {
+          "thai": "เกอ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เกิด",
+      "translit": "/nger/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/ngern/ /ger/ /gèrt/ For “-ว-”, it can be a bit confusing because ว is also a consonant, right? The trick is, when you see three consonants together with ว in the middle, I’d say it’s probably the vowel -ัว [-ua-]!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Keep in mind that some vowels (4 to be precise) have two forms; one is the default form when it ends the syllable, and the second form is used when there is a final consonant in that syllable. Figure it out by reading the words below until you get the idea. And remember the silent ห!"
+    },
+    {
+      "type": "track",
+      "number": 36
+    },
+    {
+      "type": "paragraph",
+      "html": "Theory of Tones Every syllable of every word in Thai is assigned a tone. In writing, tones can be identified by the way the syllable is written. The factors that affect the tone for each syllable are: whether the syllable is live or dead; the consonant class of the initial consonant 23; and if any, the tone mark above the syllable 24. Tone rules in Thai writing are routinely demonised as being super- complicated, and leave many discouraged from learning to read. But here I’ll use a friendly approach to debunk this myth. HC MC LC Live rising mid Dead LongV low falling ShortV high Take a look at this table above. This is a concise summary of the rules: For live syllables, HC consonants produce rising tone, MC and LC consonants produce mid tone. For dead syllables, HC and MC consonants produce low tone. As for LC consonants, it depends; if the vowel is long, that dead LC syllable produces falling tone, but if the vowel is short, that dead LC syllable produces high tone. That’s about it. Naturally, however, some learners will have a hard time memorising this. Most people are visual learners because for us human beings, pictures leave a more vivid impression. A picture actually does say a thousand words. In the next few pages, I’ll introduce you to ‘String Theory’, the method I developed while working as the principal at Duke Language School. It will make your life much easier, trust me. String Theory The idea is simple: instead of reciting the rules, you simply need to remember images and use them as cues to remind yourself of the tone rules. First, we’ll start with the basics. String Theory rule #1: “The live syllable” There’s a box with 3 strings strung from the left to the right side of it. The top string is the ‘high class string’, the middle on is ‘mid class string’, and the lowest is, you guessed it, the ‘low class string’. Each string will represent the tone for their respective class. Got it? Then continue. In the default position, which is a LIVE syllable, there’s a little convex protruding out from the top, let’s call it a ‘live piece’, bending the HC string but does not affect MC or LC string at all. As we have learnt on DAY 4, HC consonants have an inherent RISING tone, so naturally a syllable with an initial high class consonant will carry a RISING tone as well. Did you notice that the way the HC string bends is similar to the rising tone phonetic symbol (ă)? On the other hand, a live syllable with an initial mid or low class consonant will not carry any exciting tone, it is just flat or MID tone, just like how flat (ā) the strings for MC and LC are! This image will be your first hint for the tone pattern in the String Theory. Look at these live syllables below and see how their tone is MID, but those with an initial HC consonant have a rising tone."
+    },
+    {
+      "type": "track",
+      "number": 37
+    },
+    {
+      "type": "paragraph",
+      "html": "String Theory rule #2: “The dead syllable” Since dead people are buried underground, for the DEAD syllable, the ‘dead piece’ goes to the bottom of the box as well. Also, as for any other position that is not default (LIVE syllable), the strings will be dragged to the same height as the corresponding piece. This results in the HC and MC strings heading downwards and the LC string getting pushed up in the middle. …But that’s not all there is! Please continue reading. I know we don’t really want exceptions in language, but bear with me. The dead syllable has a quirky rule JUST for LC consonants, which states that if the vowel is short, that syllable takes a HIGH tone, but if the vowel is long, it takes a FALLING tone. So, if we cut the tone box in half, the HC and MC strings head downwards, resembling LOW tone phonetic symbol (à), while LC string is seen as heading upwards, resembling the HIGH tone phonetic symbol (á). These are the tone patterns for short vowels in dead syllable. When the whole tone box is visible, the HC and MC strings still head downwards, so the tone patterns are identical to the half-box view (low tone). On the other hand, it is apparent that the fully visible LC string goes up and down, looking very much like a FALLING tone phonetic symbol (â). So remember these images as your second hint to determine the tones for dead syllables. See how the HC and MC all have low tone and the LC have either falling or high tone depending on the vowel length."
+    },
+    {
+      "type": "track",
+      "number": 38
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Tell me the tone of the following syllables below."
+    },
+    {
+      "type": "track",
+      "number": 39
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ขำ"
+        },
+        {
+          "thai": "จวน"
+        },
+        {
+          "thai": "ยืม"
+        },
+        {
+          "thai": "สูง"
+        },
+        {
+          "thai": "ฝน"
+        },
+        {
+          "thai": "หาบ"
+        },
+        {
+          "thai": "แปด"
+        },
+        {
+          "thai": "ฮอด"
+        },
+        {
+          "thai": "ฉก"
+        },
+        {
+          "thai": "ดุ"
+        },
+        {
+          "thai": "รัก"
+        },
+        {
+          "thai": "เผา"
+        },
+        {
+          "thai": "เคย"
+        },
+        {
+          "thai": "เกิด"
+        },
+        {
+          "thai": "ถูก"
+        },
+        {
+          "thai": "พบ"
+        },
+        {
+          "thai": "มีด"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "The moment of truth! Use the rules we’ve learnt previously to read these sentences with the right tone. To save time, make sure you already know these things: 1. Consonant classes— Use the mnemonic from yesterday to help you remember. Don’t forget that silent ห makes an LC consonant high class; 2. String Theory #1 & #2— memorise the default tones for live and dead syllables, and their exceptions; 3. Short and long vowels for Theory #2. Don’t forget that invisible [-o-] is a short vowel. Unless you’re confident you have them all worked out, don’t shy away from using a cheat list. It can speed up your progress, trust me!"
+    },
+    {
+      "type": "track",
+      "number": 40
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ฝนตกมากในแถบทะเลตะวันออก"
+        },
+        {
+          "thai": "เขาชอบทำเมินเฉยกับแฟนของผม"
+        },
+        {
+          "thai": "พูดมาซะหากมีอะไรหนักหัวใจเรา"
+        },
+        {
+          "thai": "ลืมเอาขิงสดกับกะปิไปทำแกงฮังเล"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฉันฝากถุงสีหวานกับลูกสาวคนโต",
+      "translit": "- Remember 3 more vowels that have two forms"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The rest of the vowels that have two forms:-ือ, เ-อ and -ัว change to -ื-, เ-ิ- and -ว- when there’s a final consonant",
+        "The tone of each syllable can be determined by 3 main factors: dead or live syllable; the class of the initial consonant; the tone mark if any (if it’s a dead syllable with an initial LC consonant, the vowel length will be taken into account as well)",
+        "The String Theory #1: “live syllable” — HC consonants create RISING tone, MC & LC consonants create MID tone",
+        "The String Theory #2: “dead syllable” — both HC & MC consonants create LOW tone, while LC consonants create FALLING tone if the vowel is long and HIGH tone if the vowel is short"
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 5,
+  "prev": "day-4",
+  "next": "intermission",
+  "_generated": true,
+  "_curated": true
+}

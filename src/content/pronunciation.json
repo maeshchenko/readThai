@@ -1,0 +1,593 @@
+{
+  "id": "pronunciation",
+  "slug": "pronunciation",
+  "titleEn": "Pronunciation Guide",
+  "titleRu": "Гид по произношению",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "Pronunciation guide Although this book deals with written rather than spoken Thai, I think it’s a good idea to talk about how to read my pronunciation guide before we get into these curious Thai squiggles! The transliteration system that I use is largely based on the English spelling conventions found in David Smyth’s “Complete Thai” (2011), so it should be intuitive enough to English speakers to produce approximate sounds, and I’ll just identify the tricky sounds when necessary. However, remind yourself that you shouldn’t depend on the transliteration because it only serves as a scaffold and you must ditch it as soon as possible. You are learning to read IN THAI after all! On the other hand, if you don’t wish to see the transliterations at all, I’ve deliberately arranged them in a way that you can hide them by using a pen or pencil to cover the pronunciation guide rows."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Consonant sounds"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ก [g] as in “girl”, NEVER as in “gin”",
+        "ช ฌ ฉ [ch] as in “church”, NEVER as in “chrome”",
+        "จ [j] as in “jeans” [g], [ch] and [j] are close BUT not quite the same as in English, they are pronounced a bit softer in Thai. Listen and repeat the sounds."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 1
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เกา",
+      "translit": "gao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "กิน",
+      "translit": "gin"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "กลัว",
+      "translit": "glua"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แกง",
+      "translit": "gang"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ชน",
+      "translit": "chon"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ชาม",
+      "translit": "chaam"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เชิญ",
+      "translit": "chern"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ชาย",
+      "translit": "chaai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จีน",
+      "translit": "jeen"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จำ",
+      "translit": "jum"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จอง",
+      "translit": "jorng"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เจอ",
+      "translit": "jer"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ง [ng] as in “singing” In English, [ng] only occurs at the end of a word, but in Thai it can occur at the beginning of a word as well. Many learners end up saying ‘gn’ as in lasagne instead! Try saying singing and gradually quieten the ‘si-’ part until you’re left with ‘-nging’. Get the feel of that first ‘ng’ in ‘-nging’ and single it out."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 2
+    },
+    {
+      "type": "thaiExample",
+      "thai": "งาน",
+      "translit": "ngaan"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เงิน",
+      "translit": "ngern"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เงา",
+      "translit": "ngao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "งู",
+      "translit": "ngoo"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ต [dt] & ป [bp] Many learners find these two sounds difficult. To English ears, [dt] sounds a lot like [d], and [bp] sounds like [b]. But the truth is, you DO have these sounds in English; have you ever noticed that in English, the ‘t’ sound in stool is slightly different from ‘t’ in tool, and the ‘p’ sound in speak is different from ‘p’ in peak? That ‘t’ in stool is like [dt], and ‘p’ in speak is like [bp] in Thai. Try saying stool and speak and gradually quieten the ‘s-’ until it disappears. Remember how you made those ‘-tool’ and ‘-peak’ sounds, then try to single them out."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 3
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ตา",
+      "translit": "dtaa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ตัว",
+      "translit": "dtua"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ตาม",
+      "translit": "dtaam"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ตอ",
+      "translit": "dtor"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ไป",
+      "translit": "bpai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ปลา",
+      "translit": "bplaa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เปีย",
+      "translit": "bpia"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แปรง",
+      "translit": "bprang"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "ร [r] [r] is quite a problematic sound and, unfortunately, has no equivalence in English. It has many pronunciations; many conservative Thais suggest that ideally it should sound like Spanish rolled r as in Roma (“rrroma”!), but in real life, NOBODY speaks THAT way! You wouldn’t hear anyone roll their r’s all the time unless they’re newscasters on duty or when someone is giving a formal speech, really. It can be pronounced like ‘tt’ in the word ‘better’ in American English (it’s sometimes called tapped r), or people might replace it with [l]! For instance, some Thais might pronounce the word /arai/ (what?) as /alai/ because we Thais find it easier to say. But I would advise against this practice; it’s considered “lazy” Thai and is frowned upon by more educated people. So tapped r is probably the most politically correct choice."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 4
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เรียน"
+        },
+        {
+          "thai": "อะไร"
+        },
+        {
+          "thai": "โรงแรม"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "รวย",
+      "translit": "rolled [r]"
+    },
+    {
+      "type": "paragraph",
+      "html": "rrrian arrrai rrrohng-rrram rrruai tapped [r] rian arai rohng-ram ruai lazy [r] lian alai lohng-lam luai"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Vowel sounds"
+    },
+    {
+      "type": "paragraph",
+      "html": "The way these vowels are pronounced never changes:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เอะ [-e] as in “men”, not “gene”",
+        "อิ [-i] as in “fit”, not “bite”",
+        "อา [-aa] as in “aardvark”",
+        "เอ [-ay] as is “lay”",
+        "ไอ [-ai] as in “chai” tea, not “main”",
+        "เอา [-ao] as in “Taoism”",
+        "อุย [-ui] as in “quick”",
+        "โอย [-oey] as in “Joey” The letter ‘r’ in these vowels is not pronounced (like in British English):",
+        "แอ [-air] as in “fair”",
+        "ออ [-or] as in “more”",
+        "เออ [-er] as in “her” Apostrophe (’) is used to indicate that the vowel is short:",
+        "อุ [-oo’]",
+        "แอะ [-air’]",
+        "เอาะ [-or’]",
+        "อะ [-a’]",
+        "เออะ [-er’]",
+        "เอะ [-ay’]",
+        "อึ [-ue’] However, some vowels just don’t sound like anything in English, so you have to listen and associate the sounds with the transliteration."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 5
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "อิว [-iw]",
+        "อาย [-aai]",
+        "อูย [-ooi]",
+        "อือ [-ue]",
+        "เอียว [-iao]",
+        "อาว [-aao]",
+        "แอว [-aeo]",
+        "เอือ [-uea]",
+        "อวย [-uai]",
+        "เอว [-eo]",
+        "เอย [-eui]",
+        "เอือย [-ueai] Listen to the following words and correctly repeat the sounds. Ignore the tones at this stage, just focus on getting the sounds right."
+      ]
+    },
+    {
+      "type": "track",
+      "number": 6
+    },
+    {
+      "type": "thaiExample",
+      "thai": "มัน",
+      "translit": "mun"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จะ",
+      "translit": "ja"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ใคร",
+      "translit": "krai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เรา",
+      "translit": "rao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เป็น",
+      "translit": "bpen"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เละ",
+      "translit": "lay’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ดิน",
+      "translit": "din"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ซิ",
+      "translit": "si"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เมีย",
+      "translit": "mia"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คน",
+      "translit": "kon"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โชะ",
+      "translit": "cho’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จุ",
+      "translit": "ju"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ทัวร์",
+      "translit": "tua"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คุย",
+      "translit": "kui"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ตาล",
+      "translit": "dtaan"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เซ",
+      "translit": "say"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เมด",
+      "translit": "mayt"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "กี่",
+      "translit": "gee"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โลก",
+      "translit": "lohk"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โดย",
+      "translit": "doey"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สูบ",
+      "translit": "soop"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คุณ",
+      "translit": "koo’n"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แบบ",
+      "translit": "bap"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แม่",
+      "translit": "mair"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แงะ",
+      "translit": "ngair’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เหิม",
+      "translit": "herm"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เปรอะ",
+      "translit": "bprer’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นอน",
+      "translit": "norn"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เกาะ",
+      "translit": "gor’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คอย",
+      "translit": "koi"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เลย",
+      "translit": "leui"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "รึ",
+      "translit": "rue’"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เกลือ",
+      "translit": "gluea"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "มือ",
+      "translit": "mue"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tones"
+    },
+    {
+      "type": "paragraph",
+      "html": "Tones are like musical notes in language. There are 5 tones in Thai and the “notes” are shown above. Accent marks are used in this book to denote different tones in the pronunciation."
+    },
+    {
+      "type": "track",
+      "number": 7
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เสียงสามัญ /sĭang sămun/ MID tone"
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อา",
+      "translit": "aa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ดี",
+      "translit": "dee"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "แพง"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "pang ไทย",
+      "translit": "tai"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เสียงเอก /sĭang àyk/ LOW tone ( ` )"
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ่า",
+      "translit": "àa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "หนุ่มnòo’m ก่อน",
+      "translit": "gòrn"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สิบ",
+      "translit": "sìp"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เสียงโท /sĭang toh/ FALLING tone ( ˆ )"
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ้า",
+      "translit": "âa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พ่อ",
+      "translit": "pôr"
+    },
+    {
+      "type": "paragraph",
+      "html": "เฟื่องfûeang เหล้าlâo"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เสียงตรี /sĭang dtree/ HIGH tone ( ´ )"
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ๊า",
+      "translit": "áa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ชั้น",
+      "translit": "chún"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นี้",
+      "translit": "née"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ร้าย",
+      "translit": "sáai"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "เสียงจัตวา /sĭang jùt-dtawaa/ RISING tone ( ˘ )"
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อ๋า",
+      "translit": "ăa"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สวย",
+      "translit": "sŭai"
+    },
+    {
+      "type": "paragraph",
+      "html": "แขนkăn"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สอง",
+      "translit": "sŏrng"
+    },
+    {
+      "type": "paragraph",
+      "html": "Tones are an integral part of Thai; they are as important as consonants and vowels. Different tones can make syllables of the same consonants and vowels take different meanings:"
+    },
+    {
+      "type": "track",
+      "number": 8
+    },
+    {
+      "type": "paragraph",
+      "html": "นา /naa/   -   rice paddy field หน่า /nàa/   -   from /nóinàa/, custard apple หน้า /nâa/   -   face, next น้า /náa/   -   uncle or aunt (mother’s younger sibling) หนา /năa/   -   thick We’ll start off our first lesson with a group of characters called ‘low class consonants’. You will also learn some of the most common ‘long vowels’ as well."
+    }
+  ],
+  "footnotes": {},
+  "prev": "introduction",
+  "next": "day-1",
+  "_generated": true,
+  "_curated": true
+}

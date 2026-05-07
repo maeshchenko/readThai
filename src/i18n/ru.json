@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "Читай по-тайски за 10 дней",
+    "subtitle": "Пошаговое изучение тайского письма"
+  },
+  "nav": {
+    "home": "Главная",
+    "preface": "Предисловие",
+    "introduction": "Введение",
+    "pronunciation": "Гид по произношению",
+    "day": "День {{n}}",
+    "intermission": "Антракт",
+    "preliminary": "Подготовка",
+    "lastDay": "Последний день",
+    "appendix": "Приложение {{id}}",
+    "glossary": "Глоссарий",
+    "tableOfContents": "Оглавление",
+    "nextChapter": "Следующая глава",
+    "prevChapter": "Предыдущая глава"
+  },
+  "audio": {
+    "playSample": "Образец",
+    "pause": "Пауза",
+    "speed": "Скорость",
+    "track": "Трек {{n}}"
+  },
+  "recorder": {
+    "record": "Записать",
+    "stop": "Стоп",
+    "playRecording": "Прослушать запись",
+    "reRecord": "Записать ещё раз",
+    "playSample": "Прослушать образец",
+    "download": "Скачать",
+    "compareAB": "Сравнить A/B",
+    "micPermission": "Для записи голоса нужен доступ к микрофону.",
+    "micDenied": "Доступ к микрофону запрещён. Разрешите его в настройках браузера.",
+    "recording": "Запись...",
+    "recordYourVoice": "Записать голос и сравнить"
+  },
+  "home": {
+    "hero": "Освойте тайское чтение за 10 структурированных уроков",
+    "startLearning": "Начать с Дня 1",
+    "continueFrom": "Продолжить: {{chapter}}",
+    "lessons": "Уроки",
+    "progress": "{{done}} из {{total}} треков прослушано"
+  },
+  "theme": {
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная"
+  },
+  "glossary": {
+    "search": "Поиск по тайскому, транслитерации или английскому...",
+    "noResults": "Ничего не найдено",
+    "entries": "{{count}} записей"
+  },
+  "thaiScript": {
+    "looped": "С петельками (หัวกลม)",
+    "loopless": "Без петелек (หัวตัด)",
+    "showBoth": "Показать оба стиля"
+  },
+  "chapter": {
+    "todaysRecap": "Итоги дня",
+    "showAnswer": "Показать ответ",
+    "hideAnswer": "Скрыть ответ",
+    "ruleEyebrow": "Правило",
+    "examplesEyebrow": "Примеры"
+  }
+}

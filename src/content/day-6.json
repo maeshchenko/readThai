@@ -1,0 +1,437 @@
+{
+  "id": "day-6",
+  "slug": "day-6",
+  "titleEn": "Day 6: Mark My Words",
+  "titleRu": "День 6: Запомни мои слова",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 6: Mark My Words"
+    },
+    {
+      "type": "paragraph",
+      "html": "The last three vowels are composed of 3 symbols each. They’re a bit hard to remember, so pay extra attention. Note that the first one, เ-าะ27 [-or’], unlike เ-ีย [-ia] and เ-ือ [-uea], is a short vowel."
+    },
+    {
+      "type": "track",
+      "number": 41
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "track",
+      "number": 42
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เงาะเคาะเจาะเหาะ"
+        },
+        {
+          "thai": "เมีย"
+        },
+        {
+          "thai": "เฮีย"
+        },
+        {
+          "thai": "เตียงเขียว"
+        },
+        {
+          "thai": "เรือ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "เชือกเดือดเสือ Identify tricky vowels with “เ” 17 long vowels and 5 short vowels (4 of which have two forms). That’s quite a lot of vowels to remember! Fortunately, there’s a way to ease this pain for learners. You may have noticed that many vowel combinations contain the “เ” symbol, such as เ-า, เ-ย, เ-อ, เ-ิ-, เ-าะ, เ-ีย and เ-ือ. If you find “เ” while reading Thai you will have to be able to tell what vowel it belongs to, or if it alone is the vowel! 1. STOP and pause for a second when you see “เ”. Don’t jump to conclude that it is the เ- [-ay] vowel, because it might be just a component of another vowel. Look at its surroundings for clues. 2. First, look on top of the consonant(s) that follow เ and see whether there’s a character above it:"
+    },
+    {
+      "type": "rule",
+      "html": "If there’s an -ิ on top of it, the vowel is เ-ิ- [-er-].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เหลิง"
+        },
+        {
+          "thai": "เดิม"
+        },
+        {
+          "thai": "เขิน"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "If there’s an -ื on top of it, the vowel is เ-ือ [-uea].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เหมืองเอือ"
+        },
+        {
+          "thai": "เสือ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "If there’s an -ี on top of it, the vowel is เ-ีย [-ia].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เขียน"
+        },
+        {
+          "thai": "เรียก"
+        },
+        {
+          "thai": "เปียก"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "3. But if there’s nothing on top, look at the end of the syllable to see if any"
+    },
+    {
+      "type": "paragraph",
+      "html": "character comes after:"
+    },
+    {
+      "type": "rule",
+      "html": "If there’s a ย at the end, it’s probably an เ-ย [-eui] vowel.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เหงย"
+        },
+        {
+          "thai": "เตย"
+        },
+        {
+          "thai": "เผย"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "If there’s an อ at the end, it’s probably an เ-อ [-er] vowel.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เจอ"
+        },
+        {
+          "thai": "เชอ"
+        },
+        {
+          "thai": "เหรอ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "If there’s an -า at the end, it’s probably an เ-า [-ao] vowel.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เอา"
+        },
+        {
+          "thai": "เทา"
+        },
+        {
+          "thai": "เขา"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "But if there’s also an -ะ after the -า, it’s definitely an เ-าะ [-or’] vowel.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "เสาะ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "เหมาะเกาะ 4. If there’s nothing at the positions mentioned, it’s probably just เ- [-ay]!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "With the trick you’ve just learnt, can you identify all the vowels in these passages? Easy mode: scan for vowels that start with เ- and identify which vowel they are. Hard mode: read the whole passages!"
+    },
+    {
+      "type": "track",
+      "number": 43
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ฉันเจอลูกเขยนายสมปองรถ"
+        },
+        {
+          "thai": "จอดเสียริมทางแถวในเมือง"
+        },
+        {
+          "thai": "ของเขาเองเพราะเกิดรถชน"
+        }
+      ]
+    },
+    {
+      "type": "track",
+      "number": 44
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ผมเคยเดินละเมอบน"
+        },
+        {
+          "thai": "ชายทะเลทางเหนือของ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "เกาะตะรุเตาคนเดียว Tone marks The next four characters are Thai tone marks, and they’re written on the top-right of the initial consonant, if there is a vowel written over that consonant, the tone mark will be written on top of the vowel also. As the names suggest, they MOSTLY mark the tone of their names (except LC which has got a special rule. I’ll clear that up soon). You might be interested to know that เอก [àyk] โท [toh] ตรี [dtree] and จัตวา [jùtdtawaa] are actually number one, two, three, and four in Sanskrit, so maybe it’s no coincidence that each tone mark looks like the number they got their names from! We’ll start with the first two tone marks: the low tone mark (อ่ ) and the falling tone mark (อ้ ) which are far more common than the other two. HC MC LC Tone marks Low TM"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "(อ่ )",
+      "translit": "low"
+    },
+    {
+      "type": "paragraph",
+      "html": "falling Falling TM (อ้ ) falling high The low tone mark (อ่ ) marks LOW tone for high class and mid class. However, when an LC consonant takes on (อ่ ), it produces FALLING tone instead. Likewise, the falling tone mark (อ้ ) marks FALLING tone for high class and mid class. However, when an LC consonant takes on (อ้ ), it produces HIGH tone instead. But how will we visualise these rules? Here comes the String Theory: String Theory rule #3: “The low tone mark” The low tone mark creates the EXACT same patterns as the dead syllable rule, except that there is no distinction between short-long vowel length. The HC and MC strings head downwards, confirming that the low tone mark (อ่ ) produces LOW tone (à). However, there is one exception: the LC string is raised in the middle, making it look like a FALLING tone phonetic symbol (â). Therefore, for a syllable with an initial LC consonant a FALLING tone is produced instead. String Theory rule #4: “The falling tone mark” If the low tone mark (อ่ ) looks like the number 1 then the falling tone mark (อ้ ) looks like the number 2, so the ‘falling tone piece’ is twice the size of the ‘low tone piece’. Since 2 is a higher number than 1, the falling tone piece is also in a higher position (the top of the box)! Also, all of the strings need to be dragged to the same height as the piece. Since the piece is in the way of the HC and MC strings, they have to go around it, creating an arc like the FALLING tone phonetic symbol (â), whereas the LC string is completely unobstructed, making it look like a HIGH tone phonetic symbol (á). Remember the images of the String Theory numbers #3 and #4 and look at the examples below."
+    },
+    {
+      "type": "track",
+      "number": 45
+    },
+    {
+      "type": "paragraph",
+      "html": "Incidentally, tone marks rarely appear with dead syllables. Which means that if you see a syllable with a tone mark, there’s a pretty good chance that it’s a live syllable, so you can identify live-dead syllables more easily and quickly. However, some of the most common exceptions are:"
+    },
+    {
+      "type": "track",
+      "number": 46
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "จ้ะ"
+        },
+        {
+          "thai": "ค่ะ"
+        },
+        {
+          "thai": "ล่ะ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โค้ก",
+      "translit": "/jâ/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/kâ/ /lâ/ /kóhk/ The other two tone marks, the high tone mark (อ๊ ) and the rising tone mark (อ๋ ), are rarely seen in Thai writing since there are only a small number of words that use them. Plus, their tones are absolute; unlike the low tone mark and the falling tone mark, the high tone mark ALWAYS marks a high tone and the rising tone mark ALWAYS marks a rising tone, and they ONLY occur with mid class consonants. So there’s not much for you to remember."
+    },
+    {
+      "type": "track",
+      "number": 47
+    },
+    {
+      "type": "paragraph",
+      "html": "Also, when there’s a tone mark, it overrides the live-dead syllable rules. So when a tone mark is present, you can forget about Theory #1 and #2, which makes things easier! Reading practice Read the words below and try to produce the right tone according to the String theory. MC and HC consonants have the same pattern, but LC consonants are different."
+    },
+    {
+      "type": "track",
+      "number": 48
+    },
+    {
+      "type": "paragraph",
+      "html": "31 Pronunciation mismatch Well this is awkward, but I must admit that despite all these rules we’ve learnt, there are some rebels in the Thai language that don’t want to play by the rules. Some of the most frequently used words, after having been spoken so exhaustively, came to have a slightly different vowel or tone."
+    },
+    {
+      "type": "track",
+      "number": 49
+    },
+    {
+      "type": "thaiExample",
+      "thai": "น้ำ",
+      "translit": "núm"
+    },
+    {
+      "type": "paragraph",
+      "html": "“water” pronounced like น้าม náam"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ไม้",
+      "translit": "mái"
+    },
+    {
+      "type": "paragraph",
+      "html": "“wood” pronounced like ม้าย máai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ใต้",
+      "translit": "dtâi"
+    },
+    {
+      "type": "paragraph",
+      "html": "“under, south” pronounced like ต้าย dtâai"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เท้า",
+      "translit": "táo"
+    },
+    {
+      "type": "paragraph",
+      "html": "“foot” pronounced like ท้าว táao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เก้า",
+      "translit": "gâo"
+    },
+    {
+      "type": "paragraph",
+      "html": "“nine” pronounced like ก้าว gâao"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ไหม",
+      "translit": "măi"
+    },
+    {
+      "type": "paragraph",
+      "html": "Y/N question particle pronounced like มั้ย mái"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฉัน",
+      "translit": "chŭn"
+    },
+    {
+      "type": "paragraph",
+      "html": "“I” pronounced like ชั้น chún"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เขา",
+      "translit": "kăo"
+    },
+    {
+      "type": "paragraph",
+      "html": "“he, she, they” pronounced like เค้า káo Sadly you can’t tell how this works, but it usually only happens with one syllable words that have either of the following qualities:"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The length of an อำ [-um] ไ- ใ- [-ai] or เ-า [-ao] vowel might be extended"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "and turn into -าม [-aam] -าย [-aai] or -าว [-aao] respectively"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "A rising tone which might change to a high tone instead So my suggestion is stick to what you know about the rules until someone points out the exceptions to you or you notice them yourself. Remember, these are very rare cases, so don’t let this discourage you! Give it a go! Brace yourself, because you’re going to read Thai tonal tongue twisters! This is going to be fun but tricky, so don’t beat yourself up if you can’t do it well. Take your time, read slowly, and focus on producing the right tone for"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "each syllable. Don’t forget that silent ห converts LC consonants to high class, so treat them as high class. Remember, it’s not the end of the universe if you’re not 100% correct!"
+    },
+    {
+      "type": "track",
+      "number": 50
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Remember 3 complex vowels and 4 tone marks",
+        "Many vowels have the symbol “เ” as their component, so when you come across เ you must look around and see whether it’s part of another vowel or not",
+        "The String Theory #3 & #4: “tone marks” — for HC & MC consonants, the tone mark (อ่ ) marks a"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "LOW tone and (อ้ ) marks a FALLING tone, but for LC consonants, the tone mark (อ่ ) marks a FALLING tone and (อ้ ) marks a HIGH tone"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Tone marks seldom occur on dead syllables",
+        "The tone mark (อ๊ ) ALWAYS marks a HIGH tone and (อ๋ ) ALWAYS marks a RISING tone, and they’re only used with MC consonants",
+        "There are a number of common one-syllable words whose vowel length or tone do not follow the rules A series of consonants pronounced together is called ‘a consonant cluster’. Today you’ll learn how to tell the different types apart and how to read them. We’ll look at some less common consonants and uncover where the unwritten [-a] vowel is hiding in words too!"
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 6,
+  "prev": "intermission",
+  "next": "day-7",
+  "_generated": true,
+  "_curated": true
+}

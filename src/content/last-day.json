@@ -1,0 +1,598 @@
+{
+  "id": "last-day",
+  "slug": "last-day",
+  "titleEn": "Last Day: The Beginning",
+  "titleRu": "Последний день: Начало",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "LAST DAY: The Beginning"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Camouflaged vowels"
+    },
+    {
+      "type": "paragraph",
+      "html": "(3 letters) You’ve learnt how to identify unwritten vowels in words with 1 or 2 consonants. How about 3-consonant combos? Actually, you’ve previously learnt this, it’s just that sometimes they appear as a word with no vowel. Here I’ll sum it up for you."
+    },
+    {
+      "type": "track",
+      "number": 81
+    },
+    {
+      "type": "rule",
+      "html": "If the first character is ห then that ห is almost always a silent one:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "หมด"
+        },
+        {
+          "thai": "หยก"
+        },
+        {
+          "thai": "หงอ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "หลบ",
+      "translit": "mòt"
+    },
+    {
+      "type": "rule",
+      "html": "yòk ngŏr lòp if the middle character is อ then that อ is an [-or-] vowel:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "กอด"
+        },
+        {
+          "thai": "ชอบ"
+        },
+        {
+          "thai": "ศอก"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นอน",
+      "translit": "gòrt"
+    },
+    {
+      "type": "rule",
+      "html": "chôrp sòrk norn If the middle character is ว, it’s probably an -ว- [-ua-] vowel:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "สวย"
+        },
+        {
+          "thai": "ควร"
+        },
+        {
+          "thai": "ดวง"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ปวด",
+      "translit": "sŭai"
+    },
+    {
+      "type": "rule",
+      "html": "kuan duang bpùat If the first 2 consonants look like they could be a true cluster and the second consonant is ร or ล, it probably has an unwritten [-o-] vowel:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ครบ"
+        },
+        {
+          "thai": "ตรง"
+        },
+        {
+          "thai": "กลม"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ปลด",
+      "translit": "króp"
+    },
+    {
+      "type": "paragraph",
+      "html": "dtrong glom bplòt If none of the previous cases apply then perhaps it’s a false cluster, where the first consonant is pronounced with an unwritten [-a] and the other two form a syllable with an unwritten [-o-]:"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ถนน"
+        },
+        {
+          "thai": "ผงก"
+        },
+        {
+          "thai": "ตลก"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นคร",
+      "translit": "58"
+    },
+    {
+      "type": "paragraph",
+      "html": "tànŏn pà-ngòk dtàlòk nákorn"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Any cluster consisting of more than 3 consonants is a combination of camouflaged vowels, which in many cases is difficult to identify. Use your instinct and guess how they’re read (Yes, you’re likely to make mistakes!)."
+    },
+    {
+      "type": "track",
+      "number": 82
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "หมวก"
+        },
+        {
+          "thai": "ตลอด"
+        },
+        {
+          "thai": "ทบทวน"
+        },
+        {
+          "thai": "สกปรก"
+        },
+        {
+          "thai": "วงกลม"
+        },
+        {
+          "thai": "นครปฐม"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ทรวดทรง Same same, but different In the Thai writing system, there are 42 consonant characters, 22 vowels (which are made up from 18 symbols), and a handful other symbols such as tone marks, etc. Therefore, it’s not unusual if you get these numerous characters mixed up from time to time. While most characters are distinctive enough, some of them can prove to be very hard for you to tell apart. Here I line them up side by side so that you can spot the differences with ease!"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "ถ"
+        },
+        {
+          "thai": "ภ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฤ these only differ at the head (loop) part. Only ฤ [rúe’]’s tail is longer."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "ค"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ศ learners often get ด [d] and ค [k] mixed up, so pay attention to how the head curls."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ผ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฝ"
+        },
+        {
+          "thai": "ฟ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "spikey characters are tricky because they look and sound similar as well."
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "พ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ฬ these two also look similar but the ฬ [l] consonant on the right is rarely seen, if it has a piggy tail then it’s not พ [p].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ข"
+        },
+        {
+          "thai": "ช"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ซ ‘coil-heads’. If it has a straight tail then it’s ข [k˘], if a twitchy tail then it’s ช [ch], if a twitchy tail and dented head then it’s ซ [s].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ษ The consonants บ [b] and ป [bp] look and sound very similar. But if it has something like the อั [-u-] vowel inside it’s ษ [s˘].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ข"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "บ ข [k˘] is skinnier and has a coil head, whereas บ [b] is broader. However, in some fonts these two can look almost identical, Lucky you (NOT!)."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "โ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ธ Some learners get ร [r] and the vowel โ- [-oh] mixed up. ร’s head is facing left and the โ vowel is so much taller."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "ว"
+        },
+        {
+          "thai": "า"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "อ Rather unique but occasionally confusing, especially between ง [ng] and ว [w].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "อ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ฮ ฮ [h] is not common in Thai words, but in borrowed words it is. Remember that ฮ has a little hat on top.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ล"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ส if the head reaches down to the bottom line it’s ล [l], if it also has a tiny tail it’s ส [s˘], but if not then it’s จ [j].",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ฎ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ฏ you won’t see these two much. If it has an extra spike at the bottom it’s ฏ [dt], but if not it is a ฎ [d] consonant.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ะ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "-ั Both -ะ [-a] and -ั- [-u-] sound the same but the first one does not take a final consonant, while the latter NEEDS a final consonant.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "เ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "แ แ- [-air] is basically เ- [-ay] written twice but in fact they’re separate characters. Plus, the เ- symbol is used in other vowels as well.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "โ"
+        },
+        {
+          "thai": "ไ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ใ All the tall guys. The vowel โ- [-oh] curls to the right at the top, but both wavy and squiggly [-ai] curl to the left.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-ิ"
+        },
+        {
+          "thai": "-ี"
+        },
+        {
+          "thai": "-ึ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "-ื These four top vowel symbols are only different in their stems."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-ั"
+        },
+        {
+          "thai": "-์"
+        },
+        {
+          "thai": "-้"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "-๊ the อั [-u-] symbol and silent mark are similar but different in their directions.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "-ั"
+        },
+        {
+          "thai": "-ํ"
+        },
+        {
+          "thai": "-ิ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "the circle symbol (middle) is only used as a component for the vowel [-um]"
+    },
+    {
+      "type": "paragraph",
+      "html": "and is always accompanied by the symbol “-า”."
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "-ุ"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "-ู These two lower vowels have the same sounds but the first one is short and the latter one is long, just like the length of their own tail.",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ย"
+        },
+        {
+          "thai": "ฉ"
+        },
+        {
+          "thai": "ฐ"
+        },
+        {
+          "thai": "-่"
+        },
+        {
+          "thai": "-๋"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "-็ These characters look unique enough so you shouldn’t have any problems identifying them. One more thing. Some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. I provide some common font types used in Thailand for your reference in the Appendices at the end of this book."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Each of the words/phrases below contain similar characters. It’s now your job to distinguish them and read the words out loud."
+    },
+    {
+      "type": "track",
+      "number": 83
+    },
+    {
+      "type": "paragraph",
+      "html": "60 Where do we draw the line? Since DAY 1 we have known that there are no spaces between syllables or words. Now that we’ve learned all the characters you might have realised that the position of vowels and some punctuation marks might give us clues about how to identify syllable boundaries. So look for the vowel’s position when reading! These vowels ALWAYS start the syllable. Note: In addition to being the [- ay] vowel, “เ” can be a component of other vowels as well (see Identify tricky vowels with “เ”). “ -ุ ” or “ -ู ” is written under the initial consonant. If there are two initial consonants (e.g. in a cluster, etc.) it goes under the second consonant. For that reason, it is at the beginning of a syllable, or at least one block after it. The symbol “ะ” (whether as a vowel or a shortening symbol) and the vowel “-ะ”. ALWAYS end the syllable. Note that “ -ํ ” always appears with “า”. The shortening mark “ -็ ” and the “ -ั-” vowel are usually on top of the second last character of the syllable (unless there’s an extra character at the end like a silent consonant). These three vowels are likely to be at the end of the syllable, or the second last character of the syllable if there’s a final consonant. “ -ี ” and “ -ื ” are also likely to be at the end/almost at the end of the syllable, UNLESS they’re part of complex vowel “เ-ีย” and “เ-ือ”, in which case they might be 1 character, or 2 characters away from the end if there’s a final consonant. When you see a silent marker, it doesn’t only mark the end of the syllable, it marks THE END OF THE WORD (except in some foreign words which have a silent mark somewhere in the middle of the word)."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "In this passage below, you’ll have to break up the individual syllables. Use the tactics I’ve taught you."
+    },
+    {
+      "type": "track",
+      "number": 84
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "3 consonants with no written vowel can be: [-or-] if the middle character is อ, [-ua-] if the middle"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "one is ว, [-o-] if there’s a silent ห or it’s a true cluster, or else it’s probably a pseudo cluster, in which case the first and the second syllables are [-a, -o-] respectively"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "You should be able to look at similar characters and spot the  differences between them",
+        "The vowel’s position within a syllable gives a clue to where the syllable starts or ends"
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 10,
+  "prev": "preliminary",
+  "next": "appendix/i",
+  "_generated": true,
+  "_curated": true
+}

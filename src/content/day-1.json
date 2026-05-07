@@ -1,0 +1,197 @@
+{
+  "id": "day-1",
+  "slug": "day-1",
+  "titleEn": "Day 1: The Class System",
+  "titleRu": "День 1: Система классов",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 1: The Class System"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Classy consonants"
+    },
+    {
+      "type": "paragraph",
+      "html": "Thai consonant classes play a major part in determining the tone of each syllable in a word as we will find out in the later chapters. There are 3 classes: mid class, high class and low class. Low class is further divided into 2 subsets: group 1 and group 2. Every consonant belongs to any of these classes. Today we will look at “low class 1” (LC1) consonants. All consonants in Thai are pronounced with an -อ [-or] vowel sound as their name, for example the character น is called /nor/ (I’ll explain more about consonant names in the Appendices of this book). I have also listed these omnipresent headless-style and handwritten style characters here for your reference."
+    },
+    {
+      "type": "track",
+      "number": 9
+    },
+    {
+      "type": "paragraph",
+      "html": "1 As it appears on the previous page, most Thai characters can be written in one stroke, and you always start writing from the loop (or the “head” of the consonant as Thai people call it). However, some characters have no head, in which case just start from left to right."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The long and the short of it"
+    },
+    {
+      "type": "paragraph",
+      "html": "Long vowels are pronounced with longer duration than their short counterparts. The only difference between ‘ship’ and ‘sheep’ in standard British English, for example, is that the ‘ee’ in ‘sheep’ is slightly longer than the ‘i’ in ‘ship’. Vowel length is important and can change the meaning! Here are some of the most common long vowels. Note that a vowel’s position within the syllable can be fixed above, under, in front of, or after consonants. The dash symbol (–) in each vowel indicates the place where the initial (beginning) consonants go. Incidentally, note that the vowel “โ-” [oh] is taller than the others, and goes beyond the top line."
+    },
+    {
+      "type": "track",
+      "number": 10
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Read the following words and pay attention to the vowels’ position (don’t try to translate them just now, only focus on pronunciation). Make sure you try to read each syllable by yourself first before taking a peek at the answer key in the footnote!"
+    },
+    {
+      "type": "track",
+      "number": 11
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "นา"
+        },
+        {
+          "thai": "มี"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เลน* แรง* โยง*",
+      "translit": "3"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "วอ"
+        },
+        {
+          "thai": "งู"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ยีนโรม* งอม When “ย” [y] and “ว” [w] are at final position (after the initial consonant and vowel), they sound more like [-i] and [-o] respectively:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "รายยาว"
+        },
+        {
+          "thai": "เลว"
+        }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "รอย When “ร” [r] and “ล” [l] are at final position (after the initial consonant and vowel), their sound changes to [-n]:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เวร"
+        },
+        {
+          "thai": "มูล"
+        },
+        {
+          "thai": "มารยาล"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "No space between us"
+    },
+    {
+      "type": "paragraph",
+      "html": "There’s no space between words or syllables in Thai. No, I’m serious… Space only acts as a full stop or comma to show where a sentence ends or pauses. You’ll have to be able to identify syllable boundaries by yourself. But hang on, it’s not as hard as it sounds! Most Thai words have a fairly logical structure which limits the ways they can be read. The sentence above consists of 3 words: รอ ‘to wait’, นาย ‘boss’, มา ‘come’. But if you try to chop it up in any other way, for example: it is impossible to read! Since we already know that -า has to come after its consonant, it can’t just float around like “าย”. Also, you can’t do this either: If we do this, the second syllable will have too many final consonants “นายม” and the last -า will also have no initial consonant either. But I have to admit that this tactic doesn’t always work, so you’ll also need to be able to recognise words in sentences as well."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Separate these short phrases into individual syllables, then read them out loud."
+    },
+    {
+      "type": "track",
+      "number": 12
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "รอยแนวยาว"
+        },
+        {
+          "thai": "นามีรูงู"
+        },
+        {
+          "thai": "เรยาโลเล"
+        },
+        {
+          "thai": "ยามรอเวลา"
+        },
+        {
+          "thai": "ลองโยนแรงแรง"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "นารีนอนโรงงาน",
+      "translit": "- Remember all LC1 consonants and 7 long vowels"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Consonants belong to ‘classes’, and their class affects the tone of the syllable",
+        "Each consonant character has a name, and its name is its own sound + -อ [-or] e.g. น is called /nor/",
+        "There are 2 types of vowels: short and long, and each vowel’s position is fixed",
+        "At final position (the end of the syllable after the initial consonant and vowel), ย sounds like [-i], ว"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "sounds like [-o], and ร and ล consonants change their sound to [-n]"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "There’s no space between words in Thai More low class consonants and long vowels today. You’ll learn about final consonant sounds, also the concept of live and dead syllables and how they affect tones."
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 1,
+  "prev": "pronunciation",
+  "next": "day-2",
+  "_generated": true,
+  "_curated": true
+}

@@ -1,0 +1,159 @@
+{
+  "id": "preliminary",
+  "slug": "preliminary",
+  "titleEn": "Preliminary",
+  "titleRu": "Подготовка",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "Preliminary Before we move on to the last chapter, perhaps you should refresh your memory of what we’ve done so far. Needless to say that at this point you should know DAY 1 - DAY 5 by heart. Below is a checklist of DAY 6 - DAY 9 to see whether you’re ready for the LAST DAY yet. Consonants 1. Do you remember these less common consonants, their sounds and their classes, and that under certain circumstances ญ will change its sound? (DAY 7 through 8)"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "- ฐ ศ ษ"
+        },
+        {
+          "thai": "- ฎ ฏ"
+        },
+        {
+          "thai": "- ญ ณ ฌ ฒ ธ ฑ ภ ฆ ฬ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "2. Do you remember how to pronounce consonant clusters and how many"
+    },
+    {
+      "type": "paragraph",
+      "html": "types there are? (Consonant cluster)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- ครับ พลุ โฟลท ขนาด อร่อย สบาย หมู เสริม ทรุด 3. Do you remember that if a consonant is marked by อ์ (/mái tuntákâat/) it’s not pronounced? (Silent mark)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- โจทย์ จันทร์ วินด์เซิร์ฟ 4. Do you remember that ร becomes silent after an [s] consonant, at the end of a syllable if alone, or often for no reason? Also, when it follows ท the sound of both together becomes [s]? (Pronunciations of “ร”)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- สร้าง เพชร สามารถ ทราบ Vowels 1. Do you remember these vowels and whether they are long or short? (Complex vowels)"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "- เ-าะ เ-ีย เ-ือ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "2. Do you remember that when there’s a consonant which seems to be by"
+    },
+    {
+      "type": "paragraph",
+      "html": "itself within a word, it probably has a short [-a] vowel? And even though sometimes it is not on its own, [-a] is still inserted to make a linking syllable? (Camouflage Vowels (1 letter))"
+    },
+    {
+      "type": "paragraph",
+      "html": "- ขโมย ฉลาด สุขภาพ 3. Do you remember that the combination บริ is pronounced [borrí-] not [bàrí-]? (“บริ” combination) 4. Do you remember that double รร turns into an [-u-] or [-un] vowel? (Double “รร”) 5. Do you remember that certain long vowels which have no short counterpart can be shortened by adding -ะ at the end of the syllable, or adding -็ if the vowel is either เ-, แ- or -อ and there’s a final consonant? (Vowel shortening)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- แกะ เลอะ เจ็ด ม็อบ 6. Do you remember that -ิ and -ุ vowels can be silent without a silent mark? Especially (but not necessarily) when -ติ or -ตุ appears at the end of a word? (Silent vowels)"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "- ชาติ ญาติ ประวัติ เหตุ อัตโนมัติ สมมุติ พยาธิ"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tones"
+    },
+    {
+      "type": "paragraph",
+      "html": "1. Do you remember all 4 tone marks and their default tones? (Tone marks)"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "- อ่ , อ้ , อ๊ , อ๋"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "2. Do you remember the tone rules: String Theory #3 and String Theory #4?"
+    },
+    {
+      "type": "paragraph",
+      "html": "(Theory of Tones – tone marks) HC MC LC Tone marks Low TM"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "(อ่ )",
+      "translit": "low"
+    },
+    {
+      "type": "paragraph",
+      "html": "falling Falling TM (อ้ ) falling high Miscellaneous 1. Do you remember the Thai numerals? (Thai numerals)"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "- ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ ๐"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "2. Do you remember how to read these unusual words? (Irregular spelling)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- ก็ ณ อย่า อยู่ อย่าง อยาก ไทย พุทธ สำเร็จ ตำรวจ ประวัติ บุรุษ 3. Do you remember how the symbol ฤ works and how to pronounce it? (Syllabic “ฤ”)"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "- พฤษภาคม ทฤษฎี ฤกษ์"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "4. Do you remember these punctuation marks and what they do? (Special"
+    },
+    {
+      "type": "paragraph",
+      "html": "marks)"
+    },
+    {
+      "type": "paragraph",
+      "html": "- ฯ ฯลฯ ๆ If you got it all, I think you’re ready! At last! In this last chapter I’ll give you a few tips to help you read Thai faster and more efficiently, such as how to identify syllable borders, distinguish similar characters, and identify the vowels in 3-consonant words without a written vowel. By the end of this chapter you should be ready to begin your new adventures in the world of Thai script with your newly found skill!!!"
+    }
+  ],
+  "footnotes": {},
+  "prev": "day-9",
+  "next": "last-day",
+  "_generated": true,
+  "_curated": true
+}

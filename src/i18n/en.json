@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "Read Thai in 10 Days",
+    "subtitle": "Learn to read Thai script step by step"
+  },
+  "nav": {
+    "home": "Home",
+    "preface": "Preface",
+    "introduction": "Introduction",
+    "pronunciation": "Pronunciation Guide",
+    "day": "Day {{n}}",
+    "intermission": "Intermission",
+    "preliminary": "Preliminary",
+    "lastDay": "Last Day",
+    "appendix": "Appendix {{id}}",
+    "glossary": "Glossary",
+    "tableOfContents": "Table of Contents",
+    "nextChapter": "Next Chapter",
+    "prevChapter": "Previous Chapter"
+  },
+  "audio": {
+    "playSample": "Play sample",
+    "pause": "Pause",
+    "speed": "Speed",
+    "track": "Track {{n}}"
+  },
+  "recorder": {
+    "record": "Record",
+    "stop": "Stop",
+    "playRecording": "Play recording",
+    "reRecord": "Re-record",
+    "playSample": "Play sample",
+    "download": "Download",
+    "compareAB": "A/B Compare",
+    "micPermission": "Microphone access is required to record your voice.",
+    "micDenied": "Microphone access was denied. Please allow it in browser settings.",
+    "recording": "Recording...",
+    "recordYourVoice": "Record your voice & compare"
+  },
+  "home": {
+    "hero": "Master Thai reading in 10 structured lessons",
+    "startLearning": "Start with Day 1",
+    "continueFrom": "Continue from {{chapter}}",
+    "lessons": "Lessons",
+    "progress": "{{done}} of {{total}} tracks listened"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "glossary": {
+    "search": "Search Thai, transliteration, or English...",
+    "noResults": "No results found",
+    "entries": "{{count}} entries"
+  },
+  "thaiScript": {
+    "looped": "Looped style (หัวกลม)",
+    "loopless": "Loopless style (หัวตัด)",
+    "showBoth": "Show both styles"
+  },
+  "chapter": {
+    "todaysRecap": "Today's Recap",
+    "showAnswer": "Show answer",
+    "hideAnswer": "Hide answer",
+    "ruleEyebrow": "Rule",
+    "examplesEyebrow": "Examples"
+  }
+}

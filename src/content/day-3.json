@@ -1,0 +1,485 @@
+{
+  "id": "day-3",
+  "slug": "day-3",
+  "titleEn": "Day 3: A Short, Short Story",
+  "titleRu": "День 3: Короткая-прекороткая история",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 3: A Short, Short Story"
+    },
+    {
+      "type": "paragraph",
+      "html": "Below is another Thai consonant class — “mid class”, featuring some of the most common characters used in the Thai writing system."
+    },
+    {
+      "type": "track",
+      "number": 20
+    },
+    {
+      "type": "rule",
+      "html": "And naturally, when these consonants are at final position they also become unreleased. Long story short, like this:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "บ"
+        },
+        {
+          "thai": "ป"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "อ Initial g j d dt b bp - Final 11 -k -t -p Notice that they have the same pattern as low class 2 consonants: -k -t -p MC"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ก"
+        },
+        {
+          "thai": "จ"
+        },
+        {
+          "thai": "ด"
+        },
+        {
+          "thai": "ต"
+        },
+        {
+          "thai": "บ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ป LC2"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "พ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฟ Placeholder “อ” You’ve seen the character “อ” as a vowel [-or] before, now let me reintroduce it to you as a consonant. What sound does it make as a consonant? None! It only serves as a “placeholder” for the vowel in syllables that don’t contain any initial consonant sound (such as “อา” /aa/, “อิ่ม” /ìm/ or “อะ” [a-] in “อะไร” /arai/). Because Thai vowels can’t be on their own; they need at least one consonant to hold on to. Needy little things!"
+    },
+    {
+      "type": "track",
+      "number": 21
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "อา"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อานเอาออม",
+      "translit": "/aa/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/aan/ /ao/ /orm/ The word ออม above has 2 อ’s, but the first one serves as a placeholder consonant and the second one is the vowel [-or]. We are now looking at short vowels for the first time. Note that the first two vowels are essentially the same vowel and have the same sound 12."
+    },
+    {
+      "type": "track",
+      "number": 22
+    },
+    {
+      "type": "paragraph",
+      "html": "A syllable is dead if it ends with a short vowel, because you can’t elongate short vowels (otherwise they wouldn’t be “short” vowels, right?)."
+    },
+    {
+      "type": "track",
+      "number": 23
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ฮะ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฮา",
+      "translit": "/há/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/haa/ “Ha…” “Haaaaaaa————” Live-dead syllables (continued) If a syllable ends with a short vowel, it’s dead. With that fact, combined with what we learned on DAY 2, we can conclude that: ...is a syllable that ends with... LIVE syllable"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[-ng] [-m] [-n] (or any LC1 consonant)",
+        "a LONG vowel DEAD syllable",
+        "[-k] [-t] [-p] (or any LC2 consonant)",
+        "a SHORT vowel A vowel with a double life"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "The first two vowel forms: -ะ and -ั- 13 (the latter symbol has another name: /mái hŭn-aagàat/), are essentially the same vowel; although they look different, they’re both pronounced [a]. However, you only see “-ะ” in words that end with the [a] vowel sound, and you only see “ -ั- ” in words that end with a final consonant. For example:"
+    },
+    {
+      "type": "track",
+      "number": 24
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "นะนัก"
+        },
+        {
+          "thai": "ละ"
+        },
+        {
+          "thai": "ลัง"
+        },
+        {
+          "thai": "คะ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "คับ",
+      "translit": "/ná/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/núk/ /lá/ /lung/ /ká/ /kúp/"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "พะพัด"
+        },
+        {
+          "thai": "ชะ"
+        },
+        {
+          "thai": "ชัน"
+        },
+        {
+          "thai": "ระ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "รัม",
+      "translit": "/pá/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/pút/ /chá/ /chun/ /rá/ /rum/"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Camouflaged vowels"
+    },
+    {
+      "type": "paragraph",
+      "html": "(2 letters) Quite often you’ll come across syllables with 2 consonants but no vowels to be found. Don’t panic! It’s pronounced as if there’s a short vowel [-o-] sound in between them. The short vowel [o] is not written down when there’s a final consonant in the syllable."
+    },
+    {
+      "type": "track",
+      "number": 25
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "คน"
+        },
+        {
+          "thai": "พบ"
+        },
+        {
+          "thai": "รก"
+        },
+        {
+          "thai": "ปม"
+        },
+        {
+          "thai": "กด"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "จง",
+      "translit": "/kon/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/póp/ /rók/ /bpom/ /gòt/ /jong/"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ตกลง"
+        },
+        {
+          "thai": "อบรม"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "มงคล",
+      "translit": "/dtòk-long/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/òp-rom/ /mongkon/ This always holds true UNLESS the final consonant is “ร”, then that syllable is pronounced [-orn] instead! The historical explanation is that these words were borrowed from Khmer (ancient Cambodian), and we kept the spelling, although we adapted the pronunciation to suit the Thai way."
+    },
+    {
+      "type": "track",
+      "number": 26
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "กร"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พร",
+      "translit": "14"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "อร",
+      "translit": "/gorn/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/porn/ /orn/"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "อาทร"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "วงจร",
+      "translit": "/aatorn/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/wongjorn/"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Focus on the new consonants and vowels you’ve just learnt. Also note the placeholder “อ” and both forms of the [a] vowel. Remember that if you don’t see any vowel, it’s an unwritten [-o-]. Incidentally, if you listen to track 27, it’s obvious that something greatly affects the pattern of tones, because they are all over the place! But don’t worry about the tones for now. We will investigate the tones on DAY 5."
+    },
+    {
+      "type": "track",
+      "number": 27
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "กิน"
+        },
+        {
+          "thai": "โจร"
+        },
+        {
+          "thai": "ดับ"
+        },
+        {
+          "thai": "บท"
+        },
+        {
+          "thai": "ฟุต"
+        },
+        {
+          "thai": "คาด"
+        },
+        {
+          "thai": "แบบ"
+        },
+        {
+          "thai": "เชย"
+        },
+        {
+          "thai": "จีน"
+        },
+        {
+          "thai": "วัด"
+        },
+        {
+          "thai": "ยากจน"
+        },
+        {
+          "thai": "กังวล"
+        },
+        {
+          "thai": "เปตอง"
+        },
+        {
+          "thai": "ตะปู"
+        },
+        {
+          "thai": "อึดอัด"
+        },
+        {
+          "thai": "มังคุด"
+        },
+        {
+          "thai": "วานร"
+        },
+        {
+          "thai": "ตะรุเตา"
+        },
+        {
+          "thai": "บางลำพู"
+        },
+        {
+          "thai": "ไฮติ"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Read the following sentences, but first separate them into individual syllables to make them easier to read. Again, you don’t have to worry about the tones just yet. Don’t forget that there can only be [-ng] [-m] [-n] [-k] [-t] and [-p] final consonant sounds!"
+    },
+    {
+      "type": "track",
+      "number": 28
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "อาชายเรากำลังไปบางมดกับลุง"
+        },
+        {
+          "thai": "ตากแดดมากนักระวังจะดำนะ"
+        },
+        {
+          "thai": "ฮะ"
+        },
+        {
+          "thai": "มาในซอยวันอังคารตอนดึกซิ"
+        },
+        {
+          "thai": "คะ"
+        },
+        {
+          "thai": "คนในลาวชอบกินลาบมากเลย"
+        },
+        {
+          "thai": "ทำไมใบพัดลมบนกำแพงมีรอย"
+        },
+        {
+          "thai": "แดง"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ไฟลุกลามโดนรูปวาดราคาแพง",
+      "translit": "- Remember all MC consonants and 4 short vowels"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The final consonant sounds of MC consonants have the same pattern as LC2 consonants",
+        "อ serves as a placeholder for vowels to hang onto when there is no initial consonant",
+        "Live-dead syllable summary: a live syllable ends with an LC1 consonant or a long vowel; a dead syllable ends with a non-LC1 consonant or a short vowel",
+        "Some vowels have two forms, like -ะ and -ั- but they sound the same. However, the latter is only used when the syllable contains a final consonant",
+        "A syllable with 2 consonants and no written vowel has an [-o-] short vowel sound, unless the final"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "consonant is ร in which case it is [-orn] which has a long vowel sound High class consonants and their quirkiness will be discussed today, and also how the consonant “ห” has an impact on tones when it precedes certain consonants. Lastly, I’ll teach you how to memorise consonant classes!"
+    }
+  ],
+  "footnotes": {},
+  "number": 3,
+  "prev": "day-2",
+  "next": "day-4",
+  "_generated": true,
+  "_curated": true
+}

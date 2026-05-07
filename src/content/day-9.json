@@ -1,0 +1,379 @@
+{
+  "id": "day-9",
+  "slug": "day-9",
+  "titleEn": "Day 9: The Outlaws",
+  "titleRu": "День 9: Исключения из правил",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 9: The Outlaws"
+    },
+    {
+      "type": "paragraph",
+      "html": "Thai numerals work the same way as in the Hindu-Arabic system (the numeral system you use in your everyday life — 1234567890). Nowadays they’re not as commonly used, but they’re still not to be ignored. Incidentally, number 7 looks exactly like a high tone mark (-๊ ), number 8 is the same as a shortening mark (-็ ), and zero is simply a circle. Rules are meant to be broken You know what? You’ve actually learnt all the rules there are to know in Thai script!!! Now however, despite all the efforts you’ve put into learning it, there are a few words that just don’t make much sense spelling-wise, and you have to memorise them as they are. In this couple of pages, I will guide you through most of them, and by the end of the chapter you will be able to read ALMOST EVERY WORD in Thai! Exciting, right? Vowel-less words — 3 words in Thai contain no written vowel at all:"
+    },
+    {
+      "type": "track",
+      "number": 72
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ก็",
+      "translit": "/gôr/ “then, also, too” (and so many other meanings)"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ณ*",
+      "translit": "53"
+    },
+    {
+      "type": "paragraph",
+      "html": "/ná/ “at” (formal)"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ธ*",
+      "translit": "/tá/ “His Majesty the King” (highly literary word)"
+    },
+    {
+      "type": "paragraph",
+      "html": "The ‘อย’ combination — Only 4 words in Thai contain the “อย-” combination, in which อ is not pronounced. Notice that all these words have low tone and not falling because this combination follows อ’s rule."
+    },
+    {
+      "type": "track",
+      "number": 73
+    },
+    {
+      "type": "paragraph",
+      "html": "Silent consonants without ‘ -็’ — In addition to silent ร (from the previous chapter), sometimes consonants can just be silent without a silent mark at all. Incidentally, the word ‘Thai’ itself is one of them:"
+    },
+    {
+      "type": "track",
+      "number": 74
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ไทย"
+        },
+        {
+          "thai": "พุทธ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พรหมลิขิต",
+      "translit": "/tai/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“Thai” /póo’t/ “Buddhist” /promlíkìt/ “destiny” Silent vowels — Vowels can be silent too. Generally, they’re in the words that end with -ติ or -ตุ where that -ิ or -ุ vowel is not pronounced. The common examples are:"
+    },
+    {
+      "type": "track",
+      "number": 75
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ชาติ"
+        },
+        {
+          "thai": "ญาติ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ประวัติ",
+      "translit": "/châat/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“nation” /yâat/ “relatives” /bpràwùt/ “history”"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "อัตโนมัติ"
+        },
+        {
+          "thai": "สมบัติ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ธาตุ",
+      "translit": "/ùt-dtànohmút/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“automatic” /sŏmbùt/ “treasure” /tâat/ “element”"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สมมุติ",
+      "translit": "54"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เหตุ",
+      "translit": "/bpà-dtìbùt/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“behave, act” /sŏmmóo’t/ “suppose” /hàyt/ “cause” You can see some other silent cases apart from -ติ and -ตุ too:"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ภูมิใจ"
+        },
+        {
+          "thai": "พยาธิ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "เมรุ",
+      "translit": "/poomjai/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“proud” /páyâat/ “parasite” /mayn/ “crematory”"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ขัดสมาธิ"
+        },
+        {
+          "thai": "จักรพรรดิ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "วุฒิ",
+      "translit": "/kùtsàmàat/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“sit cross-legged” /jùkgràpút/ “emperor” /wóo’t/ “qualification” Irregular tones — Some words which are of Khmer or Pali-Sanskrit origin don’t follow the rules. There are historical reasons for this but let’s just say that the first syllable of these words tends to start with ประ- [bprà-] or the vowel อำ [-um] (but not always). Common examples are:"
+    },
+    {
+      "type": "track",
+      "number": 76
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ประโยชน์"
+        },
+        {
+          "thai": "ประวัติ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ประมาท",
+      "translit": "/bpràyòht/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“benefit” /bpràwùt/ “history” /bpràmàat/ “careless”"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ตำรวจ"
+        },
+        {
+          "thai": "สำเร็จ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "บุรุษ",
+      "translit": "/dtumrùat/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/sŭmrèt/ /bùròo’t/ “police\" “succeed” “gentleman” Syllabic character “ฤ” This character is called ตัวรึ [dtua rúe’] 55 and it looks like “ถ” with a long tail. It is rare but still used in some common words in Thai. Normally, this character is pronounced as a single syllable: “รึ” [rúe’]."
+    },
+    {
+      "type": "track",
+      "number": 77
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "พฤหัสบดี"
+        },
+        {
+          "thai": "คฤหาสน์"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฤดู",
+      "translit": "/párúe’hùtsàbàdee/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“Thursday” /kárúe’hàat/ “mansión” /rúe’doo/ “season” It’s occasionally pronounced ริ [rí] or เรอ [rer] 56:"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ทฤษฎี"
+        },
+        {
+          "thai": "อังกฤษ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ฤกษ์",
+      "translit": "/trítsàdee/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“theory” /anggrìt/ “English” /rêrk/ “auspicious occasion” Abbreviation mark ไม้ไปยาล [mái bpaiyaan] “ฯ” is used for abbreviating proper nouns (i.e. names for specific things, place, or people):"
+    },
+    {
+      "type": "track",
+      "number": 78
+    },
+    {
+      "type": "thaiExample",
+      "thai": "กรุงเทพมหานคร » กรุงเทพฯ",
+      "translit": "/kroo’ngtâyp-máhăanákorn/ “Bangkok” » /kroo’ngtâyp/"
+    },
+    {
+      "type": "thaiExample",
+      "thai": "สหรัฐอเมริกา » สหรัฐฯ",
+      "translit": "/sàhàrút-àmayrígaa/ “United States of America” » /sàhàrút/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“ฯลฯ”, or [bpaiyaan yài], means ‘et cetera’. You should read it as /láir’ ùen- ùen/ (literally, ‘and others’) when you see it in writing."
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ที่ตลาดมีกล้วย ส้ม แตงโม ฯลฯ",
+      "translit": "/têe dtàlàat mee glûai, sôm, dtangmoh, láir’ ùen-ùen/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“In the market there are bananas, oranges, watermelons, etc.” Repetition mark ไม้ยมก [mái yamók] “ๆ” indicates that the word that comes before will be repeated one more time:"
+    },
+    {
+      "type": "track",
+      "number": 79
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "อื่นๆ"
+        },
+        {
+          "thai": "แดงๆ"
+        },
+        {
+          "thai": "ช้าๆ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ทุกๆคน",
+      "translit": "/ùen-ùen/"
+    },
+    {
+      "type": "paragraph",
+      "html": "“others” /dang-dang/ “reddish” /cháa-cháa/ “slowly” /tóo’k-tóo’k kon/ “everybody” This mark repeats the WORD, not the syllable. Therefore, sometimes you repeat just one syllable but sometimes you repeat more than one syllable depending on how many syllable that word has:"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Similar to the previous chapter, but this time you have to read the following passage written in handwriting style. Good luck!"
+    },
+    {
+      "type": "track",
+      "number": 80
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Remember Thai numerals",
+        "The 3 words which contain no vowel but which are pronounced as though there were one: ก็ , ณ, ธ",
+        "The 4 words with “อย-” combination: อย่า, อยู่ , อย่าง, อยาก",
+        "In some words, consonants can be silent without the silent mark: ไทย, พุทธ, etc.",
+        "Vowels -ิ or -ุ are often silent in the words that end with -ติ or -ตุ final (and in some other words too)",
+        "The tones in some words of Khmer or Pali-Sanskrit can be irregular and you just have to remember them word by word",
+        "ฤ is a syllable in itself, it is pronounced [rúe’] most of the time, but can be pronounced [rí] or [rer] as well in a minuscule number of words",
+        "The abbreviation mark “ฯ” is mostly used to shorten proper names, however the symbol “ฯลฯ”"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "means ‘et cetera’ and is always pronounced “และอื่นๆ” /láir’ ùen-ùen/"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "The repetition mark “ๆ” repeats the preceding word, you have to pronounce the full word (not just the syllable) twice"
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 9,
+  "prev": "day-8",
+  "next": "preliminary",
+  "_generated": true,
+  "_curated": true
+}

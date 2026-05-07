@@ -1,0 +1,382 @@
+{
+  "id": "day-2",
+  "slug": "day-2",
+  "titleEn": "Day 2: A Matter of Life and Death",
+  "titleRu": "День 2: Вопрос жизни и смерти",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "DAY 2: A Matter of Life and Death"
+    },
+    {
+      "type": "paragraph",
+      "html": "It’s time we learned the second group of low class consonants:"
+    },
+    {
+      "type": "track",
+      "number": 13
+    },
+    {
+      "type": "paragraph",
+      "html": "Why we say “I lerp you” In English, when you pronounce words like ‘search’, ‘cliff’ or ‘tick’, there’s a little puff of noise ‘chhh’, ‘fff’ or ‘kuh’ at the end of the word, right? But in Thai, final consonants (i.e. the consonant at the end of syllable, after the vowel) are “unreleased”; meaning we don’t release these little puffs, so sometimes it sounds like we don’t pronounce final consonants at all. Compare the English and Thai ways to say these words:"
+    },
+    {
+      "type": "track",
+      "number": 14
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "โซพ"
+        },
+        {
+          "thai": "เคฟ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "รูท",
+      "translit": "/sóhp/ “soap”"
+    },
+    {
+      "type": "paragraph",
+      "html": "/káyp/ “cave” /róot/ “root”"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "วอช"
+        },
+        {
+          "thai": "พีซ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แฮค",
+      "translit": "/wórt/ “watch”"
+    },
+    {
+      "type": "paragraph",
+      "html": "/péet/ “peace” /hák/ “hack” Did you hear anything at the end of each word? Exactly, nothing! And as a result of not releasing final consonants it makes some final consonants sound EXACTLY the same; both พ and ฟ sound like [-p] and the consonants ท, ช and ซ all sound like [-t]! ฮ never occurs at the end of a syllable Here’s the summary of the consonant sounds up until now. You don’t need to waste your time memorising these tables. If you finish the word without releasing the final sound, you are already doing it right."
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ง"
+        },
+        {
+          "thai": "ม"
+        },
+        {
+          "thai": "น"
+        },
+        {
+          "thai": "ร"
+        },
+        {
+          "thai": "ล"
+        },
+        {
+          "thai": "ย"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ว Initial ng m n r l y w Final -ng -m -n -i -o"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ค"
+        },
+        {
+          "thai": "ท"
+        },
+        {
+          "thai": "ช"
+        },
+        {
+          "thai": "ซ"
+        },
+        {
+          "thai": "พ"
+        },
+        {
+          "thai": "ฟ"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "ฮ Initial k t ch s p f h Final 6 -k -t -p Here are some more long vowels. These vowels are special because they don’t take a final consonant, meaning that if you see them in words, they will mark the end of a syllable and no final consonant will follow."
+    },
+    {
+      "type": "track",
+      "number": 15
+    },
+    {
+      "type": "paragraph",
+      "html": "‘Wavy’ [-ai] (ไ-) and ‘curly’ [-ai] (ใ-), or their proper names, ไอไม้มลาย /ai máai malaai/ and ใอไม้ม้วน /ai máai múan/ respectively, sound exactly the same. However, ใ- is only used in a number of words (20 words to be precise, find out more about it in the Appendices of this book) and the rest of the words with the [-ai] sound are written with the ไ- vowel. Why? These 2 [ai]’s used to have different sounds, but now it’s just a spelling convention. Some vowels above are ‘sandwich’ vowels which basically wrap around initial consonants. Pretty weird, eh?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Read the following words. Remember that final consonants are unreleased so some of them end up sounding the same."
+    },
+    {
+      "type": "track",
+      "number": 16
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ทำ"
+        },
+        {
+          "thai": "ซอง"
+        },
+        {
+          "thai": "ไว"
+        },
+        {
+          "thai": "ฮา"
+        },
+        {
+          "thai": "ชาย"
+        },
+        {
+          "thai": "เคย"
+        },
+        {
+          "thai": "ใน"
+        },
+        {
+          "thai": "เพล"
+        },
+        {
+          "thai": "ที"
+        },
+        {
+          "thai": "เรา"
+        },
+        {
+          "thai": "ไฟ"
+        },
+        {
+          "thai": "แพง"
+        },
+        {
+          "thai": "โคน"
+        },
+        {
+          "thai": "ใย"
+        },
+        {
+          "thai": "ซูม"
+        },
+        {
+          "thai": "นาค"
+        },
+        {
+          "thai": "เทพ"
+        },
+        {
+          "thai": "โรค"
+        },
+        {
+          "thai": "ชีพ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "ยาท",
+      "translit": "8"
+    },
+    {
+      "type": "paragraph",
+      "html": "Before you move on, make sure you remember all the low class consonants that we have learnt so far and which group they belong to (group 1 or 2). You’ll need it later! As quiet as death Drag the end of these words on as long as possible:"
+    },
+    {
+      "type": "track",
+      "number": 17
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "ฮา"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "แทน",
+      "translit": "/haa/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/tan/ “Haaaaaaa————” “Tannnnnn————” Too easy. Now try doing the same with these words:"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        {
+          "thai": "โชค"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "วาท",
+      "translit": "/chôhk/"
+    },
+    {
+      "type": "paragraph",
+      "html": "/wâat/ “Chôhk…” “Wâat…” Impossible, right? And don’t cheat by extending the vowel sound instead like “chôoooooohk” or “wâaaaaaaat”! The first two words are ‘live’ syllables which you can, in theory, keep humming forever, therefore they’re live. On the other hand, the last two words are ‘dead’ syllables because as soon as you utter the last unit of sound, it has to stop. There’s nothing you can do to keep the syllable going, so it’s dead. And If you need rules: live syllables are syllables that either end with [-ng], [-m], [-n], or a long vowel 9 as a final sound, because they can be droned out until you’re out of breath. Whereas dead syllables end with [-k], [-t], or [-p] as a final consonant, there’s no way to elongate them. A simplified version of my explanation looks like this: ...is a syllable that ends with... LIVE syllable"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "[-ng] [-m] [-n] (or any LC1 consonant)",
+        "a LONG vowel DEAD syllable",
+        "[-k] [-t] [-p] (or any LC2 consonant)"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "โชค /chôhk/ or วาท /wâat/ are dead because even though they contain a long vowel, they still finish with an LC2 consonant which makes them dead anyway. Look at these live and dead syllables below. Ignore all the tone changes, they will only distract you."
+    },
+    {
+      "type": "track",
+      "number": 18
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "ลาม"
+        },
+        {
+          "thai": "เยา"
+        },
+        {
+          "thai": "โมท"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "พูน",
+      "translit": "/laam/ (live)"
+    },
+    {
+      "type": "paragraph",
+      "html": "/yao/ (live) /môht/ (dead) /poon/ (live)"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เพช"
+        },
+        {
+          "thai": "ราพ"
+        },
+        {
+          "thai": "ไซ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "โชค",
+      "translit": "/pâyt/ (dead)"
+    },
+    {
+      "type": "paragraph",
+      "html": "/râap/ (dead) /sai/ (live) /chôhk/ (dead)"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Read the following phrases. Remember that final [-k] [-t] [-p] consonants are unreleased so don’t go on and pronounce the final puffs. Next, separate each syllable and tell me if they’re live or dead."
+    },
+    {
+      "type": "track",
+      "number": 19
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        {
+          "thai": "เคยทำงาน"
+        },
+        {
+          "thai": "ทายาทเลว"
+        },
+        {
+          "thai": "แซมนอนเมา"
+        },
+        {
+          "thai": "ทำไมยาโรคเราแพง"
+        },
+        {
+          "thai": "รอเวลาในชูชีพ"
+        }
+      ]
+    },
+    {
+      "type": "thaiExample",
+      "thai": "มามองเทพนาคทองคำ",
+      "translit": "- Remember all LC2 consonants and 5 more long vowels"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "In Thai, consonants at final position are unreleased and can consequently sound slightly or significantly different from their original sound",
+        "Multiple consonants can share the same final sound",
+        "-ำ, ไ-, ใ-, เ-า and เ-ย DO NOT take final consonants",
+        "ไ- and ใ- are pronounced the same way but ใ- is only used in certain words",
+        "Live syllables are syllables in which the final sound can be elongated, but you can't do that with dead syllables",
+        "The live-dead factor affects the tone of the syllable On this day, we will learn about short vowels for the first time, and some of them behave in various strange manners! We’ll also meet a new consonant class: mid class consonants."
+      ]
+    }
+  ],
+  "footnotes": {},
+  "number": 2,
+  "prev": "day-1",
+  "next": "day-3",
+  "_generated": true,
+  "_curated": true
+}

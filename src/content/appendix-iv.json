@@ -1,0 +1,17 @@
+{
+  "id": "appendix-iv",
+  "slug": "appendix/iv",
+  "titleEn": "Appendix IV: Words That Use ใ",
+  "titleRu": "Приложение IV: Слова с ใ",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "html": "NB: Some of the words above can be translated in more than one way. The meanings given are just examples. Appendix V: Thai fonts Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+    }
+  ],
+  "footnotes": {},
+  "prev": "appendix/iii",
+  "next": "appendix/v",
+  "_generated": true,
+  "_curated": true
+}

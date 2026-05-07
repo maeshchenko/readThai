@@ -1,0 +1,4077 @@
+{
+  "id": "glossary",
+  "slug": "glossary",
+  "titleEn": "Thai-English Glossary",
+  "titleRu": "Тайско-английский глоссарий",
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Thai-English Glossary"
+    },
+    {
+      "type": "thaiTable",
+      "columns": [
+        "Thai",
+        "Transliteration",
+        "Meaning"
+      ],
+      "rows": [
+        {
+          "thai": "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ฤๅ ล ฦ ฦๅ ว ศ ษ ส ห ฬ อ ฮ",
+          "translit": "",
+          "meaning": "68 [E] = English loanwords, [C] = Chinese loanwords, [P/S] = of Pali- Sanskrit origin, [K] = of Khmer origin, [D] = dialectal, [COL] = colloquial"
+        },
+        {
+          "thai": "ก",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ก็",
+          "translit": "",
+          "meaning": "so, then, too"
+        },
+        {
+          "thai": "กฎหมาย",
+          "translit": "",
+          "meaning": "law"
+        },
+        {
+          "thai": "กด",
+          "translit": "",
+          "meaning": "to push"
+        },
+        {
+          "thai": "กบาล",
+          "translit": "",
+          "meaning": "head, skull"
+        },
+        {
+          "thai": "กร",
+          "translit": "",
+          "meaning": "[P/S] hand"
+        },
+        {
+          "thai": "กรรไกร",
+          "translit": "",
+          "meaning": "scissors"
+        },
+        {
+          "thai": "กรรม",
+          "translit": "",
+          "meaning": "karma"
+        },
+        {
+          "thai": "กระทบ",
+          "translit": "",
+          "meaning": "to hit, to affect"
+        },
+        {
+          "thai": "กระเทียม",
+          "translit": "",
+          "meaning": "garlic"
+        },
+        {
+          "thai": "กระยาสารท",
+          "translit": "",
+          "meaning": "Thai sticky cereal"
+        },
+        {
+          "thai": "กรุงเทพมหานครBangkok",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "กฤช",
+          "translit": "",
+          "meaning": "dagger"
+        },
+        {
+          "thai": "กลม",
+          "translit": "",
+          "meaning": "round"
+        },
+        {
+          "thai": "กล้วย",
+          "translit": "",
+          "meaning": "banana"
+        },
+        {
+          "thai": "กลับ",
+          "translit": "",
+          "meaning": "to return, to flip"
+        },
+        {
+          "thai": "กลัว",
+          "translit": "",
+          "meaning": "afraid"
+        },
+        {
+          "thai": "กลา",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "กล่า",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "กล้า",
+          "translit": "",
+          "meaning": "brave, to dare"
+        },
+        {
+          "thai": "กล๊า",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "กล๋า",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ก๋วยเตี๋ยว",
+          "translit": "",
+          "meaning": "noodles"
+        },
+        {
+          "thai": "กว่า",
+          "translit": "",
+          "meaning": "more than"
+        },
+        {
+          "thai": "กษัตริย์",
+          "translit": "",
+          "meaning": "king, monarch"
+        },
+        {
+          "thai": "กอด",
+          "translit": "",
+          "meaning": "to hug"
+        },
+        {
+          "thai": "กอล์ฟ",
+          "translit": "",
+          "meaning": "golf"
+        },
+        {
+          "thai": "กะปิ",
+          "translit": "",
+          "meaning": "shrimp paste"
+        },
+        {
+          "thai": "กักตุน",
+          "translit": "",
+          "meaning": "to hoard, to stockpile"
+        },
+        {
+          "thai": "เกษียณ",
+          "translit": "",
+          "meaning": "retired"
+        },
+        {
+          "thai": "เกสร",
+          "translit": "",
+          "meaning": "pollen"
+        },
+        {
+          "thai": "เกอ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เก้า",
+          "translit": "",
+          "meaning": "nine"
+        },
+        {
+          "thai": "เกาะ",
+          "translit": "",
+          "meaning": "island"
+        },
+        {
+          "thai": "เกิด",
+          "translit": "",
+          "meaning": "to be born"
+        },
+        {
+          "thai": "เกิน",
+          "translit": "",
+          "meaning": "too much, excessive"
+        },
+        {
+          "thai": "เกี๊ยะ",
+          "translit": "",
+          "meaning": "[C] sandal"
+        },
+        {
+          "thai": "แกงฮังเล",
+          "translit": "",
+          "meaning": "Hunglei curry"
+        },
+        {
+          "thai": "แกร็น",
+          "translit": "",
+          "meaning": "stunted"
+        },
+        {
+          "thai": "แกว่ง",
+          "translit": "",
+          "meaning": "to swing, to dangle"
+        },
+        {
+          "thai": "แกะ",
+          "translit": "",
+          "meaning": "sheep, to peel"
+        },
+        {
+          "thai": "โกรธ",
+          "translit": "",
+          "meaning": "angry near"
+        },
+        {
+          "thai": "ใกล้",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ข",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ขจัด",
+          "translit": "",
+          "meaning": "to get rid of, to wipe out"
+        },
+        {
+          "thai": "ขน",
+          "translit": "",
+          "meaning": "hair, transport"
+        },
+        {
+          "thai": "ขนม",
+          "translit": "",
+          "meaning": "sweets, dessert"
+        },
+        {
+          "thai": "ขนาด",
+          "translit": "",
+          "meaning": "size"
+        },
+        {
+          "thai": "ขนาดย่อม",
+          "translit": "",
+          "meaning": "small size"
+        },
+        {
+          "thai": "ขบ",
+          "translit": "",
+          "meaning": "to nibble, to gobble"
+        },
+        {
+          "thai": "ขบวน",
+          "translit": "",
+          "meaning": "procession, caravan"
+        },
+        {
+          "thai": "ขม",
+          "translit": "",
+          "meaning": "bitter"
+        },
+        {
+          "thai": "ขโมย",
+          "translit": "",
+          "meaning": "to steal, thief"
+        },
+        {
+          "thai": "ขริบ",
+          "translit": "",
+          "meaning": "circumcise"
+        },
+        {
+          "thai": "ขลาด",
+          "translit": "",
+          "meaning": "cowardly"
+        },
+        {
+          "thai": "ของ",
+          "translit": "",
+          "meaning": "thing, of"
+        },
+        {
+          "thai": "ข่อง",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ข้อง",
+          "translit": "",
+          "meaning": "fish trap"
+        },
+        {
+          "thai": "ขอโทษ",
+          "translit": "",
+          "meaning": "sorry"
+        },
+        {
+          "thai": "ขอบคุณ",
+          "translit": "",
+          "meaning": "thank you"
+        },
+        {
+          "thai": "ขัด",
+          "translit": "",
+          "meaning": "to scrub"
+        },
+        {
+          "thai": "ขัดสมาธิ",
+          "translit": "",
+          "meaning": "to sit cross-legged"
+        },
+        {
+          "thai": "ขัน",
+          "translit": "",
+          "meaning": "crowing of rooster"
+        },
+        {
+          "thai": "ขา",
+          "translit": "",
+          "meaning": "leg torn, lack"
+        },
+        {
+          "thai": "ขาด",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ขาว",
+          "translit": "",
+          "meaning": "white"
+        },
+        {
+          "thai": "ข่าว",
+          "translit": "",
+          "meaning": "news"
+        },
+        {
+          "thai": "ข้าว",
+          "translit": "",
+          "meaning": "rice, meal"
+        },
+        {
+          "thai": "ข้าวซอย",
+          "translit": "",
+          "meaning": "Thai northern curry noodles"
+        },
+        {
+          "thai": "ขำ",
+          "translit": "",
+          "meaning": "to snigger"
+        },
+        {
+          "thai": "ขิง",
+          "translit": "",
+          "meaning": "ginger"
+        },
+        {
+          "thai": "ขี่",
+          "translit": "",
+          "meaning": "to ride"
+        },
+        {
+          "thai": "เขม่า",
+          "translit": "",
+          "meaning": "soot"
+        },
+        {
+          "thai": "เขวี้ยง",
+          "translit": "",
+          "meaning": "to throw"
+        },
+        {
+          "thai": "เขอ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เขา",
+          "translit": "",
+          "meaning": "he, she, mountain"
+        },
+        {
+          "thai": "เขิน",
+          "translit": "",
+          "meaning": "shy"
+        },
+        {
+          "thai": "เขียน",
+          "translit": "",
+          "meaning": "to write"
+        },
+        {
+          "thai": "เขียว",
+          "translit": "",
+          "meaning": "green"
+        },
+        {
+          "thai": "แขง",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "แข็ง",
+          "translit": "",
+          "meaning": "hard"
+        },
+        {
+          "thai": "โขก",
+          "translit": "",
+          "meaning": "to knock"
+        },
+        {
+          "thai": "ค",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "คณิต",
+          "translit": "",
+          "meaning": "maths"
+        },
+        {
+          "thai": "คดี",
+          "translit": "",
+          "meaning": "lawsuit"
+        },
+        {
+          "thai": "คน",
+          "translit": "",
+          "meaning": "human, person, to stir alone"
+        },
+        {
+          "thai": "คนเดียว",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "คนโต",
+          "translit": "",
+          "meaning": "eldest child"
+        },
+        {
+          "thai": "ค้นหา",
+          "translit": "",
+          "meaning": "to search"
+        },
+        {
+          "thai": "ครบ",
+          "translit": "",
+          "meaning": "altogether, complete"
+        },
+        {
+          "thai": "ครรภ์",
+          "translit": "",
+          "meaning": "pregnancy"
+        },
+        {
+          "thai": "ครับ",
+          "translit": "",
+          "meaning": "[male polite particle]"
+        },
+        {
+          "thai": "คฤหาสน์",
+          "translit": "",
+          "meaning": "mansion"
+        },
+        {
+          "thai": "คลอง",
+          "translit": "",
+          "meaning": "canal"
+        },
+        {
+          "thai": "คลื่น",
+          "translit": "",
+          "meaning": "wave"
+        },
+        {
+          "thai": "ควบ",
+          "translit": "",
+          "meaning": "to gallop, combined"
+        },
+        {
+          "thai": "ควร",
+          "translit": "",
+          "meaning": "should"
+        },
+        {
+          "thai": "ความ",
+          "translit": "",
+          "meaning": "[prefix; changes verb/adj to abstract noun]"
+        },
+        {
+          "thai": "ความเกรงใจ",
+          "translit": "",
+          "meaning": "fear of offending or burdening others"
+        },
+        {
+          "thai": "ความรู้สึก",
+          "translit": "",
+          "meaning": "feelings"
+        },
+        {
+          "thai": "ความสัมพันธ์",
+          "translit": "",
+          "meaning": "relationship"
+        },
+        {
+          "thai": "ควาย",
+          "translit": "",
+          "meaning": "water buffalo"
+        },
+        {
+          "thai": "คะ",
+          "translit": "",
+          "meaning": "[female polite interrogative particle]"
+        },
+        {
+          "thai": "ค่ะ",
+          "translit": "",
+          "meaning": "[female polite particle]"
+        },
+        {
+          "thai": "คัด",
+          "translit": "",
+          "meaning": "to congest, to select, to transcribe"
+        },
+        {
+          "thai": "คัน",
+          "translit": "",
+          "meaning": "to itch"
+        },
+        {
+          "thai": "คับ",
+          "translit": "",
+          "meaning": "tight"
+        },
+        {
+          "thai": "คาด",
+          "translit": "",
+          "meaning": "to fasten, to expect"
+        },
+        {
+          "thai": "คาว",
+          "translit": "",
+          "meaning": "fishy"
+        },
+        {
+          "thai": "คำ",
+          "translit": "",
+          "meaning": "word"
+        },
+        {
+          "thai": "คืน",
+          "translit": "",
+          "meaning": "night, to return"
+        },
+        {
+          "thai": "คือ",
+          "translit": "",
+          "meaning": "to be"
+        },
+        {
+          "thai": "คุณ",
+          "translit": "",
+          "meaning": "you [polite]"
+        },
+        {
+          "thai": "เคฟ",
+          "translit": "",
+          "meaning": "[E] cave"
+        },
+        {
+          "thai": "เค็ม",
+          "translit": "",
+          "meaning": "salty"
+        },
+        {
+          "thai": "เคย",
+          "translit": "",
+          "meaning": "used to, have ever"
+        },
+        {
+          "thai": "เค้า",
+          "translit": "",
+          "meaning": "[COL] he, she"
+        },
+        {
+          "thai": "เคาะ",
+          "translit": "",
+          "meaning": "to knock on"
+        },
+        {
+          "thai": "แคว",
+          "translit": "",
+          "meaning": "tributary, stream"
+        },
+        {
+          "thai": "โคก",
+          "translit": "",
+          "meaning": "mound, knoll"
+        },
+        {
+          "thai": "โค้ก",
+          "translit": "",
+          "meaning": "Coke"
+        },
+        {
+          "thai": "โค้ง",
+          "translit": "",
+          "meaning": "curve, to bow"
+        },
+        {
+          "thai": "โคน",
+          "translit": "",
+          "meaning": "root"
+        },
+        {
+          "thai": "ใคร",
+          "translit": "",
+          "meaning": "who"
+        },
+        {
+          "thai": "ฆ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฆ่า",
+          "translit": "",
+          "meaning": "to kill"
+        },
+        {
+          "thai": "ง",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "งอม",
+          "translit": "",
+          "meaning": "to ripen"
+        },
+        {
+          "thai": "งู",
+          "translit": "",
+          "meaning": "snake"
+        },
+        {
+          "thai": "เงอ",
+          "translit": "",
+          "meaning": "- rambutan"
+        },
+        {
+          "thai": "เงาะ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "เงิน",
+          "translit": "",
+          "meaning": "money, silver"
+        },
+        {
+          "thai": "จ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "จง",
+          "translit": "",
+          "meaning": "[command particle]"
+        },
+        {
+          "thai": "จน",
+          "translit": "",
+          "meaning": "poor, until"
+        },
+        {
+          "thai": "จนกว่า",
+          "translit": "",
+          "meaning": "until"
+        },
+        {
+          "thai": "จราจร",
+          "translit": "",
+          "meaning": "traffic"
+        },
+        {
+          "thai": "จริง",
+          "translit": "",
+          "meaning": "true, really"
+        },
+        {
+          "thai": "จลาจล",
+          "translit": "",
+          "meaning": "chaos, arnarchy"
+        },
+        {
+          "thai": "จวน",
+          "translit": "",
+          "meaning": "almost"
+        },
+        {
+          "thai": "จอด",
+          "translit": "",
+          "meaning": "to park (car)"
+        },
+        {
+          "thai": "จะ",
+          "translit": "",
+          "meaning": "will"
+        },
+        {
+          "thai": "จ้ะ",
+          "translit": "",
+          "meaning": "[intimate final particle]"
+        },
+        {
+          "thai": "จ๊ะจ๋า",
+          "translit": "",
+          "meaning": "sweet talk"
+        },
+        {
+          "thai": "จักร",
+          "translit": "",
+          "meaning": "disc, discus"
+        },
+        {
+          "thai": "จักรพรรดิ",
+          "translit": "",
+          "meaning": "emperor"
+        },
+        {
+          "thai": "จักรยาน",
+          "translit": "",
+          "meaning": "bicycle"
+        },
+        {
+          "thai": "จัง",
+          "translit": "",
+          "meaning": "[expressive final particle]"
+        },
+        {
+          "thai": "จันทร์",
+          "translit": "",
+          "meaning": "moon, Monday"
+        },
+        {
+          "thai": "จา",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "จ่า",
+          "translit": "",
+          "meaning": "chieftain"
+        },
+        {
+          "thai": "จ้า",
+          "translit": "",
+          "meaning": "[intimate final particle] [intimate final particle]"
+        },
+        {
+          "thai": "จ๋า",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "จาก",
+          "translit": "",
+          "meaning": "from"
+        },
+        {
+          "thai": "จีน",
+          "translit": "",
+          "meaning": "China, Chinese"
+        },
+        {
+          "thai": "จุฬา",
+          "translit": "",
+          "meaning": "King Chula"
+        },
+        {
+          "thai": "เจ",
+          "translit": "",
+          "meaning": "vegan"
+        },
+        {
+          "thai": "เจ๊",
+          "translit": "",
+          "meaning": "[C] elder sister"
+        },
+        {
+          "thai": "เจ็ด",
+          "translit": "",
+          "meaning": "seven"
+        },
+        {
+          "thai": "เจดีย์",
+          "translit": "",
+          "meaning": "pagoda"
+        },
+        {
+          "thai": "เจบ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เจ็บ",
+          "translit": "",
+          "meaning": "painful, to hurt"
+        },
+        {
+          "thai": "เจอ",
+          "translit": "",
+          "meaning": "to find, to meet"
+        },
+        {
+          "thai": "เจ้า",
+          "translit": "",
+          "meaning": "[D] you"
+        },
+        {
+          "thai": "เจาะ",
+          "translit": "",
+          "meaning": "pierce, puncture"
+        },
+        {
+          "thai": "โจทย์",
+          "translit": "",
+          "meaning": "maths question"
+        },
+        {
+          "thai": "โจร",
+          "translit": "",
+          "meaning": "thief, robber"
+        },
+        {
+          "thai": "ใจ",
+          "translit": "",
+          "meaning": "heart"
+        },
+        {
+          "thai": "ฉ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฉก",
+          "translit": "",
+          "meaning": "snake strike"
+        },
+        {
+          "thai": "ฉลาด",
+          "translit": "",
+          "meaning": "clever"
+        },
+        {
+          "thai": "ฉะ",
+          "translit": "",
+          "meaning": "to fight, to confront"
+        },
+        {
+          "thai": "ฉัน",
+          "translit": "",
+          "meaning": "I"
+        },
+        {
+          "thai": "เฉย",
+          "translit": "",
+          "meaning": "indifferent, still"
+        },
+        {
+          "thai": "ช",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ชอบ",
+          "translit": "",
+          "meaning": "to like"
+        },
+        {
+          "thai": "ชะ",
+          "translit": "",
+          "meaning": "to wash away"
+        },
+        {
+          "thai": "ชัน",
+          "translit": "",
+          "meaning": "steep"
+        },
+        {
+          "thai": "ช้า",
+          "translit": "",
+          "meaning": "slow"
+        },
+        {
+          "thai": "ชาติ",
+          "translit": "",
+          "meaning": "nation"
+        },
+        {
+          "thai": "ชาย",
+          "translit": "",
+          "meaning": "male"
+        },
+        {
+          "thai": "ชิม",
+          "translit": "",
+          "meaning": "to taste"
+        },
+        {
+          "thai": "ชีพ",
+          "translit": "",
+          "meaning": "[P/S] life"
+        },
+        {
+          "thai": "ชื่อ",
+          "translit": "",
+          "meaning": "name"
+        },
+        {
+          "thai": "ชุมชน",
+          "translit": "",
+          "meaning": "community"
+        },
+        {
+          "thai": "ชุมนุม",
+          "translit": "",
+          "meaning": "gathering"
+        },
+        {
+          "thai": "ชูชีพ",
+          "translit": "",
+          "meaning": "lifesaving (vest)"
+        },
+        {
+          "thai": "เชย",
+          "translit": "",
+          "meaning": "old-fashioned"
+        },
+        {
+          "thai": "เชรด",
+          "translit": "",
+          "meaning": "[E] to shred"
+        },
+        {
+          "thai": "เชอ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เชิญ",
+          "translit": "",
+          "meaning": "to invite, please…"
+        },
+        {
+          "thai": "เชือก",
+          "translit": "",
+          "meaning": "rope"
+        },
+        {
+          "thai": "แชร์",
+          "translit": "",
+          "meaning": "[E] to share"
+        },
+        {
+          "thai": "โชค",
+          "translit": "",
+          "meaning": "luck"
+        },
+        {
+          "thai": "ใช้",
+          "translit": "",
+          "meaning": "to use"
+        },
+        {
+          "thai": "ซ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ซวย",
+          "translit": "",
+          "meaning": "bad luck"
+        },
+        {
+          "thai": "ซอง",
+          "translit": "",
+          "meaning": "envelope"
+        },
+        {
+          "thai": "ซอย",
+          "translit": "",
+          "meaning": "alley"
+        },
+        {
+          "thai": "ซะ",
+          "translit": "",
+          "meaning": "[command final particle]"
+        },
+        {
+          "thai": "ซาก",
+          "translit": "",
+          "meaning": "carcass"
+        },
+        {
+          "thai": "ซิ",
+          "translit": "",
+          "meaning": "[suggestion final particle]"
+        },
+        {
+          "thai": "ซึ่ง",
+          "translit": "",
+          "meaning": "that, which"
+        },
+        {
+          "thai": "ซูบ",
+          "translit": "",
+          "meaning": "gaunt"
+        },
+        {
+          "thai": "ซูม",
+          "translit": "",
+          "meaning": "[E] to zoom"
+        },
+        {
+          "thai": "แซม",
+          "translit": "",
+          "meaning": "[E] Sam"
+        },
+        {
+          "thai": "โซพ",
+          "translit": "",
+          "meaning": "[E] soap"
+        },
+        {
+          "thai": "ไซ",
+          "translit": "",
+          "meaning": "bamboo fish trap"
+        },
+        {
+          "thai": "ไซร้",
+          "translit": "",
+          "meaning": "then"
+        },
+        {
+          "thai": "ญ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ญาติ",
+          "translit": "",
+          "meaning": "relative"
+        },
+        {
+          "thai": "ญี่ปุ่น",
+          "translit": "",
+          "meaning": "Japan"
+        },
+        {
+          "thai": "ฐ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฐานะ",
+          "translit": "",
+          "meaning": "status"
+        },
+        {
+          "thai": "ณ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ณ",
+          "translit": "",
+          "meaning": "at"
+        },
+        {
+          "thai": "เณร",
+          "translit": "",
+          "meaning": "novice monk"
+        },
+        {
+          "thai": "ด",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ดรัก",
+          "translit": "",
+          "meaning": "[E] drug"
+        },
+        {
+          "thai": "ดวง",
+          "translit": "",
+          "meaning": "luck"
+        },
+        {
+          "thai": "ด้วย",
+          "translit": "",
+          "meaning": "too, also"
+        },
+        {
+          "thai": "ดอย",
+          "translit": "",
+          "meaning": "[D] hill"
+        },
+        {
+          "thai": "ดับ",
+          "translit": "",
+          "meaning": "to extinguish, to put out"
+        },
+        {
+          "thai": "ดำ",
+          "translit": "",
+          "meaning": "black, to dive"
+        },
+        {
+          "thai": "ดึก",
+          "translit": "",
+          "meaning": "late at night"
+        },
+        {
+          "thai": "ดุ",
+          "translit": "",
+          "meaning": "to scold, ferocious"
+        },
+        {
+          "thai": "เดิน",
+          "translit": "",
+          "meaning": "to walk"
+        },
+        {
+          "thai": "เดิม",
+          "translit": "",
+          "meaning": "former, old"
+        },
+        {
+          "thai": "เดือด",
+          "translit": "",
+          "meaning": "to boil"
+        },
+        {
+          "thai": "แดง",
+          "translit": "",
+          "meaning": "red"
+        },
+        {
+          "thai": "แดด",
+          "translit": "",
+          "meaning": "sunlight"
+        },
+        {
+          "thai": "โดน",
+          "translit": "",
+          "meaning": "to hit, to strike"
+        },
+        {
+          "thai": "ได้",
+          "translit": "",
+          "meaning": "can, able to"
+        },
+        {
+          "thai": "ได้แก่",
+          "translit": "",
+          "meaning": "such as"
+        },
+        {
+          "thai": "ได้รับ",
+          "translit": "",
+          "meaning": "to receive"
+        },
+        {
+          "thai": "ต",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ตก",
+          "translit": "",
+          "meaning": "to fall to agree"
+        },
+        {
+          "thai": "ตกลง",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ตรง",
+          "translit": "",
+          "meaning": "straight, precise"
+        },
+        {
+          "thai": "ตรรกะ",
+          "translit": "",
+          "meaning": "logic"
+        },
+        {
+          "thai": "ตรวจ",
+          "translit": "",
+          "meaning": "to check, to inspect"
+        },
+        {
+          "thai": "ตระหนกตกใจ",
+          "translit": "",
+          "meaning": "to panic"
+        },
+        {
+          "thai": "ตลก",
+          "translit": "",
+          "meaning": "funny, humorous"
+        },
+        {
+          "thai": "ตลอด",
+          "translit": "",
+          "meaning": "always, all through"
+        },
+        {
+          "thai": "ตลาด",
+          "translit": "",
+          "meaning": "market"
+        },
+        {
+          "thai": "ตวาด",
+          "translit": "",
+          "meaning": "to snap at someone"
+        },
+        {
+          "thai": "ต่อ",
+          "translit": "",
+          "meaning": "to join, to continue"
+        },
+        {
+          "thai": "ต่อกัน",
+          "translit": "",
+          "meaning": "to each other"
+        },
+        {
+          "thai": "ตอน",
+          "translit": "",
+          "meaning": "when, period of time"
+        },
+        {
+          "thai": "ตอนนั้น",
+          "translit": "",
+          "meaning": "at that time"
+        },
+        {
+          "thai": "ตะปู",
+          "translit": "",
+          "meaning": "nail, spike"
+        },
+        {
+          "thai": "ตะรุเตา",
+          "translit": "",
+          "meaning": "Tarutao [place name]"
+        },
+        {
+          "thai": "ตะวันออก",
+          "translit": "",
+          "meaning": "east"
+        },
+        {
+          "thai": "ตัด",
+          "translit": "",
+          "meaning": "to cut"
+        },
+        {
+          "thai": "ตัว",
+          "translit": "",
+          "meaning": "body, self"
+        },
+        {
+          "thai": "ตาก",
+          "translit": "",
+          "meaning": "to dry in the sun"
+        },
+        {
+          "thai": "ติ",
+          "translit": "",
+          "meaning": "to criticise"
+        },
+        {
+          "thai": "ติ๊งต๊อง",
+          "translit": "",
+          "meaning": "stupid, silly"
+        },
+        {
+          "thai": "เตย",
+          "translit": "",
+          "meaning": "pandan leaf to grow up"
+        },
+        {
+          "thai": "เติบโต",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "เติม",
+          "translit": "",
+          "meaning": "to fill"
+        },
+        {
+          "thai": "เตียง",
+          "translit": "",
+          "meaning": "bed"
+        },
+        {
+          "thai": "แต่",
+          "translit": "",
+          "meaning": "but"
+        },
+        {
+          "thai": "แตงโม",
+          "translit": "",
+          "meaning": "watermelon"
+        },
+        {
+          "thai": "แต่ละวัน",
+          "translit": "",
+          "meaning": "each day"
+        },
+        {
+          "thai": "ใต้",
+          "translit": "",
+          "meaning": "south, under"
+        },
+        {
+          "thai": "ถ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ถนน",
+          "translit": "",
+          "meaning": "road"
+        },
+        {
+          "thai": "ถากถาง",
+          "translit": "",
+          "meaning": "to jeer, to ridicule"
+        },
+        {
+          "thai": "ถี",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ถี่",
+          "translit": "",
+          "meaning": "frequently"
+        },
+        {
+          "thai": "ถึง",
+          "translit": "",
+          "meaning": "to arrive, until"
+        },
+        {
+          "thai": "ถุง",
+          "translit": "",
+          "meaning": "bag"
+        },
+        {
+          "thai": "ถูก",
+          "translit": "",
+          "meaning": "correct, to hit the spot"
+        },
+        {
+          "thai": "เถา",
+          "translit": "",
+          "meaning": "vine"
+        },
+        {
+          "thai": "เถิก",
+          "translit": "",
+          "meaning": "balding"
+        },
+        {
+          "thai": "แถบ",
+          "translit": "",
+          "meaning": "zone, strip, band"
+        },
+        {
+          "thai": "ท",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ทบทวน",
+          "translit": "",
+          "meaning": "to reconsider, to review"
+        },
+        {
+          "thai": "ทรง",
+          "translit": "",
+          "meaning": "shape, [K] to do"
+        },
+        {
+          "thai": "ทรวง",
+          "translit": "",
+          "meaning": "chest, breast body shape"
+        },
+        {
+          "thai": "ทรวดทรง",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ทราบ",
+          "translit": "",
+          "meaning": "[P/S] to know"
+        },
+        {
+          "thai": "ทราย",
+          "translit": "",
+          "meaning": "sand"
+        },
+        {
+          "thai": "ทรุด",
+          "translit": "",
+          "meaning": "to collapse"
+        },
+        {
+          "thai": "ทรู",
+          "translit": "",
+          "meaning": "[E] true"
+        },
+        {
+          "thai": "ทฤษฎี",
+          "translit": "",
+          "meaning": "theory"
+        },
+        {
+          "thai": "ทวง",
+          "translit": "",
+          "meaning": "to inquire, to demand"
+        },
+        {
+          "thai": "ท้อง",
+          "translit": "",
+          "meaning": "stomach, pregnant"
+        },
+        {
+          "thai": "ทองคำ",
+          "translit": "",
+          "meaning": "gold"
+        },
+        {
+          "thai": "ทะเล",
+          "translit": "",
+          "meaning": "sea"
+        },
+        {
+          "thai": "ทักทาย",
+          "translit": "",
+          "meaning": "greetings"
+        },
+        {
+          "thai": "ทั้ง",
+          "translit": "",
+          "meaning": "entire, whole"
+        },
+        {
+          "thai": "ทัว",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ทาง",
+          "translit": "",
+          "meaning": "way, by"
+        },
+        {
+          "thai": "ทายาท",
+          "translit": "",
+          "meaning": "heir"
+        },
+        {
+          "thai": "ทำ",
+          "translit": "",
+          "meaning": "to do, to make"
+        },
+        {
+          "thai": "ทำงาน",
+          "translit": "",
+          "meaning": "to work"
+        },
+        {
+          "thai": "ทำเฉย",
+          "translit": "",
+          "meaning": "to turn a cold shoulder"
+        },
+        {
+          "thai": "ทำไม",
+          "translit": "",
+          "meaning": "why"
+        },
+        {
+          "thai": "ทำให้",
+          "translit": "",
+          "meaning": "to cause, to incite"
+        },
+        {
+          "thai": "ที",
+          "translit": "",
+          "meaning": "(number of) time"
+        },
+        {
+          "thai": "ที่",
+          "translit": "",
+          "meaning": "place, at, that, which everybody"
+        },
+        {
+          "thai": "ทุกคน",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ทุกครั้ง",
+          "translit": "",
+          "meaning": "everytime"
+        },
+        {
+          "thai": "เทพ",
+          "translit": "",
+          "meaning": "angel, god"
+        },
+        {
+          "thai": "เทรน",
+          "translit": "",
+          "meaning": "[E] to train"
+        },
+        {
+          "thai": "เทา",
+          "translit": "",
+          "meaning": "grey"
+        },
+        {
+          "thai": "เท้า",
+          "translit": "",
+          "meaning": "foot"
+        },
+        {
+          "thai": "แทน",
+          "translit": "",
+          "meaning": "instead, tanned"
+        },
+        {
+          "thai": "โทรทัศน์",
+          "translit": "",
+          "meaning": "television"
+        },
+        {
+          "thai": "โทรม",
+          "translit": "",
+          "meaning": "worn out, shabby"
+        },
+        {
+          "thai": "ไทย",
+          "translit": "",
+          "meaning": "Thai, Thailand"
+        },
+        {
+          "thai": "ธ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ธ",
+          "translit": "",
+          "meaning": "[K] His/Her majesty"
+        },
+        {
+          "thai": "ธง",
+          "translit": "",
+          "meaning": "flag"
+        },
+        {
+          "thai": "ธรรมดา",
+          "translit": "",
+          "meaning": "normal"
+        },
+        {
+          "thai": "ธาตุ",
+          "translit": "",
+          "meaning": "element"
+        },
+        {
+          "thai": "ธุรกิจ",
+          "translit": "",
+          "meaning": "business"
+        },
+        {
+          "thai": "เธอ",
+          "translit": "",
+          "meaning": "you"
+        },
+        {
+          "thai": "น",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "นคร",
+          "translit": "",
+          "meaning": "[P/S] city, town"
+        },
+        {
+          "thai": "นครปฐม",
+          "translit": "",
+          "meaning": "Nakhon Pathom [place name]"
+        },
+        {
+          "thai": "นนทบุรี",
+          "translit": "",
+          "meaning": "Nonthaburi [place name]"
+        },
+        {
+          "thai": "นมข้น",
+          "translit": "",
+          "meaning": "condensed milk outside"
+        },
+        {
+          "thai": "นอก",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "น็อก",
+          "translit": "",
+          "meaning": "[E] to knock"
+        },
+        {
+          "thai": "นอน",
+          "translit": "",
+          "meaning": "to sleep"
+        },
+        {
+          "thai": "นะ",
+          "translit": "",
+          "meaning": "[emphasis final particle]"
+        },
+        {
+          "thai": "นัก",
+          "translit": "",
+          "meaning": "very, [personal prefix for profession]"
+        },
+        {
+          "thai": "นา",
+          "translit": "",
+          "meaning": "paddy field"
+        },
+        {
+          "thai": "น้า",
+          "translit": "",
+          "meaning": "aunt, uncle"
+        },
+        {
+          "thai": "นาค",
+          "translit": "",
+          "meaning": "naga"
+        },
+        {
+          "thai": "นาน",
+          "translit": "",
+          "meaning": "long time"
+        },
+        {
+          "thai": "นาม",
+          "translit": "",
+          "meaning": "[P/S] name"
+        },
+        {
+          "thai": "นาย",
+          "translit": "",
+          "meaning": "mister, boss"
+        },
+        {
+          "thai": "นารี",
+          "translit": "",
+          "meaning": "[personal name], [P/S] woman"
+        },
+        {
+          "thai": "น้ำ",
+          "translit": "",
+          "meaning": "water"
+        },
+        {
+          "thai": "น้ำปลา",
+          "translit": "",
+          "meaning": "fish sauce"
+        },
+        {
+          "thai": "น้ำมะนาว",
+          "translit": "",
+          "meaning": "lime juice"
+        },
+        {
+          "thai": "นิ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "นู",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "แน่นแฟ้น",
+          "translit": "",
+          "meaning": "stable, firm"
+        },
+        {
+          "thai": "แนว",
+          "translit": "",
+          "meaning": "way, stripe"
+        },
+        {
+          "thai": "ใน",
+          "translit": "",
+          "meaning": "in"
+        },
+        {
+          "thai": "บ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "บท",
+          "translit": "",
+          "meaning": "lesson, chapter"
+        },
+        {
+          "thai": "บน",
+          "translit": "",
+          "meaning": "top, over"
+        },
+        {
+          "thai": "บริการ",
+          "translit": "",
+          "meaning": "service"
+        },
+        {
+          "thai": "บริโภค",
+          "translit": "",
+          "meaning": "to consume"
+        },
+        {
+          "thai": "บริเวณ",
+          "translit": "",
+          "meaning": "periphery, area"
+        },
+        {
+          "thai": "บริษัท",
+          "translit": "",
+          "meaning": "company"
+        },
+        {
+          "thai": "บลิง",
+          "translit": "",
+          "meaning": "[E] bling"
+        },
+        {
+          "thai": "บอกลา",
+          "translit": "",
+          "meaning": "to say goodbye"
+        },
+        {
+          "thai": "บอท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "บ็อท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "บ๋อย",
+          "translit": "",
+          "meaning": "waiter"
+        },
+        {
+          "thai": "บังเอิญ",
+          "translit": "",
+          "meaning": "coincidence"
+        },
+        {
+          "thai": "บัณฑิต",
+          "translit": "",
+          "meaning": "graduate, pundit"
+        },
+        {
+          "thai": "บางมด",
+          "translit": "",
+          "meaning": "Bang Mot [place name]"
+        },
+        {
+          "thai": "บางลำพู",
+          "translit": "",
+          "meaning": "Bang Lampu [place name]"
+        },
+        {
+          "thai": "บุคคล",
+          "translit": "",
+          "meaning": "person, personnel"
+        },
+        {
+          "thai": "บุตร",
+          "translit": "",
+          "meaning": "[P/S] child, son"
+        },
+        {
+          "thai": "เบรก",
+          "translit": "",
+          "meaning": "[E] brake"
+        },
+        {
+          "thai": "แบบ",
+          "translit": "",
+          "meaning": "type, to be like"
+        },
+        {
+          "thai": "ใบ",
+          "translit": "",
+          "meaning": "leaf, document"
+        },
+        {
+          "thai": "ป",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ปฏิบัติ",
+          "translit": "",
+          "meaning": "to carry out, to act"
+        },
+        {
+          "thai": "ปม",
+          "translit": "",
+          "meaning": "knot normal"
+        },
+        {
+          "thai": "ปรกติ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ปรบ",
+          "translit": "",
+          "meaning": "to clap"
+        },
+        {
+          "thai": "ประมง",
+          "translit": "",
+          "meaning": "fishery"
+        },
+        {
+          "thai": "ประวัติ",
+          "translit": "",
+          "meaning": "History, record"
+        },
+        {
+          "thai": "ประวัติศาสตร์",
+          "translit": "",
+          "meaning": "history studies"
+        },
+        {
+          "thai": "ปรากฏ",
+          "translit": "",
+          "meaning": "to appear"
+        },
+        {
+          "thai": "ปรุงอาหาร",
+          "translit": "",
+          "meaning": "to season food, to cook"
+        },
+        {
+          "thai": "ปลด",
+          "translit": "",
+          "meaning": "to remove, to dismiss"
+        },
+        {
+          "thai": "ปลุก",
+          "translit": "",
+          "meaning": "to wake up"
+        },
+        {
+          "thai": "ปวด",
+          "translit": "",
+          "meaning": "pain, ache"
+        },
+        {
+          "thai": "ปอด",
+          "translit": "",
+          "meaning": "lung"
+        },
+        {
+          "thai": "ปะ",
+          "translit": "",
+          "meaning": "to patch, to mend"
+        },
+        {
+          "thai": "ปัว",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ป้า",
+          "translit": "",
+          "meaning": "aunt"
+        },
+        {
+          "thai": "ปู่",
+          "translit": "",
+          "meaning": "grandfather"
+        },
+        {
+          "thai": "เปตอง",
+          "translit": "",
+          "meaning": "petanque"
+        },
+        {
+          "thai": "เป็น",
+          "translit": "",
+          "meaning": "to be"
+        },
+        {
+          "thai": "เปรอะ",
+          "translit": "",
+          "meaning": "stain, dirty"
+        },
+        {
+          "thai": "เปรี้ยว",
+          "translit": "",
+          "meaning": "sour"
+        },
+        {
+          "thai": "เปี๊ย",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เปียก",
+          "translit": "",
+          "meaning": "wet"
+        },
+        {
+          "thai": "เปี๊ยะ",
+          "translit": "",
+          "meaning": "moon cake eight"
+        },
+        {
+          "thai": "แปด",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "แปรปรวน",
+          "translit": "",
+          "meaning": "turbulence"
+        },
+        {
+          "thai": "โป",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "โป๊",
+          "translit": "",
+          "meaning": "nude, naked"
+        },
+        {
+          "thai": "โปะ",
+          "translit": "",
+          "meaning": "to heap, to add"
+        },
+        {
+          "thai": "ไป",
+          "translit": "",
+          "meaning": "to go, too much"
+        },
+        {
+          "thai": "ผ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ผงก",
+          "translit": "",
+          "meaning": "to nod"
+        },
+        {
+          "thai": "ผด",
+          "translit": "",
+          "meaning": "heat rash"
+        },
+        {
+          "thai": "ผม",
+          "translit": "",
+          "meaning": "I [male], hair"
+        },
+        {
+          "thai": "ผลไม้",
+          "translit": "",
+          "meaning": "fruit"
+        },
+        {
+          "thai": "ผลาญ",
+          "translit": "",
+          "meaning": "to consume, to destroy"
+        },
+        {
+          "thai": "ผสมผสาน",
+          "translit": "",
+          "meaning": "to combine, to blend"
+        },
+        {
+          "thai": "ผัว",
+          "translit": "",
+          "meaning": "[COL] husband"
+        },
+        {
+          "thai": "ผัวะ",
+          "translit": "",
+          "meaning": "sound of slapping"
+        },
+        {
+          "thai": "ผ้า",
+          "translit": "",
+          "meaning": "cloth, fabric"
+        },
+        {
+          "thai": "เผ็ด",
+          "translit": "",
+          "meaning": "spicy"
+        },
+        {
+          "thai": "เผย",
+          "translit": "",
+          "meaning": "to reveal"
+        },
+        {
+          "thai": "เผา",
+          "translit": "",
+          "meaning": "to burn, to torch"
+        },
+        {
+          "thai": "แผน",
+          "translit": "",
+          "meaning": "plan"
+        },
+        {
+          "thai": "แผ่นดิน",
+          "translit": "",
+          "meaning": "earth, land"
+        },
+        {
+          "thai": "ฝ",
+          "translit": "",
+          "meaning": "rain"
+        },
+        {
+          "thai": "ฝน",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฝอง",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ฝาก",
+          "translit": "",
+          "meaning": "to deposit, to entrust"
+        },
+        {
+          "thai": "ฝ่าย",
+          "translit": "",
+          "meaning": "side, department"
+        },
+        {
+          "thai": "เฝอ",
+          "translit": "",
+          "meaning": "Vietnamese noodles"
+        },
+        {
+          "thai": "ไฝ",
+          "translit": "",
+          "meaning": "mole"
+        },
+        {
+          "thai": "พ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "พด",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "พบ",
+          "translit": "",
+          "meaning": "to meet, to find"
+        },
+        {
+          "thai": "พยาธิ",
+          "translit": "",
+          "meaning": "parasite"
+        },
+        {
+          "thai": "พร",
+          "translit": "",
+          "meaning": "blessing"
+        },
+        {
+          "thai": "พรรค",
+          "translit": "",
+          "meaning": "party"
+        },
+        {
+          "thai": "พรหมลิขิต",
+          "translit": "",
+          "meaning": "destiny"
+        },
+        {
+          "thai": "พร้อม",
+          "translit": "",
+          "meaning": "ready"
+        },
+        {
+          "thai": "พระ",
+          "translit": "",
+          "meaning": "monk"
+        },
+        {
+          "thai": "พริก",
+          "translit": "",
+          "meaning": "chilli"
+        },
+        {
+          "thai": "พรุ่งนี้",
+          "translit": "",
+          "meaning": "tomorrow"
+        },
+        {
+          "thai": "พฤหัสบดี",
+          "translit": "",
+          "meaning": "Thursday"
+        },
+        {
+          "thai": "พลุ",
+          "translit": "",
+          "meaning": "firework"
+        },
+        {
+          "thai": "พ่อ",
+          "translit": "",
+          "meaning": "father"
+        },
+        {
+          "thai": "พะ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "พัฒนา",
+          "translit": "",
+          "meaning": "to develop to blow"
+        },
+        {
+          "thai": "พัด",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "พัดกระหน่ำ",
+          "translit": "",
+          "meaning": "(wind) to thump"
+        },
+        {
+          "thai": "พัดลม",
+          "translit": "",
+          "meaning": "electric fan"
+        },
+        {
+          "thai": "พันธุ์",
+          "translit": "",
+          "meaning": "species"
+        },
+        {
+          "thai": "พายุ",
+          "translit": "",
+          "meaning": "storm"
+        },
+        {
+          "thai": "พีซ",
+          "translit": "",
+          "meaning": "[E] peace"
+        },
+        {
+          "thai": "พุ",
+          "translit": "",
+          "meaning": "to spout"
+        },
+        {
+          "thai": "พุทธ",
+          "translit": "",
+          "meaning": "Buddhist"
+        },
+        {
+          "thai": "พุทธศาสนา",
+          "translit": "",
+          "meaning": "Buddhism"
+        },
+        {
+          "thai": "พูด",
+          "translit": "",
+          "meaning": "to speak, to say"
+        },
+        {
+          "thai": "พูน",
+          "translit": "",
+          "meaning": "to pile up"
+        },
+        {
+          "thai": "เพช",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เพชฌฆาต",
+          "translit": "",
+          "meaning": "executioner"
+        },
+        {
+          "thai": "เพชร",
+          "translit": "",
+          "meaning": "diamond"
+        },
+        {
+          "thai": "เพราะ",
+          "translit": "",
+          "meaning": "because, beautiful (voice)"
+        },
+        {
+          "thai": "เพล",
+          "translit": "",
+          "meaning": "last meal of the day for monks"
+        },
+        {
+          "thai": "เพลง",
+          "translit": "",
+          "meaning": "song"
+        },
+        {
+          "thai": "เพิม",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เพิ่ม",
+          "translit": "",
+          "meaning": "to add, to increase"
+        },
+        {
+          "thai": "เพิ้ม",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เพื่อ",
+          "translit": "",
+          "meaning": "for"
+        },
+        {
+          "thai": "แพ",
+          "translit": "",
+          "meaning": "raft -"
+        },
+        {
+          "thai": "แพค",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "แพ็ค",
+          "translit": "",
+          "meaning": "[E] pack"
+        },
+        {
+          "thai": "แพง",
+          "translit": "",
+          "meaning": "expensive"
+        },
+        {
+          "thai": "แพน",
+          "translit": "",
+          "meaning": "to spread, to expand"
+        },
+        {
+          "thai": "แพะ",
+          "translit": "",
+          "meaning": "goat"
+        },
+        {
+          "thai": "ฟ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฟรี",
+          "translit": "",
+          "meaning": "[E] free"
+        },
+        {
+          "thai": "ฟลาย",
+          "translit": "",
+          "meaning": "[E] to fly"
+        },
+        {
+          "thai": "ฟลุค",
+          "translit": "",
+          "meaning": "[E] fluke"
+        },
+        {
+          "thai": "ฟอง",
+          "translit": "",
+          "meaning": "bubble"
+        },
+        {
+          "thai": "ฟัง",
+          "translit": "",
+          "meaning": "to listen"
+        },
+        {
+          "thai": "ฟุต",
+          "translit": "",
+          "meaning": "[E] foot"
+        },
+        {
+          "thai": "เฟะ",
+          "translit": "",
+          "meaning": "rotten"
+        },
+        {
+          "thai": "แฟน",
+          "translit": "",
+          "meaning": "boyfriend/girlfriend"
+        },
+        {
+          "thai": "โฟลท",
+          "translit": "",
+          "meaning": "[E] float"
+        },
+        {
+          "thai": "ไฟ",
+          "translit": "",
+          "meaning": "fire"
+        },
+        {
+          "thai": "ภ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ภรรยา",
+          "translit": "",
+          "meaning": "wife"
+        },
+        {
+          "thai": "ภาพยนตร์",
+          "translit": "",
+          "meaning": "movie"
+        },
+        {
+          "thai": "ภาษี",
+          "translit": "",
+          "meaning": "tax"
+        },
+        {
+          "thai": "ภูเขา",
+          "translit": "",
+          "meaning": "mountain"
+        },
+        {
+          "thai": "ภูมิใจ",
+          "translit": "",
+          "meaning": "proud"
+        },
+        {
+          "thai": "ม",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "มงคล",
+          "translit": "",
+          "meaning": "auspicious sign"
+        },
+        {
+          "thai": "มณฑล",
+          "translit": "",
+          "meaning": "precinct, county"
+        },
+        {
+          "thai": "มอง",
+          "translit": "",
+          "meaning": "to look, to gaze"
+        },
+        {
+          "thai": "ม็อบ",
+          "translit": "",
+          "meaning": "[E] mob"
+        },
+        {
+          "thai": "มะ",
+          "translit": "",
+          "meaning": "[COL] final question particle"
+        },
+        {
+          "thai": "มักจะ",
+          "translit": "",
+          "meaning": "often, likely"
+        },
+        {
+          "thai": "มังกร",
+          "translit": "",
+          "meaning": "dragon"
+        },
+        {
+          "thai": "มังคุด",
+          "translit": "",
+          "meaning": "mangosteen"
+        },
+        {
+          "thai": "มั้ย",
+          "translit": "",
+          "meaning": "[COL] final question particle"
+        },
+        {
+          "thai": "มัว",
+          "translit": "",
+          "meaning": "clouded (vision)"
+        },
+        {
+          "thai": "มา",
+          "translit": "",
+          "meaning": "to come"
+        },
+        {
+          "thai": "ม้า",
+          "translit": "",
+          "meaning": "horse"
+        },
+        {
+          "thai": "มาก",
+          "translit": "",
+          "meaning": "very, a lot"
+        },
+        {
+          "thai": "มาม่า",
+          "translit": "",
+          "meaning": "Mama (instant noodles brand)"
+        },
+        {
+          "thai": "มาร",
+          "translit": "",
+          "meaning": "devil"
+        },
+        {
+          "thai": "มิ่งขวัญ",
+          "translit": "",
+          "meaning": "[K] idol"
+        },
+        {
+          "thai": "มี",
+          "translit": "",
+          "meaning": "have, there is/are"
+        },
+        {
+          "thai": "มีด",
+          "translit": "",
+          "meaning": "knife"
+        },
+        {
+          "thai": "มืด",
+          "translit": "",
+          "meaning": "dark, night"
+        },
+        {
+          "thai": "มือ",
+          "translit": "",
+          "meaning": "hand"
+        },
+        {
+          "thai": "มูล",
+          "translit": "",
+          "meaning": "origin, excrement cloud"
+        },
+        {
+          "thai": "เมฆ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "เมรุ",
+          "translit": "",
+          "meaning": "crematorium"
+        },
+        {
+          "thai": "เมา",
+          "translit": "",
+          "meaning": "drunk"
+        },
+        {
+          "thai": "เมิน",
+          "translit": "",
+          "meaning": "to ignore"
+        },
+        {
+          "thai": "เมีย",
+          "translit": "",
+          "meaning": "[COL] wife"
+        },
+        {
+          "thai": "เมื่อ",
+          "translit": "",
+          "meaning": "when, as"
+        },
+        {
+          "thai": "เมือง",
+          "translit": "",
+          "meaning": "city, town"
+        },
+        {
+          "thai": "แมว",
+          "translit": "",
+          "meaning": "cat"
+        },
+        {
+          "thai": "โมง",
+          "translit": "",
+          "meaning": "o'clock"
+        },
+        {
+          "thai": "โมท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ไม้",
+          "translit": "",
+          "meaning": "wood, stick"
+        },
+        {
+          "thai": "ไม่ว่าจะเป็น",
+          "translit": "",
+          "meaning": "for instance"
+        },
+        {
+          "thai": "ย",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ยะ",
+          "translit": "",
+          "meaning": "[COL] final dismissive particle"
+        },
+        {
+          "thai": "ยา",
+          "translit": "",
+          "meaning": "medicine"
+        },
+        {
+          "thai": "ยากจน",
+          "translit": "",
+          "meaning": "impoverished"
+        },
+        {
+          "thai": "ยาท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ยานัตถุ์",
+          "translit": "",
+          "meaning": "snuff tobacco"
+        },
+        {
+          "thai": "ยาม",
+          "translit": "",
+          "meaning": "security guard"
+        },
+        {
+          "thai": "ยาล",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ยาว",
+          "translit": "",
+          "meaning": "long"
+        },
+        {
+          "thai": "ยีน",
+          "translit": "",
+          "meaning": "jeans"
+        },
+        {
+          "thai": "ยืม",
+          "translit": "",
+          "meaning": "to borrow"
+        },
+        {
+          "thai": "เยอ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เยอะ",
+          "translit": "",
+          "meaning": "a lot, plenty"
+        },
+        {
+          "thai": "เยา",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "โยง",
+          "translit": "",
+          "meaning": "to tie, to link"
+        },
+        {
+          "thai": "โยน",
+          "translit": "",
+          "meaning": "to throw"
+        },
+        {
+          "thai": "ใย",
+          "translit": "",
+          "meaning": "fibre, web"
+        },
+        {
+          "thai": "ร",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "รก",
+          "translit": "",
+          "meaning": "messy, overgrown"
+        },
+        {
+          "thai": "รถ",
+          "translit": "",
+          "meaning": "car"
+        },
+        {
+          "thai": "รถชน",
+          "translit": "",
+          "meaning": "car crash"
+        },
+        {
+          "thai": "รถบรรทุก",
+          "translit": "",
+          "meaning": "lorry"
+        },
+        {
+          "thai": "ร่วมกัน",
+          "translit": "",
+          "meaning": "together, mutual"
+        },
+        {
+          "thai": "รสชาติ",
+          "translit": "",
+          "meaning": "taste"
+        },
+        {
+          "thai": "รอ",
+          "translit": "",
+          "meaning": "to wait"
+        },
+        {
+          "thai": "รอย",
+          "translit": "",
+          "meaning": "mark, trace"
+        },
+        {
+          "thai": "ระ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ระวัง",
+          "translit": "",
+          "meaning": "caution"
+        },
+        {
+          "thai": "ระหว่าง",
+          "translit": "",
+          "meaning": "between"
+        },
+        {
+          "thai": "รัก",
+          "translit": "",
+          "meaning": "to love"
+        },
+        {
+          "thai": "รับ",
+          "translit": "",
+          "meaning": "to receive, to confess"
+        },
+        {
+          "thai": "รัม",
+          "translit": "",
+          "meaning": "[E] rum price"
+        },
+        {
+          "thai": "ราคา",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ราพ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ราย",
+          "translit": "",
+          "meaning": "case, item"
+        },
+        {
+          "thai": "รำคาญ",
+          "translit": "",
+          "meaning": "annoyed"
+        },
+        {
+          "thai": "ริม",
+          "translit": "",
+          "meaning": "edge, curb"
+        },
+        {
+          "thai": "รีบ",
+          "translit": "",
+          "meaning": "to hurry, to rush"
+        },
+        {
+          "thai": "รู",
+          "translit": "",
+          "meaning": "hole"
+        },
+        {
+          "thai": "รูท",
+          "translit": "",
+          "meaning": "[E] root"
+        },
+        {
+          "thai": "รูปแบบ",
+          "translit": "",
+          "meaning": "format, pattern"
+        },
+        {
+          "thai": "รูปวาด",
+          "translit": "",
+          "meaning": "drawing"
+        },
+        {
+          "thai": "เรยา",
+          "translit": "",
+          "meaning": "[personal name]"
+        },
+        {
+          "thai": "เรา",
+          "translit": "",
+          "meaning": "we"
+        },
+        {
+          "thai": "เรียก",
+          "translit": "",
+          "meaning": "to call"
+        },
+        {
+          "thai": "เรียน",
+          "translit": "",
+          "meaning": "to study"
+        },
+        {
+          "thai": "เรือ",
+          "translit": "",
+          "meaning": "boat"
+        },
+        {
+          "thai": "แรง",
+          "translit": "",
+          "meaning": "strong, hard"
+        },
+        {
+          "thai": "โรค",
+          "translit": "",
+          "meaning": "disease"
+        },
+        {
+          "thai": "โรงงาน",
+          "translit": "",
+          "meaning": "factory"
+        },
+        {
+          "thai": "โรม",
+          "translit": "",
+          "meaning": "Rome"
+        },
+        {
+          "thai": "ฤ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฤกษ์",
+          "translit": "",
+          "meaning": "auspicious time"
+        },
+        {
+          "thai": "ฤดู",
+          "translit": "",
+          "meaning": "season"
+        },
+        {
+          "thai": "ฤๅ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฤๅษี",
+          "translit": "",
+          "meaning": "hermit"
+        },
+        {
+          "thai": "ล",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ลง",
+          "translit": "",
+          "meaning": "to descend, to go down"
+        },
+        {
+          "thai": "ลม",
+          "translit": "",
+          "meaning": "wind"
+        },
+        {
+          "thai": "ล็อก",
+          "translit": "",
+          "meaning": "[E] to lock"
+        },
+        {
+          "thai": "ลอง",
+          "translit": "",
+          "meaning": "to try"
+        },
+        {
+          "thai": "ละ",
+          "translit": "",
+          "meaning": "per, to leave"
+        },
+        {
+          "thai": "ล่ะ",
+          "translit": "",
+          "meaning": "[focus shifting final particle]"
+        },
+        {
+          "thai": "ละเมอ",
+          "translit": "",
+          "meaning": "to sleepwalk/talk"
+        },
+        {
+          "thai": "ลัง",
+          "translit": "",
+          "meaning": "crate"
+        },
+        {
+          "thai": "ลาบ",
+          "translit": "",
+          "meaning": "Thai northeastern salad dish"
+        },
+        {
+          "thai": "ลาม",
+          "translit": "",
+          "meaning": "to spread, to extend"
+        },
+        {
+          "thai": "ลาย",
+          "translit": "",
+          "meaning": "design, pattern"
+        },
+        {
+          "thai": "ลาว",
+          "translit": "",
+          "meaning": "Laos"
+        },
+        {
+          "thai": "ลิฟต์",
+          "translit": "",
+          "meaning": "lift"
+        },
+        {
+          "thai": "ลืม",
+          "translit": "",
+          "meaning": "to forget"
+        },
+        {
+          "thai": "ลุกลาม",
+          "translit": "",
+          "meaning": "to spread, to extend"
+        },
+        {
+          "thai": "ลุง",
+          "translit": "",
+          "meaning": "uncle"
+        },
+        {
+          "thai": "ลูก",
+          "translit": "",
+          "meaning": "child"
+        },
+        {
+          "thai": "ลูกเขย",
+          "translit": "",
+          "meaning": "son-in-law"
+        },
+        {
+          "thai": "เล",
+          "translit": "",
+          "meaning": "- -"
+        },
+        {
+          "thai": "เลก",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "เล็ก",
+          "translit": "",
+          "meaning": "small"
+        },
+        {
+          "thai": "เลน",
+          "translit": "",
+          "meaning": "[E] lane"
+        },
+        {
+          "thai": "เลย",
+          "translit": "",
+          "meaning": "[\"...at all\" final particle]"
+        },
+        {
+          "thai": "เลว",
+          "translit": "",
+          "meaning": "bad, vile"
+        },
+        {
+          "thai": "เลอะ",
+          "translit": "",
+          "meaning": "dirty, stain"
+        },
+        {
+          "thai": "เละ",
+          "translit": "",
+          "meaning": "squished, crushed"
+        },
+        {
+          "thai": "แล่น",
+          "translit": "",
+          "meaning": "(vehicle) to run, to move"
+        },
+        {
+          "thai": "แล้ว",
+          "translit": "",
+          "meaning": "already"
+        },
+        {
+          "thai": "แล้วแต่",
+          "translit": "",
+          "meaning": "depends"
+        },
+        {
+          "thai": "และ",
+          "translit": "",
+          "meaning": "and"
+        },
+        {
+          "thai": "โลบ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "โลป",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "โลพ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "โลเล",
+          "translit": "",
+          "meaning": "indecisive, fickle"
+        },
+        {
+          "thai": "โละ",
+          "translit": "",
+          "meaning": "to sack, to remove"
+        },
+        {
+          "thai": "ว",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "วงกลม",
+          "translit": "",
+          "meaning": "circle"
+        },
+        {
+          "thai": "วงจร",
+          "translit": "",
+          "meaning": "circuit"
+        },
+        {
+          "thai": "วอ",
+          "translit": "",
+          "meaning": "palanquin"
+        },
+        {
+          "thai": "วอช",
+          "translit": "",
+          "meaning": "[E] watch"
+        },
+        {
+          "thai": "วัฒนธรรม",
+          "translit": "",
+          "meaning": "culture temple"
+        },
+        {
+          "thai": "วัด",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "วัน",
+          "translit": "",
+          "meaning": "day"
+        },
+        {
+          "thai": "ว่า",
+          "translit": "",
+          "meaning": "that, which"
+        },
+        {
+          "thai": "วาท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "วานร",
+          "translit": "",
+          "meaning": "[P/S] monkey"
+        },
+        {
+          "thai": "วิธี",
+          "translit": "",
+          "meaning": "method"
+        },
+        {
+          "thai": "วินด์เซิร์ฟ",
+          "translit": "",
+          "meaning": "[E] windsurf"
+        },
+        {
+          "thai": "วุฒิ",
+          "translit": "",
+          "meaning": "qualification"
+        },
+        {
+          "thai": "เวร",
+          "translit": "",
+          "meaning": "retribution, work shift"
+        },
+        {
+          "thai": "เวลา",
+          "translit": "",
+          "meaning": "time"
+        },
+        {
+          "thai": "ไว",
+          "translit": "",
+          "meaning": "quickly"
+        },
+        {
+          "thai": "ไว้",
+          "translit": "",
+          "meaning": "to do sth in advance"
+        },
+        {
+          "thai": "ศ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ศอก",
+          "translit": "",
+          "meaning": "elbow"
+        },
+        {
+          "thai": "ศักดิ์",
+          "translit": "",
+          "meaning": "prestige, honour"
+        },
+        {
+          "thai": "ศัพท์",
+          "translit": "",
+          "meaning": "vocabulary"
+        },
+        {
+          "thai": "ศาลา",
+          "translit": "",
+          "meaning": "gazebo, pavillion"
+        },
+        {
+          "thai": "ศาสตร์",
+          "translit": "",
+          "meaning": "[\"study of...\" suffix]"
+        },
+        {
+          "thai": "ศีรษะ",
+          "translit": "",
+          "meaning": "head [formal]"
+        },
+        {
+          "thai": "เศรษฐกิจ",
+          "translit": "",
+          "meaning": "economy"
+        },
+        {
+          "thai": "เศร้า",
+          "translit": "",
+          "meaning": "sad"
+        },
+        {
+          "thai": "ส",
+          "translit": "",
+          "meaning": "dirty"
+        },
+        {
+          "thai": "สกปรก",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "สงบ",
+          "translit": "",
+          "meaning": "peaceful, calm"
+        },
+        {
+          "thai": "สด",
+          "translit": "",
+          "meaning": "fresh"
+        },
+        {
+          "thai": "สดชื่น",
+          "translit": "",
+          "meaning": "fresh, vigourious"
+        },
+        {
+          "thai": "สถานการณ์",
+          "translit": "",
+          "meaning": "situation"
+        },
+        {
+          "thai": "สนามหลวง",
+          "translit": "",
+          "meaning": "Royal Ground"
+        },
+        {
+          "thai": "สนุก",
+          "translit": "",
+          "meaning": "fun"
+        },
+        {
+          "thai": "สบาย",
+          "translit": "",
+          "meaning": "comfortable, easy"
+        },
+        {
+          "thai": "สม",
+          "translit": "",
+          "meaning": "to deserve"
+        },
+        {
+          "thai": "ส้ม",
+          "translit": "",
+          "meaning": "orange"
+        },
+        {
+          "thai": "สมบัติ",
+          "translit": "",
+          "meaning": "treasure, heritage"
+        },
+        {
+          "thai": "สมปอง",
+          "translit": "",
+          "meaning": "[personal name]"
+        },
+        {
+          "thai": "สมมุติ",
+          "translit": "",
+          "meaning": "suppose that…"
+        },
+        {
+          "thai": "สมอง",
+          "translit": "",
+          "meaning": "brain"
+        },
+        {
+          "thai": "สมัคร",
+          "translit": "",
+          "meaning": "to apply"
+        },
+        {
+          "thai": "สระ",
+          "translit": "",
+          "meaning": "/sàrà/ vowel, /sà/ pond"
+        },
+        {
+          "thai": "สร้าง",
+          "translit": "",
+          "meaning": "to build, to create"
+        },
+        {
+          "thai": "ส่วนประกอบ",
+          "translit": "",
+          "meaning": "component, ingredient"
+        },
+        {
+          "thai": "สวย",
+          "translit": "",
+          "meaning": "beautiful"
+        },
+        {
+          "thai": "สว่าง",
+          "translit": "",
+          "meaning": "bright"
+        },
+        {
+          "thai": "สหรัฐอเมริกา",
+          "translit": "",
+          "meaning": "United States of America"
+        },
+        {
+          "thai": "สหาย",
+          "translit": "",
+          "meaning": "comrade two"
+        },
+        {
+          "thai": "สอง",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "สะพานผ่านฟ้า",
+          "translit": "",
+          "meaning": "Phan Fa Bridge"
+        },
+        {
+          "thai": "สัว",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "สาก",
+          "translit": "",
+          "meaning": "pestle"
+        },
+        {
+          "thai": "สามารถ",
+          "translit": "",
+          "meaning": "can, able"
+        },
+        {
+          "thai": "สาว",
+          "translit": "",
+          "meaning": "young female"
+        },
+        {
+          "thai": "สำคัญ",
+          "translit": "",
+          "meaning": "important"
+        },
+        {
+          "thai": "สิทธิ์",
+          "translit": "",
+          "meaning": "right, privilege"
+        },
+        {
+          "thai": "สี",
+          "translit": "",
+          "meaning": "colour"
+        },
+        {
+          "thai": "สืบทอด",
+          "translit": "",
+          "meaning": "to inherit"
+        },
+        {
+          "thai": "สือ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "สุขภาพ",
+          "translit": "",
+          "meaning": "health"
+        },
+        {
+          "thai": "สูง",
+          "translit": "",
+          "meaning": "tall, high"
+        },
+        {
+          "thai": "สูบ",
+          "translit": "",
+          "meaning": "to suck, to smoke"
+        },
+        {
+          "thai": "เสก",
+          "translit": "",
+          "meaning": "to cast a spell"
+        },
+        {
+          "thai": "เสข",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เสค",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เสบียง",
+          "translit": "",
+          "meaning": "provision"
+        },
+        {
+          "thai": "เสพ",
+          "translit": "",
+          "meaning": "to take (drug)"
+        },
+        {
+          "thai": "เสร็จ",
+          "translit": "",
+          "meaning": "to finish"
+        },
+        {
+          "thai": "เสริม",
+          "translit": "",
+          "meaning": "supplement, to reinforce"
+        },
+        {
+          "thai": "เสาร์",
+          "translit": "",
+          "meaning": "Saturday -"
+        },
+        {
+          "thai": "เสาะ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "เสีย",
+          "translit": "",
+          "meaning": "to lose, broken"
+        },
+        {
+          "thai": "เสี้ยม",
+          "translit": "",
+          "meaning": "to sharpen"
+        },
+        {
+          "thai": "เสือ",
+          "translit": "",
+          "meaning": "tiger"
+        },
+        {
+          "thai": "แสดงออก",
+          "translit": "",
+          "meaning": "to show, to demonstrate"
+        },
+        {
+          "thai": "ห",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "หงอ",
+          "translit": "",
+          "meaning": "afraid, cowardly"
+        },
+        {
+          "thai": "หงอก",
+          "translit": "",
+          "meaning": "(hair) to turn grey"
+        },
+        {
+          "thai": "หญ้า",
+          "translit": "",
+          "meaning": "grass"
+        },
+        {
+          "thai": "หญิง",
+          "translit": "",
+          "meaning": "female"
+        },
+        {
+          "thai": "หนอก",
+          "translit": "",
+          "meaning": "(camel) hump"
+        },
+        {
+          "thai": "หนัก",
+          "translit": "",
+          "meaning": "heavy"
+        },
+        {
+          "thai": "หนาม",
+          "translit": "",
+          "meaning": "thorn, spike"
+        },
+        {
+          "thai": "หนาว",
+          "translit": "",
+          "meaning": "cold"
+        },
+        {
+          "thai": "หนิ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "หนืด",
+          "translit": "",
+          "meaning": "sticky"
+        },
+        {
+          "thai": "หนู",
+          "translit": "",
+          "meaning": "rat, mouse"
+        },
+        {
+          "thai": "หมด",
+          "translit": "",
+          "meaning": "entirely, used up"
+        },
+        {
+          "thai": "หมวก",
+          "translit": "",
+          "meaning": "hat"
+        },
+        {
+          "thai": "หมอ",
+          "translit": "",
+          "meaning": "doctor, healer"
+        },
+        {
+          "thai": "หม้อ",
+          "translit": "",
+          "meaning": "pot"
+        },
+        {
+          "thai": "หมัด",
+          "translit": "",
+          "meaning": "lice, fist diligent"
+        },
+        {
+          "thai": "หมั่นเพียร",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "หมา",
+          "translit": "",
+          "meaning": "dog"
+        },
+        {
+          "thai": "หมี",
+          "translit": "",
+          "meaning": "bear"
+        },
+        {
+          "thai": "หมู",
+          "translit": "",
+          "meaning": "pig"
+        },
+        {
+          "thai": "หยก",
+          "translit": "",
+          "meaning": "jade"
+        },
+        {
+          "thai": "หยาม",
+          "translit": "",
+          "meaning": "disdain, look down upon"
+        },
+        {
+          "thai": "หยิน",
+          "translit": "",
+          "meaning": "yin (astrology)"
+        },
+        {
+          "thai": "หรับ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "หรือ",
+          "translit": "",
+          "meaning": "or"
+        },
+        {
+          "thai": "หรู",
+          "translit": "",
+          "meaning": "luxurious, elegant"
+        },
+        {
+          "thai": "หลบ",
+          "translit": "",
+          "meaning": "hide, avoid"
+        },
+        {
+          "thai": "หลวง",
+          "translit": "",
+          "meaning": "Royal, superior"
+        },
+        {
+          "thai": "หลัก",
+          "translit": "",
+          "meaning": "main"
+        },
+        {
+          "thai": "หลาย",
+          "translit": "",
+          "meaning": "many, several"
+        },
+        {
+          "thai": "หลืบ",
+          "translit": "",
+          "meaning": "narrow opening"
+        },
+        {
+          "thai": "หลือ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "หวาน",
+          "translit": "",
+          "meaning": "sweet"
+        },
+        {
+          "thai": "หวี",
+          "translit": "",
+          "meaning": "comb"
+        },
+        {
+          "thai": "ห้อง",
+          "translit": "",
+          "meaning": "room"
+        },
+        {
+          "thai": "หัก",
+          "translit": "",
+          "meaning": "to snap, to break off"
+        },
+        {
+          "thai": "หั่น",
+          "translit": "",
+          "meaning": "to cut, to slice"
+        },
+        {
+          "thai": "หัว",
+          "translit": "",
+          "meaning": "head \"Khon\" (Thai traditional"
+        },
+        {
+          "thai": "หัวโขน",
+          "translit": "",
+          "meaning": "drama) mask"
+        },
+        {
+          "thai": "หัวใจ",
+          "translit": "",
+          "meaning": "heart"
+        },
+        {
+          "thai": "หาก",
+          "translit": "",
+          "meaning": "if"
+        },
+        {
+          "thai": "หาบ",
+          "translit": "",
+          "meaning": "to carry on shoulders"
+        },
+        {
+          "thai": "หึง",
+          "translit": "",
+          "meaning": "jealous"
+        },
+        {
+          "thai": "หืด",
+          "translit": "",
+          "meaning": "asthma"
+        },
+        {
+          "thai": "เหงย",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เหงา",
+          "translit": "",
+          "meaning": "lonely"
+        },
+        {
+          "thai": "เหตุ",
+          "translit": "",
+          "meaning": "cause, incident"
+        },
+        {
+          "thai": "เห็น",
+          "translit": "",
+          "meaning": "to see"
+        },
+        {
+          "thai": "เหนือ",
+          "translit": "",
+          "meaning": "north"
+        },
+        {
+          "thai": "เหม็น",
+          "translit": "",
+          "meaning": "to stink"
+        },
+        {
+          "thai": "เหมา",
+          "translit": "",
+          "meaning": "wholesale"
+        },
+        {
+          "thai": "เหมาะ",
+          "translit": "",
+          "meaning": "suitable"
+        },
+        {
+          "thai": "เหมือง",
+          "translit": "",
+          "meaning": "(mineral) mine"
+        },
+        {
+          "thai": "เหยิน",
+          "translit": "",
+          "meaning": "to protrude"
+        },
+        {
+          "thai": "เหรอ",
+          "translit": "",
+          "meaning": "[confirmation seeking question final particle]"
+        },
+        {
+          "thai": "เหรียญ",
+          "translit": "",
+          "meaning": "coin"
+        },
+        {
+          "thai": "เหลิง",
+          "translit": "",
+          "meaning": "spoilt, go too far"
+        },
+        {
+          "thai": "เหาะ",
+          "translit": "",
+          "meaning": "to fly"
+        },
+        {
+          "thai": "แหง",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "แห่ง",
+          "translit": "",
+          "meaning": "place"
+        },
+        {
+          "thai": "แห้ง",
+          "translit": "",
+          "meaning": "dry"
+        },
+        {
+          "thai": "แหย่",
+          "translit": "",
+          "meaning": "to poke, to tease"
+        },
+        {
+          "thai": "แหยะ",
+          "translit": "",
+          "meaning": "watery, mushy"
+        },
+        {
+          "thai": "โหล",
+          "translit": "",
+          "meaning": "dozen"
+        },
+        {
+          "thai": "โหวต",
+          "translit": "",
+          "meaning": "[E] to vote"
+        },
+        {
+          "thai": "ให้เกียรติ",
+          "translit": "",
+          "meaning": "to respect, to regard"
+        },
+        {
+          "thai": "ใหญ่",
+          "translit": "",
+          "meaning": "big"
+        },
+        {
+          "thai": "ใหม่",
+          "translit": "",
+          "meaning": "new, again"
+        },
+        {
+          "thai": "ไหน",
+          "translit": "",
+          "meaning": "which, where"
+        },
+        {
+          "thai": "ไหม",
+          "translit": "",
+          "meaning": "[question final particle]"
+        },
+        {
+          "thai": "ไหม้",
+          "translit": "",
+          "meaning": "to burn"
+        },
+        {
+          "thai": "ไหว้",
+          "translit": "",
+          "meaning": "a traditional gesture for greeting, thanking, or apologising"
+        },
+        {
+          "thai": "อ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "องุ่น",
+          "translit": "",
+          "meaning": "grape"
+        },
+        {
+          "thai": "อบรม",
+          "translit": "",
+          "meaning": "to instruct, to train"
+        },
+        {
+          "thai": "อย่า",
+          "translit": "",
+          "meaning": "do not"
+        },
+        {
+          "thai": "อยาก",
+          "translit": "",
+          "meaning": "to want"
+        },
+        {
+          "thai": "อย่าง",
+          "translit": "",
+          "meaning": "like, kind"
+        },
+        {
+          "thai": "อยู่",
+          "translit": "",
+          "meaning": "to be (at a place)"
+        },
+        {
+          "thai": "อร",
+          "translit": "",
+          "meaning": "[personal name]"
+        },
+        {
+          "thai": "อร่อย",
+          "translit": "",
+          "meaning": "delicious [place name]"
+        },
+        {
+          "thai": "อโศก",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "อสูร",
+          "translit": "",
+          "meaning": "demon"
+        },
+        {
+          "thai": "ออฟฟิศ",
+          "translit": "",
+          "meaning": "[E] office"
+        },
+        {
+          "thai": "ออม",
+          "translit": "",
+          "meaning": "to save money"
+        },
+        {
+          "thai": "อะไร",
+          "translit": "",
+          "meaning": "what"
+        },
+        {
+          "thai": "อังคาร",
+          "translit": "",
+          "meaning": "Tuesday"
+        },
+        {
+          "thai": "อัตโนมัติ",
+          "translit": "",
+          "meaning": "automatic"
+        },
+        {
+          "thai": "อา",
+          "translit": "",
+          "meaning": "aunt, uncle"
+        },
+        {
+          "thai": "อากาศ",
+          "translit": "",
+          "meaning": "weather, air"
+        },
+        {
+          "thai": "อาคาร",
+          "translit": "",
+          "meaning": "building"
+        },
+        {
+          "thai": "อาจ",
+          "translit": "",
+          "meaning": "perhaps"
+        },
+        {
+          "thai": "อาช",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "อาด",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "อาต",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "อาถ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "อาท",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "อาทร",
+          "translit": "",
+          "meaning": "concerned, care"
+        },
+        {
+          "thai": "อาทิตย์",
+          "translit": "",
+          "meaning": "sun, Sunday, week"
+        },
+        {
+          "thai": "อาน",
+          "translit": "",
+          "meaning": "saddle"
+        },
+        {
+          "thai": "อารมณ์",
+          "translit": "",
+          "meaning": "emotion"
+        },
+        {
+          "thai": "อ่าว",
+          "translit": "",
+          "meaning": "bay"
+        },
+        {
+          "thai": "อาส",
+          "translit": "",
+          "meaning": "- food"
+        },
+        {
+          "thai": "อาหาร",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "อึดอัด",
+          "translit": "",
+          "meaning": "uncomfortable, tight"
+        },
+        {
+          "thai": "อืด",
+          "translit": "",
+          "meaning": "swollen, bloated"
+        },
+        {
+          "thai": "อื่น",
+          "translit": "",
+          "meaning": "other"
+        },
+        {
+          "thai": "เอกลักษณ์",
+          "translit": "",
+          "meaning": "uniqueness, trait"
+        },
+        {
+          "thai": "เอง",
+          "translit": "",
+          "meaning": "(one)self"
+        },
+        {
+          "thai": "เอ๋อ",
+          "translit": "",
+          "meaning": "hypothyroidism"
+        },
+        {
+          "thai": "เอา",
+          "translit": "",
+          "meaning": "to take"
+        },
+        {
+          "thai": "เอือ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ฮ",
+          "translit": "",
+          "meaning": ""
+        },
+        {
+          "thai": "ฮอด",
+          "translit": "",
+          "meaning": "[D] to arrive"
+        },
+        {
+          "thai": "ฮะ",
+          "translit": "",
+          "meaning": "[male final particle]"
+        },
+        {
+          "thai": "ฮัก",
+          "translit": "",
+          "meaning": "[D] to love"
+        },
+        {
+          "thai": "ฮา",
+          "translit": "",
+          "meaning": "funny"
+        },
+        {
+          "thai": "ฮึง",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "ฮือ",
+          "translit": "",
+          "meaning": "the sound of crying"
+        },
+        {
+          "thai": "เฮีย",
+          "translit": "",
+          "meaning": "[C] elder brother"
+        },
+        {
+          "thai": "เฮือ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "เฮือะ",
+          "translit": "",
+          "meaning": "-"
+        },
+        {
+          "thai": "แฮค",
+          "translit": "",
+          "meaning": "[E] to hack"
+        },
+        {
+          "thai": "ไฮโซ",
+          "translit": "",
+          "meaning": "hi-society"
+        },
+        {
+          "thai": "ไฮติ",
+          "translit": "",
+          "meaning": "[E] Haiti"
+        }
+      ]
+    }
+  ],
+  "footnotes": {},
+  "prev": "appendix/v",
+  "_generated": true,
+  "_curated": true
+}
