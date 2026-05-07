@@ -3,7 +3,48 @@
   "slug": "appendix/v",
   "titleEn": "Appendix V: Thai Fonts",
   "titleRu": "Приложение V: Тайские шрифты",
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Appendix V: Thai Fonts"
+    },
+    {
+      "type": "paragraph",
+      "html": "Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "html": "The font samples in the printed book show the full Thai alphabet rendered in several common Thai typefaces — including serif, sans-serif, rounded, looped, loopless, and handwriting-based styles. Since these are visual examples that cannot be reproduced in plain text, refer to the printed edition for the full font gallery."
+    },
+    {
+      "type": "paragraph",
+      "html": "Below are some easily confused characters across different fonts. Pay attention to their distinguishing features:"
+    },
+    {
+      "type": "thaiTable",
+      "columns": ["Characters", "How to tell them apart"],
+      "rows": [
+        { "thai": "ก ถ ภ ฤ", "translit": "These only differ at the head (loop) part. Only ฤ's tail is longer." },
+        { "thai": "ด ต ค ศ", "translit": "Learners often get ด [d] and ค [k] mixed up — pay attention to how the head curls." },
+        { "thai": "ผ พ ฝ ฟ", "translit": "Spikey characters that look and sound similar." },
+        { "thai": "พ ฬ", "translit": "Similar, but ฬ [l] has a piggy tail." },
+        { "thai": "ข ช ซ", "translit": "Coil-heads: ข has a straight tail, ช has a twitchy tail, ซ has a twitchy tail and dented head." },
+        { "thai": "บ ป ษ", "translit": "บ [b] and ป [bp] look and sound similar. ษ [s˘] has something like อั inside." },
+        { "thai": "ข บ", "translit": "ข [k˘] is skinnier with a coil head; บ [b] is broader. In some fonts they look almost identical." },
+        { "thai": "ร โ ธ", "translit": "ร's head faces left; the โ vowel is much taller." },
+        { "thai": "ง ว า อ", "translit": "Occasionally confusing, especially between ง [ng] and ว [w]." },
+        { "thai": "อ ฮ", "translit": "ฮ [h] has a little hat on top." },
+        { "thai": "จ ล ส", "translit": "If the head reaches the bottom line it's ล [l]; if it also has a tiny tail it's ส [s˘]; otherwise it's จ [j]." },
+        { "thai": "ฎ ฏ", "translit": "If it has an extra spike at the bottom it's ฏ [dt], otherwise it's ฎ [d]." }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "One more thing: some font types are heavily stylised for aesthetic purposes and might cause some confusion to those who are not familiar with them. Practise reading different font styles whenever you encounter them — signage, menus, advertisements, and social media posts are all great places to start!"
+    }
+  ],
   "footnotes": {},
   "prev": "appendix/iv",
   "next": "glossary",

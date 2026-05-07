@@ -11,7 +11,7 @@
     },
     {
       "type": "paragraph",
-      "html": "The following consonants aren’t common, and their sounds are identical to some consonants we’ve previously learnt (so why do we need multiple consonants for the same sound? I’m sorry, but it’s just spelling convention...). Each of them also belongs to a class but you can tell which class they belong to from the sound (and the inherent tone)."
+      "html": "The following consonants aren't common, and their sounds are identical to some consonants we've previously learnt (so why do we need multiple consonants for the same sound? I'm sorry, but it's just spelling convention...). Each of them also belongs to a class but you can tell which class they belong to from the sound (and the inherent tone)."
     },
     {
       "type": "track",
@@ -19,29 +19,21 @@
     },
     {
       "type": "rule",
-      "html": "Silent ห can precede ญ (but never ณ) although you don’t see the หญ- combination often apart from in these 3 very common words:",
+      "html": "Silent ห can precede ญ (but never ณ) although you don't see the หญ- combination often apart from in these 3 very common words:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "หญิง"
-        },
-        {
-          "thai": "ใหญ่"
-        }
+        { "thai": "หญิง", "translit": "/yĭng/", "meaning": "female" },
+        { "thai": "ใหญ่", "translit": "/yài/", "meaning": "big" },
+        { "thai": "หญ้า", "translit": "/yâa/", "meaning": "grass" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "หญ้า",
-      "translit": "/yĭng/ “female”"
-    },
-    {
       "type": "paragraph",
-      "html": "/yài/ “big” /yâa/ “grass” When ญ is at final position, it becomes an [-n] final consonant, not an [-i] like ย."
+      "html": "When ญ is at final position, it becomes an [-n] final consonant, not an [-i] like ย."
     },
     {
       "type": "track",
@@ -49,45 +41,21 @@
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "เชิญ"
-        },
-        {
-          "thai": "รำคาญ"
-        }
+        { "thai": "เชิญ", "translit": "/chern/" },
+        { "thai": "รำคาญ", "translit": "/rumkaan/" },
+        { "thai": "เหรียญ", "translit": "/rĭan/", "meaning": "coin" }
       ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "เหรียญ",
-      "translit": "/chern/"
-    },
-    {
-      "type": "paragraph",
-      "html": "/rumkaan/ /rĭan/"
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "สำคัญ"
-        },
-        {
-          "thai": "กุญแจ"
-        }
+        { "thai": "สำคัญ", "translit": "/sŭmkun/" },
+        { "thai": "กุญแจ", "translit": "/goo'njair/" },
+        { "thai": "บังเอิญ", "translit": "/bung-ern/", "meaning": "coincidence" }
       ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "บังเอิญ",
-      "translit": "/sŭmkun/"
-    },
-    {
-      "type": "paragraph",
-      "html": "/goo’njair/ /bung-ern/"
     },
     {
       "type": "heading",
@@ -106,42 +74,31 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "ญี่ปุ่นฆ่า"
-        },
-        {
-          "thai": "ออฟฟิศ"
-        }
+        { "thai": "ญี่ปุ่น" },
+        { "thai": "ฆ่า" },
+        { "thai": "ออฟฟิศ" },
+        { "thai": "เธอ" },
+        { "thai": "เมฆ" },
+        { "thai": "ธง" },
+        { "thai": "ภูเขา" },
+        { "thai": "เณร" },
+        { "thai": "ศาลา" },
+        { "thai": "คุณ" },
+        { "thai": "ภาษี" }
       ]
     },
     {
-      "type": "paragraph",
-      "html": "34 เธอ"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "เมฆ"
-        },
-        {
-          "thai": "ธง"
-        },
-        {
-          "thai": "ภูเขา"
-        },
-        {
-          "thai": "เณร"
-        },
-        {
-          "thai": "ศาลาคุณ"
-        }
-      ]
+      "type": "heading",
+      "level": 2,
+      "text": "What is a consonant cluster?"
     },
     {
       "type": "paragraph",
-      "html": "ภาษี What is a consonant cluster? Take the word ‘strengths’ in English. Before and after ‘e’ there are so many consonant sounds, ‘str’ and ‘ngths’, in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in ‘school’, ‘dust’, ‘crisps’, the list goes on. If you see more than one consonant “cluttered” together, they’re a “cluster”! In Thai, consonant clusters can only occur at the beginning of a syllable, and there will never be more than 2 consonants together. However, the way you pronounce Thai consonant clusters varies depending on which types they are. Each course book and grammar book defines and describes them in different ways, but in this book I sort them into three types and label each type as follows:"
+      "html": "Take the word 'strengths' in English. Before and after 'e' there are so many consonant sounds, 'str' and 'ngths', in a row, right? These are called consonant clusters. A consonant cluster is a series of consonants pronounced together without a vowel in between, such as in 'school', 'dust', 'crisps', the list goes on. If you see more than one consonant \u201Ccluttered\u201D together, they're a \u201Ccluster\u201D!"
+    },
+    {
+      "type": "paragraph",
+      "html": "In Thai, consonant clusters can only occur at the beginning of a syllable, and there will never be more than 2 consonants together. However, the way you pronounce Thai consonant clusters varies depending on which types they are. Each course book and grammar book defines and describes them in different ways, but in this book I sort them into three types and label each type as follows:"
     },
     {
       "type": "list",
@@ -149,48 +106,34 @@
       "items": [
         "TRUE cluster",
         "PSEUDO cluster",
-        "FALSE cluster So what are these exactly? Read on. TRUE cluster The following combinations of consonants are true clusters:"
-      ]
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ก"
-        },
-        {
-          "thai": "ข"
-        },
-        {
-          "thai": "ค"
-        },
-        {
-          "thai": "พ"
-        },
-        {
-          "thai": "ป"
-        },
-        {
-          "thai": "ผ"
-        },
-        {
-          "thai": "ต"
-        },
-        {
-          "thai": "รกร- ขร- คร- พร- ปร-   ตร-"
-        },
-        {
-          "thai": "กล-ขล-คล-พล-ปล-ผล-"
-        },
-        {
-          "thai": "ล"
-        }
+        "FALSE cluster"
       ]
     },
     {
       "type": "paragraph",
-      "html": "วกว-ขว-คว- Note that a true cluster is a combination in which the second consonant is a ร, ล, or ว only."
+      "html": "So what are these exactly? Read on."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "TRUE cluster"
+    },
+    {
+      "type": "paragraph",
+      "html": "The following combinations of consonants are true clusters:"
+    },
+    {
+      "type": "thaiTable",
+      "columns": ["", "ก", "ข", "ค", "พ", "ป", "ผ", "ต"],
+      "rows": [
+        { "thai": "ร", "translit": "กร- / ขร- / คร- / พร- / ปร- / — / ตร-" },
+        { "thai": "ล", "translit": "กล- / ขล- / คล- / พล- / ปล- / ผล- / —" },
+        { "thai": "ว", "translit": "กว- / ขว- / คว- / — / — / — / —" }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "html": "Note that a true cluster is a combination in which the second consonant is a ร, ล, or ว only."
     },
     {
       "type": "heading",
@@ -209,55 +152,26 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "โกรธ"
-        },
-        {
-          "thai": "กลัว"
-        },
-        {
-          "thai": "แกว่ง"
-        },
-        {
-          "thai": "ขริบ"
-        },
-        {
-          "thai": "ขลาดเขวี้ยง"
-        },
-        {
-          "thai": "ครับ"
-        },
-        {
-          "thai": "คลอง"
-        },
-        {
-          "thai": "ควาย"
-        },
-        {
-          "thai": "พระ"
-        },
-        {
-          "thai": "เพลง"
-        }
-      ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "ปรบ",
-      "translit": "36"
-    },
-    {
-      "type": "examples",
-      "layout": "inline",
-      "items": [
-        {
-          "thai": "ปลุก"
-        }
+        { "thai": "โกรธ" },
+        { "thai": "กลัว" },
+        { "thai": "แกว่ง" },
+        { "thai": "ขริบ" },
+        { "thai": "ขลาด" },
+        { "thai": "เขวี้ยง" },
+        { "thai": "ครับ" },
+        { "thai": "คลอง" },
+        { "thai": "ควาย" },
+        { "thai": "พระ" },
+        { "thai": "เพลง" },
+        { "thai": "ปรบ" },
+        { "thai": "ปลุก" },
+        { "thai": "ผลาญ" },
+        { "thai": "ตรวจ" }
       ]
     },
     {
       "type": "paragraph",
-      "html": "ผลาญตรวจ In true clusters, the leading consonant ALWAYS determines the tone of a syllable, e.g. in the cluster กล-, ก is mid class, so the syllable is treated as mid class:"
+      "html": "In true clusters, the leading consonant ALWAYS determines the tone of a syllable, e.g. in the cluster กล-, ก is mid class, so the syllable is treated as mid class:"
     },
     {
       "type": "track",
@@ -265,71 +179,25 @@
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "กลา"
-        },
-        {
-          "thai": "กล่า"
-        },
-        {
-          "thai": "กล้า"
-        },
-        {
-          "thai": "กล๊า"
-        }
+        { "thai": "กลา", "translit": "/glaa/" },
+        { "thai": "กล่า", "translit": "/glàa/" },
+        { "thai": "กล้า", "translit": "/glâa/" },
+        { "thai": "กล๊า", "translit": "/gláa/" },
+        { "thai": "กล๋า", "translit": "/glăa/" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "กล๋า",
-      "translit": "/glaa/"
-    },
-    {
       "type": "paragraph",
-      "html": "/glàa/ /glâa/ /gláa/ /glăa/ More true cluster combinations are found in English loanwords as well:"
+      "html": "More true cluster combinations are found in English loanwords as well:"
     },
     {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ฟ"
-        },
-        {
-          "thai": "บ"
-        },
-        {
-          "thai": "ช"
-        },
-        {
-          "thai": "ท"
-        },
-        {
-          "thai": "ด"
-        },
-        {
-          "thai": "รฟร-"
-        },
-        {
-          "thai": "บร-"
-        },
-        {
-          "thai": "ชร-"
-        },
-        {
-          "thai": "ทร-"
-        },
-        {
-          "thai": "ดร-"
-        },
-        {
-          "thai": "ลฟล-"
-        },
-        {
-          "thai": "บล-"
-        }
+      "type": "thaiTable",
+      "columns": ["", "ฟ", "บ", "ช", "ท", "ด"],
+      "rows": [
+        { "thai": "ร", "translit": "ฟร- / บร- / ชร- / ทร- / ดร-" },
+        { "thai": "ล", "translit": "ฟล- / บล- / — / — / —" }
       ]
     },
     {
@@ -338,48 +206,31 @@
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "ฟรี"
-        },
-        {
-          "thai": "ทรู"
-        },
-        {
-          "thai": "ดรัก"
-        }
+        { "thai": "ฟรี", "translit": "/free/" },
+        { "thai": "ทรู", "translit": "/troo/", "meaning": "true" },
+        { "thai": "ดรัก", "translit": "/drúk/", "meaning": "drug" },
+        { "thai": "บลิง", "translit": "/bling/" }
       ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "บลิง",
-      "translit": "/free/"
-    },
-    {
-      "type": "paragraph",
-      "html": "/troo/ “true” /drúk/ “drug” /bling/"
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "เชรด"
-        },
-        {
-          "thai": "ฟลาย"
-        }
+        { "thai": "เชรด", "translit": "/chràyt/", "meaning": "shred" },
+        { "thai": "ฟลาย", "translit": "/flaai/", "meaning": "fly" },
+        { "thai": "เบรค", "translit": "/bràyk/", "meaning": "brake" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "เบรค",
-      "translit": "/chràyt/ “shred”"
+      "type": "heading",
+      "level": 2,
+      "text": "PSEUDO cluster"
     },
     {
       "type": "paragraph",
-      "html": "/flaai/ “fly” /bràyk/ “brake” PSEUDO cluster Pseudo clusters are the leftovers from true clusters; two consonants whose sounds can’t really blend together, in which case an [-a] vowel is inserted between them, effectively separating them into 2 syllables."
+      "html": "Pseudo clusters are the leftovers from true clusters; two consonants whose sounds can't really blend together, in which case an [-a] vowel is inserted between them, effectively separating them into 2 syllables."
     },
     {
       "type": "track",
@@ -387,7 +238,15 @@
     },
     {
       "type": "paragraph",
-      "html": "38 In pseudo clusters, if the second consonant is an LC1 consonant, the leading consonant determines the tone for both syllables. For example in ขนม, the second syllable [-nŏm] has a rising tone because ข gives it its tone rule, otherwise it would be pronounced /kà-nom/. “นม /nom/ BUT ขนม /kànŏm/” However, if the second consonant is a HC, MC, or LC2 consonant, each consonant determines its own tone in the syllable."
+      "html": "In pseudo clusters, if the second consonant is an LC1 consonant, the leading consonant determines the tone for both syllables. For example in ขนม, the second syllable [-nŏm] has a rising tone because ข gives it its tone rule, otherwise it would be pronounced /kà-nom/."
+    },
+    {
+      "type": "callout",
+      "html": "นม /nom/ BUT ขนม /kànŏm/"
+    },
+    {
+      "type": "paragraph",
+      "html": "However, if the second consonant is a HC, MC, or LC2 consonant, each consonant determines its own tone in the syllable."
     },
     {
       "type": "heading",
@@ -396,100 +255,90 @@
     },
     {
       "type": "paragraph",
-      "html": "False clusters are consonant clusters in which one of the 2 consonants is silent or the pronunciation changes completely. Thus they’re called false clusters. Such as:"
+      "html": "False clusters are consonant clusters in which one of the 2 consonants is silent or the pronunciation changes completely. Thus they're called false clusters. Such as:"
     },
     {
       "type": "track",
       "number": 58
     },
     {
-      "type": "paragraph",
-      "html": "Silent ห – You already know this case. ห is not pronounced so it doesn’t really make a consonant cluster."
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "หม้อ"
-        },
-        {
-          "thai": "หวี"
-        },
-        {
-          "thai": "โหล"
-        }
-      ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "แหย่",
-      "translit": "môr"
-    },
-    {
       "type": "rule",
-      "html": "wĕe lŏh yàir Silent ร * 39 – When certain consonants are combined with ร, the character itself then becomes silent (you’ll find out more about this on DAY 8).",
+      "html": "Silent ห – You already know this case. ห is not pronounced so it doesn't really make a consonant cluster.",
       "emphasis": "soft"
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "เศร้า"
-        },
-        {
-          "thai": "สร้าง"
-        }
+        { "thai": "หม้อ", "translit": "/môr/" },
+        { "thai": "หวี", "translit": "/wĕe/" },
+        { "thai": "โหล", "translit": "/lŏh/" },
+        { "thai": "แหย่", "translit": "/yàir/" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "สระ",
-      "translit": "40"
-    },
-    {
-      "type": "thaiExample",
-      "thai": "ไซร้…",
-      "translit": "sâo"
-    },
-    {
-      "type": "paragraph",
-      "html": "sâang sà sái ทร-* combination – ทร- together at initial position is pronounced [s] (you’ll find out more about this on DAY 8)."
+      "type": "rule",
+      "html": "Silent ร – When certain consonants are combined with ร, the character itself then becomes silent (you'll find out more about this on DAY 8).",
+      "emphasis": "soft"
     },
     {
       "type": "examples",
-      "layout": "chips",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "ทราบ"
-        },
-        {
-          "thai": "ทราย"
-        },
-        {
-          "thai": "ทรุด"
-        }
+        { "thai": "เศร้า", "translit": "/sâo/" },
+        { "thai": "สร้าง", "translit": "/sâang/" },
+        { "thai": "สระ", "translit": "/sà/" },
+        { "thai": "ไซร้", "translit": "/sái/" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "ทรวง",
-      "translit": "sâap"
+      "type": "rule",
+      "html": "ทร- combination – ทร- together at initial position is pronounced [s] (you'll find out more about this on DAY 8).",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "grid",
+      "items": [
+        { "thai": "ทราบ", "translit": "/sâap/" },
+        { "thai": "ทราย", "translit": "/saai/" },
+        { "thai": "ทรุด", "translit": "/sóo't/" },
+        { "thai": "ทรวง", "translit": "/suang/" }
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "paragraph",
-      "html": "saai sóo’t suang All 3 types of consonant clusters have two characteristics in common: 1. A cluster is treated as one single character (linguistically called a ‘digraph’ like ‘ch’ as in ‘church’ in English) and they’re never separated by a vowel."
+      "html": "All 3 types of consonant clusters have two characteristics in common:"
     },
     {
       "type": "list",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "/kàmào/ ‘soot’ เขม่า, NEVER ขเม่า",
-        "/gàsĭan/ ‘retire’ เกษียณ, NEVER กเษียณ 2. When there’s a vowel or symbol either above or below a cluster, it is always on the second consonant character.",
-        "/glùp/ ‘return’ กลับ, NEVER กัลบ",
-        "/prôo’ng-née/ ‘tomorrow’ พรุ่งนี้, NEVER พุ่รงนี้ Give it a go! Are these clusters true, pseudo, or false? Be warned, you may not always be correct!"
+        "A cluster is treated as one single character (linguistically called a 'digraph' like 'ch' as in 'church' in English) and they're never separated by a vowel.",
+        "When there's a vowel or symbol either above or below a cluster, it is always on the second consonant character."
       ]
+    },
+    {
+      "type": "examples",
+      "layout": "grid",
+      "items": [
+        { "thai": "เขม่า", "translit": "/kàmào/", "meaning": "soot", "note": "NEVER ขเม่า" },
+        { "thai": "เกษียณ", "translit": "/gàsĭan/", "meaning": "retire", "note": "NEVER กเษียณ" },
+        { "thai": "กลับ", "translit": "/glùp/", "meaning": "return", "note": "NEVER กัลบ" },
+        { "thai": "พรุ่งนี้", "translit": "/prôo'ng-née/", "meaning": "tomorrow", "note": "NEVER พุ่รงนี้" }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Give it a go!"
+    },
+    {
+      "type": "paragraph",
+      "html": "Are these clusters true, pseudo, or false? Be warned, you may not always be correct!"
     },
     {
       "type": "track",
@@ -502,7 +351,7 @@
     },
     {
       "type": "paragraph",
-      "html": "(1 letter) When a consonant is by itself without any vowel or other consonant, it is likely that you will have to read it with an [-a] vowel sound. This can also explain how you’d read pseudo clusters!"
+      "html": "(1 letter) When a consonant is by itself without any vowel or other consonant, it is likely that you will have to read it with an [-a] vowel sound. This can also explain how you'd read pseudo clusters!"
     },
     {
       "type": "track",
@@ -510,7 +359,11 @@
     },
     {
       "type": "paragraph",
-      "html": "One more point, in many compound words (words which are made by combining 2 or more words), the final consonant(s) of the first word may be reused to create an extra syllable with an unstressed [-a] vowel  sound, and creates a linking syllable in between the two component words. Look at the examples below to see what I mean: If you already have a pen in your hand ready to write down the rules, please put it down. Sadly, there’s no logic to this. But the good news is there’s now one less thing to remember. Even if you pronounce these wrong, people will still understand you since it would be blatantly obvious what you mean. I’d simply rather you be aware of this phenomenon than obsessed with memorising every little nuance of how it works."
+      "html": "One more point, in many compound words (words which are made by combining 2 or more words), the final consonant(s) of the first word may be reused to create an extra syllable with an unstressed [-a] vowel sound, and creates a linking syllable in between the two component words. Look at the examples below to see what I mean:"
+    },
+    {
+      "type": "paragraph",
+      "html": "If you already have a pen in your hand ready to write down the rules, please put it down. Sadly, there's no logic to this. But the good news is there's now one less thing to remember. Even if you pronounce these wrong, people will still understand you since it would be blatantly obvious what you mean. I'd simply rather you be aware of this phenomenon than obsessed with memorising every little nuance of how it works."
     },
     {
       "type": "heading",
@@ -519,7 +372,7 @@
     },
     {
       "type": "paragraph",
-      "html": "Below is a paragraph of Thai text as you’d normally see it in published materials. With the concepts of consonant clusters and unwritten vowels in mind you should be able to read this, and if you feel adventurous, try your best to get the tone right. Give it your best shot!"
+      "html": "Below is a paragraph of Thai text as you'd normally see it in published materials. With the concepts of consonant clusters and unwritten vowels in mind you should be able to read this, and if you feel adventurous, try your best to get the tone right. Give it your best shot!"
     },
     {
       "type": "track",
@@ -529,40 +382,20 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "อากาศแปรปรวนทำให้เกิดคลื่นลมในทะเลพัด"
-        },
-        {
-          "thai": "กระหน่ำเกินกว่าปรกติ เรือขนาดย่อมควรกักตุน"
-        },
-        {
-          "thai": "เสบียงไว้จากตลาดแล้วรอจนกว่าพายุสงบ ไม่สร้าง"
-        },
-        {
-          "thai": "ความตระหนกตกใจให้ ใครเพราะอาจกระทบต่อ"
-        }
+        { "thai": "อากาศแปรปรวนทำให้เกิดคลื่นลมในทะเลพัดกระหน่ำเกินกว่าปรกติ เรือขนาดย่อมควรกักตุนเสบียงไว้จากตลาดแล้วรอจนกว่าพายุสงบ ไม่สร้างความตระหนกตกใจให้ใครเพราะอาจกระทบต่อการเติบโตของธุรกิจในชุมชนประมง" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "การเติบโตของธุรกิจในชุมชนประมง",
-      "translit": "- Remember 7 less common consonants"
-    },
-    {
-      "type": "list",
-      "ordered": false,
+      "type": "recap",
       "items": [
+        "Remember 7 less common consonants",
         "ญ at the end of a syllable is pronounced [-n]",
         "True consonant clusters have ร, ล, or ว as the second consonant, and are pronounced as if they are one single sound",
-        "Pseudo consonant clusters (those which aren’t true clusters) don’t blend together, so an [-a] vowel sound is inserted between them. If the second consonant is an LC1, the tone rule for the first consonant applies to both syllables",
-        "False consonant clusters also consist of 2 consonants, but don’t produce a cluster sound",
-        "Consonant clusters are never separated, and if there’s a symbol which is supposed to be placed above or below a consonant, it is attached to the second consonant of the cluster rather than the first one",
-        "When there’s a consonant that doesn’t seem to have a vowel, it probably has an [-a] sound. There’s also an invisible [-a] vowel that links syllables together in compound words but we can’t tell when this will occur Both a consonant and a vowel, but it sometimes makes no sound! We’ll learn the many ways the letter"
+        "Pseudo consonant clusters (those which aren't true clusters) don't blend together, so an [-a] vowel sound is inserted between them. If the second consonant is an LC1, the tone rule for the first consonant applies to both syllables",
+        "False consonant clusters also consist of 2 consonants, but don't produce a cluster sound",
+        "Consonant clusters are never separated, and if there's a symbol which is supposed to be placed above or below a consonant, it is attached to the second consonant of the cluster rather than the first one",
+        "When there's a consonant that doesn't seem to have a vowel, it probably has an [-a] sound. There's also an invisible [-a] vowel that links syllables together in compound words but we can't tell when this will occur"
       ]
-    },
-    {
-      "type": "paragraph",
-      "html": "“ร” can be pronounced (or not pronounced). Furthermore, we’ll learn how the silent mark ‘kills off’ consonant sounds, and also how to shorten certain long vowels with “shortening marks”."
     }
   ],
   "footnotes": {},

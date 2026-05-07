@@ -5,8 +5,42 @@
   "titleRu": "Предисловие",
   "blocks": [
     {
+      "type": "heading",
+      "level": 1,
+      "text": "Preface"
+    },
+    {
       "type": "paragraph",
-      "html": "Preface 21 October 2014 I’ve always been fascinated by language ever since I was a boy. English was always my favourite subject at school even before I could string a sentence together in English. Then at the age of 15 my interest extended to Japanese and I chose Japanese as my major subject just out of curiosity (which I had no idea at the time would turn out to be so darn difficult!). One small decision triggered a chain of events which ultimately led me to Japan on a scholarship programme at Chiba University in 2004, in which I had the best year of my life. After I came back to Thailand and finished my degree I then became a Japanese translator and was working at various companies, and after just over a year I realised that it was not the kind of life I would want to commit myself to. I didn’t know what to do with my life and I was lost. Out of boredom, I decided to pass time by picking up Spanish, which proved to be yet another right decision. It changed my life once more; I was amazed by the vast similarities between Spanish and English and decided to do a Master’s Degree in Linguistics, driven by my urge for knowledge in how language works. Soon enough the interest in language learning morphed into an interest in language teaching. Up to the present day, I have been teaching English, Thai, and Japanese at a number of private language schools, a state-owned secondary school and in private lessons. Now my life is surrounded by language, and I have never been happier. I finally found my dream. From my experience of teaching Thai to expatriates in Bangkok over the last 5 years (which I have enjoyed the experience and the benefits it creates immensely), I find many Thai script teaching books somewhat inadequate. Therefore, in 2012 I was slowly resigning from following other course books and invented my own way of introducing the Thai writing system to learners. The method I use is a product of my teaching experience and my knowledge in Linguistics, and it enjoys positive feedback from many of my own students. After months and months of trial and error (and horror!) I have compiled my thoughts and strategies on teaching the Thai writing system in the most time-efficient and effective way possible. Nonetheless, this book does not boast to be a perfect one-size-fits-all for everyone. Some adaptations are necessary for individuals as we all learn language differently. I also warmly welcome any suggestion you may have should you wish to help me improve this book. Acknowledgements I ultimately owe my native tongue to my loving parents, and I thank them and my brother and sister for being supportive of me and this project. I would like to thank Tim Hughes, who is my role model as a language teacher and for sparking my passion for education. Matthew Jones, for our conversation on that Saturday night which led to the inception of Bingo- Lingo (and the logo concept!). Kris Ridley; for being my most important driving force and giving me lots of useful advice. All my Linguistics professors at the Faculty of Arts at Chulalongkorn University, for the linguistic knowledge which has helped restructure my whole understanding of language and helped me create many methodologies for teaching Thai. Matt Balaban, for being the first person to look through my book in its prototype stage and for giving me valuable ideas on how I could improve some of my methods with your brilliant mind. My proof-readers, Mike Curl, David Williams, and Daniel J. Ruddy, who have made sure the book is as accurate as possible and for giving me lots of suggestions, especially Daniel who stayed up with me night after night working together. And lastly, all my friends who have been hearing about this book since day 1 for their words of encouragement. This book would not have existed in the first place without any of you. Thank you."
+      "html": "21 October 2014"
+    },
+    {
+      "type": "paragraph",
+      "html": "I've always been fascinated by language ever since I was a boy. English was always my favourite subject at school even before I could string a sentence together in English. Then at the age of 15 my interest extended to Japanese and I chose Japanese as my major subject just out of curiosity (which I had no idea at the time would turn out to be so darn difficult!). One small decision triggered a chain of events which ultimately led me to Japan on a scholarship programme at Chiba University in 2004, in which I had the best year of my life. After I came back to Thailand and finished my degree I then became a Japanese translator and was working at various companies, and after just over a year I realised that it was not the kind of life I would want to commit myself to. I didn't know what to do with my life and I was lost."
+    },
+    {
+      "type": "paragraph",
+      "html": "Out of boredom, I decided to pass time by picking up Spanish, which proved to be yet another right decision. It changed my life once more; I was amazed by the vast similarities between Spanish and English and decided to do a Master's Degree in Linguistics, driven by my urge for knowledge in how language works. Soon enough the interest in language learning morphed into an interest in language teaching. Up to the present day, I have been teaching English, Thai, and Japanese at a number of private language schools, a state-owned secondary school and in private lessons. Now my life is surrounded by language, and I have never been happier. I finally found my dream."
+    },
+    {
+      "type": "paragraph",
+      "html": "From my experience of teaching Thai to expatriates in Bangkok over the last 5 years (which I have enjoyed the experience and the benefits it creates immensely), I find many Thai script teaching books somewhat inadequate. Therefore, in 2012 I was slowly resigning from following other course books and invented my own way of introducing the Thai writing system to learners. The method I use is a product of my teaching experience and my knowledge in Linguistics, and it enjoys positive feedback from many of my own students. After months and months of trial and error (and horror!) I have compiled my thoughts and strategies on teaching the Thai writing system in the most time-efficient and effective way possible."
+    },
+    {
+      "type": "paragraph",
+      "html": "Nonetheless, this book does not boast to be a perfect one-size-fits-all for everyone. Some adaptations are necessary for individuals as we all learn language differently. I also warmly welcome any suggestion you may have should you wish to help me improve this book."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Acknowledgements"
+    },
+    {
+      "type": "paragraph",
+      "html": "I ultimately owe my native tongue to my loving parents, and I thank them and my brother and sister for being supportive of me and this project. I would like to thank Tim Hughes, who is my role model as a language teacher and for sparking my passion for education. Matthew Jones, for our conversation on that Saturday night which led to the inception of Bingo-Lingo (and the logo concept!). Kris Ridley; for being my most important driving force and giving me lots of useful advice. All my Linguistics professors at the Faculty of Arts at Chulalongkorn University, for the linguistic knowledge which has helped restructure my whole understanding of language and helped me create many methodologies for teaching Thai. Matt Balaban, for being the first person to look through my book in its prototype stage and for giving me valuable ideas on how I could improve some of my methods with your brilliant mind. My proof-readers, Mike Curl, David Williams, and Daniel J. Ruddy, who have made sure the book is as accurate as possible and for giving me lots of suggestions, especially Daniel who stayed up with me night after night working together. And lastly, all my friends who have been hearing about this book since day 1 for their words of encouragement. This book would not have existed in the first place without any of you."
+    },
+    {
+      "type": "paragraph",
+      "html": "Thank you."
     }
   ],
   "footnotes": {},

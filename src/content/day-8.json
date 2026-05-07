@@ -11,7 +11,7 @@
     },
     {
       "type": "paragraph",
-      "html": "This is the last set of consonants! They’re even considerably rarer than the ones in the previous chapter and appear mostly in big words, but it’s still necessary to know them of course!"
+      "html": "This is the last set of consonants! They're even considerably rarer than the ones in the previous chapter and appear mostly in big words, but it's still necessary to know them of course!"
     },
     {
       "type": "track",
@@ -27,192 +27,98 @@
     },
     {
       "type": "examples",
-      "layout": "inline",
+      "layout": "grid",
       "items": [
-        {
-          "thai": "มณฑล"
-        }
+        { "thai": "มณฑล", "translit": "monton" },
+        { "thai": "กฎหมาย", "translit": "gòtmăai" },
+        { "thai": "ปรากฏ", "translit": "bpraagòt" },
+        { "thai": "ฐานะ", "translit": "tăaná" },
+        { "thai": "จุฬา", "translit": "jùlaa" },
+        { "thai": "เพชฌฆาต", "translit": "pétchákâat" },
+        { "thai": "พัฒนา", "translit": "púttánaa" },
+        { "thai": "บัณฑิต", "translit": "bundìt" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "กฎหมายปรากฏ",
-      "translit": "monton"
+      "type": "callout",
+      "variant": "note",
+      "html": "Sometimes ฑ is pronounced [d]. However, บัณฑิต is the only such word worth knowing."
     },
     {
       "type": "paragraph",
-      "html": "gòtmăai bpraagòt"
+      "html": "Phew! We've done ALL 42 Thai consonants! However, it is worth looking back and seeing how much you can remember about the shape, sound, and the class of each consonant. Use the mnemonics you've learnt from pages 42-43 to help you memorise consonant classes (Underlined characters are the most common character in each sound group)."
     },
     {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ฐานะ"
-        },
-        {
-          "thai": "จุฬา"
-        }
+      "type": "heading",
+      "level": 3,
+      "text": "Low Class 1"
+    },
+    {
+      "type": "thaiTable",
+      "columns": ["thai", "translit"],
+      "rows": [
+        { "thai": "ง", "translit": "ng" },
+        { "thai": "ม", "translit": "m" },
+        { "thai": "นณ", "translit": "n" },
+        { "thai": "ร", "translit": "r" },
+        { "thai": "ลฬ", "translit": "l" },
+        { "thai": "ยญ", "translit": "y" },
+        { "thai": "ว", "translit": "w" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "เพชฌฆาต",
-      "translit": "tăaná"
+      "type": "heading",
+      "level": 3,
+      "text": "Low Class 2"
     },
     {
-      "type": "paragraph",
-      "html": "jùlaa pétchákâat"
-    },
-    {
-      "type": "examples",
-      "layout": "inline",
-      "items": [
-        {
-          "thai": "พัฒนา"
-        }
+      "type": "thaiTable",
+      "columns": ["thai", "translit"],
+      "rows": [
+        { "thai": "คฆ", "translit": "k" },
+        { "thai": "ทธฒฑ", "translit": "t" },
+        { "thai": "ชฌ", "translit": "ch" },
+        { "thai": "ซ", "translit": "s" },
+        { "thai": "พภ", "translit": "p" },
+        { "thai": "ฟ", "translit": "f" },
+        { "thai": "ฮ", "translit": "h" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "บัณฑิต",
-      "translit": "púttánaa"
+      "type": "heading",
+      "level": 3,
+      "text": "Mid Class"
     },
     {
-      "type": "paragraph",
-      "html": "bundìt Sometimes ฑ is pronounced [d]. However, บัณฑิต is the only such word worth knowing. Phew! We’ve done ALL 42 Thai consonants! However, it is worth looking back and seeing how much you can remember about the shape, sound, and the class of each consonant. Use the mnemonics you’ve learnt from pages 42-43 to help you memorise consonant classes (Underlined characters are the most common character in each sound group)."
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ง"
-        },
-        {
-          "thai": "ม"
-        },
-        {
-          "thai": "นณ"
-        },
-        {
-          "thai": "ร"
-        },
-        {
-          "thai": "ลฬ"
-        },
-        {
-          "thai": "ยญ"
-        }
+      "type": "thaiTable",
+      "columns": ["thai", "translit"],
+      "rows": [
+        { "thai": "ก", "translit": "g" },
+        { "thai": "จ", "translit": "j" },
+        { "thai": "ดฎ", "translit": "d" },
+        { "thai": "ตฏ", "translit": "dt" },
+        { "thai": "บ", "translit": "b" },
+        { "thai": "ป", "translit": "bp" },
+        { "thai": "อ", "translit": "-" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "ว",
-      "translit": "ng"
+      "type": "heading",
+      "level": 3,
+      "text": "High Class"
     },
     {
-      "type": "paragraph",
-      "html": "m n r l y w"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "คฆ"
-        },
-        {
-          "thai": "ทธฒฑ"
-        },
-        {
-          "thai": "ชฌ"
-        },
-        {
-          "thai": "ซ"
-        },
-        {
-          "thai": "พภ"
-        },
-        {
-          "thai": "ฟ"
-        }
+      "type": "thaiTable",
+      "columns": ["thai", "translit"],
+      "rows": [
+        { "thai": "ข", "translit": "k˘" },
+        { "thai": "ถฐ", "translit": "t˘" },
+        { "thai": "ฉ", "translit": "ch˘" },
+        { "thai": "สศษ", "translit": "s˘" },
+        { "thai": "ผ", "translit": "p˘" },
+        { "thai": "ฝ", "translit": "f˘" },
+        { "thai": "ห", "translit": "h˘" }
       ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "ฮ",
-      "translit": "k"
-    },
-    {
-      "type": "paragraph",
-      "html": "t ch s p f h"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ก"
-        },
-        {
-          "thai": "จ"
-        },
-        {
-          "thai": "ดฎ"
-        },
-        {
-          "thai": "ตฏ"
-        },
-        {
-          "thai": "บ"
-        },
-        {
-          "thai": "ป"
-        }
-      ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "อ",
-      "translit": "g"
-    },
-    {
-      "type": "paragraph",
-      "html": "j d dt b bp -"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "ข"
-        },
-        {
-          "thai": "ถฐ"
-        },
-        {
-          "thai": "ฉ"
-        },
-        {
-          "thai": "สศษ"
-        },
-        {
-          "thai": "ผ"
-        },
-        {
-          "thai": "ฝ"
-        }
-      ]
-    },
-    {
-      "type": "thaiExample",
-      "thai": "ห",
-      "translit": "k˘"
-    },
-    {
-      "type": "paragraph",
-      "html": "t˘ ch˘ s˘ p˘ f˘ h˘"
     },
     {
       "type": "heading",
@@ -221,7 +127,7 @@
     },
     {
       "type": "paragraph",
-      "html": "When Thais borrow words from other languages, sometimes we don’t (or can’t) pronounce all the consonants in the words but we want to preserve the original spellings. So what we do is ‘kill off’ unpronounced consonants by marking them with a silent mark (-์ ) called ไม้ทัณฑฆาต /mái tuntákâat/ 43."
+      "html": "When Thais borrow words from other languages, sometimes we don't (or can't) pronounce all the consonants in the words but we want to preserve the original spellings. So what we do is 'kill off' unpronounced consonants by marking them with a silent mark (-์ ) called ไม้ทัณฑฆาต /mái tuntákâat/."
     },
     {
       "type": "heading",
@@ -234,7 +140,29 @@
     },
     {
       "type": "paragraph",
-      "html": "44 First, can you guess how you should pronounce these words? Silent marks can also kill the preceding consonant too: It doesn’t matter whether there’s a vowel — kill them all! To cut the story short… Some long vowels have their short counterparts: e.g. -ิ [i] is the short version of -ี [ee], etc. However, most long vowels like เ- or แ- do not, so -ะ is added to the end of the syllable to create a shorter vowel sound. This shortening -ะ symbol is ONLY used with syllables that don’t have a final consonant."
+      "html": "First, can you guess how you should pronounce these words?"
+    },
+    {
+      "type": "paragraph",
+      "html": "Silent marks can also kill the preceding consonant too:"
+    },
+    {
+      "type": "paragraph",
+      "html": "It doesn't matter whether there's a vowel — kill them all!"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "To cut the story short…"
+    },
+    {
+      "type": "paragraph",
+      "html": "Some long vowels have their short counterparts: e.g. -ิ [i] is the short version of -ี [ee], etc. However, most long vowels like เ- or แ- do not, so -ะ is added to the end of the syllable to create a shorter vowel sound."
+    },
+    {
+      "type": "rule",
+      "html": "This shortening -ะ symbol is ONLY used with syllables that don't have a final consonant.",
+      "emphasis": "strong"
     },
     {
       "type": "heading",
@@ -246,8 +174,18 @@
       "number": 65
     },
     {
+      "type": "callout",
+      "variant": "warning",
+      "html": "Remember, however, that เ-าะ [-or'] is NOT a short version of เ-า [-ao]! They're different!"
+    },
+    {
       "type": "paragraph",
-      "html": "45 Remember, however, that เ-าะ [-or’] is NOT a short version of เ-า [-ao]! They’re different! You might have noticed the tone changes in these shortened words. Remember? If a syllable ends with a short vowel, it is DEAD, thus the shortening of the vowel also affects the tone. For เ-, แ- and -อ however, if there’s a FINAL CONSONANT then this shortening mark (-็ ) “ไม้ไต่คู้ ” /mái dtàikóo/ will be used instead of -ะ. This mark goes over the initial consonant. It should be noted that the shortening mark -็ will never appear with a tone mark."
+      "html": "You might have noticed the tone changes in these shortened words. Remember? If a syllable ends with a short vowel, it is DEAD, thus the shortening of the vowel also affects the tone."
+    },
+    {
+      "type": "rule",
+      "html": "For เ-, แ- and -อ however, if there's a FINAL CONSONANT then this shortening mark (-็) \"ไม้ไต่คู้\" /mái dtàikóo/ will be used instead of -ะ. This mark goes over the initial consonant. It should be noted that the shortening mark -็ will never appear with a tone mark.",
+      "emphasis": "strong"
     },
     {
       "type": "track",
@@ -257,51 +195,18 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "เลก"
-        },
-        {
-          "thai": "เล็ก"
-        },
-        {
-          "thai": "แพค"
-        },
-        {
-          "thai": "แพ็ค"
-        },
-        {
-          "thai": "นอก"
-        },
-        {
-          "thai": "น็อก"
-        },
-        {
-          "thai": "็"
-        },
-        {
-          "thai": "็"
-        },
-        {
-          "thai": "็"
-        },
-        {
-          "thai": "เจบ"
-        },
-        {
-          "thai": "เจ็บ"
-        },
-        {
-          "thai": "แขง"
-        },
-        {
-          "thai": "แข็ง"
-        },
-        {
-          "thai": "บอท"
-        },
-        {
-          "thai": "บ็อท"
-        }
+        { "thai": "เลก" },
+        { "thai": "เล็ก" },
+        { "thai": "แพค" },
+        { "thai": "แพ็ค" },
+        { "thai": "นอก" },
+        { "thai": "น็อก" },
+        { "thai": "เจบ" },
+        { "thai": "เจ็บ" },
+        { "thai": "แขง" },
+        { "thai": "แข็ง" },
+        { "thai": "บอท" },
+        { "thai": "บ็อท" }
       ]
     },
     {
@@ -311,15 +216,20 @@
     },
     {
       "type": "paragraph",
-      "html": "This practice deals with two kinds of words: those with a silent mark and those with a shortening mark. For the words with a silent mark, read them and circle around all the unpronounced characters (there are a few difficult ones, so prepare to be wrong!); for the words with a shortening mark, namely -ะ or -็ , read them and rewrite them as the long counterpart of their vowel e.g. โกะ /gò/ >> โก /goh/. Once you change the vowel to a long vowel, keep in mind that there might be a tone change, so you have work that out too."
+      "html": "This practice deals with two kinds of words: those with a silent mark and those with a shortening mark. For the words with a silent mark, read them and circle around all the unpronounced characters (there are a few difficult ones, so prepare to be wrong!); for the words with a shortening mark, namely -ะ or -็, read them and rewrite them as the long counterpart of their vowel e.g. โกะ /gò/ >> โก /goh/. Once you change the vowel to a long vowel, keep in mind that there might be a tone change, so you have work that out too."
     },
     {
       "type": "track",
       "number": 67
     },
     {
+      "type": "heading",
+      "level": 2,
+      "text": "The curious case of \"ร\""
+    },
+    {
       "type": "paragraph",
-      "html": "47 Words with a silent mark: Words with a shortening mark: The curious case of “ร” You know ร as a low class 1 consonant [r], but in fact it has quite a few quirks that you need to pay attention to. ร may also be a vowel, change sounds from [r] to something else, or not be pronounced at all!"
+      "html": "You know ร as a low class 1 consonant [r], but in fact it has quite a few quirks that you need to pay attention to. ร may also be a vowel, change sounds from [r] to something else, or not be pronounced at all!"
     },
     {
       "type": "heading",
@@ -327,8 +237,9 @@
       "text": "Give it a go!"
     },
     {
-      "type": "paragraph",
-      "html": "1. At final position"
+      "type": "heading",
+      "level": 3,
+      "text": "1. At final position"
     },
     {
       "type": "track",
@@ -336,154 +247,104 @@
     },
     {
       "type": "rule",
-      "html": "It’s pronounced [-n]. This one we’ve already learnt on DAY 1:",
+      "html": "It's pronounced [-n]. This one we've already learnt on DAY 1:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "อาคาร"
-        },
-        {
-          "thai": "ควร"
-        },
-        {
-          "thai": "เณร"
-        },
-        {
-          "thai": "หมั่น"
-        },
-        {
-          "thai": "เพียร"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "html": "- If it’s a final consonant and there’s no written vowel, it’s perhaps"
-    },
-    {
-      "type": "paragraph",
-      "html": "pronounced [-orn]. We’ve learnt this as well on DAY 3:"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "มังกร"
-        },
-        {
-          "thai": "นคร"
-        },
-        {
-          "thai": "เกสร"
-        },
-        {
-          "thai": "จราจร"
-        }
+        { "thai": "อาคาร" },
+        { "thai": "ควร" },
+        { "thai": "เณร" },
+        { "thai": "เพียร" }
       ]
     },
     {
       "type": "rule",
-      "html": "ร becomes silent at the end of the syllable when it isn’t part of any syllable even without the silent mark:",
+      "html": "If it's a final consonant and there's no written vowel, it's perhaps pronounced [-orn]. We've learnt this as well on DAY 3:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "จักร"
-        },
-        {
-          "thai": "เพชร"
-        },
-        {
-          "thai": "บุตร"
-        }
+        { "thai": "มังกร" },
+        { "thai": "นคร" },
+        { "thai": "เกสร" },
+        { "thai": "จราจร" }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "ร becomes silent at the end of the syllable when it isn't part of any syllable even without the silent mark:",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        { "thai": "จักร" },
+        { "thai": "เพชร" },
+        { "thai": "บุตร" },
+        { "thai": "สมัคร" }
       ]
     },
     {
       "type": "paragraph",
-      "html": "สมัคร Sometimes it’s ambiguous whether final ร should be pronounced as [-n], [- orn], or silent. So if you can, always consult a Thai person for accuracy. 2. Within the syllable"
+      "html": "Sometimes it's ambiguous whether final ร should be pronounced as [-n], [-orn], or silent. So if you can, always consult a Thai person for accuracy."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "2. Within the syllable"
     },
     {
       "type": "track",
       "number": 69
     },
     {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "ร in false consonant clusters สร, ศร, ซร (i.e. clusters with an [s]"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "html": "consonant and ร together) is silent:"
-    },
-    {
-      "type": "examples",
-      "layout": "chips",
-      "items": [
-        {
-          "thai": "เสร็จ"
-        },
-        {
-          "thai": "เศรษฐกิจ"
-        },
-        {
-          "thai": "ไซร้"
-        }
-      ]
-    },
-    {
       "type": "rule",
-      "html": "ทร combination is almost always pronounced [s] (Unless it’s in loanwords, see ATTENTION! on the following section):",
+      "html": "ร in false consonant clusters สร, ศร, ซร (i.e. clusters with an [s] consonant and ร together) is silent:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "ทราบ"
-        },
-        {
-          "thai": "ทราย"
-        },
-        {
-          "thai": "โทรม"
-        },
-        {
-          "thai": "ทรง"
-        }
+        { "thai": "เสร็จ" },
+        { "thai": "เศรษฐกิจ" },
+        { "thai": "ไซร้" }
       ]
     },
     {
       "type": "rule",
-      "html": "บริ combination is pronounced [borrí], not [bàrí] (Unless it’s in loanwords, see ATTENTION! on the following section):",
+      "html": "ทร combination is almost always pronounced [s] (Unless it's in loanwords, see ATTENTION! on the following section):",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "บริษัท"
-        },
-        {
-          "thai": "บริการ"
-        },
-        {
-          "thai": "บริเวณ"
-        },
-        {
-          "thai": "บริโภค"
-        }
+        { "thai": "ทราบ" },
+        { "thai": "ทราย" },
+        { "thai": "โทรม" },
+        { "thai": "ทรง" }
+      ]
+    },
+    {
+      "type": "rule",
+      "html": "บริ combination is pronounced [borrí], not [bàrí] (Unless it's in loanwords, see ATTENTION! on the following section):",
+      "emphasis": "soft"
+    },
+    {
+      "type": "examples",
+      "layout": "chips",
+      "items": [
+        { "thai": "บริษัท" },
+        { "thai": "บริการ" },
+        { "thai": "บริเวณ" },
+        { "thai": "บริโภค" }
       ]
     },
     {
@@ -495,20 +356,21 @@
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "จริง"
-        },
-        {
-          "thai": "สามารถ"
-        },
-        {
-          "thai": "ศีรษะ"
-        }
+        { "thai": "จริง" },
+        { "thai": "สามารถ" },
+        { "thai": "ศีรษะ" },
+        { "thai": "กระยาสารท" }
       ]
     },
     {
-      "type": "paragraph",
-      "html": "กระยาสารท The combination ทร and บริ are usually pronounced [tr-] and [bri-] in foreign proper nouns: เทรน /trayn/ ‘train’, ทริค /trík/ ‘trick’, บริดจ์ /brìt/ ‘bridge’, บริง /bring/. 3. Double รร"
+      "type": "callout",
+      "variant": "warning",
+      "html": "The combination ทร and บริ are usually pronounced [tr-] and [bri-] in foreign proper nouns: เทรน /trayn/ 'train', ทริค /trík/ 'trick', บริดจ์ /brìt/ 'bridge', บริง /bring/."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3. Double รร"
     },
     {
       "type": "track",
@@ -516,50 +378,31 @@
     },
     {
       "type": "rule",
-      "html": "Two ร’s together form an -ัน [-un] sound:",
+      "html": "Two ร's together form an -ัน [-un] sound:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "รถ"
-        },
-        {
-          "thai": "บรรทุก"
-        },
-        {
-          "thai": "กรรไกร"
-        }
+        { "thai": "บรรทุก" },
+        { "thai": "กรรไกร" },
+        { "thai": "ภรรยา" }
       ]
     },
     {
-      "type": "thaiExample",
-      "thai": "ภรรยา",
-      "translit": "51"
-    },
-    {
       "type": "rule",
-      "html": "But if there’s a final consonant, it’s just pronounced -ั- [-u-]:",
+      "html": "But if there's a final consonant, it's just pronounced -ั- [-u-]:",
       "emphasis": "soft"
     },
     {
       "type": "examples",
       "layout": "chips",
       "items": [
-        {
-          "thai": "กรรม"
-        },
-        {
-          "thai": "พรรค"
-        },
-        {
-          "thai": "ตรรกะ"
-        },
-        {
-          "thai": "ธรรมดา"
-        }
+        { "thai": "กรรม" },
+        { "thai": "พรรค" },
+        { "thai": "ตรรกะ" },
+        { "thai": "ธรรมดา" }
       ]
     },
     {
@@ -569,28 +412,31 @@
     },
     {
       "type": "paragraph",
-      "html": "This reading exercise has a twist: it is written in stylised font! You’ll probably take longer than usual to identify all the letters. Be careful not to get similar letters mixed up. This type of font is ubiquitous in advertising and publishing so it’s worth familiarising yourself with it. Take your time, there’s no rush!"
+      "html": "This reading exercise has a twist: it is written in stylised font! You'll probably take longer than usual to identify all the letters. Be careful not to get similar letters mixed up. This type of font is ubiquitous in advertising and publishing so it's worth familiarising yourself with it. Take your time, there's no rush!"
     },
     {
       "type": "track",
       "number": 71
     },
     {
-      "type": "list",
-      "ordered": false,
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Today's Recap"
+    },
+    {
+      "type": "recap",
       "items": [
         "Mái tuntákâat (-์ ) marks the unpronounced consonant and/or vowel located directly under it, and in some cases the preceding consonant and vowel too",
         "The length of many long vowels can be shortened by adding -ะ after the syllable (this only occurs with long vowels that have no short counterpart)",
         "Mái dtàikóo (-็ ) is only used for shortening syllables with เ-, แ- or -อ vowel and a final consonant",
         "ร becomes [-n] or [-orn] at the end of the syllable",
-        "ร is silent when following [s] consonants (ซ, ส, ศ, ษ); at the end of the syllable when it doesn’t seem to belong there; or sometimes it just is, without any reason!",
+        "ร is silent when following [s] consonants (ซ, ส, ศ, ษ); at the end of the syllable when it doesn't seem to belong there; or sometimes it just is, without any reason!",
         "ทร combination makes an [s] sound, บริ combination makes [borri-] sound (unless in loanwords)",
-        "Double รร is pronounced [-un] when there’s no final consonant, or [-u-] when there’s a final consonant And here come the mysteries — this chapter demonstrates some oddities in Thai writing that don’t seem to follow any pattern. Thai numerals are introduced in this chapter, along with the special"
+        "Double รร is pronounced [-un] when there's no final consonant, or [-u-] when there's a final consonant"
       ]
-    },
-    {
-      "type": "paragraph",
-      "html": "character “ฤ”, and some punctuation marks."
     }
   ],
   "footnotes": {},

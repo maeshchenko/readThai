@@ -5,93 +5,90 @@
   "titleRu": "Приложение III: Словарный порядок",
   "blocks": [
     {
+      "type": "heading",
+      "level": 1,
+      "text": "Appendix III: Dictionary Order"
+    },
+    {
+      "type": "paragraph",
+      "html": "Thai alphabetical order in the dictionary is more complex and requires more attention than the English one does. In dictionary order, consonants have priority over vowels."
+    },
+    {
+      "type": "paragraph",
+      "html": "The character order is as follows:"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Consonant symbol order"
+    },
+    {
       "type": "examples",
       "layout": "inline",
       "items": [
-        {
-          "thai": "ะ -ั า -ำ -ิ -ี -ึ -ื -ุ  -ู เ"
-        }
+        { "thai": "ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ ฤๅ ล ฦ ฦๅ ว ศ ษ ส ห ฬ อ ฮ" }
       ]
     },
     {
-      "type": "paragraph",
-      "html": "แ โ ใ ไ The 4 tone marks, mái dtàikóo (อ็) and mái tuntákâat (อ์ ) are ignored in most cases unless two or more words have exactly the same spelling. DIACRITIC SYMBOL ORDER"
+      "type": "heading",
+      "level": 3,
+      "text": "Vowel symbol order"
     },
     {
       "type": "examples",
       "layout": "inline",
       "items": [
-        {
-          "thai": "-็ -่ -้ -๊ -๋ -์"
-        }
+        { "thai": "ะ -ั า -ำ -ิ -ี -ึ -ื -ุ -ู เ แ โ ใ ไ" }
       ]
     },
     {
       "type": "paragraph",
-      "html": "1. Keep in mind that dictionaries sort words by the way they’re written, not"
+      "html": "The 4 tone marks, mái dtàikóo (อ็) and mái tuntákâat (อ์) are ignored in most cases unless two or more words have exactly the same spelling."
     },
     {
-      "type": "paragraph",
-      "html": "by their sound, this means that even though you don’t pronounce silent consonants like ห, อ or ร they are still sorted alphabetically:"
+      "type": "heading",
+      "level": 3,
+      "text": "Diacritic symbol order"
+    },
+    {
+      "type": "examples",
+      "layout": "inline",
+      "items": [
+        { "thai": "-็ -่ -้ -๊ -๋ -์" }
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "list",
-      "ordered": false,
+      "ordered": true,
       "items": [
-        "e.g. หลาย is under ห section, not ล"
+        "Keep in mind that dictionaries sort words by the way they're written, not by their sound, this means that even though you don't pronounce silent consonants like ห, อ or ร they are still sorted alphabetically: e.g. หลาย is under ห section, not ล",
+        "อ, ย and ว are always treated as consonants, even when they're part of a vowel: word order: เอย > เอว > เออ > เอา",
+        "ฤ and ฤๅ are placed straight after ร. Obsolete characters ฃ, ฅ, ฦ and ฦๅ are included in the dictionary but you'll never find any words in their sections: word order: พรึก > พฤก",
+        "Consonants have the highest priority; they always come before vowels: word order: จรง > จริง > จอง > จาง > โจง",
+        "Tone marks and other symbols are generally ignored unless two or more words contain exactly the same consonants and vowels, only then are they taken into account: word order: แขง > แข็ง > แข่ง > แข้ง",
+        "Regardless of their position(s) in a syllable, vowels come after consonants, meaning that even though เ or โ is placed before the initial consonant, its precedence in the dictionary is still after all the consonants: word order: กก > กอ > เก > โก",
+        "For compound vowels (vowels which are made up of multiple symbols such as เ-า, etc.), all the symbols that make up the vowel will be taken into account and sorted in the following order (where อ is an initial consonant): อะ อั- อั-ะ อา อำ อิ อี อึ อื- อุ อู เอ เอะ เอา เอาะ เอิ- เอี- เอี-ะ เอื- เอื-ะ แอ แอะ โอ โอะ ใอ ไอ"
       ]
     },
     {
       "type": "paragraph",
-      "html": "2. อ, ย and ว are always treated as consonants, even when they’re part of a vowel:"
+      "html": "Example of rule 7 — word order:"
     },
     {
       "type": "paragraph",
-      "html": "- word order: เอย > เอว > เออ > เอา 3. ฤ and ฤๅ are placed straight after ร. Obsolete characters ฃ, ฅ, ฦ and ฦๅ are included in the dictionary but you’ll never find any words in their sections:"
+      "html": "นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก > นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ > เนือ > เนือง > เนือะ > แน > แนบ > แนะ > โนน > โนะ > ใน > ไน"
     },
     {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "word order: พรึก > พฤก 4. Consonants have the highest priority; they always come before vowels:",
-        "word order: จรง > จริง > จอง > จาง > โจง 5. Tone marks and other symbols are generally ignored unless two or more words contain exactly the same consonants and vowels, only then are they taken into account:",
-        "word order: แขง > แข็ง > แข่ง > แข้ง 6. Regardless of their position(s) in a syllable, vowels come after"
-      ]
+      "type": "callout",
+      "variant": "note",
+      "html": "Many of these words in the examples are NOT real words. Some of them are made up solely to be used to demonstrate the rules given in each bullet point, so don't try to learn them."
     },
     {
       "type": "paragraph",
-      "html": "consonants, meaning that even though เ or โ, is placed before the initial consonant, its precedence in the dictionary is still after all the consonants:"
-    },
-    {
-      "type": "list",
-      "ordered": false,
-      "items": [
-        "word order: กก > กอ > เก > โก 7. For compound vowels (vowels which are made up of multiple symbols"
-      ]
-    },
-    {
-      "type": "paragraph",
-      "html": "such as เ-า, etc.), all the symbols that make up the vowel will be taken into account and sorted in the following order (where อ is an initial consonant):"
-    },
-    {
-      "type": "paragraph",
-      "html": "อะ อั - อั -ะ อา อำ อิ อี อึ อื- อุ อู เอ เอะ เอา เอาะ เอิ- เอี- เอี-ะ เอื- เอื-ะ แอ"
-    },
-    {
-      "type": "paragraph",
-      "html": "แอะ โอ โอะ ใอ ไอ:"
-    },
-    {
-      "type": "paragraph",
-      "html": "- word order: นก > นอก > นะ > นัด > นัวะ > นา > นำ > นิด > นี > นึก >"
-    },
-    {
-      "type": "paragraph",
-      "html": "นือ > นืด > นุ > นูป > เน > เนะ > เนา > เนาะ > เนิน > เนีย > เนียะ >"
-    },
-    {
-      "type": "paragraph",
-      "html": "เนือ > เนือง > เนือะ > แน > แนบ > แนะ >โนน > โนะ > ใน > ไน NB: Many of these words in the examples are NOT real words. Some of them are made up solely to be used to demonstrate the rules given in each bullet point, so don’t try to learn them. You can use the glossary at the end of this book to practice looking up words in the Thai dictionary. Keep in mind that this is not very crucial in reading Thai, it’s just a nice and useful skill to have! Appendix IV: Words that use ใ As you learned previously, there are 20 words in Thai that contain the ใ- vowel. No more, no less. However, most of these words are extremely common, so you’ll need to know which words you’re supposed to spell with this squiggly ใ- [ai]. NB: Some of the words above can be translated in more than one way. The meanings given are just examples. Appendix V: Thai fonts Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+      "html": "You can use the glossary at the end of this book to practice looking up words in the Thai dictionary. Keep in mind that this is not very crucial in reading Thai, it's just a nice and useful skill to have!"
     }
   ],
   "footnotes": {},

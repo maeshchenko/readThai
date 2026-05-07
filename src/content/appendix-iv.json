@@ -5,8 +5,44 @@
   "titleRu": "Приложение IV: Слова с ใ",
   "blocks": [
     {
+      "type": "heading",
+      "level": 1,
+      "text": "Appendix IV: Words That Use ใ"
+    },
+    {
       "type": "paragraph",
-      "html": "NB: Some of the words above can be translated in more than one way. The meanings given are just examples. Appendix V: Thai fonts Here are some examples of different styles of Thai fonts which are frequently used in publishing and advertising, including handwriting-based fonts. Trying to identify which character is which can be frustrating since many fonts resemble so little of their original characters. The trick is to focus on their unique features (e.g. ข has a coiled head, ช has a coiled head and a twitchy tail, etc.)"
+      "html": "As you learned previously, there are 20 words in Thai that contain the ใ- vowel. No more, no less. However, most of these words are extremely common, so you'll need to know which words you're supposed to spell with this squiggly ใ- [ai]."
+    },
+    {
+      "type": "thaiTable",
+      "columns": ["Thai", "Transliteration", "Meaning"],
+      "rows": [
+        { "thai": "ใกล้", "translit": "/glâi/", "meaning": "near, close" },
+        { "thai": "ใคร", "translit": "/krai/", "meaning": "who" },
+        { "thai": "ใคร่", "translit": "/krâi/", "meaning": "to desire, to long for" },
+        { "thai": "ใจ", "translit": "/jai/", "meaning": "heart, mind" },
+        { "thai": "ใช่", "translit": "/châi/", "meaning": "yes, correct" },
+        { "thai": "ใช้", "translit": "/chái/", "meaning": "to use, to spend" },
+        { "thai": "ใด", "translit": "/dai/", "meaning": "any, which" },
+        { "thai": "ใต้", "translit": "/dtâi/", "meaning": "under, south" },
+        { "thai": "ใน", "translit": "/nai/", "meaning": "in, inside" },
+        { "thai": "ใบ", "translit": "/bai/", "meaning": "leaf, classifier" },
+        { "thai": "ใบ้", "translit": "/bâi/", "meaning": "mute, to hint" },
+        { "thai": "ใฝ่", "translit": "/fài/", "meaning": "to aspire, to pay attention" },
+        { "thai": "ใย", "translit": "/yai/", "meaning": "fibre, web" },
+        { "thai": "ใส", "translit": "/sǎi/", "meaning": "clear, transparent" },
+        { "thai": "ใส่", "translit": "/sài/", "meaning": "to put in, to wear" },
+        { "thai": "สะใภ้", "translit": "/sàpâi/", "meaning": "daughter-in-law" },
+        { "thai": "ใหม่", "translit": "/mài/", "meaning": "new, again" },
+        { "thai": "ใหญ่", "translit": "/yài/", "meaning": "big, large" },
+        { "thai": "ให้", "translit": "/hâi/", "meaning": "to give, to let" },
+        { "thai": "ใหล", "translit": "/lǎi/", "meaning": "to flow (as in หลงใหล — infatuated)" }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "html": "Some of the words above can be translated in more than one way. The meanings given are just examples."
     }
   ],
   "footnotes": {},
