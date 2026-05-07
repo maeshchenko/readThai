@@ -80,7 +80,7 @@
           "thai": "กระทบ",
           "translit": "",
           "meaning": "to hit, to affect",
-          "meaningRu": "ударять, влиять"
+          "meaningRu": "задевать, затрагивать"
         },
         {
           "thai": "กระเทียม",
@@ -92,7 +92,7 @@
           "thai": "กระยาสารท",
           "translit": "",
           "meaning": "Thai sticky cereal",
-          "meaningRu": "тайская рисовая сладость"
+          "meaningRu": "крайясарт (сладость из воздушного риса с пальмовым сахаром)"
         },
         {
           "thai": "กรุงเทพมหานคร",
@@ -128,7 +128,7 @@
           "thai": "กลัว",
           "translit": "",
           "meaning": "afraid",
-          "meaningRu": "испуганный"
+          "meaningRu": "бояться"
         },
         {
           "thai": "กลา",
@@ -166,7 +166,7 @@
           "thai": "กว่า",
           "translit": "",
           "meaning": "more than",
-          "meaningRu": "больше чем"
+          "meaningRu": "больше, чем; -ее (сравн. частица)"
         },
         {
           "thai": "กษัตริย์",
@@ -267,13 +267,13 @@
           "thai": "แกะ",
           "translit": "",
           "meaning": "sheep, to peel",
-          "meaningRu": "овца, очищать"
+          "meaningRu": "овца; снимать, отделять"
         },
         {
           "thai": "โกรธ",
           "translit": "",
           "meaning": "angry",
-          "meaningRu": "злой"
+          "meaningRu": "злиться, гневаться"
         },
         {
           "thai": "ใกล้",
@@ -296,7 +296,7 @@
           "thai": "ขน",
           "translit": "",
           "meaning": "hair, transport",
-          "meaningRu": "волосы, перевозить"
+          "meaningRu": "волоски (на теле); перевозить"
         },
         {
           "thai": "ขนม",
@@ -356,7 +356,7 @@
           "thai": "ของ",
           "translit": "",
           "meaning": "thing, of",
-          "meaningRu": "вещь, принадлежность"
+          "meaningRu": "вещь, предмет; [притяжательная частица]"
         },
         {
           "thai": "ข่อง",
@@ -397,7 +397,7 @@
           "thai": "ขัน",
           "translit": "",
           "meaning": "crowing of rooster",
-          "meaningRu": "кукареканье петуха"
+          "meaningRu": "кукарекать (о петухе)"
         },
         {
           "thai": "ขา",
@@ -409,7 +409,7 @@
           "thai": "ขาด",
           "translit": "",
           "meaning": "torn, lack",
-          "meaningRu": "порванный, нехватка"
+          "meaningRu": "рваный; нехватка, отсутствовать"
         },
         {
           "thai": "ขาว",
@@ -433,13 +433,13 @@
           "thai": "ข้าวซอย",
           "translit": "",
           "meaning": "Thai northern curry noodles",
-          "meaningRu": "тайская северная лапша карри"
+          "meaningRu": "кхаусой (северная тайская лапша в карри)"
         },
         {
           "thai": "ขำ",
           "translit": "",
           "meaning": "to snigger",
-          "meaningRu": "хихикать"
+          "meaningRu": "смешно; смеяться"
         },
         {
           "thai": "ขิง",
@@ -509,7 +509,7 @@
           "thai": "โขก",
           "translit": "",
           "meaning": "to knock",
-          "meaningRu": "стучать"
+          "meaningRu": "стукнуться (головой), ударить"
         },
         {
           "thai": "ค",
@@ -526,7 +526,7 @@
           "thai": "คดี",
           "translit": "",
           "meaning": "lawsuit",
-          "meaningRu": "судебный иск"
+          "meaningRu": "судебное дело"
         },
         {
           "thai": "คน",
@@ -538,7 +538,7 @@
           "thai": "คนเดียว",
           "translit": "",
           "meaning": "alone",
-          "meaningRu": "один"
+          "meaningRu": "в одиночку, один"
         },
         {
           "thai": "คนโต",
@@ -592,7 +592,7 @@
           "thai": "ควบ",
           "translit": "",
           "meaning": "to gallop, combined",
-          "meaningRu": "скакать, совмещённый"
+          "meaningRu": "скакать галопом; сдвоенный"
         },
         {
           "thai": "ควร",
@@ -610,7 +610,7 @@
           "thai": "ความเกรงใจ",
           "translit": "",
           "meaning": "fear of offending or burdening others",
-          "meaningRu": "боязнь обидеть или обременить других"
+          "meaningRu": "деликатность, боязнь обременить других"
         },
         {
           "thai": "ความรู้สึก",
@@ -688,7 +688,7 @@
           "thai": "คือ",
           "translit": "",
           "meaning": "to be",
-          "meaningRu": "быть"
+          "meaningRu": "это, являться"
         },
         {
           "thai": "คุณ",
@@ -712,7 +712,7 @@
           "thai": "เคย",
           "translit": "",
           "meaning": "used to, have ever",
-          "meaningRu": "бывало, когда-либо"
+          "meaningRu": "когда-либо (делать); бывало"
         },
         {
           "thai": "เค้า",
@@ -754,7 +754,7 @@
           "thai": "โคน",
           "translit": "",
           "meaning": "root",
-          "meaningRu": "корень"
+          "meaningRu": "основание, подножие (дерева)"
         },
         {
           "thai": "ใคร",
@@ -782,7 +782,7 @@
           "thai": "งอม",
           "translit": "",
           "meaning": "to ripen",
-          "meaningRu": "созревать"
+          "meaningRu": "перезреть, размякнуть"
         },
         {
           "thai": "งู",
@@ -828,7 +828,7 @@
           "thai": "จนกว่า",
           "translit": "",
           "meaning": "until",
-          "meaningRu": "пока"
+          "meaningRu": "пока не, до тех пор пока"
         },
         {
           "thai": "จราจร",
@@ -846,7 +846,7 @@
           "thai": "จลาจล",
           "translit": "",
           "meaning": "chaos, anarchy",
-          "meaningRu": "хаос, анархия"
+          "meaningRu": "беспорядки, бунт"
         },
         {
           "thai": "จวน",
@@ -870,7 +870,7 @@
           "thai": "จ้ะ",
           "translit": "",
           "meaning": "[intimate final particle]",
-          "meaningRu": "[интимная конечная частица]"
+          "meaningRu": "[ласковая конечная частица]"
         },
         {
           "thai": "จ๊ะจ๋า",
@@ -917,19 +917,19 @@
           "thai": "จ่า",
           "translit": "",
           "meaning": "chieftain",
-          "meaningRu": "вождь"
+          "meaningRu": "сержант, старшина"
         },
         {
           "thai": "จ้า",
           "translit": "",
           "meaning": "[intimate final particle]",
-          "meaningRu": "[интимная конечная частица]"
+          "meaningRu": "[ласковая конечная частица]"
         },
         {
           "thai": "จ๋า",
           "translit": "",
           "meaning": "[intimate final particle]",
-          "meaningRu": "[интимная конечная частица]"
+          "meaningRu": "[ласковая конечная частица]"
         },
         {
           "thai": "จาก",
@@ -947,13 +947,13 @@
           "thai": "จุฬา",
           "translit": "",
           "meaning": "King Chula",
-          "meaningRu": "Король Чула"
+          "meaningRu": "воздушный змей (звёздчатый); сокр. от Чулалонгкорн"
         },
         {
           "thai": "เจ",
           "translit": "",
           "meaning": "vegan",
-          "meaningRu": "веганский"
+          "meaningRu": "вегетарианский (по-китайски), постный"
         },
         {
           "thai": "เจ๊",
@@ -982,7 +982,7 @@
           "thai": "เจ็บ",
           "translit": "",
           "meaning": "painful, to hurt",
-          "meaningRu": "болезненный, болеть"
+          "meaningRu": "больно; болеть"
         },
         {
           "thai": "เจอ",
@@ -1018,7 +1018,7 @@
           "thai": "ใจ",
           "translit": "",
           "meaning": "heart",
-          "meaningRu": "сердце"
+          "meaningRu": "сердце, душа, нрав"
         },
         {
           "thai": "ฉ",
@@ -1029,7 +1029,7 @@
           "thai": "ฉก",
           "translit": "",
           "meaning": "snake strike",
-          "meaningRu": "бросок змеи"
+          "meaningRu": "хватать; бросаться (о змее)"
         },
         {
           "thai": "ฉลาด",
@@ -1064,7 +1064,7 @@
           "thai": "ชอบ",
           "translit": "",
           "meaning": "to like",
-          "meaningRu": "нравиться"
+          "meaningRu": "нравиться, любить"
         },
         {
           "thai": "ชะ",
@@ -1088,19 +1088,19 @@
           "thai": "ชาติ",
           "translit": "",
           "meaning": "nation",
-          "meaningRu": "нация"
+          "meaningRu": "нация; рождение"
         },
         {
           "thai": "ชาย",
           "translit": "",
           "meaning": "male",
-          "meaningRu": "мужской"
+          "meaningRu": "мужчина, мужской"
         },
         {
           "thai": "ชิม",
           "translit": "",
           "meaning": "to taste",
-          "meaningRu": "пробовать"
+          "meaningRu": "пробовать (на вкус)"
         },
         {
           "thai": "ชีพ",
@@ -1188,7 +1188,7 @@
           "thai": "ซวย",
           "translit": "",
           "meaning": "bad luck",
-          "meaningRu": "невезение"
+          "meaningRu": "невезучий"
         },
         {
           "thai": "ซอง",
@@ -1212,13 +1212,13 @@
           "thai": "ซาก",
           "translit": "",
           "meaning": "carcass",
-          "meaningRu": "туша"
+          "meaningRu": "останки, туша"
         },
         {
           "thai": "ซิ",
           "translit": "",
           "meaning": "[suggestion final particle]",
-          "meaningRu": "[предложительная конечная частица]"
+          "meaningRu": "[побудительная конечная частица]"
         },
         {
           "thai": "ซึ่ง",
@@ -1260,7 +1260,7 @@
           "thai": "ไซร้",
           "translit": "",
           "meaning": "then",
-          "meaningRu": "тогда"
+          "meaningRu": "[книжн.] именно, же"
         },
         {
           "thai": "ญ",
@@ -1322,7 +1322,7 @@
           "thai": "ดวง",
           "translit": "",
           "meaning": "luck",
-          "meaningRu": "удача"
+          "meaningRu": "светило; удача, судьба"
         },
         {
           "thai": "ด้วย",
@@ -1394,19 +1394,19 @@
           "thai": "โดน",
           "translit": "",
           "meaning": "to hit, to strike",
-          "meaningRu": "ударять, попадать"
+          "meaningRu": "получить (удар); [пассивный маркер]"
         },
         {
           "thai": "ได้",
           "translit": "",
           "meaning": "can, able to",
-          "meaningRu": "мочь, уметь"
+          "meaningRu": "мочь; получать; [маркер прошедшего времени]"
         },
         {
           "thai": "ได้แก่",
           "translit": "",
           "meaning": "such as",
-          "meaningRu": "такие как"
+          "meaningRu": "а именно"
         },
         {
           "thai": "ได้รับ",
@@ -1459,7 +1459,7 @@
           "thai": "ตลก",
           "translit": "",
           "meaning": "funny, humorous",
-          "meaningRu": "смешной, юмористический"
+          "meaningRu": "смешной, забавный"
         },
         {
           "thai": "ตลอด",
@@ -1477,7 +1477,7 @@
           "thai": "ตวาด",
           "translit": "",
           "meaning": "to snap at someone",
-          "meaningRu": "огрызаться"
+          "meaningRu": "прикрикнуть, рявкнуть"
         },
         {
           "thai": "ต่อ",
@@ -1531,7 +1531,7 @@
           "thai": "ตัว",
           "translit": "",
           "meaning": "body, self",
-          "meaningRu": "тело, сам"
+          "meaningRu": "тело, сам; [счётное слово для животных]"
         },
         {
           "thai": "ตาก",
@@ -1549,7 +1549,7 @@
           "thai": "ติ๊งต๊อง",
           "translit": "",
           "meaning": "stupid, silly",
-          "meaningRu": "глупый, дурачок"
+          "meaningRu": "глупый, придурковатый"
         },
         {
           "thai": "เตย",
@@ -1567,7 +1567,7 @@
           "thai": "เติม",
           "translit": "",
           "meaning": "to fill",
-          "meaningRu": "наполнять"
+          "meaningRu": "доливать, пополнять, добавлять"
         },
         {
           "thai": "เตียง",
@@ -1643,7 +1643,7 @@
           "thai": "ถูก",
           "translit": "",
           "meaning": "correct, to hit the spot",
-          "meaningRu": "правильный, попадать в точку"
+          "meaningRu": "правильный; дешёвый; [пассивный маркер]"
         },
         {
           "thai": "เถา",
@@ -1678,7 +1678,7 @@
           "thai": "ทรง",
           "translit": "",
           "meaning": "shape, [K] to do",
-          "meaningRu": "форма, [K] делать"
+          "meaningRu": "форма; [K] [королевский глагол]"
         },
         {
           "thai": "ทรวง",
@@ -1708,7 +1708,7 @@
           "thai": "ทรุด",
           "translit": "",
           "meaning": "to collapse",
-          "meaningRu": "обрушиваться"
+          "meaningRu": "оседать, проседать"
         },
         {
           "thai": "ทรู",
@@ -1726,7 +1726,7 @@
           "thai": "ทวง",
           "translit": "",
           "meaning": "to inquire, to demand",
-          "meaningRu": "расспрашивать, требовать"
+          "meaningRu": "требовать (возврата), взыскивать"
         },
         {
           "thai": "ท้อง",
@@ -1750,7 +1750,7 @@
           "thai": "ทักทาย",
           "translit": "",
           "meaning": "greetings",
-          "meaningRu": "приветствие"
+          "meaningRu": "приветствовать"
         },
         {
           "thai": "ทั้ง",
@@ -1767,7 +1767,7 @@
           "thai": "ทาง",
           "translit": "",
           "meaning": "way, by",
-          "meaningRu": "путь, через"
+          "meaningRu": "путь, дорога, сторона"
         },
         {
           "thai": "ทายาท",
@@ -1791,7 +1791,7 @@
           "thai": "ทำเฉย",
           "translit": "",
           "meaning": "to turn a cold shoulder",
-          "meaningRu": "игнорировать"
+          "meaningRu": "делать вид, что не замечает; притворяться равнодушным"
         },
         {
           "thai": "ทำไม",
@@ -1803,7 +1803,7 @@
           "thai": "ทำให้",
           "translit": "",
           "meaning": "to cause, to incite",
-          "meaningRu": "вызывать, побуждать"
+          "meaningRu": "делать так, чтобы; приводить к"
         },
         {
           "thai": "ที",
@@ -1833,7 +1833,7 @@
           "thai": "เทพ",
           "translit": "",
           "meaning": "angel, god",
-          "meaningRu": "ангел, бог"
+          "meaningRu": "бог, божество"
         },
         {
           "thai": "เทรน",
@@ -1857,13 +1857,13 @@
           "thai": "แทน",
           "translit": "",
           "meaning": "instead, tanned",
-          "meaningRu": "вместо, загорелый"
+          "meaningRu": "вместо; заменять"
         },
         {
           "thai": "โทรทัศน์",
           "translit": "",
           "meaning": "television",
-          "meaningRu": "телевидение"
+          "meaningRu": "телевизор"
         },
         {
           "thai": "โทรม",
@@ -1910,7 +1910,7 @@
           "thai": "ธุรกิจ",
           "translit": "",
           "meaning": "business",
-          "meaningRu": "бизнес"
+          "meaningRu": "бизнес, дело"
         },
         {
           "thai": "เธอ",
@@ -1957,13 +1957,13 @@
           "thai": "น็อก",
           "translit": "",
           "meaning": "[E] to knock",
-          "meaningRu": "[E] нокаутировать"
+          "meaningRu": "[E] нокаут; потерять сознание"
         },
         {
           "thai": "นอน",
           "translit": "",
           "meaning": "to sleep",
-          "meaningRu": "спать"
+          "meaningRu": "лежать, спать"
         },
         {
           "thai": "นะ",
@@ -1987,7 +1987,7 @@
           "thai": "น้า",
           "translit": "",
           "meaning": "aunt, uncle",
-          "meaningRu": "тётя, дядя"
+          "meaningRu": "тётя/дядя (младшие брат или сестра матери)"
         },
         {
           "thai": "นาค",
@@ -2051,13 +2051,13 @@
           "thai": "แน่นแฟ้น",
           "translit": "",
           "meaning": "stable, firm",
-          "meaningRu": "крепкий, прочный"
+          "meaningRu": "крепкий, тесный (об отношениях)"
         },
         {
           "thai": "แนว",
           "translit": "",
           "meaning": "way, stripe",
-          "meaningRu": "направление, полоса"
+          "meaningRu": "линия, направление, стиль"
         },
         {
           "thai": "ใน",
@@ -2080,7 +2080,7 @@
           "thai": "บน",
           "translit": "",
           "meaning": "top, over",
-          "meaningRu": "верх, над"
+          "meaningRu": "на, над, сверху"
         },
         {
           "thai": "บริการ",
@@ -2098,7 +2098,7 @@
           "thai": "บริเวณ",
           "translit": "",
           "meaning": "periphery, area",
-          "meaningRu": "окрестность, зона"
+          "meaningRu": "территория, район"
         },
         {
           "thai": "บริษัท",
@@ -2138,7 +2138,7 @@
           "thai": "บังเอิญ",
           "translit": "",
           "meaning": "coincidence",
-          "meaningRu": "совпадение"
+          "meaningRu": "случайно; совпадение"
         },
         {
           "thai": "บัณฑิต",
@@ -2162,7 +2162,7 @@
           "thai": "บุคคล",
           "translit": "",
           "meaning": "person, personnel",
-          "meaningRu": "персона, персонал"
+          "meaningRu": "человек, личность [форм.]"
         },
         {
           "thai": "บุตร",
@@ -2180,7 +2180,7 @@
           "thai": "แบบ",
           "translit": "",
           "meaning": "type, to be like",
-          "meaningRu": "тип, подобно"
+          "meaningRu": "вид, образец, модель"
         },
         {
           "thai": "ใบ",
@@ -2233,7 +2233,7 @@
           "thai": "ประวัติศาสตร์",
           "translit": "",
           "meaning": "history studies",
-          "meaningRu": "историческая наука"
+          "meaningRu": "история (наука)"
         },
         {
           "thai": "ปรากฏ",
@@ -2263,7 +2263,7 @@
           "thai": "ปวด",
           "translit": "",
           "meaning": "pain, ache",
-          "meaningRu": "боль"
+          "meaningRu": "болеть (о части тела)"
         },
         {
           "thai": "ปอด",
@@ -2292,7 +2292,7 @@
           "thai": "ปู่",
           "translit": "",
           "meaning": "grandfather",
-          "meaningRu": "дедушка"
+          "meaningRu": "дедушка (по отцу)"
         },
         {
           "thai": "เปตอง",
@@ -2310,7 +2310,7 @@
           "thai": "เปรอะ",
           "translit": "",
           "meaning": "stain, dirty",
-          "meaningRu": "пятно, грязный"
+          "meaningRu": "заляпанный, запачканный"
         },
         {
           "thai": "เปรี้ยว",
@@ -2333,7 +2333,7 @@
           "thai": "เปี๊ยะ",
           "translit": "",
           "meaning": "moon cake",
-          "meaningRu": "лунный пирог"
+          "meaningRu": "лунный пряник (юэбин)"
         },
         {
           "thai": "แปด",
@@ -2345,7 +2345,7 @@
           "thai": "แปรปรวน",
           "translit": "",
           "meaning": "turbulence",
-          "meaningRu": "турбулентность"
+          "meaningRu": "переменчивый, непостоянный"
         },
         {
           "thai": "โป",
@@ -2491,7 +2491,7 @@
           "thai": "เฝอ",
           "translit": "",
           "meaning": "Vietnamese noodles",
-          "meaningRu": "вьетнамская лапша"
+          "meaningRu": "фо (вьетнамский суп с лапшой)"
         },
         {
           "thai": "ไฝ",
@@ -2549,7 +2549,7 @@
           "thai": "พระ",
           "translit": "",
           "meaning": "monk",
-          "meaningRu": "монах"
+          "meaningRu": "монах; [священный/королевский префикс]"
         },
         {
           "thai": "พริก",
@@ -2602,7 +2602,7 @@
           "thai": "พัดกระหน่ำ",
           "translit": "",
           "meaning": "(wind) to thump",
-          "meaningRu": "(ветер) бить"
+          "meaningRu": "(ветер) хлестать, яростно дуть"
         },
         {
           "thai": "พัดลม",
@@ -2620,7 +2620,7 @@
           "thai": "พายุ",
           "translit": "",
           "meaning": "storm",
-          "meaningRu": "шторм"
+          "meaningRu": "буря, шторм"
         },
         {
           "thai": "พีซ",
@@ -2656,7 +2656,7 @@
           "thai": "พูน",
           "translit": "",
           "meaning": "to pile up",
-          "meaningRu": "наваливать"
+          "meaningRu": "насыпать, нагромождать"
         },
         {
           "thai": "เพช",
@@ -2679,13 +2679,13 @@
           "thai": "เพราะ",
           "translit": "",
           "meaning": "because, beautiful (voice)",
-          "meaningRu": "потому что, красивый (голос)"
+          "meaningRu": "потому что; мелодичный, приятный (о голосе)"
         },
         {
           "thai": "เพล",
           "translit": "",
           "meaning": "last meal of the day for monks",
-          "meaningRu": "последний приём пищи для монахов"
+          "meaningRu": "полуденная трапеза монахов"
         },
         {
           "thai": "เพลง",
@@ -2848,7 +2848,7 @@
           "thai": "ภูมิใจ",
           "translit": "",
           "meaning": "proud",
-          "meaningRu": "гордый"
+          "meaningRu": "гордиться"
         },
         {
           "thai": "ม",
@@ -2967,7 +2967,7 @@
           "thai": "มืด",
           "translit": "",
           "meaning": "dark, night",
-          "meaningRu": "тёмный, ночь"
+          "meaningRu": "тёмный"
         },
         {
           "thai": "มือ",
@@ -2979,7 +2979,7 @@
           "thai": "มูล",
           "translit": "",
           "meaning": "origin, excrement",
-          "meaningRu": "происхождение, экскременты"
+          "meaningRu": "основа, первопричина; помёт, навоз"
         },
         {
           "thai": "เมฆ",
@@ -3003,7 +3003,7 @@
           "thai": "เมิน",
           "translit": "",
           "meaning": "to ignore",
-          "meaningRu": "игнорировать"
+          "meaningRu": "отворачиваться, пренебрегать"
         },
         {
           "thai": "เมีย",
@@ -3050,7 +3050,7 @@
           "thai": "ไม่ว่าจะเป็น",
           "translit": "",
           "meaning": "for instance",
-          "meaningRu": "например"
+          "meaningRu": "будь то, независимо от того"
         },
         {
           "thai": "ย",
@@ -3073,7 +3073,7 @@
           "thai": "ยากจน",
           "translit": "",
           "meaning": "impoverished",
-          "meaningRu": "обнищавший"
+          "meaningRu": "бедный, нищий"
         },
         {
           "thai": "ยาท",
@@ -3090,7 +3090,7 @@
           "thai": "ยาม",
           "translit": "",
           "meaning": "security guard",
-          "meaningRu": "охранник"
+          "meaningRu": "сторож, охранник; время, пора"
         },
         {
           "thai": "ยาล",
@@ -3113,7 +3113,7 @@
           "thai": "ยืม",
           "translit": "",
           "meaning": "to borrow",
-          "meaningRu": "одалживать"
+          "meaningRu": "занимать, брать в долг"
         },
         {
           "thai": "เยอ",
@@ -3164,7 +3164,7 @@
           "thai": "รถ",
           "translit": "",
           "meaning": "car",
-          "meaningRu": "машина"
+          "meaningRu": "автомобиль, транспорт"
         },
         {
           "thai": "รถชน",
@@ -3211,7 +3211,7 @@
           "thai": "ระวัง",
           "translit": "",
           "meaning": "caution",
-          "meaningRu": "осторожность"
+          "meaningRu": "остерегаться, быть осторожным"
         },
         {
           "thai": "ระหว่าง",
@@ -3252,13 +3252,13 @@
           "thai": "ราย",
           "translit": "",
           "meaning": "case, item",
-          "meaningRu": "случай, пункт"
+          "meaningRu": "случай; [счётное слово]"
         },
         {
           "thai": "รำคาญ",
           "translit": "",
           "meaning": "annoyed",
-          "meaningRu": "раздражённый"
+          "meaningRu": "раздражаться, досадовать"
         },
         {
           "thai": "ริม",
@@ -3330,7 +3330,7 @@
           "thai": "แรง",
           "translit": "",
           "meaning": "strong, hard",
-          "meaningRu": "сильный, жёсткий"
+          "meaningRu": "сила; сильный"
         },
         {
           "thai": "โรค",
@@ -3435,7 +3435,7 @@
           "thai": "ลาบ",
           "translit": "",
           "meaning": "Thai northeastern salad dish",
-          "meaningRu": "тайский северо-восточный салат"
+          "meaningRu": "ларб (северо-восточный тайский салат из мяса)"
         },
         {
           "thai": "ลาม",
@@ -3529,13 +3529,13 @@
           "thai": "เลอะ",
           "translit": "",
           "meaning": "dirty, stain",
-          "meaningRu": "грязный, пятно"
+          "meaningRu": "запачканный, перемазанный"
         },
         {
           "thai": "เละ",
           "translit": "",
           "meaning": "squished, crushed",
-          "meaningRu": "раздавленный"
+          "meaningRu": "размякший, кашеобразный"
         },
         {
           "thai": "แล่น",
@@ -3553,7 +3553,7 @@
           "thai": "แล้วแต่",
           "translit": "",
           "meaning": "depends",
-          "meaningRu": "зависит"
+          "meaningRu": "как угодно, по обстоятельствам"
         },
         {
           "thai": "และ",
@@ -3639,7 +3639,7 @@
           "thai": "ว่า",
           "translit": "",
           "meaning": "that, which",
-          "meaningRu": "который"
+          "meaningRu": "что (в знач. «сказать, что...»); говорить"
         },
         {
           "thai": "วาท",
@@ -3692,7 +3692,7 @@
           "thai": "ไว้",
           "translit": "",
           "meaning": "to do sth in advance",
-          "meaningRu": "делать заранее"
+          "meaningRu": "хранить, оставить; [видовая частица]"
         },
         {
           "thai": "ศ",
@@ -3715,7 +3715,7 @@
           "thai": "ศัพท์",
           "translit": "",
           "meaning": "vocabulary",
-          "meaningRu": "словарный запас"
+          "meaningRu": "слово, термин"
         },
         {
           "thai": "ศาลา",
@@ -3792,13 +3792,13 @@
           "thai": "สนุก",
           "translit": "",
           "meaning": "fun",
-          "meaningRu": "весёлый"
+          "meaningRu": "весело; развлекаться"
         },
         {
           "thai": "สบาย",
           "translit": "",
           "meaning": "comfortable, easy",
-          "meaningRu": "комфортный, легко"
+          "meaningRu": "удобный, комфортный; хорошо (о самочувствии)"
         },
         {
           "thai": "สม",
@@ -3905,7 +3905,7 @@
           "thai": "สาก",
           "translit": "",
           "meaning": "pestle",
-          "meaningRu": "пестик"
+          "meaningRu": "пест (для ступки)"
         },
         {
           "thai": "สามารถ",
@@ -3917,7 +3917,7 @@
           "thai": "สาว",
           "translit": "",
           "meaning": "young female",
-          "meaningRu": "молодая женщина"
+          "meaningRu": "девушка"
         },
         {
           "thai": "สำคัญ",
@@ -4004,7 +4004,7 @@
           "thai": "เสริม",
           "translit": "",
           "meaning": "supplement, to reinforce",
-          "meaningRu": "дополнение, усиливать"
+          "meaningRu": "дополнять, усиливать"
         },
         {
           "thai": "เสาร์",
@@ -4022,7 +4022,7 @@
           "thai": "เสีย",
           "translit": "",
           "meaning": "to lose, broken",
-          "meaningRu": "терять, сломанный"
+          "meaningRu": "портиться, ломаться; терять"
         },
         {
           "thai": "เสี้ยม",
@@ -4069,7 +4069,7 @@
           "thai": "หญิง",
           "translit": "",
           "meaning": "female",
-          "meaningRu": "женский"
+          "meaningRu": "женщина, женский"
         },
         {
           "thai": "หนอก",
@@ -4116,31 +4116,31 @@
           "thai": "หมด",
           "translit": "",
           "meaning": "entirely, used up",
-          "meaningRu": "полностью, исчерпанный"
+          "meaningRu": "кончиться, исчерпаться; полностью"
         },
         {
           "thai": "หมวก",
           "translit": "",
           "meaning": "hat",
-          "meaningRu": "шляпа"
+          "meaningRu": "шляпа, шапка, головной убор"
         },
         {
           "thai": "หมอ",
           "translit": "",
           "meaning": "doctor, healer",
-          "meaningRu": "врач, целитель"
+          "meaningRu": "врач"
         },
         {
           "thai": "หม้อ",
           "translit": "",
           "meaning": "pot",
-          "meaningRu": "горшок"
+          "meaningRu": "кастрюля, горшок"
         },
         {
           "thai": "หมัด",
           "translit": "",
           "meaning": "lice, fist",
-          "meaningRu": "вши, кулак"
+          "meaningRu": "блоха; кулак, удар"
         },
         {
           "thai": "หมั่นเพียร",
@@ -4217,7 +4217,7 @@
           "thai": "หลัก",
           "translit": "",
           "meaning": "main",
-          "meaningRu": "главный"
+          "meaningRu": "главный, основной; столб"
         },
         {
           "thai": "หลาย",
@@ -4294,13 +4294,13 @@
           "thai": "หาบ",
           "translit": "",
           "meaning": "to carry on shoulders",
-          "meaningRu": "нести на плечах"
+          "meaningRu": "нести коромыслом"
         },
         {
           "thai": "หึง",
           "translit": "",
           "meaning": "jealous",
-          "meaningRu": "ревнивый"
+          "meaningRu": "ревновать"
         },
         {
           "thai": "หืด",
@@ -4323,7 +4323,7 @@
           "thai": "เหตุ",
           "translit": "",
           "meaning": "cause, incident",
-          "meaningRu": "причина, инцидент"
+          "meaningRu": "причина, событие"
         },
         {
           "thai": "เห็น",
@@ -4389,7 +4389,7 @@
           "thai": "เหาะ",
           "translit": "",
           "meaning": "to fly",
-          "meaningRu": "летать"
+          "meaningRu": "летать (волшебным образом), парить"
         },
         {
           "thai": "แหง",
@@ -4400,7 +4400,7 @@
           "thai": "แห่ง",
           "translit": "",
           "meaning": "place",
-          "meaningRu": "место"
+          "meaningRu": "[счётное слово для мест]"
         },
         {
           "thai": "แห้ง",
@@ -4472,7 +4472,7 @@
           "thai": "ไหว้",
           "translit": "",
           "meaning": "a traditional gesture for greeting, thanking, or apologising",
-          "meaningRu": "традиционный жест приветствия, благодарности или извинения"
+          "meaningRu": "вай (жест приветствия, благодарности или извинения)"
         },
         {
           "thai": "อ",
@@ -4507,7 +4507,7 @@
           "thai": "อย่าง",
           "translit": "",
           "meaning": "like, kind",
-          "meaningRu": "как, вид"
+          "meaningRu": "вид, способ; как"
         },
         {
           "thai": "อยู่",
@@ -4622,7 +4622,7 @@
           "thai": "อาทร",
           "translit": "",
           "meaning": "concerned, care",
-          "meaningRu": "заботливый, забота"
+          "meaningRu": "сочувственный, заботливый"
         },
         {
           "thai": "อาทิตย์",
@@ -4640,7 +4640,7 @@
           "thai": "อารมณ์",
           "translit": "",
           "meaning": "emotion",
-          "meaningRu": "эмоция"
+          "meaningRu": "настроение, эмоция"
         },
         {
           "thai": "อ่าว",
@@ -4663,7 +4663,7 @@
           "thai": "อึดอัด",
           "translit": "",
           "meaning": "uncomfortable, tight",
-          "meaningRu": "неудобный, тесный"
+          "meaningRu": "стеснённый, удушливый; неловко"
         },
         {
           "thai": "อืด",
@@ -4693,7 +4693,7 @@
           "thai": "เอ๋อ",
           "translit": "",
           "meaning": "hypothyroidism",
-          "meaningRu": "гипотиреоз"
+          "meaningRu": "тупой, заторможенный"
         },
         {
           "thai": "เอา",

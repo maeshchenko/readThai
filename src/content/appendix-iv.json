@@ -49,13 +49,13 @@
           "thai": "ใคร่",
           "translit": "/krâi/",
           "meaning": "to desire, to long for",
-          "meaningRu": "желать, стремиться"
+          "meaningRu": "страстно желать, вожделеть"
         },
         {
           "thai": "ใจ",
           "translit": "/jai/",
           "meaning": "heart, mind",
-          "meaningRu": "сердце, разум"
+          "meaningRu": "сердце, душа"
         },
         {
           "thai": "ใช่",
@@ -91,7 +91,7 @@
           "thai": "ใบ",
           "translit": "/bai/",
           "meaning": "leaf, classifier",
-          "meaningRu": "лист, классификатор"
+          "meaningRu": "лист; счётное слово"
         },
         {
           "thai": "ใบ้",
@@ -151,7 +151,7 @@
           "thai": "ใหล",
           "translit": "/lǎi/",
           "meaning": "to flow (as in หลงใหล — infatuated)",
-          "meaningRu": "течь (как в หลงใหล — быть без ума)"
+          "meaningRu": "увлекать (арх.; в составе หลงใหล — быть без ума от)"
         }
       ]
     },
