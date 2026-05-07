@@ -7,7 +7,6 @@ import {
   ChevronRight,
   Headphones,
   Sparkles,
-  Search,
   Flame,
 } from 'lucide-react'
 import { motion } from 'framer-motion'
