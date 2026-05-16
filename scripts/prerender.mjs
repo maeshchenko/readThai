@@ -7,7 +7,7 @@ import puppeteer from 'puppeteer'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DIST = join(__dirname, '..', 'dist')
-const BASE = '/readThai/'
+const BASE = '/'
 const PORT = 4173
 
 const ROUTES = [

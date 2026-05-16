@@ -1,7 +1,7 @@
 // Read Thai service worker
 // Hand-written for Vite 8 / Rolldown compatibility.
 
-const VERSION = 'v2.0.0-book';
+const VERSION = 'v3.0.0-domain';
 const APP_CACHE = `readthai-app-${VERSION}`;
 const RUNTIME_CACHE = `readthai-runtime-${VERSION}`;
 const AUDIO_CACHE = `readthai-audio-${VERSION}`;
@@ -11,13 +11,13 @@ const FONT_CACHE = `readthai-font-${VERSION}`;
 const KEEP = new Set([APP_CACHE, RUNTIME_CACHE, AUDIO_CACHE, IMAGE_CACHE, DATA_CACHE, FONT_CACHE]);
 
 const APP_SHELL = [
-  '/readThai/',
-  '/readThai/index.html',
-  '/readThai/manifest.webmanifest',
-  '/readThai/favicon.svg',
-  '/readThai/icons/icon-192.png',
-  '/readThai/icons/icon-512.png',
-  '/readThai/icons/apple-touch-icon-180.png',
+  '/',
+  '/index.html',
+  '/manifest.webmanifest',
+  '/favicon.svg',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/apple-touch-icon-180.png',
 ];
 
 self.addEventListener('install', (event) => {
@@ -98,7 +98,7 @@ self.addEventListener('fetch', (event) => {
     if (url.pathname.includes('/audio/') || url.pathname.endsWith('.mp3')) return;
     event.respondWith(
       fetch(req).catch(() =>
-        caches.match('/readThai/index.html').then((r) => r || Response.error()),
+        caches.match('/index.html').then((r) => r || Response.error()),
       ),
     );
     return;
@@ -123,7 +123,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(staleWhileRevalidate(event, DATA_CACHE));
     return;
   }
-  if (path.startsWith('/readThai/assets/')) {
+  if (path.startsWith('/assets/')) {
     event.respondWith(cacheFirst(event, RUNTIME_CACHE));
     return;
   }

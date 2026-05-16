@@ -2,9 +2,9 @@
   "name": "Читай по-тайски за 10 дней",
   "short_name": "Read Thai",
   "description": "Книжный курс тайского письма. 10 уроков, 85 нативных аудио, тренировка голоса.",
-  "id": "/readThai/",
-  "start_url": "/readThai/",
-  "scope": "/readThai/",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait",
@@ -14,31 +14,31 @@
   "categories": ["education", "books", "productivity"],
   "icons": [
     {
-      "src": "/readThai/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/readThai/icons/icon-192.png",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/readThai/icons/icon-512.png",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/readThai/icons/maskable-192.png",
+      "src": "/icons/maskable-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/readThai/icons/maskable-512.png",
+      "src": "/icons/maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -48,14 +48,14 @@
     {
       "name": "Continue learning",
       "short_name": "Continue",
-      "url": "/readThai/?action=continue",
-      "icons": [{ "src": "/readThai/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/?action=continue",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Day 1",
       "short_name": "Day 1",
-      "url": "/readThai/day-1",
-      "icons": [{ "src": "/readThai/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/day-1",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
