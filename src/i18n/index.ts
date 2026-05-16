@@ -3,8 +3,7 @@ import { initReactI18next } from 'react-i18next'
 import en from './en.json'
 import ru from './ru.json'
 
-const systemLang = navigator.language.startsWith('ru') ? 'ru' : 'en'
-const savedLang = localStorage.getItem('lang') || systemLang
+const savedLang = localStorage.getItem('lang') || 'ru'
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -12,7 +11,7 @@ i18n.use(initReactI18next).init({
     ru: { translation: ru },
   },
   lng: savedLang,
-  fallbackLng: 'en',
+  fallbackLng: 'ru',
   interpolation: { escapeValue: false },
 })
 
