@@ -10,7 +10,7 @@ export function Ring({ value = 0 }: Props) {
   const off = c * (1 - v)
   const pct = Math.round(v * 100)
   return (
-    <div className="ring">
+    <div className="progress-ring">
       <svg viewBox="0 0 44 44">
         <circle className="track" cx="22" cy="22" r={r} />
         <circle className="fill" cx="22" cy="22" r={r} strokeDasharray={c} strokeDashoffset={off} />
