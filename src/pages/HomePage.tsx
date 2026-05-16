@@ -97,7 +97,7 @@ export function HomePage() {
       <SEO
         title={ru ? 'Читай по-тайски за 10 дней — учебник тайского письма' : 'Read Thai in 10 Days — Thai script primer'}
         description={ru
-          ? 'Десять структурированных уроков, 85 нативных аудио и тренировка голоса. За две недели тайские буквы перестают быть каракулями.'
+          ? 'Десять структурированных уроков, 85 нативных аудио и тренировка голоса. За две недели тайские буквы перестанут казаться кракозябрами.'
           : 'Ten structured lessons, 85 native audio tracks, and feedback-driven drills. Two weeks to turn Thai squiggles into words.'}
         path="/"
         ogImage="/og/default.png"
@@ -118,7 +118,7 @@ export function HomePage() {
           </h1>
           <p className="lede">
             {ru
-              ? 'Десять структурированных уроков, 85 нативных аудио‑треков и упражнения с обратной связью — чтобы за две недели вы видели в тайских буквах не каракули, а слова.'
+              ? 'Десять структурированных уроков, 85 нативных аудио‑треков и упражнения с обратной связью — чтобы за две недели тайские буквы перестали казаться кракозябрами.'
               : 'Ten structured lessons, 85 native audio tracks and feedback-driven drills — so within two weeks Thai script reads as words, not squiggles.'}
           </p>
           <div className="cta-row">
