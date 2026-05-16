@@ -37,6 +37,10 @@
         "Thai",
         "Arabic"
       ],
+      "columnsRu": [
+        "Тайская",
+        "Арабская"
+      ],
       "rows": [
         {
           "thai": "๑",
@@ -110,19 +114,22 @@
       "type": "thaiExample",
       "thai": "ก็",
       "translit": "/gôr/",
-      "meaning": "then, also, too (and so many other meanings)"
+      "meaning": "then, also, too (and so many other meanings)",
+      "meaningRu": "тоже, также (и множество других значений)"
     },
     {
       "type": "thaiExample",
       "thai": "ณ",
       "translit": "/ná/",
-      "meaning": "at (formal)"
+      "meaning": "at (formal)",
+      "meaningRu": "в, у (формальное)"
     },
     {
       "type": "thaiExample",
       "thai": "ธ",
       "translit": "/tá/",
-      "meaning": "His Majesty the King (highly literary word)"
+      "meaning": "His Majesty the King (highly literary word)",
+      "meaningRu": "Его Величество (высоколитературное)"
     },
     {
       "type": "heading",
@@ -151,22 +158,26 @@
         {
           "thai": "อย่า",
           "translit": "/yàa/",
-          "meaning": "Don't!"
+          "meaning": "Don't!",
+          "meaningRu": "Не надо!"
         },
         {
           "thai": "อยู่",
           "translit": "/yòo/",
-          "meaning": "to be at"
+          "meaning": "to be at",
+          "meaningRu": "находиться"
         },
         {
           "thai": "อย่าง",
           "translit": "/yàang/",
-          "meaning": "like..., kind"
+          "meaning": "like..., kind",
+          "meaningRu": "вроде…, тип"
         },
         {
           "thai": "อยาก",
           "translit": "/yàak/",
-          "meaning": "want"
+          "meaning": "want",
+          "meaningRu": "хотеть"
         }
       ]
     },
@@ -192,17 +203,20 @@
         {
           "thai": "ไทย",
           "translit": "/tai/",
-          "meaning": "Thai"
+          "meaning": "Thai",
+          "meaningRu": "тайский"
         },
         {
           "thai": "พุทธ",
           "translit": "/póo't/",
-          "meaning": "Buddhist"
+          "meaning": "Buddhist",
+          "meaningRu": "буддийский"
         },
         {
           "thai": "พรหมลิขิต",
           "translit": "/promlíkìt/",
-          "meaning": "destiny"
+          "meaning": "destiny",
+          "meaningRu": "судьба"
         }
       ]
     },
@@ -228,17 +242,20 @@
         {
           "thai": "ชาติ",
           "translit": "/châat/",
-          "meaning": "nation"
+          "meaning": "nation",
+          "meaningRu": "нация"
         },
         {
           "thai": "ญาติ",
           "translit": "/yâat/",
-          "meaning": "relatives"
+          "meaning": "relatives",
+          "meaningRu": "родственники"
         },
         {
           "thai": "ประวัติ",
           "translit": "/bpràwùt/",
-          "meaning": "history"
+          "meaning": "history",
+          "meaningRu": "история"
         }
       ]
     },
@@ -249,17 +266,20 @@
         {
           "thai": "อัตโนมัติ",
           "translit": "/ùt-dtànohmút/",
-          "meaning": "automatic"
+          "meaning": "automatic",
+          "meaningRu": "автоматический"
         },
         {
           "thai": "สมบัติ",
           "translit": "/sŏmbùt/",
-          "meaning": "treasure"
+          "meaning": "treasure",
+          "meaningRu": "сокровище"
         },
         {
           "thai": "ธาตุ",
           "translit": "/tâat/",
-          "meaning": "element"
+          "meaning": "element",
+          "meaningRu": "элемент"
         }
       ]
     },
@@ -270,17 +290,20 @@
         {
           "thai": "ปฏิบัติ",
           "translit": "/bpà-dtìbùt/",
-          "meaning": "behave, act"
+          "meaning": "behave, act",
+          "meaningRu": "вести себя, поступать"
         },
         {
           "thai": "สมมุติ",
           "translit": "/sŏmmóo't/",
-          "meaning": "suppose"
+          "meaning": "suppose",
+          "meaningRu": "предположим"
         },
         {
           "thai": "เหตุ",
           "translit": "/hàyt/",
-          "meaning": "cause"
+          "meaning": "cause",
+          "meaningRu": "причина"
         }
       ]
     },
@@ -296,17 +319,20 @@
         {
           "thai": "ภูมิใจ",
           "translit": "/poomjai/",
-          "meaning": "proud"
+          "meaning": "proud",
+          "meaningRu": "гордый"
         },
         {
           "thai": "พยาธิ",
           "translit": "/páyâat/",
-          "meaning": "parasite"
+          "meaning": "parasite",
+          "meaningRu": "паразит"
         },
         {
           "thai": "เมรุ",
           "translit": "/mayn/",
-          "meaning": "crematory"
+          "meaning": "crematory",
+          "meaningRu": "крематорий"
         }
       ]
     },
@@ -317,17 +343,20 @@
         {
           "thai": "ขัดสมาธิ",
           "translit": "/kùtsàmàat/",
-          "meaning": "sit cross-legged"
+          "meaning": "sit cross-legged",
+          "meaningRu": "сидеть по-турецки"
         },
         {
           "thai": "จักรพรรดิ",
           "translit": "/jùkgràpút/",
-          "meaning": "emperor"
+          "meaning": "emperor",
+          "meaningRu": "император"
         },
         {
           "thai": "วุฒิ",
           "translit": "/wóo't/",
-          "meaning": "qualification"
+          "meaning": "qualification",
+          "meaningRu": "квалификация"
         }
       ]
     },
@@ -353,17 +382,20 @@
         {
           "thai": "ประโยชน์",
           "translit": "/bpràyòht/",
-          "meaning": "benefit"
+          "meaning": "benefit",
+          "meaningRu": "польза"
         },
         {
           "thai": "ประวัติ",
           "translit": "/bpràwùt/",
-          "meaning": "history"
+          "meaning": "history",
+          "meaningRu": "история"
         },
         {
           "thai": "ประมาท",
           "translit": "/bpràmàat/",
-          "meaning": "careless"
+          "meaning": "careless",
+          "meaningRu": "беспечный"
         }
       ]
     },
@@ -374,17 +406,20 @@
         {
           "thai": "ตำรวจ",
           "translit": "/dtumrùat/",
-          "meaning": "police"
+          "meaning": "police",
+          "meaningRu": "полиция"
         },
         {
           "thai": "สำเร็จ",
           "translit": "/sŭmrèt/",
-          "meaning": "succeed"
+          "meaning": "succeed",
+          "meaningRu": "достигать успеха"
         },
         {
           "thai": "บุรุษ",
           "translit": "/bùròo't/",
-          "meaning": "gentleman"
+          "meaning": "gentleman",
+          "meaningRu": "мужчина"
         }
       ]
     },
@@ -420,17 +455,20 @@
         {
           "thai": "พฤหัสบดี",
           "translit": "/párúe'hùtsàbàdee/",
-          "meaning": "Thursday"
+          "meaning": "Thursday",
+          "meaningRu": "четверг"
         },
         {
           "thai": "คฤหาสน์",
           "translit": "/kárúe'hàat/",
-          "meaning": "mansion"
+          "meaning": "mansion",
+          "meaningRu": "особняк"
         },
         {
           "thai": "ฤดู",
           "translit": "/rúe'doo/",
-          "meaning": "season"
+          "meaning": "season",
+          "meaningRu": "сезон"
         }
       ]
     },
@@ -446,17 +484,20 @@
         {
           "thai": "ทฤษฎี",
           "translit": "/trítsàdee/",
-          "meaning": "theory"
+          "meaning": "theory",
+          "meaningRu": "теория"
         },
         {
           "thai": "อังกฤษ",
           "translit": "/anggrìt/",
-          "meaning": "English"
+          "meaning": "English",
+          "meaningRu": "английский"
         },
         {
           "thai": "ฤกษ์",
           "translit": "/rêrk/",
-          "meaning": "auspicious occasion"
+          "meaning": "auspicious occasion",
+          "meaningRu": "благоприятный случай"
         }
       ]
     },
@@ -479,13 +520,15 @@
       "type": "thaiExample",
       "thai": "กรุงเทพมหานคร » กรุงเทพฯ",
       "translit": "/kroo'ngtâyp-máhăanákorn/ » /kroo'ngtâyp/",
-      "meaning": "Bangkok"
+      "meaning": "Bangkok",
+      "meaningRu": "Бангкок"
     },
     {
       "type": "thaiExample",
       "thai": "สหรัฐอเมริกา » สหรัฐฯ",
       "translit": "/sàhàrút-àmayrígaa/ » /sàhàrút/",
-      "meaning": "United States of America"
+      "meaning": "United States of America",
+      "meaningRu": "Соединённые Штаты Америки » США"
     },
     {
       "type": "paragraph",
@@ -496,7 +539,8 @@
       "type": "thaiExample",
       "thai": "ที่ตลาดมีกล้วย ส้ม แตงโม ฯลฯ",
       "translit": "/têe dtàlàat mee glûai, sôm, dtangmoh, láir' ùen-ùen/",
-      "meaning": "In the market there are bananas, oranges, watermelons, etc."
+      "meaning": "In the market there are bananas, oranges, watermelons, etc.",
+      "meaningRu": "На рынке есть бананы, апельсины, арбузы и т. д."
     },
     {
       "type": "heading",
@@ -525,22 +569,26 @@
         {
           "thai": "อื่นๆ",
           "translit": "/ùen-ùen/",
-          "meaning": "others"
+          "meaning": "others",
+          "meaningRu": "другие, прочие"
         },
         {
           "thai": "แดงๆ",
           "translit": "/dang-dang/",
-          "meaning": "reddish"
+          "meaning": "reddish",
+          "meaningRu": "красноватый"
         },
         {
           "thai": "ช้าๆ",
           "translit": "/cháa-cháa/",
-          "meaning": "slowly"
+          "meaning": "slowly",
+          "meaningRu": "медленно"
         },
         {
           "thai": "ทุกๆคน",
           "translit": "/tóo'k-tóo'k kon/",
-          "meaning": "everybody"
+          "meaning": "everybody",
+          "meaningRu": "все, каждый"
         }
       ]
     },

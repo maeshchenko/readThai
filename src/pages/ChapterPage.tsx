@@ -6,6 +6,7 @@ import { useProgressStore } from '@/lib/stores'
 import { ContentRenderer } from '@/components/content/ContentRenderer'
 import { loadChapter, prefetchChapter } from '@/lib/chapterLoader'
 import { Icon } from '@/components/ui/Icon'
+import { SEO } from '@/components/seo/SEO'
 import type { Chapter, Block } from '@/lib/contentTypes'
 
 const LESSON_TAGS_RU: Record<string, string> = {
@@ -65,7 +66,7 @@ function firstParagraph(blocks: Block[], ru: boolean): string | null {
     if (b.type === 'heading' && b.level === 1) continue
     if (b.type === 'paragraph') {
       const text = stripHtml((ru && b.htmlRu) || b.html).trim()
-      if (text.length > 20) return text.length > 280 ? text.slice(0, 277) + '…' : text
+      if (text.length > 20) return text
     }
   }
   return null
@@ -113,6 +114,13 @@ export function ChapterPage() {
   const { prev, next } = getAdjacentChapters(slug)
 
   useEffect(() => {
+    const m = slug.match(/^appendix-(i{1,3}|iv|v)$/i)
+    if (m) {
+      navigate('/appendix/' + m[1].toLowerCase(), { replace: true })
+    }
+  }, [slug, navigate])
+
+  useEffect(() => {
     if (!slug) return
     setLastChapter(slug)
     setLoading(true)
@@ -156,6 +164,14 @@ export function ChapterPage() {
   if (!meta) {
     return (
       <div className="lesson-view fade-in">
+        <SEO
+          title={ru ? 'Страница не найдена — Читай по-тайски' : 'Not found — Read Thai'}
+          description={ru ? 'Такой главы нет. Вернитесь к оглавлению.' : 'No such chapter. Back to contents.'}
+          path={'/' + slug}
+          ogImage="/og/default.png"
+          locale={ru ? 'ru' : 'en'}
+          type="website"
+        />
         <div className="lv-eyebrow"><span>{ru ? 'не найдено' : 'not found'}</span></div>
         <h1 className="lv-title">{ru ? 'Глава не найдена' : 'Chapter not found'}</h1>
         <p className="lv-deck">
@@ -178,8 +194,29 @@ export function ChapterPage() {
   const exerciseCount = chapter ? countExercises(chapter.blocks) : 0
   const minutes = Math.max(8, meta.tracks.length * 3 + (chapter?.blocks.length ?? 0) > 30 ? 22 : 14)
 
+  const ogSlug = slug.replace(/\//g, '-')
+  const firstTrack = meta.tracks[0]
+  const audioUrl = firstTrack ? `${import.meta.env.BASE_URL}audio/${String(firstTrack).padStart(3, '0')}.mp3` : undefined
+  const seoTitle = `${ru ? meta.titleRu : meta.titleEn} — ${ru ? 'Читай по-тайски за 10 дней' : 'Read Thai in 10 Days'}`
+  const seoDesc = (deck && deck.length > 30)
+    ? deck.replace(/\s+/g, ' ').trim().slice(0, 200)
+    : (ru
+      ? 'Глава учебника «Читай по-тайски за 10 дней». Тайское письмо, аудио, упражнения.'
+      : 'Chapter from "Read Thai in 10 Days". Thai script, audio, drills.')
+
   return (
     <div className="lesson-view fade-in">
+      <SEO
+        title={seoTitle}
+        description={seoDesc}
+        path={'/' + slug}
+        ogImage={`/og/${ogSlug}.png`}
+        locale={ru ? 'ru' : 'en'}
+        type="article"
+        audio={audioUrl}
+        publishedTime="2014-10-21T00:00:00Z"
+        modifiedTime="2026-05-16T00:00:00Z"
+      />
       <div className="lv-eyebrow">
         <span>{tag}</span>
         <span className="day">— {day}</span>
@@ -203,7 +240,7 @@ export function ChapterPage() {
             {ru ? 'Загружаем главу…' : 'Loading chapter…'}
           </p>
         )}
-        {chapter && <ContentRenderer chapter={chapter} />}
+        {chapter && <ContentRenderer chapter={chapter} skipDeckText={deck} />}
         {!loading && !chapter && (
           <p>{ru ? 'Эта глава пока готовится.' : 'This chapter is being prepared.'}</p>
         )}
@@ -229,20 +266,24 @@ export function ChapterPage() {
           </div>
         )}
 
-        <div className="spine">
-          <span>
-            <a onClick={() => navigate('/')}><Icon name="arrowL" size={11} /> {ru ? 'к оглавлению' : 'to contents'}</a>
-            {prev && (
-              <>
-                {' · '}
-                <a onClick={() => navigate('/' + prev.slug)}>
-                  <Icon name="arrowL" size={11} /> {ru ? prev.titleRu : prev.titleEn}
-                </a>
-              </>
-            )}
-          </span>
-          <span>{day} · {titleMain}</span>
-        </div>
+        <nav className="chapter-nav">
+          {prev ? (
+            <button type="button" className="cn-card cn-prev" onClick={() => navigate('/' + prev.slug)}>
+              <span className="cn-label"><Icon name="arrowL" size={11} /> {ru ? 'Предыдущая' : 'Previous'}</span>
+              <span className="cn-title">{ru ? prev.titleRu : prev.titleEn}</span>
+            </button>
+          ) : <span className="cn-spacer" aria-hidden="true" />}
+          <button type="button" className="cn-card cn-home" onClick={() => navigate('/')}>
+            <span className="cn-label">{ru ? 'Оглавление' : 'Contents'}</span>
+            <span className="cn-title">{ru ? 'Все главы' : 'All chapters'}</span>
+          </button>
+          {next ? (
+            <button type="button" className="cn-card cn-next" onClick={() => navigate('/' + next.slug)}>
+              <span className="cn-label">{ru ? 'Следующая' : 'Next'} <Icon name="arrow" size={11} /></span>
+              <span className="cn-title">{ru ? next.titleRu : next.titleEn}</span>
+            </button>
+          ) : <span className="cn-spacer" aria-hidden="true" />}
+        </nav>
       </article>
 
       {sections.length > 0 && (

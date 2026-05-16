@@ -55,11 +55,8 @@ export function MultiChoice({ items }: Props) {
   return (
     <div>
       <div className="mc-q">
-        <div className="prompt">{ru ? 'какой звук издаёт эта буква?' : 'what sound does this letter make?'}</div>
+        <div className="prompt">{ru ? 'какая транслитерация подходит этой букве?' : 'which transliteration matches this letter?'}</div>
         <div className="glyph">{q.glyph}</div>
-        <button type="button" className="audio-inline" onClick={() => tone(280 + i * 15, 0.22)}>
-          <Icon name="play" size={11} /> {ru ? 'прослушать' : 'listen'}
-        </button>
       </div>
       <div className="choices">
         {choices.map((c, idx) => {

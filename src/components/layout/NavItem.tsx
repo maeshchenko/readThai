@@ -18,7 +18,7 @@ export function NavItem({ active, done, num, onClick, children }: Props) {
       {num != null
         ? <span className="nav-num">{String(num).padStart(2, '0')}</span>
         : <span className="nav-dot" />}
-      <span style={{ flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+      <span style={{ flex: 1, lineHeight: 1.25, overflowWrap: 'break-word' }}>
         {children}
       </span>
     </button>

@@ -15,7 +15,7 @@ import { ThemeToggle } from './ThemeToggle'
 import { Icon } from '@/components/ui/Icon'
 
 const PROLOGUE_SLUGS = ['preface', 'introduction', 'pronunciation']
-const REFERENCE_SLUGS = ['appendix/i', 'appendix/ii', 'appendix/iii', 'appendix/iv', 'appendix/v']
+const REFERENCE_SLUGS = ['appendix/i', 'appendix/ii', 'appendix/iii', 'appendix/iv', 'appendix/v', 'glossary']
 const LESSON_SLUGS = [
   'day-1', 'day-2', 'day-3', 'day-4', 'day-5',
   'intermission',
@@ -62,17 +62,18 @@ export function Layout() {
   const activeChapter = lookup.get(slug)
 
   const crumbs = useMemo(() => {
-    const root = ru ? 'Читальня' : 'Reading Room'
+    const root = { label: ru ? 'Читальня' : 'Reading Room', to: '/' }
     if (location.pathname === '/' || !activeChapter) {
-      return [root, ru ? 'Оглавление' : 'Contents']
+      return [root, { label: ru ? 'Оглавление' : 'Contents' }]
     }
+    const title = { label: ru ? activeChapter.titleRu : activeChapter.titleEn }
     if (PROLOGUE_SLUGS.includes(activeChapter.slug)) {
-      return [root, ru ? 'Начало' : 'Start', ru ? activeChapter.titleRu : activeChapter.titleEn]
+      return [root, { label: ru ? 'Начало' : 'Start', to: '/' }, title]
     }
     if (REFERENCE_SLUGS.includes(activeChapter.slug)) {
-      return [root, ru ? 'Справочник' : 'Reference', ru ? activeChapter.titleRu : activeChapter.titleEn]
+      return [root, { label: ru ? 'Справочник' : 'Reference', to: '/' }, title]
     }
-    return [root, ru ? 'Уроки' : 'Lessons', ru ? activeChapter.titleRu : activeChapter.titleEn]
+    return [root, { label: ru ? 'Уроки' : 'Lessons', to: '/' }, title]
   }, [activeChapter, location.pathname, ru])
 
   const isDone = (c: ChapterMeta) => c.tracks.length > 0 && c.tracks.every((n) => listened.has(n))
@@ -129,15 +130,21 @@ export function Layout() {
           </div>
           <div className="nav-group">
             <div className="nav-label">{ru ? 'Справочник' : 'Reference'}</div>
-            {referenceItems.map((c, i) => (
-              <NavItem
-                key={c.id}
-                active={slug === c.slug}
-                onClick={() => navigate(chapterPath(c.slug))}
-              >
-                {(ru ? 'Приложение ' : 'Appendix ') + (ROMAN[i] || '?')}: {ru ? stripPrefix(c.titleRu) : stripPrefix(c.titleEn)}
-              </NavItem>
-            ))}
+            {referenceItems.map((c, i) => {
+              const isGlossary = c.slug === 'glossary'
+              const label = isGlossary
+                ? (ru ? c.titleRu : c.titleEn)
+                : (ru ? 'Приложение ' : 'Appendix ') + (ROMAN[i] || '?') + ': ' + (ru ? stripPrefix(c.titleRu) : stripPrefix(c.titleEn))
+              return (
+                <NavItem
+                  key={c.id}
+                  active={slug === c.slug}
+                  onClick={() => navigate(chapterPath(c.slug))}
+                >
+                  {label}
+                </NavItem>
+              )
+            })}
           </div>
           <ProgressCard />
         </aside>
@@ -170,9 +177,35 @@ export function Layout() {
             </div>
           </div>
           <Outlet />
+          <footer className="site-footer">
+            <div className="sf-row">
+              <span>Made with <span className="heart">♥</span> in Thailand</span>
+              <span>{ru ? 'второе издание' : 'second edition'} · 2026</span>
+            </div>
+            <div className="sf-colophon">
+              <span>
+                {ru ? 'Перевод и адаптация' : 'Translation & adaptation'} · Mikhail Eshchenko
+              </span>
+              <span>
+                {ru ? 'По мотивам' : 'Based on'} <em>«Read Thai in 10 Days»</em> {ru ? 'by' : 'by'} Tim Hughes ·{' '}
+                <a
+                  href="https://www.amazon.com/Read-Thai-10-Days-English/dp/1505679524"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {ru ? 'купить оригинал' : 'buy original'}
+                </a>
+              </span>
+              <span className="sf-disclaimer">
+                {ru
+                  ? 'Некоммерческий учебный проект. Все права на оригинальный текст принадлежат автору.'
+                  : 'Non-commercial educational project. All rights to the original text belong to the author.'}
+              </span>
+            </div>
+          </footer>
         </main>
       </div>
-      <TweaksPanel />
+      {false && <TweaksPanel />}
     </>
   )
 }

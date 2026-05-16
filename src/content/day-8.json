@@ -99,6 +99,10 @@
         "thai",
         "translit"
       ],
+      "columnsRu": [
+        "тайский",
+        "транслитерация"
+      ],
       "rows": [
         {
           "thai": "ง",
@@ -141,6 +145,10 @@
       "columns": [
         "thai",
         "translit"
+      ],
+      "columnsRu": [
+        "тайский",
+        "транслитерация"
       ],
       "rows": [
         {
@@ -185,6 +193,10 @@
         "thai",
         "translit"
       ],
+      "columnsRu": [
+        "тайский",
+        "транслитерация"
+      ],
       "rows": [
         {
           "thai": "ก",
@@ -227,6 +239,10 @@
       "columns": [
         "thai",
         "translit"
+      ],
+      "columnsRu": [
+        "тайский",
+        "транслитерация"
       ],
       "rows": [
         {

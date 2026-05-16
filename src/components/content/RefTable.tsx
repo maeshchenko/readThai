@@ -11,6 +11,7 @@ export function RefTable({ columns, rows, headerRows, lang }: Props) {
   const ru = lang === 'ru'
   const hasMeaning = rows.some((r) => r.meaning || r.meaningRu)
   return (
+    <div className="ref-table-wrap">
     <table className="ref-table">
       <thead>
         {headerRows?.map((hr, i) => (
@@ -38,5 +39,6 @@ export function RefTable({ columns, rows, headerRows, lang }: Props) {
         ))}
       </tbody>
     </table>
+    </div>
   )
 }

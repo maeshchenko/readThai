@@ -27,7 +27,7 @@ export const chapters: ChapterMeta[] = [
   { id: 'appendix-iii', slug: 'appendix/iii', titleEn: 'Appendix III: Dictionary Order', titleRu: 'Приложение III: Словарный порядок', tracks: [] },
   { id: 'appendix-iv', slug: 'appendix/iv', titleEn: 'Appendix IV: Words That Use ใ', titleRu: 'Приложение IV: Слова с ใ', tracks: [] },
   { id: 'appendix-v', slug: 'appendix/v', titleEn: 'Appendix V: Thai Fonts', titleRu: 'Приложение V: Тайские шрифты', tracks: [] },
-  { id: 'glossary', slug: 'glossary', titleEn: 'Thai-English Glossary', titleRu: 'Тайско-английский глоссарий', tracks: [] },
+  { id: 'glossary', slug: 'glossary', titleEn: 'Thai-English Glossary', titleRu: 'Тайско-русский глоссарий', tracks: [] },
 ]
 
 export function getChapterBySlug(slug: string): ChapterMeta | undefined {

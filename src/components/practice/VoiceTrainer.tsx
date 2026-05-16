@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Mp3Encoder } from 'lamejs'
 import { Icon } from '@/components/ui/Icon'
-import { useAudio, type Track } from '@/lib/audio'
 
 type Stage = 'idle' | 'armed' | 'recording' | 'recorded' | 'denied'
 
 interface Props {
   sampleTrackNumber?: number
+  // chapterSlug/chapterTitle kept for prop-compat with callers; unused.
   chapterSlug?: string
   chapterTitle?: string
 }
@@ -15,13 +16,56 @@ const BAR_COUNT = 28
 
 function pad3(n: number): string { return n.toString().padStart(3, '0') }
 
+const MP3_KBPS = 128
+const LAME_SAMPLE_RATES = new Set([8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000])
+
+function floatTo16(input: Float32Array): Int16Array {
+  const out = new Int16Array(input.length)
+  for (let i = 0; i < input.length; i++) {
+    const s = Math.max(-1, Math.min(1, input[i]))
+    out[i] = s < 0 ? s * 0x8000 : s * 0x7fff
+  }
+  return out
+}
+
+function encodeMp3(buffer: AudioBuffer): Blob {
+  const channels = Math.min(buffer.numberOfChannels, 2)
+  const sampleRate = LAME_SAMPLE_RATES.has(buffer.sampleRate) ? buffer.sampleRate : 44100
+  const encoder = new Mp3Encoder(channels, sampleRate, MP3_KBPS)
+  const left = floatTo16(buffer.getChannelData(0))
+  const right = channels === 2 ? floatTo16(buffer.getChannelData(1)) : undefined
+  const chunkSize = 1152
+  const parts: Int8Array[] = []
+  for (let i = 0; i < left.length; i += chunkSize) {
+    const l = left.subarray(i, i + chunkSize)
+    const r = right ? right.subarray(i, i + chunkSize) : undefined
+    const buf = channels === 2 ? encoder.encodeBuffer(l, r!) : encoder.encodeBuffer(l)
+    if (buf.length > 0) parts.push(buf)
+  }
+  const tail = encoder.flush()
+  if (tail.length > 0) parts.push(tail)
+  return new Blob(parts as BlobPart[], { type: 'audio/mpeg' })
+}
+
+async function convertToMp3(srcBlob: Blob): Promise<Blob> {
+  const C = (window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext)
+  const ctx = new C()
+  try {
+    const ab = await srcBlob.arrayBuffer()
+    const audio = await ctx.decodeAudioData(ab)
+    return encodeMp3(audio)
+  } finally {
+    if (ctx.state !== 'closed') ctx.close().catch(() => { /* noop */ })
+  }
+}
+
 function fmt(s: number): string {
   const m = Math.floor(s / 60)
   const ss = Math.floor(s % 60).toString().padStart(2, '0')
   return `${m}:${ss}`
 }
 
-export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: Props) {
+export function VoiceTrainer({ sampleTrackNumber }: Props) {
   const { i18n } = useTranslation()
   const ru = i18n.language === 'ru'
 
@@ -32,6 +76,7 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
   const [blobUrl, setBlobUrl] = useState<string | null>(null)
   const [playing, setPlaying] = useState(false)
   const [playPct, setPlayPct] = useState(0)
+  const [samplePlaying, setSamplePlaying] = useState(false)
 
   const streamRef = useRef<MediaStream | null>(null)
   const recorderRef = useRef<MediaRecorder | null>(null)
@@ -41,7 +86,7 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
   const chunksRef = useRef<Blob[]>([])
   const startTimeRef = useRef(0)
   const playbackElRef = useRef<HTMLAudioElement | null>(null)
-  const loadAndPlay = useAudio((s) => s.loadAndPlay)
+  const sampleElRef = useRef<HTMLAudioElement | null>(null)
 
   // Cleanup on unmount
   useEffect(() => {
@@ -51,6 +96,10 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
       if (playbackElRef.current) {
         playbackElRef.current.pause()
         playbackElRef.current = null
+      }
+      if (sampleElRef.current) {
+        sampleElRef.current.pause()
+        sampleElRef.current = null
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -83,9 +132,15 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
       rec.ondataavailable = (e) => {
         if (e.data && e.data.size > 0) chunksRef.current.push(e.data)
       }
-      rec.onstop = () => {
-        const blob = new Blob(chunksRef.current, { type: rec.mimeType || 'audio/webm' })
-        const url = URL.createObjectURL(blob)
+      rec.onstop = async () => {
+        const raw = new Blob(chunksRef.current, { type: rec.mimeType || 'audio/webm' })
+        let finalBlob: Blob
+        try {
+          finalBlob = await convertToMp3(raw)
+        } catch {
+          finalBlob = raw
+        }
+        const url = URL.createObjectURL(finalBlob)
         if (blobUrl) URL.revokeObjectURL(blobUrl)
         setBlobUrl(url)
         setStage('recorded')
@@ -173,22 +228,28 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
 
   const playSample = () => {
     if (sampleTrackNumber == null) return
-    const track: Track = {
-      id: `track-${sampleTrackNumber}`,
-      number: sampleTrackNumber,
-      src: `${import.meta.env.BASE_URL}audio/${pad3(sampleTrackNumber)}.mp3`,
-      label: chapterTitle ? `${chapterTitle} · ${sampleTrackNumber}` : `Track ${sampleTrackNumber}`,
-      chapterSlug,
-      chapterTitle,
+    let el = sampleElRef.current
+    if (!el) {
+      el = new Audio(`${import.meta.env.BASE_URL}audio/${pad3(sampleTrackNumber)}.mp3`)
+      sampleElRef.current = el
+      el.addEventListener('ended', () => setSamplePlaying(false))
+      el.addEventListener('pause', () => {
+        if (el && el.currentTime < el.duration) setSamplePlaying(false)
+      })
     }
-    void loadAndPlay(track)
+    if (samplePlaying) {
+      el.pause()
+      setSamplePlaying(false)
+      return
+    }
+    el.play().then(() => setSamplePlaying(true)).catch(() => setSamplePlaying(false))
   }
 
   const downloadRec = () => {
     if (!blobUrl) return
     const a = document.createElement('a')
     a.href = blobUrl
-    a.download = `voice-${Date.now()}.webm`
+    a.download = `voice-${Date.now()}.mp3`
     document.body.appendChild(a)
     a.click()
     a.remove()
@@ -283,8 +344,12 @@ export function VoiceTrainer({ sampleTrackNumber, chapterSlug, chapterTitle }: P
               <Icon name="mic" size={13} /> {ru ? 'записать ещё раз' : 'record again'}
             </button>
             {sampleTrackNumber != null && (
-              <button type="button" className="vt-btn" onClick={playSample}>
-                <Icon name="play" size={11} /> {ru ? 'образец' : 'sample'}
+              <button
+                type="button"
+                className={`vt-btn ${samplePlaying ? 'playing' : ''}`}
+                onClick={playSample}
+              >
+                <Icon name={samplePlaying ? 'pause' : 'play'} size={11} /> {ru ? 'образец' : 'sample'}
               </button>
             )}
             <button type="button" className="vt-btn ghost" onClick={downloadRec}>

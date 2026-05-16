@@ -5,6 +5,7 @@ import { chapters, type ChapterMeta } from '@/lib/chapters'
 import { useProgressStore } from '@/lib/stores'
 import { Icon } from '@/components/ui/Icon'
 import { LessonCard } from '@/components/home/LessonCard'
+import { SEO } from '@/components/seo/SEO'
 
 const HERO_GLYPHS = ['ก', 'ข', 'ค', 'ง']
 
@@ -15,7 +16,7 @@ const LESSON_SLUGS = [
   'preliminary',
   'last-day',
 ]
-const REFERENCE_SLUGS = ['appendix/i', 'appendix/ii', 'appendix/iii', 'appendix/iv', 'appendix/v']
+const REFERENCE_SLUGS = ['appendix/i', 'appendix/ii', 'appendix/iii', 'appendix/iv', 'appendix/v', 'glossary']
 const ROMAN = ['I', 'II', 'III', 'IV', 'V']
 const SPECIAL = new Set(['intermission', 'preliminary'])
 
@@ -93,6 +94,16 @@ export function HomePage() {
 
   return (
     <div className="canvas fade-in">
+      <SEO
+        title={ru ? 'Читай по-тайски за 10 дней — учебник тайского письма' : 'Read Thai in 10 Days — Thai script primer'}
+        description={ru
+          ? 'Десять структурированных уроков, 85 нативных аудио и тренировка голоса. За две недели тайские буквы перестают быть каракулями.'
+          : 'Ten structured lessons, 85 native audio tracks, and feedback-driven drills. Two weeks to turn Thai squiggles into words.'}
+        path="/"
+        ogImage="/og/default.png"
+        locale={ru ? 'ru' : 'en'}
+        type="website"
+      />
       <div className="hero">
         <div>
           <div className="eyebrow">
@@ -172,32 +183,41 @@ export function HomePage() {
         <span className="right">{ru ? `${refs.length} приложений` : `${refs.length} appendices`}</span>
       </div>
       <div className="lessons">
-        {refs.map((c, i) => (
-          <button
-            key={c.id}
-            type="button"
-            className="lesson"
-            onClick={() => navigate('/' + c.slug)}
-          >
-            <span className="l-num" style={{ fontSize: 38, paddingTop: 6 }}>{ROMAN[i] || '?'}</span>
-            <div className="l-content">
-              <div className="l-tag">— {ru ? 'приложение' : 'appendix'}</div>
-              <div className="l-title">{stripAppendixPrefix(ru ? c.titleRu : c.titleEn)}</div>
-              <div className="l-meta">
-                <span>{ru ? 'сводная таблица' : 'reference table'}</span>
+        {refs.map((c, i) => {
+          const isGlossary = c.slug === 'glossary'
+          const tag = isGlossary
+            ? (ru ? 'глоссарий' : 'glossary')
+            : (ru ? 'приложение' : 'appendix')
+          const meta = isGlossary
+            ? (ru ? 'тайско-русский словарь' : 'thai-english dictionary')
+            : (ru ? 'сводная таблица' : 'reference table')
+          const num = isGlossary ? '§' : (ROMAN[i] || '?')
+          const title = isGlossary
+            ? (ru ? c.titleRu : c.titleEn)
+            : stripAppendixPrefix(ru ? c.titleRu : c.titleEn)
+          return (
+            <button
+              key={c.id}
+              type="button"
+              className="lesson"
+              onClick={() => navigate('/' + c.slug)}
+            >
+              <span className="l-num" style={{ fontSize: 38, paddingTop: 6 }}>{num}</span>
+              <div className="l-content">
+                <div className="l-tag">— {tag}</div>
+                <div className="l-title">{title}</div>
+                <div className="l-meta">
+                  <span>{meta}</span>
+                </div>
               </div>
-            </div>
-            <div style={{ alignSelf: 'center', color: 'var(--ink-3)' }}>
-              <Icon name="arrow" size={14} />
-            </div>
-          </button>
-        ))}
+              <div style={{ alignSelf: 'center', color: 'var(--ink-3)' }}>
+                <Icon name="arrow" size={14} />
+              </div>
+            </button>
+          )
+        })}
       </div>
 
-      <div className="spine">
-        <span>Bangkok · Mae‑Sa · Made with <span className="heart">♥</span></span>
-        <span>colophon · {ru ? 'второе издание' : 'second edition'} · 2026</span>
-      </div>
     </div>
   )
 }

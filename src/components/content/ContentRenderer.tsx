@@ -1,17 +1,17 @@
 import { Fragment, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import type { Block, ExampleItem, Chapter } from '@/lib/contentTypes'
-import { useTweaks } from '@/lib/tweaks'
 import { CharGrid, type CharItem } from './CharGrid'
 import { SyllableTryIt, type SylItem } from './SyllableTryIt'
 import { Player } from './Player'
 import { RefTable } from './RefTable'
-import { Flashcards, type DeckItem } from './Flashcards'
+import type { DeckItem } from './Flashcards'
 import { MultiChoice, type MCItem } from './MultiChoice'
 import { VoiceTrainer } from '@/components/practice/VoiceTrainer'
 
 interface Props {
   chapter: Chapter
+  skipDeckText?: string | null
 }
 
 const THAI_RE = /[฀-๿]/
@@ -110,27 +110,43 @@ function buildMC(deck: DeckItem[]): MCItem[] {
   })
 }
 
-export function ContentRenderer({ chapter }: Props) {
+function stripHtmlText(html: string): string {
+  if (typeof document === 'undefined') return html.replace(/<[^>]+>/g, '')
+  const d = document.createElement('div')
+  d.innerHTML = html
+  return (d.textContent || d.innerText || '').trim()
+}
+
+export function ContentRenderer({ chapter, skipDeckText }: Props) {
   const { i18n } = useTranslation()
   const lang = i18n.language as 'en' | 'ru'
   const ru = lang === 'ru'
-  const exerciseStyle = useTweaks((s) => s.exerciseStyle)
-  const blocks = useMemo(() => preprocess(chapter.blocks), [chapter.blocks])
+  const blocks = useMemo(() => {
+    const pre = preprocess(chapter.blocks)
+    if (!skipDeckText) return pre
+    const target = skipDeckText.trim()
+    let skipped = false
+    return pre.filter((b) => {
+      if (skipped) return true
+      if (b.type === 'paragraph') {
+        const txt = stripHtmlText((ru && b.htmlRu) || b.html)
+        if (txt === target) {
+          skipped = true
+          return false
+        }
+      }
+      return true
+    })
+  }, [chapter.blocks, skipDeckText, ru])
   const deck = useMemo(() => collectDeck(blocks), [blocks])
   const mc = useMemo(() => buildMC(deck), [deck])
 
   let sectionCounter = 0
   let firstParaSeen = false
-  let voiceTrainerInjected = false
-  let firstTrackSeen = false
 
   return (
     <Fragment>
       {blocks.map((b, i) => {
-        const renderTrainerAfter = !voiceTrainerInjected && firstTrackSeen
-        if (renderTrainerAfter) {
-          voiceTrainerInjected = true
-        }
         const block = (() => {
           switch (b.type) {
             case 'heading': {
@@ -184,15 +200,22 @@ export function ContentRenderer({ chapter }: Props) {
                 </blockquote>
               )
             case 'track': {
-              firstTrackSeen = true
               return (
-                <Player
-                  key={i}
-                  trackNumber={b.number}
-                  label={b.label || (ru ? `Трек ${b.number}` : `Track ${b.number}`)}
-                  chapterSlug={chapter.slug}
-                  chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
-                />
+                <Fragment key={i}>
+                  <Player
+                    trackNumber={b.number}
+                    label={b.label || (ru ? `Трек ${b.number}` : `Track ${b.number}`)}
+                    chapterSlug={chapter.slug}
+                    chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                  />
+                  <div className="practice-row">
+                    <VoiceTrainer
+                      sampleTrackNumber={b.number}
+                      chapterSlug={chapter.slug}
+                      chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                    />
+                  </div>
+                </Fragment>
               )
             }
             case 'examples': {
@@ -342,43 +365,18 @@ export function ContentRenderer({ chapter }: Props) {
               return null
           }
         })()
-
-        if (renderTrainerAfter) {
-          const firstTrackNum = blocks.find((x) => x.type === 'track' && 'number' in x) as
-            | { number: number } | undefined
-          return (
-            <Fragment key={`fr-${i}`}>
-              {block}
-              <div className="practice-row">
-                <VoiceTrainer
-                  sampleTrackNumber={firstTrackNum?.number}
-                  chapterSlug={chapter.slug}
-                  chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
-                />
-              </div>
-            </Fragment>
-          )
-        }
         return block
       })}
 
       {/* Auto deck at end of chapter */}
-      {deck.length >= 4 && (
+      {mc.length >= 4 && (
         <div className="tryit">
           <div className="ti-eyebrow">{ru ? 'Тренировка' : 'Drill'}</div>
-          <h4>
-            {exerciseStyle === 'multichoice'
-              ? (ru ? 'Выбор из вариантов' : 'Multiple choice')
-              : (ru ? 'Карточки‑перевёртыши' : 'Flip cards')}
-          </h4>
+          <h4>{ru ? 'Выбор из вариантов' : 'Multiple choice'}</h4>
           <p className="ti-deck">
-            {exerciseStyle === 'multichoice'
-              ? (ru ? 'Послушайте звук — выберите верный.' : 'Hear the sound — pick the match.')
-              : (ru ? 'Нажмите карточку, чтобы перевернуть. Оцените себя: снова · сложно · хорошо · легко.' : 'Tap to flip. Rate yourself: again · hard · good · easy.')}
+            {ru ? 'Выберите правильную транслитерацию для каждой буквы.' : 'Pick the correct transliteration for each letter.'}
           </p>
-          {exerciseStyle === 'multichoice'
-            ? <MultiChoice items={mc} />
-            : <Flashcards items={deck} />}
+          <MultiChoice items={mc} />
         </div>
       )}
     </Fragment>
