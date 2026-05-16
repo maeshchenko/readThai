@@ -7,3 +7,7 @@ declare module 'lamejs' {
     flush(): Int8Array
   }
 }
+
+interface Window {
+  ym?: (counterId: number, method: string, ...args: unknown[]) => void
+}
