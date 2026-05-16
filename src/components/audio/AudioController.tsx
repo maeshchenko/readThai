@@ -1,27 +1,18 @@
 import { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { fireEnded, getAudioElement, onTrackEnded, useAudio } from '@/lib/audio'
-import { chapters } from '@/lib/chapters'
+import { fireEnded, getAudioElement, useAudio } from '@/lib/audio'
 import { useProgressStore } from '@/lib/stores'
 
 const ARTWORK_SIZES = ['192x192', '512x512']
 const ARTWORK_BASE = `${import.meta.env.BASE_URL}icons/`
 
 export function AudioController() {
-  const navigate = useNavigate()
   const setProgress = useAudio((s) => s.setProgress)
   const setIsPlaying = useAudio((s) => s.setIsPlaying)
   const setIsLoading = useAudio((s) => s.setIsLoading)
   const track = useAudio((s) => s.track)
   const isPlaying = useAudio((s) => s.isPlaying)
-  const autoNext = useAudio((s) => s.autoNext)
-  const loop = useAudio((s) => s.loop)
-  const sleepTimerEndsAt = useAudio((s) => s.sleepTimerEndsAt)
-  const setSleepTimer = useAudio((s) => s.setSleepTimer)
-  const pause = useAudio((s) => s.pause)
-  const seekRelative = useAudio((s) => s.seekRelative)
   const togglePlay = useAudio((s) => s.togglePlay)
-  const loadAndPlay = useAudio((s) => s.loadAndPlay)
+  const seekRelative = useAudio((s) => s.seekRelative)
   const markListened = useProgressStore((s) => s.markListened)
 
   useEffect(() => {
@@ -59,7 +50,7 @@ export function AudioController() {
     }
   }, [setProgress, setIsPlaying, setIsLoading])
 
-  // Media Session
+  // Media Session metadata
   useEffect(() => {
     if (typeof navigator === 'undefined' || !('mediaSession' in navigator) || !track) return
     try {
@@ -79,22 +70,16 @@ export function AudioController() {
   useEffect(() => {
     if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return
     const ms = navigator.mediaSession
-    const safe = (action: MediaSessionAction, handler: MediaSessionActionHandler) => {
+    const safe = (action: MediaSessionAction, handler: MediaSessionActionHandler | null) => {
       try { ms.setActionHandler(action, handler) } catch { /* noop */ }
     }
     safe('play', () => togglePlay())
     safe('pause', () => togglePlay())
     safe('seekbackward', (d) => seekRelative(-(d.seekOffset ?? 10)))
     safe('seekforward', (d) => seekRelative(d.seekOffset ?? 10))
-    safe('previoustrack', () => seekRelative(-10))
-    safe('nexttrack', () => seekRelative(10))
     return () => {
-      safe('play', null as unknown as MediaSessionActionHandler)
-      safe('pause', null as unknown as MediaSessionActionHandler)
-      safe('seekbackward', null as unknown as MediaSessionActionHandler)
-      safe('seekforward', null as unknown as MediaSessionActionHandler)
-      safe('previoustrack', null as unknown as MediaSessionActionHandler)
-      safe('nexttrack', null as unknown as MediaSessionActionHandler)
+      safe('play', null); safe('pause', null)
+      safe('seekbackward', null); safe('seekforward', null)
     }
   }, [togglePlay, seekRelative])
 
@@ -105,54 +90,10 @@ export function AudioController() {
     } catch { /* noop */ }
   }, [isPlaying])
 
-  // Auto-next handler
-  useEffect(() => {
-    const off = onTrackEnded(() => {
-      const cur = useAudio.getState().track
-      if (!cur || !autoNext || loop) return
-      const ch = chapters.find((c) => c.slug === cur.chapterSlug)
-      if (!ch) return
-      const idx = ch.tracks.indexOf(cur.number)
-      const nextNum = idx >= 0 && idx < ch.tracks.length - 1 ? ch.tracks[idx + 1] : null
-      if (nextNum != null) {
-        const padded = nextNum.toString().padStart(3, '0')
-        loadAndPlay({
-          id: `track-${nextNum}`,
-          number: nextNum,
-          src: `${import.meta.env.BASE_URL}audio/${padded}.mp3`,
-          label: `${ch.titleEn} · ${nextNum}`,
-          chapterSlug: ch.slug,
-          chapterTitle: ch.titleEn,
-        })
-        markListened(nextNum)
-      }
-    })
-    return off
-  }, [autoNext, loop, loadAndPlay, markListened])
-
-  // Sleep timer
-  useEffect(() => {
-    if (!sleepTimerEndsAt) return
-    const remaining = sleepTimerEndsAt - Date.now()
-    if (remaining <= 0) {
-      pause()
-      setSleepTimer(null)
-      return
-    }
-    const id = window.setTimeout(() => {
-      pause()
-      setSleepTimer(null)
-    }, remaining)
-    return () => window.clearTimeout(id)
-  }, [sleepTimerEndsAt, pause, setSleepTimer])
-
-  // Track listened on play start
+  // Mark track listened when playing
   useEffect(() => {
     if (track && isPlaying) markListened(track.number)
   }, [track?.number, isPlaying, markListened, track])
-
-  // Suppress unused navigate warning (reserved for future deep-link)
-  void navigate
 
   return null
 }

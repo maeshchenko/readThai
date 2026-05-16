@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-    <title>Read Thai in 10 Days</title>
-    <meta name="description" content="Learn to read Thai script step by step. 10 lessons, native audio, voice practice." />
+    <title>Читай по-тайски за 10 дней</title>
+    <meta name="description" content="Книжный курс тайского письма: 10 уроков, 85 нативных аудио, тренировка голоса." />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180.png" />
@@ -22,8 +22,8 @@
     <link rel="apple-touch-startup-image" href="/splash/iphone-15-pro-max-light.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (prefers-color-scheme: light)" />
     <link rel="apple-touch-startup-image" href="/splash/iphone-15-pro-max-dark.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (prefers-color-scheme: dark)" />
 
-    <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0b0c10" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f3ece0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1612" media="(prefers-color-scheme: dark)" />
     <meta name="color-scheme" content="light dark" />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -37,15 +37,15 @@
         try {
           var saved = localStorage.getItem('theme');
           var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-          var isDark = saved === 'dark' || ((!saved || saved === 'system') && prefersDark);
-          if (isDark) document.documentElement.classList.add('dark');
+          var isDark = saved === 'dark' || (!saved && prefersDark);
+          document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
         } catch (_) {}
       })();
     </script>
 
     <style>
-      html, body { background-color: #fbfbfd; }
-      html.dark, html.dark body { background-color: #0b0c10; }
+      html, body { background-color: #f3ece0; }
+      html[data-theme="dark"], html[data-theme="dark"] body { background-color: #1a1612; }
       #root:empty::before {
         content: '';
         position: fixed;
@@ -54,7 +54,7 @@
       }
     </style>
   </head>
-  <body class="antialiased">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -1,7 +1,7 @@
 // Read Thai service worker
 // Hand-written for Vite 8 / Rolldown compatibility.
 
-const VERSION = 'v1.0.0';
+const VERSION = 'v2.0.0-book';
 const APP_CACHE = `readthai-app-${VERSION}`;
 const RUNTIME_CACHE = `readthai-runtime-${VERSION}`;
 const AUDIO_CACHE = `readthai-audio-${VERSION}`;

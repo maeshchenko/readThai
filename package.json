@@ -10,11 +10,8 @@
     "icons": "node scripts/generate_icons.mjs"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-sans-thai": "^5.2.8",
-    "@fontsource/inter": "^5.2.8",
-    "@fontsource/jetbrains-mono": "^5.2.8",
-    "@fontsource/noto-serif-thai": "^5.2.7",
-    "@fontsource/sarabun": "^5.2.8",
+    "@fontsource/cormorant-garamond": "^5.2.11",
+    "@fontsource/ibm-plex-sans-thai-looped": "^5.2.8",
     "@fontsource/source-serif-4": "^5.2.9",
     "clsx": "^2.1.1",
     "framer-motion": "^12.38.0",

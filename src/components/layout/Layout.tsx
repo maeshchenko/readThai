@@ -1,63 +1,182 @@
-import { useState } from 'react'
-import { Outlet } from 'react-router-dom'
-import { Header } from './Header'
-import { Sidebar } from './Sidebar'
-import { MobileHeader } from './MobileHeader'
-import { MobileTabBar } from './MobileTabBar'
-import { LessonsSheet } from './LessonsSheet'
-import { SettingsSheet } from './SettingsSheet'
-import { useIsMobile } from '@/hooks/useMediaQuery'
+import { useEffect, useMemo, useState } from 'react'
+import { Outlet, useLocation, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { chapters, type ChapterMeta } from '@/lib/chapters'
+import { useProgressStore } from '@/lib/stores'
+import { useApplyPalette, useApplyThaiSize } from '@/lib/tweaks'
 import { AudioController } from '@/components/audio/AudioController'
-import { MiniPlayer } from '@/components/audio/MiniPlayer'
-import { NowPlayingSheet } from '@/components/audio/NowPlayingSheet'
+import { TweaksPanel } from '@/components/tweaks/TweaksPanel'
+import { Brand } from './Brand'
+import { NavItem } from './NavItem'
+import { ProgressCard } from './ProgressCard'
+import { Crumbs } from './Crumbs'
+import { LangSwitcher } from './LangSwitcher'
+import { ThemeToggle } from './ThemeToggle'
+import { Icon } from '@/components/ui/Icon'
+
+const PROLOGUE_SLUGS = ['preface', 'introduction', 'pronunciation']
+const REFERENCE_SLUGS = ['appendix/i', 'appendix/ii', 'appendix/iii', 'appendix/iv', 'appendix/v']
+const LESSON_SLUGS = [
+  'day-1', 'day-2', 'day-3', 'day-4', 'day-5',
+  'intermission',
+  'day-6', 'day-7', 'day-8', 'day-9',
+  'preliminary',
+  'last-day',
+]
+const SPECIAL = new Set(['intermission', 'preliminary'])
+
+const ROMAN = ['I', 'II', 'III', 'IV', 'V']
+
+function chapterPath(slug: string): string {
+  return '/' + slug
+}
+
+function currentSlug(pathname: string): string {
+  return pathname.replace(/^\/+/, '')
+}
 
 export function Layout() {
-  const isMobile = useIsMobile()
-  const [sidebarOpen, setSidebarOpen] = useState(false)
-  const [lessonsOpen, setLessonsOpen] = useState(false)
-  const [settingsOpen, setSettingsOpen] = useState(false)
+  useApplyPalette()
+  useApplyThaiSize()
 
-  if (isMobile) {
-    return (
-      <div className="relative flex min-h-[100dvh] flex-col">
-        <AudioController />
-        <MobileHeader onOpenSettings={() => setSettingsOpen(true)} />
-        <main
-          className="min-w-0 flex-1 px-4 pt-3"
-          style={{ paddingBottom: 'calc(var(--tabbar-total) + 96px)' }}
-        >
-          <Outlet />
-        </main>
-        <MiniPlayer />
-        <MobileTabBar
-          onOpenLessons={() => setLessonsOpen(true)}
-          onOpenSettings={() => setSettingsOpen(true)}
-          lessonsOpen={lessonsOpen}
-          settingsOpen={settingsOpen}
-        />
-        <LessonsSheet open={lessonsOpen} onClose={() => setLessonsOpen(false)} />
-        <SettingsSheet open={settingsOpen} onClose={() => setSettingsOpen(false)} />
-        <NowPlayingSheet />
-      </div>
-    )
-  }
+  const navigate = useNavigate()
+  const location = useLocation()
+  const { i18n } = useTranslation()
+  const ru = i18n.language === 'ru'
+  const [menuOpen, setMenuOpen] = useState(false)
+  const listened = useProgressStore((s) => s.listenedTracks)
+
+  useEffect(() => { setMenuOpen(false) }, [location.pathname])
+
+  const lookup = useMemo(() => {
+    const m = new Map<string, ChapterMeta>()
+    for (const c of chapters) m.set(c.slug, c)
+    return m
+  }, [])
+
+  const prologueItems = PROLOGUE_SLUGS.map((s) => lookup.get(s)).filter(Boolean) as ChapterMeta[]
+  const lessonItems = LESSON_SLUGS.map((s) => lookup.get(s)).filter(Boolean) as ChapterMeta[]
+  const referenceItems = REFERENCE_SLUGS.map((s) => lookup.get(s)).filter(Boolean) as ChapterMeta[]
+
+  const slug = currentSlug(location.pathname)
+  const activeChapter = lookup.get(slug)
+
+  const crumbs = useMemo(() => {
+    const root = ru ? 'Читальня' : 'Reading Room'
+    if (location.pathname === '/' || !activeChapter) {
+      return [root, ru ? 'Оглавление' : 'Contents']
+    }
+    if (PROLOGUE_SLUGS.includes(activeChapter.slug)) {
+      return [root, ru ? 'Начало' : 'Start', ru ? activeChapter.titleRu : activeChapter.titleEn]
+    }
+    if (REFERENCE_SLUGS.includes(activeChapter.slug)) {
+      return [root, ru ? 'Справочник' : 'Reference', ru ? activeChapter.titleRu : activeChapter.titleEn]
+    }
+    return [root, ru ? 'Уроки' : 'Lessons', ru ? activeChapter.titleRu : activeChapter.titleEn]
+  }, [activeChapter, location.pathname, ru])
+
+  const isDone = (c: ChapterMeta) => c.tracks.length > 0 && c.tracks.every((n) => listened.has(n))
+
+  let lessonCounter = 0
+  const lessonsWithNum = lessonItems.map((c) => {
+    if (SPECIAL.has(c.slug)) return { chapter: c, num: null as number | null, special: true }
+    lessonCounter += 1
+    return { chapter: c, num: lessonCounter, special: false }
+  })
 
   return (
-    <div className="min-h-screen">
+    <>
       <AudioController />
-      <Header
-        onToggleSidebar={() => setSidebarOpen((v) => !v)}
-        sidebarOpen={sidebarOpen}
+      <div
+        className={`rail-overlay ${menuOpen ? 'open' : ''}`}
+        onClick={() => setMenuOpen(false)}
+        aria-hidden={!menuOpen}
       />
-      <div className="mx-auto flex max-w-7xl">
-        <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-        <main className="min-w-0 flex-1 px-4 py-8 md:px-8 lg:px-12">
+      <div className="app">
+        <aside className={`rail ${menuOpen ? 'open' : ''}`}>
+          <Brand />
+          <div className="nav-group">
+            <div className="nav-label">{ru ? 'Начало' : 'Start'}</div>
+            {prologueItems.map((c) => (
+              <NavItem
+                key={c.id}
+                active={slug === c.slug}
+                done={isDone(c)}
+                onClick={() => navigate(chapterPath(c.slug))}
+              >
+                {ru ? c.titleRu.replace(/^Гид по /, 'Гид по ') : c.titleEn}
+              </NavItem>
+            ))}
+          </div>
+          <div className="nav-group">
+            <div className="nav-label">{ru ? 'Уроки' : 'Lessons'}</div>
+            {lessonsWithNum.map(({ chapter: c, num, special }) => {
+              const title = special
+                ? (ru ? c.titleRu : c.titleEn)
+                : (ru ? c.titleRu : c.titleEn)
+              return (
+                <NavItem
+                  key={c.id}
+                  active={slug === c.slug}
+                  done={isDone(c)}
+                  num={num}
+                  onClick={() => navigate(chapterPath(c.slug))}
+                >
+                  {title}
+                </NavItem>
+              )
+            })}
+          </div>
+          <div className="nav-group">
+            <div className="nav-label">{ru ? 'Справочник' : 'Reference'}</div>
+            {referenceItems.map((c, i) => (
+              <NavItem
+                key={c.id}
+                active={slug === c.slug}
+                onClick={() => navigate(chapterPath(c.slug))}
+              >
+                {(ru ? 'Приложение ' : 'Appendix ') + (ROMAN[i] || '?')}: {ru ? stripPrefix(c.titleRu) : stripPrefix(c.titleEn)}
+              </NavItem>
+            ))}
+          </div>
+          <ProgressCard />
+        </aside>
+
+        <main className="main">
+          <div className="topbar">
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+              <button
+                type="button"
+                className="icon-btn menu-toggle"
+                onClick={() => setMenuOpen((v) => !v)}
+                aria-label="Menu"
+              >
+                <Icon name={menuOpen ? 'close' : 'menu'} size={18} />
+              </button>
+              <Crumbs items={crumbs} />
+            </div>
+            <div className="top-actions">
+              <LangSwitcher />
+              <ThemeToggle />
+              <button
+                type="button"
+                className="icon-btn"
+                onClick={() => navigate('/')}
+                title={ru ? 'Главная' : 'Home'}
+                aria-label="Home"
+              >
+                <Icon name="home" />
+              </button>
+            </div>
+          </div>
           <Outlet />
-          <footer className="mt-16 pb-6 text-center text-xs text-[var(--color-on-surface-muted)]">
-            Made with ❤️ in Thailand
-          </footer>
         </main>
       </div>
-    </div>
+      <TweaksPanel />
+    </>
   )
+}
+
+function stripPrefix(title: string): string {
+  return title.replace(/^Приложение [IVX]+:\s*/, '').replace(/^Appendix [IVX]+:\s*/, '')
 }
