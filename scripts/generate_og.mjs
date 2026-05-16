@@ -16,7 +16,7 @@ const INK_3 = '#6b6354'
 const RULE = '#d8cdb6'
 const ACCENT = '#b3492e'
 
-const SERIF = "'Cormorant Garamond', 'Source Serif 4', Georgia, serif"
+const SERIF = "Georgia, 'Times New Roman', 'Liberation Serif', serif"
 const MONO = "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
 const THAI = "'IBM Plex Sans Thai Looped', 'Noto Sans Thai', 'Sarabun', sans-serif"
 
@@ -74,7 +74,7 @@ function ogSvg({ tag, title, glyph }) {
   <text x="80" y="80" font-family="${MONO}" font-size="22" letter-spacing="4" fill="${INK_3}">READ THAI · 10 DAYS</text>
   <circle cx="${W - 90}" cy="72" r="9" fill="${ACCENT}"/>
   <text x="80" y="160" font-family="${MONO}" font-size="22" letter-spacing="6" fill="${ACCENT}">— ${eyebrow}</text>
-  <text font-family="${SERIF}" font-weight="500" font-size="${fontSize}" fill="${INK}">${titleTspans}</text>
+  <text font-family="${SERIF}" font-weight="700" font-size="${fontSize}" fill="${INK}">${titleTspans}</text>
   <text x="${W - 130}" y="${H - 60}" font-family="${THAI}" font-size="220" fill="${INK}" text-anchor="end" opacity="0.92">${escape(glyph || 'ก')}</text>
   <text x="80" y="${H - 60}" font-family="${SERIF}" font-style="italic" font-size="26" fill="${INK_2}">читай по-тайски за 10 дней</text>
 </svg>`
