@@ -34,11 +34,38 @@ function splitTitle(t) {
   return { eyebrow: null, main: t }
 }
 
+function wrapTitle(main, maxCharsPerLine) {
+  if (main.length <= maxCharsPerLine) return [main]
+  const words = main.split(' ')
+  const lines = []
+  let cur = ''
+  for (const w of words) {
+    const trial = cur ? cur + ' ' + w : w
+    if (trial.length > maxCharsPerLine && cur) {
+      lines.push(cur); cur = w
+    } else {
+      cur = trial
+    }
+  }
+  if (cur) lines.push(cur)
+  return lines.slice(0, 2)
+}
+
 function ogSvg({ tag, title, glyph }) {
   const t = splitTitle(title)
-  const main = escape(t.main)
+  const main = t.main
   const eyebrow = escape((t.eyebrow || tag || '').toUpperCase())
-  const mainFontSize = main.length > 28 ? 76 : main.length > 18 ? 96 : 116
+  // Pick font size + wrap based on length
+  let fontSize, maxLine
+  if (main.length > 24) { fontSize = 76; maxLine = 18 }
+  else if (main.length > 16) { fontSize = 92; maxLine = 16 }
+  else { fontSize = 110; maxLine = 100 }
+  const lines = wrapTitle(main, maxLine)
+  const lineHeight = Math.round(fontSize * 1.05)
+  const baseY = lines.length === 1 ? H / 2 + 30 : H / 2 - lineHeight / 2 + fontSize * 0.85
+  const titleTspans = lines.map((line, i) =>
+    `<tspan x="80" y="${Math.round(baseY + i * lineHeight)}">${escape(line)}</tspan>`
+  ).join('')
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
   <rect width="${W}" height="${H}" fill="${PAPER}"/>
@@ -47,14 +74,14 @@ function ogSvg({ tag, title, glyph }) {
   <text x="80" y="80" font-family="${MONO}" font-size="22" letter-spacing="4" fill="${INK_3}">READ THAI · 10 DAYS</text>
   <circle cx="${W - 90}" cy="72" r="9" fill="${ACCENT}"/>
   <text x="80" y="160" font-family="${MONO}" font-size="22" letter-spacing="6" fill="${ACCENT}">— ${eyebrow}</text>
-  <text x="80" y="${H / 2 + 30}" font-family="${SERIF}" font-weight="500" font-size="${mainFontSize}" fill="${INK}">${main}</text>
+  <text font-family="${SERIF}" font-weight="500" font-size="${fontSize}" fill="${INK}">${titleTspans}</text>
   <text x="${W - 130}" y="${H - 60}" font-family="${THAI}" font-size="220" fill="${INK}" text-anchor="end" opacity="0.92">${escape(glyph || 'ก')}</text>
   <text x="80" y="${H - 60}" font-family="${SERIF}" font-style="italic" font-size="26" fill="${INK_2}">читай по-тайски за 10 дней</text>
 </svg>`
 }
 
 const CHAPTERS = [
-  { slug: 'default',       tag: 'home',           title: 'Читай по-тайски за 10 дней',          glyph: 'ก' },
+  { slug: 'default',       tag: 'учебник',        title: 'Читай по-тайски за 10 дней',          glyph: 'ก' },
   { slug: 'preface',       tag: 'глава',          title: 'Предисловие',                          glyph: 'ก' },
   { slug: 'introduction',  tag: 'глава',          title: 'Введение',                              glyph: 'ข' },
   { slug: 'pronunciation', tag: 'произношение',   title: 'Гид по произношению',                  glyph: 'อ' },
