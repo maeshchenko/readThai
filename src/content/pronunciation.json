@@ -215,6 +215,11 @@
         "Pronunciation",
         ""
       ],
+      "columnsRu": [
+        "Тип",
+        "Произношение",
+        ""
+      ],
       "rows": [
         {
           "thai": "rolled [r]",
@@ -679,27 +684,32 @@
         {
           "thai": "นา",
           "translit": "/naa/",
-          "meaning": "rice paddy field"
+          "meaning": "rice paddy field",
+          "meaningRu": "рисовое поле"
         },
         {
           "thai": "หน่า",
           "translit": "/nàa/",
-          "meaning": "from /nóinàa/, custard apple"
+          "meaning": "from /nóinàa/, custard apple",
+          "meaningRu": "из слова /nóinàa/ — сахарное яблоко"
         },
         {
           "thai": "หน้า",
           "translit": "/nâa/",
-          "meaning": "face, next"
+          "meaning": "face, next",
+          "meaningRu": "лицо, следующий"
         },
         {
           "thai": "น้า",
           "translit": "/náa/",
-          "meaning": "uncle or aunt (mother's younger sibling)"
+          "meaning": "uncle or aunt (mother's younger sibling)",
+          "meaningRu": "дядя или тётя (младший брат/сестра матери)"
         },
         {
           "thai": "หนา",
           "translit": "/năa/",
-          "meaning": "thick"
+          "meaning": "thick",
+          "meaningRu": "толстый"
         }
       ]
     }

@@ -199,12 +199,14 @@
         {
           "thai": "ฮะ",
           "translit": "/há/",
-          "meaning": "“Ha…”"
+          "meaning": "“Ha…”",
+          "meaningRu": "«Ха…»"
         },
         {
           "thai": "ฮา",
           "translit": "/haa/",
-          "meaning": "“Haaaaaaa————”"
+          "meaning": "“Haaaaaaa————”",
+          "meaningRu": "«Хаааааа————»"
         }
       ]
     },

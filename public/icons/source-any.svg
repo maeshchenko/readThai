@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5e69e8"/>
-      <stop offset="1" stop-color="#3d41b3"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="112" fill="url(#g)"/>
-  <text x="256" y="376" font-family="Sarabun, Noto Sans Thai, sans-serif" font-weight="700" font-size="320" fill="white" text-anchor="middle">ก</text>
+  <rect width="512" height="512" rx="80" fill="#14110c"/>
+  <text x="256" y="376" font-family="'IBM Plex Sans Thai Looped', 'Noto Sans Thai', Sarabun, sans-serif" font-weight="500" font-size="352" fill="#f3ece0" text-anchor="middle">ก</text>
+  <circle cx="416" cy="104" r="24" fill="#b3492e"/>
 </svg>

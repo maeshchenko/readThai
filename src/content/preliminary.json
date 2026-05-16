@@ -214,8 +214,8 @@
       "type": "thaiTable",
       "columns": ["", "HC", "MC", "LC"],
       "rows": [
-        { "thai": "Low TM (อ่)", "translit": "low / low / falling" },
-        { "thai": "Falling TM (อ้)", "translit": "falling / falling / high" }
+        { "thai": "Знак низкого тона (อ่)", "translit": "низкий / низкий / нисходящий" },
+        { "thai": "Знак нисходящего тона (อ้)", "translit": "нисходящий / нисходящий / высокий" }
       ]
     },
     {

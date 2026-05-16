@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>10daysthai — Design System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@1,8..60,500&family=IBM+Plex+Sans+Thai+Looped:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #f3ece0;
+    --paper-2: #ece4d4;
+    --paper-3: #e3d9c5;
+    --ink: #1a1814;
+    --ink-2: #3a342c;
+    --ink-3: #6b6354;
+    --rule: #d8cdb6;
+    --rule-2: #c7b99c;
+    --accent: #b3492e;
+    --accent-soft: #e9c9b8;
+    --accent-ink: #6b2613;
+    --gold: #c08a3e;
+    --sage: #6b7d52;
+    --sage-soft: #d8dfc7;
+    --serif: "Cormorant Garamond", "Times New Roman", serif;
+    --accent-italic: "Source Serif 4", "Cormorant Garamond", serif;
+    --thai-loop: "IBM Plex Sans Thai Looped", "Cormorant Garamond", serif;
+  }
+  *,*::before,*::after{ box-sizing: border-box; }
+  body{
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page{ max-width: 1080px; margin: 0 auto; padding: 72px 56px 140px; }
+  .pre-eyebrow{ font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); }
+  h1{ font-size: 72px; font-weight: 400; letter-spacing: -0.02em; line-height: 1; margin: 18px 0 18px; }
+  h1 em{ color: var(--accent); }
+  .lede{ font-size: 22px; font-style: italic; color: var(--ink-2); max-width: 56ch; margin: 0 0 60px; }
+  .sec{ margin: 84px 0 28px; border-bottom: 1px solid var(--rule); padding-bottom: 14px; display:flex; align-items: baseline; justify-content: space-between; }
+  .sec h2{ font-size: 36px; font-weight: 400; margin: 0; letter-spacing: -0.01em; }
+  .sec .num{ font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-3); }
+  p{ max-width: 64ch; color: var(--ink-2); }
+  p strong{ font-weight: 400; font-style: italic; color: var(--accent); }
+  code{ font-family: var(--thai-loop); background: var(--paper-2); padding: 2px 6px; border-radius: 3px; font-size: 0.92em; color: var(--ink); }
+
+  /* COLOR TOKENS */
+  .swatches{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 24px 0 8px; }
+  .sw{ border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; background: #fff; }
+  .sw .chip{ height: 90px; }
+  .sw .meta{ padding: 12px 14px; }
+  .sw .name{ font-size: 15px; }
+  .sw .hex{ font-size: 12.5px; color: var(--ink-3); font-family: var(--thai-loop); margin-top: 2px; }
+  .sw .role{ font-size: 12px; font-style: italic; color: var(--ink-3); margin-top: 6px; }
+  @media (max-width: 720px){ .swatches{ grid-template-columns: repeat(2, 1fr); } }
+
+  /* TYPE SCALE */
+  .typetable{ border-top: 1px solid var(--rule); margin: 24px 0 8px; }
+  .typetable .row{ display: grid; grid-template-columns: 200px 1fr auto; gap: 24px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .typetable .meta{ font-size: 12.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .typetable .meta em{ font-style: italic; text-transform: none; letter-spacing: 0; color: var(--ink-2); display: block; margin-top: 4px; font-size: 13.5px; }
+  .typetable .specimen{ font-family: var(--serif); }
+  .typetable .px{ font-size: 12px; color: var(--ink-3); font-family: var(--thai-loop); }
+
+  .display{ font-size: 84px; font-weight: 400; letter-spacing: -0.022em; line-height: 0.96; }
+  .h1s{ font-size: 56px; font-weight: 400; letter-spacing: -0.02em; line-height: 1; }
+  .h2s{ font-size: 36px; letter-spacing: -0.01em; }
+  .h3s{ font-size: 24px; }
+  .lead{ font-size: 22px; font-style: italic; color: var(--ink-2); }
+  .body{ font-size: 17px; line-height: 1.6; }
+  .body-it{ font-size: 17px; font-style: italic; color: var(--ink-2); }
+  .caption{ font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-3); }
+
+  /* SPACING + RADII */
+  .spacing-row{ display: grid; grid-template-columns: repeat(7, 1fr); gap: 12px; margin: 24px 0 8px; }
+  .spc{ border: 1px solid var(--rule); border-radius: 4px; padding: 14px 12px; background: var(--paper); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; }
+  .spc .box{ background: var(--accent); border-radius: 2px; }
+  .spc .lbl{ font-size: 12px; letter-spacing: 0.16em; color: var(--ink-3); text-transform: uppercase; }
+  .spc .val{ font-size: 12px; color: var(--ink-2); font-family: var(--thai-loop); }
+  @media (max-width: 720px){ .spacing-row{ grid-template-columns: repeat(4, 1fr); } }
+
+  /* COMPONENTS */
+  .gallery{ display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0 8px; }
+  @media (max-width: 720px){ .gallery{ grid-template-columns: 1fr; } }
+  .demo{ border: 1px solid var(--rule); border-radius: 6px; padding: 28px; background: var(--paper); }
+  .demo .demo-lbl{ font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 18px; }
+  .btn{ display: inline-flex; align-items: center; gap: 10px; padding: 12px 20px; border-radius: 6px; font-size: 14.5px; font-family: var(--serif); cursor: pointer; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); }
+  .btn.ghost{ background: transparent; color: var(--ink); border-color: var(--rule-2); }
+  .btn-row{ display: flex; gap: 10px; }
+
+  .lesson-card{ border: 1px solid var(--rule); border-radius: 4px; padding: 20px 22px; display: grid; grid-template-columns: 1fr auto; gap: 6px 14px; }
+  .lesson-card .l-num{ grid-row: 1 / 3; font-size: 48px; font-style: italic; color: var(--accent); line-height: 1; align-self: start; }
+  .lesson-card .l-tag{ font-size: 10.5px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-3); }
+  .lesson-card .l-title{ font-size: 20px; }
+  .lesson-card .l-meta{ font-size: 12.5px; color: var(--ink-3); font-style: italic; }
+
+  .char-tile{ border: 1px solid var(--rule); border-radius: 4px; padding: 18px 14px; text-align: center; display: flex; flex-direction: column; gap: 6px; align-items: center; min-width: 0; }
+  .char-tile .glyph{ font-family: var(--thai-loop); font-size: 56px; line-height: 1; color: var(--ink); }
+  .char-tile .ipa{ font-size: 13px; color: var(--accent); font-family: var(--thai-loop); }
+  .char-tile .name{ font-size: 12px; font-style: italic; color: var(--ink-3); }
+  .char-row{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; }
+  .char-row .char-tile{ border: none; border-right: 1px solid var(--rule); border-radius: 0; }
+  .char-row .char-tile:last-child{ border-right: none; }
+
+  .quote{ border-left: 2px solid var(--accent); padding: 6px 0 6px 20px; font-style: italic; font-size: 19px; color: var(--ink-2); max-width: 56ch; }
+  .quote cite{ display: block; font-style: normal; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); margin-top: 10px; }
+
+  .grid-hint{ font-size: 13.5px; color: var(--ink-3); font-style: italic; }
+
+  /* GRID DIAGRAM */
+  .grid-diag{
+    height: 320px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background:
+      linear-gradient(var(--rule) 1px, transparent 1px) 0 0 / 8px 8px,
+      linear-gradient(90deg, var(--rule) 1px, transparent 1px) 0 0 / 8px 8px,
+      var(--paper);
+    position: relative;
+    margin: 24px 0 8px;
+    overflow: hidden;
+  }
+  .grid-diag .col{
+    position: absolute; top: 0; bottom: 0;
+    background: var(--accent-soft);
+    opacity: 0.45;
+  }
+  .grid-diag .label{
+    position: absolute;
+    font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--accent-ink);
+    background: var(--paper);
+    padding: 2px 6px;
+  }
+
+  /* MOTION */
+  .motion-row{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 24px 0 8px; }
+  .mot{ border: 1px solid var(--rule); border-radius: 4px; padding: 18px; background: var(--paper); }
+  .mot .name{ font-size: 14px; }
+  .mot .v{ font-family: var(--thai-loop); font-size: 12.5px; color: var(--ink-3); margin-top: 4px; }
+  .mot .use{ font-size: 13.5px; font-style: italic; color: var(--ink-2); margin-top: 10px; }
+  @media (max-width: 720px){ .motion-row{ grid-template-columns: 1fr; } }
+
+  /* TOC */
+  .toc{ margin: 0 0 60px; padding: 22px 0 22px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .toc a{ color: var(--ink-2); text-decoration: none; font-size: 14px; font-style: italic; }
+  .toc a:hover{ color: var(--accent); }
+  .toc a .n{ font-style: normal; color: var(--ink-3); margin-right: 8px; font-family: var(--thai-loop); font-size: 12px; }
+  @media (max-width: 720px){ .toc{ grid-template-columns: 1fr 1fr; } }
+
+  .rule{ height: 1px; background: var(--rule); border: 0; margin: 0; }
+
+  .principles{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 24px 0 8px; }
+  .pr{ border-top: 1px solid var(--accent); padding: 14px 0 0; }
+  .pr .t{ font-size: 18px; font-style: italic; }
+  .pr p{ font-size: 14.5px; line-height: 1.55; margin: 8px 0 0; color: var(--ink-2); }
+  @media (max-width: 720px){ .principles{ grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="pre-eyebrow">— Design System · v1.0 · May 2026</div>
+  <h1>Читай по‑тайски <em>за&nbsp;10&nbsp;дней</em></h1>
+  <p class="lede">Книжная типографика, неспешный ритм, тайский алфавит как главный герой. Этот документ описывает токены, шкалы и компоненты редизайна.</p>
+
+  <nav class="toc">
+    <a href="#principles"><span class="n">01</span>Принципы</a>
+    <a href="#color"><span class="n">02</span>Цвет</a>
+    <a href="#type"><span class="n">03</span>Типографика</a>
+    <a href="#grid"><span class="n">04</span>Сетка</a>
+    <a href="#space"><span class="n">05</span>Шаг и радиусы</a>
+    <a href="#components"><span class="n">06</span>Компоненты</a>
+    <a href="#motion"><span class="n">07</span>Движение</a>
+    <a href="#voice"><span class="n">08</span>Голос и копирайт</a>
+  </nav>
+
+  <section id="principles">
+    <div class="sec"><h2>Принципы</h2><span class="num">01</span></div>
+    <div class="principles">
+      <div class="pr"><div class="t">Книга, не приложение</div><p>Кремовая бумага, антиква, длинные строки. Сессии по 30+ минут должны быть приятными для глаз.</p></div>
+      <div class="pr"><div class="t">Тайский крупно</div><p>Глиф — главный объект на странице. Никаких иконок-конкурентов рядом с буквой.</p></div>
+      <div class="pr"><div class="t">Один голос</div><p>Одна гарнитура для всего латинско-кириллического текста. Курсивом выделяем смыслы, не украшаем.</p></div>
+    </div>
+  </section>
+
+  <section id="color">
+    <div class="sec"><h2>Цвет</h2><span class="num">02</span></div>
+    <p>Палитра «шафран на тёплой бумаге»: терракота как акцент-отсылка к одеждам тайских монахов, шалфей для статусов «сделано», золото — для редких подчёркиваний.</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#f3ece0"></div><div class="meta"><div class="name">Paper</div><div class="hex">#f3ece0</div><div class="role">Фон страниц, светлая тема</div></div></div>
+      <div class="sw"><div class="chip" style="background:#ece4d4"></div><div class="meta"><div class="name">Paper · 2</div><div class="hex">#ece4d4</div><div class="role">Карточки, поднятые поверхности</div></div></div>
+      <div class="sw"><div class="chip" style="background:#1a1814"></div><div class="meta"><div class="name">Ink</div><div class="hex">#1a1814</div><div class="role">Заголовки, основной текст</div></div></div>
+      <div class="sw"><div class="chip" style="background:#6b6354"></div><div class="meta"><div class="name">Ink · 3</div><div class="hex">#6b6354</div><div class="role">Подписи, мета</div></div></div>
+      <div class="sw"><div class="chip" style="background:#b3492e"></div><div class="meta"><div class="name">Accent · Saffron</div><div class="hex">#b3492e</div><div class="role">Акцент, ссылки, активное</div></div></div>
+      <div class="sw"><div class="chip" style="background:#e9c9b8"></div><div class="meta"><div class="name">Accent · soft</div><div class="hex">#e9c9b8</div><div class="role">Фон акцентного блока</div></div></div>
+      <div class="sw"><div class="chip" style="background:#6b7d52"></div><div class="meta"><div class="name">Sage</div><div class="hex">#6b7d52</div><div class="role">Прогресс, «готово»</div></div></div>
+      <div class="sw"><div class="chip" style="background:#c08a3e"></div><div class="meta"><div class="name">Gold</div><div class="hex">#c08a3e</div><div class="role">Редкие подчёркивания, метрика</div></div></div>
+    </div>
+    <p style="margin-top:18px"><strong>Альтернативные палитры</strong> (через Tweaks): Индиго · Нефрит · Тушь. Каждая заменяет только <code>--accent</code>, ink и paper остаются.</p>
+  </section>
+
+  <section id="type">
+    <div class="sec"><h2>Типографика</h2><span class="num">03</span></div>
+    <p>Две гарнитуры. <strong>Cormorant Garamond</strong> (regular + medium + italic) — весь корпус: заголовки, параграфы, навигация, кнопки. <strong>Source Serif 4 italic</strong> — точечно, только для акцентных слов в крупных заголовках (например, «<em style="font-family: var(--accent-italic); color: var(--accent)">за 10 дней</em>» в hero). Шрифт с более высоким контрастом штрихов работает на большом кегле как «обложечный». Тайские глифы — <strong>IBM Plex Sans Thai Looped</strong> 400/500 (Cormorant не покрывает тайские символы).</p>
+    <div class="typetable">
+      <div class="row"><div class="meta">Display<em>hero, обложки</em></div><div class="specimen"><div class="display">Букварь</div></div><div class="px">84 / 0.96</div></div>
+      <div class="row"><div class="meta">H1<em>заголовок урока</em></div><div class="specimen"><div class="h1s">День первый: согласные</div></div><div class="px">56 / 1.0</div></div>
+      <div class="row"><div class="meta">H2<em>раздел</em></div><div class="specimen"><div class="h2s">Девять согласных</div></div><div class="px">36 / 1.05</div></div>
+      <div class="row"><div class="meta">H3<em>подраздел</em></div><div class="specimen"><div class="h3s">Как читать таблицу</div></div><div class="px">24 / 1.25</div></div>
+      <div class="row"><div class="meta">Lede<em>подзаголовок</em></div><div class="specimen"><div class="lead">Спокойный курс на десять дней — никаких рейтингов и сжатых сроков.</div></div><div class="px">22 / 1.45 · italic</div></div>
+      <div class="row"><div class="meta">Body<em>основной текст</em></div><div class="specimen"><div class="body">Тайский алфавит — 44 согласные и 15 гласных знаков. Звуков меньше, чем символов, и это первое, к чему нужно привыкнуть.</div></div><div class="px">17 / 1.6</div></div>
+      <div class="row"><div class="meta">Body italic<em>цитаты, акценты</em></div><div class="specimen"><div class="body-it">«Не учите буквы — учите звуки.»</div></div><div class="px">17 / 1.6 · italic</div></div>
+      <div class="row"><div class="meta">Caption<em>мета, eyebrow</em></div><div class="specimen"><div class="caption">— Урок 03 · 12 минут</div></div><div class="px">13 / 0.22 tracking</div></div>
+      <div class="row"><div class="meta">Thai · large<em>флеш-карта</em></div><div class="specimen"><div style="font-family:var(--thai-loop); font-size:96px; line-height:1">ก ข ค</div></div><div class="px">96–220</div></div>
+      <div class="row"><div class="meta">Thai · inline<em>в тексте</em></div><div class="specimen"><div class="body">Согласная <span style="font-family:var(--thai-loop); font-size:1.4em">ก</span> — это [k], как русское «к» в слове «кот».</div></div><div class="px">1.4em</div></div>
+    </div>
+  </section>
+
+  <section id="grid">
+    <div class="sec"><h2>Сетка</h2><span class="num">04</span></div>
+    <p>Двухколоночная: <strong>боковое оглавление 280px</strong> + контент. На странице урока — центрированная колонка <strong>720px</strong> для длинного чтения. Внешние отступы 48px (десктоп) / 18px (мобайл).</p>
+    <div class="grid-diag">
+      <div class="col" style="left:0; width: calc(280px - 2px); border-right: 1px dashed var(--accent);"></div>
+      <div class="label" style="top: 14px; left: 14px;">Rail · 280px</div>
+      <div class="col" style="left: 280px; right: 0; opacity: 0.18;"></div>
+      <div class="label" style="top: 14px; left: 296px;">Canvas · max 1080</div>
+      <div class="col" style="left: calc(50% - 360px); width: 720px; opacity: 0.55;"></div>
+      <div class="label" style="bottom: 14px; left: calc(50% - 60px);">Article · 720</div>
+    </div>
+    <p class="grid-hint">Брейкпоинты: <code>≤ 720</code> мобайл (rail в overlay), <code>721–880</code> планшет, <code>≥ 881</code> десктоп. TOC справа появляется на <code>≥ 1560</code>.</p>
+  </section>
+
+  <section id="space">
+    <div class="sec"><h2>Шаг и радиусы</h2><span class="num">05</span></div>
+    <p>Шкала кратна 4. Внутренние отступы — 18 / 24 / 32; вертикальные ритмы — 48 / 64 / 84.</p>
+    <div class="spacing-row">
+      <div class="spc"><div class="box" style="width:4px;  height:4px"></div><div class="lbl">xxs</div><div class="val">4</div></div>
+      <div class="spc"><div class="box" style="width:8px;  height:8px"></div><div class="lbl">xs</div><div class="val">8</div></div>
+      <div class="spc"><div class="box" style="width:12px; height:12px"></div><div class="lbl">sm</div><div class="val">12</div></div>
+      <div class="spc"><div class="box" style="width:18px; height:18px"></div><div class="lbl">md</div><div class="val">18</div></div>
+      <div class="spc"><div class="box" style="width:24px; height:24px"></div><div class="lbl">lg</div><div class="val">24</div></div>
+      <div class="spc"><div class="box" style="width:32px; height:32px"></div><div class="lbl">xl</div><div class="val">32</div></div>
+      <div class="spc"><div class="box" style="width:48px; height:48px"></div><div class="lbl">2xl</div><div class="val">48</div></div>
+    </div>
+    <p style="margin-top:18px"><strong>Радиусы</strong>: 0 (линейки, разделители) · 4 (карточки, плашки) · 6 (кнопки, инпуты) · 50% (микро-плеер, аватары). Никаких пилюль кроме медиа-плеера.</p>
+    <p><strong>Линии</strong>: <code>--rule</code> для нейтральных, <code>--rule-2</code> для активных бордеров. Толщина 1px всегда — без 2px, без двойных.</p>
+  </section>
+
+  <section id="components">
+    <div class="sec"><h2>Компоненты</h2><span class="num">06</span></div>
+    <div class="gallery">
+      <div class="demo">
+        <div class="demo-lbl">— кнопки</div>
+        <div class="btn-row">
+          <button class="btn">Начать день первый →</button>
+          <button class="btn ghost">Образец</button>
+        </div>
+      </div>
+      <div class="demo">
+        <div class="demo-lbl">— карточка урока</div>
+        <div class="lesson-card">
+          <div class="l-num">01</div>
+          <div>
+            <div class="l-tag">— День · 18 мин</div>
+            <div class="l-title">Девять согласных среднего класса</div>
+            <div class="l-meta">9 знаков · 1 упражнение</div>
+          </div>
+        </div>
+      </div>
+      <div class="demo" style="grid-column: 1 / -1">
+        <div class="demo-lbl">— сетка глифов</div>
+        <div class="char-row">
+          <div class="char-tile"><span class="glyph">ก</span><span class="ipa">[k]</span><span class="name">ก ไก่</span></div>
+          <div class="char-tile"><span class="glyph">จ</span><span class="ipa">[t͡ɕ]</span><span class="name">จ จาน</span></div>
+          <div class="char-tile"><span class="glyph">ด</span><span class="ipa">[d]</span><span class="name">ด เด็ก</span></div>
+          <div class="char-tile"><span class="glyph">บ</span><span class="ipa">[b]</span><span class="name">บ ใบไม้</span></div>
+        </div>
+      </div>
+      <div class="demo">
+        <div class="demo-lbl">— цитата / примечание</div>
+        <blockquote class="quote">Согласные тайского делятся на три класса — это первое, что определяет тон каждого слога.<cite>— Примечание автора</cite></blockquote>
+      </div>
+      <div class="demo">
+        <div class="demo-lbl">— медиа-плеер</div>
+        <div style="display:flex; align-items:center; gap:14px; border: 1px solid var(--rule-2); border-radius: 6px; padding: 14px 16px; background: var(--paper);">
+          <button style="width:40px; height:40px; border-radius:50%; background:var(--ink); color:var(--paper); border:0; display:grid; place-items:center; cursor:pointer;">▶</button>
+          <div style="flex:1">
+            <div style="font-size:14px">Произношение · ก</div>
+            <div style="font-size:11.5px; color:var(--ink-3); margin-top:2px; font-style:italic;">0:00 / 0:08 · 0.75×</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="motion">
+    <div class="sec"><h2>Движение</h2><span class="num">07</span></div>
+    <p>Движение тихое: только то, что подтверждает действие. Никаких parallax, никаких scroll-jacking.</p>
+    <div class="motion-row">
+      <div class="mot"><div class="name">Hover</div><div class="v">120ms · ease</div><div class="use">Цвет, фон, бордер. Без translate.</div></div>
+      <div class="mot"><div class="name">Lift</div><div class="v">200ms · ease-out</div><div class="use">translateY(-1px) + soft shadow на карточках.</div></div>
+      <div class="mot"><div class="name">Flip</div><div class="v">500ms · cubic-bezier(.4,.2,.2,1)</div><div class="use">Флеш-карта переворот, 3D.</div></div>
+      <div class="mot"><div class="name">Glyph lit</div><div class="v">400ms · ease</div><div class="use">Подсветка тайского символа в hero.</div></div>
+      <div class="mot"><div class="name">Pulse · rec</div><div class="v">1.2s · infinite</div><div class="use">Точка записи голоса. Единственная зацикленная анимация.</div></div>
+      <div class="mot"><div class="name">Page</div><div class="v">240ms · fade</div><div class="use">Между уроками. Без слайдов.</div></div>
+    </div>
+  </section>
+
+  <section id="voice">
+    <div class="sec"><h2>Голос и копирайт</h2><span class="num">08</span></div>
+    <p>Тон — наставник, не учитель. Спокойный, в меру ироничный, никогда не торопит. Курс читается как эссе, а не туториал.</p>
+    <p><strong>Можно</strong>: «Найдите тихое место», «попробуйте ещё раз», «не учите буквы — учите звуки».</p>
+    <p><strong>Нельзя</strong>: «давайте!», «правильно!», «🎉», «осталось всего 5 уроков!», восклицания и эмодзи. Числительные курсивом, как в книгах: <em>день первый</em>, не «День 1».</p>
+  </section>
+
+  <hr class="rule" style="margin: 80px 0 28px"/>
+  <div style="display:flex; justify-content:space-between; font-size:12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3);">
+    <span>— 10daysthai design system</span>
+    <span>v1.0 · May 2026</span>
+  </div>
+</div>
+</body>
+</html>

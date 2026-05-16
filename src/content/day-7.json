@@ -42,17 +42,20 @@
         {
           "thai": "หญิง",
           "translit": "/yĭng/",
-          "meaning": "female"
+          "meaning": "female",
+          "meaningRu": "женщина"
         },
         {
           "thai": "ใหญ่",
           "translit": "/yài/",
-          "meaning": "big"
+          "meaning": "big",
+          "meaningRu": "большой"
         },
         {
           "thai": "หญ้า",
           "translit": "/yâa/",
-          "meaning": "grass"
+          "meaning": "grass",
+          "meaningRu": "трава"
         }
       ]
     },
@@ -81,7 +84,8 @@
         {
           "thai": "เหรียญ",
           "translit": "/rĭan/",
-          "meaning": "coin"
+          "meaning": "coin",
+          "meaningRu": "монета"
         }
       ]
     },
@@ -100,7 +104,8 @@
         {
           "thai": "บังเอิญ",
           "translit": "/bung-ern/",
-          "meaning": "coincidence"
+          "meaning": "coincidence",
+          "meaningRu": "совпадение"
         }
       ]
     },
@@ -389,12 +394,14 @@
         {
           "thai": "ทรู",
           "translit": "/troo/",
-          "meaning": "true"
+          "meaning": "true",
+          "meaningRu": "«true» — истина"
         },
         {
           "thai": "ดรัก",
           "translit": "/drúk/",
-          "meaning": "drug"
+          "meaning": "drug",
+          "meaningRu": "«drug» — лекарство"
         },
         {
           "thai": "บลิง",
@@ -409,17 +416,20 @@
         {
           "thai": "เชรด",
           "translit": "/chràyt/",
-          "meaning": "shred"
+          "meaning": "shred",
+          "meaningRu": "«shred» — клочок"
         },
         {
           "thai": "ฟลาย",
           "translit": "/flaai/",
-          "meaning": "fly"
+          "meaning": "fly",
+          "meaningRu": "«fly» — летать"
         },
         {
           "thai": "เบรค",
           "translit": "/bràyk/",
-          "meaning": "brake"
+          "meaning": "brake",
+          "meaningRu": "«brake» — тормоз"
         }
       ]
     },
@@ -591,24 +601,28 @@
           "thai": "เขม่า",
           "translit": "/kàmào/",
           "meaning": "soot",
+          "meaningRu": "сажа",
           "note": "NEVER ขเม่า"
         },
         {
           "thai": "เกษียณ",
           "translit": "/gàsĭan/",
           "meaning": "retire",
+          "meaningRu": "выйти на пенсию",
           "note": "NEVER กเษียณ"
         },
         {
           "thai": "กลับ",
           "translit": "/glùp/",
           "meaning": "return",
+          "meaningRu": "возвращаться",
           "note": "NEVER กัลบ"
         },
         {
           "thai": "พรุ่งนี้",
           "translit": "/prôo'ng-née/",
           "meaning": "tomorrow",
+          "meaningRu": "завтра",
           "note": "NEVER พุ่รงนี้"
         }
       ]

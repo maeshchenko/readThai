@@ -1,16 +1,16 @@
 {
-  "name": "Read Thai in 10 Days",
+  "name": "Читай по-тайски за 10 дней",
   "short_name": "Read Thai",
-  "description": "Learn to read Thai script step by step. 10 lessons, native audio, voice practice.",
+  "description": "Книжный курс тайского письма. 10 уроков, 85 нативных аудио, тренировка голоса.",
   "id": "/readThai/",
   "start_url": "/readThai/",
   "scope": "/readThai/",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait",
-  "theme_color": "#0b0c10",
-  "background_color": "#0b0c10",
-  "lang": "en",
+  "theme_color": "#f3ece0",
+  "background_color": "#f3ece0",
+  "lang": "ru",
   "categories": ["education", "books", "productivity"],
   "icons": [
     {
@@ -49,12 +49,6 @@
       "name": "Continue learning",
       "short_name": "Continue",
       "url": "/readThai/?action=continue",
-      "icons": [{ "src": "/readThai/icons/icon-192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Glossary",
-      "short_name": "Glossary",
-      "url": "/readThai/glossary",
       "icons": [{ "src": "/readThai/icons/icon-192.png", "sizes": "192x192" }]
     },
     {

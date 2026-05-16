@@ -1,60 +1,136 @@
-import { useLocation, Link, useNavigate } from 'react-router-dom'
+import { useEffect, useMemo, useState } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useEffect, useRef, useState } from 'react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { motion, useMotionValue, useTransform, type PanInfo } from 'framer-motion'
 import { getChapterBySlug, getAdjacentChapters } from '@/lib/chapters'
-import { useProgressStore, useReaderStore } from '@/lib/stores'
-import { useIsMobile } from '@/hooks/useMediaQuery'
+import { useProgressStore } from '@/lib/stores'
 import { ContentRenderer } from '@/components/content/ContentRenderer'
-import { ChapterSkeleton } from '@/components/ui/Skeleton'
-import { cn } from '@/lib/cn'
-import { haptic } from '@/lib/haptic'
 import { loadChapter, prefetchChapter } from '@/lib/chapterLoader'
-import type { Chapter } from '@/lib/contentTypes'
+import { Icon } from '@/components/ui/Icon'
+import { SEO } from '@/components/seo/SEO'
+import type { Chapter, Block } from '@/lib/contentTypes'
 
-const FONT_SIZE_CLASS = {
-  sm: 'text-[15px] leading-[1.7]',
-  md: 'text-[17px] leading-[1.75]',
-  lg: 'text-[19px] leading-[1.8]',
+const LESSON_TAGS_RU: Record<string, string> = {
+  'preface':      'предисловие',
+  'introduction': 'введение',
+  'pronunciation':'произношение · 8 треков',
+  'day-1':        'согласные · LC1',
+  'day-2':        'финальные согласные',
+  'day-3':        'краткие гласные',
+  'day-4':        'кластеры с อ',
+  'day-5':        'пять тонов',
+  'intermission': 'передышка',
+  'day-6':        'высокий класс',
+  'day-7':        'двойные начала',
+  'day-8':        'особые согласные',
+  'day-9':        'тон-маркеры',
+  'preliminary':  'перед финалом',
+  'last-day':     'чтение текста',
+  'glossary':     'глоссарий',
+}
+const LESSON_TAGS_EN: Record<string, string> = {
+  'preface':      'preface',
+  'introduction': 'introduction',
+  'pronunciation':'pronunciation · 8 tracks',
+  'day-1':        'consonants · LC1',
+  'day-2':        'final consonants',
+  'day-3':        'short vowels',
+  'day-4':        'clusters with อ',
+  'day-5':        'five tones',
+  'intermission': 'breather',
+  'day-6':        'high class',
+  'day-7':        'initial clusters',
+  'day-8':        'special consonants',
+  'day-9':        'tone markers',
+  'preliminary':  'before finale',
+  'last-day':     'reading text',
+  'glossary':     'glossary',
+}
+
+const SPECIAL = new Set(['preface', 'introduction', 'pronunciation', 'intermission', 'preliminary'])
+
+function splitTitle(title: string): { eyebrow: string | null; main: string } {
+  const m = title.match(/^([^:]+):\s*(.+)$/)
+  if (m) return { eyebrow: m[1].trim(), main: m[2].trim() }
+  return { eyebrow: null, main: title }
+}
+
+function stripHtml(html: string): string {
+  if (typeof document === 'undefined') return html.replace(/<[^>]+>/g, '')
+  const d = document.createElement('div')
+  d.innerHTML = html
+  return d.textContent || d.innerText || ''
+}
+
+function firstParagraph(blocks: Block[], ru: boolean): string | null {
+  for (const b of blocks) {
+    if (b.type === 'heading' && b.level === 1) continue
+    if (b.type === 'paragraph') {
+      const text = stripHtml((ru && b.htmlRu) || b.html).trim()
+      if (text.length > 20) return text
+    }
+  }
+  return null
+}
+
+function countItems(blocks: Block[]): number {
+  let n = 0
+  for (const b of blocks) {
+    if (b.type === 'examples') n += b.items.length
+    else if (b.type === 'thaiExample') n += 1
+    else if (b.type === 'thaiTable') n += b.rows.length
+  }
+  return n
+}
+
+function countExercises(blocks: Block[]): number {
+  return blocks.filter((b) => b.type === 'exercise').length
+}
+
+function collectSections(blocks: Block[], ru: boolean): { id: string; label: string }[] {
+  const out: { id: string; label: string }[] = []
+  for (const b of blocks) {
+    if (b.type === 'heading' && b.level === 2) {
+      const text = (ru && b.textRu) || b.text
+      const id = text.toLowerCase().replace(/[^\wЀ-ӿ฀-๿]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'section'
+      out.push({ id, label: text })
+    }
+  }
+  return out
 }
 
 export function ChapterPage() {
   const location = useLocation()
   const navigate = useNavigate()
-  const slug = location.pathname.replace(/^\//, '')
-  const { i18n, t } = useTranslation()
-  const lang = i18n.language as 'en' | 'ru'
-  const { setLastChapter } = useProgressStore()
-  const { fontSize } = useReaderStore()
-  const isMobile = useIsMobile()
+  const slug = location.pathname.replace(/^\/+/, '')
+  const { i18n } = useTranslation()
+  const ru = i18n.language === 'ru'
+  const setLastChapter = useProgressStore((s) => s.setLastChapter)
+
   const [chapter, setChapter] = useState<Chapter | null>(null)
   const [loading, setLoading] = useState(true)
+  const [activeSec, setActiveSec] = useState<string | null>(null)
 
   const meta = getChapterBySlug(slug)
   const { prev, next } = getAdjacentChapters(slug)
 
   useEffect(() => {
+    const m = slug.match(/^appendix-(i{1,3}|iv|v)$/i)
+    if (m) {
+      navigate('/appendix/' + m[1].toLowerCase(), { replace: true })
+    }
+  }, [slug, navigate])
+
+  useEffect(() => {
     if (!slug) return
     setLastChapter(slug)
     setLoading(true)
+    setChapter(null)
     window.scrollTo(0, 0)
-
     let cancelled = false
     loadChapter(slug)
-      .then((data) => {
-        if (cancelled) return
-        setChapter(data)
-        setLoading(false)
-      })
-      .catch(() => {
-        if (cancelled) return
-        setChapter(null)
-        setLoading(false)
-      })
-    return () => {
-      cancelled = true
-    }
+      .then((data) => { if (!cancelled) { setChapter(data); setLoading(false) } })
+      .catch(() => { if (!cancelled) { setChapter(null); setLoading(false) } })
+    return () => { cancelled = true }
   }, [slug, setLastChapter])
 
   useEffect(() => {
@@ -64,167 +140,166 @@ export function ChapterPage() {
     }
   }, [next?.slug])
 
+  const sections = useMemo(
+    () => (chapter ? collectSections(chapter.blocks, ru) : []),
+    [chapter, ru],
+  )
+
+  useEffect(() => {
+    if (!sections.length) return
+    const onScroll = () => {
+      let cur = sections[0]?.id ?? null
+      for (const s of sections) {
+        const el = document.getElementById(s.id)
+        if (!el) continue
+        if (el.getBoundingClientRect().top < 140) cur = s.id
+      }
+      setActiveSec(cur)
+    }
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [sections])
+
   if (!meta) {
     return (
-      <div className="py-20 text-center">
-        <p className="text-lg text-[var(--color-on-surface-muted)]">Chapter not found</p>
-        <Link to="/" className="btn btn-primary mt-4">{t('nav.home')}</Link>
+      <div className="lesson-view fade-in">
+        <SEO
+          title={ru ? 'Страница не найдена — Читай по-тайски' : 'Not found — Read Thai'}
+          description={ru ? 'Такой главы нет. Вернитесь к оглавлению.' : 'No such chapter. Back to contents.'}
+          path={'/' + slug}
+          ogImage="/og/default.png"
+          locale={ru ? 'ru' : 'en'}
+          type="website"
+        />
+        <div className="lv-eyebrow"><span>{ru ? 'не найдено' : 'not found'}</span></div>
+        <h1 className="lv-title">{ru ? 'Глава не найдена' : 'Chapter not found'}</h1>
+        <p className="lv-deck">
+          {ru ? 'Похоже, такой главы нет. Вернёмся к оглавлению.' : 'No such chapter. Back to contents.'}
+        </p>
+        <button type="button" className="btn" onClick={() => navigate('/')}>
+          <Icon name="arrowL" size={13} /> {ru ? 'к оглавлению' : 'to contents'}
+        </button>
       </div>
     )
   }
 
-  const title = lang === 'ru' ? meta.titleRu : meta.titleEn
+  const title = ru ? meta.titleRu : meta.titleEn
+  const { eyebrow: titleEyebrow, main: titleMain } = splitTitle(title)
+  const tag = (ru ? LESSON_TAGS_RU[slug] : LESSON_TAGS_EN[slug]) || (ru ? 'глава' : 'chapter')
+  const day = titleEyebrow || (ru ? 'глава' : 'chapter')
+
+  const deck = chapter ? firstParagraph(chapter.blocks, ru) : null
+  const itemsCount = chapter ? countItems(chapter.blocks) : 0
+  const exerciseCount = chapter ? countExercises(chapter.blocks) : 0
+  const minutes = Math.max(8, meta.tracks.length * 3 + (chapter?.blocks.length ?? 0) > 30 ? 22 : 14)
+
+  const ogSlug = slug.replace(/\//g, '-')
+  const firstTrack = meta.tracks[0]
+  const audioUrl = firstTrack ? `${import.meta.env.BASE_URL}audio/${String(firstTrack).padStart(3, '0')}.mp3` : undefined
+  const seoTitle = `${ru ? meta.titleRu : meta.titleEn} — ${ru ? 'Читай по-тайски за 10 дней' : 'Read Thai in 10 Days'}`
+  const seoDesc = (deck && deck.length > 30)
+    ? deck.replace(/\s+/g, ' ').trim().slice(0, 200)
+    : (ru
+      ? 'Глава учебника «Читай по-тайски за 10 дней». Тайское письмо, аудио, упражнения.'
+      : 'Chapter from "Read Thai in 10 Days". Thai script, audio, drills.')
 
   return (
-    <>
-      <SwipeableChapter
-        slug={slug}
-        prevSlug={prev?.slug}
-        nextSlug={next?.slug}
-        enabled={isMobile}
-        navigate={navigate}
-      >
-        <article className={cn('mx-auto max-w-3xl', FONT_SIZE_CLASS[fontSize])}>
-          <h1 className="mb-3 text-[26px] font-bold leading-[1.15] tracking-tight text-balance md:mb-8 md:text-4xl md:leading-tight">
-            {title}
-          </h1>
-          {meta.tracks.length > 0 && (
-            <p className="mb-6 hidden text-sm text-[var(--color-on-surface-muted)] md:block">
-              {meta.tracks.length} {lang === 'ru' ? 'аудио-треков' : 'audio tracks'}
-            </p>
-          )}
+    <div className="lesson-view fade-in">
+      <SEO
+        title={seoTitle}
+        description={seoDesc}
+        path={'/' + slug}
+        ogImage={`/og/${ogSlug}.png`}
+        locale={ru ? 'ru' : 'en'}
+        type="article"
+        audio={audioUrl}
+        publishedTime="2014-10-21T00:00:00Z"
+        modifiedTime="2026-05-16T00:00:00Z"
+      />
+      <div className="lv-eyebrow">
+        <span>{tag}</span>
+        <span className="day">— {day}</span>
+      </div>
+      <h1 className="lv-title">
+        {SPECIAL.has(slug) || !titleEyebrow ? titleMain : <>{titleMain.split(' ').map((w, i, arr) => (
+          i === arr.length - 1 ? <em key={i}>{w}</em> : <span key={i}>{w} </span>
+        ))}</>}
+      </h1>
+      {deck && <p className="lv-deck">{deck}</p>}
+      <div className="lv-meta">
+        <span>≈ <b>{minutes} {ru ? 'минут' : 'min'}</b></span>
+        {meta.tracks.length > 0 && <span><b>{meta.tracks.length}</b> {ru ? 'аудио‑треков' : 'audio tracks'}</span>}
+        {itemsCount > 0 && <span><b>{itemsCount}</b> {ru ? 'символов' : 'items'}</span>}
+        {exerciseCount > 0 && <span><b>{exerciseCount}</b> {ru ? 'упражнений' : 'exercises'}</span>}
+      </div>
 
-          {loading ? (
-            <ChapterSkeleton />
-          ) : chapter ? (
-            <ContentRenderer blocks={chapter.blocks} footnotes={chapter.footnotes} footnotesRu={chapter.footnotesRu} />
-          ) : (
-            <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface-dim)] p-8 text-center">
-              <p className="text-[var(--color-on-surface-muted)]">
-                {lang === 'ru' ? 'Содержимое этой главы готовится. Скоро будет!' : 'Content for this chapter is being prepared. Check back soon!'}
-              </p>
+      <article className="prose">
+        {loading && (
+          <p style={{ color: 'var(--ink-3)', fontStyle: 'italic' }}>
+            {ru ? 'Загружаем главу…' : 'Loading chapter…'}
+          </p>
+        )}
+        {chapter && <ContentRenderer chapter={chapter} skipDeckText={deck} />}
+        {!loading && !chapter && (
+          <p>{ru ? 'Эта глава пока готовится.' : 'This chapter is being prepared.'}</p>
+        )}
+
+        {next && (
+          <div className="next-up">
+            <div>
+              <div className="nlabel">{ru ? 'Далее' : 'Next'}</div>
+              <div className="nt">
+                {(ru ? next.titleRu : next.titleEn).includes(':') ? (
+                  <>
+                    {splitTitle(ru ? next.titleRu : next.titleEn).eyebrow} ·{' '}
+                    <em>{splitTitle(ru ? next.titleRu : next.titleEn).main}</em>
+                  </>
+                ) : (
+                  <em>{ru ? next.titleRu : next.titleEn}</em>
+                )}
+              </div>
             </div>
-          )}
+            <button type="button" className="btn" onClick={() => navigate('/' + next.slug)}>
+              {ru ? 'Открыть' : 'Open'} <Icon name="arrow" size={13} />
+            </button>
+          </div>
+        )}
 
-          <PrevNextNav prev={prev} next={next} lang={lang} />
-        </article>
-      </SwipeableChapter>
-    </>
-  )
-}
+        <nav className="chapter-nav">
+          {prev ? (
+            <button type="button" className="cn-card cn-prev" onClick={() => navigate('/' + prev.slug)}>
+              <span className="cn-label"><Icon name="arrowL" size={11} /> {ru ? 'Предыдущая' : 'Previous'}</span>
+              <span className="cn-title">{ru ? prev.titleRu : prev.titleEn}</span>
+            </button>
+          ) : <span className="cn-spacer" aria-hidden="true" />}
+          <button type="button" className="cn-card cn-home" onClick={() => navigate('/')}>
+            <span className="cn-label">{ru ? 'Оглавление' : 'Contents'}</span>
+            <span className="cn-title">{ru ? 'Все главы' : 'All chapters'}</span>
+          </button>
+          {next ? (
+            <button type="button" className="cn-card cn-next" onClick={() => navigate('/' + next.slug)}>
+              <span className="cn-label">{ru ? 'Следующая' : 'Next'} <Icon name="arrow" size={11} /></span>
+              <span className="cn-title">{ru ? next.titleRu : next.titleEn}</span>
+            </button>
+          ) : <span className="cn-spacer" aria-hidden="true" />}
+        </nav>
+      </article>
 
-function PrevNextNav({
-  prev,
-  next,
-  lang,
-}: {
-  prev: ReturnType<typeof getAdjacentChapters>['prev']
-  next: ReturnType<typeof getAdjacentChapters>['next']
-  lang: 'en' | 'ru'
-}) {
-  return (
-    <nav className="mt-12 grid grid-cols-2 gap-3 border-t border-[var(--color-hairline)] pt-6">
-      {prev ? (
-        <Link
-          to={`/${prev.slug}`}
-          onClick={() => haptic('selection')}
-          className="group flex items-center gap-2.5 rounded-2xl bg-[var(--color-surface-elevated)] p-3.5 ring-1 ring-[var(--color-hairline)] transition-all active:scale-[0.98]"
-        >
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[var(--color-surface-dim)] text-[var(--color-on-surface-muted)]">
-            <ChevronLeft size={18} />
-          </span>
-          <span className="min-w-0 flex-1 text-left">
-            <span className="block text-[10px] font-semibold uppercase tracking-wider text-[var(--color-on-surface-faint)]">
-              {lang === 'ru' ? 'Назад' : 'Previous'}
-            </span>
-            <span className="block truncate text-[13px] font-medium leading-tight">
-              {lang === 'ru' ? prev.titleRu : prev.titleEn}
-            </span>
-          </span>
-        </Link>
-      ) : <span />}
-      {next ? (
-        <Link
-          to={`/${next.slug}`}
-          onClick={() => haptic('selection')}
-          className="group flex items-center gap-2.5 rounded-2xl bg-gradient-to-br from-[var(--color-primary-600)] to-[var(--color-primary-500)] p-3.5 text-white shadow-[0_8px_24px_-12px_rgba(74,82,214,0.55)] transition-all active:scale-[0.98] col-start-2"
-        >
-          <span className="min-w-0 flex-1 text-right">
-            <span className="block text-[10px] font-semibold uppercase tracking-wider text-white/80">
-              {lang === 'ru' ? 'Далее' : 'Next'}
-            </span>
-            <span className="block truncate text-[13px] font-medium leading-tight">
-              {lang === 'ru' ? next.titleRu : next.titleEn}
-            </span>
-          </span>
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 backdrop-blur">
-            <ChevronRight size={18} />
-          </span>
-        </Link>
-      ) : <span />}
-    </nav>
-  )
-}
-
-function SwipeableChapter({
-  slug,
-  prevSlug,
-  nextSlug,
-  enabled,
-  navigate,
-  children,
-}: {
-  slug: string
-  prevSlug?: string
-  nextSlug?: string
-  enabled: boolean
-  navigate: ReturnType<typeof useNavigate>
-  children: React.ReactNode
-}) {
-  const x = useMotionValue(0)
-  const opacity = useTransform(x, [-200, 0, 200], [0.6, 1, 0.6])
-  const containerRef = useRef<HTMLDivElement>(null)
-
-  if (!enabled) {
-    return (
-      <motion.div
-        key={slug}
-        initial={{ opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }}
-      >
-        {children}
-      </motion.div>
-    )
-  }
-
-  const onDragEnd = (_e: unknown, info: PanInfo) => {
-    const dx = info.offset.x
-    const vx = info.velocity.x
-    if ((dx < -120 || vx < -600) && nextSlug) {
-      haptic('selection')
-      navigate(`/${nextSlug}`)
-    } else if ((dx > 120 || vx > 600) && prevSlug) {
-      haptic('selection')
-      navigate(`/${prevSlug}`)
-    }
-  }
-
-  return (
-    <motion.div
-      ref={containerRef}
-      key={slug}
-      style={{ x, opacity, touchAction: 'pan-y' }}
-      drag="x"
-      dragConstraints={{ left: 0, right: 0 }}
-      dragElastic={0.18}
-      dragDirectionLock
-      onDragEnd={onDragEnd}
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.25 }}
-    >
-      {children}
-    </motion.div>
+      {sections.length > 0 && (
+        <aside className="toc">
+          <div className="toc-label">{ru ? 'в этой главе' : 'in this chapter'}</div>
+          {sections.map((s) => (
+            <a
+              key={s.id}
+              className={activeSec === s.id ? 'active' : ''}
+              onClick={() => document.getElementById(s.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+            >
+              {s.label}
+            </a>
+          ))}
+        </aside>
+      )}
+    </div>
   )
 }

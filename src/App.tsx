@@ -3,7 +3,6 @@ import { useEffect } from 'react'
 import { Layout } from '@/components/layout/Layout'
 import { HomePage } from '@/pages/HomePage'
 import { ChapterPage } from '@/pages/ChapterPage'
-import { GlossaryPage } from '@/pages/GlossaryPage'
 
 const BASENAME = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') || '/'
 
@@ -31,7 +30,6 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path="glossary" element={<GlossaryPage />} />
           <Route path="*" element={<ChapterPage />} />
         </Route>
       </Routes>

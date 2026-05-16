@@ -1,220 +1,453 @@
-import { useEffect, useRef } from 'react'
+import { Fragment, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import type { Block, ExampleItem } from '@/lib/contentTypes'
-import { TrackCard } from '@/components/audio/TrackCard'
-import { ThaiExample } from './ThaiExample'
-import { ThaiTable } from './ThaiTable'
-import { ExerciseBlock } from './ExerciseBlock'
-import { RecapBlock } from './RecapBlock'
-import { CalloutBlock } from './CalloutBlock'
-import { ImageBlock } from './ImageBlock'
-import { ExampleGroup } from './ExampleGroup'
-import { RuleBlock } from './RuleBlock'
-import { PreviewBlock } from './PreviewBlock'
+import type { Block, ExampleItem, Chapter } from '@/lib/contentTypes'
+import { CharGrid, type CharItem } from './CharGrid'
+import { SyllableTryIt, type SylItem } from './SyllableTryIt'
+import { Player } from './Player'
+import { RefTable } from './RefTable'
+import type { DeckItem } from './Flashcards'
+import { MultiChoice, type MCItem } from './MultiChoice'
+import { VoiceTrainer } from '@/components/practice/VoiceTrainer'
 
 interface Props {
-  blocks: Block[]
-  footnotes: Record<number, string>
-  footnotesRu?: Record<number, string>
+  chapter: Chapter
+  skipDeckText?: string | null
 }
 
-const THAI_RE = /[\u0E00-\u0E7F]/
+const THAI_RE = /[฀-๿]/
 const PAGE_NUM_RE = /^\d{1,3}$/
 
 function isPureThaiShort(text: string): boolean {
   const s = text.trim()
   if (!s || s.length > 40) return false
   if (!THAI_RE.test(s)) return false
-  return /^[\u0E00-\u0E7F\s()\-]+$/.test(s)
+  return /^[฀-๿\s()\-*]+$/.test(s)
 }
 
-function preprocessBlocks(blocks: Block[]): Block[] {
+function slugify(s: string): string {
+  return s.toLowerCase()
+    .replace(/[^\wЀ-ӿ฀-๿]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 40) || 'section'
+}
+
+function adjacentTrackNumber(blocks: Block[], idx: number): number | undefined {
+  for (let j = Math.max(0, idx - 2); j <= Math.min(blocks.length - 1, idx + 2); j++) {
+    if (j === idx) continue
+    const b = blocks[j]
+    if (b.type === 'track') return b.number
+  }
+  return undefined
+}
+
+function preprocess(blocks: Block[]): Block[] {
   const filtered: Block[] = []
-  for (let idx = 0; idx < blocks.length; idx++) {
-    const b = blocks[idx]
-    if (idx === 0 && b.type === 'heading' && b.level === 1) continue
+  for (let i = 0; i < blocks.length; i++) {
+    const b = blocks[i]
+    if (i === 0 && b.type === 'heading' && b.level === 1) continue
+    if (b.type === 'heading' && b.level === 1) continue
     if (b.type === 'paragraph') {
-      const trimmed = b.html.trim()
-      if (!trimmed || PAGE_NUM_RE.test(trimmed)) continue
+      const s = b.html.trim()
+      if (!s || PAGE_NUM_RE.test(s)) continue
     }
     filtered.push(b)
   }
 
+  // Merge consecutive thai-only paragraphs into examples (chips)
   const merged: Block[] = []
-  let buffer: ExampleItem[] = []
-
-  const flushBuffer = () => {
-    if (buffer.length === 0) return
-    if (buffer.length === 1) {
-      merged.push({ type: 'paragraph', html: buffer[0].thai })
-    } else {
-      merged.push({ type: 'examples', layout: 'chips', items: buffer })
-    }
-    buffer = []
+  let buf: ExampleItem[] = []
+  const flush = () => {
+    if (!buf.length) return
+    if (buf.length === 1) merged.push({ type: 'paragraph', html: buf[0].thai })
+    else merged.push({ type: 'examples', layout: 'chips', items: buf })
+    buf = []
   }
-
   for (const b of filtered) {
     if (b.type === 'paragraph' && isPureThaiShort(b.html)) {
-      buffer.push({ thai: b.html.trim() })
+      buf.push({ thai: b.html.trim() })
       continue
     }
-    flushBuffer()
+    flush()
     merged.push(b)
   }
-  flushBuffer()
-
-  for (let i = 0; i < merged.length - 1; i++) {
-    const cur = merged[i]
-    const next = merged[i + 1]
-    if (
-      next.type === 'examples' &&
-      cur.type === 'list' &&
-      cur.items.length === 1 &&
-      /[.:!?]\s*$/.test(cur.items[0])
-    ) {
-      merged[i] = { type: 'rule', html: cur.items[0], emphasis: 'soft' }
-    }
-  }
-
+  flush()
   return merged
 }
 
-export function ContentRenderer({ blocks, footnotes, footnotesRu }: Props) {
-  const processed = preprocessBlocks(blocks)
+function collectDeck(blocks: Block[]): DeckItem[] {
+  const out: DeckItem[] = []
+  const seen = new Set<string>()
+  const add = (glyph: string, ipa?: string, name?: string, ru?: string) => {
+    const g = glyph.trim()
+    if (!g || !THAI_RE.test(g) || g.length > 16) return
+    if (seen.has(g)) return
+    seen.add(g)
+    out.push({ glyph: g, ipa, name, ru })
+  }
+  for (const b of blocks) {
+    if (b.type === 'thaiExample') add(b.thai, b.translit, b.meaning, b.meaningRu)
+    else if (b.type === 'examples') {
+      for (const it of b.items) add(it.thai, it.translit, it.meaning, it.meaningRu)
+    } else if (b.type === 'thaiTable') {
+      for (const r of b.rows) add(r.thai, r.translit, r.meaning, r.meaningRu)
+    }
+  }
+  return out.filter((d) => d.ipa)
+}
+
+function buildMC(deck: DeckItem[]): MCItem[] {
+  if (deck.length < 4) return []
+  return deck.map((d, i) => {
+    const others = deck.filter((_, j) => j !== i && deck[j].ipa).map((x) => x.ipa!) as string[]
+    const distractors: string[] = []
+    while (distractors.length < 3 && others.length) {
+      const r = Math.floor(Math.random() * others.length)
+      const pick = others[r]
+      others.splice(r, 1)
+      if (pick && pick !== d.ipa) distractors.push(pick)
+    }
+    return { glyph: d.glyph, correct: d.ipa!, distractors }
+  })
+}
+
+function stripHtmlText(html: string): string {
+  if (typeof document === 'undefined') return html.replace(/<[^>]+>/g, '')
+  const d = document.createElement('div')
+  d.innerHTML = html
+  return (d.textContent || d.innerText || '').trim()
+}
+
+export function ContentRenderer({ chapter, skipDeckText }: Props) {
   const { i18n } = useTranslation()
   const lang = i18n.language as 'en' | 'ru'
-  return (
-    <div className="prose-content space-y-6">
-      {processed.map((block, i) => (
-        <BlockReveal key={i} index={i}>
-          <BlockRenderer block={block} footnotes={footnotes} footnotesRu={footnotesRu} lang={lang} />
-        </BlockReveal>
-      ))}
-    </div>
-  )
-}
-
-function BlockReveal({ index, children }: { index: number; children: React.ReactNode }) {
-  const ref = useRef<HTMLDivElement>(null)
-  const eager = index < 4
-
-  useEffect(() => {
-    const el = ref.current
-    if (!el) return
-    if (eager) {
-      el.classList.add('block-reveal-in')
-      return
-    }
-    const obs = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            el.classList.add('block-reveal-in')
-            obs.disconnect()
-          }
-        }
-      },
-      { rootMargin: '0px 0px -8% 0px', threshold: 0.05 },
-    )
-    obs.observe(el)
-    return () => obs.disconnect()
-  }, [eager])
-
-  return (
-    <div ref={ref} className="block-reveal" data-eager={eager ? '' : undefined}>
-      {children}
-      <style>{`
-        .block-reveal {
-          opacity: 0;
-          transform: translateY(8px);
-          transition: opacity 320ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 320ms cubic-bezier(0.2, 0.8, 0.2, 1);
-          will-change: opacity, transform;
-        }
-        .block-reveal-in {
-          opacity: 1;
-          transform: translateY(0);
-        }
-        .block-reveal[data-eager] {
-          opacity: 1;
-          transform: none;
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .block-reveal { opacity: 1; transform: none; transition: none; }
-        }
-      `}</style>
-    </div>
-  )
-}
-
-function BlockRenderer({ block, footnotes, footnotesRu, lang }: { block: Block; footnotes: Record<number, string>; footnotesRu?: Record<number, string>; lang: 'en' | 'ru' }) {
   const ru = lang === 'ru'
-  switch (block.type) {
-    case 'heading':
-      return <HeadingBlock level={block.level} text={(ru && block.textRu) || block.text} />
-    case 'paragraph':
-      return <p className="leading-relaxed text-[var(--color-on-surface)]" dangerouslySetInnerHTML={{ __html: (ru && block.htmlRu) || block.html }} />
-    case 'list': {
-      const items = (ru && block.itemsRu) || block.items
-      return block.ordered ? (
-        <ol className="list-decimal space-y-1.5 pl-6 marker:text-[var(--color-on-surface-faint)]">
-          {items.map((item, i) => <li key={i} dangerouslySetInnerHTML={{ __html: item }} />)}
-        </ol>
-      ) : (
-        <ul className="list-disc space-y-1.5 pl-6 marker:text-[var(--color-on-surface-faint)]">
-          {items.map((item, i) => <li key={i} dangerouslySetInnerHTML={{ __html: item }} />)}
-        </ul>
-      )
-    }
-    case 'callout':
-      return <CalloutBlock variant={block.variant} html={(ru && block.htmlRu) || block.html} />
-    case 'rule':
-      return <RuleBlock html={(ru && block.htmlRu) || block.html} emphasis={block.emphasis} eyebrow={block.eyebrow} />
-    case 'examples':
-      return <ExampleGroup items={block.items} layout={block.layout} eyebrow={block.eyebrow} lang={lang} />
-    case 'track':
-      return <TrackCard trackNumber={block.number} label={block.label} />
-    case 'thaiExample':
-      return <ThaiExample thai={block.thai} translit={block.translit} meaning={(ru && block.meaningRu) || block.meaning} tone={block.tone} />
-    case 'thaiTable':
-      return (
-        <ThaiTable
-          columns={(ru && block.columnsRu) || block.columns}
-          rows={block.rows}
-          headerRows={block.headerRows}
-          stickyFirstCol={block.stickyFirstCol}
-          lang={lang}
-        />
-      )
-    case 'image':
-      return <ImageBlock src={block.src} alt={block.alt} caption={(ru && block.captionRu) || block.caption} />
-    case 'exercise':
-      return <ExerciseBlock instruction={(ru && block.instructionRu) || block.instruction} items={block.items} trackNumber={block.trackNumber} answerKey={(ru && block.answerKeyRu) || block.answerKey} />
-    case 'recap':
-      return <RecapBlock items={(ru && block.itemsRu) || block.items} />
-    case 'preview':
-      return <PreviewBlock html={(ru && block.htmlRu) || block.html} />
-    case 'divider':
-      return <hr className="my-2 border-0 border-t border-[var(--color-hairline)]" />
-    case 'footnoteRef': {
-      const fn = (ru && footnotesRu?.[block.id]) || footnotes[block.id] || ''
-      return (
-        <aside className="rounded-2xl bg-[var(--color-surface-dim)] px-4 py-3 text-sm ring-1 ring-[var(--color-hairline)]">
-          <span className="font-mono text-xs text-[var(--color-on-surface-muted)]">[{block.id}] </span>
-          {fn}
-        </aside>
-      )
-    }
-    default:
-      return null
-  }
+  const blocks = useMemo(() => {
+    const pre = preprocess(chapter.blocks)
+    if (!skipDeckText) return pre
+    const target = skipDeckText.trim()
+    let skipped = false
+    return pre.filter((b) => {
+      if (skipped) return true
+      if (b.type === 'paragraph') {
+        const txt = stripHtmlText((ru && b.htmlRu) || b.html)
+        if (txt === target) {
+          skipped = true
+          return false
+        }
+      }
+      return true
+    })
+  }, [chapter.blocks, skipDeckText, ru])
+  const deck = useMemo(() => collectDeck(blocks), [blocks])
+  const mc = useMemo(() => buildMC(deck), [deck])
+
+  let sectionCounter = 0
+  let firstParaSeen = false
+
+  return (
+    <Fragment>
+      {blocks.map((b, i) => {
+        const block = (() => {
+          switch (b.type) {
+            case 'heading': {
+              if (b.level === 2) {
+                sectionCounter += 1
+                firstParaSeen = false
+                const text = (ru && b.textRu) || b.text
+                const id = slugify(text)
+                return (
+                  <h3 id={id} key={i}>
+                    <span className="secnum">§ {sectionCounter}</span>
+                    {text}
+                  </h3>
+                )
+              }
+              if (b.level === 3) {
+                const text = (ru && b.textRu) || b.text
+                return <h4 key={i}>{text}</h4>
+              }
+              return null
+            }
+            case 'paragraph': {
+              const html = (ru && b.htmlRu) || b.html
+              const cls = firstParaSeen ? '' : 'drop'
+              firstParaSeen = true
+              return <p key={i} className={cls} dangerouslySetInnerHTML={{ __html: html }} />
+            }
+            case 'list': {
+              const items = (ru && b.itemsRu) || b.items
+              const Tag = b.ordered ? 'ol' : 'ul'
+              return (
+                <Tag key={i}>
+                  {items.map((it, j) => (
+                    <li key={j} dangerouslySetInnerHTML={{ __html: it }} />
+                  ))}
+                </Tag>
+              )
+            }
+            case 'callout':
+              return (
+                <blockquote key={i} className="note">
+                  <span className="eyebrow-inline">{calloutLabel(b.variant, ru)}</span>
+                  <span dangerouslySetInnerHTML={{ __html: (ru && b.htmlRu) || b.html }} />
+                </blockquote>
+              )
+            case 'rule':
+              return (
+                <blockquote key={i} className="note">
+                  {b.eyebrow && <span className="eyebrow-inline">{b.eyebrow}</span>}
+                  <span dangerouslySetInnerHTML={{ __html: (ru && b.htmlRu) || b.html }} />
+                </blockquote>
+              )
+            case 'track': {
+              return (
+                <Fragment key={i}>
+                  <Player
+                    trackNumber={b.number}
+                    label={b.label || (ru ? `Трек ${b.number}` : `Track ${b.number}`)}
+                    chapterSlug={chapter.slug}
+                    chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                  />
+                  <div className="practice-row">
+                    <VoiceTrainer
+                      sampleTrackNumber={b.number}
+                      chapterSlug={chapter.slug}
+                      chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                    />
+                  </div>
+                </Fragment>
+              )
+            }
+            case 'examples': {
+              const layout = b.layout || 'chips'
+              if (layout === 'inline') {
+                return (
+                  <p key={i}>
+                    {b.items.map((it, j) => (
+                      <Fragment key={j}>
+                        <span className="thai-inline">{it.thai}</span>
+                        {it.translit && <span> [{it.translit}]</span>}
+                        {it.meaning && <span> — {(ru && it.meaningRu) || it.meaning}</span>}
+                        {j < b.items.length - 1 && '; '}
+                      </Fragment>
+                    ))}
+                  </p>
+                )
+              }
+              if (layout === 'grid') {
+                const items: CharItem[] = b.items.map((it) => ({
+                  glyph: it.thai,
+                  ipa: it.translit,
+                  name: (ru && it.meaningRu) || it.meaning,
+                }))
+                return (
+                  <CharGrid
+                    key={i}
+                    items={items}
+                    columns={items.length > 8 ? 7 : items.length}
+                    trackNumber={adjacentTrackNumber(blocks, i)}
+                    chapterSlug={chapter.slug}
+                    chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                  />
+                )
+              }
+              // chips → syllable try-it
+              const sylItems: SylItem[] = b.items.map((it) => ({
+                glyph: it.thai,
+                ipa: it.translit,
+                ru: (ru && it.meaningRu) || it.meaning,
+              }))
+              return <SyllableTryIt key={i} items={sylItems} />
+            }
+            case 'thaiExample': {
+              const items: CharItem[] = [{
+                glyph: b.thai,
+                ipa: b.translit,
+                name: (ru && b.meaningRu) || b.meaning,
+              }]
+              return (
+                <CharGrid
+                  key={i}
+                  items={items}
+                  columns={1}
+                  trackNumber={adjacentTrackNumber(blocks, i)}
+                  chapterSlug={chapter.slug}
+                  chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                />
+              )
+            }
+            case 'thaiTable':
+              return (
+                <RefTable
+                  key={i}
+                  columns={(ru && b.columnsRu) || b.columns}
+                  rows={b.rows}
+                  headerRows={b.headerRows}
+                  lang={lang}
+                />
+              )
+            case 'image': {
+              const src = `${import.meta.env.BASE_URL}${b.src.replace(/^\//, '')}`
+              const caption = (ru && b.captionRu) || b.caption
+              return (
+                <figure key={i} className="book-figure">
+                  <img src={src} alt={b.alt} loading="lazy" />
+                  {caption && <figcaption>{caption}</figcaption>}
+                </figure>
+              )
+            }
+            case 'exercise': {
+              const items: DeckItem[] = b.items.map((it, j) => ({
+                glyph: it,
+                ipa: extractItemIpa(b.answerKey, j),
+                name: '',
+                ru: '',
+              })).filter((d) => d.glyph)
+              return (
+                <div key={i} className="tryit">
+                  <div className="ti-eyebrow">{ru ? 'Попробуйте' : 'Try it'}</div>
+                  <h4>{(ru && b.instructionRu) || b.instruction}</h4>
+                  <p className="ti-deck">
+                    {ru
+                      ? 'Сначала прочтите вслух, потом сверьтесь с ответом.'
+                      : 'Read aloud first, then check the answer.'}
+                  </p>
+                  {b.trackNumber != null && (
+                    <Player
+                      trackNumber={b.trackNumber}
+                      label={ru ? `Трек ${b.trackNumber}` : `Track ${b.trackNumber}`}
+                      chapterSlug={chapter.slug}
+                      chapterTitle={ru ? chapter.titleRu : chapter.titleEn}
+                    />
+                  )}
+                  {items.length >= 4 ? (
+                    <SyllableTryIt items={items.map((d) => ({ glyph: d.glyph, ipa: d.ipa, ru: d.ru }))} />
+                  ) : (
+                    <AnswerKey ru={ru} text={(ru && b.answerKeyRu) || b.answerKey} />
+                  )}
+                </div>
+              )
+            }
+            case 'recap': {
+              const items = (ru && b.itemsRu) || b.items
+              return (
+                <div key={i} className="summary">
+                  <div className="stamp">✦ {ru ? 'итоги дня' : 'today’s recap'} · {items.length} {ru ? 'пунктов' : 'points'}</div>
+                  <h4>{ru ? 'Что вы запомнили сегодня' : 'What you’ve learned today'}</h4>
+                  <ul>
+                    {items.map((it, j) => (
+                      <li key={j} dangerouslySetInnerHTML={{ __html: it }} />
+                    ))}
+                  </ul>
+                </div>
+              )
+            }
+            case 'preview': {
+              const html = (ru && b.htmlRu) || b.html
+              return (
+                <div key={i} className="next-up">
+                  <div>
+                    <div className="nlabel">{ru ? 'Завтра' : 'Tomorrow'}</div>
+                    <div className="nt" dangerouslySetInnerHTML={{ __html: html }} />
+                  </div>
+                </div>
+              )
+            }
+            case 'divider':
+              return <hr key={i} className="rule" />
+            case 'footnoteRef': {
+              const fn = (ru && chapter.footnotesRu?.[b.id]) || chapter.footnotes[b.id] || ''
+              return (
+                <FootnoteInline key={i} id={b.id} text={fn} />
+              )
+            }
+            default:
+              return null
+          }
+        })()
+        return block
+      })}
+
+      {/* Auto deck at end of chapter */}
+      {mc.length >= 4 && (
+        <div className="tryit">
+          <div className="ti-eyebrow">{ru ? 'Тренировка' : 'Drill'}</div>
+          <h4>{ru ? 'Выбор из вариантов' : 'Multiple choice'}</h4>
+          <p className="ti-deck">
+            {ru ? 'Выберите правильную транслитерацию для каждой буквы.' : 'Pick the correct transliteration for each letter.'}
+          </p>
+          <MultiChoice items={mc} />
+        </div>
+      )}
+    </Fragment>
+  )
 }
 
-function HeadingBlock({ level, text }: { level: 1 | 2 | 3; text: string }) {
-  const Tag = `h${level}` as const
-  const classes = {
-    1: 'text-3xl md:text-4xl font-bold mt-12 mb-5 tracking-tight text-balance',
-    2: 'text-2xl md:text-[1.625rem] font-semibold mt-10 mb-4 tracking-tight text-balance',
-    3: 'text-lg md:text-xl font-semibold mt-7 mb-3 tracking-tight text-balance',
-  }
-  return <Tag className={classes[level]}>{text}</Tag>
+function calloutLabel(variant: 'tip' | 'warning' | 'note', ru: boolean): string {
+  if (variant === 'tip') return ru ? 'Подсказка' : 'Tip'
+  if (variant === 'warning') return ru ? 'Внимание' : 'Heads up'
+  return ru ? 'Примечание' : 'Note'
+}
+
+function extractItemIpa(_answer: string | undefined, _idx: number): string | undefined {
+  return undefined
+}
+
+function FootnoteInline({ id, text }: { id: number; text: string }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <span style={{ display: 'inline' }}>
+      <sup
+        style={{ color: 'var(--accent)', cursor: 'pointer', marginLeft: 2, fontFamily: 'var(--mono)' }}
+        onClick={() => setOpen((v) => !v)}
+      >
+        [{id}]
+      </sup>
+      {open && (
+        <span
+          style={{
+            display: 'block',
+            marginTop: 8,
+            padding: '10px 14px',
+            border: '1px solid var(--rule)',
+            background: 'var(--paper-2)',
+            borderRadius: 4,
+            fontFamily: 'var(--serif)',
+            fontStyle: 'italic',
+            fontSize: 14,
+            color: 'var(--ink-2)',
+          }}
+          dangerouslySetInnerHTML={{ __html: text }}
+        />
+      )}
+    </span>
+  )
+}
+
+function AnswerKey({ ru, text }: { ru: boolean; text: string | undefined }) {
+  const [open, setOpen] = useState(false)
+  if (!text) return null
+  return (
+    <div style={{ marginTop: 12 }}>
+      <button type="button" className="pill-btn" onClick={() => setOpen((v) => !v)}>
+        {open ? (ru ? 'скрыть ответ' : 'hide answer') : (ru ? 'показать ответ' : 'show answer')}
+      </button>
+      {open && (
+        <div
+          style={{
+            marginTop: 12,
+            padding: '14px 16px',
+            border: '1px solid var(--rule)',
+            background: 'var(--paper)',
+            borderRadius: 4,
+            fontFamily: 'var(--serif)',
+            fontSize: 16,
+            lineHeight: 1.5,
+            color: 'var(--ink-2)',
+          }}
+          dangerouslySetInnerHTML={{ __html: text }}
+        />
+      )}
+    </div>
+  )
 }

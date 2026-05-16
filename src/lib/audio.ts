@@ -16,11 +16,6 @@ interface AudioState {
   duration: number
   currentTime: number
   playbackRate: number
-  autoNext: boolean
-  loop: boolean
-  sleepTimerEndsAt: number | null
-  miniHidden: boolean
-  showNowPlaying: boolean
   loadAndPlay: (track: Track) => Promise<void>
   togglePlay: () => void
   pause: () => void
@@ -29,11 +24,6 @@ interface AudioState {
   seek: (time: number) => void
   seekRelative: (delta: number) => void
   setRate: (r: number) => void
-  setAutoNext: (v: boolean) => void
-  setLoop: (v: boolean) => void
-  setSleepTimer: (mins: number | null) => void
-  hideMini: () => void
-  setShowNowPlaying: (v: boolean) => void
   setProgress: (currentTime: number, duration: number) => void
   setIsPlaying: (v: boolean) => void
   setIsLoading: (v: boolean) => void
@@ -41,11 +31,7 @@ interface AudioState {
 
 const persistKey = 'audioPrefs'
 
-interface PersistedPrefs {
-  playbackRate?: number
-  autoNext?: boolean
-  loop?: boolean
-}
+interface PersistedPrefs { playbackRate?: number }
 
 function loadPrefs(): PersistedPrefs {
   try {
@@ -65,9 +51,7 @@ let audioEl: HTMLAudioElement | null = null
 let endHandlers: Array<() => void> = []
 
 export function getAudioElement(): HTMLAudioElement {
-  if (typeof window === 'undefined') {
-    throw new Error('audio element requires window')
-  }
+  if (typeof window === 'undefined') throw new Error('audio element requires window')
   if (!audioEl) {
     audioEl = new Audio()
     audioEl.preload = 'metadata'
@@ -78,9 +62,7 @@ export function getAudioElement(): HTMLAudioElement {
 
 export function onTrackEnded(handler: () => void) {
   endHandlers.push(handler)
-  return () => {
-    endHandlers = endHandlers.filter((h) => h !== handler)
-  }
+  return () => { endHandlers = endHandlers.filter((h) => h !== handler) }
 }
 
 export function fireEnded() {
@@ -96,27 +78,18 @@ export const useAudio = create<AudioState>((set, get) => ({
   duration: 0,
   currentTime: 0,
   playbackRate: initialPrefs.playbackRate ?? 1,
-  autoNext: initialPrefs.autoNext ?? true,
-  loop: initialPrefs.loop ?? false,
-  sleepTimerEndsAt: null,
-  miniHidden: false,
-  showNowPlaying: false,
   loadAndPlay: async (track) => {
     const el = getAudioElement()
     const cur = get()
     if (cur.track?.id === track.id) {
       if (!cur.isPlaying) {
-        try {
-          await el.play()
-          set({ isPlaying: true })
-        } catch { /* noop */ }
+        try { await el.play(); set({ isPlaying: true }) } catch { /* noop */ }
       }
       return
     }
-    set({ track, isLoading: true, currentTime: 0, duration: 0, miniHidden: false })
+    set({ track, isLoading: true, currentTime: 0, duration: 0 })
     el.src = track.src
     el.playbackRate = cur.playbackRate
-    el.loop = cur.loop
     try {
       await el.play()
       set({ isPlaying: true, isLoading: false })
@@ -142,16 +115,13 @@ export const useAudio = create<AudioState>((set, get) => ({
   },
   resume: async () => {
     const el = getAudioElement()
-    try {
-      await el.play()
-      set({ isPlaying: true })
-    } catch { /* noop */ }
+    try { await el.play(); set({ isPlaying: true }) } catch { /* noop */ }
   },
   stop: () => {
     const el = getAudioElement()
     el.pause()
     el.currentTime = 0
-    set({ isPlaying: false, currentTime: 0, miniHidden: true })
+    set({ isPlaying: false, currentTime: 0 })
   },
   seek: (time) => {
     const el = getAudioElement()
@@ -169,26 +139,8 @@ export const useAudio = create<AudioState>((set, get) => ({
     const el = getAudioElement()
     el.playbackRate = r
     set({ playbackRate: r })
-    const prefs = loadPrefs()
-    savePrefs({ ...prefs, playbackRate: r })
+    savePrefs({ playbackRate: r })
   },
-  setAutoNext: (v) => {
-    set({ autoNext: v })
-    const prefs = loadPrefs()
-    savePrefs({ ...prefs, autoNext: v })
-  },
-  setLoop: (v) => {
-    const el = getAudioElement()
-    el.loop = v
-    set({ loop: v })
-    const prefs = loadPrefs()
-    savePrefs({ ...prefs, loop: v })
-  },
-  setSleepTimer: (mins) => {
-    set({ sleepTimerEndsAt: mins == null ? null : Date.now() + mins * 60 * 1000 })
-  },
-  hideMini: () => set({ miniHidden: true }),
-  setShowNowPlaying: (v) => set({ showNowPlaying: v }),
   setProgress: (currentTime, duration) => set({ currentTime, duration }),
   setIsPlaying: (v) => set({ isPlaying: v }),
   setIsLoading: (v) => set({ isLoading: v }),

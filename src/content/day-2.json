@@ -51,17 +51,20 @@
         {
           "thai": "โซพ",
           "translit": "/sóhp/",
-          "meaning": "\"soap\""
+          "meaning": "\"soap\"",
+          "meaningRu": "«soap» — мыло"
         },
         {
           "thai": "เคฟ",
           "translit": "/káyp/",
-          "meaning": "\"cave\""
+          "meaning": "\"cave\"",
+          "meaningRu": "«cave» — пещера"
         },
         {
           "thai": "รูท",
           "translit": "/róot/",
-          "meaning": "\"root\""
+          "meaning": "\"root\"",
+          "meaningRu": "«root» — корень"
         }
       ]
     },
@@ -72,17 +75,20 @@
         {
           "thai": "วอช",
           "translit": "/wórt/",
-          "meaning": "\"watch\""
+          "meaning": "\"watch\"",
+          "meaningRu": "«watch» — часы"
         },
         {
           "thai": "พีซ",
           "translit": "/péet/",
-          "meaning": "\"peace\""
+          "meaning": "\"peace\"",
+          "meaningRu": "«peace» — мир"
         },
         {
           "thai": "แฮค",
           "translit": "/hák/",
-          "meaning": "\"hack\""
+          "meaning": "\"hack\"",
+          "meaningRu": "«hack» — взлом"
         }
       ]
     },
@@ -108,6 +114,11 @@
         "Consonant",
         "Initial",
         "Final"
+      ],
+      "columnsRu": [
+        "Согласный",
+        "Начальный",
+        "Конечный"
       ],
       "rows": [
         {
@@ -153,6 +164,11 @@
         "Consonant",
         "Initial",
         "Final"
+      ],
+      "columnsRu": [
+        "Согласный",
+        "Начальный",
+        "Конечный"
       ],
       "rows": [
         {

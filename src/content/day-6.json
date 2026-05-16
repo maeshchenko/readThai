@@ -374,12 +374,12 @@
       ],
       "rows": [
         {
-          "thai": "Low TM (อ่)",
-          "translit": "low / low / falling"
+          "thai": "Знак низкого тона (อ่)",
+          "translit": "низкий / низкий / нисходящий"
         },
         {
-          "thai": "Falling TM (อ้)",
-          "translit": "falling / falling / high"
+          "thai": "Знак нисходящего тона (อ้)",
+          "translit": "нисходящий / нисходящий / высокий"
         }
       ]
     },
@@ -544,49 +544,57 @@
       "type": "thaiExample",
       "thai": "น้ำ",
       "translit": "núm",
-      "meaning": "“water” — pronounced like น้าม náam"
+      "meaning": "“water” — pronounced like น้าม náam",
+      "meaningRu": "«вода» — произносится как น้าม náam"
     },
     {
       "type": "thaiExample",
       "thai": "ไม้",
       "translit": "mái",
-      "meaning": "“wood” — pronounced like ม้าย máai"
+      "meaning": "“wood” — pronounced like ม้าย máai",
+      "meaningRu": "«дерево, древесина» — произносится как ม้าย máai"
     },
     {
       "type": "thaiExample",
       "thai": "ใต้",
       "translit": "dtâi",
-      "meaning": "“under, south” — pronounced like ต้าย dtâai"
+      "meaning": "“under, south” — pronounced like ต้าย dtâai",
+      "meaningRu": "«под, юг» — произносится как ต้าย dtâai"
     },
     {
       "type": "thaiExample",
       "thai": "เท้า",
       "translit": "táo",
-      "meaning": "“foot” — pronounced like ท้าว táao"
+      "meaning": "“foot” — pronounced like ท้าว táao",
+      "meaningRu": "«нога, стопа» — произносится как ท้าว táao"
     },
     {
       "type": "thaiExample",
       "thai": "เก้า",
       "translit": "gâo",
-      "meaning": "“nine” — pronounced like ก้าว gâao"
+      "meaning": "“nine” — pronounced like ก้าว gâao",
+      "meaningRu": "«девять» — произносится как ก้าว gâao"
     },
     {
       "type": "thaiExample",
       "thai": "ไหม",
       "translit": "măi",
-      "meaning": "Y/N question particle — pronounced like มั้ย mái"
+      "meaning": "Y/N question particle — pronounced like มั้ย mái",
+      "meaningRu": "вопросительная частица «да/нет» — произносится как มั้ย mái"
     },
     {
       "type": "thaiExample",
       "thai": "ฉัน",
       "translit": "chŭn",
-      "meaning": "“I” — pronounced like ชั้น chún"
+      "meaning": "“I” — pronounced like ชั้น chún",
+      "meaningRu": "«я» — произносится как ชั้น chún"
     },
     {
       "type": "thaiExample",
       "thai": "เขา",
       "translit": "kăo",
-      "meaning": "“he, she, they” — pronounced like เค้า káo"
+      "meaning": "“he, she, they” — pronounced like เค้า káo",
+      "meaningRu": "«он, она, они» — произносится как เค้า káo"
     },
     {
       "type": "paragraph",
