@@ -112,6 +112,7 @@ html[data-theme="dark"] {
     display: grid;
     grid-template-columns: 280px 1fr;
     min-height: 100vh;
+    min-height: 100dvh;
   }
   @media (max-width: 880px) {
     .app { grid-template-columns: 1fr; }
@@ -126,6 +127,7 @@ html[data-theme="dark"] {
     top: 0;
     align-self: start;
     height: 100vh;
+    height: 100dvh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -253,20 +255,22 @@ html[data-theme="dark"] {
   /* ============== MAIN ============== */
   .main { padding: 0; min-width: 0; }
   .topbar {
-    height: 64px;
+    height: calc(64px + env(safe-area-inset-top, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
     border-bottom: 1px solid var(--rule);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 48px;
+    padding-left: 48px;
+    padding-right: 48px;
     position: sticky;
     top: 0;
     z-index: 20;
-    background: rgba(243, 236, 224, 0.85);
+    background: rgba(243, 236, 224, 0.96);
     backdrop-filter: saturate(140%) blur(12px);
     -webkit-backdrop-filter: saturate(140%) blur(12px);
   }
-  html[data-theme="dark"] .topbar { background: rgba(26, 22, 18, 0.85); }
+  html[data-theme="dark"] .topbar { background: rgba(26, 22, 18, 0.96); }
   .crumbs {
     display: flex;
     align-items: center;
@@ -308,7 +312,7 @@ html[data-theme="dark"] {
   .canvas { max-width: 1080px; margin: 0 auto; padding: 56px 48px 120px; }
   @media (max-width: 720px) {
     .canvas { padding: 32px 22px 80px; }
-    .topbar { padding: 0 22px; }
+    .topbar { padding-left: 22px; padding-right: 22px; }
   }
 
   .hero {
@@ -1182,12 +1186,14 @@ html[data-theme="dark"] {
       position: sticky;
       top: 0;
       z-index: 20;
-      height: 56px;
-      background: color-mix(in oklab, var(--paper) 88%, transparent);
+      height: calc(56px + env(safe-area-inset-top, 0px));
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-left: 16px;
+      padding-right: 16px;
+      background: color-mix(in oklab, var(--paper) 97%, transparent);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       border-bottom: 1px solid var(--rule);
-      padding: 0 16px;
     }
     .crumbs { font-size: 10.5px; letter-spacing: 0.12em; }
     .crumbs > a,
