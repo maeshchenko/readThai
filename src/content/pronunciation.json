@@ -712,6 +712,22 @@
           "meaningRu": "толстый"
         }
       ]
+    },
+    {
+      "type": "drill",
+      "kind": "vowel-shapes",
+      "promptEn": "Which symbol represents this vowel sound?",
+      "promptRu": "Какому символу соответствует этот звук?",
+      "items": [
+        { "thai": "[aa]", "hintEn": "long", "hintRu": "долгий", "correctEn": "-า", "correctRu": "-า", "distractorsEn": ["-ะ", "-ิ", "-ู"], "distractorsRu": ["-ะ", "-ิ", "-ู"] },
+        { "thai": "[ee]", "hintEn": "long", "hintRu": "долгий", "correctEn": "-ี", "correctRu": "-ี", "distractorsEn": ["-ิ", "-ู", "-ือ"], "distractorsRu": ["-ิ", "-ู", "-ือ"] },
+        { "thai": "[oo]", "hintEn": "long", "hintRu": "долгий", "correctEn": "-ู", "correctRu": "-ู", "distractorsEn": ["-ุ", "-ี", "-า"], "distractorsRu": ["-ุ", "-ี", "-า"] },
+        { "thai": "[oh]", "hintEn": "long", "hintRu": "долгий", "correctEn": "โ-", "correctRu": "โ-", "distractorsEn": ["เ-", "แ-", "-อ"], "distractorsRu": ["เ-", "แ-", "-อ"] },
+        { "thai": "[ai]", "hintEn": "“wavy”", "hintRu": "«волнистая»", "correctEn": "ไ-", "correctRu": "ไ-", "distractorsEn": ["ใ-", "เ-า", "-ัย"], "distractorsRu": ["ใ-", "เ-า", "-ัย"] },
+        { "thai": "[ao]", "correctEn": "เ-า", "correctRu": "เ-า", "distractorsEn": ["เ-อ", "เ-ย", "เ-ือ"], "distractorsRu": ["เ-อ", "เ-ย", "เ-ือ"] },
+        { "thai": "[ia]", "correctEn": "เ-ีย", "correctRu": "เ-ีย", "distractorsEn": ["เ-ือ", "เ-อ", "-ัว"], "distractorsRu": ["เ-ือ", "เ-อ", "-ัว"] },
+        { "thai": "[uea]", "correctEn": "เ-ือ", "correctRu": "เ-ือ", "distractorsEn": ["เ-ีย", "เ-อ", "-ัว"], "distractorsRu": ["เ-ีย", "เ-อ", "-ัว"] }
+      ]
     }
   ],
   "footnotes": {},

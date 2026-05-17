@@ -909,6 +909,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "consonant-class-hc",
+      "promptEn": "Which class does this consonant belong to?",
+      "promptRu": "К какому классу относится эта согласная?",
+      "items": [
+        { "thai": "ผ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ฝ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ฉ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ถ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ห", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ข", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ส", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ศ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ษ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] },
+        { "thai": "ฐ", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low 1", "low 2"], "distractorsRu": ["средний", "низкий 1", "низкий 2"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow you'll meet the Thai tone system head-on — including tone marks and the String Theory rules. We'll also learn more vowels that have two different written forms.",
       "htmlRu": "Завтра вы столкнётесь с системой тонов лицом к лицу — включая тоновые знаки и правила «Теории струн». Также мы выучим ещё несколько гласных, имеющих две формы записи."

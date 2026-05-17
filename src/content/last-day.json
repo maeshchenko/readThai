@@ -830,6 +830,24 @@
         "Вы должны уметь смотреть на похожие символы и замечать различия между ними",
         "Позиция гласной внутри слога подсказывает, где слог начинается или заканчивается"
       ]
+    },
+    {
+      "type": "drill",
+      "kind": "similar-characters",
+      "promptEn": "Which letter is shown?",
+      "promptRu": "Какая буква показана?",
+      "items": [
+        { "thai": "ก", "correctEn": "ก [g]", "correctRu": "ก [g]", "distractorsEn": ["ถ [t]", "ภ [p]", "ฤ [rúe']"], "distractorsRu": ["ถ [t]", "ภ [p]", "ฤ [rúe']"] },
+        { "thai": "ถ", "correctEn": "ถ [t]", "correctRu": "ถ [t]", "distractorsEn": ["ก [g]", "ภ [p]", "ฐ [t]"], "distractorsRu": ["ก [g]", "ภ [p]", "ฐ [t]"] },
+        { "thai": "ภ", "correctEn": "ภ [p]", "correctRu": "ภ [p]", "distractorsEn": ["ก [g]", "ถ [t]", "ผ [p HC]"], "distractorsRu": ["ก [g]", "ถ [t]", "ผ [p HC]"] },
+        { "thai": "ด", "correctEn": "ด [d]", "correctRu": "ด [d]", "distractorsEn": ["ต [dt]", "บ [b]", "ค [k]"], "distractorsRu": ["ต [dt]", "บ [b]", "ค [k]"] },
+        { "thai": "ต", "correctEn": "ต [dt]", "correctRu": "ต [dt]", "distractorsEn": ["ด [d]", "บ [b]", "ค [k]"], "distractorsRu": ["ด [d]", "บ [b]", "ค [k]"] },
+        { "thai": "ค", "correctEn": "ค [k]", "correctRu": "ค [k]", "distractorsEn": ["ศ [s]", "ด [d]", "ช [ch]"], "distractorsRu": ["ศ [s]", "ด [d]", "ช [ch]"] },
+        { "thai": "ศ", "correctEn": "ศ [s]", "correctRu": "ศ [s]", "distractorsEn": ["ค [k]", "ช [ch]", "ด [d]"], "distractorsRu": ["ค [k]", "ช [ch]", "ด [d]"] },
+        { "thai": "ผ", "correctEn": "ผ [p HC]", "correctRu": "ผ [p ВК]", "distractorsEn": ["พ [p LC]", "ฝ [f HC]", "ฟ [f LC]"], "distractorsRu": ["พ [p НК]", "ฝ [f ВК]", "ฟ [f НК]"] },
+        { "thai": "ฟ", "correctEn": "ฟ [f LC]", "correctRu": "ฟ [f НК]", "distractorsEn": ["ฝ [f HC]", "พ [p LC]", "ผ [p HC]"], "distractorsRu": ["ฝ [f ВК]", "พ [p НК]", "ผ [p ВК]"] },
+        { "thai": "ข", "correctEn": "ข [k˘ HC]", "correctRu": "ข [k˘ ВК]", "distractorsEn": ["บ [b]", "ช [ch]", "ซ [s LC]"], "distractorsRu": ["บ [b]", "ช [ch]", "ซ [s НК]"] }
+      ]
     }
   ],
   "footnotes": {},

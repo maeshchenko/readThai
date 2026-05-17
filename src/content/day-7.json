@@ -723,6 +723,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "hidden-vowel",
+      "promptEn": "Which unwritten vowel hides in this word?",
+      "promptRu": "Какая ненаписанная гласная скрывается в этом слове?",
+      "items": [
+        { "thai": "กม", "hintEn": "one syllable", "hintRu": "1 слог", "correctEn": "-o-", "correctRu": "-о-", "distractorsEn": ["-a-", "-or-", "-ua-"], "distractorsRu": ["-а-", "-ор-", "-уа-"] },
+        { "thai": "คน", "hintEn": "one syllable", "hintRu": "1 слог", "correctEn": "-o-", "correctRu": "-о-", "distractorsEn": ["-or-", "-a-", "-ua-"], "distractorsRu": ["-ор-", "-а-", "-уа-"] },
+        { "thai": "จม", "hintEn": "one syllable", "hintRu": "1 слог", "correctEn": "-o-", "correctRu": "-о-", "distractorsEn": ["-or-", "-ua-", "-a-"], "distractorsRu": ["-ор-", "-уа-", "-а-"] },
+        { "thai": "กลม", "hintEn": "true cluster", "hintRu": "истинный кластер", "correctEn": "-o-", "correctRu": "-о-", "distractorsEn": ["-or-", "-a-", "-ua-"], "distractorsRu": ["-ор-", "-а-", "-уа-"] },
+        { "thai": "ขนม", "hintEn": "false cluster (two syllables)", "hintRu": "ложный кластер (2 слога)", "correctEn": "-a- + -o-", "correctRu": "-а- + -о-", "distractorsEn": ["-o- + -o-", "-or-", "-ua-"], "distractorsRu": ["-о- + -о-", "-ор-", "-уа-"] },
+        { "thai": "ตลก", "hintEn": "false cluster (two syllables)", "hintRu": "ложный кластер (2 слога)", "correctEn": "-a- + -o-", "correctRu": "-а- + -о-", "distractorsEn": ["-o-", "-or-", "-ua-"], "distractorsRu": ["-о-", "-ор-", "-уа-"] },
+        { "thai": "สด", "hintEn": "one syllable", "hintRu": "1 слог", "correctEn": "-o-", "correctRu": "-о-", "distractorsEn": ["-a-", "-or-", "-ua-"], "distractorsRu": ["-а-", "-ор-", "-уа-"] },
+        { "thai": "ดวง", "hintEn": "with ว in middle", "hintRu": "с ว в середине", "correctEn": "-ua-", "correctRu": "-уа-", "distractorsEn": ["-or-", "-o-", "-a-"], "distractorsRu": ["-ор-", "-о-", "-а-"] },
+        { "thai": "สวย", "hintEn": "with ว in middle", "hintRu": "с ว в середине", "correctEn": "-ua-", "correctRu": "-уа-", "distractorsEn": ["-or-", "-o-", "-a-"], "distractorsRu": ["-ор-", "-о-", "-а-"] },
+        { "thai": "นอก", "hintEn": "with อ in middle", "hintRu": "с อ в середине", "correctEn": "-or-", "correctRu": "-ор-", "distractorsEn": ["-ua-", "-o-", "-a-"], "distractorsRu": ["-уа-", "-о-", "-а-"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow we'll meet the silent mark, vowel shortening, and the many faces of ร — one of the most versatile characters in the Thai alphabet.",
       "htmlRu": "Завтра мы познакомимся со знаком молчания, сокращением гласных и многочисленными лицами ร — одного из самых универсальных символов тайского алфавита."

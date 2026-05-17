@@ -566,6 +566,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "consonant-class",
+      "promptEn": "Which class does this consonant belong to?",
+      "promptRu": "К какому классу относится эта согласная?",
+      "items": [
+        { "thai": "ก", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "จ", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "ด", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "ต", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "บ", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "ป", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "อ", "correctEn": "mid", "correctRu": "средний", "distractorsEn": ["low 1", "low 2", "high"], "distractorsRu": ["низкий 1", "низкий 2", "высокий"] },
+        { "thai": "น", "correctEn": "low 1", "correctRu": "низкий 1", "distractorsEn": ["mid", "low 2", "high"], "distractorsRu": ["средний", "низкий 2", "высокий"] },
+        { "thai": "ม", "correctEn": "low 1", "correctRu": "низкий 1", "distractorsEn": ["mid", "low 2", "high"], "distractorsRu": ["средний", "низкий 2", "высокий"] },
+        { "thai": "ค", "correctEn": "low 2", "correctRu": "низкий 2", "distractorsEn": ["mid", "low 1", "high"], "distractorsRu": ["средний", "низкий 1", "высокий"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow we'll meet the high class consonants and discover how the silent ห changes tones. We'll also learn mnemonics to remember consonant classes — and start making sense of the Thai tone system.",
       "htmlRu": "Завтра мы познакомимся с согласными высокого класса и узнаем, как немая ห меняет тоны. Мы также выучим мнемоники для запоминания классов согласных — и начнём разбираться в системе тонов тайского языка."

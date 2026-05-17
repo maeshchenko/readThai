@@ -5,8 +5,7 @@ import { CharGrid, type CharItem } from './CharGrid'
 import { SyllableTryIt, type SylItem } from './SyllableTryIt'
 import { Player } from './Player'
 import { RefTable } from './RefTable'
-import type { DeckItem } from './Flashcards'
-import { MultiChoice, type MCItem } from './MultiChoice'
+import { MultiChoice } from './MultiChoice'
 import { VoiceTrainer } from '@/components/practice/VoiceTrainer'
 
 interface Props {
@@ -74,42 +73,6 @@ function preprocess(blocks: Block[]): Block[] {
   return merged
 }
 
-function collectDeck(blocks: Block[]): DeckItem[] {
-  const out: DeckItem[] = []
-  const seen = new Set<string>()
-  const add = (glyph: string, ipa?: string, name?: string, ru?: string) => {
-    const g = glyph.trim()
-    if (!g || !THAI_RE.test(g) || g.length > 16) return
-    if (seen.has(g)) return
-    seen.add(g)
-    out.push({ glyph: g, ipa, name, ru })
-  }
-  for (const b of blocks) {
-    if (b.type === 'thaiExample') add(b.thai, b.translit, b.meaning, b.meaningRu)
-    else if (b.type === 'examples') {
-      for (const it of b.items) add(it.thai, it.translit, it.meaning, it.meaningRu)
-    } else if (b.type === 'thaiTable') {
-      for (const r of b.rows) add(r.thai, r.translit, r.meaning, r.meaningRu)
-    }
-  }
-  return out.filter((d) => d.ipa)
-}
-
-function buildMC(deck: DeckItem[]): MCItem[] {
-  if (deck.length < 4) return []
-  return deck.map((d, i) => {
-    const others = deck.filter((_, j) => j !== i && deck[j].ipa).map((x) => x.ipa!) as string[]
-    const distractors: string[] = []
-    while (distractors.length < 3 && others.length) {
-      const r = Math.floor(Math.random() * others.length)
-      const pick = others[r]
-      others.splice(r, 1)
-      if (pick && pick !== d.ipa) distractors.push(pick)
-    }
-    return { glyph: d.glyph, correct: d.ipa!, distractors }
-  })
-}
-
 function stripHtmlText(html: string): string {
   if (typeof document === 'undefined') return html.replace(/<[^>]+>/g, '')
   const d = document.createElement('div')
@@ -138,8 +101,6 @@ export function ContentRenderer({ chapter, skipDeckText }: Props) {
       return true
     })
   }, [chapter.blocks, skipDeckText, ru])
-  const deck = useMemo(() => collectDeck(blocks), [blocks])
-  const mc = useMemo(() => buildMC(deck), [deck])
 
   let sectionCounter = 0
   let firstParaSeen = false
@@ -297,11 +258,10 @@ export function ContentRenderer({ chapter, skipDeckText }: Props) {
               )
             }
             case 'exercise': {
-              const items: DeckItem[] = b.items.map((it, j) => ({
+              const items = b.items.map((it, j) => ({
                 glyph: it,
                 ipa: extractItemIpa(b.answerKey, j),
-                name: '',
-                ru: '',
+                ru: '' as string,
               })).filter((d) => d.glyph)
               return (
                 <div key={i} className="tryit">
@@ -361,24 +321,28 @@ export function ContentRenderer({ chapter, skipDeckText }: Props) {
                 <FootnoteInline key={i} id={b.id} text={fn} />
               )
             }
+            case 'drill': {
+              const prompt = ru ? b.promptRu : b.promptEn
+              const mcItems = b.items.map((it) => ({
+                glyph: it.thai,
+                correct: ru ? it.correctRu : it.correctEn,
+                distractors: ru ? it.distractorsRu : it.distractorsEn,
+              }))
+              return (
+                <div key={i} className="tryit">
+                  <div className="ti-eyebrow">{ru ? 'Тренировка' : 'Drill'}</div>
+                  <h4>{ru ? 'Выбор из вариантов' : 'Multiple choice'}</h4>
+                  <p className="ti-deck">{prompt}</p>
+                  <MultiChoice items={mcItems} />
+                </div>
+              )
+            }
             default:
               return null
           }
         })()
         return block
       })}
-
-      {/* Auto deck at end of chapter */}
-      {mc.length >= 4 && (
-        <div className="tryit">
-          <div className="ti-eyebrow">{ru ? 'Тренировка' : 'Drill'}</div>
-          <h4>{ru ? 'Выбор из вариантов' : 'Multiple choice'}</h4>
-          <p className="ti-deck">
-            {ru ? 'Выберите правильную транслитерацию для каждой буквы.' : 'Pick the correct transliteration for each letter.'}
-          </p>
-          <MultiChoice items={mc} />
-        </div>
-      )}
     </Fragment>
   )
 }

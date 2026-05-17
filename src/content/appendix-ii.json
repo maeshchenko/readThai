@@ -90,6 +90,24 @@
       "type": "paragraph",
       "html": "If you live in Thailand, you can easily find Thai alphabet writing practice books which have pictures showing the meaning of these consonant names to help you create connections between consonant names and the meaning of these names. Use them as writing playgrounds and practise to perfect your Thai characters. Such books are sold everywhere, usually with a BIG picture of a chicken (which is the first letter of the alphabet) on the cover. It's worth it—get one.",
       "htmlRu": "Если вы живёте в Таиланде, вы легко найдёте прописи для тайского алфавита с картинками, иллюстрирующими значение названий согласных, — они помогут вам создать ассоциации между названиями и их значениями. Используйте их как тренировочные тетради и совершенствуйте написание тайских символов. Такие книги продаются повсюду — обычно с БОЛЬШОЙ картинкой курицы (первая буква алфавита) на обложке. Они того стоят — купите себе одну."
+    },
+    {
+      "type": "drill",
+      "kind": "consonant-names",
+      "promptEn": "What is the name of this consonant?",
+      "promptRu": "Как называется эта согласная?",
+      "items": [
+        { "thai": "ก", "correctEn": "/gor gài/", "correctRu": "/gor gài/", "distractorsEn": ["/kor kài/", "/jor jaan/", "/dor dèk/"], "distractorsRu": ["/kor kài/", "/jor jaan/", "/dor dèk/"] },
+        { "thai": "ข", "correctEn": "/kŏr kài/", "correctRu": "/kŏr kài/", "distractorsEn": ["/gor gài/", "/kor kwaai/", "/sor sôo/"], "distractorsRu": ["/gor gài/", "/kor kwaai/", "/sor sôo/"] },
+        { "thai": "ค", "correctEn": "/kor kwaai/", "correctRu": "/kor kwaai/", "distractorsEn": ["/kŏr kài/", "/chor cháang/", "/tor tong/"], "distractorsRu": ["/kŏr kài/", "/chor cháang/", "/tor tong/"] },
+        { "thai": "ง", "correctEn": "/ngor ngoo/", "correctRu": "/ngor ngoo/", "distractorsEn": ["/jor jaan/", "/yor yĭng/", "/lor ling/"], "distractorsRu": ["/jor jaan/", "/yor yĭng/", "/lor ling/"] },
+        { "thai": "จ", "correctEn": "/jor jaan/", "correctRu": "/jor jaan/", "distractorsEn": ["/chor cháang/", "/yor yĭng/", "/sor sôo/"], "distractorsRu": ["/chor cháang/", "/yor yĭng/", "/sor sôo/"] },
+        { "thai": "ช", "correctEn": "/chor cháang/", "correctRu": "/chor cháang/", "distractorsEn": ["/jor jaan/", "/sor sôo/", "/chŏr chìng/"], "distractorsRu": ["/jor jaan/", "/sor sôo/", "/chŏr chìng/"] },
+        { "thai": "ม", "correctEn": "/mor máa/", "correctRu": "/mor máa/", "distractorsEn": ["/nor nŏo/", "/lor ling/", "/bor baimáai/"], "distractorsRu": ["/nor nŏo/", "/lor ling/", "/bor baimáai/"] },
+        { "thai": "ร", "correctEn": "/ror ruea/", "correctRu": "/ror ruea/", "distractorsEn": ["/lor ling/", "/yor yĭng/", "/wor wăn/"], "distractorsRu": ["/lor ling/", "/yor yĭng/", "/wor wăn/"] },
+        { "thai": "ส", "correctEn": "/sŏr sŭea/", "correctRu": "/sŏr sŭea/", "distractorsEn": ["/chor cháang/", "/sor sôo/", "/sŏr săalaa/"], "distractorsRu": ["/chor cháang/", "/sor sôo/", "/sŏr săalaa/"] },
+        { "thai": "ห", "correctEn": "/hŏr hèep/", "correctRu": "/hŏr hèep/", "distractorsEn": ["/hor nókhôok/", "/ror ruea/", "/lor jùlaa/"], "distractorsRu": ["/hor nókhôok/", "/ror ruea/", "/lor jùlaa/"] }
+      ]
     }
   ],
   "footnotes": {},

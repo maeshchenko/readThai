@@ -14,8 +14,19 @@ export type Block =
   | { type: 'preview'; html: string; htmlRu?: string }
   | { type: 'divider' }
   | { type: 'footnoteRef'; id: number }
+  | { type: 'drill'; kind: string; promptEn: string; promptRu: string; items: DrillItem[] }
 
 export type ExamplesLayout = 'chips' | 'grid' | 'inline'
+
+export interface DrillItem {
+  thai: string
+  hintEn?: string
+  hintRu?: string
+  correctEn: string
+  correctRu: string
+  distractorsEn: string[]
+  distractorsRu: string[]
+}
 
 export interface ExampleItem {
   thai: string

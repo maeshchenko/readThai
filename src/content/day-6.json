@@ -653,6 +653,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "tone-with-marks",
+      "promptEn": "What tone does this syllable carry?",
+      "promptRu": "Какой тон у этого слога?",
+      "items": [
+        { "thai": "ป่า", "hintEn": "MC + low mark", "hintRu": "СК + знак низкого", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["mid", "falling", "high"], "distractorsRu": ["ровный", "нисходящий", "высокий"] },
+        { "thai": "ก้า", "hintEn": "MC + falling mark", "hintRu": "СК + знак нисходящего", "correctEn": "falling", "correctRu": "нисходящий", "distractorsEn": ["low", "high", "rising"], "distractorsRu": ["низкий", "высокий", "восходящий"] },
+        { "thai": "ป๊า", "hintEn": "MC + high mark", "hintRu": "СК + знак высокого", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low", "rising"], "distractorsRu": ["ровный", "низкий", "восходящий"] },
+        { "thai": "ป๋า", "hintEn": "MC + rising mark", "hintRu": "СК + знак восходящего", "correctEn": "rising", "correctRu": "восходящий", "distractorsEn": ["low", "high", "falling"], "distractorsRu": ["низкий", "высокий", "нисходящий"] },
+        { "thai": "ม่า", "hintEn": "LC1 + low mark", "hintRu": "НК1 + знак низкого", "correctEn": "falling", "correctRu": "нисходящий", "distractorsEn": ["low", "rising", "mid"], "distractorsRu": ["низкий", "восходящий", "ровный"] },
+        { "thai": "ม้า", "hintEn": "LC1 + falling mark", "hintRu": "НК1 + знак нисходящего", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["low", "falling", "mid"], "distractorsRu": ["низкий", "нисходящий", "ровный"] },
+        { "thai": "ข่า", "hintEn": "HC + low mark", "hintRu": "ВК + знак низкого", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["falling", "high", "mid"], "distractorsRu": ["нисходящий", "высокий", "ровный"] },
+        { "thai": "ข้า", "hintEn": "HC + falling mark", "hintRu": "ВК + знак нисходящего", "correctEn": "falling", "correctRu": "нисходящий", "distractorsEn": ["low", "high", "rising"], "distractorsRu": ["низкий", "высокий", "восходящий"] },
+        { "thai": "ค่า", "hintEn": "LC2 + low mark", "hintRu": "НК2 + знак низкого", "correctEn": "falling", "correctRu": "нисходящий", "distractorsEn": ["low", "high", "mid"], "distractorsRu": ["низкий", "высокий", "ровный"] },
+        { "thai": "ค้า", "hintEn": "LC2 + falling mark", "hintRu": "НК2 + знак нисходящего", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["low", "falling", "rising"], "distractorsRu": ["низкий", "нисходящий", "восходящий"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow we'll tackle consonant clusters — true, pseudo, and false — and learn about the mysterious unwritten [-a] vowel that hides between consonants.",
       "htmlRu": "Завтра мы разберёмся с кластерами согласных — истинными, псевдо и ложными — и узнаем о таинственном ненаписанном гласном [-a], который прячется между согласными."

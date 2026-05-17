@@ -649,6 +649,24 @@
         "Знак сокращения «ฯ» в основном используется для сокращения имён собственных, однако символ «ฯลฯ» означает «и так далее» и всегда произносится «และอื่นๆ» /láir' ùen-ùen/",
         "Знак повтора «ๆ» повторяет предшествующее слово — нужно произнести всё слово (а не только слог) дважды"
       ]
+    },
+    {
+      "type": "drill",
+      "kind": "exceptions",
+      "promptEn": "How is this word actually pronounced?",
+      "promptRu": "Как правильно читается это слово?",
+      "items": [
+        { "thai": "ก็", "correctEn": "/gôr/", "correctRu": "/gôr/", "distractorsEn": ["/gor/", "/gàk/", "/gôk/"], "distractorsRu": ["/gor/", "/gàk/", "/gôk/"] },
+        { "thai": "ณ", "hintEn": "preposition", "hintRu": "предлог", "correctEn": "/ná/", "correctRu": "/ná/", "distractorsEn": ["/nor/", "/nay/", "/nóh/"], "distractorsRu": ["/nor/", "/nay/", "/nóh/"] },
+        { "thai": "อย่า", "correctEn": "/yàa/", "correctRu": "/yàa/", "distractorsEn": ["/òr-yâa/", "/yor-yâa/", "/áa/"], "distractorsRu": ["/òr-yâa/", "/yor-yâa/", "/áa/"] },
+        { "thai": "อยู่", "correctEn": "/yòo/", "correctRu": "/yòo/", "distractorsEn": ["/òr-yôo/", "/yor-yôo/", "/yú/"], "distractorsRu": ["/òr-yôo/", "/yor-yôo/", "/yú/"] },
+        { "thai": "ไทย", "hintEn": "silent ย", "hintRu": "немая ย", "correctEn": "/tai/", "correctRu": "/tai/", "distractorsEn": ["/tai-yor/", "/thái-ya/", "/tâai/"], "distractorsRu": ["/tai-yor/", "/thái-ya/", "/tâai/"] },
+        { "thai": "จริง", "hintEn": "silent ร", "hintRu": "немая ร", "correctEn": "/jing/", "correctRu": "/jing/", "distractorsEn": ["/jor-ring/", "/jrìng/", "/jorng/"], "distractorsRu": ["/jor-ring/", "/jrìng/", "/jorng/"] },
+        { "thai": "ชาติ", "hintEn": "silent ติ", "hintRu": "немая ติ", "correctEn": "/châat/", "correctRu": "/châat/", "distractorsEn": ["/châa-dtì/", "/chát/", "/châat-tì/"], "distractorsRu": ["/châa-dtì/", "/chát/", "/châat-tì/"] },
+        { "thai": "ฤดู", "correctEn": "/rúe'doo/", "correctRu": "/rúe'doo/", "distractorsEn": ["/rí-doo/", "/lúe'-doo/", "/tor-doo/"], "distractorsRu": ["/rí-doo/", "/lúe'-doo/", "/tor-doo/"] },
+        { "thai": "อังกฤษ", "correctEn": "/anggrìt/", "correctRu": "/anggrìt/", "distractorsEn": ["/ang-krit-rí/", "/anggrùt-tor/", "/àng-krí-sá/"], "distractorsRu": ["/ang-krit-rí/", "/anggrùt-tor/", "/àng-krí-sá/"] },
+        { "thai": "กรุงเทพฯ", "correctEn": "/kroo'ngtâyp/", "correctRu": "/kroo'ngtâyp/", "distractorsEn": ["/kroo'ngtâyp-fá/", "/kroo'ngtâyp-pá/", "/kroong-tay-pá-hà-nor/"], "distractorsRu": ["/kroo'ngtâyp-fá/", "/kroo'ngtâyp-pá/", "/kroong-tay-pá-hà-nor/"] }
+      ]
     }
   ],
   "footnotes": {},

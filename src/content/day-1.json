@@ -255,6 +255,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "lc1-transliteration",
+      "promptEn": "Pick the correct transliteration for this letter or syllable.",
+      "promptRu": "Выберите правильную транслитерацию для этой буквы или слога.",
+      "items": [
+        { "thai": "น", "correctEn": "/nor/", "correctRu": "/nor/", "distractorsEn": ["/mor/", "/ngor/", "/ror/"], "distractorsRu": ["/mor/", "/ngor/", "/ror/"] },
+        { "thai": "ม", "correctEn": "/mor/", "correctRu": "/mor/", "distractorsEn": ["/nor/", "/lor/", "/wor/"], "distractorsRu": ["/nor/", "/lor/", "/wor/"] },
+        { "thai": "ง", "correctEn": "/ngor/", "correctRu": "/ngor/", "distractorsEn": ["/nor/", "/yor/", "/ror/"], "distractorsRu": ["/nor/", "/yor/", "/ror/"] },
+        { "thai": "ร", "correctEn": "/ror/", "correctRu": "/ror/", "distractorsEn": ["/lor/", "/ngor/", "/nor/"], "distractorsRu": ["/lor/", "/ngor/", "/nor/"] },
+        { "thai": "ล", "correctEn": "/lor/", "correctRu": "/lor/", "distractorsEn": ["/ror/", "/mor/", "/yor/"], "distractorsRu": ["/ror/", "/mor/", "/yor/"] },
+        { "thai": "ย", "correctEn": "/yor/", "correctRu": "/yor/", "distractorsEn": ["/wor/", "/ror/", "/lor/"], "distractorsRu": ["/wor/", "/ror/", "/lor/"] },
+        { "thai": "ว", "correctEn": "/wor/", "correctRu": "/wor/", "distractorsEn": ["/yor/", "/ngor/", "/lor/"], "distractorsRu": ["/yor/", "/ngor/", "/lor/"] },
+        { "thai": "นา", "correctEn": "/naa/", "correctRu": "/naa/", "distractorsEn": ["/nee/", "/noo/", "/nor/"], "distractorsRu": ["/nee/", "/noo/", "/nor/"] },
+        { "thai": "มี", "correctEn": "/mee/", "correctRu": "/mee/", "distractorsEn": ["/maa/", "/moo/", "/mor/"], "distractorsRu": ["/maa/", "/moo/", "/mor/"] },
+        { "thai": "รู", "correctEn": "/roo/", "correctRu": "/roo/", "distractorsEn": ["/ree/", "/raa/", "/roh/"], "distractorsRu": ["/ree/", "/raa/", "/roh/"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow we'll learn more low class consonants and long vowels. You'll also find out why some consonants sound different at the end of a syllable — and get introduced to a life-or-death question!",
       "htmlRu": "Завтра мы выучим больше согласных нижнего класса и долгих гласных. Вы также узнаете, почему некоторые согласные звучат иначе в конце слога — и познакомитесь с вопросом жизни и смерти!"

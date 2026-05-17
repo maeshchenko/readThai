@@ -785,6 +785,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "special-consonants",
+      "promptEn": "What initial sound does this consonant make?",
+      "promptRu": "Какой начальный звук даёт эта согласная?",
+      "items": [
+        { "thai": "ญ", "correctEn": "y", "correctRu": "y", "distractorsEn": ["n", "ng", "l"], "distractorsRu": ["n", "ng", "l"] },
+        { "thai": "ฌ", "correctEn": "ch", "correctRu": "ch", "distractorsEn": ["j", "s", "k"], "distractorsRu": ["j", "s", "k"] },
+        { "thai": "ฮ", "correctEn": "h", "correctRu": "h", "distractorsEn": ["k", "s", "ng"], "distractorsRu": ["k", "s", "ng"] },
+        { "thai": "ฎ", "correctEn": "d", "correctRu": "d", "distractorsEn": ["dt", "t", "b"], "distractorsRu": ["dt", "t", "b"] },
+        { "thai": "ฏ", "correctEn": "dt", "correctRu": "dt", "distractorsEn": ["d", "t", "p"], "distractorsRu": ["d", "t", "p"] },
+        { "thai": "ฐ", "correctEn": "t", "correctRu": "t", "distractorsEn": ["dt", "d", "th"], "distractorsRu": ["dt", "d", "th"] },
+        { "thai": "ฑ", "correctEn": "t", "correctRu": "t", "distractorsEn": ["d", "dt", "th"], "distractorsRu": ["d", "dt", "th"] },
+        { "thai": "ฒ", "correctEn": "t", "correctRu": "t", "distractorsEn": ["dt", "d", "th"], "distractorsRu": ["dt", "d", "th"] },
+        { "thai": "ณ", "correctEn": "n", "correctRu": "n", "distractorsEn": ["ng", "m", "l"], "distractorsRu": ["ng", "m", "l"] },
+        { "thai": "ฬ", "correctEn": "l", "correctRu": "l", "distractorsEn": ["r", "n", "y"], "distractorsRu": ["r", "n", "y"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow: Thai numerals, the elusive ฤ, punctuation marks, and some unique vowels that show up only in special words. The finish line is in sight!",
       "htmlRu": "Завтра: тайские цифры, неуловимый ฤ, знаки препинания и уникальные гласные, встречающиеся лишь в особых словах. Финишная прямая уже видна!"

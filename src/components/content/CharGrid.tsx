@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useTone } from '@/lib/tone'
-import { useAudio, type Track } from '@/lib/audio'
 
 export interface CharItem {
   glyph: string
@@ -17,31 +16,14 @@ interface Props {
   chapterTitle?: string
 }
 
-function pad3(n: number): string { return n.toString().padStart(3, '0') }
-
-export function CharGrid({ items, columns = 6, trackNumber, chapterSlug, chapterTitle }: Props) {
+export function CharGrid({ items, columns = 6 }: Props) {
   const [playing, setPlaying] = useState<number | null>(null)
   const tone = useTone()
-  const loadAndPlay = useAudio((s) => s.loadAndPlay)
-
   const onClick = (i: number) => {
     setPlaying(i)
     setTimeout(() => setPlaying(null), 1100)
-    if (trackNumber != null) {
-      const track: Track = {
-        id: `track-${trackNumber}`,
-        number: trackNumber,
-        src: `${import.meta.env.BASE_URL}audio/${pad3(trackNumber)}.mp3`,
-        label: chapterTitle ? `${chapterTitle} · ${trackNumber}` : `Track ${trackNumber}`,
-        chapterSlug,
-        chapterTitle,
-      }
-      void loadAndPlay(track)
-    } else {
-      tone(220 + i * 30, 0.18)
-    }
+    tone(220 + i * 30, 0.18)
   }
-
   return (
     <div className="char-grid" style={{ '--cols': columns } as React.CSSProperties}>
       {items.map((c, i) => (

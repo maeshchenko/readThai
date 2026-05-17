@@ -391,7 +391,25 @@
         "Остальные гласные с двумя формами: -ือ, เ-อ и -ัว меняются на -ื-, เ-ิ- и -ว- при наличии финальной согласной",
         "Тон каждого слога определяется тремя основными факторами: мёртвый или живой слог; класс начальной согласной; тоновый знак, если он есть (если это мёртвый слог с начальной согласной LC, учитывается также долгота гласной)",
         "Теория струн №1: «живой слог» — согласные HC дают ВОСХОДЯЩИЙ тон, согласные MC и LC дают РОВНЫЙ тон",
-        "Теория струн №2: «мёртвый слог» — согласные HC и MC дают НИЗКИЙ тон, а согласные LC дают НИСХОДЯЩИЙ тон при долгой гласной и ВЫСОКИЙ тон при краткой гласной"
+        "Теория струн №2: «мёртвый слог» — согласные HC и MC дают НИЗКИЙ тон, о согласные LC дают НИСХОДЯЩИЙ тон при долгой гласной и ВЫСОКИЙ тон при краткой гласной"
+      ]
+    },
+    {
+      "type": "drill",
+      "kind": "tone-basic",
+      "promptEn": "What tone does this syllable have?",
+      "promptRu": "Какой тон у этого слога?",
+      "items": [
+        { "thai": "นา", "hintEn": "LC1 · live", "hintRu": "НК1 · живой", "correctEn": "mid", "correctRu": "ровный", "distractorsEn": ["rising", "low", "falling"], "distractorsRu": ["восходящий", "низкий", "нисходящий"] },
+        { "thai": "กา", "hintEn": "MC · live", "hintRu": "СК · живой", "correctEn": "mid", "correctRu": "ровный", "distractorsEn": ["low", "rising", "high"], "distractorsRu": ["низкий", "восходящий", "высокий"] },
+        { "thai": "ขา", "hintEn": "HC · live", "hintRu": "ВК · живой", "correctEn": "rising", "correctRu": "восходящий", "distractorsEn": ["mid", "low", "falling"], "distractorsRu": ["ровный", "низкий", "нисходящий"] },
+        { "thai": "นาก", "hintEn": "LC1 · dead · long vowel", "hintRu": "НК1 · мёртвый · долгая", "correctEn": "falling", "correctRu": "нисходящий", "distractorsEn": ["mid", "high", "low"], "distractorsRu": ["ровный", "высокий", "низкий"] },
+        { "thai": "กาก", "hintEn": "MC · dead", "hintRu": "СК · мёртвый", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["mid", "falling", "high"], "distractorsRu": ["ровный", "нисходящий", "высокий"] },
+        { "thai": "ขาก", "hintEn": "HC · dead", "hintRu": "ВК · мёртвый", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["mid", "rising", "falling"], "distractorsRu": ["ровный", "восходящий", "нисходящий"] },
+        { "thai": "นัก", "hintEn": "LC1 · dead · short vowel", "hintRu": "НК1 · мёртвый · краткая", "correctEn": "high", "correctRu": "высокий", "distractorsEn": ["mid", "low", "falling"], "distractorsRu": ["ровный", "низкий", "нисходящий"] },
+        { "thai": "กัก", "hintEn": "MC · dead", "hintRu": "СК · мёртвый", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["high", "mid", "falling"], "distractorsRu": ["высокий", "ровный", "нисходящий"] },
+        { "thai": "ขัก", "hintEn": "HC · dead", "hintRu": "ВК · мёртвый", "correctEn": "low", "correctRu": "низкий", "distractorsEn": ["rising", "high", "mid"], "distractorsRu": ["восходящий", "высокий", "ровный"] },
+        { "thai": "มา", "hintEn": "LC1 · live", "hintRu": "НК1 · живой", "correctEn": "mid", "correctRu": "ровный", "distractorsEn": ["low", "high", "rising"], "distractorsRu": ["низкий", "высокий", "восходящий"] }
       ]
     }
   ],

@@ -514,6 +514,24 @@
       ]
     },
     {
+      "type": "drill",
+      "kind": "final-sound",
+      "promptEn": "What final sound does this consonant produce at the end of a syllable?",
+      "promptRu": "Какой финальный звук даёт эта согласная в конце слога?",
+      "items": [
+        { "thai": "ค", "correctEn": "-k", "correctRu": "-k", "distractorsEn": ["-t", "-p", "—"], "distractorsRu": ["-t", "-p", "—"] },
+        { "thai": "ท", "correctEn": "-t", "correctRu": "-t", "distractorsEn": ["-k", "-p", "—"], "distractorsRu": ["-k", "-p", "—"] },
+        { "thai": "ช", "correctEn": "-t", "correctRu": "-t", "distractorsEn": ["-k", "-p", "—"], "distractorsRu": ["-k", "-p", "—"] },
+        { "thai": "ซ", "correctEn": "-t", "correctRu": "-t", "distractorsEn": ["-k", "-p", "—"], "distractorsRu": ["-k", "-p", "—"] },
+        { "thai": "พ", "correctEn": "-p", "correctRu": "-p", "distractorsEn": ["-t", "-k", "—"], "distractorsRu": ["-t", "-k", "—"] },
+        { "thai": "ฟ", "correctEn": "-p", "correctRu": "-p", "distractorsEn": ["-t", "-k", "—"], "distractorsRu": ["-t", "-k", "—"] },
+        { "thai": "ฮ", "correctEn": "—", "correctRu": "—", "distractorsEn": ["-k", "-t", "-p"], "distractorsRu": ["-k", "-t", "-p"] },
+        { "thai": "ง", "correctEn": "-ng", "correctRu": "-ng", "distractorsEn": ["-n", "-m", "—"], "distractorsRu": ["-n", "-m", "—"] },
+        { "thai": "ย", "correctEn": "-i", "correctRu": "-i", "distractorsEn": ["-n", "-ng", "-o"], "distractorsRu": ["-n", "-ng", "-o"] },
+        { "thai": "ว", "correctEn": "-o", "correctRu": "-o", "distractorsEn": ["-i", "-ng", "-n"], "distractorsRu": ["-i", "-ng", "-n"] }
+      ]
+    },
+    {
       "type": "preview",
       "html": "Tomorrow we'll tackle short vowels and meet the mid class consonants. We'll also learn about the placeholder อ and discover some vowels that like to play hide-and-seek.",
       "htmlRu": "Завтра мы разберёмся с краткими гласными и познакомимся с согласными среднего класса. А ещё мы узнаем о символе-заместителе อ и откроем гласные, которые любят играть в прятки."
