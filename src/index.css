@@ -656,8 +656,19 @@ html[data-theme="dark"] {
     margin: 28px 0;
     background: var(--paper-2);
   }
+  .char-grid.char-grid--padded {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border: none;
+    background: transparent;
+    gap: 12px;
+  }
+  .char-grid.char-grid--padded .ch {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
   @media (max-width: 720px) {
     .char-grid { grid-template-columns: repeat(3, 1fr) !important; }
+    .char-grid.char-grid--padded { grid-template-columns: repeat(3, 1fr) !important; }
   }
   .char-grid .ch {
     aspect-ratio: 1 / 1.15;
@@ -681,7 +692,12 @@ html[data-theme="dark"] {
   }
   .char-grid .ch:hover { background: var(--paper-2); }
   .char-grid .ch.playing { background: var(--accent-soft); }
-  .char-grid .ch .glyph { font-family: var(--thai-loop); font-size: 56px; line-height: 1; color: var(--ink); }
+  .char-grid .ch .glyph {
+    font-family: var(--thai-loop);
+    font-size: calc(56px * min(1, 4 / var(--cols, 6)));
+    line-height: 1;
+    color: var(--ink);
+  }
   .char-grid .ch .ipa { font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
   .char-grid .ch .name { font-family: var(--body); font-style: italic; font-size: 13px; color: var(--ink-2); }
   .char-grid .ch .pin { position: absolute; top: 8px; right: 10px; font-family: var(--mono); font-size: 9px; letter-spacing: 0.14em; color: var(--ink-3); }

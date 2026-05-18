@@ -32,7 +32,7 @@ function chapterPath(slug: string): string {
 }
 
 function currentSlug(pathname: string): string {
-  return pathname.replace(/^\/+/, '')
+  return pathname.replace(/^\/+/, '').replace(/\/+$/, '')
 }
 
 export function Layout() {

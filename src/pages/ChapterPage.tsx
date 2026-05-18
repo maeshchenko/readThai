@@ -101,7 +101,7 @@ function collectSections(blocks: Block[], ru: boolean): { id: string; label: str
 export function ChapterPage() {
   const location = useLocation()
   const navigate = useNavigate()
-  const slug = location.pathname.replace(/^\/+/, '')
+  const slug = location.pathname.replace(/^\/+/, '').replace(/\/+$/, '')
   const { i18n } = useTranslation()
   const ru = i18n.language === 'ru'
   const setLastChapter = useProgressStore((s) => s.setLastChapter)

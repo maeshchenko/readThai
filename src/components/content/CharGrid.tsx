@@ -24,8 +24,13 @@ export function CharGrid({ items, columns = 6 }: Props) {
     setTimeout(() => setPlaying(null), 1100)
     tone(220 + i * 30, 0.18)
   }
+  const padded = items.every((it) => it.glyph.length <= 6 && !it.glyph.includes(' '))
+  const renderCols = padded ? 4 : columns
   return (
-    <div className="char-grid" style={{ '--cols': columns } as React.CSSProperties}>
+    <div
+      className={`char-grid${padded ? ' char-grid--padded' : ''}`}
+      style={{ '--cols': renderCols } as React.CSSProperties}
+    >
       {items.map((c, i) => (
         <button
           key={i}

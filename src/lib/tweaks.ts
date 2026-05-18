@@ -102,7 +102,7 @@ export function useApplyThaiSize() {
     }
     s.textContent = `
       @media (min-width: 721px){
-        .char-grid .ch .glyph{ font-size: ${56 * scale}px !important; }
+        .char-grid .ch .glyph{ font-size: calc(${56 * scale}px * min(1, 4 / var(--cols, 6))) !important; }
         .syl .glyph{ font-size: ${32 * scale}px !important; }
         .card-face .glyph{ font-size: clamp(${120 * scale}px, ${18 * scale}vw, ${220 * scale}px) !important; }
         .mc-q .glyph{ font-size: clamp(${120 * scale}px, ${14 * scale}vw, ${180 * scale}px) !important; }
@@ -110,7 +110,7 @@ export function useApplyThaiSize() {
         .ref-table .glyph-cell{ font-size: ${26 * scale}px !important; }
       }
       @media (max-width: 720px){
-        .char-grid .ch .glyph{ font-size: ${Math.round(40 * scale)}px !important; }
+        .char-grid .ch .glyph{ font-size: calc(${Math.round(40 * scale)}px * min(1, 3 / var(--cols, 6))) !important; }
         .syl .glyph{ font-size: ${Math.round(26 * scale)}px !important; }
         .card-face .glyph{ font-size: clamp(${Math.round(90 * scale)}px, ${Math.round(30 * scale)}vw, ${Math.round(150 * scale)}px) !important; }
         .mc-q .glyph{ font-size: clamp(${Math.round(90 * scale)}px, ${Math.round(28 * scale)}vw, ${Math.round(140 * scale)}px) !important; }
